@@ -137,3 +137,27 @@ KEEP/REVERT: Lock Screen promo (11/12 22:04) — ASC PT 11/11+ still not complet
 | STUDIO CHERIE 6766485903 | ja promo → named moment「クローゼットは服でいっぱいなのに、着る服がない朝に。」+ existing 着回し/試算/CHIE lines (mirrors the en-US named-moment change of 11/13) | Naming one painful moment lifts JP imp→PV / PV→DL (Muse playbook §C) | ASC ja-storefront PV→DL vs 4.2% 28d; judge 11/21 | live 1.0.2 loc 044a03c5, PATCH 200, readback match |
 | Honne 6759667221 | en-GB / en-AU / en-CA promo → same privacy hook as en-US ("They are not notified. …"); old text was the generic read-receipt line | One consistent hook across English storefronts; privacy is the top worry in the competitor (めろとーく) pattern | ASC GB/AU/CA PV→DL; judge 11/21. Honne ja PPO (11/13) untouched | live 1.0.7 locs 2e614a75, 2739ab7b, 2db506c8, readback match |
 
+
+### 2026-11-14 18:2x JST — growth loop 18:00 (参謀)
+
+| App | Change | Hypothesis | Metric to watch | ID / state |
+|---|---|---|---|---|
+| Thankful 6759514159 | en-US promo → named moment "Lying in bed replaying everything that went wrong today? Write 3 good things in 2 minutes and end the day kinder. Private gratitude journal + daily affirmations." (old = category line "Gratitude journal + daily affirmations in one private app…") | Naming one painful moment beats a category promise (same pattern as Sleep/Dhamma/CHERIE 11/13–14; Muse playbook §C) | ASC en-US imp→PV, PV→DL; judge 11/21 | live 1.0.3 loc dffa4925, update OK, readback match |
+| Anicca 6755129214 (product, via Codex) | Issue #92: paywall Lifetime row cut off + trial lines truncated (Muse audit D-01/D-02/D-13) + remove Purchases.logOut() on 3 paths (inflates RC New Customers) | Purchase step can't convert if the plans aren't visible; logOut fix makes RC customer counts trustworthy | trial/purchase per paywall view (RC + Mixpanel) after build | #92 open, Codex owner, due NOW |
+| Dhamma / Sleep Reset (blocked) | No safe live surface: promo under test since 11/13 18:40 (judge 11/20), only READY_FOR_SALE versions (keywords/subtitle need a new version; Sleep Reset has en-US only, ja locale needs a new version) | — | — | Next: new PREPARE version for keywords + ja locale (Sleep) — Codex/Rork build needed |
+
+
+### 2026-11-14 22:2x JST — growth loop 22:00 (参謀): day close
+
+Funnel (ASC Standard PT 11/06–11/12, fresh pull 22:1x): 450 imp → 25 PV → 1 first-time DL → 0 external Mixpanel → 0 trial → 0 purchase (RC MRR $20, trials 0). vs 10:2x window: imp +35%, PV +79%, DL flat. Weakest: PV→DL 4% (benchmark ~25%).
+
+| App | Today's ship / blocker (all 6 covered) |
+|---|---|
+| Anicca | CPP Morning+Anxiety review c04b20de (10:25) — still WAITING_FOR_REVIEW 22:2x; RC exp529116692b confirmed stopped 12:39 JST (#88 closed with proof) |
+| STUDIO CHERIE | ja promo named moment (14:2x) |
+| Honne | en-GB/AU/CA promo privacy hook (14:2x) |
+| Thankful | en-US promo named moment (18:2x) |
+| Dhamma Quotes | BLOCKER: promo under test (judge 11/20); keywords/subtitle need a new version → build via Codex |
+| Sleep Reset | BLOCKER: same; ja locale needs a new version |
+
+KEEP/REVERT: Anicca Lock Screen promo (all locales, 11/12 22:04 JST = PT 11/12 05:04) → **KEEP**. PT 11/12 imp→PV 4.5% vs prior 7d 4.2%, no drop; PV→DL n=3 PV (0 DL) too small to show harm; promo is zero-cost and matches PPO d7ffa0d7 + Lock Screen CPP. Re-judge with PT 11/13–11/19 on 11/21.

@@ -134,3 +134,13 @@
 | 2026-11-14 15:45 | https://x.com/My_Durgesh/status/2121453065631048096 | real users clicked the link, not the polished button (194 imp, 13 replies) | reply queued |
 | 2026-11-14 15:45 | https://x.com/Defi_Warhol/status/2121490563795234864 | subreddit list for startup promo | noted only; no metrics |
 | 2026-11-14 15:45 | (search) | Japanese AI-training/rater remote roles last 3h (EN+JA) | none found |
+| 2026-11-14 18:45 | https://x.com/MarkockiAdam/status/2121516358168891883 | AWS emulator built by agents, zero human review, real AWS as answer key | noted only; same as our eval-driven rule (real system = test oracle) |
+| 2026-11-14 18:45 | https://x.com/sanzhijimo/status/2121502997079622089 | 0→2,000 followers in 3 days (#f4f, 20 posts/day) | skipped: follow-for-follow, unverified |
+| 2026-11-14 18:45 | https://x.com/krzysztofguz2/status/2121522684013977859 | BIP day 33 Take PRO ~$4 MRR | skipped: same author queued daily since 11/11 |
+| 2026-11-14 18:45 | https://x.com/chetanbvaghela/status/2121515566452404604 | BIP day 23, 170 installs, $17 MRR | skipped: same author queued daily since 11/11 |
+| 2026-11-14 18:45 | https://x.com/zondaxx/status/2121499516272775656 | "one Grok Bot prompt → top earner on fomo leaderboard" | skipped: trading/hype |
+| 2026-11-14 21:45 | https://x.com/fleyta88/status/2121564919527027152 | six Grok Bot agents, one dispatcher (LANTERN) splits overnight ask, 9 handoffs, one tap (616 imp, 27 bm) | noted only; same as RULE 0zf one orchestrator; reply queued |
+| 2026-11-14 21:45 | https://x.com/AquuinoJennifer/status/2121548494158672123 | Grok Bot waits on hold with insurer, hands call to personal number | noted only; no current call need |
+| 2026-11-14 21:45 | https://x.com/Manu_Sisti/status/2121556726449131759 | "$10k/month AI publishing playbook" relaunch | skipped: course promo, no proof; ebooks are Muse's scope |
+| 2026-11-14 21:45 | https://x.com/VictorZubcu/status/2121544637303181326 | BIP honest update $0 MRR, 7 projects, 14 replies | reply queued (solo founder) |
+| 2026-11-14 21:45 | (search) | Japanese AI-training/rater remote roles last 3h (EN+JA) | none found |

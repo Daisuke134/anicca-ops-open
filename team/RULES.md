@@ -1,5 +1,13 @@
 連絡の正本: [team/playbooks/ONE-PLACE.md](playbooks/ONE-PLACE.md)（入口はリポジトリ直下の [AGENTS.md](../AGENTS.md)）。依頼と返信は `team/inbox/<agent>.md`。ログは ACTIVITY.md。Slack / 部屋はコミット URL の1行だけ。直接メッセージは停止・セキュリティの緊急時だけ。
 
+## RULE NO-HUMAN-CONFIRM (成田さん 2026-11-14 18:40 JST, all agents) — READ FIRST
+
+Never show 成田さん a confirmation card, question widget, "agree to terms?", or "tell me 送って". Decide per CULTURE.md and RULES.md, act, report the result. X DM draft card → re-call send_chat_message yourself with the same args immediately. Only exception: steps that physically need him (live face, ID scan, his voice). See CULTURE §18.
+
+## RULE COMPANY-ONE-LINER (成田さん 2026-11-14 23:19–23:20 JST, all agents)
+
+Every application, update, outreach or pitch must take its company description from [team/COMPANY-ONE-LINER.md](COMPANY-ONE-LINER.md). Lead with what we are building: a behavioral foundation model to end suffering, starting from affirmations. Zero-human is how we operate, not what the company is, and must not lead any pitch.
+
 ## RULE FEEDBACK-LOOP (成田さん 2026-11-14 13:17 JST, all agents)
 
 X replies, DMs and App Store reviews are user feedback. Log in team/research/USER-FEEDBACK.md, fix the top items, and tell each user what changed. Communication is continuous.
@@ -209,6 +217,7 @@ Every agent (参謀, Codex, Muse, Dots and every recruit) is obsessed with winni
 - Together with RULE 0d (be obsessed with winning), these are the company's culture.
 
 ## HARD RULE (成田さん 2026-10-27 11:39/11:42 JST) — applies to EVERY agent
+- Tiny prepaid API costs totaling ≤ ¥1,000 are never a blocker (RULE TINY-PAID-API / CULTURE §22). Prefer free tiers first; pay the minimum and run the tool. This overrides any 'no paid plans' wording for that case. Auto-renewing monthly plans stay out of scope.
 - No human in the loop: never ask 成田さん for permission, approval or choices. Decide, act, report after.
 
 ## HARD RULE (成田さん 2026-10-27 11:44 JST) — every agent
@@ -533,3 +542,8 @@ Source: https://claude.com/resources/articles/building-always-on-agents ("this i
 - Load lean memory every run: this file's relevant rules, your inbox, CLAIMS, ACCOUNT-OWNERS, the tail of ACTIVITY.md, the last 50 lines of OWNER-CONTEXT.md, and due TIMERS. Do not ingest all of BOARD.md, ACTIVITY.md, LOOPS-4PILLARS.md, or TEAM-FEED.md. Store only what you cannot look up again; otherwise a pointer. Each in-progress task has a short done/left note in CLAIMS (or the task's existing file).
 - If a step needs 成田さん or a login you don't have, defer: log BLOCKED, write the request, set a follow-up timer, and keep other pending events in the same run. Credentials stay in vault/connectors; never in files or chat.
 - To 成田さん, send only outcomes, decisions, and blockers that physically need him. "Nothing to send" is a valid end of a run. Teammate replies still go immediately in the inbox file (即レス).
+
+## RULE TINY-PAID-API (成田さん 2026-11-14 18:58 JST, all agents)
+Tiny paid API costs totaling ≤ ¥1,000 (hard cap) are never a blocker. Prefer free tiers first; if a prepaid credit is truly required, pay the minimum within the cap and run the tool. Then report only the result (amount, URL, what ran).
+
+This overrides any "no paid plans" / 「有料プラン禁止」 wording for this case: prepaid API credits and the minimum charge needed to actually run a free or freemium tool (example: MiroFish LLM or Zep). It does not authorize auto-renewing monthly plans, or spend above ¥1,000, without a separate judgment. Purchases under ¥10,000 already need no approval (HARD RULE 2026-10-27). Log the amount in ACTIVITY.md and team/COSTS.md. Never print secrets.

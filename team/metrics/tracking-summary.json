@@ -1,7 +1,7 @@
 {
  "ios": {
-  "date": "2026-11-10",
-  "read_at": "2026-11-12 08:35 JST",
+  "date": "2026-11-12",
+  "read_at": "2026-11-14 08:41 JST",
   "per_app": {
    "HonneAI": {
     "rc_revenue_usd": 0.0,
@@ -66,7 +66,56 @@
     "asc_downloads": "",
     "asc_proceeds": ""
    },
+   "ASC: Dhamma Quotes": {
+    "rc_revenue_usd": "",
+    "rc_new_trials": "",
+    "rc_new_paid_subs": "",
+    "asc_downloads": 0,
+    "asc_proceeds": 0.0
+   },
+   "ASC: Honne": {
+    "rc_revenue_usd": "",
+    "rc_new_trials": "",
+    "rc_new_paid_subs": "",
+    "asc_downloads": 0,
+    "asc_proceeds": 0.0
+   },
+   "ASC: For Better Sleep - Sleep Reset": {
+    "rc_revenue_usd": "",
+    "rc_new_trials": "",
+    "rc_new_paid_subs": "",
+    "asc_downloads": 0,
+    "asc_proceeds": 0.0
+   },
+   "ASC: Dhamma Quotes: Buddha Quotes": {
+    "rc_revenue_usd": "",
+    "rc_new_trials": "",
+    "rc_new_paid_subs": "",
+    "asc_downloads": 1,
+    "asc_proceeds": 0.0
+   },
    "ASC: Daily Affirmations - Anicca": {
+    "rc_revenue_usd": "",
+    "rc_new_trials": "",
+    "rc_new_paid_subs": "",
+    "asc_downloads": 0,
+    "asc_proceeds": 0.0
+   },
+   "ASC: Thankful - Gratitude Journal": {
+    "rc_revenue_usd": "",
+    "rc_new_trials": "",
+    "rc_new_paid_subs": "",
+    "asc_downloads": 0,
+    "asc_proceeds": 0.0
+   },
+   "ASC: STUDIO CHERIE": {
+    "rc_revenue_usd": "",
+    "rc_new_trials": "",
+    "rc_new_paid_subs": "",
+    "asc_downloads": 0,
+    "asc_proceeds": 0.0
+   },
+   "ASC: Honne: Text Message Decoder": {
     "rc_revenue_usd": "",
     "rc_new_trials": "",
     "rc_new_paid_subs": "",
@@ -76,31 +125,19 @@
   },
   "source": "RevenueCat v2 charts + ASC Sales"
  },
- "updated_at": "2026-11-12 09:22 JST",
+ "updated_at": "2026-11-14 21:25 JST",
  "seo": {
-  "read_at": "2026-11-12 08:36 JST",
-  "range": "2026-10-14..2026-11-10",
+  "read_at": "2026-11-14 08:42 JST",
+  "range": "2026-10-16..2026-11-12",
   "last7": {
-   "clicks": 5,
-   "impressions": 609
+   "clicks": 2,
+   "impressions": 494
   },
   "prev7": {
-   "clicks": 5,
-   "impressions": 249
+   "clicks": 6,
+   "impressions": 454
   },
   "days": [
-   {
-    "date": "2026-10-14",
-    "clicks": 0,
-    "impressions": 0,
-    "position": ""
-   },
-   {
-    "date": "2026-10-15",
-    "clicks": 0,
-    "impressions": 0,
-    "position": ""
-   },
    {
     "date": "2026-10-16",
     "clicks": 0,
@@ -254,6 +291,18 @@
    {
     "date": "2026-11-10",
     "clicks": 0,
+    "impressions": 106,
+    "position": 18.24
+   },
+   {
+    "date": "2026-11-11",
+    "clicks": 0,
+    "impressions": 0,
+    "position": ""
+   },
+   {
+    "date": "2026-11-12",
+    "clicks": 0,
     "impressions": 0,
     "position": ""
    }
@@ -262,8 +311,8 @@
    {
     "page": "https://aniccaai.com/lm/ja/departure-calculator",
     "clicks": 3,
-    "impressions": 85,
-    "position": 5
+    "impressions": 95,
+    "position": 4.95
    },
    {
     "page": "https://aniccaai.com/",
@@ -274,8 +323,8 @@
    {
     "page": "https://aniccaai.com/en",
     "clicks": 2,
-    "impressions": 176,
-    "position": 7.97
+    "impressions": 184,
+    "position": 7.98
    },
    {
     "page": "https://aniccaai.com/lm/guide/google-calendar-departure-reminder",
@@ -293,15 +342,15 @@
   "source": "Google Search Console searchAnalytics sc property https://aniccaai.com/"
  },
  "capafy": {
-  "read_at": "2026-11-11 21:21 JST",
+  "read_at": "2026-11-14 21:25 JST",
   "listing_views": "unknown (source error: Capafy publisher API has no views endpoint; /agent/analytics/* returned code 500; Seller Console analytics page needs a web login read)",
-  "last7_orders": 216,
-  "last7_gross_usd": 29.97,
-  "mtd_orders": 513,
-  "mtd_gross_usd": 62.94,
+  "last7_orders": 223,
+  "last7_gross_usd": 19.98,
+  "mtd_orders": 628,
+  "mtd_gross_usd": 82.92,
   "payout": {
-   "balancePending": 29.2,
-   "balanceConfirmed": 20.4,
+   "balancePending": 7.6,
+   "balanceConfirmed": 49.6,
    "balancePayout": 83.78,
    "totalPayout": 0.0
   },
@@ -309,8 +358,8 @@
   "source": "api.capafy.ai publisher API"
  },
  "posts": {
-  "read_at": "2026-11-12 09:21 JST",
-  "rows": 9263,
+  "read_at": "2026-11-14 09:24 JST",
+  "rows": 10077,
   "top": [
    {
     "platform": "tiktok",

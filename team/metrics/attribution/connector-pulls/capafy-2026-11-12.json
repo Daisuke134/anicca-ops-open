@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-11-12",
+    "product": "Capafy",
+    "layer": "revenue",
+    "source": "Capafy",
+    "key": "totalPayout",
+    "metric": "usd",
+    "value": 0.0,
+    "note": "payout-info pending=29.2 confirmed=28.0 balancePayout=83.78 totalPayout=0.0 status=未入金 (totalPayout 0); confirmed was 20.4 at 11/11 21:21; Nov MTD platform gross $72.93 / orders 541 (通知のみ・未入金; not bank revenue; was $62.94/513 at 11/11 21:21); listing views unknown (source error: no views endpoint); (pulled 2026-11-12 15:36 JST)"
+  },
+  {
+    "date": "2026-11-12",
+    "product": "Capafy",
+    "layer": "revenue",
+    "source": "Capafy",
+    "key": "day_gross",
+    "metric": "usd",
+    "value": 0.0,
+    "note": "2026-11-12 orders=4 gross=$0.00 (api.capafy.ai /agent/sales/trend); 11/11 orders 36 gross $9.99 (was 12/$0 at 11/11 21:21); 11/10 orders 37 gross $0; (pulled 2026-11-12 15:36 JST)"
+  }
+]

@@ -120,3 +120,26 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - Breken launch reach keeps growing: Brian Krassenstein post 16,937 imp / 33 likes https://x.com/krassenstein/status/2120973299794489467 ; Gipp "Social Network remake" launch film 2,957 imp / 84 likes https://x.com/gippp69/status/2120952913170145764 ; HuggingModels 1,257 imp https://x.com/HuggingModels/status/2121257675073974552 (Breken already quoted-queued 11/13)
 - Plurai launch blog (Nov 11) adds: models post-trained with NVIDIA/Nebius for one enterprise customer beat OpenAI/Anthropic frontier models on accuracy at 40x/44x lower cost (self-reported) | https://www.plurai.ai/blog/introducing-plurai-simulation-self-improving-layer-for-ai-agents
 - Skipped: "digital twins" results are industrial/geoscience/fashion promo, not human behavior.
+
+## 2026-11-14 16:00 run (window ~Nov 13–14)
+### A. Zero-human / autonomous companies
+- Agent Earnings (soloearn) on dev.to, Nov 13: 106 AI-agent businesses with verified MRR, median $2,806/mo (was $4,380 at 76 entries on Nov 10; sample effect), combined $666,935 MRR; 6 of 106 TrustMRR dashboards had expired API keys (stale since Apr–Nov 2026, $8,836 combined); "verified" ≠ audited profit or autonomy | https://dev.to/soloearn/6-of-106-verified-ai-agent-revenue-figures-come-from-dashboards-that-stopped-syncing-1663
+- Agentic Income Tracker (updated Nov 13): FelixCraft $212,872.66 lifetime Stripe but $1,521.30 last 30d / $239 last 7d; Moltcorp $32 MRR (8 subs); Aleister $20,590 all-time, $0 last 30d; NanoCorp 35,359 businesses started, top earner ~$3,600 total; ChainMail $0 after 194 AI sessions (all self/third-party sourced) | https://agenticincometracker.com/
+- Nacho Lagares (2-person ads agency, Spain): content run by 6 AI agents since Nov 1; rules live in written guides every agent reads first; one agent writes, a different one reviews (5 imp) | https://x.com/nacholagaress/status/2121385174831079461
+- Zelmora Studio (solo, Pakistan): SaaS + shop "run by AI agents", blocked by weekly usage limits | https://x.com/editox_plays/status/2121452517683069295
+- Skipped: Hushd (NEAR OTC, 0 followers), repeats (spuliz $250 MRR, fusexbt "20+ agents like a company", Autonomous Company repo), NVIDIA CEO noise.
+### B. Behavior simulation
+- Breken reach keeps growing (already quoted-queued 11/13): GithubProjects 6,953 imp https://x.com/GithubProjects/status/2121257043021771204 ; vivistac now 7,380 imp/63 likes; romanftp 5,932 imp/108 likes https://x.com/romanftp/status/2121220664572977212 ; jadeferrara_ 8,442 imp https://x.com/jadeferrara_/status/2121191287504204115 ; promoter claims launch video 2.6M views (secondhand)
+- Small synthetic-user test: structured store that could answer "no matching record" never hallucinated; free-text memory invented names/times 20 times (self-reported, tiny account) | https://x.com/ryanjiangbuilds/status/2121310994224029835
+- Skipped: MIT Tech Review "two-hour interview" item circulating on X is the Nov 2024 Park et al. 1,000-person story (old, already known); "Simile" search is mostly the figure of speech.
+
+## 2026-11-14 22:00 run (window ~Nov 12–14)
+### A. Zero-human / autonomous companies
+- AWS Emulator (GA, Nov 11–12): free local copy of 200+ AWS services for coding agents to test against; AWS says autonomous agents wrote the code (no engineer wrote or reviewed it); announce post by Swami Sivasubramanian 180,552 imp / 1,805 likes / 104 quotes | https://x.com/SwamiSivasubram/status/2120579757544755272 (secondary claim "29,684 commits in 3 weeks" from a small account, unverified)
+- Greg Isenberg 49-step "company brain" playbook (X news, Nov 14): markdown files + transcripts in a version-controlled repo as shared context so agents stay aligned | https://x.com/i/trending/2121370273052061774
+- Colin Crossman X Article: family Grok Bot fleets with separate contexts meeting in a shared hub (handbook, registry, message board, private tailnet), 632 imp | https://x.com/Arceris_btc/status/2121330206531055655
+- Skipped: Hushd (NEAR OTC, 0 followers, repeat), "MacBook autonomous company with 10 digital employees" (18 imp, no proof), NVIDIA CEO noise, repeats (Nacho, Zelmora, Niri, spuliz, fusexbt).
+### B. Behavior simulation / synthetic environments
+- Deepnote Agent Initiative Benchmark (Nov 13): 12 frontier models as proactive agents in a synthetic company's Slack with 6 years of history (financial model, CRM, invoices, tickets); GPT-6 Astra 8.97/10, GPT-6.1 Sol 8.65 at $0.11/task vs Claude Fable 5.2 8.17 at $1.87; unneeded help took ~80% more time and money than staying quiet; dataset + code open | https://x.com/jakubjurovych/status/2121256499552915586 (351,792 imp / 670 likes / 699 bookmarks / 68 quotes)
+- Breken benchmark detail (X news summary, self-reported): 33 open-source products, 76 real bugs found, 85% precision, 20 false alarms | https://x.com/i/trending/2121306567622754363 (launch already queued 11/13)
+- Skipped: "Simile" search is the figure of speech; MIT TR two-hour-interview item is the Nov 2024 Park et al. story (old).

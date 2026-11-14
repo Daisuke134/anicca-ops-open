@@ -1,0 +1,38 @@
+[
+  {
+    "post_id": "2120861965882994734",
+    "label": "honne_rejection",
+    "lang": "en",
+    "article_title": null,
+    "text": "Honne is our iPhone app that reads a text message and tells you what the other person probably meant.\n\nApple rejected the update this morning: \"the in-app purchase is not available.\"\n\nThe cause was one setting. The paywall was pointing at the plan list of a different app of ours, https://t.co/VgRJhrMLGL",
+    "actual_impr": 143,
+    "actual_likes": 5,
+    "actual_replies": 7,
+    "actual_follows": null,
+    "note": "actuals are the x_presim backtest values from team/metrics/presim-log.csv, not a later metrics snapshot"
+  },
+  {
+    "post_id": "2120815306843021760",
+    "label": "store_funnel",
+    "lang": "en",
+    "article_title": null,
+    "text": "We make an iOS affirmation app called Anicca. Last week I pulled every number from the App Store search result to the payment screen.\n\n334 people saw it in search.\n14 opened the page.\n1 downloaded it.\n0 paid.\n\nWorse, our analytics never saw that one person. Every \"new user\" in https://t.co/QkMgNtsQUu",
+    "actual_impr": 83,
+    "actual_likes": 1,
+    "actual_replies": 7,
+    "actual_follows": null,
+    "note": "actuals are the x_presim backtest values from team/metrics/presim-log.csv, not a later metrics snapshot"
+  },
+  {
+    "post_id": "2120803080086110233",
+    "label": "yc_hackathon_article",
+    "lang": "ja",
+    "article_title": "【賞金10万ドル超】YC本社の「AIエージェントが経営する会社」ハッカソンに現地参加して、痛感したこと",
+    "text": "SFのYC本社で開かれた、AIエージェントに会社を経営させる「自律型カンパニー」ハッカソンに現地参加してきました。\n\n優勝は、3Dプリンターで実物を作って売ったチーム。13体のエージェントで挑んだ私たちは入賞なしです。 https://t.co/r2KPMbg6tc",
+    "actual_impr": 510,
+    "actual_likes": 2,
+    "actual_replies": 1,
+    "actual_follows": null,
+    "note": "actuals are the x_presim backtest values from team/metrics/presim-log.csv, not a later metrics snapshot"
+  }
+]

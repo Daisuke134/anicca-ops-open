@@ -1,0 +1,11 @@
+run_at,actor,users_total,users_7d,users_30d,runs_total,runs_24h_owner_visible,last_run_jst,pricing_model,pricing_started_at_api,revenue_usd,source
+2026-11-02 19:19,S7JAoTNiztat9Qwuq,2,1,1,7,6,2026-11-02 17:36,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts
+2026-11-02 21:21,S7JAoTNiztat9Qwuq,2,1,1,7,6,2026-11-02 17:36,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts
+2026-11-03 08:41,S7JAoTNiztat9Qwuq,2,1,1,7,6,2026-11-02 17:36,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts
+2026-11-06 04:25,S7JAoTNiztat9Qwuq,2,1,1,11,0,2026-11-06 00:42,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts
+2026-11-06 15:37,S7JAoTNiztat9Qwuq,2,1,1,11,0,2026-11-06 00:42,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts
+2026-11-10 08:39,S7JAoTNiztat9Qwuq,2,1,1,14,0,2026-11-09 17:46,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts
+2026-11-10 21:19,S7JAoTNiztat9Qwuq,2,1,1,15,0,2026-11-10 17:48,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts
+2026-11-11 08:43,S7JAoTNiztat9Qwuq,2,1,1,15,0,2026-11-10 17:48,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts
+2026-11-11 21:21,S7JAoTNiztat9Qwuq,2,1,1,16,0,2026-11-11 17:50,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts
+2026-11-12 08:36,S7JAoTNiztat9Qwuq,2,1,1,16,0,2026-11-11 17:50,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts

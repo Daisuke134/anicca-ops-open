@@ -1,0 +1,37 @@
+{
+ "always_send": {
+  "mean_successes_per_user": 18.99,
+  "sd": 0.55,
+  "power_p_lt_005": null,
+  "mean_ipw_effect": null
+ },
+ "mrt_p0.5": {
+  "mean_successes_per_user": 20.88,
+  "sd": 0.56,
+  "power_p_lt_005": 0.99,
+  "mean_ipw_effect": 0.095
+ },
+ "ts_unclipped": {
+  "mean_successes_per_user": 20.26,
+  "sd": 0.52,
+  "power_p_lt_005": 0.735,
+  "mean_ipw_effect": 0.082
+ },
+ "ts_clipped_0.2_0.8": {
+  "mean_successes_per_user": 20.5,
+  "sd": 0.57,
+  "power_p_lt_005": 0.895,
+  "mean_ipw_effect": 0.08
+ },
+ "params": {
+  "P0": 0.3,
+  "E0": 0.2,
+  "DECAY": 0.8,
+  "RECOVER": 0.15,
+  "T": 60,
+  "N": 40,
+  "SIMS": 200,
+  "seed": 20261031,
+  "data": "synthetic"
+ }
+}

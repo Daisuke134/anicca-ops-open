@@ -1,0 +1,72 @@
+[
+{
+"date": "2026-10-21",
+"product": "Anicca(PostHog app)",
+"layer": "installs",
+"source": "PostHog",
+"key": "Application Installed",
+"metric": "first_open",
+"value": 1,
+"note": "app SDK; Application Installed has no utm/ct/source; only ct seen: app_store_click web_redirect codex-20261027-1558 (pulled 10/30 15:4x)"
+},
+{
+"date": "2026-10-24",
+"product": "Anicca(PostHog app)",
+"layer": "installs",
+"source": "PostHog",
+"key": "Application Installed",
+"metric": "first_open",
+"value": 1,
+"note": "app SDK; Application Installed has no utm/ct/source; only ct seen: app_store_click web_redirect codex-20261027-1558 (pulled 10/30 15:4x)"
+},
+{
+"date": "2026-10-25",
+"product": "Anicca(PostHog app)",
+"layer": "installs",
+"source": "PostHog",
+"key": "Application Installed",
+"metric": "first_open",
+"value": 2,
+"note": "app SDK; Application Installed has no utm/ct/source; only ct seen: app_store_click web_redirect codex-20261027-1558 (pulled 10/30 15:4x)"
+},
+{
+"date": "2026-10-26",
+"product": "Anicca(PostHog app)",
+"layer": "installs",
+"source": "PostHog",
+"key": "Application Installed",
+"metric": "first_open",
+"value": 2,
+"note": "app SDK; Application Installed has no utm/ct/source; only ct seen: app_store_click web_redirect codex-20261027-1558 (pulled 10/30 15:4x)"
+},
+{
+"date": "2026-10-29",
+"product": "Anicca(PostHog app)",
+"layer": "installs",
+"source": "PostHog",
+"key": "Application Installed",
+"metric": "first_open",
+"value": 4,
+"note": "app SDK; Application Installed has no utm/ct/source; only ct seen: app_store_click web_redirect codex-20261027-1558 (pulled 10/30 15:4x)"
+},
+{
+"date": "2026-10-27",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/web_redirect/codex-20261027-1558",
+"metric": "taps",
+"value": 1,
+"note": "only ct-tagged tap in 10d"
+},
+{
+"date": "2026-10-29",
+"product": "Anicca(PostHog app)",
+"layer": "paid",
+"source": "PostHog",
+"key": "paywall_purchased",
+"metric": "purchases",
+"value": 0,
+"note": "none in 10d"
+}
+]

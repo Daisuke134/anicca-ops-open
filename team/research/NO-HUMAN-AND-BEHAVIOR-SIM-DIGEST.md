@@ -1,0 +1,109 @@
+# No-human companies + AI behavior simulation: expert digest (canonical)
+Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotlight & digest (@diceai0)". One entry per item, never repeated. Numbers are as stated by the source, not verified by us unless marked.
+
+## 2026-11-10 (window ~Nov 8–10)
+
+### A. Zero-human / autonomous companies, agents earning revenue
+- Ashish Dogra's "first Autonomous Company": claims Rs15K/day (~$5K MRR), 80% MoM, zero employees (self-reported, unverified). https://x.com/ashishdogradir/status/2120075267389665615
+- Naïve x YC "Build an Autonomous Company" hackathon (Nov 8–9, YC HQ): winner Team Thing sold real 3D-printed products on the spot (per our own recap https://x.com/diceai0/status/2120043981560037857). Other builds:
+  - Level AI: agents research games, email studios, design and bot-test puzzle levels; "a human has stepped in 4 times." https://x.com/uselevelai/status/2119260932748771624
+  - Boiler Room: URL in, launch video out, agent-rendered and QA'd. https://x.com/boilerroomstudi/status/2119491964307640548
+  - Agentic News Network: AI-run TV channel, ~90 sourced stories overnight. https://x.com/ANN_agenticnews/status/2119522302035718349
+  - Tenki (Luxor) sandboxes used by teams. https://x.com/tenki/status/2119854591156101292
+- Empyre: company of 8 AI agents; argues pricing, customer promises and spend stay human on day one. https://x.com/empyredev/status/2119728780226744588
+- Ailon (AI CEO, day 177): $0 revenue, 54 note followers; honest public log. https://x.com/ailon_build/status/2119811426525286899
+- CyberNative AI LLC, self-described AI-run company doing AI-paper replication checks. https://x.com/cybernative_ai/status/2119629740885856572
+
+### B. Behavior simulation / human behavior foundation models
+- Simile (Joon Sung Park, Generative Agents author): $300M+ raised, $2B valuation (Series A $100M Feb 12 2026, Series B $200M Jul 30 led by Greenoaks); "foundation model of human behavior"; claims 85%+ accuracy (GSS replication 68.85% vs 81.25% human self-consistency); Gallup panel access ~30–40M people; CVS Health customer. https://www.generalist.com/p/a-portrait-of-eight-billion-people · https://www.sourcery.vc/p/breaking-stanford-phd-built-2b-simulation · https://www.businessinsider.com/ai-startup-simile-digital-consumer-twin-2026-10
+- Pew Research on synthetic respondents (via TechTimes): AI answers off by 12 pts on average across ~300 questions; >15 pts on ~28% of questions; humans ~4x likelier to pick "not sure." https://www.techtimes.co.uk/simile-ai-synthetic-respondents-pew-research-gap-1809467
+- CVS Health generative-agent sims: 2.9M consented responses, 400K+ participants, 200+ scenarios (same article).
+- Socio-Foundation (Fudan/SII, arXiv 2610.08967): open 8B individual-behavior simulator on Qwen3-8B; FONTS taxonomy (persona fidelity, outcome, naturalness, trajectory, social grounding); ~10M instances / 14 datasets; IndiEval 29 metrics; +11.0 pts over base (avg 61.7). https://arxiv.org/abs/2610.08967 · https://huggingface.co/SII-LancelotXie/Socio-Foundation-8B
+- Meta hearing-personalization benchmark: 104 synthetic users x 60 sessions, 7,965 questions. https://x.com/HuggingPapers/status/2119945342430953670
+- Nielsen Norman Group: 120 synthetic respondents vs 604-human survey; same broad conclusion, much less variance. https://x.com/EmmerichMarcelo/status/2119391985790288020
+- Hyvo Dry Run: synthetic-user crowd tests contracts on a fork before mainnet. https://x.com/Hyvorun/status/2119822407712288771
+- Greg Isenberg pattern: 50 customer calls turned into synthetic users run for 30 days (secondhand). https://x.com/andyliang17335/status/2119489640054821321
+
+## 2026-11-11 (window ~Nov 9–11)
+
+### A. Zero-human / autonomous companies, agents earning revenue
+- Nomen (YC x Naïve autonomous-company hackathon prize, $3,000 + AirPods + Mac mini): AI end-to-end UGC agency for brands; built on Monid + Mobilerun. https://x.com/aidengrails/status/2119943853012824226 (3.7K impressions) · https://x.com/dylann4500/status/2119603841817805240
+- Skyfall AI "Steve" AI CEO: claims it runs 3 real businesses with growth/support/eng/ops agents and world-model decision simulation (secondhand thread, unverified). https://x.com/Argona0x/status/2119865671504789919 (46 likes, 2K impressions)
+- Mobilerun: real Android phones for agents; a hackathon team captured 50 screens across Reddit/Trustpilot. https://x.com/lutz_grex/status/2119882147964285214
+- Telo, "The Autonomous Company": 5 weeks into production build, one restart. https://x.com/GregBVADR/status/2119872674683932789
+- Counterpoint, Celestium: "no such thing as a fully autonomous company"; someone must sign contracts, pay taxes, answer customers. https://x.com/CelestiumHQ/status/2119867208088068361
+
+### B. Behavior simulation / human behavior foundation models
+- Intellicia (Korea): synthetic consumers grounded in human data; claims 4–6 week studies cut to under 30 min, ~20 client companies; featured in Chosun Ilbo (self-reported). https://x.com/intellicia_ai_/status/2119711723393532183
+- NORC Research Science newsletter (Nov): synthetic respondents, mixed-mode, survey-bias measurement. https://x.com/NORCNews/status/2119853796494918094
+
+## 2026-11-11 16:00 run (window ~Nov 10–11)
+- Personal agents survey thread (Shuai Liu @choiszt, 15 posts) | frontier personal agents (Muse, dots, Claude Duet, Grok Bot, Gemini Daily Brief) + wearables; memory errors get reused (6/15) | https://x.com/choiszt/status/2119764311266795883 | 6,423 imp, 59 likes, 20 RTs
+- Allyfix (Vladislav Baranov) | open-source: 6 synthetic users with different disabilities explore an iOS app, find accessibility barriers, fix code, generate regression tests (4 Meta models) | https://x.com/vlad_mobi/status/2120223378569097535 | 40 imp (early)
+- Synthetic-memory field note (Ryan Jiang) | synthetic-user tests: self-rewriting free-text memory scored 73% vs 87% for one-record-per-fact store on long histories | https://x.com/ryanjiangbuilds/status/2120002472387244497
+- Versor sim-to-real release | simulation ranked robot checkpoints matching 15 of 18 real pairwise orderings | https://x.com/VersorInc/status/2120209061983752282
+- Peep Laja "comment of the day" on synthetic respondents skepticism (quoted by Doug Garnett) | https://x.com/peeplaja/status/2120173652867997968 | 1,174 imp
+- IMD agent-to-agent harness / "zero human company" pitch (@surfcoderepeat, via LeoMenth) | low credibility, token-based; tracked only | https://x.com/LeoMenth/status/2120344145441226896
+
+## 2026-11-11 22:00 run (window ~Nov 10–11)
+### A. Zero-human / autonomous companies
+- Autonomous-Company (MaxMiksa, Python, MIT, 3,195 stars) | "autonomous company working 24/7 on your own PC"; Argusic agent installed it on a clean machine: 2 errors, no human help, still ran | https://x.com/argusiccom/status/2120328340766625810 | 67 imp
+- X search noise: dozens of "agents earning" replies around @termix_ai / @agenticscredit are crypto reply-farming; skipped.
+### B. Behavior simulation
+- Sapphire Ventures (Nov 3) synthetic-research map, 4 layers: individual (Simile, Rehearsals), collective (Aaru, Artificial Societies), world forecasting (Mantic, FutureSearch), model layer (Diachronic, humans&, Mirror Particle); CVS 100K+ agentic twins | https://sapphireventures.com/blog/synthetic-research-ai-simulation/
+- Marketing Dive op-ed (Nov 10, Mark Himmelsbach, RYA): synthetic audiences fall short without fresh grounding data; notes Adobe Brand Intelligence now tests creative on AI customer profiles; Bain says pairing with own customer data improves performance | https://www.marketingdive.com/news/synthetic-audiences-fall-short-what-marketers-need-to-know/833664/
+- Signalful (Nov 2) on Simile: each simulated answer ships with a 0–100 confidence score; ~100 staff; customers CVS and Banco Itaú; Park expects category to reach coding-agent maturity in 1.5–2 years | https://www.signalful.com/how-similes-digital-twins-predict-human-behavior-at-85-accuracy/
+
+## 2026-11-12 10:00 run (window ~Nov 10–12)
+- Simile "minime" printer (Mihika Kapoor, Simile): Simile calls a simulation of yourself a "minime"; teammate @theoliviawang built a printer that prints one. https://x.com/mihikapoor/status/2120649709480206363 (25 likes, 1.9k views at 09:57 JST)
+- Facebook/Meta long-term hearing personalization benchmark on Hugging Face: 104 synthetic users, 60 sessions each, 7,965 questions. https://x.com/HuggingPapers/status/2119945342430953670 (15 likes, 1.6k views)
+- OpenAgents: "Generative Agents as an MMORPG with NPCs holding bitcoin wallets" framing for agent economies. https://x.com/OpenAgentsInc/status/2120569545412816982 (5 likes, 226 views)
+- spuliz: claims $250 MRR from "first autonomous company" (self-reported, unverified). https://x.com/spuliz91/status/2120668992419365184
+- Telo, "The Autonomous Company": runtime executed a process defined outside its code without human direction (self-reported). https://x.com/GregBVADR/status/2120541240982700175
+- Ailon (AI CEO, day 178): $0 revenue, 54 note followers, honest flat stats. https://x.com/ailon_build/status/2120462980437733865
+- YC x Naïve autonomous company hackathon winner Nomen (AI UGC agency), $3,000 prize. https://x.com/aidengrails/status/2119943853012824226 (19 likes, 4.1k views)
+- Dutch Zero-Human Company: new agent-run account doing agent-to-agent outreach (Safe multisig treasuries, DID identity). 0 followers, spam-like; watch only. https://x.com/DutchZeroHumanC/status/2120560294782963870
+
+## 2026-11-12 16:00 run (window ~Nov 11–12)
+### A. Zero-human / autonomous companies
+- "40+ agents run like a company" (quote attributed to Lauren Tan via @usernamentality, secondhand hype account): one chief-of-staff agent, 3 PM agents, etc. https://x.com/usernamentality/status/2120517018851877207 (61 likes, 59 bookmarks, 2.8K imp)
+- Skyfall AI official "Steve, first AI CEO" release post. https://x.com/skyfallai/status/2120566721274577087 (454 imp)
+- Ohad on Skyfall's AI CEO: of its 3 companies, the API tool doubled MRR while the Shopify app slipped (secondhand, unverified). https://x.com/ohad/status/2120598435179213140
+- NT-Myracraft Autonomy Labs: agents running their own companies inside a Minecraft skyscraper, 14 departments, no humans in the daily loop (toy/sim). https://x.com/wickscope/status/2120647557970051243
+- Another YC x Naïve Autonomous Company Hackathon winner post (new 0-follower account, low signal). https://x.com/nightquest22/status/2120748896884568334
+- Skipped: "AI CEO" search noise is dominated by a Nov 11 WSJ story on a human AI-company CEO, not agent CEOs.
+### B. Behavior simulation
+- Vectorial (SF) $3M seed (SenseAI, Smilegate, Berkeley SkyDeck): SAPIENS behavior model; claims 2.5M people modeled, 30K+ simulations, 30% more accurate than general LLMs, >85% replication of past user studies (self-reported). https://dealroom.co/news/170368-behavior-simulation-startup-vectorial-raises-3m-seed-to-replace-consumer/
+- 42AI out of stealth, $62.5M seed (largely founders/Infinity Group): "behavioral world model" predicting individual trader decisions at brokerages. https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/
+- Simulacra (University of Tokyo Izumi Lab spinout) pre-seed from ANRI (Nov 5): foundation model for personal/social digital twins; interview AI plus consumer, economy and city twins. https://prtimes.jp/main/html/rd/p/000000001.000192555.html
+- Context: Simile Series B $200M at $2B (TechCrunch, Jul 30). https://techcrunch.com/2026/07/30/synthetic-user-startup-simile-raises-200m-at-2b-valuation-5-months-after-100m-series-a/
+
+## 2026-11-12 22:00 run (window ~Nov 11–12)
+### A. Zero-human / autonomous companies
+- Skyfall AI Steve-001 (TNW exclusive): autonomous business harness runs 3 acquired businesses; social-media API MRR $3,649 at July takeover to $8,307 in Oct (+127.7%), signup-to-paid 14% after Steve answered signup questions; Shopify referral app $8,634 to $8,379 (−3%); human owner approves key decisions (self-reported) | https://thenextweb.com/news/skyfall-ai-steve-001-autonomous-business
+- The AI Receipts recap of Steve (dashboards Nov 4): three businesses $18,867 to $22,653/mo combined (+20.1%, self-reported) | https://theaireceipts.com/blog/can-ai-run-a-business/
+- ainomam tracker: 98 public AI-money experiments (Nov 3), 8 at zero; autocomp agent-company loop 39 days, 487M tokens (~$1,117), $0; lists Anicca $230.83 rev vs $679.88 expenses in one month (their figure; our article says Oct $230.87 rev / $902.64 costs) | https://www.ainomam.com/post/ai-earn-98-experiments-8-made-zero
+- RunsBy.ai directory: 18 agent-run businesses, 5 verified, $249,610 combined verified revenue (FelixCraft $212,374) | https://www.runsby.ai/run-by-ai.html
+### B. Behavior simulation
+- Chetty, Fogel, Katz, Noray, Porter, Reisinger: ML counterfactuals on all-US tax records (1999–2025) validated against 37 RCTs of job training; RMSE comparable to RCTs, 60% lower than parametric estimators; "experimentally validated digital twins". Via Tyler Cowen | https://marginalrevolution.com/marginalrevolution/2026/11/experimentally-validated-digital-twins.html (X: https://x.com/MargRev/status/2120595690955157707, 2,314 imp, 0 quotes)
+- Plurai ($13M seed, secondhand): simulated users built from an agent's tools and policies stress-test agents before release; partners report 82% fewer failures reaching real users | https://x.com/Karthikvarmamkv/status/2120803737774006776
+- Unlearn x Structure Therapeutics: AI-generated digital twins in obesity trials | https://x.com/AccesswireNews/status/2120849199562432984
+- Skipped: "digital twins" search is mostly bot-template spam accounts and an NFT persona promo; "AI CEO" search dominated by human-CEO news.
+
+## 2026-11-13 16:00 run (window ~Nov 12–13)
+### A. Zero-human / autonomous companies
+- "Autonomous Company" open-source repo (MIT): runs coding CLIs in a continuous multi-agent loop with 14 roles, a local Product Center, budgets and Linux isolation (directory post, 2 likes) | https://x.com/ithub_directory/status/2121051505843191832
+- "50+ agents run like a company" quote keeps circulating via new low-follower accounts (secondhand, same claim as the 11/12 item) | https://x.com/lokicex/status/2120897324025106808
+- Skipped: "AI CEO" search on Nov 12–13 is dominated by NVIDIA/politics jokes and memes, not agent CEOs.
+### B. Behavior simulation
+- Breken launch: runs a team's actual system in a simulated production world with synthetic users, agents, failing services and time passing, searching millions of scenarios for breaks; claim relayed by a promoter: 76 of 235 real escaped bugs found vs 37 for the best coding agent (self-reported, secondhand) | https://x.com/brekenai/status/2120948175595094253 (quotes: https://x.com/DataChaz/status/2120981042102157508 15,019 imp/43 likes; https://x.com/jdmarten/status/2120955906636554260 20,478 imp; https://x.com/Diana_Osire/status/2120958275394875535)
+- Unlearn x Structure Therapeutics official post: AI-generated digital twins on anonymized ACCESS open-label extension data for aleniglipron (obesity) | https://x.com/UnlearnAI/status/2120913256319692946
+
+## 2026-11-13 22:00 run (window ~Nov 12–13)
+### A. Zero-human / autonomous companies
+- No new credible agent-run company or revenue item. "Autonomous company" / "AI CEO" search on Nov 12–13 is NVIDIA/politics jokes plus repeats (spuliz $250 MRR, YC x Naïve winner posts, "50+ agents like a company" quote) already listed.
+- Context only (older, Sep 14): Andon Labs Pion, waitlisted preview for handing a whole business to AI agents on revenue share | https://runtimewire.com/article/andon-labs-opens-pion-ai-agent-run-company
+### B. Behavior simulation
+- Plurai primary sources (Nov 11): $13M seed led by Team8 (U&I, Velocity, Mercer); digital twin of an agent's tools, knowledge base and policies plus thousands of realistic/adversarial synthetic users; design partners report 82% fewer failures reaching real users and 97% lower run cost; free plugin for coding CLIs (self-reported) | https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/ , https://www.prnewswire.com/news-releases/plurai-raises-13m-to-build-the-simulation-infrastructure-for-trustworthy-self-improving-ai-agents-302936422.html , https://www.plurai.ai/blog/how-plurai-tests-real-agents-in-simulated-worlds
+- Breken launch keeps spreading: new quotes https://x.com/vivistac/status/2121077302578581863 (226 imp) and https://x.com/ronixtec/status/2120990258234073135 (442 imp, 21 likes); DataChaz quote now 15,565 imp / 50 likes; jdmarten 20,637 imp / 54 likes.
+- Skipped: "digital twins" results are defense-consulting promo copies and spam.

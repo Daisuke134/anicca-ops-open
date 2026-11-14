@@ -1,0 +1,194 @@
+date_jst,run,platform,owner,applications,replies,contracts,revenue_jpy,unanswered_over_12h,source
+2026-11-01,09:00,Upwork,dr eggbot,10,0,0,0,0,"applications.csv 10 rows 00:08-08:59; BOARD 08:59 replies/offers 0; Gmail upwork.com since 11/01 00:00 JST only Connects receipt"
+2026-11-01,09:00,Lancers,dr eggbot,0,0,0,0,0,"applications.csv 0 rows; DAILY-LOG 08:09 lancers-apply 0 sent (no fit in ~150); 5622583 cancel request pending Sato (client msg 10/31 22:00 answered 03:54)"
+2026-11-01,09:00,Coconala,dr eggbot,0,0,0,0,0,"09:05 browser fix attempt: ~170/244 open requests reviewed, 0 fit (already applied / >30 proposals / <¥3,000 / needs experience or call); applications.csv 0 rows; DAILY-LOG 06:51 要対応0; Gmail 06:55 にーぴょ rating only (not a reply)"
+2026-11-01,09:00,Truelancer,Fucker,2,unknown,unknown,unknown,unknown,"applications.csv 2 proposal rows (663558, 598480) logged as dr eggbot; no Truelancer mail checked beyond Gmail (none)"
+2026-11-01,09:00,CrowdWorks,Fucker,0,unknown,0,0,unknown,"applications.csv 0 rows; BOARD 08:32 参謀 closed 64162180 (¥165 screening, not real work); Gmail 00:22 job-closed notice only; no Fucker CrowdWorks file for 11/01"
+2026-11-01,09:00,Mercor,Fucker,0,0,0,0,0,"applications.csv 0 rows; DAILY-LOG 08:34 Fucker 0 sent (Search Generalist blocked on age field)"
+2026-11-01,09:00,Fiverr,Fucker,0,unknown,0,0,unknown,"applications.csv 0 rows; DAILY-LOG Fucker: identity/tax verification pending"
+2026-11-01,09:00,Contra,Fucker,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows; no Contra mail since 11/01 00:00 JST"
+2026-11-01,09:00,Guru,Fucker,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows; no Guru mail since 11/01 00:00 JST"
+2026-11-01,15:00,Upwork,dr eggbot,10,0,0,0,0,"applications.csv 10 rows 00:08-08:59, none since (10/10 daily cap per BOARD 08:59); Gmail upwork.com since 09:00 JST none"
+2026-11-01,15:00,Coconala,dr eggbot,0,0,0,0,0,"applications.csv 0 new rows; 13:38 resubmitted 5353413 (update of 6537181, not new); Gmail: 追記 on 5352793 (13:01) and 5347927 (13:11) not yet re-applied (<12h); 運営警告 DM 14:13 logged 14:37 (RULE 0t)"
+2026-11-01,15:00,CrowdWorks,Fucker,1,0,0,0,0,"applications.csv 1 row proposal 311452576 (09:18); BOARD 13:39/13:5x contract 63942104 = ¥12 screening, dropped by RULE; Gmail promo only"
+2026-11-01,15:00,Mercor,Fucker,0,0,0,0,0,"applications.csv 0 sent (09:20 blocked camera/US; 10:14 Search Generalist cancelled by mission rule); DAILY-LOG 14:33 Fucker 新着0"
+2026-11-01,15:00,Fiverr,Fucker,0,unknown,0,0,unknown,"applications.csv 0 (blocked: seller ID + W-9 not cleared)"
+2026-11-01,15:00,Contra,Fucker,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows; no Contra mail in Gmail today"
+2026-11-01,15:00,Guru,Fucker,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows; DAILY-LOG 09:25 dr eggbot tried, jobs gated by track record/ID"
+2026-11-01,15:00,Freelancer.com,参謀,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows; Gmail only project-recommendation mail"
+2026-11-01,15:00,Lancers,dr eggbot,0,0,0,0,0,"applications.csv 0 rows; 15:10 browser pass reviewed ~70 open AI/system jobs, 0 fit (30+ proposals / <¥3,000 / 求人 / ID check / LINE); 9132940 cancel accepted 13:47"
+2026-11-01,21:00,Upwork,dr eggbot,10,0,0,0,0,"applications.csv 10 rows 00:08-08:59 (10/day cap), none since; no reply/offer rows; DAILY-LOG no Upwork client message"
+2026-11-01,21:00,Lancers,dr eggbot,1,0,0,0,0,"applications.csv 5621542 sent 17:25; results today 5615462 rejected (18:03 Gmail), 5621682 client-cancelled (19:06); 9132940 cancel accepted 13:47"
+2026-11-01,21:00,Coconala,dr eggbot,2,1,0,0,0,"applications.csv 6525796 (updated offer on 5347927) + 5356250 new; reply=kacc8779 DM10337737 (chose another seller, Dots 16:24); MAHANA DM10323535 quote ¥5,000 pending purchase, samples sent 20:28"
+2026-11-01,21:00,Truelancer,dr eggbot,4,unknown,unknown,unknown,unknown,"applications.csv 4 proposals (663558,598480,663886,663782); daisukenaritadev only from 20:52; no Truelancer mail checked this run"
+2026-11-01,21:00,CrowdWorks,Fucker,1,0,0,0,0,"applications.csv 311452576 (09:18); no later row"
+2026-11-01,21:00,Mercor,Fucker,0,0,0,0,0,"applications.csv blocked 09:20 (camera/US) and 10:14 cancelled; no later row"
+2026-11-01,21:00,Fiverr,Fucker,0,unknown,0,0,unknown,"applications.csv blocked (seller ID + W-9)"
+2026-11-01,21:00,Contra,Fucker,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows all day (09:00/15:00/21:00)"
+2026-11-01,21:00,Freelancer.com,参謀,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows"
+2026-11-02,09:00,Upwork,dr eggbot,0,0,0,0,0,"applications.csv 0 rows for 11/2; DAILY-LOG 01:41/08:33 BLOCKED memory, 09:04 full run 0 fit; no Upwork client mail"
+2026-11-02,09:00,Lancers,dr eggbot,0,0,0,0,0,"applications.csv 0 rows for 11/2; DAILY-LOG 06:45 no approvals/contracts, 08:18 gig-loop BLOCKED memory; next gig-loop-hourly 09:10"
+2026-11-02,09:00,Coconala,dr eggbot,0,0,0,0,0,"applications.csv 0 rows for 11/2; DAILY-LOG 03:50/06:45 no pending client replies (Ryu0820119 answered 02:48); MAHANA 18542678 delivered 11/1, confirm by 11/5"
+2026-11-02,09:00,Truelancer,dr eggbot,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows for 11/2; Truelancer mail not checked"
+2026-11-02,09:00,CrowdWorks,Fucker,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows for 11/2 (last 311452576 on 11/1 09:18)"
+2026-11-02,09:00,Mercor,Fucker,0,0,0,0,0,"applications.csv 0 rows; DAILY-LOG Fucker 00:27-08:32 Mercor new matching 0"
+2026-11-02,09:00,Fiverr,Fucker,0,unknown,0,0,unknown,"applications.csv 0 rows (seller ID + W-9 block)"
+2026-11-02,09:00,Contra,Fucker,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows on 11/1 and 11/2"
+2026-11-02,09:00,Freelancer.com,参謀,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows on 11/1 and 11/2"
+2026-11-02,15:00,Upwork,dr eggbot,0,0,0,0,0,"applications.csv 0 rows for 11/2; Gmail upwork.com since 11/2 00:00 none; upwork-fresh-bids paused 09:33 (RULE 0x); box browser cap: 5 desktops running Chrome at 15:0x so no fix run"
+2026-11-02,15:00,Lancers,dr eggbot,0,0,0,0,0,"applications.csv 0 rows for 11/2; Gmail lancers.jp since 11/2 00:00 none; gig-loop-hourly paused 09:16"
+2026-11-02,15:00,Coconala,dr eggbot,0,1,0,0,0,"applications.csv 0 rows for 11/2; Gmail: 火拳のサボさん DM 10339580 10:58 JST (アカウント準備中, not yet answered per logs, <12h); トルマニ追記 on 5356527 11:35; MAHANA 18542678 rated 12:10 (¥5,000 counted 11/1); 20+ old requests auto-closed 09:03"
+2026-11-02,15:00,CrowdWorks,Fucker,0,1,0,0,unknown,"applications.csv 0 rows for 11/2; Gmail: キャリア_リベンジ new conditions 12:57 (20代副業記事ライター, check scam patterns), 2 jobs closed 12:46/14:03 (applied earlier, unlogged)"
+2026-11-02,15:00,Mercor,Fucker,0,0,0,0,0,"applications.csv 0; DAILY-LOG Fucker 00:27-08:32 new matching 0, 10:34/14:45 not checked"
+2026-11-02,15:00,Fiverr,Fucker,0,unknown,0,0,unknown,"applications.csv 0 (seller ID + W-9 block)"
+2026-11-02,15:00,Contra,Fucker,0,unknown,unknown,unknown,unknown,"applications.csv 0; DAILY-LOG STATE 10:34 Muse: Verify identity and payments gate not cleared, 0 new"
+2026-11-02,15:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; BOARD 03:5x 参謀 daily check: 0 fit bids, only platform promo messages"
+2026-11-02,21:00,Upwork,dr eggbot,0,0,0,0,0,"applications.csv 0 rows for 11/2; Gmail upwork.com last 24h none; upwork-fresh-bids paused 09:33 (RULE 0x 2 paid runs/day)"
+2026-11-02,21:00,Lancers,dr eggbot,0,0,0,0,0,"applications.csv 0 rows for 11/2; Gmail lancers.jp last 24h none; gig-loop-hourly paused; coconala-lancers-loop skipped 4x on desktop cap (cap repealed 18:50 RULE 0za)"
+2026-11-02,21:00,CrowdWorks,Fucker,1,1,0,0,0,"applications.csv f-crowdworks-20261102-1508 (proposal 311583654, ¥5,500); キャリア_リベンジ 30円条件 declined 17:38"
+2026-11-02,21:00,Mercor,Fucker,0,0,0,0,0,"applications.csv 0; DAILY-LOG Fucker new matching 0 through 08:35, loop cut to 02:35/14:35"
+2026-11-02,21:00,Fiverr,Fucker,0,unknown,0,0,unknown,"applications.csv 0 (seller ID + W-9 block)"
+2026-11-02,21:00,Contra,Fucker,0,unknown,unknown,unknown,unknown,"applications.csv 0; Muse 10:34 Verify identity and payments gate not cleared"
+2026-11-02,21:00,Coconala,dr eggbot,1,3,0,0,0,"applications.csv: re-offer on 5347927 (offer 6525796, 30,000 JPY, due 11/15) 21:06 after client 追記 19:11; replies=火拳 DM10339580 10:58 (we answered 11:15, not unanswered), トルマニ追記 5356527 11:35, NARISAWA追記 5347927 19:11; MAHANA ¥5,000 counted 11/1"
+2026-11-03,09:00,Lancers,dr eggbot,0,0,0,0,0,"applications.csv 0 rows for 11/3 as of 09:02; DAILY-LOG 00:54/03:5x/06:5x coconala-lancers-loop: no requests/quotes/approvals; next run 09:30"
+2026-11-03,09:00,Coconala,dr eggbot,0,0,0,0,0,"applications.csv 0 rows for 11/3 as of 09:02; Gmail coconala since 00:00 none; 5353413/5347927 no client reply (06:5x); next run 09:30"
+2026-11-03,09:00,CrowdWorks,Fucker,0,1,0,0,0,"applications.csv 0 rows for 11/3 as of 09:02; Gmail まきだのあ message 11/2 23:19 JST unread (msg 435523471, 12h mark 11:19 JST)"
+2026-11-03,09:00,Mercor,Fucker,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows for 11/3 as of 09:02; no mercor mail since 00:00"
+2026-11-03,09:00,Fiverr,Fucker,0,unknown,0,0,unknown,"applications.csv 0 rows for 11/3 as of 09:02 (seller ID + W-9 block)"
+2026-11-03,09:00,Contra,Fucker,0,unknown,unknown,unknown,unknown,"applications.csv 0 rows for 11/3 as of 09:02; identity/payments gate (Muse 11/2 10:34)"
+2026-11-03,09:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0 rows for 11/3 as of 09:02; only promo mail"
+2026-11-06,15:00,Upwork,dr eggbot,0,0,0,0,0,applications.csv 0 rows for 2026-11-06; Gmail from:upwork.com newer_than:1d none (includeSpamTrash upwork newer_than:2d only old DRAFT); bot inbox no Upwork client mail
+2026-11-06,15:00,Lancers,dr eggbot,0,3,0,0,unknown,"applications.csv 0 apply rows today; Gmail client msgs boardId 9138761 ShunKurihara 15:02 JST UNREAD, 9140190 HIMAFreee (latest 14:51 UNREAD; also 10:48 and Nov5 16:51), 9141322 ripp115 (12:07/12:44/13:08); 選定終了2 not selected (保育施設PPT 12:03, WordPress脆弱性 14:32); BOARD 13:53 9141322/9140190 既返信確認中=reply not proven → unanswered unknown"
+2026-11-06,15:00,Coconala,dr eggbot,0,1,0,0,unknown,applications.csv 0 rows today; Gmail designya client msg 00:47 JST (counted reply); Coconala Assist registration/interview/Spir 14:31-14:45 + Assist DM 133713 11:26 NOT client job replies; auto-closed prior requests ~09:02; BOARD 13:53 designya 既返信確認中 → unanswered unknown
+2026-11-06,15:00,Truelancer,dr eggbot,0,0,0,0,0,applications.csv 0 rows today; Gmail truelancer newer_than:1d none; not in ACCOUNT-OWNERS table — owner from routine/last audit=dr eggbot (FINAL 18:41 had listed Fucker)
+2026-11-06,15:00,CrowdWorks,Fucker,0,9,0,0,3,applications.csv 0 rows; Fuckers files under pr-money/fucker no 2026-11-06 CW apply count; Gmail Kaito｜AI自動化 client msgs today: たきだい/イナウトデトックス/しずか在宅/GROWBASE1/AxiomPartner/J_worldtravel/清泉設備/NewWaveMvie/ksk315045 (=9); plus 辞退1・納品未完了 alert・清泉設備提示条件同意(pending our agree≠new contract); UNREAD client notifs >12h at 15:10 JST: ksk315045 09:00 / NewWaveMvie 10:32 / J_worldtravel 11:28 (=3). No CW site login.
+2026-11-06,15:00,Mercor,Fucker,0,0,0,0,0,applications.csv 2 rows count=0 only (blocked-terms-review Applications; blocked-niche Fucker 14:30); Gmail mercor newer_than:1d none
+2026-11-06,15:00,Contra,Dots,0,unknown,unknown,unknown,unknown,applications.csv 0 rows; Gmail no Contra platform mail today (false-positive hit was Anicca日报 body); ACCOUNT-OWNERS table owner=Dots (2026-10-31); routine claims dr eggbot — CSV uses table
+2026-11-06,21:00,Upwork,dr eggbot,0,0,0,0,0,"applications.csv 0 apply; Gmail 1 Upwork interview invite (Japanese conversation recording, free Connects) 15:47 JST not yet applied; no client reply mail"
+2026-11-06,21:00,Lancers,dr eggbot,10,5,1,0,unknown,applications.csv +10 Gmail 提案受付 15:42-18:43 JST (video/SNS titles); contract=HIMAFreee 5625250 escrow Gmail 1a1afbe958469924 16:24 JST (not settled revenue); client msg boards ShunKurihara 9138761 / HIMAFreee 9140190 / ripp115 9141322 / HACHIGATSU 9085289 (=4) + earlier; site reply status unknown without login → unanswered unknown
+2026-11-06,21:00,Coconala,dr eggbot,0,1,0,0,0,applications.csv 0 apply; Gmail designya client msg 00:47 JST (BOARD/proof already replied 10:29); 追記 request 5362865 まりえ 20:26 JST (re-apply optional not new reply); Assist/Spir not client-job replies
+2026-11-06,21:00,CrowdWorks,Fucker,0,14,0,0,2,"applications.csv 0; no Fucker CW apply file today; Gmail client msgs many today; UNREAD>12h confirmed Nov5: lemonayain 1a1a9ce830af2a0f + kanikurabu 1a1a9691bc1d3e6f (=2). ksk315045 Nov5 read. Fucker login-blocked DAILY-LOG 16:05. No CW site login."
+2026-11-06,21:00,Mercor,Fucker,0,0,0,0,0,applications.csv 2 rows count=0 (blocked-terms-review; blocked-niche 14:30); Gmail mercor none today
+2026-11-06,21:00,Contra,Dots,0,unknown,unknown,unknown,unknown,applications.csv 0; Gmail no Contra platform mail; ACCOUNT-OWNERS table owner=Dots (routine text claims dr eggbot — CSV uses table)
+2026-11-06,21:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; Gmail/bot Freelancer onboarding/promo only, no bid receipt today"
+2026-11-07,09:00,Upwork,dr eggbot,0,0,0,0,0,applications.csv 0 apply; Gmail upwork: PW reset+login verify 11/6 19:0xZ + interview invite Native Japanese conversation (1a1af9c94fa050f5) still unapplied; no client reply today
+2026-11-07,09:00,Lancers,dr eggbot,3,1,0,0,unknown,applications.csv +3 Gmail 提案受付 00:39/03:38/06:39 JST (Vyond/TikTok-reel/動画編集者); client msg HIMAFreee board 9140190 08:45-08:47 JST (=1); contract HIMAFreee 5625250 was 11/6 escrow not today; unread boards 9140190/9141322/9138761/9085289 login-blocked → unanswered unknown
+2026-11-07,09:00,Coconala,dr eggbot,0,0,0,0,0,applications.csv 0; Gmail today only auto-closed prior applications ~09:02 JST (7+) + 5362865追記 11/6 (video-call skip); designya already replied 11/6; no new client reply today
+2026-11-07,09:00,CrowdWorks,Fucker,0,4,0,0,3,applications.csv 0; no Fucker CW apply file today; Gmail client msgs today JST: Saakii/iwaーta/浅_ひな/学習教材 (=4); UNREAD>12h: lemonayain 1a1a9ce830af2a0f + kanikurabu 1a1a9691bc1d3e6f + GROWBASE1 1a1b0af8fcc68ad1 (=3). Fucker login-blocked DAILY-LOG 11/6 16:05. No CW site login.
+2026-11-07,09:00,Mercor,Fucker,0,0,0,0,0,applications.csv 2 rows count=0 (interview-required CORE; careers-scan skip onsite FT); Gmail mercor none today
+2026-11-07,09:00,Contra,Dots,0,unknown,unknown,unknown,unknown,applications.csv 0; Gmail no Contra platform mail; ACCOUNT-OWNERS table owner=Dots (routine text claims dr eggbot — CSV uses table)
+2026-11-10,09:00,Lancers,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no lancers.jp mail today; DAILY-LOG 03:55/06:52 Lancers human-check/login wall, sent 0"
+2026-11-10,09:00,Coconala,dr eggbot,0,1,0,0,0,"applications.csv 0; Gmail Ryu0820119 msg 02:28 JST (loop 03:55: last word ours, 取引中0); 24 '応募した募集が終了' notices 09:03 JST"
+2026-11-10,09:00,CrowdWorks,Fucker,0,0,0,0,8,"applications.csv 0; no Fucker CW log since 11/07 09:57; Gmail today JST: 1 decline (mjRC5dWI) + 1 closure, no new client msg; UNREAD>12h threads (Gmail basis, site unverified, some scam-pattern e.g. cw_agent/初心者ライティング相談): herkae,cw_agent,Webライター相談,オンジョブ株式会社,簡単な記事作成相談,4818ks2525,内山蓮,ライティング相談. No CW login by me"
+2026-11-10,09:00,Contra,Dots,0,0,0,0,0,"applications.csv 0; Gmail Contra only new-follower notice 11/9 21:12 JST"
+2026-11-10,09:00,Fiverr,Fucker,0,0,0,0,0,"applications.csv 0; Gmail Fiverr onboarding promo only ('add a Gig'); no gig live"
+2026-11-10,09:00,Mercor,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no mercor mail today"
+2026-11-10,09:00,Truelancer,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no truelancer mail today (daisukenaritadev only)"
+2026-11-10,09:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; Gmail no freelancer.com mail today; no nudge (owner 11/06: stop pinging 参謀 to save usage)"
+2026-11-10,15:00,Lancers,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail page1 no lancers.jp client msg; DAILY-LOG 09:52 AWS WAF image check, sent 0; 参謀 14:4x notes 1 decline (SNS DM送付)"
+2026-11-10,15:00,Coconala,dr eggbot,2,1,0,0,0,"applications.csv 2 (5370425, 5371436 applied 15:1x by this run); Gmail Ryu0820119 まだですか 14:06 JST (1a1c3d9647d6d1ea), last word ours 14:27 per 参謀 BOARD 1015, fix blocked by Xserver foreign-IP FTP; Assist 4 rejections (1a1c2ed251a56713 thread); 7+ 募集終了 notices"
+2026-11-10,15:00,CrowdWorks,Fucker,0,5,0,0,8,"applications.csv 0; Gmail today JST client msgs: ささふね＠動画 11:39, イナウトデトックス 11:18, スリーアイ 13:00x2 + new conditions 11:30, ブライトリサーチ 13:20 (1a1c3aff1ec92e42); UNREAD>12h 8 threads carried from 09:00 (Gmail basis, site unverified); Fucker sign-in wall since 11/06, no CW log since 11/07 09:57. No CW login by me"
+2026-11-10,15:00,Contra,Dots,0,0,0,0,0,"applications.csv 0; Gmail Contra login code 12:05 JST only (1a1c36b192ee19a8), no client msg"
+2026-11-10,15:00,Fiverr,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no fiverr mail 09:00-15:10 JST"
+2026-11-10,15:00,Mercor,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no mercor mail 09:00-15:10 JST"
+2026-11-10,15:00,Truelancer,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no truelancer mail 09:00-15:10 JST (daisukenaritadev only)"
+2026-11-10,15:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; Gmail Freelancer project-reco promo 13:50 JST only"
+2026-11-10,21:00,Lancers,dr eggbot,2,2,0,0,0,"Gmail 提案受付 1a1c43d691a36f38 (15:55 JST エステサロンWeb集客) + 1a1c4d66b83eaf56 (18:42 JST 縦型ショートドラマ), not in applications.csv (sender unlogged); 不採用 1a1c3e251a367c61 SNS DM + 1a1c4b27644ead92 楽天LP; auto-cancel 1a1c4b22fd3d07ec, 1a1c557105b20cf1; no 発注リクエスト"
+2026-11-10,21:00,Coconala,dr eggbot,2,1,0,0,0,"applications.csv 2 (5370425, 5371436); Ryu0820119 まだですか 14:06 JST, last word ours 14:27 (参謀); Assist 4 rejections; no buyer msg after 15:49 per loop"
+2026-11-10,21:00,CrowdWorks,参謀,0,9,0,0,8,"applications.csv 0; Gmail client msgs 5 (by 15:00) + 4 相談 after 15:00 (16:21,16:43,16:54,17:56 JST; several 初心者ライティング scam-pattern); 2 more closures; UNREAD>12h 8 threads carried (Gmail basis); owner 参謀 since 15:30. No CW login by me"
+2026-11-10,21:00,Contra,Dots,0,0,0,0,0,"applications.csv 0; Gmail Contra login code 12:05 JST only"
+2026-11-10,21:00,Fiverr,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no fiverr mail today"
+2026-11-10,21:00,Mercor,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no mercor mail today"
+2026-11-10,21:00,Truelancer,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no truelancer mail today (daisukenaritadev only)"
+2026-11-10,21:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; Gmail project-reco promo 13:50 JST only"
+2026-11-11,09:00,Lancers,dr eggbot,3,0,0,0,0,"Gmail 提案受付 1a1c625c9b5bd41f (00:48 JST 英語教育系YouTube編集), 1a1c6cde1c831fc2 (03:52 YouTube動画編集), 1a1c76ff3c295fd4 (06:49 都市伝説YouTube編集); not in applications.csv (sender unlogged); auto-cancel notices 03:03 JST x4 (old job); no 発注/メッセージ"
+2026-11-11,09:00,Coconala,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no coconala mail since 00:00 JST; 火拳のサボ msgs 23:25-23:49 JST 11/10 (read, <12h); Ryu0820119 last word ours"
+2026-11-11,09:00,CrowdWorks,Fucker,0,0,0,0,8,"applications.csv 0; Gmail today JST: ~25 募集終了 closures 00:36-00:52, no new client msg; UNREAD client threads from 11/10 (13:20,16:21-17:56,21:55,22:24 JST) carried, >12h ones 8 (Gmail basis, site unverified); owner Fucker since 22:43 JST 11/10 (成田さん). No CW login by me"
+2026-11-11,09:00,Contra,Dots,0,0,0,0,0,"applications.csv 0; Gmail no contra mail since 00:00 JST"
+2026-11-11,09:00,Fiverr,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no fiverr mail today"
+2026-11-11,09:00,Mercor,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no mercor mail today"
+2026-11-11,09:00,Truelancer,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no truelancer mail today (daisukenaritadev only)"
+2026-11-11,09:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; Gmail no freelancer mail today; no nudge (owner 11/06: stop pinging 参謀)"
+2026-11-11,15:00,Lancers,dr eggbot,4,1,0,0,0,"Gmail 提案受付 00:48/03:52/06:49 + フィード作成募集 12:37-38 (2 receipts same thread, counted 1); dramia_123 msgs 14:12/14:21 board 9148005; 5627347 client selected us 14:20 (承諾依頼, not yet accepted -> contracts 0); 落選 13:43 AI活用系YouTube; box Lancers logged out"
+2026-11-11,15:00,Coconala,dr eggbot,0,1,0,0,0,"applications.csv 0; 火拳のサボ DM10339580 10:57/12:20 answered 12:49 (unpriced); Coconalaアシスト不採用 13:12"
+2026-11-11,15:00,CrowdWorks,Fucker,0,3,0,0,8,"applications.csv 0; Gmail today: msgs okumura02 10:23, イナウトデトックス 10:24 (辞退 12:53), AxiomPartner 12:17; 競走馬採用事務 条件合意済・契約リクエスト未送信 10:14;募集終了 x2; >12h=8 carried from 09:00 Gmail basis, not re-verified; no CW login by me"
+2026-11-11,15:00,Contra,Dots,0,0,0,0,0,"applications.csv 0; Gmail no contra mail today"
+2026-11-11,15:00,Fiverr,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no fiverr mail today"
+2026-11-11,15:00,Mercor,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no mercor mail today"
+2026-11-11,15:00,Truelancer,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no truelancer mail today (daisukenaritadev only)"
+2026-11-11,15:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; Gmail no freelancer mail today; no nudge (owner 11/06)"
+2026-11-11,21:00,Lancers,dr eggbot,8,1,1,0,0,"Gmail 提案受付 00:48/03:52/06:49/12:37 + 15:45/15:47/18:41/18:42; 5627347 承諾 15:29 + dramia_123 仮払い 17:01 (Gmail 1a1c99ff0b910977, amount not in mail, not paid -> revenue 0); dramia msgs 14:12/14:21/17:04/19:24 board 9148005 unanswered <12h (Lancers logged out); 落選 13:43; anicca_ai_jp 自動キャンセル 18:02"
+2026-11-11,21:00,Coconala,dr eggbot,0,1,0,0,0,applications.csv 0; 火拳のサボ answered 12:49; Coconalaアシスト不採用 13:12/18:52/19:29
+2026-11-11,21:00,CrowdWorks,Fucker,0,4,0,0,8,"applications.csv 0; Gmail adds cw_agent msg 18:34 + AminaCollection 辞退 16:05 to 15:00's 3; >12h=8 carried, not re-verified; no CW login by me"
+2026-11-11,21:00,Contra,Fucker,0,0,0,0,0,applications.csv 0; Gmail no contra mail today
+2026-11-11,21:00,Fiverr,Fucker,0,0,0,0,0,applications.csv 0; Gmail no fiverr mail today
+2026-11-11,21:00,Mercor,Fucker,0,0,0,0,0,applications.csv 0; Gmail no mercor mail today
+2026-11-11,21:00,Truelancer,Fucker,0,0,0,0,0,applications.csv 0; Gmail no truelancer mail today (daisukenaritadev only)
+2026-11-11,21:00,Freelancer.com,参謀,0,0,0,0,0,applications.csv 0; Gmail only a project-digest mail 15:57; no nudge (owner 11/06)
+2026-11-12,09:00,Lancers,dr eggbot,2,0,0,0,4,"Gmail 提案受付 1a1cc51de46a0956 (05:34 JST 地域密着型スーパーYouTube) + 1a1cc7acbc438b11 (06:19 AI活用系Youtube), both same titles as 11/11 receipts, sender agent unlogged; 落選 5620600 (anicca_ai_jp 00:03) + 自動キャンセル 5619698 (00:03); 5627347 仮払済 ¥33,000 (11/11, not revenue); dramia_123 msgs 14:12/14:21/17:04/19:24 11/11 on board 9148005 unanswered >12h (box Lancers logged out per loops) -> computerUse dispatched 09:0x to reply"
+2026-11-12,09:00,Coconala,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no coconala mail since 00:00 JST; 火拳のサボ ¥4,500 offer sent, awaiting purchase (last word ours, BOARD 06:5x)"
+2026-11-12,09:00,CrowdWorks,Fucker,0,0,0,0,,"applications.csv 0; Gmail today JST only ~20 募集終了 closures 00:37-00:49, no non-closure CW mail; >12h count unknown (prior 8 carried, no CW login by me)"
+2026-11-12,09:00,Contra,Fucker,0,0,0,0,0,"applications.csv 0; Gmail no contra mail since 00:00 JST"
+2026-11-12,09:00,Fiverr,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no fiverr mail today; owner dr eggbot since 11/11 20:58"
+2026-11-12,09:00,Mercor,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no mercor mail today; owner dr eggbot since 11/11 20:58"
+2026-11-12,09:00,Truelancer,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no truelancer mail today (daisukenaritadev only); owner dr eggbot since 11/11 20:58"
+2026-11-12,09:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; Gmail no freelancer mail today; no nudge (owner 11/06: stop pinging 参謀)"
+2026-11-07,09:00,Upwork,dr eggbot,0,0,0,0,0,applications.csv 0 apply; Gmail upwork: PW reset+login verify 11/6 19:0xZ + interview invite Native Japanese conversation (1a1af9c94fa050f5) still unapplied; no client reply today
+2026-11-07,09:00,Lancers,dr eggbot,3,1,0,0,unknown,applications.csv +3 Gmail 提案受付 00:39/03:38/06:39 JST (Vyond/TikTok-reel/動画編集者); client msg HIMAFreee board 9140190 08:45-08:47 JST (=1); contract HIMAFreee 5625250 was 11/6 escrow not today; unread boards 9140190/9141322/9138761/9085289 login-blocked → unanswered unknown
+2026-11-07,09:00,Coconala,dr eggbot,0,0,0,0,0,applications.csv 0; Gmail today only auto-closed prior applications ~09:02 JST (7+) + 5362865追記 11/6 (video-call skip); designya already replied 11/6; no new client reply today
+2026-11-07,09:00,CrowdWorks,Fucker,0,4,0,0,3,applications.csv 0; no Fucker CW apply file today; Gmail client msgs today JST: Saakii/iwaーta/浅_ひな/学習教材 (=4); UNREAD>12h: lemonayain 1a1a9ce830af2a0f + kanikurabu 1a1a9691bc1d3e6f + GROWBASE1 1a1b0af8fcc68ad1 (=3). Fucker login-blocked DAILY-LOG 11/6 16:05. No CW site login.
+2026-11-07,09:00,Mercor,Fucker,0,0,0,0,0,applications.csv 2 rows count=0 (interview-required CORE; careers-scan skip onsite FT); Gmail mercor none today
+2026-11-07,09:00,Contra,Dots,0,unknown,unknown,unknown,unknown,applications.csv 0; Gmail no Contra platform mail; ACCOUNT-OWNERS table owner=Dots (routine text claims dr eggbot — CSV uses table)
+2026-11-11,21:00,Lancers,dr eggbot,8,1,1,0,0,"Gmail 提案受付 00:48/03:52/06:49/12:37 + 15:45/15:47/18:41/18:42; 5627347 承諾 15:29 + dramia_123 仮払い 17:01 (Gmail 1a1c99ff0b910977, amount not in mail, not paid -> revenue 0); dramia msgs 14:12/14:21/17:04/19:24 board 9148005 unanswered <12h (Lancers logged out); 落選 13:43; anicca_ai_jp 自動キャンセル 18:02"
+2026-11-11,21:00,Coconala,dr eggbot,0,1,0,0,0,applications.csv 0; 火拳のサボ answered 12:49; Coconalaアシスト不採用 13:12/18:52/19:29
+2026-11-11,21:00,CrowdWorks,Fucker,0,4,0,0,8,"applications.csv 0; Gmail adds cw_agent msg 18:34 + AminaCollection 辞退 16:05 to 15:00's 3; >12h=8 carried, not re-verified; no CW login by me"
+2026-11-11,21:00,Contra,Fucker,0,0,0,0,0,applications.csv 0; Gmail no contra mail today
+2026-11-11,21:00,Fiverr,Fucker,0,0,0,0,0,applications.csv 0; Gmail no fiverr mail today
+2026-11-11,21:00,Mercor,Fucker,0,0,0,0,0,applications.csv 0; Gmail no mercor mail today
+2026-11-11,21:00,Truelancer,Fucker,0,0,0,0,0,applications.csv 0; Gmail no truelancer mail today (daisukenaritadev only)
+2026-11-11,21:00,Freelancer.com,参謀,0,0,0,0,0,applications.csv 0; Gmail only a project-digest mail 15:57; no nudge (owner 11/06)
+2026-11-12,15:00,Upwork,dr eggbot,0,0,0,0,0,"applications.csv 0 rows 2026-11-12; Gmail no upwork mail today; box Upwork logged out (10:45 log), upwork-fresh-bids paused"
+2026-11-12,15:00,Lancers,dr eggbot,2,0,0,0,0,"carried 09:00 Gmail receipts 05:34/06:19; Gmail no lancers mail after; logged in again 12:4x; 5627347/dramia_123 = Muse; computerUse applying up to 5 more at 15:0x (row to follow)"
+2026-11-12,15:00,Coconala,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail: Emposy DM10334473 new 13:10 JST (<12h, 参謀 deadline 15:30 → coconala-lancers-loop); 15 応募終了 auto-close mails 09:02; ココナラアシスト 4 不採用 09:51-09:52; サボ ¥4,500 unpurchased"
+2026-11-12,15:00,CrowdWorks,Fucker,0,0,0,0,,"applications.csv 0; no Fucker CW file today; Gmail: キャリアパートナーズ msg 10:49 (msg 437312665), 競走馬採用事務 contract request unsent reminder 10:15 (1a1cd535b85daeb0), 2 declines 10:47/14:07; >12h unknown (no CW login by me)"
+2026-11-12,15:00,Contra,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no contra mail today; box Contra logged out (10:45 log)"
+2026-11-12,15:00,Fiverr,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no fiverr mail today"
+2026-11-12,15:00,Mercor,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no mercor mail today"
+2026-11-12,15:00,Truelancer,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no truelancer mail today (daisukenaritadev only)"
+2026-11-12,15:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; Gmail digest 13:59 only; 参謀 saved proposal 40814224 (not yet bid); no nudge (owner 11/06)"
+2026-11-12,21:00,Lancers,dr eggbot,7,0,0,0,0,Gmail 提案受付 05:34/06:19 (09:00) + 09:46 (missed at 15:00) + podcast 19:36/20:14 (1) + GEO 20:30 + VTuber 20:50 + ショート2000円 20:51; sender unlogged; 落選 09:53/12:03/17:42x2/18:03; 5627347 = Muse; computerUse applying up to 5 more 21:0x (row to follow)
+2026-11-12,21:00,Coconala,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no 応募 receipt today; Emposy DM10334473 answered 15:54 (no reply since); サボさん ¥4,500 unpurchased (deadline 11/18); アシスト不採用x5 + お見送りx2"
+2026-11-12,21:00,Upwork,dr eggbot,0,0,0,0,0,"applications.csv 0; Gmail no upwork mail today; box Upwork logged out (needs password, owner-chat only)"
+2026-11-12,21:00,Contra,dr eggbot,0,0,0,0,0,applications.csv 0; Gmail no contra mail today; box Contra logged out
+2026-11-12,21:00,Fiverr,dr eggbot,0,0,0,0,0,applications.csv 0; Gmail no fiverr mail today
+2026-11-12,21:00,Mercor,dr eggbot,0,0,0,0,0,applications.csv 0; Gmail no mercor mail today
+2026-11-12,21:00,Truelancer,dr eggbot,0,0,0,0,0,applications.csv 0; Gmail no truelancer mail today (daisukenaritadev only)
+2026-11-12,21:00,CrowdWorks,Fucker,0,0,0,0,,"applications.csv 0; no Fucker CW file today; Gmail: 契約リクエスト未送信 reminder 10:15 (1a1cd535b85daeb0) + キャリアパートナーズ msg 10:49 (437312665) still no action logged; 募集終了 x5, 辞退 x2; >12h unknown (no CW login by me)"
+2026-11-12,21:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; 参謀 40814224 bid blocked (logged out, Google session expired); no nudge (owner 11/06)"
+2026-11-12,21:00,Lancers,dr eggbot,11,0,0,0,0,"7 Gmail receipts (see row above) + 4 by gig-audit computerUse 21:03-21:12 (5628835/5626454/5628862/5629043, propose_finish pages); day total all platforms 11/15 (gap 4)"
+2026-11-13,15:00,Lancers,dr eggbot,10,0,0,0,0,"Gmail 提案受付 03:46/03:48/03:50/06:49/09:57/12:45/12:50 (7) + gig-audit 15:0x 5629322/5629272/5629273 (3); reply: yutaengineer board 9151081 test-article talk, answered 09:34 (ball with client); 落選 00:03/11:17"
+2026-11-13,15:00,Coconala,dr eggbot,3,0,0,0,0,"gig-audit 15:0x applied 5376552/5376935/5376907; ROYAL YELLOW 134255/134256 weekly status (no reply requested); アシスト不採用x5; 応募終了x12"
+2026-11-13,15:00,Upwork,dr eggbot,0,0,0,0,0,applications.csv 0; Gmail no upwork mail today; box Upwork logged out (password needed)
+2026-11-13,15:00,Contra,dr eggbot,0,0,0,0,0,applications.csv 0; Gmail no contra mail today; box Contra logged out
+2026-11-13,15:00,Fiverr,dr eggbot,0,0,0,0,0,applications.csv 0; Gmail no fiverr mail today
+2026-11-13,15:00,Mercor,dr eggbot,0,0,0,0,0,applications.csv 0; Gmail no mercor mail today (last: Generalist Expert requirements update 11/12 23:09)
+2026-11-13,15:00,Truelancer,dr eggbot,0,0,0,0,0,applications.csv 0; Gmail no truelancer mail today
+2026-11-13,15:00,CrowdWorks,Fucker,0,,0,0,,"applications.csv 0; no Fucker CW file today; Fucker DAILY-LOG 14:30 check-only; nudged Fucker"
+2026-11-13,15:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; 参謀 14:33 says Freelancer bids 0 (logged out); no nudge (owner 11/06)"
+2026-11-13,21:00,Lancers,dr eggbot,11,0,0,0,0,"15:00 count 10 + 5629532 (21:0x 提案完了); Gmail since 15:00: 落選 18:28, 自動キャンセル 18:02, 5628985 追記 (Muse/Dots); no client message waiting on me"
+2026-11-13,21:00,Coconala,dr eggbot,4,0,0,0,0,"15:00 count 3 + 5377493 (21:0x 応募しました); Gmail since 15:00: no client message, アシスト不採用 x5 earlier"
+2026-11-13,21:00,Upwork,dr eggbot,0,0,0,0,0,"STATE blocked: box Upwork logged out (login page); password entry not available in routine run; Gmail no upwork mail today"
+2026-11-13,21:00,Fiverr,dr eggbot,0,0,0,0,0,"STATE blocked: logged in as aiworkshop_dais but all 3 gigs are DRAFT (unpublished), each already 5 tags, 0 impressions 30d; no update possible without publishing"
+2026-11-13,21:00,Mercor,dr eggbot,0,0,0,0,0,"STATE blocked: box Mercor logged out (/explore Sign in); Gmail no mercor mail today"
+2026-11-13,21:00,Truelancer,dr eggbot,0,0,0,0,0,"STATE blocked: logged in (daisukenaritadev) but /dashboard forces /verify_contact mobile-number verification; Gmail no truelancer mail today"
+2026-11-13,21:00,Contra,dr eggbot,0,0,0,0,0,"applications.csv 0; Fucker 18:18 BOARD: Contra needs paid plan"
+2026-11-13,21:00,CrowdWorks,Fucker,0,2,0,0,0,"applications.csv 0; Gmail new client msgs 守高成悟 19:35 + 吉野K 20:35 (<12h, owner Fucker; CW login by me forbidden); Fucker 15:07: CW login expired + usage out"
+2026-11-13,21:00,Freelancer.com,参謀,0,0,0,0,0,"参謀 20:4x: no session (/login), 40814224 unsent"
+2026-11-14,09:00,Lancers,dr eggbot,3,0,0,0,0,"Gmail 提案受付 x2 today (03:41 SNS運用/動画編集, 06:46 SNS運用サポート; applicant not in applications.csv) + mine 5629696 提案完了 08:5x"
+2026-11-14,09:00,Coconala,dr eggbot,1,1,0,0,0,"mine 5377485 応募済み; 火拳のサボさん DM10339580 07:12-07:14 re-estimate request (<12h, coconala-lancers-loop, 参謀 deadline 09:45)"
+2026-11-14,09:00,Upwork,dr eggbot,0,0,0,0,0,"STATE blocked: box Upwork logged out (11/13 21:00 check); password entry not available in routine; Gmail no upwork mail today"
+2026-11-14,09:00,Fiverr,dr eggbot,0,0,0,0,0,"STATE blocked: aiworkshop_dais 3 gigs DRAFT, 0 impressions (11/13 21:00); Gmail no fiverr mail today"
+2026-11-14,09:00,Mercor,dr eggbot,0,0,0,0,0,"STATE blocked: box Mercor logged out (11/13 21:00); Gmail no mercor mail today"
+2026-11-14,09:00,Truelancer,dr eggbot,0,0,0,0,0,"STATE blocked: /verify_contact mobile verification (11/13 21:00); Gmail no truelancer mail today"
+2026-11-14,09:00,CrowdWorks,Fucker,0,3,0,0,2,"applications.csv 0; Gmail 守高 19:35 + 吉野K 20:35 (11/13, >12h, 参謀 deadline 09:05) + okumura02 07:50 (<12h); Fucker 02:29 check-only, CW logged out; nudged Fucker"
+2026-11-14,09:00,Freelancer.com,参謀,0,0,0,0,0,"参謀 02:4x/04:45: logged out, bids 0"

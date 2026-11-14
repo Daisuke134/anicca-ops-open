@@ -1,0 +1,242 @@
+[
+  {
+    "date": "2026-10-31",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Installed",
+    "metric": "first_open",
+    "value": 1,
+    "note": "no ct/utm on install event; 8 Application Opened; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Installed",
+    "metric": "first_open",
+    "value": 1,
+    "note": "no ct/utm on install event; 5 Application Opened; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-03",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Installed",
+    "metric": "first_open",
+    "value": 1,
+    "note": "no ct/utm on install event; 2 Application Opened; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-10-30",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Opened",
+    "metric": "opens",
+    "value": 2,
+    "note": "no Application Installed that day; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-02",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Opened",
+    "metric": "opens",
+    "value": 1,
+    "note": "no Application Installed that day; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-06",
+    "product": "Anicca(PostHog app)",
+    "layer": "paid",
+    "source": "PostHog",
+    "key": "paywall_purchased",
+    "metric": "purchases",
+    "value": 0,
+    "note": "none 10/30-11/06; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-10-30",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/e2echeck",
+    "metric": "taps",
+    "value": 1,
+    "note": "ct=e2echeck; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/mastodon_aniccaapp_bio",
+    "metric": "taps",
+    "value": 41,
+    "note": "ct=mastodon_aniccaapp_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/mastodon_anicca_affirm_bio",
+    "metric": "taps",
+    "value": 24,
+    "note": "ct=mastodon_anicca_affirm_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_ani.cca1234_bio",
+    "metric": "taps",
+    "value": 14,
+    "note": "ct=instagram_ani.cca1234_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_anicca.en_bio",
+    "metric": "taps",
+    "value": 10,
+    "note": "ct=instagram_anicca.en_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_anicca.ios.jp_bio",
+    "metric": "taps",
+    "value": 9,
+    "note": "ct=instagram_anicca.ios.jp_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_anicca.jp.videos_bio",
+    "metric": "taps",
+    "value": 8,
+    "note": "ct=instagram_anicca.jp.videos_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/youtube_anicca-ai_bio",
+    "metric": "taps",
+    "value": 5,
+    "note": "ct=youtube_anicca-ai_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/bluesky_anicca-affirm_bio",
+    "metric": "taps",
+    "value": 3,
+    "note": "ct=bluesky_anicca-affirm_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/tumblr_dailyanicca_bio",
+    "metric": "taps",
+    "value": 3,
+    "note": "ct=tumblr_dailyanicca_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/bluesky_aniccaapp_bio",
+    "metric": "taps",
+    "value": 3,
+    "note": "ct=bluesky_aniccaapp_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/tiktok_anicca.jp_bio",
+    "metric": "taps",
+    "value": 1,
+    "note": "ct=tiktok_anicca.jp_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/tiktok_aniccaen2_bio",
+    "metric": "taps",
+    "value": 1,
+    "note": "ct=tiktok_aniccaen2_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-02",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_anicca.en_bio",
+    "metric": "taps",
+    "value": 1,
+    "note": "ct=instagram_anicca.en_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-02",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/bluesky_aniccaapp_bio",
+    "metric": "taps",
+    "value": 1,
+    "note": "ct=bluesky_aniccaapp_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-04",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/bluesky_anicca-affirm_bio",
+    "metric": "taps",
+    "value": 1,
+    "note": "ct=bluesky_anicca-affirm_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-05",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_ani.cca1234_bio",
+    "metric": "taps",
+    "value": 1,
+    "note": "ct=instagram_ani.cca1234_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-05",
+    "product": "Anicca(web)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_anicca.en_bio",
+    "metric": "taps",
+    "value": 1,
+    "note": "ct=instagram_anicca.en_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 11/6 15:30 JST)"
+  }
+]

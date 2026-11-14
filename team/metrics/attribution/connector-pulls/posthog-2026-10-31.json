@@ -1,0 +1,42 @@
+[
+{
+"date": "2026-10-29",
+"product": "Anicca(PostHog app)",
+"layer": "installs",
+"source": "PostHog",
+"key": "Application Installed",
+"metric": "first_open",
+"value": 4,
+"note": "no utm/ct on install event (pulled 10/31 15:4x)"
+},
+{
+"date": "2026-10-30",
+"product": "Anicca(PostHog app)",
+"layer": "installs",
+"source": "PostHog",
+"key": "Application Installed",
+"metric": "first_open",
+"value": 0,
+"note": "0 installs; 2 Application Opened (pulled 10/31 15:4x)"
+},
+{
+"date": "2026-10-30",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/e2echeck",
+"metric": "taps",
+"value": 1,
+"note": "ct=e2echeck looks like a redirect test, not a real post tap"
+},
+{
+"date": "2026-10-30",
+"product": "Anicca(PostHog app)",
+"layer": "paid",
+"source": "PostHog",
+"key": "paywall_purchased",
+"metric": "purchases",
+"value": 0,
+"note": "none 10/28-10/31"
+}
+]

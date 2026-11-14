@@ -1,0 +1,12 @@
+[
+{
+"date": "2026-10-30",
+"product": "Stripe(acct anicca live)",
+"layer": "revenue",
+"source": "Stripe",
+"key": "charges",
+"metric": "charges_since_10-23",
+"value": 0,
+"note": "GetCharges live created>=1792540800: 0"
+}
+]

@@ -1,0 +1,31 @@
+【日次アカウント指標 2026-11-07 JST｜Anicca】
+更新 09:15 JST｜スナップ 44垢｜ソース実測のみ（欠測は明記）
+
+■担当別 7日views（Postiz analytics／比較基準 11/03※11/04–06欠）
+・Muse: TikTok中心 views7合計 約75037（全体TikTok 77869／11/03比 +42713）＋IG 958（11/03比 -10391）※IG投稿ほぼ停止
+・参謀: X @diceai0 フォロワー 952（急増）／@selawmqt 14（投稿停止中）／TikTok @monk_anicca views7=2832
+・Fucker: Capafy sales_volume 5200／last7注文 496・売上$62.94（未入金）
+・Marketer: Bluesky投稿あり・likes極小（やめる判定維持）
+
+■最大変動（views_7d vs 11/03）
+↑ @anicca.jp4 +11294→13610, @honnevideo +8193→10420, @anicca.he +8171→10110, @anicca_buddha +7919→10855, @anicca.jpx +6267→10366
+↓ @anicca.en -8607→354, @aniccaaffirmation -3378→1396, @anicca.jp.videos -1705→100, @monk_anicca -1562→2832, @aniccaen2 -911→3082
+
+■戦略判定（要点）
+倍賭け: TikTok短尺／X @diceai0／SEO（click 1→6, imp 36→360）／Capafy
+修正: IG短尺（投稿0・残存viewsあり→停止禁止）／@selawmqt再開／YouTube枠分散／OBOU views≈0／Substack API400／AEO計測
+やめる: Bluesky/Mastodon新規投下／Manageraqo
+保留: Reddit・ディレクトリUTM
+
+■直ったこと（参謀）
+・スナップ再取得＋欠日フォールバック実装／x-usersをCSV実測で更新／ACCOUNTS.md更新／二重投稿なし確認
+
+■残り修正（期限）
+・Muse: IG主要7垢＋hooklab.capafy＋YouTube枠＋muse.json本日分 締切 11/08 09:00 JST（parent must message Muse via SendToAgent priority true）
+・X Operator: @selawmqt Capafy投稿 締切 本日21:00 JST
+・参謀: Substack計測 11/08 18:00
+
+■エージェントJSON
+・muse-relay.json: 新鮮（2026-11-07 02:52）
+・muse.json: mtime新鮮だが内容date=2026-10-27 → STALE（要SendToAgent）
+・dr-eggbot.json: mtime新鮮・内容date=2026-10-31（受託ログ古め）

@@ -1,0 +1,9 @@
+date_jst,product,type,description,source
+2026-11-01 00:38,Anicca,SEO,- 2026-11-01 00:38 JST｜Anicca Marketer｜SEO+AEO pass｜新ページ /blog/zero-human-companies-2026 公開（RunsBy.ai/ZHC Directory の表＋検証ラベル＋FAQ型をコピー）、内部リンク6本、/lm/guide・I Am 代替,BOARD.md
+2026-11-01 08:41,Anicca,channel,- 2026-11-01 08:41 JST｜参謀｜CMO weekly・Reddit の runbook｜done｜runbooks/cmo-weekly.md と reddit-warmup.md を作成し、Anicca Marketer に移管｜なし｜初回の実行を確認したら参謀側を停止,BOARD.md
+2026-11-01 08:45,Anicca,channel,- 2026-11-01 08:45 JST｜参謀｜Distribution ループ｜done｜Anicca Marketer の成長ループ（3時間ごと）が担当するので、参謀側を停止｜なし｜Reddit は今日 21:00、CMO weekly は 11/2 の初回を確認したら参謀側を停止,BOARD.md
+2026-11-01 08:48,?,channel,- 2026-11-01 08:48 JST｜参謀｜応募ループ引き継ぎ｜done｜Applications の初回合否確認を確認。参謀側の opportunity-apply / yc-fast-track-hackathon-watch / na-ve-hackathon-get-in-push を停止｜なし｜Mar,BOARD.md
+2026-11-01 09:20,?,channel,- 2026-11-01 09:20 JST｜参謀｜Gemini課金停止｜一部完了｜無料OSSテキストルート(OpenRouter nemotron :free)を実呼び出しで確認、Monk Factory台本のパッチ作成・動作確認｜GitHub push不可、テスト3件要修正、画像と電話音声は無料代替なし｜Codex,BOARD.md
+2026-11-01 09:11,Honne,channel,- 2026-11-01 09:11 JST｜Fucker｜Honne product loop 初回｜実行中（09:09:47 開始）｜完了後 Manager に1行、参謀側ループ停止可の判断材料を出す,BOARD.md
+2026-11-01 11:32,?,ASO,"- 2026-11-01 11:32 JST｜Reporter｜/open Active 修正 v2｜done｜live(f7f651fe3) Active ¥190,378/月(Google Cloud 最終請求・ChatGPT ¥13,259 一回限り・Adobe/Replit 解約済を除外、HeyGen 解約予定",BOARD.md
+2026-11-01 13:15,?,SEO,- 2026-11-01 13:15 JST｜Reporter｜SEO seo_daily.py｜done｜直近7日 2クリック/44表示(前週1/30)｜なし｜08:30実行,BOARD.md

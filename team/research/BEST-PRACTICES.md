@@ -1,0 +1,18 @@
+# Operations best practices (agent teams / zero-human companies) — sourced only
+
+## 2026-10-30 16:5x JST (参謀, copy-the-winners)
+1. Daily written handoff note: each agent team writes ONE note about yesterday at a fixed time (4am); the other team reads it before working. "That note is the whole handoff. No meetings, no quick sync chats between bots." — @webjuice_ie (5.7K followers) https://x.com/webjuice_ie/status/2115892928782479505 → We already have HEARTBEAT + 21:00 Dots digest; gap = per-agent "yesterday" note. Applied: DELEGATIONS rows must name a checkable artifact (below); digest owner Dots asked to include each agent's one-line "yesterday".
+2. Handoff = a checkable artifact (task title, context, done-evidence path) — @jacksunny18 https://x.com/jacksunny18/status/2115778346424713352 ; multi-agent failures are mostly at handoffs (~37% inter-agent misalignment, ~42% system design, Berkeley MAST study, cited by @manuseen007 https://x.com/manuseen007/status/2115308639112314998 ; @ZIKAGENTAI: "one shared written brief every agent reads before acting fixed more than a better model"). Applied: DELEGATIONS.md rule "完了の証拠（ファイル/URL）がない行は未完了".
+3. Token cost: log tokens per heartbeat and per completed action; 9 agents checking in can spend more on context than output (@dougame841114, vendor post → low trust, idea only) https://x.com/dougame841114/status/2115730960381821306 . Consistent with our 10/30 pace overrun; HEARTBEAT checks should stay one-line.
+
+## 2026-10-31 09:0x JST (参謀, copy-the-winners)
+1. Add a subagent only when it buys isolation or real parallelism; otherwise the handoff is another failure surface — @briancheong (12K followers) https://x.com/briancheong/status/2115852319132930358 ; same point: every handoff returns a summary that drops detail https://x.com/chl708/status/2116009534330450296 (small account). Applied: copy-the-winners runs as one agent this run (no executor fan-out); rule for 参謀 loops = default to one worker, split only for parallel independent work.
+2. One board where every task and handoff is visible (agents and humans on the same board) — https://x.com/USASmarTekAI/status/2116305585679323491 (low-trust small account; matches our NOW.md/DELEGATIONS). No new change.
+
+## 2026-11-01 09:0x JST (参謀, copy-the-winners)
+1. One front-door bot; the rest are specialists you rarely open. A Grok Bot engineer went from 20 chats to one front door — summary of the 18 official Grok Bot guides, https://x.com/molodoykiskaeb/status/2116190083980169296 (4.5K views). Same rule from SpaceXAI engineers: "one written job per bot, proof before done" https://x.com/twinedon0/status/2116191786452369668 . Matches Potato guidance already adopted (参謀 = front door, others hold loops); no new change.
+2. Set up cross-posting once, then forget it: @jackfriks mirrors every X post to all platforms through a bot https://x.com/jackfriks/status/2115838059409240535 . Applied as WINNERS #13.
+
+## 2026-11-02 09:0x JST (参謀, copy-the-winners)
+1. Every correction becomes a rule in the standing setup: "when I correct you, suggest a new rule I can add here, so the same mistake doesn't happen again" — @notkvtwts article, 103K views, 1,650 bookmarks https://x.com/notkvtwts/status/2115810173830750575 . Matches RULES.md; applied as: each 成田さん correction today must land as a numbered RULES.md line the same hour (already our practice; no new file).
+2. A bot pulls every account's numbers each morning and drafts the build-in-public post; the human only approves — @jakemccainn (small account, idea only) https://x.com/jakemccainn/status/2116658312234316236 . We already have Reporter + X Operator; gap = the @diceai0 daily post should start from metrics/post-readback.csv numbers. Handed to X Operator with #22.

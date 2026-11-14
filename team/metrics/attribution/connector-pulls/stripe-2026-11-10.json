@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-11-10",
+    "product": "Stripe(acct anicca live + Anicca AI Inc live)",
+    "layer": "revenue",
+    "source": "Stripe",
+    "key": "charges",
+    "metric": "charges_since_10-30",
+    "value": 0,
+    "note": "GetCharges live created>=1793318400 (2026-10-30 UTC): anicca live 0 paid, Anicca AI Inc live 0 paid; (pulled 2026-11-10 15:41 JST)"
+  }
+]

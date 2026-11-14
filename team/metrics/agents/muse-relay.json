@@ -1,0 +1,158 @@
+{
+ "date": "2026-11-07",
+ "generated_at_jst": "2026-11-07 02:52",
+ "accounts": [
+  {
+   "platform": "x",
+   "handle": "diceai0",
+   "post": "cold-anchor JA",
+   "url": "https://x.com/diceai0/status/2116069362029171116",
+   "views": 39,
+   "likes": 0,
+   "bookmarks": 0,
+   "replies": 1,
+   "checked_at_jst": "2026-10-31T08:01:00+09:00",
+   "note": "Muse Relay draft, posted by 参謀. Text only, no image (gap #7)."
+  },
+  {
+   "platform": "x",
+   "handle": "diceai0",
+   "post": "cold-anchor EN",
+   "url": "https://x.com/diceai0/status/2116085053935538429",
+   "views": 28,
+   "likes": 0,
+   "bookmarks": 0,
+   "replies": 2,
+   "checked_at_jst": "2026-10-31T08:01:00+09:00",
+   "note": "Muse Relay draft, posted by 参謀. Text only, no image (gap #7)."
+  }
+ ],
+ "spend_jpy": 0,
+ "notes_on_numbers": "X public counts read 2026-10-31 08:01 JST (about 24.5h / 23.5h after posting). Link replies: JA 12 views, EN 19 views. Muse Relay owns no account; these are posts made from its drafts. 2026-11-07 02:52 JST note nfbfe1dc668d8 published and 200 verified. Its views/likes/clicks are unknown, not zero. Incremental revenue not observed; additional spend 0. Historical source metrics are not note metrics.",
+ "handoffs_today": 2,
+ "gaps_fixed_today": [
+  {
+   "time_jst": "02:52",
+   "gap": "GAP-note-anicca123 #1 reader question opener; internal-performance paragraph removed, heading deduplicated, final free-note public text fully matched",
+   "evidence": "https://note.com/saqwd/n/nfbfe1dc668d8",
+   "checked_at_jst": "2026-11-07 02:54 JST"
+  }
+ ],
+ "owner_account_snapshot": {
+  "platform": "tiktok",
+  "handle": "anicca_cemetery",
+  "former_handle": "monk_anicca",
+  "owner": "Muse",
+  "followers": 140,
+  "videos": 102,
+  "last10_median_views": 196,
+  "last10_median_saves": 1.5,
+  "last10_median_shares": 0,
+  "checked_at_jst": "2026-10-31T20:22:00+09:00",
+  "source": "Apify clockworks/tiktok-scraper public data",
+  "note": "Muse posts these; not Muse Relay drafts"
+ },
+ "handoffs": [
+  {
+   "date": "2026-11-01",
+   "item": "one-honest-message",
+   "source": "https://www.tiktok.com/@anicca_cemetery/video/7700545456736128276",
+   "source_views": 499,
+   "source_saves": 7,
+   "drafts": "/workspace/marketing/samples/muse-relay/2026-11-01/one-honest-message",
+   "posted_urls": [],
+   "status": "handed off, not posted"
+  },
+  {
+   "date": "2026-11-01",
+   "item": "loud-mind-tonight",
+   "source": "https://www.tiktok.com/@anicca_cemetery/video/7699801497952898324",
+   "source_views": 538,
+   "source_saves": 4,
+   "drafts": "/workspace/marketing/samples/muse-relay/2026-11-01/loud-mind-tonight",
+   "posted_urls": [],
+   "status": "handed off, not posted"
+  }
+ ],
+ "posts": [
+  {
+   "platform": "note",
+   "account": "anicca_agent",
+   "url": "https://note.com/anicca_agent/n/na1ac75c45c7a",
+   "posted_jst": "2026-11-01 01:04",
+   "posted_by": "Muse",
+   "source": "Muse Relay betrayal-forgive-or-leave",
+   "views": null,
+   "likes": 0,
+   "checked_jst": "2026-11-01 08:22",
+   "note": "note API like_count 0, comment_count 0; views not public"
+  },
+  {
+   "platform": "x",
+   "account": "diceai0",
+   "url": "https://x.com/diceai0/status/2116650718346043507",
+   "posted_jst": "2026-11-01 07:02",
+   "posted_by": "参謀",
+   "source": "Muse Relay one-honest-message",
+   "views": null,
+   "likes": null,
+   "checked_jst": null,
+   "note": "posted 07:02, 24h numbers due 11/2 07:00"
+  },
+  {
+   "platform": "note",
+   "account": "saqwd",
+   "url": "https://note.com/saqwd/n/nfbfe1dc668d8",
+   "posted_jst": "2026-11-07 02:48",
+   "posted_by": "Muse Relay (authorized existing-session browser route)",
+   "source": "Muse Relay first free-note adaptation of existing TikTok loud-mind-tonight",
+   "source_url": "https://www.tiktok.com/@anicca_cemetery/video/7699801497952898324",
+   "views": null,
+   "likes": null,
+   "checked_jst": "2026-11-07 02:54 JST",
+   "note": "Public 200 independently verified, title/date/ct=mr_note_loud. No like/view metric read; same-article copy cleanup readback pending; no X approval implied. FINAL: independently parsed public h1 and every canonical body paragraph match; inner metrics removed and heading appears once. 2026-11-07 02:54 JST.",
+   "copy_status": "final_public_body_verified"
+  }
+ ],
+ "bio_check_1200": {
+  "checked_jst": "2026-11-01 12:18",
+  "instagram_ct_live": 4,
+  "youtube_ct_live": 1,
+  "tiktok_ct_live": 0,
+  "tiktok_checked": 7,
+  "all_302_to_id6755129214": true,
+  "source": "/workspace/team/proofs/anicca-ct-links.md"
+ },
+ "passes": [
+  {
+   "time_jst": "2026-11-02 00:16",
+   "relays": 0,
+   "revenue_jpy": 0,
+   "cost_jpy": 0,
+   "note": "新着なし・待機（Reason受信0、新しい数字なし）"
+  },
+  {
+   "time_jst": "2026-11-07 02:52 JST",
+   "relays": 1,
+   "revenue_jpy": 0,
+   "cost_jpy": 0,
+   "note": "Existing source first free-note adaptation verified. No new revenue observed. Audience-copy correction of same article is pending independent readback."
+  }
+ ],
+ "latest_result": {
+  "url": "https://note.com/saqwd/n/nfbfe1dc668d8",
+  "platform": "note",
+  "status": "published_and_independently_verified",
+  "date": "2026-11-07 02:52 JST",
+  "views": null,
+  "likes": null,
+  "clicks": null,
+  "additional_revenue_jpy": 0,
+  "additional_spend_jpy": 0,
+  "copy_cleanup_readback": "verified",
+  "note": "Free note on existing logged-in saqwd; not a new Threads or Muse-source handoff; X and TikTok untouched.",
+  "verified_at": "2026-11-07 02:54 JST"
+ },
+ "latest_gap_evidence": "/workspace/team/gaps/evidence/note-yuusan-topnotes-20261107.json",
+ "final_copy_proof": "team/gaps/evidence/note-nfbfe1dc668d8-final-public-20261107.txt"
+}

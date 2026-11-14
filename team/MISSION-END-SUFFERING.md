@@ -1,0 +1,24 @@
+# Mission: end suffering — evidence for and against the Manager
+Dated notes from the long-term thinking routine, each with sources.
+
+## 2026-11-01 — Paul Graham, "Do Things That Don't Scale" https://paulgraham.com/ds.html
+- Strengthens: PG's "Manual" section says to be the software for a few users first, then automate the bottlenecks you learned by hand. The Manager (agents running a life end to end) is exactly that path: whatever we do by hand for 成田さん's own life now (wake calls, commute timing, money reads) is the muscle memory for the product.
+- Strengthens: "Consult" says pick a single user and fit them perfectly, and you usually find others want it too. 成田さん is user #1 of the Manager; fitting him perfectly is the right first market, not a distraction.
+- Challenges: PG warns about "something automatic that doesn't yet solve anyone's problems." If the Manager's automation grows faster than evidence that it reduces one person's suffering (e.g. fewer missed mornings, less money anxiety), we're building the wrong half of the vector. Measure suffering-reduction for user #1 before adding automation.
+- Challenges: launches and partnerships rarely start growth (also @shantanur_: only 5 of 50 AI startups got first paying customers mainly from a launch, https://x.com/shantanur_/status/2116564948562387199). Hackathon demos are launches; they can fund the mission (YC) but won't by themselves create Manager users.
+
+## 2026-11-07 — Paul Graham, "Superlinear Returns" https://paulgraham.com/superlinear.html
+- Strengthens: learning compounds even when immediate goals fail. Running 成田さん's life by hand (wake, money, travel) is the "learning" half of superlinear returns for the Manager — the muscle memory that later becomes product. Failures that produce a written lesson still put us on the steep curve.
+- Strengthens: "do things that don't scale" appears again as the ignition for exponential growth. Fitting user #1 perfectly before automating is the threshold we must cross; automation without that threshold is the flat side of the step function.
+- Challenges: half-as-good → zero customers. A Manager that is "somewhat helpful" at reducing suffering won't get half the users — it gets none. Measure suffering-reduction for user #1 (missed mornings, money anxiety) as a hard threshold, not a soft nicety.
+- Challenges: @paulg this week https://x.com/paulg/status/2117036406443028744 — early revenue only moves when founders push it. A Manager that "sets and forgets" distribution will flatline; the product itself must keep recruiting and delighting, or the mission stays unfunded.
+
+## 2026-11-10 — Paul Graham, "How to Get Startup Ideas" https://paulgraham.com/startupideas.html
+- Strengthens: the best ideas are "something the founders themselves want." The Manager began as running 成田さん's own life (wake calls, money, travel), an organic idea from a real need, not a made-up one.
+- Strengthens: "live in the future, then build what's missing." Things that chafe while running a company with almost no people are early signals of what everyone will need later.
+- Challenges: the "sitcom idea" test. "Helping people suffer less" sounds plausible to everyone and can sum to zero users. We need the narrow well: one group who wants the Manager so badly they use a rough version today, named precisely.
+- Challenges: sell before build (Buchheit, same essay; @sureshkrishna's $50 test this week https://x.com/sureshkrishna/status/2119853054887674349). Until one person outside the founder pays for the Manager, it is a hypothesis, not a product.
+
+- 2026-11-11 (PG "Startup = Growth", https://paulgraham.com/growth.html): Strengthens the Manager: a zero-human company can hold a weekly growth target mechanically, every week, without fatigue. Challenges it: PG note 8 warns against counting users as active when they aren't — our agents' activity counts (posts, passes) are not growth; only paid receipts and real active users count toward ending suffering at scale.
+
+- 2026-11-12 (PG "How Not to Die", https://paulgraham.com/die.html): Strengthens the Manager: agents don't lose morale, which PG names as the real cause of death, so the company can keep iterating through low points. Challenges it: "the number one thing not to do is other things" — dozens of side loops (comedy lotteries, remote-work signups, investing) dilute the one product that must be loved by a few people first. Also @yongqianme https://x.com/yongqianme/status/2119954234594713817: copying winners must not replace our own direction (ending suffering).

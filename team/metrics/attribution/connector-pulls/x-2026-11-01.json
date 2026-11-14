@@ -1,0 +1,5252 @@
+[
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwcages05c7pk1ch0ix2y4p",
+"metric": "impressions",
+"value": 3,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwcages05c7pk1ch0ix2y4p",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwcages05c7pk1ch0ix2y4p",
+"metric": "replies",
+"value": 1,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwcages05c7pk1ch0ix2y4p",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwcages05c7pk1ch0ix2y4p",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwelkb407dwpk1cwh04u8ah",
+"metric": "impressions",
+"value": 3,
+"note": "checkpoint early_17h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwelkb407dwpk1cwh04u8ah",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint early_17h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwelkb407dwpk1cwh04u8ah",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint early_17h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwelkb407dwpk1cwh04u8ah",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint early_17h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwelkb407dwpk1cwh04u8ah",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint early_17h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwxxggt0q34pk1ckml7hro9",
+"metric": "impressions",
+"value": 2,
+"note": "checkpoint early_8h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwxxggt0q34pk1ckml7hro9",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint early_8h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwxxggt0q34pk1ckml7hro9",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint early_8h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwxxggt0q34pk1ckml7hro9",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint early_8h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvwxxggt0q34pk1ckml7hro9",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint early_8h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116742494847385792",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint early_2h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116742494847385792",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint early_2h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116742494847385792",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint early_2h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116742494847385792",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint early_2h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116742494847385792",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint early_2h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114557655146455359",
+"metric": "impressions",
+"value": 35,
+"note": "checkpoint late_145h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114557655146455359",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114557655146455359",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114557655146455359",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114557655146455359",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114650325348958682",
+"metric": "impressions",
+"value": 66,
+"note": "checkpoint late_139h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114650325348958682",
+"metric": "likes",
+"value": 3,
+"note": "checkpoint late_139h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114650325348958682",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114650325348958682",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114650325348958682",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114650373277602275",
+"metric": "impressions",
+"value": 62,
+"note": "checkpoint late_139h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114650373277602275",
+"metric": "likes",
+"value": 3,
+"note": "checkpoint late_139h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114650373277602275",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114650373277602275",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114650373277602275",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114695762848215314",
+"metric": "impressions",
+"value": 73,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114695762848215314",
+"metric": "likes",
+"value": 1,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114695762848215314",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114695762848215314",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114695762848215314",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114696474340520281",
+"metric": "impressions",
+"value": 30,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114696474340520281",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114696474340520281",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114696474340520281",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114696474340520281",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114696493609463866",
+"metric": "impressions",
+"value": 45,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114696493609463866",
+"metric": "likes",
+"value": 1,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114696493609463866",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114696493609463866",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114696493609463866",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114861272571244608",
+"metric": "impressions",
+"value": 26,
+"note": "checkpoint late_125h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114861272571244608",
+"metric": "likes",
+"value": 1,
+"note": "checkpoint late_125h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114861272571244608",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_125h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114861272571244608",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_125h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114861272571244608",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_125h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114923052366483544",
+"metric": "impressions",
+"value": 29,
+"note": "checkpoint late_121h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114923052366483544",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_121h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114923052366483544",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_121h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114923052366483544",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_121h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2114923052366483544",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_121h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116176302520889793",
+"metric": "impressions",
+"value": 118,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116176302520889793",
+"metric": "likes",
+"value": 3,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116176302520889793",
+"metric": "replies",
+"value": 3,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116176302520889793",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116176302520889793",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116176352969998717",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116176352969998717",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116176352969998717",
+"metric": "replies",
+"value": 1,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116176352969998717",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116176352969998717",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116311371772289130",
+"metric": "impressions",
+"value": 4956,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116311371772289130",
+"metric": "likes",
+"value": 218,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116311371772289130",
+"metric": "replies",
+"value": 14,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116311371772289130",
+"metric": "reposts",
+"value": 4,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116311371772289130",
+"metric": "bookmarks",
+"value": 4,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116312701970653694",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116312701970653694",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116312701970653694",
+"metric": "replies",
+"value": 1,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116312701970653694",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116312701970653694",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116402708857180518",
+"metric": "impressions",
+"value": 2208,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116402708857180518",
+"metric": "likes",
+"value": 73,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116402708857180518",
+"metric": "replies",
+"value": 9,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116402708857180518",
+"metric": "reposts",
+"value": 3,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116402708857180518",
+"metric": "bookmarks",
+"value": 1,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116403334185693686",
+"metric": "impressions",
+"value": 620,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116403334185693686",
+"metric": "likes",
+"value": 12,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116403334185693686",
+"metric": "replies",
+"value": 28,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116403334185693686",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116403334185693686",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvvyrbve0xz9pa1cidu02ucp",
+"metric": "impressions",
+"value": 1,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvvyrbve0xz9pa1cidu02ucp",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvvyrbve0xz9pa1cidu02ucp",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvvyrbve0xz9pa1cidu02ucp",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvvyrbve0xz9pa1cidu02ucp",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116447364269355251",
+"metric": "impressions",
+"value": 185,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116447364269355251",
+"metric": "likes",
+"value": 2,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116447364269355251",
+"metric": "replies",
+"value": 3,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116447364269355251",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116447364269355251",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116447973877875183",
+"metric": "impressions",
+"value": 86,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116447973877875183",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116447973877875183",
+"metric": "replies",
+"value": 2,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116447973877875183",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116447973877875183",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvw52bci001tsc1c8y34xqob",
+"metric": "impressions",
+"value": 5,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvw52bci001tsc1c8y34xqob",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvw52bci001tsc1c8y34xqob",
+"metric": "replies",
+"value": 2,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvw52bci001tsc1c8y34xqob",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvw52bci001tsc1c8y34xqob",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116497963551957445",
+"metric": "impressions",
+"value": 349,
+"note": "checkpoint early_16h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116497963551957445",
+"metric": "likes",
+"value": 5,
+"note": "checkpoint early_16h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116497963551957445",
+"metric": "replies",
+"value": 1,
+"note": "checkpoint early_16h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116497963551957445",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint early_16h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116497963551957445",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint early_16h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116514162222186708",
+"metric": "impressions",
+"value": 477,
+"note": "checkpoint early_15h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116514162222186708",
+"metric": "likes",
+"value": 7,
+"note": "checkpoint early_15h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116514162222186708",
+"metric": "replies",
+"value": 1,
+"note": "checkpoint early_15h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116514162222186708",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint early_15h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116514162222186708",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint early_15h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116650718346043507",
+"metric": "impressions",
+"value": 57,
+"note": "checkpoint early_6h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116650718346043507",
+"metric": "likes",
+"value": 2,
+"note": "checkpoint early_6h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116650718346043507",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint early_6h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116650718346043507",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint early_6h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116650718346043507",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint early_6h read 2026-11-01 13:10 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvxdsmd7048fqd1j49ecvqy4",
+"metric": "impressions",
+"value": 1,
+"note": "checkpoint early_0h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvxdsmd7048fqd1j49ecvqy4",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint early_0h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvxdsmd7048fqd1j49ecvqy4",
+"metric": "replies",
+"value": 1,
+"note": "checkpoint early_0h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvxdsmd7048fqd1j49ecvqy4",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint early_0h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/postiz:cmvxdsmd7048fqd1j49ecvqy4",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint early_0h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116762449970176260",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint early_1h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116762449970176260",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint early_1h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116762449970176260",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint early_1h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116762449970176260",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint early_1h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116762449970176260",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint early_1h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116762871556165907",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint early_1h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116762871556165907",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint early_1h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116762871556165907",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint early_1h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116762871556165907",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint early_1h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-11-01",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@diceai0/2116762871556165907",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint early_1h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114020025644540320",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_182h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114020025644540320",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_182h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114020025644540320",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_182h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114020025644540320",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_182h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114020025644540320",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_182h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114027468487311568",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_182h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114027468487311568",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_182h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114027468487311568",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_182h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114027468487311568",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_182h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114027468487311568",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_182h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114040289648394628",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_181h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114040289648394628",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_181h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114040289648394628",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_181h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114040289648394628",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_181h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114040289648394628",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_181h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114061901051416680",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_180h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114061901051416680",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_180h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114061901051416680",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_180h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114061901051416680",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_180h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114061901051416680",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_180h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114106328440517042",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_177h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114106328440517042",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_177h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114106328440517042",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_177h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114106328440517042",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_177h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114106328440517042",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_177h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114110028861108618",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_176h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114110028861108618",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_176h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114110028861108618",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_176h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114110028861108618",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_176h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114110028861108618",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_176h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114151315098193948",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_174h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114151315098193948",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_174h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114151315098193948",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_174h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114151315098193948",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_174h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114151315098193948",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_174h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114155288865669347",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_173h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114155288865669347",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_173h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114155288865669347",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_173h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114155288865669347",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_173h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114155288865669347",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_173h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114162753485377993",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_173h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114162753485377993",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_173h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114162753485377993",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_173h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114162753485377993",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_173h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114162753485377993",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_173h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114171183071633645",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_172h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114171183071633645",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_172h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114171183071633645",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_172h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114171183071633645",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_172h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114171183071633645",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_172h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114178152947982680",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_172h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114178152947982680",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_172h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114178152947982680",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_172h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114178152947982680",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_172h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114178152947982680",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_172h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114190425921921224",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114190425921921224",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114190425921921224",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114190425921921224",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114190425921921224",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114191205462622647",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114191205462622647",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114191205462622647",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114191205462622647",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114191205462622647",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114191972441461201",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114191972441461201",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114191972441461201",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114191972441461201",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114191972441461201",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_171h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114216237006008616",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_169h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114216237006008616",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_169h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114216237006008616",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_169h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114216237006008616",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_169h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114216237006008616",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_169h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114226463885181324",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_169h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114226463885181324",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_169h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114226463885181324",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_169h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114226463885181324",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_169h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114226463885181324",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_169h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114239136748257698",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_168h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114239136748257698",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_168h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114239136748257698",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_168h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114239136748257698",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_168h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114239136748257698",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_168h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114264762066616458",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_166h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114264762066616458",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_166h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114264762066616458",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_166h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114264762066616458",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_166h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114264762066616458",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_166h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114268641508343966",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_166h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114268641508343966",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_166h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114268641508343966",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_166h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114268641508343966",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_166h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114268641508343966",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_166h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114311558155407488",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_163h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114311558155407488",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_163h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114311558155407488",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_163h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114311558155407488",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_163h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114311558155407488",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_163h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114362917105828288",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_160h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114362917105828288",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_160h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114362917105828288",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_160h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114362917105828288",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_160h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114362917105828288",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_160h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114366840524906597",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_159h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114366840524906597",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_159h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114366840524906597",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_159h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114366840524906597",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_159h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-25",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114366840524906597",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_159h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114373995751723130",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_159h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114373995751723130",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_159h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114373995751723130",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_159h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114373995751723130",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_159h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114373995751723130",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_159h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114403199117566352",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_157h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114403199117566352",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_157h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114403199117566352",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_157h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114403199117566352",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_157h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114403199117566352",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_157h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114430742252114404",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_155h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114430742252114404",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_155h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114430742252114404",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_155h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114430742252114404",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_155h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114430742252114404",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_155h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114434393083371532",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_155h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114434393083371532",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_155h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114434393083371532",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_155h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114434393083371532",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_155h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114434393083371532",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_155h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114453376486531099",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_154h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114453376486531099",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_154h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114453376486531099",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_154h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114453376486531099",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_154h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114453376486531099",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_154h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114457231181918321",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_153h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114457231181918321",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_153h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114457231181918321",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_153h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114457231181918321",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_153h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114457231181918321",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_153h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114464584706961917",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_153h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114464584706961917",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_153h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114464584706961917",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_153h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114464584706961917",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_153h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114464584706961917",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_153h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114472259268288657",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_152h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114472259268288657",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_152h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114472259268288657",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_152h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114472259268288657",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_152h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114472259268288657",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_152h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114479884047437960",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_152h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114479884047437960",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_152h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114479884047437960",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_152h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114479884047437960",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_152h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114479884047437960",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_152h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114487354241274353",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114487354241274353",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114487354241274353",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114487354241274353",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114487354241274353",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114491571198648583",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114491571198648583",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114491571198648583",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114491571198648583",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114491571198648583",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114494832903340370",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114494832903340370",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114494832903340370",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114494832903340370",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114494832903340370",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_151h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114513722614186232",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_150h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114513722614186232",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_150h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114513722614186232",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_150h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114513722614186232",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_150h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114513722614186232",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_150h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114517881262391656",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_149h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114517881262391656",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_149h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114517881262391656",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_149h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114517881262391656",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_149h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114517881262391656",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_149h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114563459606269990",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_146h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114563459606269990",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_146h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114563459606269990",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_146h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114563459606269990",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_146h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114563459606269990",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_146h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114570593211425105",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_146h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114570593211425105",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_146h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114570593211425105",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_146h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114570593211425105",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_146h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114570593211425105",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_146h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114578155629592781",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114578155629592781",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114578155629592781",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114578155629592781",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114578155629592781",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114585365965422669",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114585365965422669",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114585365965422669",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114585365965422669",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114585365965422669",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_145h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114619827524616206",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_143h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114619827524616206",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_143h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114619827524616206",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_143h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114619827524616206",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_143h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114619827524616206",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_143h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114658600715211243",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_140h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114658600715211243",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_140h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114658600715211243",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_140h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114658600715211243",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_140h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114658600715211243",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_140h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114662388138160335",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_140h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114662388138160335",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_140h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114662388138160335",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_140h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114662388138160335",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_140h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114662388138160335",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_140h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114668537826652232",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114668537826652232",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114668537826652232",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114668537826652232",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114668537826652232",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114673947719659533",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114673947719659533",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114673947719659533",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114673947719659533",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114673947719659533",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_139h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114684376000905528",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_138h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114684376000905528",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_138h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114684376000905528",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_138h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114684376000905528",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_138h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114684376000905528",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_138h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114691526886666408",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_138h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114691526886666408",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_138h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114691526886666408",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_138h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114691526886666408",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_138h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114691526886666408",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_138h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114699198876844462",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114699198876844462",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114699198876844462",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114699198876844462",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114699198876844462",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114706386378776709",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114706386378776709",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114706386378776709",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114706386378776709",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114706386378776709",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114711520047513848",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114711520047513848",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114711520047513848",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114711520047513848",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114711520047513848",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_137h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114714318059221392",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114714318059221392",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114714318059221392",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114714318059221392",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-26",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114714318059221392",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_136h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114759431678517720",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_133h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114759431678517720",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_133h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114759431678517720",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_133h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114759431678517720",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_133h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114759431678517720",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_133h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114775197022863369",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_132h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114775197022863369",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_132h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114775197022863369",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_132h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114775197022863369",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_132h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114775197022863369",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_132h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114816053452935397",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_130h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114816053452935397",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_130h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114816053452935397",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_130h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114816053452935397",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_130h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114816053452935397",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_130h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114858792022405620",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_127h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114858792022405620",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_127h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114858792022405620",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_127h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114858792022405620",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_127h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114858792022405620",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_127h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114921657076986307",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_123h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114921657076986307",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_123h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114921657076986307",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_123h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114921657076986307",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_123h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114921657076986307",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_123h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114981921986105769",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114981921986105769",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114981921986105769",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114981921986105769",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2114981921986105769",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115042079160369514",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115042079160369514",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115042079160369514",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115042079160369514",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-27",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115042079160369514",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115102495018201289",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115102495018201289",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115102495018201289",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115102495018201289",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115102495018201289",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115162938382434618",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115162938382434618",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115162938382434618",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115162938382434618",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115162938382434618",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115223660458127465",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115223660458127465",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115223660458127465",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115223660458127465",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115223660458127465",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115285054461218916",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115285054461218916",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115285054461218916",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115285054461218916",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115285054461218916",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115398839867965740",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115398839867965740",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115398839867965740",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115398839867965740",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-28",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115398839867965740",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115472878787498066",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115472878787498066",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115472878787498066",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115472878787498066",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115472878787498066",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115477100211884064",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115477100211884064",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115477100211884064",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115477100211884064",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115477100211884064",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115490879230386647",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115490879230386647",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115490879230386647",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115490879230386647",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115490879230386647",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115601171977302161",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115601171977302161",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115601171977302161",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115601171977302161",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115601171977302161",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115684476311470203",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115684476311470203",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115684476311470203",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115684476311470203",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115684476311470203",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115744899316510744",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115744899316510744",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115744899316510744",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115744899316510744",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115744899316510744",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115805360149950969",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115805360149950969",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115805360149950969",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115805360149950969",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-29",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115805360149950969",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115865692541186522",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115865692541186522",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115865692541186522",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115865692541186522",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2115865692541186522",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 72h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116037145727258922",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint late_49h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116037145727258922",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint late_49h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116037145727258922",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint late_49h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116037145727258922",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint late_49h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116037145727258922",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint late_49h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116084639530192909",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116084639530192909",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116084639530192909",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116084639530192909",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116084639530192909",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116123304180465980",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116123304180465980",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116123304180465980",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116123304180465980",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116123304180465980",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116132821517705460",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116132821517705460",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116132821517705460",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116132821517705460",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-30",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116132821517705460",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116214770114469924",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116214770114469924",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116214770114469924",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116214770114469924",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116214770114469924",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116357108430180423",
+"metric": "impressions",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116357108430180423",
+"metric": "likes",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116357108430180423",
+"metric": "replies",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116357108430180423",
+"metric": "reposts",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+},
+{
+"date": "2026-10-31",
+"product": "X",
+"layer": "engagement",
+"source": "X readback",
+"key": "@selawmqt/2116357108430180423",
+"metric": "bookmarks",
+"value": 0,
+"note": "checkpoint 24h read 2026-11-01 15:38 JST"
+}
+]

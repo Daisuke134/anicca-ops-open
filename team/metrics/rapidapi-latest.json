@@ -1,0 +1,10 @@
+{
+ "run_at": "2026-11-12 08:36",
+ "api": "app-store-top-charts-jp-global",
+ "listing_http": 200,
+ "subscribers": "unknown (source error)",
+ "calls_total": "unknown (source error)",
+ "revenue_usd": "unknown (source error)",
+ "source": "rapidapi.com public listing page",
+ "note": "public page has no subscriber/call counts in server HTML; no provider credential on box; calls and revenue need RapidAPI Provider Dashboard (Analytics / Payouts) access"
+}

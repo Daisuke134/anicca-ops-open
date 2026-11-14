@@ -1,0 +1,6 @@
+run_at,day,prev_day,revenue_jpy,revenue_prev,rev_pct,rev_result,diceai0_followers,followers_prev,fol_pct,fol_result,capafy_orders,capafy_prev,cap_pct,cap_result,overall,apify_users,apify_runs,apify_revenue_usd,rapidapi_subscribers,rapidapi_calls,rapidapi_revenue_usd
+2026-11-02 09:14,2026-11-01,2026-10-31,0.78,500.0,-99.8,FAIL,831,674,23.3,PASS,36,136,-73.5,FAIL,FAIL,,,
+2026-11-03 07:35,2026-11-02,2026-11-01,5000.0,0.78,640925.6,PASS,915,831,10.1,PASS,28,95,-70.5,FAIL,PASS,2,7,unknown (source error),unknown (source error),unknown (source error),unknown (source error)
+2026-11-06 04:37,2026-11-05,2026-11-04,0,0,n/a,FAIL,935,935,0.0,FAIL,28,63,-55.6,FAIL,FAIL,2,11,unknown (source error),unknown (source error),unknown (source error),unknown (source error)
+2026-11-10 21:20,2026-11-09,2026-11-08,0,0,n/a,FAIL,955,955,0.0,FAIL,26,33,-21.2,FAIL,FAIL,2,15,unknown (source error),unknown (source error),unknown (source error),unknown (source error)
+2026-11-11 21:24,2026-11-10,2026-11-09,0,0,n/a,FAIL,932,955,-2.4,FAIL,37,26,42.3,PASS,FAIL,2,16,unknown (source error),unknown (source error),unknown (source error),unknown (source error)

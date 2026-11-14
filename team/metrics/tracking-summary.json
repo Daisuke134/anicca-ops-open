@@ -1,0 +1,392 @@
+{
+ "ios": {
+  "date": "2026-11-10",
+  "read_at": "2026-11-12 08:35 JST",
+  "per_app": {
+   "HonneAI": {
+    "rc_revenue_usd": 0.0,
+    "rc_new_trials": 0.0,
+    "rc_new_paid_subs": 0.0,
+    "asc_downloads": "",
+    "asc_proceeds": ""
+   },
+   "BreathReset": {
+    "rc_revenue_usd": 0.0,
+    "rc_new_trials": 0.0,
+    "rc_new_paid_subs": 0.0,
+    "asc_downloads": "",
+    "asc_proceeds": ""
+   },
+   "anicca": {
+    "rc_revenue_usd": 0.0,
+    "rc_new_trials": 0.0,
+    "rc_new_paid_subs": 0.0,
+    "asc_downloads": "",
+    "asc_proceeds": ""
+   },
+   "SleepRitual": {
+    "rc_revenue_usd": 0.0,
+    "rc_new_trials": 0.0,
+    "rc_new_paid_subs": 0.0,
+    "asc_downloads": "",
+    "asc_proceeds": ""
+   },
+   "Desk Stretch Timer": {
+    "rc_revenue_usd": 0.0,
+    "rc_new_trials": 0.0,
+    "rc_new_paid_subs": 0.0,
+    "asc_downloads": "",
+    "asc_proceeds": ""
+   },
+   "Micro Mood": {
+    "rc_revenue_usd": 0.0,
+    "rc_new_trials": 0.0,
+    "rc_new_paid_subs": 0.0,
+    "asc_downloads": "",
+    "asc_proceeds": ""
+   },
+   "Thankful": {
+    "rc_revenue_usd": 0.0,
+    "rc_new_trials": 0.0,
+    "rc_new_paid_subs": 0.0,
+    "asc_downloads": "",
+    "asc_proceeds": ""
+   },
+   "Dhamma": {
+    "rc_revenue_usd": 0.0,
+    "rc_new_trials": 0.0,
+    "rc_new_paid_subs": 0.0,
+    "asc_downloads": "",
+    "asc_proceeds": ""
+   },
+   "Sleep Reset": {
+    "rc_revenue_usd": 0.0,
+    "rc_new_trials": 0.0,
+    "rc_new_paid_subs": 0.0,
+    "asc_downloads": "",
+    "asc_proceeds": ""
+   },
+   "ASC: Daily Affirmations - Anicca": {
+    "rc_revenue_usd": "",
+    "rc_new_trials": "",
+    "rc_new_paid_subs": "",
+    "asc_downloads": 0,
+    "asc_proceeds": 0.0
+   }
+  },
+  "source": "RevenueCat v2 charts + ASC Sales"
+ },
+ "updated_at": "2026-11-12 09:22 JST",
+ "seo": {
+  "read_at": "2026-11-12 08:36 JST",
+  "range": "2026-10-14..2026-11-10",
+  "last7": {
+   "clicks": 5,
+   "impressions": 609
+  },
+  "prev7": {
+   "clicks": 5,
+   "impressions": 249
+  },
+  "days": [
+   {
+    "date": "2026-10-14",
+    "clicks": 0,
+    "impressions": 0,
+    "position": ""
+   },
+   {
+    "date": "2026-10-15",
+    "clicks": 0,
+    "impressions": 0,
+    "position": ""
+   },
+   {
+    "date": "2026-10-16",
+    "clicks": 0,
+    "impressions": 0,
+    "position": ""
+   },
+   {
+    "date": "2026-10-17",
+    "clicks": 0,
+    "impressions": 5,
+    "position": 7.6
+   },
+   {
+    "date": "2026-10-18",
+    "clicks": 0,
+    "impressions": 2,
+    "position": 1
+   },
+   {
+    "date": "2026-10-19",
+    "clicks": 0,
+    "impressions": 3,
+    "position": 7.33
+   },
+   {
+    "date": "2026-10-20",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 51
+   },
+   {
+    "date": "2026-10-21",
+    "clicks": 0,
+    "impressions": 6,
+    "position": 15.33
+   },
+   {
+    "date": "2026-10-22",
+    "clicks": 1,
+    "impressions": 3,
+    "position": 5.67
+   },
+   {
+    "date": "2026-10-23",
+    "clicks": 0,
+    "impressions": 7,
+    "position": 8.43
+   },
+   {
+    "date": "2026-10-24",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 2
+   },
+   {
+    "date": "2026-10-25",
+    "clicks": 0,
+    "impressions": 0,
+    "position": 0
+   },
+   {
+    "date": "2026-10-26",
+    "clicks": 0,
+    "impressions": 4,
+    "position": 3.75
+   },
+   {
+    "date": "2026-10-27",
+    "clicks": 0,
+    "impressions": 7,
+    "position": 7.71
+   },
+   {
+    "date": "2026-10-28",
+    "clicks": 0,
+    "impressions": 11,
+    "position": 12.55
+   },
+   {
+    "date": "2026-10-29",
+    "clicks": 2,
+    "impressions": 5,
+    "position": 7.2
+   },
+   {
+    "date": "2026-10-30",
+    "clicks": 0,
+    "impressions": 13,
+    "position": 18.15
+   },
+   {
+    "date": "2026-10-31",
+    "clicks": 0,
+    "impressions": 26,
+    "position": 11.5
+   },
+   {
+    "date": "2026-11-01",
+    "clicks": 0,
+    "impressions": 41,
+    "position": 11.46
+   },
+   {
+    "date": "2026-11-02",
+    "clicks": 1,
+    "impressions": 65,
+    "position": 26.92
+   },
+   {
+    "date": "2026-11-03",
+    "clicks": 2,
+    "impressions": 88,
+    "position": 13.58
+   },
+   {
+    "date": "2026-11-04",
+    "clicks": 1,
+    "impressions": 122,
+    "position": 13.18
+   },
+   {
+    "date": "2026-11-05",
+    "clicks": 2,
+    "impressions": 99,
+    "position": 13.54
+   },
+   {
+    "date": "2026-11-06",
+    "clicks": 1,
+    "impressions": 79,
+    "position": 14.53
+   },
+   {
+    "date": "2026-11-07",
+    "clicks": 1,
+    "impressions": 95,
+    "position": 12.23
+   },
+   {
+    "date": "2026-11-08",
+    "clicks": 0,
+    "impressions": 95,
+    "position": 15.34
+   },
+   {
+    "date": "2026-11-09",
+    "clicks": 0,
+    "impressions": 119,
+    "position": 24.92
+   },
+   {
+    "date": "2026-11-10",
+    "clicks": 0,
+    "impressions": 0,
+    "position": ""
+   }
+  ],
+  "top_pages": [
+   {
+    "page": "https://aniccaai.com/lm/ja/departure-calculator",
+    "clicks": 3,
+    "impressions": 85,
+    "position": 5
+   },
+   {
+    "page": "https://aniccaai.com/",
+    "clicks": 2,
+    "impressions": 37,
+    "position": 12.43
+   },
+   {
+    "page": "https://aniccaai.com/en",
+    "clicks": 2,
+    "impressions": 176,
+    "position": 7.97
+   },
+   {
+    "page": "https://aniccaai.com/lm/guide/google-calendar-departure-reminder",
+    "clicks": 2,
+    "impressions": 34,
+    "position": 7
+   },
+   {
+    "page": "https://aniccaai.com/blog/youtube-educational-video-script",
+    "clicks": 1,
+    "impressions": 2,
+    "position": 4
+   }
+  ],
+  "source": "Google Search Console searchAnalytics sc property https://aniccaai.com/"
+ },
+ "capafy": {
+  "read_at": "2026-11-11 21:21 JST",
+  "listing_views": "unknown (source error: Capafy publisher API has no views endpoint; /agent/analytics/* returned code 500; Seller Console analytics page needs a web login read)",
+  "last7_orders": 216,
+  "last7_gross_usd": 29.97,
+  "mtd_orders": 513,
+  "mtd_gross_usd": 62.94,
+  "payout": {
+   "balancePending": 29.2,
+   "balanceConfirmed": 20.4,
+   "balancePayout": 83.78,
+   "totalPayout": 0.0
+  },
+  "note": "gross = Capafy-recorded buyer payments; not bank-received until totalPayout>0 (notices.csv 通知のみ・未入金)",
+  "source": "api.capafy.ai publisher API"
+ },
+ "posts": {
+  "read_at": "2026-11-12 09:21 JST",
+  "rows": 9263,
+  "top": [
+   {
+    "platform": "tiktok",
+    "account": "honnevideo",
+    "post_url": "https://www.tiktok.com/@honnevideo/photo/7705265545704197428",
+    "views": "10802",
+    "likes": "72",
+    "saves": "unknown (source error: Postiz tiktok analytics has no saves field)",
+    "checkpoint": "72h"
+   },
+   {
+    "platform": "x",
+    "account": "@diceai0",
+    "post_url": "https://x.com/diceai0/status/2116311371772289130",
+    "views": "4956",
+    "likes": "218",
+    "saves": "4",
+    "checkpoint": "24h"
+   },
+   {
+    "platform": "tiktok",
+    "account": "honnevideo",
+    "post_url": "https://www.tiktok.com/@honnevideo/photo/7705065689492688149",
+    "views": "4098",
+    "likes": "33",
+    "saves": "unknown (source error: Postiz tiktok analytics has no saves field)",
+    "checkpoint": "72h"
+   },
+   {
+    "platform": "tiktok",
+    "account": "honnevideo",
+    "post_url": "https://www.tiktok.com/@honnevideo/photo/7705397875055791366",
+    "views": "3522",
+    "likes": "44",
+    "saves": "unknown (source error: Postiz tiktok analytics has no saves field)",
+    "checkpoint": "72h"
+   },
+   {
+    "platform": "x",
+    "account": "diceai0",
+    "post_url": "https://x.com/diceai0/status/2116816037991825868",
+    "views": "2622",
+    "likes": "92",
+    "saves": "1",
+    "checkpoint": "72h"
+   },
+   {
+    "platform": "tiktok",
+    "account": "anicca.jp4",
+    "post_url": "https://www.tiktok.com/@anicca.jp4/photo/7704131887647821077",
+    "views": "2580",
+    "likes": "103",
+    "saves": "unknown (source error: Postiz tiktok analytics has no saves field)",
+    "checkpoint": "late_50h"
+   },
+   {
+    "platform": "tiktok",
+    "account": "anicca.jp4",
+    "post_url": "https://www.tiktok.com/@anicca.jp4/photo/7704145668876651797",
+    "views": "2255",
+    "likes": "80",
+    "saves": "unknown (source error: Postiz tiktok analytics has no saves field)",
+    "checkpoint": "late_50h"
+   },
+   {
+    "platform": "x",
+    "account": "diceai0",
+    "post_url": "https://x.com/diceai0/status/2116402708857180518",
+    "views": "2208",
+    "likes": "73",
+    "saves": "1",
+    "checkpoint": "24h"
+   }
+  ],
+  "tiktok_postlog_last": "2026-11-11 07:55",
+  "note": "TikTok: POST-LOG has 1 row (10/27, postiz id). TikTok metrics only via Postiz analytics (views/likes/comments/shares; no saves); no TikTok Display API token on box.",
+  "source": "X API v2, YouTube Data API v3, Postiz analytics"
+ }
+}

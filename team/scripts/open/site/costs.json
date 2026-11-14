@@ -1,0 +1,90 @@
+{
+ "updated_at": "2026-10-30 17:17 JST",
+ "basis": "Latest documented company subscriptions at 156.84 JPY/USD (finance/SUBSCRIPTIONS.md, 2026-10-30). Last billed usage is a proxy, not a confirmed November invoice. Includes $107.47 of extra charges whose recurrence is unconfirmed; proposed cuts remain included until cancellation is confirmed.",
+ "items": [
+  {
+   "name": "Grok Bot + Cursor (X Super)",
+   "use": "AI agent team",
+   "monthly_usd": 113.49,
+   "status": "active"
+  },
+  {
+   "name": "ChatGPT Pro (Codex, Dots)",
+   "use": "AI agents: engineering, operations",
+   "monthly_usd": 191.28,
+   "status": "active"
+  },
+  {
+   "name": "ChatGPT extra charges (2, under review)",
+   "use": "Oct 22 + Oct 24 charges; plan being checked",
+   "monthly_usd": 107.47,
+   "status": "under review"
+  },
+  {
+   "name": "Postiz",
+   "use": "social posting (moving to self-host)",
+   "monthly_usd": 50.6,
+   "status": "active"
+  },
+  {
+   "name": "HeyGen",
+   "use": "monk videos",
+   "monthly_usd": 28.69,
+   "status": "active"
+  },
+  {
+   "name": "Railway",
+   "use": "hosting (usage)",
+   "monthly_usd": 23.95,
+   "status": "active"
+  },
+  {
+   "name": "Replit",
+   "use": "dev tools - still billing, being cut",
+   "monthly_usd": 20.93,
+   "status": "cutting"
+  },
+  {
+   "name": "Telnyx",
+   "use": "phone (usage)",
+   "monthly_usd": 20.84,
+   "status": "active"
+  },
+  {
+   "name": "X Premium",
+   "use": "duplicate of X Super - being cut",
+   "monthly_usd": 5.85,
+   "status": "cutting"
+  },
+  {
+   "name": "Cursor usage",
+   "use": "coding",
+   "monthly_usd": 0.68,
+   "status": "active"
+  },
+  {
+   "name": "Adobe",
+   "use": "Still billing; cancellation not confirmed",
+   "monthly_usd": 31.75,
+   "status": "cancellation unconfirmed"
+  },
+  {
+   "name": "Hetzner",
+   "use": "Hosting; service use under review",
+   "monthly_usd": 1.61,
+   "status": "active"
+  }
+ ],
+ "total_monthly_usd": 597.14,
+ "revenue_last30d_usd": 203.86,
+ "gross_profit_monthly_usd": -393.28,
+ "unknown": "Excluded from this subtotal: current Google Cloud/Gemini usage (last monthly charge JPY 27,889), DigitalOcean status, prepaid and on-demand purchases, annual renewals without a confirmed company renewal, and other unverified bills. This is not a complete company burn estimate.",
+ "confirmed_subset_monthly_usd": 489.67,
+ "one_off": [
+  {
+   "name": "HeyGen API credits",
+   "use": "One-off purchase; excluded from recurring subtotal",
+   "amount_usd": 10.39
+  }
+ ]
+}

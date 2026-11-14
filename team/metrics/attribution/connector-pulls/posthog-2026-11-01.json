@@ -1,0 +1,152 @@
+[
+{
+"date": "2026-10-31",
+"product": "Anicca(PostHog app)",
+"layer": "installs",
+"source": "PostHog",
+"key": "Application Installed",
+"metric": "first_open",
+"value": 1,
+"note": "no ct on install event; 8 Application Opened"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(PostHog app)",
+"layer": "installs",
+"source": "PostHog",
+"key": "Application Installed",
+"metric": "first_open",
+"value": 1,
+"note": "partial day to 15:5x JST; 5 Application Opened"
+},
+{
+"date": "2026-10-31",
+"product": "Anicca(PostHog app)",
+"layer": "paid",
+"source": "PostHog",
+"key": "paywall_purchased",
+"metric": "purchases",
+"value": 0,
+"note": "none 10/28-11/01"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/mastodon_aniccaapp_bio",
+"metric": "taps",
+"value": 41,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/mastodon_anicca_affirm_bio",
+"metric": "taps",
+"value": 24,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/instagram_ani.cca1234_bio",
+"metric": "taps",
+"value": 14,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/instagram_anicca.en_bio",
+"metric": "taps",
+"value": 10,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/instagram_anicca.ios.jp_bio",
+"metric": "taps",
+"value": 9,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/instagram_anicca.jp.videos_bio",
+"metric": "taps",
+"value": 8,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/youtube_anicca-ai_bio",
+"metric": "taps",
+"value": 5,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/tumblr_dailyanicca_bio",
+"metric": "taps",
+"value": 3,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/bluesky_aniccaapp_bio",
+"metric": "taps",
+"value": 3,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/bluesky_anicca-affirm_bio",
+"metric": "taps",
+"value": 3,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/tiktok_anicca.jp_bio",
+"metric": "taps",
+"value": 1,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+},
+{
+"date": "2026-11-01",
+"product": "Anicca(web)",
+"layer": "taps",
+"source": "PostHog",
+"key": "app_store_click/tiktok_aniccaen2_bio",
+"metric": "taps",
+"value": 1,
+"note": "server-side capture from US/Columbus (16 IPs, new person per tap): likely link-preview/self-check bots, not proven human (pulled 11/1 15:5x)"
+}
+]

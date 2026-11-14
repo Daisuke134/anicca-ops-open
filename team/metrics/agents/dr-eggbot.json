@@ -1,0 +1,40 @@
+{
+ "date": "2026-10-31",
+ "generated_at_jst": "2026-10-31T18:47:00+09:00",
+ "accounts": [
+  {
+   "platform": "coconala",
+   "item": "order 18521371 (30-item trial)",
+   "revenue_jpy": 500,
+   "stage": "納品中（day1 10件納品済み、修正待ち）",
+   "source": "/workspace/team/BOARD.md"
+  },
+  {
+   "platform": "upwork",
+   "item": "LBLX134 Japanese transcription (Labelbox / Alignerr hourly $10-35)",
+   "revenue_usd": 0,
+   "stage": "契約Active・Alignerr合格、Persona ID待ち",
+   "source": "https://www.upwork.com/nx/wm/workroom/44797350/overview"
+  },
+  {
+   "platform": "upwork",
+   "item": "applications today",
+   "count": 3,
+   "connects": 62,
+   "stage": "10/31 18:14 3件送信（25 Connects）",
+   "source": "/workspace/team/BOARD.md"
+  },
+  {
+   "platform": "lancers",
+   "item": "project 5622583 monitor (¥1,000)",
+   "revenue_jpy": 0,
+   "stage": "客が選択・承認待ち（22:30 回で判断）",
+   "source": "https://www.lancers.jp/project/approval/start/5622583?purpose=lancer"
+  }
+ ],
+ "spend_usd": 12.0,
+ "spend_note": "Upwork 80 Connects 2026-10-27",
+ "notes": [
+  "18:47 coconala-lancers-loop: Lancers proposal 5622594 ¥60,000; 5621278 declined; Coconala 0"
+ ]
+}

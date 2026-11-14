@@ -1,0 +1,149 @@
+{
+ "_doc": "Measured from the live en-US 'I am - Daily Affirmations' (id 874656917) screenshots, 9 slides, 1242x2688 (APP_IPHONE_65), fetched 2026-11-11 14:35 JST via iTunes lookup screenshotUrls at max size. Measurement script: anicca-aso/v2tools/measure.py; raw per-slide numbers in anicca-aso/iam-live/measurements.json. All coordinates in px at base canvas 1242x2688; other sizes scale uniformly by k = width/1242.",
+ "source": {
+  "app_id": 874656917,
+  "store": "us",
+  "slides": 9,
+  "files": "anicca-aso/iam-live/iam_{1..9}.png"
+ },
+ "canvas": {
+  "width": 1242,
+  "height": 2688,
+  "asc_display_type": "APP_IPHONE_65"
+ },
+ "background": {
+  "type": "solid",
+  "palette": {
+   "light": [
+    235,
+    222,
+    214
+   ],
+   "mauve": [
+    123,
+    103,
+    101
+   ],
+   "dark": [
+    68,
+    54,
+    52
+   ]
+  },
+  "sequence_iam_1_to_9": [
+   "light",
+   "mauve",
+   "light",
+   "light",
+   "dark",
+   "light",
+   "dark",
+   "light",
+   "light"
+  ]
+ },
+ "headline": {
+  "font_family_nearest_free": "Red Hat Display (OFL, Google Fonts) variable wght=700",
+  "font_fit": "18 OFL grotesks searched on glyph metrics of I am slide 2: I am x-height 62 / cap P 84 / ascender l 87 / stem 15 px; Red Hat Display 700@122 = 62/85/87/15 px; 'Personalized' width 708 vs 717, 'affirmations' 690 vs 689. Sora 575@112 (v2 draft) had ascender 82 (-5px) so was rejected. Final render: 120px / wght 725 = best joint fit of measured x-height (with overshoot, same measurer) and ascender, both within 2px.",
+  "font_size_px": 120,
+  "weight": 725,
+  "stem_width_px": 15,
+  "line_count": 2,
+  "alignment": "center",
+  "center_x": 621,
+  "line1_ascender_top_y": 207,
+  "line1_baseline_y": 295,
+  "line_pitch_px": 129.5,
+  "descender_px": 26,
+  "max_line_width_px": 920,
+  "text_color_on_light": [
+   68,
+   54,
+   51
+  ],
+  "text_color_on_mauve": [
+   255,
+   255,
+   255
+  ],
+  "text_color_on_dark": [
+   255,
+   255,
+   255
+  ],
+  "text_color_on_dark_alt": [
+   235,
+   222,
+   214
+  ],
+  "letter_spacing": 0,
+  "line2_baseline_y": 424.5,
+  "baseline_method": "first row below rows whose ink count >= 35% of the line median (measure.py)",
+  "x_height_px": 62,
+  "cap_height_px": 84,
+  "ascender_px": 87
+ },
+ "device": {
+  "style": "flat white device outline, no glare/shadow, bleeds off the bottom edge",
+  "outer_top_y": 582,
+  "outer_left_x": 56,
+  "outer_right_x": 1186,
+  "outer_width": 1131,
+  "outer_corner_radius": 194,
+  "corner_fit_error_px": 0.65,
+  "frame_color": [
+   255,
+   255,
+   255
+  ],
+  "bezel_top_px": 42,
+  "bezel_side_px": 48,
+  "screen": {
+   "left": 104,
+   "top": 624,
+   "right": 1138,
+   "width": 1035,
+   "corner_radius": 146,
+   "visible_height": 2064
+  },
+  "side_buttons": {
+   "width_px": 9,
+   "left": [
+    {
+     "y_from_top": 447,
+     "h": 88
+    },
+    {
+     "y_from_top": 616,
+     "h": 177
+    },
+    {
+     "y_from_top": 842,
+     "h": 176
+    }
+   ],
+   "right": [
+    {
+     "y_from_top": 738,
+     "h": 280
+    }
+   ],
+   "left_x": [
+    47,
+    56
+   ],
+   "right_x": [
+    1186,
+    1195
+   ],
+   "corner_radius": 4
+  }
+ },
+ "margins": {
+  "headline_top": 207,
+  "headline_to_device_gap": 156,
+  "device_side": 56
+ },
+ "status_bar_in_screen": true,
+ "notes": "I am slide 1 overlays notification cards outside the frame (illustrative content, not copied). Slide 6 frame sits 12px lower (594) - treated as outlier; median 582 used."
+}

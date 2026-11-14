@@ -1,0 +1,3677 @@
+{
+ "built_at": "2026-11-12T08:58:58.229802+09:00",
+ "window_start": "2026-11-01T23:58:58Z",
+ "window_end": "2026-11-10T23:58:58Z",
+ "selection": "up to 5 most recent published posts per connected account; posts older than 24 hours",
+ "posts": {
+  "cmwbc99uv0rebn306ahbz9gib": {
+   "views": 2,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 2
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "X",
+   "account": "selawmqt",
+   "t": "2026-11-10T23:46:00.000Z",
+   "url": "https://twitter.com/selawmqt/status/2120302074160193556"
+  },
+  "cmw9yqyxi0tmgp607io21nglx": {
+   "views": 2,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 2
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "X",
+   "account": "selawmqt",
+   "t": "2026-11-10T00:40:00.000Z",
+   "url": "https://twitter.com/selawmqt/status/2119953295473099028"
+  },
+  "cmvzvw5k30n3ums06qpvh9k56": {
+   "views": 6,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 6
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "X",
+   "account": "selawmqt",
+   "t": "2026-11-03T09:00:00.000Z",
+   "url": "https://twitter.com/selawmqt/status/2117542478140121196"
+  },
+  "cmvzvw43m0mzeqm082yf6dzbe": {
+   "views": 12,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 12
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "X",
+   "account": "selawmqt",
+   "t": "2026-11-03T03:00:00.000Z",
+   "url": "https://twitter.com/selawmqt/status/2117451922659537140"
+  },
+  "cmvzvw2u70mzdqm08vm5kzmr3": {
+   "views": 3,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 3
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "X",
+   "account": "selawmqt",
+   "t": "2026-11-03T00:00:00.000Z",
+   "url": "https://twitter.com/selawmqt/status/2117406924312388033"
+  },
+  "cmwbaem700q3zn306i49l6of7": {
+   "views": 1,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "Instagram",
+   "account": "obou.anicca",
+   "t": "2026-11-10T22:54:00.000Z",
+   "url": "https://www.instagram.com/reel/DflBpu5kkLV/"
+  },
+  "cmwao04b707q5n306igxo65v7": {
+   "views": 2,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 2
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "Instagram",
+   "account": "obou.anicca",
+   "t": "2026-11-10T12:27:00.000Z",
+   "url": "https://www.instagram.com/reel/Dfj54qykt0u/"
+  },
+  "cmw9v3y9m0ptunv07elm9w55y": {
+   "views": 0,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "Instagram",
+   "account": "obou.anicca",
+   "t": "2026-11-09T22:58:00.000Z",
+   "url": "https://www.instagram.com/reel/DfidYIXHLAw/"
+  },
+  "cmw6ln67k02eeql0722li3v12": {
+   "views": 0,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "Instagram",
+   "account": "obou.anicca",
+   "t": "2026-11-07T16:09:53.000Z",
+   "url": "https://www.instagram.com/reel/DfclAYpiiWP/"
+  },
+  "cmw5kqq8x0sm7mm08na2ijajb": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "Instagram",
+   "account": "obou.anicca",
+   "t": "2026-11-06T22:56:00.000Z",
+   "url": "https://www.instagram.com/reel/Dfau2J5GVxX/"
+  },
+  "cmwbaem6o0q3yn306k4xnak6t": {
+   "views": 0,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "TikTok",
+   "account": "obou_anicca",
+   "t": "2026-11-10T22:54:00.000Z",
+   "url": "https://www.tiktok.com/@obou_anicca"
+  },
+  "cmw9v3y9a0pttnv07f59a34mt": {
+   "views": 0,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "obou_anicca",
+   "t": "2026-11-09T22:58:00.000Z",
+   "url": "https://www.tiktok.com/@obou_anicca/video/7706309912753704213"
+  },
+  "cmw9ihyc70erenv07j4nxdloa": {
+   "views": 0,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "obou_anicca",
+   "t": "2026-11-09T17:05:06.000Z",
+   "url": "https://www.tiktok.com/@obou_anicca/video/7706219433584381205"
+  },
+  "cmw6mbu4l0064k707dgd36yth": {
+   "views": 0,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "obou_anicca",
+   "t": "2026-11-08T08:30:00.000Z",
+   "url": "https://www.tiktok.com/@obou_anicca/video/7705715061830192402"
+  },
+  "cmw6m7gwy0035p308bovh9kra": {
+   "views": 0,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "obou_anicca",
+   "t": "2026-11-08T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@obou_anicca/video/7705637767920897287"
+  },
+  "cmwask2h10cf7n3061awyqrru": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "TikTok",
+   "account": "anicca_buddha",
+   "t": "2026-11-10T14:34:00.000Z",
+   "url": "https://www.tiktok.com/@anicca_buddha"
+  },
+  "cmwagvyz0009fn306adsm4t37": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "TikTok",
+   "account": "anicca_buddha",
+   "t": "2026-11-10T09:07:48.000Z",
+   "url": "https://www.tiktok.com/@anicca_buddha/video/7706467020518329620"
+  },
+  "cmwags3ge0034n306uie6n47h": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "TikTok",
+   "account": "anicca_buddha",
+   "t": "2026-11-10T09:04:49.000Z",
+   "url": "https://www.tiktok.com/@anicca_buddha/video/7706466235243842837"
+  },
+  "cmw66x4w7154coj07vgfeprr0": {
+   "views": 275,
+   "likes": 4,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 275
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 4
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca_buddha",
+   "t": "2026-11-07T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@anicca_buddha/photo/7705397521266380084"
+  },
+  "cmw5nmaee0vdjoj07rcilzd52": {
+   "views": 130,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 130
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca_buddha",
+   "t": "2026-11-07T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca_buddha/photo/7705265461440662785"
+  },
+  "cmwakdwsv03wen306ujrvwiju": {
+   "views": 744,
+   "likes": 18,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 744
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 18
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jp4",
+   "t": "2026-11-10T10:45:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jp4/video/7706492231036816648"
+  },
+  "cmw66qcxc14k1mm08trhauosu": {
+   "views": 987,
+   "likes": 36,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 987
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 36
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jp4",
+   "t": "2026-11-07T14:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jp4/photo/7705436769440828692"
+  },
+  "cmw66qwwm14k7mm08ta8i58my": {
+   "views": 1025,
+   "likes": 30,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 1025
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 30
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jp4",
+   "t": "2026-11-07T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jp4/photo/7705397537871596852"
+  },
+  "cmw62h74613gyoj075qe6vynj": {
+   "views": 1099,
+   "likes": 45,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 1099
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 45
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jp4",
+   "t": "2026-11-07T08:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jp4/photo/7705343029409860916"
+  },
+  "cmw5o2gom0v4dmm089932dqaq": {
+   "views": 966,
+   "likes": 24,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 966
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 24
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jp4",
+   "t": "2026-11-07T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jp4/photo/7705266660176973057"
+  },
+  "cmwakdvw803w9n306vv8clbde": {
+   "views": 212,
+   "likes": 2,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 212
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 2
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jp",
+   "t": "2026-11-10T10:45:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jp/video/7706492222224747784"
+  },
+  "cmw66qbzb14k0mm08fjzxxpyz": {
+   "views": 859,
+   "likes": 20,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 859
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 20
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jp",
+   "t": "2026-11-07T14:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jp/photo/7705436764617346324"
+  },
+  "cmw66qvwy1518oj07qnvp9yiy": {
+   "views": 920,
+   "likes": 25,
+   "replies": 1,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 920
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 25
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jp",
+   "t": "2026-11-07T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jp/photo/7705398207668374805"
+  },
+  "cmw62h5z613gxoj07z39hu5d1": {
+   "views": 471,
+   "likes": 17,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 471
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 17
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jp",
+   "t": "2026-11-07T08:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jp/photo/7705343980862590228"
+  },
+  "cmw5o2flk0vpfoj07bc2pk7vf": {
+   "views": 601,
+   "likes": 30,
+   "replies": 0,
+   "reposts": 2,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 601
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 30
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 2
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jp",
+   "t": "2026-11-07T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jp/photo/7705266673913285909"
+  },
+  "cmwajxfx103irpq07otfg840j": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "linkedin",
+   "account": "daisuke-narita",
+   "t": "2026-11-10T10:44:00.000Z",
+   "url": "https://www.linkedin.com/feed/update/urn:li:share:7525870959916945408"
+  },
+  "cmwaaotet11uynv07sq9hquwm": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "linkedin",
+   "account": "daisuke-narita",
+   "t": "2026-11-10T06:20:00.000Z",
+   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7525804611325296642"
+  },
+  "cmw7xfqzn0rywk707217m13dq": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "linkedin",
+   "account": "daisuke-narita",
+   "t": "2026-11-09T21:00:00.000Z",
+   "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7525664056352079872"
+  },
+  "cmw7vbjg90ou6p308lvgqn7n5": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "linkedin",
+   "account": "daisuke-narita",
+   "t": "2026-11-09T11:48:00.000Z",
+   "url": "https://www.linkedin.com/feed/update/urn:li:share:7525524677616771072"
+  },
+  "cmw7vbi5a0q59k7079mebomvn": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "linkedin",
+   "account": "daisuke-narita",
+   "t": "2026-11-09T03:30:00.000Z",
+   "url": "https://www.linkedin.com/feed/update/urn:li:share:7525399499633053696"
+  },
+  "cmw6lfiz6028kql07kh1qge34": {
+   "views": 1,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "YouTube",
+   "account": "@anicca-affirmation-video",
+   "t": "2026-11-10T09:05:00.000Z",
+   "url": "https://www.youtube.com/watch?v=sYONPlEhqkg"
+  },
+  "cmw6lfabm01wimt08srg8fbwj": {
+   "views": 1,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "YouTube",
+   "account": "@anicca-affirmation-video",
+   "t": "2026-11-09T15:05:00.000Z",
+   "url": "https://www.youtube.com/watch?v=oSaxkBNMLDM"
+  },
+  "cmw6lf6ft01wcmt089hm1gokl": {
+   "views": 0,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "YouTube",
+   "account": "@anicca-affirmation-video",
+   "t": "2026-11-09T09:05:00.000Z",
+   "url": "https://www.youtube.com/watch?v=Qs-0Fnv605Q"
+  },
+  "cmw84e3as0507pm07tqvoxqze": {
+   "views": 23,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 23
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "YouTube",
+   "account": "@anicca-affirmation-video",
+   "t": "2026-11-08T17:42:00.000Z",
+   "url": "https://www.youtube.com/watch?v=cBGFp9UE58Q"
+  },
+  "cmw82pjqq03srof06i165tzen": {
+   "views": 12,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 12
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "YouTube",
+   "account": "@anicca-affirmation-video",
+   "t": "2026-11-08T17:10:00.000Z",
+   "url": "https://www.youtube.com/watch?v=IXNVSSTItCQ"
+  },
+  "cmwaeq5o014l9nv07z7hvb7e4": {
+   "views": 135,
+   "likes": 5,
+   "replies": 1,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 135
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 5
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "X",
+   "account": "diceai0",
+   "t": "2026-11-10T08:07:00.000Z",
+   "url": "https://twitter.com/diceai0/status/2120065854222004388"
+  },
+  "cmwaeif6p14g1nv07yadaqdcc": {
+   "views": 43,
+   "likes": 1,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 43
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "X",
+   "account": "diceai0",
+   "t": "2026-11-10T08:01:00.000Z",
+   "url": "https://twitter.com/diceai0/status/2120064477810852094"
+  },
+  "cmwabm97h12lanv07gr36pkie": {
+   "views": 259,
+   "likes": 7,
+   "replies": 3,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 259
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 7
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 3
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "X",
+   "account": "diceai0",
+   "t": "2026-11-10T06:40:18.000Z",
+   "url": "https://twitter.com/diceai0/status/2120043981560037857"
+  },
+  "cmw89gfns08t9pm07kqg4uy1d": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "X",
+   "account": "diceai0",
+   "t": "2026-11-08T20:06:15.000Z",
+   "url": "https://twitter.com/diceai0/status/2119522094815867014"
+  },
+  "cmw7yn6jq00qcpm079jabmfgj": {
+   "views": 116,
+   "likes": 2,
+   "replies": 4,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 116
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 2
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 4
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "X",
+   "account": "diceai0",
+   "t": "2026-11-08T15:07:00.000Z",
+   "url": "https://twitter.com/diceai0/status/2119446702901936330"
+  },
+  "cmwa5i1ng0z8yp60740h58258": {
+   "views": 1,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "YouTube",
+   "account": "@anicca-ai",
+   "t": "2026-11-10T08:05:00.000Z",
+   "url": "https://www.youtube.com/watch?v=xexpTy4kgnU"
+  },
+  "cmw8pubs00k53pm07548x8wwy": {
+   "views": 0,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "YouTube",
+   "account": "@anicca-ai",
+   "t": "2026-11-09T08:05:00.000Z",
+   "url": "https://www.youtube.com/watch?v=aF1z0ZlI9lM"
+  },
+  "cmw62ika413hooj0794r5dy3n": {
+   "views": 0,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "YouTube",
+   "account": "@anicca-ai",
+   "t": "2026-11-07T08:05:00.000Z",
+   "url": "https://www.youtube.com/watch?v=RBvSFzwAWNs"
+  },
+  "cmw595p4j0kufoj07woe3hoqz": {
+   "views": 3,
+   "likes": 0,
+   "replies": 0,
+   "reposts": null,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 3
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "YouTube",
+   "account": "@anicca-ai",
+   "t": "2026-11-06T17:31:00.000Z",
+   "url": "https://www.youtube.com/watch?v=DorHM5WBHG0"
+  },
+  "cmw4ry46w0774oj07cq4k1hv0": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "YouTube",
+   "account": "@anicca-ai",
+   "t": "2026-11-06T09:40:00.000Z",
+   "url": "https://www.youtube.com/watch?v=CXzSPrf5ZJg"
+  },
+  "cmwa5mkjd0zd6p607p7q2kzwl": {
+   "views": 107,
+   "likes": 20,
+   "replies": 1,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 107
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 20
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-12T08:58:58.229802+09:00",
+   "platform": "TikTok",
+   "account": "monk_anicca",
+   "t": "2026-11-10T03:55:35.000Z",
+   "url": "https://www.tiktok.com/@monk_anicca/video/7706386553920146708"
+  },
+  "cmw8pt0480k4ipm07jbgz1tyk": {
+   "views": 207,
+   "likes": 26,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 207
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 26
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "monk_anicca",
+   "t": "2026-11-09T03:41:00.000Z",
+   "url": "https://www.tiktok.com/@monk_anicca/video/7706011930556632340"
+  },
+  "cmw7hsx110j8xk707uo30ywd5": {
+   "views": 295,
+   "likes": 52,
+   "replies": 1,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 295
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 52
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "monk_anicca",
+   "t": "2026-11-08T07:12:00.000Z",
+   "url": "https://www.tiktok.com/@monk_anicca/video/7705694959072070920"
+  },
+  "cmw6mbss4005rp308puxdw9dm": {
+   "views": 225,
+   "likes": 30,
+   "replies": 1,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 225
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 30
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "monk_anicca",
+   "t": "2026-11-07T16:29:02.000Z",
+   "url": "https://www.tiktok.com/@monk_anicca/video/7705467431526927623"
+  },
+  "cmw5nxema0v16mm08vynhzmc0": {
+   "views": 124,
+   "likes": 18,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 124
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 18
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "monk_anicca",
+   "t": "2026-11-07T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@monk_anicca/video/7705265656677092614"
+  },
+  "cmw89p9a4096mof06ro99n9vv": {
+   "views": 213,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 213
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "aniccaaffirmation",
+   "t": "2026-11-08T20:13:06.000Z",
+   "url": "https://www.tiktok.com/@aniccaaffirmation/video/7705896244480134420"
+  },
+  "cmw66wx691543oj07362mrpql": {
+   "views": 225,
+   "likes": 5,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 225
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 5
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "aniccaaffirmation",
+   "t": "2026-11-07T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@aniccaaffirmation/photo/7705398144653200660"
+  },
+  "cmw5o63pj0v68mm08tm9ytnb9": {
+   "views": 246,
+   "likes": 4,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 246
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 4
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "aniccaaffirmation",
+   "t": "2026-11-07T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@aniccaaffirmation/photo/7705266647422078229"
+  },
+  "cmw5jvzay0sleoj074oahj40n": {
+   "views": 200,
+   "likes": 4,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 200
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 4
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "aniccaaffirmation",
+   "t": "2026-11-07T00:30:00.000Z",
+   "url": "https://www.tiktok.com/@aniccaaffirmation/photo/7705220291898641684"
+  },
+  "cmw5d3ky10nueoj07kykfsr5c": {
+   "views": 186,
+   "likes": 4,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 186
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 4
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "aniccaaffirmation",
+   "t": "2026-11-06T20:30:00.000Z",
+   "url": "https://www.tiktok.com/@aniccaaffirmation/photo/7705158479161347348"
+  },
+  "cmw89maiq0950of06z9m5bjfo": {
+   "views": null,
+   "likes": null,
+   "replies": null,
+   "reposts": null,
+   "metric_periods": {
+    "views": null,
+    "likes": null,
+    "replies": null,
+    "reposts": null
+   },
+   "metric_series": {
+    "views": [],
+    "likes": [],
+    "replies": [],
+    "reposts": []
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "Instagram",
+   "account": "monk.mujo",
+   "t": "2026-11-08T20:10:49.000Z",
+   "url": "https://www.instagram.com/reel/DfflXOoCRNI/"
+  },
+  "cmw6mbthc005sp308iov247m1": {
+   "views": 10,
+   "likes": 2,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 10
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 2
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "Instagram",
+   "account": "monk.mujo",
+   "t": "2026-11-07T16:29:02.000Z",
+   "url": "https://www.instagram.com/reel/DfcnSsEgnxQ/"
+  },
+  "cmw6kq06g01p7ql074qqxgjns": {
+   "views": 2013,
+   "likes": 18,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 2013
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 18
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "honnevideo",
+   "t": "2026-11-07T15:57:00.000Z",
+   "url": "https://www.tiktok.com/@honnevideo/photo/7705459168328666388"
+  },
+  "cmw6kpweq01p1ql07vhnqo0nm": {
+   "views": 1396,
+   "likes": 9,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 1396
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 9
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "honnevideo",
+   "t": "2026-11-07T15:52:00.000Z",
+   "url": "https://www.tiktok.com/@honnevideo/photo/7705457883043204372"
+  },
+  "cmw66r02e151aoj072xncdbfh": {
+   "views": 3522,
+   "likes": 44,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 3522
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 44
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "honnevideo",
+   "t": "2026-11-07T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@honnevideo/photo/7705397875055791366"
+  },
+  "cmw5o2lz20v4jmm089qxto3qd": {
+   "views": 10802,
+   "likes": 72,
+   "replies": 0,
+   "reposts": 2,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 10802
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 72
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 2
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "honnevideo",
+   "t": "2026-11-07T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@honnevideo/photo/7705265545704197428"
+  },
+  "cmw4n3gzq04ehoj078bq1bhwf": {
+   "views": 4098,
+   "likes": 33,
+   "replies": 1,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 4098
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 33
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "honnevideo",
+   "t": "2026-11-06T14:30:00.000Z",
+   "url": "https://www.tiktok.com/@honnevideo/photo/7705065689492688149"
+  },
+  "cmw66qey31515oj07zwz6qsir": {
+   "views": 941,
+   "likes": 12,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 941
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 12
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.he",
+   "t": "2026-11-07T14:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.he/photo/7705436785999875348"
+  },
+  "cmw66qz6r1519oj07mhkf1s6t": {
+   "views": 953,
+   "likes": 30,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 953
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 30
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.he",
+   "t": "2026-11-07T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.he/photo/7705398153490599188"
+  },
+  "cmw62h9ah12jrmm08qcmbxp3h": {
+   "views": 853,
+   "likes": 28,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 853
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 28
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.he",
+   "t": "2026-11-07T08:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.he/photo/7705343391080516916"
+  },
+  "cmw5o2l2y0vpooj074dr17b60": {
+   "views": 1800,
+   "likes": 62,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 1800
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 62
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.he",
+   "t": "2026-11-07T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.he/photo/7705265510836899078"
+  },
+  "cmw4n3flj04k0mm08wnwrupub": {
+   "views": 1038,
+   "likes": 20,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 1038
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 20
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.he",
+   "t": "2026-11-06T14:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.he/photo/7705065684316818708"
+  },
+  "cmw66qe1s14k3mm0825qaiohn": {
+   "views": 994,
+   "likes": 40,
+   "replies": 0,
+   "reposts": 2,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 994
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 40
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 2
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jpx",
+   "t": "2026-11-07T14:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jpx/photo/7705436160004328756"
+  },
+  "cmw66qxut14k8mm08oeerey4y": {
+   "views": 924,
+   "likes": 17,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 924
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 17
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jpx",
+   "t": "2026-11-07T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jpx/photo/7705398096255044865"
+  },
+  "cmw62h86812jqmm08pitqezpl": {
+   "views": 950,
+   "likes": 31,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 950
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 31
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jpx",
+   "t": "2026-11-07T08:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jpx/photo/7705343070283336966"
+  },
+  "cmw5o2hl40v4fmm08mohxip4v": {
+   "views": 957,
+   "likes": 24,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 957
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 24
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jpx",
+   "t": "2026-11-07T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jpx/photo/7705265715850267956"
+  },
+  "cmw4n3e1p04jymm08tpchdl8z": {
+   "views": 919,
+   "likes": 18,
+   "replies": 0,
+   "reposts": 1,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 919
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 18
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca.jpx",
+   "t": "2026-11-06T14:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca.jpx/photo/7705065679078034709"
+  },
+  "cmw66x3ot154aoj07uhkg0bel": {
+   "views": 184,
+   "likes": 8,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 184
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 8
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "honne_reveal",
+   "t": "2026-11-07T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@honne_reveal/video/7705397462135016756"
+  },
+  "cmw5nm9cp0vdioj07logyj9lk": {
+   "views": 184,
+   "likes": 4,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 184
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 4
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "honne_reveal",
+   "t": "2026-11-07T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@honne_reveal/video/7705265141473938689"
+  },
+  "cmw5lqyip0t9fmm08o8v3cncs": {
+   "views": 175,
+   "likes": 3,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 175
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 3
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "honne_reveal",
+   "t": "2026-11-07T00:30:00.000Z",
+   "url": "https://www.tiktok.com/@honne_reveal/video/7705219636945538305"
+  },
+  "cmw5axxyc0lzemm08t2iq47ps": {
+   "views": 181,
+   "likes": 12,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 181
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 12
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "honne_reveal",
+   "t": "2026-11-06T20:30:00.000Z",
+   "url": "https://www.tiktok.com/@honne_reveal/video/7705158503408635157"
+  },
+  "cmw4nptsc04q9oj07x7jl30si": {
+   "views": 182,
+   "likes": 6,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 182
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 6
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "honne_reveal",
+   "t": "2026-11-06T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@honne_reveal/video/7705027077573053717"
+  },
+  "cmw66wz8m14n3mm083h4e9tog": {
+   "views": 286,
+   "likes": 8,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 286
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 8
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca_slideshow",
+   "t": "2026-11-07T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@anicca_slideshow/photo/7705398137657101588"
+  },
+  "cmw5o65f60vsnoj07t28vqo09": {
+   "views": 301,
+   "likes": 11,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 301
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 11
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca_slideshow",
+   "t": "2026-11-07T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca_slideshow/photo/7705265221404822836"
+  },
+  "cmw5jw0qr0slgoj07g3rnwzmb": {
+   "views": 341,
+   "likes": 16,
+   "replies": 0,
+   "reposts": 1,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 341
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 16
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca_slideshow",
+   "t": "2026-11-07T00:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca_slideshow/photo/7705220228808019201"
+  },
+  "cmw5dg1ja0nzfoj07kkh2na0h": {
+   "views": 188,
+   "likes": 1,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 188
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca_slideshow",
+   "t": "2026-11-06T20:30:00.000Z",
+   "url": "https://www.tiktok.com/@anicca_slideshow/photo/7705158457220959508"
+  },
+  "cmw4npt8o04ulmm080c4pn0ny": {
+   "views": 294,
+   "likes": 12,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 294
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 12
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "anicca_slideshow",
+   "t": "2026-11-06T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@anicca_slideshow/photo/7705027040159812884"
+  },
+  "cmw66wyav14n2mm08ljlq9mcs": {
+   "views": 70,
+   "likes": 1,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 70
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "aniccaen2",
+   "t": "2026-11-07T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@aniccaen2/photo/7705397783817194758"
+  },
+  "cmw5o64i50vsmoj07r55xgnvu": {
+   "views": 279,
+   "likes": 4,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 279
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 4
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "aniccaen2",
+   "t": "2026-11-07T03:30:00.000Z",
+   "url": "https://www.tiktok.com/@aniccaen2/photo/7705266667114220820"
+  },
+  "cmw5jw0090rxsmm088q27bnoi": {
+   "views": 129,
+   "likes": 1,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 129
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 1
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "aniccaen2",
+   "t": "2026-11-07T00:30:00.000Z",
+   "url": "https://www.tiktok.com/@aniccaen2/photo/7705220298685123861"
+  },
+  "cmw5dg0sc0nzeoj07fz9znbp8": {
+   "views": 304,
+   "likes": 5,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 304
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 5
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "aniccaen2",
+   "t": "2026-11-06T20:30:00.000Z",
+   "url": "https://www.tiktok.com/@aniccaen2/photo/7705158452322061588"
+  },
+  "cmw4npso804ukmm081e55gcsu": {
+   "views": 289,
+   "likes": 12,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 289
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 12
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "TikTok",
+   "account": "aniccaen2",
+   "t": "2026-11-06T12:00:00.000Z",
+   "url": "https://www.tiktok.com/@aniccaen2/photo/7705027032715136277"
+  },
+  "cmw1h7sa6089spl07oscldqcv": {
+   "views": 69,
+   "likes": 0,
+   "replies": 0,
+   "reposts": 0,
+   "metric_periods": {
+    "views": "2026-11-11",
+    "likes": "2026-11-11",
+    "replies": "2026-11-11",
+    "reposts": "2026-11-11"
+   },
+   "metric_series": {
+    "views": [
+     {
+      "date": "2026-11-11",
+      "value": 69
+     }
+    ],
+    "likes": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "replies": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ],
+    "reposts": [
+     {
+      "date": "2026-11-11",
+      "value": 0
+     }
+    ]
+   },
+   "fetched_at": "2026-11-11T09:01:33.514071+09:00",
+   "platform": "linkedin-page",
+   "account": "everfocus-labs",
+   "t": "2026-11-04T02:07:00.000Z",
+   "url": "https://www.linkedin.com/feed/update/urn:li:share:7523566560976867328"
+  }
+ }
+}

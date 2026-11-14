@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2026-11-06",
+    "product": "RevenueCat(all apps)",
+    "layer": "revenue",
+    "source": "RevenueCat",
+    "key": "proceeds",
+    "metric": "usd",
+    "value": 0,
+    "note": "anicca+honne proceeds 10/30-11/06 = $0; anicca MRR $20/5subs, honne $4/2subs; 21-project overview refreshed; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-06",
+    "product": "RevenueCat(anicca)",
+    "layer": "revenue",
+    "source": "RevenueCat",
+    "key": "mrr",
+    "metric": "usd",
+    "value": 20,
+    "note": "active_subs=5; 28d revenue $0; (pulled 11/6 15:30 JST)"
+  },
+  {
+    "date": "2026-11-06",
+    "product": "RevenueCat(honne-honyaku)",
+    "layer": "revenue",
+    "source": "RevenueCat",
+    "key": "mrr",
+    "metric": "usd",
+    "value": 4,
+    "note": "active_subs=2; 28d revenue $0; (pulled 11/6 15:30 JST)"
+  }
+]

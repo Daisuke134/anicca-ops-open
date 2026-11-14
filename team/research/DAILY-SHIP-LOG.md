@@ -129,3 +129,11 @@ Funnel (files/attribution-daily-2026-11-14.md, ASC Standard, PT 11/04–11/10, l
 | Anicca 6755129214 | Submitted CPP review for Morning + Anxiety intents (2 items) the moment the 2-slot limit freed (1.9.14 submission 0f3d398b COMPLETE) | Intent-matched product pages convert higher than the default page (Apple CPP guidance https://developer.apple.com/app-store/custom-product-pages/) → lifts PV→DL 7% | ASC Detailed PV/DL per ppid once approved; Muse links Morning/Anxiety content to them | reviewSubmission c04b20de-7658-4f7b-ba55-606597bbeb47 WAITING_FOR_REVIEW 2026-11-14T01:25:07Z |
 
 KEEP/REVERT: Lock Screen promo (11/12 22:04) — ASC PT 11/11+ still not complete in Standard at 10:2x JST → HOLD, re-read 11/14 22:00 (no data ≠ revert).
+
+### 2026-11-14 14:2x JST — growth loop 14:00 (参謀): ships for apps with none today
+
+| App | Change (live ASC promo text) | Hypothesis | Metric to watch | ID / state |
+|---|---|---|---|---|
+| STUDIO CHERIE 6766485903 | ja promo → named moment「クローゼットは服でいっぱいなのに、着る服がない朝に。」+ existing 着回し/試算/CHIE lines (mirrors the en-US named-moment change of 11/13) | Naming one painful moment lifts JP imp→PV / PV→DL (Muse playbook §C) | ASC ja-storefront PV→DL vs 4.2% 28d; judge 11/21 | live 1.0.2 loc 044a03c5, PATCH 200, readback match |
+| Honne 6759667221 | en-GB / en-AU / en-CA promo → same privacy hook as en-US ("They are not notified. …"); old text was the generic read-receipt line | One consistent hook across English storefronts; privacy is the top worry in the competitor (めろとーく) pattern | ASC GB/AU/CA PV→DL; judge 11/21. Honne ja PPO (11/13) untouched | live 1.0.7 locs 2e614a75, 2739ab7b, 2db506c8, readback match |
+

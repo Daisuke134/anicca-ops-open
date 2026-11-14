@@ -1,227 +1,227 @@
 {
- "read_at": "2026-11-12 08:38 JST",
- "source": "RevenueCat connector get-overview-metrics, all 22 projects from list-projects (USD)",
- "projects": [
-  {
-   "project": "Chi Daily",
-   "id": "proj031e163b",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "Looksmax",
-   "id": "proj0a35dffc",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 2,
-   "active_users": 2
-  },
-  {
-   "project": "hu",
-   "id": "proj0c853754",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "EyeBreakIsland",
-   "id": "proj520438a0",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 2,
-   "active_users": 2
-  },
-  {
-   "project": "m",
-   "id": "proj61e7650e",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "DeskStretch",
-   "id": "proj65938acc",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "sleep",
-   "id": "proj77301666",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 7,
-   "active_users": 7
-  },
-  {
-   "project": "Thankful",
-   "id": "proj7aaf9429",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 13,
-   "active_users": 13
-  },
-  {
-   "project": "dhamma",
-   "id": "proj86624956",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 16,
-   "active_users": 21
-  },
-  {
-   "project": "Wee",
-   "id": "proj8f8e55dc",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 2,
-   "active_users": 2
-  },
-  {
-   "project": "loopmind",
-   "id": "proj8f919837",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "SleepRitual",
-   "id": "proj976e8639",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "sss",
-   "id": "projabe94dcd",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "Micro Mood",
-   "id": "projb5ebcf17",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "anicca",
-   "id": "projbb7b9d1b",
-   "mrr": 20,
-   "active_subscriptions": 5,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 194,
-   "active_users": 213
-  },
-  {
-   "project": "affirmdaily",
-   "id": "projc4facb48",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "STUDIO CHERIE",
-   "id": "projc98adb88",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "honne-honyaku",
-   "id": "projcfa60dd8",
-   "mrr": 4,
-   "active_subscriptions": 2,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 20,
-   "active_users": 21
-  },
-  {
-   "project": "hooktele",
-   "id": "projd4975f0c",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "FrostDip",
-   "id": "proje06970dd",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 2,
-   "active_users": 2
-  },
-  {
-   "project": "sss",
-   "id": "proje58699fc",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  },
-  {
-   "project": "meo",
-   "id": "projeaf6297f",
-   "mrr": 0,
-   "active_subscriptions": 0,
-   "active_trials": 0,
-   "revenue": 0,
-   "new_customers": 0,
-   "active_users": 0
-  }
- ],
- "unread": []
+  "read_at": "2026-11-14 15:34 JST",
+  "source": "RevenueCat connector get-overview-metrics, all 22 projects from list-projects (USD)",
+  "projects": [
+    {
+      "project": "Chi Daily",
+      "id": "proj031e163b",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "Looksmax",
+      "id": "proj0a35dffc",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 2,
+      "active_users": 2
+    },
+    {
+      "project": "hu",
+      "id": "proj0c853754",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "EyeBreakIsland",
+      "id": "proj520438a0",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 2,
+      "active_users": 2
+    },
+    {
+      "project": "m",
+      "id": "proj61e7650e",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "DeskStretch",
+      "id": "proj65938acc",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "sleep",
+      "id": "proj77301666",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 8,
+      "active_users": 8
+    },
+    {
+      "project": "Thankful",
+      "id": "proj7aaf9429",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 13,
+      "active_users": 13
+    },
+    {
+      "project": "dhamma",
+      "id": "proj86624956",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 18,
+      "active_users": 22
+    },
+    {
+      "project": "Wee",
+      "id": "proj8f8e55dc",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 2,
+      "active_users": 2
+    },
+    {
+      "project": "loopmind",
+      "id": "proj8f919837",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "SleepRitual",
+      "id": "proj976e8639",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "sss",
+      "id": "projabe94dcd",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "Micro Mood",
+      "id": "projb5ebcf17",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "anicca",
+      "id": "projbb7b9d1b",
+      "mrr": 20,
+      "active_subscriptions": 5,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 113,
+      "active_users": 136
+    },
+    {
+      "project": "affirmdaily",
+      "id": "projc4facb48",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "STUDIO CHERIE",
+      "id": "projc98adb88",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "honne-honyaku",
+      "id": "projcfa60dd8",
+      "mrr": 4,
+      "active_subscriptions": 2,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 20,
+      "active_users": 21
+    },
+    {
+      "project": "hooktele",
+      "id": "projd4975f0c",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "FrostDip",
+      "id": "proje06970dd",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 3,
+      "active_users": 3
+    },
+    {
+      "project": "sss",
+      "id": "proje58699fc",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    },
+    {
+      "project": "meo",
+      "id": "projeaf6297f",
+      "mrr": 0,
+      "active_subscriptions": 0,
+      "active_trials": 0,
+      "revenue": 0,
+      "new_customers": 0,
+      "active_users": 0
+    }
+  ],
+  "unread": []
 }

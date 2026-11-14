@@ -1,5 +1,20 @@
 連絡の正本: [team/playbooks/ONE-PLACE.md](playbooks/ONE-PLACE.md)（入口はリポジトリ直下の [AGENTS.md](../AGENTS.md)）。依頼と返信は `team/inbox/<agent>.md`。ログは ACTIVITY.md。Slack / 部屋はコミット URL の1行だけ。直接メッセージは停止・セキュリティの緊急時だけ。
 
+## RULE FEEDBACK-LOOP (成田さん 2026-11-14 13:17 JST, all agents)
+
+X replies, DMs and App Store reviews are user feedback. Log in team/research/USER-FEEDBACK.md, fix the top items, and tell each user what changed. Communication is continuous.
+
+## RULE LOOP-ROI (成田さん 2026-11-14 13:13 JST, all agents)
+
+Every agent audits its own loops on every run (or at least daily). Do more of what produces meaningful results (revenue, submissions, sends, posts, fixed blockers); slow, pause or merge loops that return "nothing to do", stay blocked on the same thing, or are empty 3+ times in a row. Combine overlapping loops to save tokens. Never cut revenue/client-work/app-growth loops that are producing. Log each change in team/ACTIVITY.md as "LOOP-ROI | routine | before→after | evidence".
+
+## RULE NO-WAIT-SEND (成田さん 2026-11-14 13:07 JST, all agents)
+
+
+- Banned phrasing: "say yes and I'll send", "OK to send?", "approve this draft", "shall I send?", 「送っていい？」, 「送って」待ち.
+- Report only what was sent (or the real blocker). Never park work on his yes. He is not watching chat 24/7.
+- Deleting a live X post still needs his OK (RULE X-ONE-WRITER). Spend above the standing limit and the security rules are unchanged.
+
 ## RULE 00 (成田さん 2026-11-12 11:11 JST, all agents, top priority): Say everything in the GitHub file. Constantly
 
 Binding on every Grok Bot, plus Muse, real Codex and Dots.
@@ -500,3 +515,21 @@ Always run both lanes in parallel: (1) register on NEW platforms and distributio
 The whole team (Muse, Dots, Codex, Pickle, every Grok bot) lands 10–15 NEW profitable platforms per hour, not 3. Deadline is NOW. One platform, one owner (CLAIMS first; no double signup).
 
 ## RULE NO-LANGUAGE-PREFERENCE (成田さん 2026-11-14 11:02 JST; supersedes the 10:57 and 11:01 JA wording, old name JA-HUMAN-DATA)
+
+## RULE 0zf — Decision precedents: one decision covers the whole class (2026-11-14 15:45 JST, 参謀, from Kun Chen's First Mate setup)
+Source: https://x.com/TheGrokBotGuide/status/2121483294109786309 (2,000+ issues/PRs a month handled by one orchestrator plus per-queue triage bots).
+- Whenever 成田さん (or the owner agent) decides something, also record whether that *kind* of decision is allowed from now on, as one line in team/DECISION-PRECEDENTS.md: `date | class of decision | allowed/denied | scope | source`.
+- Before escalating anything, every agent checks DECISION-PRECEDENTS.md first. If a precedent covers it, act without asking.
+- Same mistake twice from one agent → the orchestrator (参謀) edits that agent's instructions/routine right away. Don't just log the lesson.
+- Each work queue (applications, X replies, client work) gets one written rule file the triage agent judges by; only items that file doesn't cover go up as one line plus a recommendation.
+
+## RULE ALWAYS-ON (成田さん 2026-11-14 17:13 JST, all agents)
+
+Source: https://claude.com/resources/articles/building-always-on-agents ("this is the best practice"). How we apply it: [runbooks/ALWAYS-ON-AGENTS.md](runbooks/ALWAYS-ON-AGENTS.md).
+
+- Always-on is a UX, not a literal process: sleep, wake on an event, finish a run, save, sleep. Do not start a second worker on the same inbox event (CLAIMS + one owner).
+- Every inbound item (mail, DM, webhook, teammate handoff, due timer) is written into the existing durable inbox (`team/inbox/<agent>.md`, or `team/state/inbox-sweep.pending.md` for sweeps) with a source id and pending/done before deep work. Batch all pending items in one run.
+- Agent-set follow-ups go in `team/state/TIMERS.md` (due JST | owner | what | source). Schedules stay in existing routines. A wake that is already running checks due timers, writes them to the owner's inbox, and marks them fired. Do not add a new routine for this.
+- Load lean memory every run: this file's relevant rules, your inbox, CLAIMS, ACCOUNT-OWNERS, the tail of ACTIVITY.md, the last 50 lines of OWNER-CONTEXT.md, and due TIMERS. Do not ingest all of BOARD.md, ACTIVITY.md, LOOPS-4PILLARS.md, or TEAM-FEED.md. Store only what you cannot look up again; otherwise a pointer. Each in-progress task has a short done/left note in CLAIMS (or the task's existing file).
+- If a step needs 成田さん or a login you don't have, defer: log BLOCKED, write the request, set a follow-up timer, and keep other pending events in the same run. Credentials stay in vault/connectors; never in files or chat.
+- To 成田さん, send only outcomes, decisions, and blockers that physically need him. "Nothing to send" is a valid end of a run. Teammate replies still go immediately in the inbox file (即レス).

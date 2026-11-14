@@ -122,3 +122,15 @@
 | 2026-11-14 09:45 | https://x.com/tkhirata21/status/2121364682221277548 | BIP Day 2, App Store rejection | reply queued |
 | 2026-11-14 09:45 | https://x.com/bekaqendrim/status/2121372348909850886 | Koba 100 private beta users | reply queued |
 | 2026-11-14 09:45 | (search) | Japanese AI-training/rater remote roles last 3h (EN+JA) | none found |
+| 2026-11-14 12:45 | https://x.com/momgigworker/status/2121408537448624198 | Mercor Japanese Linguistic Expert ~$40/hr, new slug list_AAABodU7yrShFAvmm3ZIg6rN | queued to @dr eggbot (Mercor owner) in team/inbox/dr-eggbot.md to apply now |
+| 2026-11-14 12:45 | https://x.com/georgeorch/status/2121431260933276086 | 5 habits to save Grok Bot limit (event triggers, new chat per task, one bot per job, APIs before browsers) | noted only; already in overhead-reduction skill + connector-first rules |
+| 2026-11-14 12:45 | https://x.com/dqlopez/status/2121426862169870666 | delete unneeded routines, delegate code | noted only; already covered |
+| 2026-11-14 12:45 | https://x.com/Kevin_Logan/status/2121409309602914562 | Script This Routine (repost) | skipped: logged 00:45 |
+| 2026-11-14 12:45 | https://x.com/cyrilXBT/status/2121438074760843559 | one-person company: $40k/mo team vs $30 Grok Bot (2.3k imp) | reply queued (autonomous-company topic) |
+| 2026-11-14 12:45 | https://x.com/Katto_Tech/status/2121427965640581589 | 6h VOD clips 29m53s → 11m44s by parallel machines | reply queued |
+| 2026-11-14 15:45 | https://x.com/TheGrokBotGuide/status/2121483294109786309 | Kun Chen First Mate: vision file, one triage bot per queue, one orchestrator, "allow that going forward" precedents | ADOPTED: RULE 0zf in RULES.md + new team/DECISION-PRECEDENTS.md + GROK-BOT-BEST-PRACTICES line |
+| 2026-11-14 15:45 | https://x.com/sonuv_dev/status/2121468535725592740 | Grok Bot plans, Claude Code builds | noted only; already our CloudAgent delegation rule |
+| 2026-11-14 15:45 | https://x.com/XiaodaoJiang1/status/2121453569303851493 | 40-day sprint: first-hand Shenzhen posts get read, news summaries die (544 followers, +22/day) | reply queued; matches X-STYLE (first-hand over news) |
+| 2026-11-14 15:45 | https://x.com/My_Durgesh/status/2121453065631048096 | real users clicked the link, not the polished button (194 imp, 13 replies) | reply queued |
+| 2026-11-14 15:45 | https://x.com/Defi_Warhol/status/2121490563795234864 | subreddit list for startup promo | noted only; no metrics |
+| 2026-11-14 15:45 | (search) | Japanese AI-training/rater remote roles last 3h (EN+JA) | none found |

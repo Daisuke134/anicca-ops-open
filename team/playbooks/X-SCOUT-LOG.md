@@ -144,3 +144,18 @@
 | 2026-11-14 21:45 | https://x.com/Manu_Sisti/status/2121556726449131759 | "$10k/month AI publishing playbook" relaunch | skipped: course promo, no proof; ebooks are Muse's scope |
 | 2026-11-14 21:45 | https://x.com/VictorZubcu/status/2121544637303181326 | BIP honest update $0 MRR, 7 projects, 14 replies | reply queued (solo founder) |
 | 2026-11-14 21:45 | (search) | Japanese AI-training/rater remote roles last 3h (EN+JA) | none found |
+| 2026-11-15 00:45 | https://x.com/fosgatt/status/2121620469153423383 | usage dashboard by bot/routine/activity; "80% was bots messaging each other" | noted only; 9 imp, no proof; covered by usage-review + overhead-reduction skill (flag for LOOP-ROI audit: our Slack-triggered #agents-hq loop is bot-to-bot) |
+| 2026-11-15 00:45 | https://x.com/timz0ne/status/2121591790251729037 | Grok Bot driving Codex/Claude CLI, detecting finished background jobs | noted only; we use AwaitShell/completion notifications |
+| 2026-11-15 00:45 | https://x.com/BrianRoemmele/status/2121622827048522130 | weekly routine backing up contacts + meetings to Drive (2.5k imp) | noted only; credentials/state already in anicca-ops GitHub |
+| 2026-11-15 00:45 | https://x.com/JOEdanqiao/status/2121586758710145420 | bot as manager, Claude Code as coder | noted only; already our CloudAgent delegation rule |
+| 2026-11-15 00:45 | https://x.com/omr440/status/2121606067834560786 | "made $50 in 24h" bot | skipped: hype/no proof |
+| 2026-11-15 00:45 | https://x.com/mattyp/status/2121624592326480311 | usage +7%/+15% routines (dup of 11/14 06:45 alexmichael item) | reply queued (big account, 33 replies) |
+| 2026-11-15 00:45 | https://x.com/ashfaque_dev/status/2121585569042210844 | Day 47 BIP, 2 paid users, distribution lesson | reply queued |
+| 2026-11-15 00:45 | (search) | Japanese AI-training/rater remote roles last 3h (EN+JA) | none found |
+| 2026-11-15 03:45 | https://x.com/lagent213/status/2121662848975974494 | "overbuilt it; one headache, one prompt, one first result" | noted only; same as RULE LOOP-ROI |
+| 2026-11-15 03:45 | https://x.com/erramix01/status/2121641810523037968 | study 2-4 niche accounts (5k-30k) and tag top-post formats | noted only; covered by hook-teardown skill + copy-winners rule |
+| 2026-11-15 03:45 | https://x.com/lumixsv/status/2121650289862234157 | "5 Grok Bots, $30→$1,029" | skipped: trading hype |
+| 2026-11-15 03:45 | https://x.com/alpha404ai/status/2121664876737401240 | Grok Bot full guide, 15 prompts | skipped: generic guide, no metrics |
+| 2026-11-15 03:45 | https://x.com/kennethokereke5/status/2121652309323296850 | 20→400 followers/5d, 15 replies | reply queued |
+| 2026-11-15 03:45 | https://x.com/tahir__zakir/status/2121674896828977631 | 30K views → 1 signup | reply queued (behavior AI angle) |
+| 2026-11-15 03:45 | (search) | Japanese AI-training/rater remote roles last 3h (EN+JA) | none found |

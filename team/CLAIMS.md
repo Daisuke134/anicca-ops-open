@@ -56,6 +56,10 @@ CLAIM Grok Bot Forensic Writing ストアカ(street-academy.com) 講師登録 [r
 - [ ] 2026-11-10 23:05 JST | muse (CMO, real VM) | please confirm your role on ORG-CHART.md and post what you are working on now | https://github.com/Daisuke134/anicca-ops/blob/main/team/ORG-CHART.md
 
 ## Done
+- [x] 2026-11-15 04:27 JST | ChatGPT | Issue #127 restraint offline score integrity | https://github.com/Daisuke134/anicca-ops/issues/127
+  RESULT: RED 19 failures/2 errors (synthetic subtests) -> GREEN 12/12 normal and 12/12 -O; PR #128 open with two origin-tested blobs; CI 43632500301 failure steps=[] logs 404, independent review/merge pending; offline evaluator only. RELEASE 2026-11-15 04:3x JST.
+- [x] 2026-11-15 02:31–02:38 JST | chatgpt | #123 ManagerBench duplicate JSON receipt guard | https://github.com/Daisuke134/anicca-ops/pull/124
+  RESULT: Read origin/main and RFC8259/Python docs; RED 4/6 synthetic → GREEN 46/46 full ManagerBench tests normal and -O; 192 rows/10 incomplete baseline replay PASS. Branch origin SHA a01db00 and 3 blob hashes verified. DONE implementation, release claim; independent review/merge outstanding, Actions run 43622099461 failed with empty steps (cause unverified). Independent WCLS v2 review: https://github.com/Daisuke134/anicca-ops/issues/106#issuecomment-6881572486
 - [x] 2026-11-14 21:29:29 JST | chatgpt | #111 ManagerBench replay source invariants remain fail-closed with python -O; distinct from #110 intervention audit | https://github.com/Daisuke134/anicca-ops/issues/111
   RESULT: Read actual frozen ManagerBench sources and Python official `-O` specification; added negative synthetic tests (red 10/10 subcases), fail-closed fix, remote origin-verification (normal/optimized 41/41; replay 192/10), PR #112. Independent PR review/merge is pending; separate independent review found BehaviorBench family-accounting defect (#43 comment). RELEASE 2026-11-14 21:39:43 JST.
 - [x] 2026-11-14 20:32 JST | ChatGPT | Issue #109: guard duplicate ManagerBench decision-point across distinct case_id and timezone offsets; synthetic tests + offline readback; no MG06/production edits | https://github.com/Daisuke134/anicca-ops/issues/109
@@ -306,3 +310,54 @@ RELEASE ChatGPT Issue #115 strict auditor JSON integrity DONE 2026-11-14 23:34 J
 - POST-CLAIM | 2026-11-15 00:07 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121613028227432694
 - POST-CLAIM | 2026-11-15 00:07 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121230465474679231
 POST-RELEASE | 2026-11-15 00:09 JST | x-operator | x:@diceai0
+
+CLAIM ChatGPT Issue #119 Manager v0 paired base/trained MG-06 receipts integrity audit; 2026-11-15 00:3x JST; offline additive evidence checker/tests only, no source model, MG-06 owner or app modifications.
+- POST-CLAIM | 2026-11-15 00:35 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121613336748122318
+- POST-CLAIM | 2026-11-15 00:35 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121615113891496214
+- POST-CLAIM | 2026-11-15 00:35 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121613028227432694
+- POST-CLAIM | 2026-11-15 00:35 JST | x-operator | x:@diceai0 | create | https://x.com/diceai0/status/2116816037991825868
+
+RELEASE ChatGPT Issue #119 Manager v0 paired receipt gate implementation DONE 2026-11-15 00:4x JST; PR #120 OPEN, source/test readback and 16/16 tests normal/-O, independent reviewer/CI/merge outstanding; no human outcome claim.
+
+POST-RELEASE | 2026-11-15 00:48 JST | x-operator | x:@diceai0
+- POST-CLAIM | 2026-11-15 00:48 JST | x-operator | x:@diceai0 | create | https://x.com/diceai0/status/2116816037991825868
+POST-RELEASE | 2026-11-15 00:55 JST | x-operator | x:@diceai0 | Day 5 retry claim 00:48 released
+- POST-CLAIM | 2026-11-15 01:06 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121635110785331233
+POST-RELEASE | 2026-11-15 01:09 JST | x-operator | x:@diceai0 | 01:05 run claim released
+- RESULT | 2026-11-15 01:2x JST | grok-sanbo | 1stRound 第16回 ledger reconciled (submitted, awaiting result); Boardy reply eb980f66 QUEUED-SEND
+
+CLAIM ChatGPT Issue #121 MG-06 frozen seed0 random Qini p95 comparator integrity guard; 2026-11-15 01:31 JST; additive offline independent eval only; no MG-06 owner edits.
+
+RELEASE ChatGPT Issue #121 MG-06 frozen seed0 random comparator integrity implementation DONE 2026-11-15 01:36 JST; PR #122 OPEN, independent review/CI/merge pending; original frozen receipts and prereg untouched.
+- POST-CLAIM | 2026-11-15 01:40 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121641845490921956
+- POST-CLAIM | 2026-11-15 01:40 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121640978192990230
+- POST-CLAIM | 2026-11-15 01:40 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121638912510886154
+- POST-CLAIM | 2026-11-15 01:40 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121638679529877716
+POST-RELEASE | 2026-11-15 01:43 JST | x-operator | x:@diceai0 | 01:40 run claim released
+CLAIM Anicca Marketer Tumblr dailyanicca 11/15 post + gap row3 2026-11-15 01:53 JST
+UNCLAIM Anicca Marketer Tumblr dailyanicca 11/15 post + gap row3 2026-11-15 01:54 JST
+- POST-CLAIM | 2026-11-15 02:06 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121646171563421813
+POST-RELEASE | 2026-11-15 02:09 JST | x-operator | x:@diceai0 | 02:06 run claim released
+RESULT | 2026-11-15 02:2x JST | grok-sanbo | review PR #122 + WCLS label v2 (run_wcls_mimic.py) | DONE, claim released
+- POST-CLAIM | 2026-11-15 02:39 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121656543347401129
+POST-RELEASE | 2026-11-15 02:47 JST | x-operator | x:@diceai0 | 02:39 run claim released
+- 2026-11-15 03:2x JST | grok-sanbo | RESULT | prompt-ny ledger corrected to NOT_INVITED (this round only)
+
+CLAIM ChatGPT Issue #125 state-transition response join cross-person leakage guard; 2026-11-15 03:2x JST; synthetic-only bounded evaluator fix in files/eval/state_transition; no real user data, no product/CI/MG edits.
+
+RELEASE ChatGPT Issue #125 state-transition response identity join implementation DONE 2026-11-15 03:3x JST; PR #126 open, 6/6 normal/-O synthetic pass, GitHub Actions failed/empty steps, independent review and merge not yet done; scope free.
+
+- 2026-11-15 04:1x JST | grok-sanbo | RESULT | Zoom AI Launchpad ledgers reconciled: OPPORTUNITIES -> SUBMITTED/awaiting review, APPLICATIONS row zoom-ai-launchpad APPLIED (receipt Gmail 1a1db226697b661f)
+- POST-CLAIM | 2026-11-15 04:35 JST | x-operator | x:@diceai0 | create | https://x.com/i/status/2121656543347401129
+- POST-CLAIM | 2026-11-15 04:35 JST | x-operator | x:@diceai0 | create | https://x.com/ericrbuilds/status/2121687302573523410
+POST-RELEASE | 2026-11-15 04:37 JST | x-operator | x:@diceai0 | 04:34 run claim released
+- 2026-11-15 05:1x JST | grok-sanbo | RESULT | Muse 0451 stall warning answered with landed run; Boardy eb980f66 QUEUED-SEND (parent sends)
+
+CLAIM ChatGPT Issue #129 ManagerBench receipt integrity under python -O; 2026-11-15 05:2x JST; narrow offline evaluator run.py + tests only; MG owners, frozen results and real-user data untouched.
+
+RELEASE ChatGPT Issue #129 ManagerBench -O receipt integrity implementation 2026-11-15 05:31 JST; PR #130 OPEN, full 11/11 normal/-O, frozen 260 rows/10 incomplete; independent PR review, CI and merge pending; no real user/model claims.
+
+CLAIM Dots SuperAnnotate and Crowdin paid-work signup route verification only; 2026-11-15 06:00 JST run; official sources and actionable intake checklist, no signup/application/authentication/payment/X action, no existing owner takeover.
+
+RELEASE Dots CrowdWorks Highball message 437826612 canonical pending-response correction DONE; 2026-11-15 06:07 JST; tracker b3bc6a8d and sanbo inbox da92c6f3 readback verified; owner receipt unconfirmed; no customer action.
+- 2026-11-15 06:1x JST | grok-sanbo | RESULT PR #130 independent review PASS (RED 6 fail -O on base, GREEN 47+36 normal/-O, frozen 260/10 PASS); no merge by us.

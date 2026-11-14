@@ -290,3 +290,25 @@ AppKittie が公開で見せているものと、六つのニッチでストア�
 - **価格の型:** 関係アプリ2本とも年額が主で、Cozy Couples は年額に加えて小額の消耗課金（ストリーク修復・スター）を持つ。Hairify はウィークリー＋クレジットパック（AI 生成アプリの型）。
 - **オンボーディング / ペイウォール / 広告:** この回は取っていない。unknown。Meta Ad Library は今回未確認。
 - **説明文の型:** Paired と Day One は、説明文の先頭行に DL 数・Apple の受賞・メディア掲載を箇条書きで並べる。
+
+---
+
+## 2026-11-14 11:4x JST 回（Grok Bot 参謀、無料ソースのみ）
+
+出典: Apple 公開 RSS（US、top grossing / top free 各100、Health & Fitness 6013・Lifestyle 6012・Social Networking 6005、2026-11-14 11:3x JST 取得）、iTunes lookup（評価・公開日・スクショ枚数）、US App Store ページの IAP 一覧（表示どおり、順不同）。売上額はどの無料ソースにも出ていないので unknown。Meta Ad Library・オンボーディング・ペイウォール画面はこの回も未確認（unknown）。
+
+既存の順位更新（US、本日 RSS）: Calm H&F 売上 #5、Hatch #6・無料 #49、Headspace 売上 #13、Finch 売上 #14・無料 #19、Motivation 売上 #25・無料 #37、BetterSleep 売上 #30、I am 売上 #32・無料 #50、Waking Up 売上 #51、RISE 無料 #9・売上 #59、Stella 売上 #69、Day One 売上 #79、SleepSense 売上 #92、Wayk 無料 #62、Paired Lifestyle 売上 #66、Hairify 売上 #72、Cozy Couples 売上 #77。
+
+| アプリ | ニッチ（自社） | ストア | 順位（US、本日 RSS） | 評価 / 公開日 | IAP（ストア一覧の表示どおり） | 売上 |
+|---|---|---|---|---|---|---|
+| RIZZ | メッセージ助言（Honne の直接の型） | https://apps.apple.com/us/app/id1663430725 | Lifestyle 売上 #82 | 4.83（40,192）/ 2023-01-12 | INFINITE RIZZ $3.99 / $6.99 / $9.99 / $19.99 / $69.99 / $99.99、ONE YEAR $69.99、Unlimited RIZZ $4.99 | unknown |
+| That Girl: Become a Clean Girl | 自己ケア・習慣（Anicca / 美容寄り） | https://apps.apple.com/us/app/id6756178380 | Lifestyle 売上 #94（2025-12-15 公開の新規） | 4.78（6,783） | Unlimited access $8.99 / $14.99 / $19.99 / $39.99 / $44.99 / $49.99 / $59.99 | unknown |
+| Tolan: Your Friendly Guide | 自己ケア・AI 相棒（Anicca） | https://apps.apple.com/us/app/id6477549878 | H&F 無料 #15、売上 #45 | 4.78（190,859）/ 2024-06-19 | Tolan Lite $11.99、Tolan Plus $24.99（ほか (Old) 表記の旧 SKU） | unknown |
+| Sleep Cycle | 睡眠（Sleep Reset） | https://apps.apple.com/us/app/id320606217 | H&F 売上 #47 | 4.68（32,037） | Premium $2.99–$57.99 の複数 SKU（$29.99 / $34.99 / $39.99 / $57.99 ほか） | unknown |
+| ShutEye | 睡眠（Sleep Reset） | https://apps.apple.com/us/app/id1490078804 | H&F 売上 #67 | 4.76（350,436） | 1-Year $59.99、1-Month $9.99、Limited Time Offer $29.99・6-Month $19.99、Family 1-Year $59.99 | unknown |
+| Perfect365 | 美容（STUDIO CHERIE） | https://apps.apple.com/us/app/id475976577 | Lifestyle 売上 #63 | 4.84（183,154） | PLUS Month $9.99 / Year $39.99、単品パック $1.99–$4.99 | unknown |
+
+- **スクショ（目で確認したもの）:** RIZZ は3枚だけ。1枚目は社会的証明（ナンバーワン表記、月桂樹で実績数、掲載媒体名の列挙）、2枚目は「手順1: チャットのスクショを入れる」の実画面、3枚目は「手順2: すぐ返信案が出る」の実画面。That Girl の1枚目は「なりたい自分＋now」の大見出しと人物写真、小さな月桂樹バッジ。Tolan の1枚目はキャラクターのイラストと一文の約束（実画面なし、Finch と同じ型）。他の1枚目は未確認。
+- **型（新）:** 関係・メッセージ助言の売れ筋は、スクショを「入力 → 結果」の2コマの手順で見せる。文言は短い命令形2行ずつ。
+- **型（再確認）:** 「なりたい自分」見出し（RISE 11/12）が That Girl でも1枚目に使われている。自己ケアの新規勝ち（Tolan、Finch）はキャラクター・相棒型。
+- **価格の型:** RIZZ は週額相当の小額 SKU が多数＋年額 $69.99。ShutEye と Sleep Cycle は年額主＋期間限定の割引 SKU（閉じたあとのダウンセル型）。

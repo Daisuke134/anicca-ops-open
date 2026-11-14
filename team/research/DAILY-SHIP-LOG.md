@@ -119,3 +119,13 @@ Backup/applied: marketing/anicca/aso/promo-backup-3apps-20261113-1840.json (Slee
 | Anicca 6755129214 | TikTok + IG bio landing switched to the approved CPP "TikTok Lock Screen" via direct App Store link with ct (registry files/attribution-links.md §0); Codex issue #90 so /go keeps ppid | Visitors from Lock Screen how-to content convert better on a page showing the same widget than on the default page (Apple: custom product pages match the page to the ad/content intent — https://developer.apple.com/app-store/custom-product-pages/) → lifts PV→DL 4.8% | ASC Detailed PV/DL by ct with ppid f1554a3f; judge 11/20 | CPP f1554a3f ver 3a07f082 APPROVED; link verified 200; Muse places by 11/14 10:00 (#40 comment 6854181201) |
 
 KEEP/REVERT at 22:00: Anicca promo Lock Screen hook (11/12 22:04) — ASC PT 11/12 still unpublished at 22:2x JST (latest processingDate 11/12 covers through PT 11/11), RC trials 0 / purchases 0 (21:1x watch). HOLD, re-read 11/14 22:00. No 24h data = no verdict, not a revert.
+
+### 2026-11-14 10:2x JST — growth loop 10:00 (参謀)
+
+Funnel (files/attribution-daily-2026-11-14.md, ASC Standard, PT 11/04–11/10, latest complete): 334 imp → 14 PV → 1 first-time DL → 0 Mixpanel external → 0 trial → 0 purchase. Search imp→PV 8/326 = 2.5% (benchmark 4.8%, https://benchhacks.com/benchmarks/appstore-benchmarks.htm); PV→DL 1/14 = 7% (benchmark ~25% iOS, AppTweak via https://www.webtonic.io/blog/app-store-optimization-statistics). Weakest step: PV→DL (0.28× benchmark).
+
+| App | Change | Hypothesis | Metric to watch | ID / state |
+|---|---|---|---|---|
+| Anicca 6755129214 | Submitted CPP review for Morning + Anxiety intents (2 items) the moment the 2-slot limit freed (1.9.14 submission 0f3d398b COMPLETE) | Intent-matched product pages convert higher than the default page (Apple CPP guidance https://developer.apple.com/app-store/custom-product-pages/) → lifts PV→DL 7% | ASC Detailed PV/DL per ppid once approved; Muse links Morning/Anxiety content to them | reviewSubmission c04b20de-7658-4f7b-ba55-606597bbeb47 WAITING_FOR_REVIEW 2026-11-14T01:25:07Z |
+
+KEEP/REVERT: Lock Screen promo (11/12 22:04) — ASC PT 11/11+ still not complete in Standard at 10:2x JST → HOLD, re-read 11/14 22:00 (no data ≠ revert).

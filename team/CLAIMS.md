@@ -29,6 +29,8 @@ Those stay as they are. Role owners and the org tree are in [`team/ORG-CHART.md`
 Format copied for the team from t3242u, on top of Apple DRI, Amazon single-threaded ownership, SpaceX Responsible Engineer, and Paperclip task checkout (URLs in ORG-CHART.md).
 
 ## Open
+- [ ] 2026-11-14 10:41 JST | dr eggbot | Lancers A: publish PLAN-10K AI業務ボット構築 package on anicca_ai_jp; B: apply to suitable open jobs; exclude 5627347/9148005 and all client messages | team/CLIENT-WORK-TRACKER.md
+  PARTIAL: A complete: package 1355085 live and verified. B not started: browser gate 1389MB < 1500MB; own tab closed; 0 applications sent in this pass.
 CLAIM Grok Bot Forensic Writing ストアカ(street-academy.com) 講師登録 [redacted-email] + 講座申請1件 2026-11-14 09:20 JST
 
 - [ ] 2026-11-14 09:15 JST | citation-scout | Anicca を AlternativeTo・There's An AI For That に無料掲載申請（ASSIGN-2026-11-14） | team/ASSIGN-2026-11-14-expansion.md
@@ -137,3 +139,35 @@ CLAIM Anicca Marketer Tumblr dailyanicca 11/14 02:xx post + gap fix 2026-11-14 0
 UNCLAIM Anicca Marketer Tumblr dailyanicca 11/14 2026-11-14 02:14 JST
 
 CLAIM Dots ComeUp signup + one service listing; exclusive continuation of assigned ComeUp lane; 2026-11-14 09:26 JST; no Google SSO, no spend, specified agent mailbox only.
+- [x] 2026-11-14 09:39 JST | citation-scout | 09:15 の claim を完了: 差し替えで Trylaunch・VoteKicker・Startup Inspire に無料申請。AlternativeTo は 15:00 再確認、TAAFT は有料で見送り | team/team-outbox/citation-scout/2026-11-14-directories.md
+- POST-CLAIM | 2026-11-14 09:40 JST | grok-sanbo | x:@diceai0 | create | https://x.com/chetanbvaghela/status/2121156323790463103
+CLAIM X Operator @diceai0 2 reply-backs + client-work original 2026-11-14 09:40 JST
+CLAIM Fucker CW-okumura02-reply 2026-11-14 09:51 JST
+CLAIM Codex IndexNow key deployment + stall-warning acknowledgement 2026-11-14 09:46 JST
+- [x] 2026-11-14 09:46 JST | Codex | IndexNow key deployment + stall-warning acknowledgement完了 | apps/landing/public/d02b7b1beffc9bdd04393a35221cea7e.txt
+- POST-RELEASE | 2026-11-14 10:11 JST | grok-sanbo | x:@diceai0
+RELEASE X Operator @diceai0 09:40 batch + 10:08 reply batch 2026-11-14 10:11 JST
+- POST-CLAIM | 2026-11-14 10:43 JST | grok-sanbo | x:@diceai0 | create | https://x.com/leo_mercerr/status/2120971525205774837
+CLAIM X Operator @diceai0 model-pillar original 2026-11-14 10:43 JST
+
+CLAIM Dots Lancers 5625207 terminal-status ledger reconciliation only (no platform actions, messages or application); 2026-11-14 10:48 JST; original Gmail 1a1d7ace81a364d0.
+
+RELEASE Dots Lancers 5625207 terminal-status ledger reconciliation DONE 2026-11-14 10:49 JST; applications.csv readback verified; no platform action; existing owner unchanged.
+CLAIM Codex MG-06 redesign execution: prereg review, WCLS/uplift machinery run, ManagerBench intervention schema/check; 2026-11-14 10:37 JST
+UNCLAIM Codex MG-06 redesign execution; 2026-11-14 10:40 JST; DONE; files/eval/intervention-eval-machinery-run-2026-11-14.md
+- POST-RELEASE | 2026-11-14 10:54 JST | grok-sanbo | x:@diceai0
+RELEASE X Operator @diceai0 model-pillar original 2026-11-14 10:54 JST
+CLAIM Codex /affirmation-app incoming ct propagation; 2026-11-14 10:51 JST; production source: Daisuke134/anicca-products apps/landing
+- POST-CLAIM | 2026-11-14 11:04 JST | grok-sanbo | x:@diceai0 | create | https://x.com/rcmisk/status/2121407890871185763
+CLAIM X Operator @diceai0 reply batch (1 outbound) 2026-11-14 11:04 JST
+- POST-RELEASE | 2026-11-14 11:07 JST | grok-sanbo | x:@diceai0
+RELEASE X Operator @diceai0 reply batch 2026-11-14 11:07 JST
+CLAIM Pickle Twine (https://www.twine.net/signup?type=seller) signup with [redacted-email] 2026-11-14 11:30 JST
+- POST-CLAIM | 2026-11-14 11:37 JST | grok-sanbo | x:@selawmqt | create | https://x.com/selawmqt/status/2120527385816678740
+CLAIM X Operator @selawmqt 11/14 #1 via Postiz 2026-11-14 11:37 JST
+- POST-RELEASE | 2026-11-14 11:38 JST | grok-sanbo | x:@selawmqt
+RELEASE X Operator @selawmqt 11/14 #1 2026-11-14 11:38 JST (gate hold, not posted)
+- POST-CLAIM | 2026-11-14 12:14 JST | grok-sanbo | x:@diceai0 | create | https://x.com/kimindiehacker/status/2121425895667769796
+CLAIM X Operator @diceai0 reply batch (2 outbound) 2026-11-14 12:14 JST
+- POST-RELEASE | 2026-11-14 12:16 JST | grok-sanbo | x:@diceai0
+RELEASE X Operator @diceai0 reply batch 2026-11-14 12:16 JST

@@ -1,3 +1,5 @@
+連絡の正本: [team/playbooks/ONE-PLACE.md](playbooks/ONE-PLACE.md)（入口はリポジトリ直下の [AGENTS.md](../AGENTS.md)）。依頼と返信は `team/inbox/<agent>.md`。ログは ACTIVITY.md。Slack / 部屋はコミット URL の1行だけ。直接メッセージは停止・セキュリティの緊急時だけ。
+
 ## RULE 00 (成田さん 2026-11-12 11:11 JST, all agents, top priority): Say everything in the GitHub file. Constantly
 
 Binding on every Grok Bot, plus Muse, real Codex and Dots.
@@ -6,7 +8,7 @@ Binding on every Grok Bot, plus Muse, real Codex and Dots.
 - **The place to talk is `team/ACTIVITY.md` (GitHub Daisuke134/anicca-ops main).** Files are fast and cost no tokens. Writing to this file is required.
 - Before touching any account, platform, client job, or Mac mini tab, `git pull` and read the tail of `team/ACTIVITY.md` and `team/ACCOUNT-OWNERS.md`. Only the owner works it. If someone else is already on it, don't touch it.
 - Write everything, however small. Append one line and push at every START, every step, every DONE, and every FIX: `YYYY-MM-DD HH:MM JST | agent | START/NOW/DONE/FIX | what | account/machine | proof`. Make every run's first and last action a write to this file.
-- Slack #agents-hq can be used too, alongside the file. But writing to the file is required. Slack alone doesn't count.
+- Slack #agents-hq is a one-line pointer with the commit URL only. Writing to the file is required. Slack alone doesn't count. SendToAgent / room chats do not hold decisions; use them only for stop/security emergencies. See team/playbooks/ONE-PLACE.md.
 - Never work silently. Assume another agent may be doing the same thing.
 - Mistake this rule fixes (11/12 10:40): 参謀 logged into Lancers without reading ACCOUNT-OWNERS (owner is dr eggbot), so Muse and 参謀 worked Lancers at the same time. micro1 interview tabs were also opened 4 times on the Mac mini.
 
@@ -478,3 +480,23 @@ Instant reply (即レス): any message/handoff from a teammate or counterpart ge
 3. Any cost that cash cannot cover is not proposed to him. Choose the free or remote path, or skip it.
 4. Do not report the obvious to him. Report only decisions taken and results.
 6. (成田さん 2026-11-14 09:20 JST) Apply the moment you find a good event. Don't hold it for a later batch. Run the cost gate (#2, #5) that same moment, and book travel right away if it passes.
+
+## RULE ROI（成田さん 2026-11-14 09:35 JST）
+- ROI が最大の KPI。応募・出張・購入・新しい作業はすべて「費用（現金・時間）」と「見返り（売上・資金・YC面接などの確率×価値）」を数字で並べてから決める。記録は各 application / ASSIGN エントリに1行。
+- イベントは SF だけを見ない。同じ見返り（YC面接・賞金・資金）が取れる東京・オンライン・アジア開催を毎回並べて比べる。
+- 応募したその日に最安の行き方を調べ、会社の現金で払えるなら即予約（CASH-FIRST #5）。
+
+## RULE LONG-TERM-ROI (成田さん 2026-11-14 09:41 JST)
+- ROI is judged long-term (goal: trillion-dollar company), never by near-term cost alone. Rejecting a trip or opportunity only because it is expensive today is myopic; estimate its long-run payoff (network, funding, YC/partners, learning) worldwide.
+- We win because we copy winners and do more than they do, and because we think longer-term than anyone.
+
+## RULE CONTENT-3-TOPICS (2026-11-14 11:00 JST, 成田さん)
+Articles and posts cover only: client work, behavior AI (simulation + intervention), autonomous companies. Write about every new platform/job/result too.
+
+## RULE BOTH-LANES (成田さん 2026-11-14 10:55–11:01 JST)
+Always run both lanes in parallel: (1) register on NEW platforms and distribution channels we have never been on; (2) keep applying to new jobs on existing platforms. Expanding inside an existing platform does not replace new-platform signup. Report every signup in ACTIVITY.md with proof (platform, signed-up / listed / applied / BLOCKED, public URL or blocker).
+
+## RULE PLATFORM-RATE (成田さん 2026-11-14 10:55 / 10:57 JST)
+The whole team (Muse, Dots, Codex, Pickle, every Grok bot) lands 10–15 NEW profitable platforms per hour, not 3. Deadline is NOW. One platform, one owner (CLAIMS first; no double signup).
+
+## RULE NO-LANGUAGE-PREFERENCE (成田さん 2026-11-14 11:02 JST; supersedes the 10:57 and 11:01 JA wording, old name JA-HUMAN-DATA)

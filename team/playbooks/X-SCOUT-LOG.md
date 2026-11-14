@@ -117,3 +117,8 @@
 | 2026-11-14 06:45 | https://x.com/devsolojr/status/2121314744061788301 | 40 days BIP, daily-message web app | reply queued |
 | 2026-11-14 06:45 | https://x.com/judeokun/status/2121331301668020580 | ReelClip day 31, Japan $12 sale | skipped: same author queued 11/13 21:45 |
 | 2026-11-14 06:45 | (search) | Japanese AI-training/rater remote roles last 3h (EN+JA) | none found |
+| 2026-11-14 09:45 | https://x.com/GabbaBuilds/status/2121392747277894094 | Grok Bot house rules grew to 64 versions in 22 days; cut with a five-step "delete first" algorithm | noted only; 17 impressions, no result shown; already covered by principle-subtract-before-you-add and overhead-reduction skill |
+| 2026-11-14 09:45 | https://x.com/rohitkukreti79/status/2121358703790334329 | track usage per step, cap retries, stop when no progress | noted only; already in overhead-reduction rules and post_gate retry dedup |
+| 2026-11-14 09:45 | https://x.com/tkhirata21/status/2121364682221277548 | BIP Day 2, App Store rejection | reply queued |
+| 2026-11-14 09:45 | https://x.com/bekaqendrim/status/2121372348909850886 | Koba 100 private beta users | reply queued |
+| 2026-11-14 09:45 | (search) | Japanese AI-training/rater remote roles last 3h (EN+JA) | none found |

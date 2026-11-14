@@ -233,6 +233,25 @@ def read_repo_file(path: str) -> str:
             return out.stdout
     except FileNotFoundError:
         pass
+    # Fallback 3: a git checkout of the same repo (this script's own repo, or POST_GATE_GIT_DIR).
+    # Fetch origin/<REF> fresh, then read the committed file, so the check is still against main.
+    gdir = os.environ.get("POST_GATE_GIT_DIR") or os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    try:
+        url = subprocess.run(["git", "-C", gdir, "remote", "get-url", "origin"],
+                             capture_output=True, text=True, timeout=10).stdout
+        if REPO.lower() in url.lower():
+            global _FETCHED
+            if not globals().get("_FETCHED"):
+                f = subprocess.run(["git", "-C", gdir, "fetch", "-q", "origin", REF],
+                                   capture_output=True, text=True, timeout=60)
+                _FETCHED = f.returncode == 0
+            if globals().get("_FETCHED"):
+                out = subprocess.run(["git", "-C", gdir, "show", f"origin/{REF}:{path}"],
+                                     capture_output=True, text=True, timeout=30)
+                if out.returncode == 0:
+                    return out.stdout
+    except (FileNotFoundError, subprocess.TimeoutExpired):
+        pass
     raise Refused(f"cannot read {path} from GitHub {REPO}@{REF} (set GITHUB_TOKEN/GH_TOKEN or log in gh). "
                   "Refusing: claims must be checked against main.")
 

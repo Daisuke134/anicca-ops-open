@@ -104,7 +104,7 @@
   },
   "source": "RevenueCat v2 charts + ASC Sales"
  },
- "updated_at": "2026-11-15 08:43 JST",
+ "updated_at": "2026-11-15 15:38 JST",
  "seo": {
   "read_at": "2026-11-15 08:43 JST",
   "range": "2026-10-17..2026-11-13",
@@ -321,11 +321,11 @@
   "source": "Google Search Console searchAnalytics sc property https://aniccaai.com/"
  },
  "capafy": {
-  "read_at": "2026-11-14 21:25 JST",
+  "read_at": "2026-11-15 15:38 JST",
   "listing_views": "unknown (source error: Capafy publisher API has no views endpoint; /agent/analytics/* returned code 500; Seller Console analytics page needs a web login read)",
-  "last7_orders": 223,
+  "last7_orders": 210,
   "last7_gross_usd": 19.98,
-  "mtd_orders": 628,
+  "mtd_orders": 648,
   "mtd_gross_usd": 82.92,
   "payout": {
    "balancePending": 7.6,

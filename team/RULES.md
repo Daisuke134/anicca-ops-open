@@ -596,3 +596,14 @@ When any agent (参謀 included) is overloaded or has work it cannot finish now,
 - 実行したら、助言してくれた人に何を変えたかを返信で伝える（credit）。投稿はPOST-GATEとX-ONE-WRITER/SANBO-POSTS-DIRECTに従う。
 - 毎日、X Operatorの返信ループと参謀のEDDループが X-ADVICE-LOG の NOT-YET で24時間を過ぎた行を数え、ACTIVITY.mdに `ADVICE | NOT-YET>24h n件 | 最古key` を書く。
 - 違反例: 2026-11-07 @SchildbenarStud「広告より先にコミュニティ」→ 返信だけして8日間コミュニティ投稿0件。
+- 2026-11-15 16:45 JST [参謀] RULE NO-MD-IN-CHAT: 成果物は必ずGitHubへ、チャットには1行だけ。
+- [参謀] RULE PLATFORM-SHARE: 新しいプラットフォームに登録したら、その場でPLATFORMS.md・ACTIVITY.md・TEAM-FEED.mdに@allで共有する。止まっている・失敗していることも即 STALLED-NOW.md で共有する。
+
+## RULE TRACE-ALL (2026-11-15 17:01–17:02 JST, 成田さん, all agents)
+
+Every action is traced. If it is not in `team/traces/YYYY-MM-DD.jsonl`, it did not happen.
+
+1. On every START, DONE, STALLED or FAILED piece of work, run `python3 scripts/trace_event.py --agent <you> --task <task> --platform <platform> --action <action> --status started|done|stalled|failed --proof-url <url> --money-jpy <yen or 0>`. The script appends one JSON line to `team/traces/YYYY-MM-DD.jsonl` (GitHub-visible) and sends the same event to Langfuse when keys exist in credentials.json or env (never print the keys). No paid Langfuse plan.
+2. Untraced work counts as not done. A loop that only writes "nothing to do" / "売上$0" without a trace is invisible and does not count.
+3. The dashboard anyone can read is `team/OBSERVABILITY.md` plus the day's JSONL, together with `team/STALLED-NOW.md`, `team/client-work/WIN-RATE.md`, `team/client-work/LISTINGS-METRICS.md`, and https://aniccaai.com/open/. Refresh OBSERVABILITY with `python3 scripts/build_observability.py`.
+4. New stall: add a row to STALLED-NOW.md in the same run (owner + next step + where the info already lives). Do not stop because "information is missing" — it is in this repo or credentials.json / vault.

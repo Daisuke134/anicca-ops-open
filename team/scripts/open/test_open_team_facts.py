@@ -24,10 +24,25 @@ class OpenTeamFactsTest(unittest.TestCase):
         self.assertFalse(naive["proof_of_run"])
         # Codex #10 merge proof is observed source work, not an App Store release.
         codex = next(r for r in data["current_status"] if r["agent"] == "Codex")
-        self.assertEqual(codex["status"], "observed")
+        self.assertIn(codex["status"], ("observed", "stale"))
         self.assertIn("9282", codex["outcome"])
         self.assertIn("1.9.6", codex["outcome"])
         self.assertIn("Not a live release success", codex["outcome"])
+
+    def test_old_fact_is_relabelled_stale(self):
+        """A days-old fact must not render as `observed` (STALLED-NOW #30)."""
+        import datetime as dt
+
+        now = dt.datetime(2030, 1, 2, 3, 4, tzinfo=TF.JST)
+        data = TF.build_team_facts(now=now)
+        by = {r["agent"]: r for r in data["current_status"]}
+        self.assertEqual(by["Codex"]["status"], "stale")
+        self.assertTrue(by["Codex"]["age_hours"] and by["Codex"]["age_hours"] > TF.FRESH_HOURS)
+        self.assertTrue(data["freshness_rule"]["relabelled_stale"])
+        # A fact inside the window keeps `observed`.
+        fresh_now = dt.datetime(2026, 11, 6, 18, 0, tzinfo=TF.JST)
+        fresh = {r["agent"]: r for r in TF.build_team_facts(now=fresh_now)["current_status"]}
+        self.assertEqual(fresh["Codex"]["status"], "observed")
 
     def test_stale_does_not_imply_active(self):
         data = TF.build_team_facts()

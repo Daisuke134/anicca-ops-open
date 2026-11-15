@@ -1,0 +1,830 @@
+date,product,layer,source,key,metric,value,note
+2026-11-08,Anicca,installs,ASC,app,redownloads,1,
+2026-11-08,Daily Dhamma,installs,ASC,app,new_downloads,1,
+2026-11-09,Anicca,installs,ASC,app,new_downloads,1,
+2026-11-09,Daily Dhamma,installs,ASC,app,new_downloads,1,
+2026-11-09,Anicca,installs,ASC,app,redownloads,1,
+2026-11-11,Anicca,installs,ASC,app,new_downloads,1,
+2026-11-12,Daily Dhamma,installs,ASC,app,new_downloads,1,
+2026-11-14,ALL,installs,ASC,-,report_status,n/a,not published yet
+2026-11-15,ALL,installs,ASC,-,report_status,n/a,not published yet
+2026-11-15,acct:aniccaaffirmation,engagement,Postiz,tiktok,followers,142,
+2026-11-15,acct:aniccaaffirmation,engagement,Postiz,tiktok,following,1,
+2026-11-15,acct:aniccaaffirmation,engagement,Postiz,tiktok,total_likes,16647,
+2026-11-15,acct:aniccaaffirmation,engagement,Postiz,tiktok,videos,737,
+2026-11-15,acct:aniccaaffirmation,engagement,Postiz,tiktok,views,2548,
+2026-11-15,acct:aniccaaffirmation,engagement,Postiz,tiktok,recent_likes,43,
+2026-11-15,acct:aniccaaffirmation,engagement,Postiz,tiktok,recent_comments,0,
+2026-11-15,acct:aniccaaffirmation,engagement,Postiz,tiktok,recent_shares,1,
+2026-11-08,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,reach,6,
+2026-11-09,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,reach,3,
+2026-11-10,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,reach,4,
+2026-11-11,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,reach,5,
+2026-11-12,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,reach,7,
+2026-11-13,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,reach,3,
+2026-11-14,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,reach,4,
+2026-11-15,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,likes,45,
+2026-11-15,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,views,231,
+2026-11-15,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,comments,0,
+2026-11-15,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,shares,0,
+2026-11-15,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,saves,4,
+2026-11-15,acct:anicca.jp.videos,engagement,Postiz,instagram-standalone,replies,0,
+2026-11-08,acct:anicca.en,engagement,Postiz,instagram-standalone,reach,3,
+2026-11-09,acct:anicca.en,engagement,Postiz,instagram-standalone,reach,3,
+2026-11-10,acct:anicca.en,engagement,Postiz,instagram-standalone,reach,3,
+2026-11-11,acct:anicca.en,engagement,Postiz,instagram-standalone,reach,4,
+2026-11-12,acct:anicca.en,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-13,acct:anicca.en,engagement,Postiz,instagram-standalone,reach,2,
+2026-11-14,acct:anicca.en,engagement,Postiz,instagram-standalone,reach,3,
+2026-11-15,acct:anicca.en,engagement,Postiz,instagram-standalone,likes,16,
+2026-11-15,acct:anicca.en,engagement,Postiz,instagram-standalone,views,91,
+2026-11-15,acct:anicca.en,engagement,Postiz,instagram-standalone,comments,0,
+2026-11-15,acct:anicca.en,engagement,Postiz,instagram-standalone,shares,0,
+2026-11-15,acct:anicca.en,engagement,Postiz,instagram-standalone,saves,0,
+2026-11-15,acct:anicca.en,engagement,Postiz,instagram-standalone,replies,0,
+2026-11-15,acct:anicca_slideshow,engagement,Postiz,tiktok,followers,3,
+2026-11-15,acct:anicca_slideshow,engagement,Postiz,tiktok,following,0,
+2026-11-15,acct:anicca_slideshow,engagement,Postiz,tiktok,total_likes,350,
+2026-11-15,acct:anicca_slideshow,engagement,Postiz,tiktok,videos,162,
+2026-11-15,acct:anicca_slideshow,engagement,Postiz,tiktok,views,2924,
+2026-11-15,acct:anicca_slideshow,engagement,Postiz,tiktok,recent_likes,60,
+2026-11-15,acct:anicca_slideshow,engagement,Postiz,tiktok,recent_comments,1,
+2026-11-15,acct:anicca_slideshow,engagement,Postiz,tiktok,recent_shares,0,
+2026-11-15,acct:aniccaen2,engagement,Postiz,tiktok,followers,35,
+2026-11-15,acct:aniccaen2,engagement,Postiz,tiktok,following,0,
+2026-11-15,acct:aniccaen2,engagement,Postiz,tiktok,total_likes,3796,
+2026-11-15,acct:aniccaen2,engagement,Postiz,tiktok,videos,430,
+2026-11-15,acct:aniccaen2,engagement,Postiz,tiktok,views,3168,
+2026-11-15,acct:aniccaen2,engagement,Postiz,tiktok,recent_likes,69,
+2026-11-15,acct:aniccaen2,engagement,Postiz,tiktok,recent_comments,1,
+2026-11-15,acct:aniccaen2,engagement,Postiz,tiktok,recent_shares,1,
+2026-11-08,acct:obou.anicca,engagement,Postiz,instagram-standalone,reach,1,
+2026-11-09,acct:obou.anicca,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-10,acct:obou.anicca,engagement,Postiz,instagram-standalone,reach,4,
+2026-11-11,acct:obou.anicca,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-12,acct:obou.anicca,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-13,acct:obou.anicca,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-14,acct:obou.anicca,engagement,Postiz,instagram-standalone,reach,1,
+2026-11-15,acct:obou.anicca,engagement,Postiz,instagram-standalone,likes,0,
+2026-11-15,acct:obou.anicca,engagement,Postiz,instagram-standalone,views,6,
+2026-11-15,acct:obou.anicca,engagement,Postiz,instagram-standalone,comments,0,
+2026-11-15,acct:obou.anicca,engagement,Postiz,instagram-standalone,shares,0,
+2026-11-15,acct:obou.anicca,engagement,Postiz,instagram-standalone,saves,0,
+2026-11-15,acct:obou.anicca,engagement,Postiz,instagram-standalone,replies,0,
+2026-11-08,acct:monk.mujo,engagement,Postiz,instagram-standalone,reach,173,
+2026-11-09,acct:monk.mujo,engagement,Postiz,instagram-standalone,reach,84,
+2026-11-10,acct:monk.mujo,engagement,Postiz,instagram-standalone,reach,2,
+2026-11-11,acct:monk.mujo,engagement,Postiz,instagram-standalone,reach,2,
+2026-11-12,acct:monk.mujo,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-13,acct:monk.mujo,engagement,Postiz,instagram-standalone,reach,1,
+2026-11-14,acct:monk.mujo,engagement,Postiz,instagram-standalone,reach,9,
+2026-11-15,acct:monk.mujo,engagement,Postiz,instagram-standalone,likes,16,
+2026-11-15,acct:monk.mujo,engagement,Postiz,instagram-standalone,views,418,
+2026-11-15,acct:monk.mujo,engagement,Postiz,instagram-standalone,comments,0,
+2026-11-15,acct:monk.mujo,engagement,Postiz,instagram-standalone,shares,1,
+2026-11-15,acct:monk.mujo,engagement,Postiz,instagram-standalone,saves,4,
+2026-11-15,acct:monk.mujo,engagement,Postiz,instagram-standalone,replies,0,
+2026-11-08,acct:@anicca-ai,engagement,Postiz,youtube,estimated_minutes_watched,0,
+2026-11-09,acct:@anicca-ai,engagement,Postiz,youtube,estimated_minutes_watched,0,
+2026-11-10,acct:@anicca-ai,engagement,Postiz,youtube,estimated_minutes_watched,75,
+2026-11-11,acct:@anicca-ai,engagement,Postiz,youtube,estimated_minutes_watched,0,
+2026-11-12,acct:@anicca-ai,engagement,Postiz,youtube,estimated_minutes_watched,0,
+2026-11-08,acct:@anicca-ai,engagement,Postiz,youtube,average_view_duration,7,
+2026-11-09,acct:@anicca-ai,engagement,Postiz,youtube,average_view_duration,9,
+2026-11-10,acct:@anicca-ai,engagement,Postiz,youtube,average_view_duration,1503,
+2026-11-11,acct:@anicca-ai,engagement,Postiz,youtube,average_view_duration,8,
+2026-11-12,acct:@anicca-ai,engagement,Postiz,youtube,average_view_duration,7,
+2026-11-08,acct:@anicca-ai,engagement,Postiz,youtube,average_view_percentage,35.23,
+2026-11-09,acct:@anicca-ai,engagement,Postiz,youtube,average_view_percentage,112.99999999999999,
+2026-11-10,acct:@anicca-ai,engagement,Postiz,youtube,average_view_percentage,3268.65,
+2026-11-11,acct:@anicca-ai,engagement,Postiz,youtube,average_view_percentage,56.06,
+2026-11-12,acct:@anicca-ai,engagement,Postiz,youtube,average_view_percentage,50.89,
+2026-11-08,acct:@anicca-ai,engagement,Postiz,youtube,subscribers_gained,0,
+2026-11-09,acct:@anicca-ai,engagement,Postiz,youtube,subscribers_gained,0,
+2026-11-10,acct:@anicca-ai,engagement,Postiz,youtube,subscribers_gained,0,
+2026-11-11,acct:@anicca-ai,engagement,Postiz,youtube,subscribers_gained,0,
+2026-11-12,acct:@anicca-ai,engagement,Postiz,youtube,subscribers_gained,0,
+2026-11-08,acct:@anicca-ai,engagement,Postiz,youtube,subscribers_lost,0,
+2026-11-09,acct:@anicca-ai,engagement,Postiz,youtube,subscribers_lost,0,
+2026-11-10,acct:@anicca-ai,engagement,Postiz,youtube,subscribers_lost,0,
+2026-11-11,acct:@anicca-ai,engagement,Postiz,youtube,subscribers_lost,0,
+2026-11-12,acct:@anicca-ai,engagement,Postiz,youtube,subscribers_lost,0,
+2026-11-08,acct:@anicca-ai,engagement,Postiz,youtube,likes,0,
+2026-11-09,acct:@anicca-ai,engagement,Postiz,youtube,likes,0,
+2026-11-10,acct:@anicca-ai,engagement,Postiz,youtube,likes,0,
+2026-11-11,acct:@anicca-ai,engagement,Postiz,youtube,likes,0,
+2026-11-12,acct:@anicca-ai,engagement,Postiz,youtube,likes,0,
+2026-11-15,acct:selawmqt,engagement,Postiz,x,impression,82,
+2026-11-15,acct:selawmqt,engagement,Postiz,x,bookmark,0,
+2026-11-15,acct:selawmqt,engagement,Postiz,x,like,1,
+2026-11-15,acct:selawmqt,engagement,Postiz,x,quote,0,
+2026-11-15,acct:selawmqt,engagement,Postiz,x,reply,2,
+2026-11-15,acct:selawmqt,engagement,Postiz,x,retweet,0,
+2026-11-15,acct:anicca_buddha,engagement,Postiz,tiktok,followers,3244,
+2026-11-15,acct:anicca_buddha,engagement,Postiz,tiktok,following,1,
+2026-11-15,acct:anicca_buddha,engagement,Postiz,tiktok,total_likes,35948,
+2026-11-15,acct:anicca_buddha,engagement,Postiz,tiktok,videos,421,
+2026-11-15,acct:anicca_buddha,engagement,Postiz,tiktok,views,6926,
+2026-11-15,acct:anicca_buddha,engagement,Postiz,tiktok,recent_likes,130,
+2026-11-15,acct:anicca_buddha,engagement,Postiz,tiktok,recent_comments,0,
+2026-11-15,acct:anicca_buddha,engagement,Postiz,tiktok,recent_shares,1,
+2026-11-08,acct:anicca.encards,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-09,acct:anicca.encards,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-10,acct:anicca.encards,engagement,Postiz,instagram-standalone,reach,1,
+2026-11-11,acct:anicca.encards,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-12,acct:anicca.encards,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-13,acct:anicca.encards,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-14,acct:anicca.encards,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-15,acct:anicca.encards,engagement,Postiz,instagram-standalone,likes,0,
+2026-11-15,acct:anicca.encards,engagement,Postiz,instagram-standalone,views,5,
+2026-11-15,acct:anicca.encards,engagement,Postiz,instagram-standalone,comments,0,
+2026-11-15,acct:anicca.encards,engagement,Postiz,instagram-standalone,shares,0,
+2026-11-15,acct:anicca.encards,engagement,Postiz,instagram-standalone,saves,0,
+2026-11-15,acct:anicca.encards,engagement,Postiz,instagram-standalone,replies,0,
+2026-11-08,acct:everfocus-labs,engagement,Postiz,linkedin-page,page_views,0,
+2026-11-09,acct:everfocus-labs,engagement,Postiz,linkedin-page,page_views,0,
+2026-11-10,acct:everfocus-labs,engagement,Postiz,linkedin-page,page_views,0,
+2026-11-11,acct:everfocus-labs,engagement,Postiz,linkedin-page,page_views,0,
+2026-11-12,acct:everfocus-labs,engagement,Postiz,linkedin-page,page_views,0,
+2026-11-13,acct:everfocus-labs,engagement,Postiz,linkedin-page,page_views,0,
+2026-11-14,acct:everfocus-labs,engagement,Postiz,linkedin-page,page_views,0,
+2026-11-08,acct:everfocus-labs,engagement,Postiz,linkedin-page,clicks,0,
+2026-11-09,acct:everfocus-labs,engagement,Postiz,linkedin-page,clicks,0,
+2026-11-10,acct:everfocus-labs,engagement,Postiz,linkedin-page,clicks,0,
+2026-11-11,acct:everfocus-labs,engagement,Postiz,linkedin-page,clicks,0,
+2026-11-12,acct:everfocus-labs,engagement,Postiz,linkedin-page,clicks,0,
+2026-11-13,acct:everfocus-labs,engagement,Postiz,linkedin-page,clicks,0,
+2026-11-14,acct:everfocus-labs,engagement,Postiz,linkedin-page,clicks,0,
+2026-11-08,acct:everfocus-labs,engagement,Postiz,linkedin-page,shares,0,
+2026-11-09,acct:everfocus-labs,engagement,Postiz,linkedin-page,shares,0,
+2026-11-10,acct:everfocus-labs,engagement,Postiz,linkedin-page,shares,0,
+2026-11-11,acct:everfocus-labs,engagement,Postiz,linkedin-page,shares,0,
+2026-11-12,acct:everfocus-labs,engagement,Postiz,linkedin-page,shares,0,
+2026-11-13,acct:everfocus-labs,engagement,Postiz,linkedin-page,shares,0,
+2026-11-14,acct:everfocus-labs,engagement,Postiz,linkedin-page,shares,0,
+2026-11-08,acct:everfocus-labs,engagement,Postiz,linkedin-page,engagement,0,
+2026-11-09,acct:everfocus-labs,engagement,Postiz,linkedin-page,engagement,0,
+2026-11-10,acct:everfocus-labs,engagement,Postiz,linkedin-page,engagement,0,
+2026-11-11,acct:everfocus-labs,engagement,Postiz,linkedin-page,engagement,0,
+2026-11-12,acct:everfocus-labs,engagement,Postiz,linkedin-page,engagement,0,
+2026-11-13,acct:everfocus-labs,engagement,Postiz,linkedin-page,engagement,0,
+2026-11-14,acct:everfocus-labs,engagement,Postiz,linkedin-page,engagement,0,
+2026-11-08,acct:everfocus-labs,engagement,Postiz,linkedin-page,comments,0,
+2026-11-09,acct:everfocus-labs,engagement,Postiz,linkedin-page,comments,0,
+2026-11-10,acct:everfocus-labs,engagement,Postiz,linkedin-page,comments,0,
+2026-11-11,acct:everfocus-labs,engagement,Postiz,linkedin-page,comments,0,
+2026-11-12,acct:everfocus-labs,engagement,Postiz,linkedin-page,comments,0,
+2026-11-13,acct:everfocus-labs,engagement,Postiz,linkedin-page,comments,0,
+2026-11-14,acct:everfocus-labs,engagement,Postiz,linkedin-page,comments,0,
+2026-11-08,acct:everfocus-labs,engagement,Postiz,linkedin-page,organic_followers,0,
+2026-11-09,acct:everfocus-labs,engagement,Postiz,linkedin-page,organic_followers,0,
+2026-11-10,acct:everfocus-labs,engagement,Postiz,linkedin-page,organic_followers,0,
+2026-11-11,acct:everfocus-labs,engagement,Postiz,linkedin-page,organic_followers,0,
+2026-11-12,acct:everfocus-labs,engagement,Postiz,linkedin-page,organic_followers,0,
+2026-11-13,acct:everfocus-labs,engagement,Postiz,linkedin-page,organic_followers,0,
+2026-11-08,acct:everfocus-labs,engagement,Postiz,linkedin-page,paid_followers,0,
+2026-11-09,acct:everfocus-labs,engagement,Postiz,linkedin-page,paid_followers,0,
+2026-11-10,acct:everfocus-labs,engagement,Postiz,linkedin-page,paid_followers,0,
+2026-11-11,acct:everfocus-labs,engagement,Postiz,linkedin-page,paid_followers,0,
+2026-11-12,acct:everfocus-labs,engagement,Postiz,linkedin-page,paid_followers,0,
+2026-11-13,acct:everfocus-labs,engagement,Postiz,linkedin-page,paid_followers,0,
+2026-11-15,acct:honne_reveal,engagement,Postiz,tiktok,followers,5,
+2026-11-15,acct:honne_reveal,engagement,Postiz,tiktok,following,7,
+2026-11-15,acct:honne_reveal,engagement,Postiz,tiktok,total_likes,2253,
+2026-11-15,acct:honne_reveal,engagement,Postiz,tiktok,videos,308,
+2026-11-15,acct:honne_reveal,engagement,Postiz,tiktok,views,3267,
+2026-11-15,acct:honne_reveal,engagement,Postiz,tiktok,recent_likes,56,
+2026-11-15,acct:honne_reveal,engagement,Postiz,tiktok,recent_comments,0,
+2026-11-15,acct:honne_reveal,engagement,Postiz,tiktok,recent_shares,1,
+2026-11-15,acct:honnevideo,engagement,Postiz,tiktok,followers,24,
+2026-11-15,acct:honnevideo,engagement,Postiz,tiktok,following,8,
+2026-11-15,acct:honnevideo,engagement,Postiz,tiktok,total_likes,1448,
+2026-11-15,acct:honnevideo,engagement,Postiz,tiktok,videos,448,
+2026-11-15,acct:honnevideo,engagement,Postiz,tiktok,views,17692,
+2026-11-15,acct:honnevideo,engagement,Postiz,tiktok,recent_likes,102,
+2026-11-15,acct:honnevideo,engagement,Postiz,tiktok,recent_comments,1,
+2026-11-15,acct:honnevideo,engagement,Postiz,tiktok,recent_shares,1,
+2026-11-15,acct:monk_anicca,engagement,Postiz,tiktok,followers,241,
+2026-11-15,acct:monk_anicca,engagement,Postiz,tiktok,following,11,
+2026-11-15,acct:monk_anicca,engagement,Postiz,tiktok,total_likes,2446,
+2026-11-15,acct:monk_anicca,engagement,Postiz,tiktok,videos,122,
+2026-11-15,acct:monk_anicca,engagement,Postiz,tiktok,views,3030,
+2026-11-15,acct:monk_anicca,engagement,Postiz,tiktok,recent_likes,426,
+2026-11-15,acct:monk_anicca,engagement,Postiz,tiktok,recent_comments,7,
+2026-11-15,acct:monk_anicca,engagement,Postiz,tiktok,recent_shares,2,
+2026-11-08,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-09,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-10,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-11,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-12,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,reach,1,
+2026-11-13,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-14,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-15,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,likes,0,
+2026-11-15,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,views,1,
+2026-11-15,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,comments,0,
+2026-11-15,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,shares,0,
+2026-11-15,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,saves,0,
+2026-11-15,acct:anicca.ios.jp,engagement,Postiz,instagram-standalone,replies,0,
+2026-11-08,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-09,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-10,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-11,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-12,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-13,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-14,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-15,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,likes,0,
+2026-11-15,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,views,0,
+2026-11-15,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,comments,0,
+2026-11-15,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,shares,0,
+2026-11-15,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,saves,0,
+2026-11-15,acct:anicca.cemetery,engagement,Postiz,instagram-standalone,replies,0,
+2026-11-15,acct:diceai0,engagement,Postiz,x,impression,6089,
+2026-11-15,acct:diceai0,engagement,Postiz,x,bookmark,6,
+2026-11-15,acct:diceai0,engagement,Postiz,x,like,119,
+2026-11-15,acct:diceai0,engagement,Postiz,x,quote,2,
+2026-11-15,acct:diceai0,engagement,Postiz,x,reply,99,
+2026-11-15,acct:diceai0,engagement,Postiz,x,retweet,4,
+2026-11-15,acct:anicca.he,engagement,Postiz,tiktok,followers,32,
+2026-11-15,acct:anicca.he,engagement,Postiz,tiktok,following,4,
+2026-11-15,acct:anicca.he,engagement,Postiz,tiktok,total_likes,1960,
+2026-11-15,acct:anicca.he,engagement,Postiz,tiktok,videos,218,
+2026-11-15,acct:anicca.he,engagement,Postiz,tiktok,views,15299,
+2026-11-15,acct:anicca.he,engagement,Postiz,tiktok,recent_likes,454,
+2026-11-15,acct:anicca.he,engagement,Postiz,tiktok,recent_comments,1,
+2026-11-15,acct:anicca.he,engagement,Postiz,tiktok,recent_shares,0,
+2026-11-15,acct:anicca.jp,engagement,Postiz,tiktok,followers,260,
+2026-11-15,acct:anicca.jp,engagement,Postiz,tiktok,following,38,
+2026-11-15,acct:anicca.jp,engagement,Postiz,tiktok,total_likes,18479,
+2026-11-15,acct:anicca.jp,engagement,Postiz,tiktok,videos,608,
+2026-11-15,acct:anicca.jp,engagement,Postiz,tiktok,views,7760,
+2026-11-15,acct:anicca.jp,engagement,Postiz,tiktok,recent_likes,223,
+2026-11-15,acct:anicca.jp,engagement,Postiz,tiktok,recent_comments,1,
+2026-11-15,acct:anicca.jp,engagement,Postiz,tiktok,recent_shares,3,
+2026-11-15,acct:anicca.jp4,engagement,Postiz,tiktok,followers,136,
+2026-11-15,acct:anicca.jp4,engagement,Postiz,tiktok,following,0,
+2026-11-15,acct:anicca.jp4,engagement,Postiz,tiktok,total_likes,7602,
+2026-11-15,acct:anicca.jp4,engagement,Postiz,tiktok,videos,449,
+2026-11-15,acct:anicca.jp4,engagement,Postiz,tiktok,views,13115,
+2026-11-15,acct:anicca.jp4,engagement,Postiz,tiktok,recent_likes,342,
+2026-11-15,acct:anicca.jp4,engagement,Postiz,tiktok,recent_comments,0,
+2026-11-15,acct:anicca.jp4,engagement,Postiz,tiktok,recent_shares,2,
+2026-11-15,acct:anicca.jpx,engagement,Postiz,tiktok,followers,70,
+2026-11-15,acct:anicca.jpx,engagement,Postiz,tiktok,following,6,
+2026-11-15,acct:anicca.jpx,engagement,Postiz,tiktok,total_likes,10482,
+2026-11-15,acct:anicca.jpx,engagement,Postiz,tiktok,videos,423,
+2026-11-15,acct:anicca.jpx,engagement,Postiz,tiktok,views,14480,
+2026-11-15,acct:anicca.jpx,engagement,Postiz,tiktok,recent_likes,422,
+2026-11-15,acct:anicca.jpx,engagement,Postiz,tiktok,recent_comments,2,
+2026-11-15,acct:anicca.jpx,engagement,Postiz,tiktok,recent_shares,6,
+2026-11-15,acct:obou_anicca,engagement,Postiz,tiktok,followers,12,
+2026-11-15,acct:obou_anicca,engagement,Postiz,tiktok,following,11,
+2026-11-15,acct:obou_anicca,engagement,Postiz,tiktok,total_likes,114,
+2026-11-15,acct:obou_anicca,engagement,Postiz,tiktok,videos,81,
+2026-11-15,acct:obou_anicca,engagement,Postiz,tiktok,views,4,
+2026-11-15,acct:obou_anicca,engagement,Postiz,tiktok,recent_likes,0,
+2026-11-15,acct:obou_anicca,engagement,Postiz,tiktok,recent_comments,0,
+2026-11-15,acct:obou_anicca,engagement,Postiz,tiktok,recent_shares,0,
+2026-11-08,acct:anicca.ios,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-09,acct:anicca.ios,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-10,acct:anicca.ios,engagement,Postiz,instagram-standalone,reach,1,
+2026-11-11,acct:anicca.ios,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-12,acct:anicca.ios,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-13,acct:anicca.ios,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-14,acct:anicca.ios,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-15,acct:anicca.ios,engagement,Postiz,instagram-standalone,likes,0,
+2026-11-15,acct:anicca.ios,engagement,Postiz,instagram-standalone,views,1,
+2026-11-15,acct:anicca.ios,engagement,Postiz,instagram-standalone,comments,0,
+2026-11-15,acct:anicca.ios,engagement,Postiz,instagram-standalone,shares,0,
+2026-11-15,acct:anicca.ios,engagement,Postiz,instagram-standalone,saves,0,
+2026-11-15,acct:anicca.ios,engagement,Postiz,instagram-standalone,replies,0,
+2026-11-08,acct:ani.cca1234,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-09,acct:ani.cca1234,engagement,Postiz,instagram-standalone,reach,1,
+2026-11-10,acct:ani.cca1234,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-11,acct:ani.cca1234,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-12,acct:ani.cca1234,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-13,acct:ani.cca1234,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-14,acct:ani.cca1234,engagement,Postiz,instagram-standalone,reach,0,
+2026-11-15,acct:ani.cca1234,engagement,Postiz,instagram-standalone,likes,0,
+2026-11-15,acct:ani.cca1234,engagement,Postiz,instagram-standalone,views,1,
+2026-11-15,acct:ani.cca1234,engagement,Postiz,instagram-standalone,comments,1,
+2026-11-15,acct:ani.cca1234,engagement,Postiz,instagram-standalone,shares,0,
+2026-11-15,acct:ani.cca1234,engagement,Postiz,instagram-standalone,saves,0,
+2026-11-15,acct:ani.cca1234,engagement,Postiz,instagram-standalone,replies,0,
+2026-11-08,acct:@anicca-affirmation-video,engagement,Postiz,youtube,estimated_minutes_watched,24,
+2026-11-09,acct:@anicca-affirmation-video,engagement,Postiz,youtube,estimated_minutes_watched,0,
+2026-11-10,acct:@anicca-affirmation-video,engagement,Postiz,youtube,estimated_minutes_watched,0,
+2026-11-11,acct:@anicca-affirmation-video,engagement,Postiz,youtube,estimated_minutes_watched,0,
+2026-11-12,acct:@anicca-affirmation-video,engagement,Postiz,youtube,estimated_minutes_watched,0,
+2026-11-08,acct:@anicca-affirmation-video,engagement,Postiz,youtube,average_view_duration,37,
+2026-11-09,acct:@anicca-affirmation-video,engagement,Postiz,youtube,average_view_duration,7,
+2026-11-10,acct:@anicca-affirmation-video,engagement,Postiz,youtube,average_view_duration,11,
+2026-11-11,acct:@anicca-affirmation-video,engagement,Postiz,youtube,average_view_duration,0,
+2026-11-12,acct:@anicca-affirmation-video,engagement,Postiz,youtube,average_view_duration,0,
+2026-11-08,acct:@anicca-affirmation-video,engagement,Postiz,youtube,average_view_percentage,24.7,
+2026-11-09,acct:@anicca-affirmation-video,engagement,Postiz,youtube,average_view_percentage,5.15,
+2026-11-10,acct:@anicca-affirmation-video,engagement,Postiz,youtube,average_view_percentage,10.04,
+2026-11-11,acct:@anicca-affirmation-video,engagement,Postiz,youtube,average_view_percentage,0,
+2026-11-12,acct:@anicca-affirmation-video,engagement,Postiz,youtube,average_view_percentage,0,
+2026-11-08,acct:@anicca-affirmation-video,engagement,Postiz,youtube,subscribers_gained,0,
+2026-11-09,acct:@anicca-affirmation-video,engagement,Postiz,youtube,subscribers_gained,0,
+2026-11-10,acct:@anicca-affirmation-video,engagement,Postiz,youtube,subscribers_gained,0,
+2026-11-11,acct:@anicca-affirmation-video,engagement,Postiz,youtube,subscribers_gained,0,
+2026-11-12,acct:@anicca-affirmation-video,engagement,Postiz,youtube,subscribers_gained,0,
+2026-11-08,acct:@anicca-affirmation-video,engagement,Postiz,youtube,subscribers_lost,0,
+2026-11-09,acct:@anicca-affirmation-video,engagement,Postiz,youtube,subscribers_lost,0,
+2026-11-10,acct:@anicca-affirmation-video,engagement,Postiz,youtube,subscribers_lost,0,
+2026-11-11,acct:@anicca-affirmation-video,engagement,Postiz,youtube,subscribers_lost,0,
+2026-11-12,acct:@anicca-affirmation-video,engagement,Postiz,youtube,subscribers_lost,0,
+2026-11-08,acct:@anicca-affirmation-video,engagement,Postiz,youtube,likes,0,
+2026-11-09,acct:@anicca-affirmation-video,engagement,Postiz,youtube,likes,0,
+2026-11-10,acct:@anicca-affirmation-video,engagement,Postiz,youtube,likes,0,
+2026-11-11,acct:@anicca-affirmation-video,engagement,Postiz,youtube,likes,0,
+2026-11-12,acct:@anicca-affirmation-video,engagement,Postiz,youtube,likes,0,
+2026-11-14,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7707817953365970196,posted,1,You do not need to fix everything to deserve rest. Download 
+2026-11-14,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7707996083774819602,posted,1,Hard days are when gentleness matters most. Download the App
+2026-11-14,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7707756025838882066,posted,1,Rest is found in the quiet space between thoughts. Download 
+2026-11-15,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/photo/7708204223254613255,posted,1,5 affirmations to tell yourself to come back to now. Downloa
+2026-11-14,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7707864300848729364,posted,1,One breath in is calm. One breath out is release. Download t
+2026-11-09,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7705896244480134420,posted,1,We built a company that runs itself.  Anicca — Life Manager 
+2026-11-11,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7706874679771860245,posted,1,Slow is not stuck. Slow is becoming. Download the App (link 
+2026-11-11,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7706882498055146804,posted,1,Everyone else was running for second place. Become the one t
+2026-11-11,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7706874685358755093,posted,1,You do not have to earn love by shrinking. Download the App 
+2026-11-11,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7706874348589632820,posted,1,No one is coming to save you. That is the good news — you ge
+2026-11-13,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7707385029726424340,posted,1,"Loving yourself means choosing what is true, every time. Dow"
+2026-11-13,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7707493216806882612,posted,1,Being loved only helps when you let yourself feel it. Downlo
+2026-11-13,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7707625184177425682,posted,1,The world can be loud. Your center does not have to be. Down
+2026-11-12,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation,posted,1,"You do not need loud. You need purpose, repeated daily. Down"
+2026-11-12,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation,posted,1,An open heart is how you meet this moment fully. Download th
+2026-11-12,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation,posted,1,The thought that tries to shrink you is not in charge. Downl
+2026-11-13,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/video/7707446895601388821,posted,1,You find love when you look for it in small moments. Downloa
+2026-11-12,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation,posted,1,Fully committed is a decision you make daily. Download the A
+2026-11-15,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/photo/7708204202547301653,posted,1,5 affirmations to tell yourself in a quiet moment. Download 
+2026-11-15,acct:aniccaaffirmation,post,Postiz,https://www.tiktok.com/@aniccaaffirmation/photo/7708235355358563604,posted,1,5 affirmations to tell yourself with gratitude. Download the
+2026-11-13,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7707384969743715605,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-13,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7707493189615144212,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-14,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7707756077743344917,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-14,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7707817877541342482,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-15,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7708204288069111060,posted,1,5 affirmations to tell yourself when life feels hard. Downlo
+2026-11-15,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7708204327214566664,posted,1,5 affirmations to tell yourself to make peace. Download the 
+2026-11-14,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7707864276064603400,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-14,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7707996212829441281,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-11,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7706751022806551829,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-11,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7706823111525616916,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-11,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7706823288172973332,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-11,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7706882465750617365,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-12,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-13,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7707446847912316181,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-13,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7707625168524332309,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-15,acct:anicca_slideshow,post,Postiz,https://www.tiktok.com/@anicca_slideshow/photo/7708235341622201620,posted,1,Say it until you believe it. Download the App (link in bio).
+2026-11-08,acct:obou.anicca,post,Postiz,https://www.instagram.com/reel/DfclAYpiiWP/,posted,1,すべては移り変わります。いい日も、つらい日も、ずっと同じ形ではありません。心がざわつくのは、変わり続けるものにしがみつく
+2026-11-10,acct:obou.anicca,post,Postiz,https://www.instagram.com/reel/DfidYIXHLAw/,posted,1,. 眠れない夜の無常  眠れない夜に。 考えは雲、あなたは空。 今夜はここまでで十分。  心がざわつくのは、あなたが弱い
+2026-11-10,acct:obou.anicca,post,Postiz,https://www.instagram.com/reel/Dfj54qykt0u/,posted,1,"Pour honey on ginger and just watch what happens!  Comment """
+2026-11-11,acct:obou.anicca,post,Postiz,https://www.instagram.com/reel/DflBpu5kkLV/,posted,1,. 背負わなくていいもの  人に好かれようと疲れたら。 それは私が背負うもの？。 違うなら、そっと置く。  心がざわつく
+2026-11-08,acct:monk.mujo,post,Postiz,https://www.instagram.com/reel/DfcnSsEgnxQ/,posted,1,Warm water with a slice of ginger before breakfast. An old m
+2026-11-09,acct:monk.mujo,post,Postiz,https://www.instagram.com/reel/DfflXOoCRNI/,posted,1,We built a company that runs itself.  Anicca — Life Manager 
+2026-11-15,acct:monk.mujo,post,Postiz,https://www.instagram.com/reel/DfvEcDAAmvp/,posted,1,"Your first words stay with you. 🌿  In the new Anicca, the af"
+2026-11-15,acct:monk.mujo,post,Postiz,https://www.instagram.com/p/DfvEt88CYvD/,posted,1,"The new Anicca, screen by screen. 📖  1. Welcome 2. One quest"
+2026-11-09,acct:@anicca-ai,post,Postiz,https://www.youtube.com/watch?v=aF1z0ZlI9lM,posted,1,Put an ice cube between your big toe and middle toe for 15 s
+2026-11-10,acct:@anicca-ai,post,Postiz,https://www.youtube.com/watch?v=xexpTy4kgnU,posted,1,Pour honey on ginger and just watch what happens. Western do
+2026-11-10,acct:selawmqt,post,Postiz,https://twitter.com/selawmqt/status/2119953295473099028,posted,1,how i pick shorts from a long video now:1. mark every point 
+2026-11-11,acct:selawmqt,post,Postiz,https://twitter.com/selawmqt/status/2120302074160193556,posted,1,how i fix a short people swipe past:  1. watch the first 3 s
+2026-11-11,acct:selawmqt,post,Postiz,https://twitter.com/selawmqt/status/2120527385816678740,posted,1,how i write captions for shorts now:  1. say the payoff in t
+2026-11-12,acct:selawmqt,post,Postiz,https://twitter.com/selawmqt/status/2120677516260102214,posted,1,919 posts. 13 followers.  → last 3 posts: 7 views total → la
+2026-11-13,acct:selawmqt,post,Postiz,https://twitter.com/selawmqt/status/2121043044300423278,posted,1,We killed our hard paywall.  Anicca is free first now: your 
+2026-11-13,acct:selawmqt,post,Postiz,https://twitter.com/selawmqt/status/2121130023260209417,posted,1,we run a team of AI agents on one shared file. everyone writ
+2026-11-10,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha,posted,1,How to become rich based on your birth date ✨ Find your code
+2026-11-14,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/photo/7707756034558921991,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-14,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/photo/7707817949226110215,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-14,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/photo/7707864257014025480,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-14,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/photo/7707995872759467285,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-10,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/video/7706467020518329620,posted,1,Type “I ACCEPT” in the comments 💫 This is your signal to act
+2026-11-10,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/video/7706466235243842837,posted,1,Your answer may reveal how your mind pays attention — what i
+2026-11-11,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha,posted,1,心が静まる言葉10選🌿✨ 今日も一日おつかれさまでした 穏やかな夜を過ごせますように✨ 素敵な言葉や知見をいつも手元に置
+2026-11-11,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha,posted,1,心がほぐれる言葉10選🌿✨ 今日も元気に、 充実した1日を過ごせますように✨ 素敵な言葉や知見をいつも手元に置けるアプリ
+2026-11-12,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-13,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/photo/7707446817977388308,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-13,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/photo/7707384965826088212,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-13,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/photo/7707493191808781589,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-13,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/photo/7707624854710734101,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-15,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/photo/7708235345581657345,posted,1,自分を信じる名言5選。毎日の言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-15,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/photo/7708204470290648338,posted,1,前を向ける言葉5選。毎日の言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-15,acct:anicca_buddha,post,Postiz,https://www.tiktok.com/@anicca_buddha/photo/7708204390800280839,posted,1,心が整う名言5選。毎日の言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-15,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7527573785546407936,posted,1,People get angry when successful founders promote each other
+2026-11-08,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7524898484043382784,posted,1,"I run a company where the loop does the work.  This week, an"
+2026-11-08,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7524923478592880640,posted,1,Our AI agent just registered itself on Capafy — with its own
+2026-11-08,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7524987075868360704,posted,1,"The big ""secret"" about the people grinding 24/7 is that they"
+2026-11-14,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7527113727448367105,posted,1,A room full of successful founders told Welsh he was wasting
+2026-11-09,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7525399499633053696,posted,1,Our app Anicca has a paywall problem.  84% of people who rea
+2026-11-09,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:ugcPost:7525301378118893568,posted,1,We changed the most important part of our product.  How you 
+2026-11-08,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:ugcPost:7525197452463902720,posted,1,"This is our app. Recorded, not rendered.  Six end-to-end flo"
+2026-11-09,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7525247424798441472,posted,1,We did not bring a pitch to YC today.  We brought a company.
+2026-11-14,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7527166241375977472,posted,1,Most of your biggest decisions were made with the worst info
+2026-11-09,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7525288084981190656,posted,1,We built a company that runs itself.  Anicca — Life Manager 
+2026-11-14,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7527211388843335680,posted,1,"For years, our rule was simple: More.  More posts. More plat"
+2026-11-09,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7525524677616771072,posted,1,"November so far, in public:  Revenue: $31.81  Costs: $1,605."
+2026-11-10,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:ugcPost:7525664056352079872,posted,1,Day 1 at Y Combinator HQ.  The brief on the screen was two l
+2026-11-14,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7527336703481528320,posted,1,Welsh almost quoted $25K for a keynote. His wife said one se
+2026-11-10,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:ugcPost:7525804611325296642,posted,1,Day 2 is over.  The winners have been decided at the world's
+2026-11-10,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7525870959916945408,posted,1,We removed the skip button from our paywall.  Anicca is our 
+2026-11-11,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526104143539912705,posted,1,"We are building a company with no humans in the loop, by ref"
+2026-11-11,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526122671105847296,posted,1,We audited our own numbers today. Most of them were lying to
+2026-11-11,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526164013869645825,posted,1,Every good thing we have built started with a slightly unrea
+2026-11-11,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526164350458478592,posted,1,The zero-human company's secret weapon: Not funding. Not 24/
+2026-11-11,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526249542707511296,posted,1,"On paper, our company runs 24 hours a day. Agents post, meas"
+2026-11-11,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526260116581548034,posted,1,We ran a behavior model on the benchmark built to test it.  
+2026-11-13,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526974316169666560,posted,1,Welsh got fired from his first three sales jobs.  Three term
+2026-11-13,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526803792776945664,posted,1,The most expensive mistake in our company is not money.  It 
+2026-11-12,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526388604781105152,posted,1,"We were doing everything, everywhere, all of the time.  Post"
+2026-11-12,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526441476667379713,posted,1,How much does running this company actually cost us?  Not th
+2026-11-12,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526486633270132736,posted,1,Our agents rerun the same numbers hundreds of times before m
+2026-11-15,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:ugcPost:7527468252231548928,posted,1,We rebuilt Anicca end to end — and recorded the real app to  |ct=linkedin_phase1
+2026-11-15,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7527475766008156160,posted,1,"For a long time, we ran this company like we still had somet"
+2026-11-12,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526611929700888576,posted,1,We publish our bad numbers every day.  Not when they improve
+2026-11-13,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526751013685403649,posted,1,Our first version of everything is embarrassingly simple.  O
+2026-11-13,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:ugcPost:7526808818832457728,posted,1,"We killed Anicca's hard paywall.  Until yesterday, the app a"
+2026-11-15,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7527528485435670528,posted,1,Welsh keeps getting the same email from successful founders:
+2026-11-13,acct:daisuke-narita,post,Postiz,https://www.linkedin.com/feed/update/urn:li:share:7526849035899453440,posted,1,Everyone tells us how to grow this company faster.  Hire peo
+2026-11-13,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7707493202156326164,posted,1,"They said ""I'm tired today"" and you don't want to say the wr"
+2026-11-13,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7707446879126048021,posted,1,"They said ""thanks, that helped"" and you wonder what it reall"
+2026-11-14,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7707756028820999442,posted,1,"They sent ""running late, sorry"" and your mind went to the wo"
+2026-11-14,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7707817854682418439,posted,1,"They sent ""good night"" and you are rereading a two-word text"
+2026-11-14,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7707864279004843285,posted,1,"They sent ""we need to talk"" and you are still rereading it. "
+2026-11-14,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7707996022617771271,posted,1,"They sent ""lol"" and you are still rereading it. Honne sugges"
+2026-11-11,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7706750989906267413,posted,1,"They sent ""ok."" and you've reread it 12 times. Honne suggest"
+2026-11-11,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7706808083846073620,posted,1,"They said ""I'm fine."" and it did not feel fine. Honne sugges"
+2026-11-11,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7706823313846193428,posted,1,"They said ""forget it."" and you have not stopped thinking abo"
+2026-11-11,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7706882482544708885,posted,1,Left on read again. Honne suggests a reading and a reply tha
+2026-11-12,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal,posted,1,"They said ""I'll tell you later"" and later feels very far awa"
+2026-11-12,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal,posted,1,"They sent ""sounds good"" and you are still rereading it. Honn"
+2026-11-13,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7707624787559992594,posted,1,"They said ""talk soon"" and soon feels uncertain. Honne sugges"
+2026-11-15,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7708235355555646740,posted,1,What his good night text really means. Swipe to reveal what 
+2026-11-12,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal,posted,1,"They sent ""k."" and your stomach dropped. Honne suggests a re"
+2026-11-12,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal,posted,1,"They sent ""my bad"" and you don't know how sorry they really "
+2026-11-13,acct:honne_reveal,post,Postiz,https://www.tiktok.com/@honne_reveal/photo/7707385039956331782,posted,1,"They said ""can't tonight"" and it stung more than you expecte"
+2026-11-13,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7707663390868638983,posted,1,「ごめん、遅れる」に不安になってしまう人に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり、事実で
+2026-11-13,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7707493202726489396,posted,1,「今日は疲れた」と言われたとき、どう返すか迷う人に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり
+2026-11-13,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7707624831298194709,posted,1,短い「わかった」が冷たく感じてしまう人に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり、事実では
+2026-11-08,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7705459168328666388,posted,1,両思い寸前に増える行動5選 目が合う回数・未来の話——3つ揃ったら、両思いはかなり近い。 あなたは、いくつ当てはまった？
+2026-11-08,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7705457883043204372,posted,1,男子が本命にだけ送るLINEの特徴5選 返信が丁寧・用がなくても連絡——5つ全部当てはまったら、本命度はかなり高め。 あ
+2026-11-14,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7707864251284868370,posted,1,「楽しかったよ」が本音か気になってしまう人に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり、事実
+2026-11-14,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7707941633244925192,posted,1,短い「おやすみ」を読み返してしまう夜に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり、事実ではあ
+2026-11-14,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7707996013360893202,posted,1,「ごめん、返信忘れてた」を読み返してしまう夜に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり、事
+2026-11-11,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7706750987398171924,posted,1,「大丈夫だよ。」の裏を、何度も読み返してしまう夜に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり
+2026-11-11,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7706828343370485013,posted,1,既読のまま止まった画面を、つい開き直してしまう人に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり
+2026-11-11,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7706882788330491157,posted,1,「また今度」で終わった誘いを、終わらせない返し方。Honne は、読みと「悪化させにくい返信」を提案します（提案であり、
+2026-11-11,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo,posted,1,「忙しい」の一文を、何度も読み返してしまう夜に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり、事
+2026-11-12,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo,posted,1,「ごめん、寝てた」を何度も読み返してしまう夜に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり、事
+2026-11-12,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo,posted,1,一文字の「うん」を、何度も読み返してしまう人に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり、事
+2026-11-12,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo,posted,1,「ありがとう、助かった」に隠れた気持ちが気になる人に。Honne は、読みと「悪化させにくい返信」を提案します（提案であ
+2026-11-12,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo,posted,1,「了解」の一言を、何度も読み返してしまう人に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり、事実
+2026-11-13,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7707570514360945940,posted,1,「また連絡するね」のあと、連絡を待ってしまう人に。Honne は、読みと「悪化させにくい返信」を提案します（提案であり、
+2026-11-15,acct:honnevideo,post,Postiz,https://www.tiktok.com/@honnevideo/photo/7708235347628510485,posted,1,嬉しい確定セリフ5選。言われたら嬉しいのは、好意が隠れているから。その裏の気持ちは Honne で読み解けます。 #恋愛
+2026-11-09,acct:monk_anicca,post,Postiz,https://www.tiktok.com/@monk_anicca/video/7706011930556632340,posted,1,Put an ice cube between your big toe and middle toe for 15 s
+2026-11-08,acct:monk_anicca,post,Postiz,https://www.tiktok.com/@monk_anicca/video/7705467431526927623,posted,1,Warm water with a slice of ginger before breakfast. An old m
+2026-11-08,acct:monk_anicca,post,Postiz,https://www.tiktok.com/@monk_anicca/video/7705694959072070920,posted,1,"If you want your hair to grow faster, make this natural reci"
+2026-11-10,acct:monk_anicca,post,Postiz,https://www.tiktok.com/@monk_anicca/video/7706386553920146708,posted,1,"Pour honey on ginger and just watch what happens!  Comment """
+2026-11-08,acct:diceai0,post,Postiz,cmw6u5aty050tk7079d1ydwtk,posted,1,"Our AI agent registered itself on Capafy — its own email, ze"
+2026-11-10,acct:diceai0,post,Postiz,https://twitter.com/diceai0/status/2120043981560037857,posted,1,Day 2 is over. The winners have been decided.  First place w
+2026-11-09,acct:diceai0,post,Postiz,https://twitter.com/diceai0/status/2119446702901936330,posted,1,Day 1 at YC HQ.  The brief on the screen: 'Build an Autonomo
+2026-11-09,acct:diceai0,post,Postiz,https://twitter.com/diceai0/status/2119522094815867014,posted,1,We built a company that runs itself.  Anicca — Life Manager 
+2026-11-10,acct:diceai0,post,Postiz,https://twitter.com/diceai0/status/2120064477810852094,posted,1,"For people juggling DataAnnotation, Outlier + micro1: how ma"
+2026-11-10,acct:diceai0,post,Postiz,https://twitter.com/diceai0/status/2120065854222004388,posted,1,Anicca v1.9.9 shipped Nov 8. We started a paywall A/B test t
+2026-11-15,acct:diceai0,post,Postiz,https://twitter.com/diceai0/status/2121702299013698012,posted,1,We rebuilt Anicca end to end.  One question at a time — and 
+2026-11-15,acct:anicca.he,post,Postiz,https://www.tiktok.com/@anicca.he/photo/7708235353265573140,posted,1,心が軽くなる朝の口癖5選。毎朝の言葉を、毎日届けます。アプリはプロフィールのリンクから。 #アファメーション #口癖 #
+2026-11-13,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7707493188860235028,posted,1,自分を大切にする言葉10選。毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-13,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7707570509801622791,posted,1,心が整う言葉10選。毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-13,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7707624730102189320,posted,1,朝に読みたい言葉10選。毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-13,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7707663315790581013,posted,1,夜に読みたい言葉10選。毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-14,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7707864283631127816,posted,1,人間関係が楽になる言葉10選。毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-14,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7707941627997850898,posted,1,自信が持てる言葉10選。毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-10,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/video/7706492222224747784,posted,1,心が軽くなる言葉10選。 焦る日、比べる日、休みたい日。 保存して、しんどい日に開いてください。 毎朝の言葉はAnicc
+2026-11-14,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7707995777376996629,posted,1,不安が和らぐ心理学10選。毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-14,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7708034712048061717,posted,1,幸せを感じる言葉10選。毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-11,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7706751020323360020,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-11,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7706828338509270293,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-11,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7706882586513034516,posted,1,毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-12,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp,posted,1,心が軽くなる言葉10選。毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-12,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp,posted,1,人生が楽になる格言10選。毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-12,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp,posted,1,心に刺さる名言10選。毎日の言葉が、毎日の自分をつくる。アプリはプロフィールのリンクから。
+2026-11-15,acct:anicca.jp,post,Postiz,https://www.tiktok.com/@anicca.jp/photo/7708235339529211157,posted,1,心が整う朝の口癖5選。毎日の言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-13,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7707493157872717108,posted,1,心が温まる言葉10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-13,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7707570540118101269,posted,1,明日が楽しみになる言葉10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-13,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7707624718995557640,posted,1,自分を信じる言葉10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-13,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7707663305736867080,posted,1,心の疲れが取れる心理学10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-14,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7707864275410341141,posted,1,人生のヒントになる格言10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-14,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7707941679705230610,posted,1,笑顔になれる言葉10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-10,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/video/7706492231036816648,posted,1,自分を責めない言葉10選。 できなかった日ほど、自分に優しく。 保存して、夜に読み返してください。 毎朝の言葉はAnic
+2026-11-14,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7707995794816699655,posted,1,一歩踏み出す勇気の名言10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-14,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7708034671472315656,posted,1,穏やかな心になる言葉10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-11,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7706750972290272518,posted,1,今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-11,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7706828392431176980,posted,1,今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-11,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7706882779354549525,posted,1,今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-12,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4,posted,1,心がほっとする心理学10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-12,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4,posted,1,疲れた心に効く言葉10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-12,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4,posted,1,前向きになれる格言10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-15,acct:anicca.jp4,post,Postiz,https://www.tiktok.com/@anicca.jp4/photo/7708235374493027592,posted,1,夢を叶える言葉10選。今日の自分を肯定する言葉を、毎日届けます。アプリはプロフィールのリンクから。
+2026-11-08,acct:obou_anicca,post,Postiz,https://www.tiktok.com/@obou_anicca/video/7705461582351928577,posted,1,すべては移り変わります。いい日も、つらい日も、ずっと同じ形ではありません。心がざわつくのは、変わり続けるものにしがみつく
+2026-11-08,acct:obou_anicca,post,Postiz,https://www.tiktok.com/@obou_anicca/video/7705715061830192402,posted,1,心は、いつも少し先か少し後ろにいます。まだ来ていない明日を心配し、もう終わった昨日を悔やむ。でも命があるのは今この瞬間だ
+2026-11-08,acct:obou_anicca,post,Postiz,https://www.tiktok.com/@obou_anicca/video/7705637767920897287,posted,1,執着は、心の荷物です。大切だと思うものほど、握りしめる手が痛みます。失うのが怖いのではありません。変わっていくことを許せ
+2026-11-10,acct:obou_anicca,post,Postiz,https://www.tiktok.com/@obou_anicca/video/7706219433584381205,posted,1,失敗が、ついてくる気がしたら  つまずくのは、歩いている証拠。「リセット」とコメントしてくれたら、本のリンクを返信します
+2026-11-10,acct:obou_anicca,post,Postiz,https://www.tiktok.com/@obou_anicca/video/7706309912753704213,posted,1,. 眠れない夜の無常  眠れない夜に。 考えは雲、あなたは空。 今夜はここまでで十分。  心がざわつくのは、あなたが弱い
+2026-11-11,acct:obou_anicca,post,Postiz,https://www.tiktok.com/@obou_anicca/video/7706679953038904597,posted,1,. 背負わなくていいもの  人に好かれようと疲れたら。 それは私が背負うもの？。 違うなら、そっと置く。  心がざわつく
+2026-11-15,acct:obou_anicca,post,Postiz,https://www.tiktok.com/@obou_anicca/photo/7708235350430207252,posted,1,心が静まる夜の口癖5選。毎日の言葉を、毎日届けます。アプリはプロフィールのリンクから。 #アファメーション #口癖 #メ
+2026-11-09,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=Qs-0Fnv605Q,posted,1,I release what I cannot control. #Shorts
+2026-11-08,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=IXO-WSkmZfA,posted,1,Good things are finding their way to me. #Shorts
+2026-11-08,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=F91_FEijgLA,posted,1,There is still time. Good things are coming. #Shorts
+2026-11-08,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=ksebDomilbU,posted,1,The right doors are opening for me now. #Shorts
+2026-11-10,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=sYONPlEhqkg,posted,1,I wake up lighter every single day. #Shorts
+2026-11-08,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=q8A9XrJknzA,posted,1,I am calm. I am clear. Good things are coming. #Shorts
+2026-11-08,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=gKrZIiFE5dk,posted,1,"Watch Life Manager work, end to end.  This is the full recor"
+2026-11-08,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=vEi_PT4Z8yY,posted,1,"No mockups. This is the actual Anicca app, recorded end to e"
+2026-11-09,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=K54NerAMWlg,posted,1,I choose peace. Peace chooses me back. #Shorts
+2026-11-09,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=IXNVSSTItCQ,posted,1,A company run end-to-end by AI agents — running on Naïve.  F
+2026-11-09,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=cBGFp9UE58Q,posted,1,A company run end-to-end by AI agents — running on Naïve.  F
+2026-11-10,acct:@anicca-affirmation-video,post,Postiz,https://www.youtube.com/watch?v=oSaxkBNMLDM,posted,1,"I am enough, exactly as I am. #Shorts"
+2026-11-10,acct:tumblr/dailyanicca,post,POST-LOG,https://www.tumblr.com/dailyanicca/832825823898877952,posted,1,Anicca JA student/creator comparison identity-niche (Anicca 
+2026-11-09,acct:tiktok+ig/obou_anicca/obou.anicca,post,POST-LOG,https://www.instagram.com/reel/DfidYIXHLAw/,posted,1,OBOU daily watercolor monk
+2026-11-10,acct:x/selawmqt,post,POST-LOG,https://x.com/selawmqt/status/2119953295473099028,posted,1,how i pick shorts from a long video (ordered steps)
+2026-11-10,acct:x/selawmqt,engagement,POST-LOG,https://x.com/selawmqt/status/2119953295473099028,impr_24h,list,
+2026-11-10,acct:x/diceai0,post,POST-LOG,https://x.com/diceai0/status/2119974939180802284,posted,1,JA honest numbers: posting stopped; followers 955 to 935; 7d
+2026-11-10,acct:x/diceai0,engagement,POST-LOG,https://x.com/diceai0/status/2119974939180802284,impr_24h,numbers+lesson+question,
+2026-11-10,acct:x/diceai0,post,POST-LOG,https://x.com/diceai0/status/2120059637349413221,posted,1,EN own numbers: question post 2762 views/125 replies vs how-
+2026-11-10,acct:x/diceai0,engagement,POST-LOG,https://x.com/diceai0/status/2120059637349413221,impr_24h,numbers+lesson+question,
+2026-11-10,acct:x/diceai0,post,POST-LOG,https://x.com/diceai0/status/2120134972132458553,posted,1,JA own numbers: dream vs reality connect post 2762 views vs 
+2026-11-10,acct:x/diceai0,engagement,POST-LOG,https://x.com/diceai0/status/2120134972132458553,impr_24h,dream-vs-reality+own numbers,
+2026-11-11,acct:bluesky/lm_en,post,POST-LOG,https://bsky.app/profile/lifemanagerapp.bsky.social/post/3mzxqpiwtxi2u,posted,1,LM calendar before/after T7 (utm_term=bba03)
+2026-11-11,acct:bluesky/lm_en,engagement,POST-LOG,https://bsky.app/profile/lifemanagerapp.bsky.social/post/3mzxqpiwtxi2u,likes,0,
+2026-11-11,acct:bluesky/lm_en,engagement,POST-LOG,https://bsky.app/profile/lifemanagerapp.bsky.social/post/3mzxqpiwtxi2u,reposts,0,
+2026-11-11,acct:bluesky/lm_en,engagement,POST-LOG,https://bsky.app/profile/lifemanagerapp.bsky.social/post/3mzxqpiwtxi2u,replies,0,
+2026-11-11,acct:nostr/anicca,post,POST-LOG,nostr:c66827b5f26524309efc703b4674d14f10263d314f3e3b339660470d4bd437fc,posted,1,Singles' Day self-love affirmations (ct=nostr_anicca_2026111
+2026-11-11,acct:tumblr/dailyanicca,post,POST-LOG,https://www.tumblr.com/dailyanicca/832916528552968192,posted,1,Anicca JA identity-hook GAP#1 (Anicca Marketer)
+2026-11-11,acct:bluesky/lm_en,post,POST-LOG,https://bsky.app/profile/lifemanagerapp.bsky.social/post/3mzyetl5fyr23,posted,1,Capafy EN slide maker (ct=sanbou_bsky; Fucker lane queue ble
+2026-11-11,acct:bluesky/lm_en,engagement,POST-LOG,https://bsky.app/profile/lifemanagerapp.bsky.social/post/3mzyetl5fyr23,likes,1,
+2026-11-11,acct:bluesky/lm_en,engagement,POST-LOG,https://bsky.app/profile/lifemanagerapp.bsky.social/post/3mzyetl5fyr23,reposts,0,
+2026-11-11,acct:bluesky/lm_en,engagement,POST-LOG,https://bsky.app/profile/lifemanagerapp.bsky.social/post/3mzyetl5fyr23,replies,0,
+2026-11-11,acct:nostr/anicca,post,POST-LOG,nostr:b87086e4e5fd102372b1bbc3e39e6804705ddcb1c677e3a1a8b52ea42754a4ad,posted,1,PDF Insight Markdown + AI summary (ct=nostr_pdf_20261111; re
+2026-11-10,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzvkeno7e72i,posted,1,anicca_ja-bluesky-t1301
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzvkeno7e72i,likes,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzvkeno7e72i,reposts,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzvkeno7e72i,replies,0,
+2026-11-11,acct:x/diceai0,post,POST-LOG,https://x.com/diceai0/status/2120277212934943080,posted,1,JP day-series アファメーションアプリ開発 1日目 (lang ja; format day-series;
+2026-11-11,acct:x/diceai0,engagement,POST-LOG,https://x.com/diceai0/status/2120277212934943080,likes,2,
+2026-11-11,acct:x/diceai0,engagement,POST-LOG,https://x.com/diceai0/status/2120277212934943080,replies,0,
+2026-11-11,acct:tiktok/obou_anicca,post,POST-LOG,https://www.tiktok.com/@obou_anicca,posted,1,OBOU 背負わなくていいもの postiz cmwbaem6o0q3yn306k4xnak6t PUBLISHED
+2026-11-11,acct:instagram/obou.anicca,post,POST-LOG,https://www.instagram.com/reel/DflBpu5kkLV/,posted,1,OBOU 背負わなくていいもの postiz cmwbaem700q3zn306i49l6of7 PUBLISHED (
+2026-11-11,acct:x/diceai0,post,POST-LOG,https://x.com/diceai0/status/2120292010896875689,posted,1,EN honest numbers + stance: 44 replies since midnight; follo
+2026-11-11,acct:x/diceai0,engagement,POST-LOG,https://x.com/diceai0/status/2120292010896875689,likes,1,
+2026-11-11,acct:x/diceai0,engagement,POST-LOG,https://x.com/diceai0/status/2120292010896875689,replies,1,
+2026-11-11,acct:x/selawmqt,post,POST-LOG,https://x.com/selawmqt/status/2120302074160193556,posted,1,how i fix a short people swipe past (ordered steps)
+2026-11-11,acct:x/selawmqt,engagement,POST-LOG,https://x.com/selawmqt/status/2120302074160193556,impr_24h,list,
+2026-11-11,acct:nostr/anicca,post,POST-LOG,nostr:f54f75c6c2f4246b9da40a046308bf042cfa4125e6986772bdedea19fca5aa5e,posted,1,Honne reads the feeling behind a text (ct=nostr_honne_202611
+2026-11-11,acct:nostr/anicca_npub,post,POST-LOG,https://njump.me/90eb262b24a798a5b6b2783f71865773f37260e7016efb75fe7d83860f12c38f,posted,1,Thankful midweek gratitude (ct=nostr_thankful_20261111)
+2026-11-10,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzvwjl62bl2f,posted,1,anicca_ja-bluesky-t1302
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzvwjl62bl2f,likes,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzvwjl62bl2f,reposts,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzvwjl62bl2f,replies,0,
+2026-11-10,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117588739264805338,posted,1,anicca_sample-mastodon-2026-11-01_ja-01-shindan
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117588739264805338,likes,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117588739264805338,reposts,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117588739264805338,replies,0,
+2026-11-10,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzw3gisvyq23,posted,1,anicca_ja-bluesky-t1303
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzw3gisvyq23,likes,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzw3gisvyq23,reposts,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzw3gisvyq23,replies,0,
+2026-11-10,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwah4ougd2t,posted,1,anicca_ja-bluesky-t1304
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwah4ougd2t,likes,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwah4ougd2t,reposts,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwah4ougd2t,replies,0,
+2026-11-10,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117589437344032172,posted,1,anicca_ja-mastodon-d20261101fp4
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117589437344032172,likes,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117589437344032172,reposts,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117589437344032172,replies,0,
+2026-11-10,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwh5wivwo23,posted,1,anicca_ja-bluesky-t1305
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwh5wivwo23,likes,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwh5wivwo23,reposts,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwh5wivwo23,replies,0,
+2026-11-10,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117589909714462883,posted,1,anicca_sample-mastodon-2026-11-01_ja-02-shindan
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117589909714462883,likes,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117589909714462883,reposts,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117589909714462883,replies,0,
+2026-11-10,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwrdi2zgd2k,posted,1,anicca_ja-bluesky-t1306
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwrdi2zgd2k,likes,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwrdi2zgd2k,reposts,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzwrdi2zgd2k,replies,0,
+2026-11-10,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117590625598545092,posted,1,anicca_ja-mastodon-d20261102fp1
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117590625598545092,likes,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117590625598545092,reposts,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117590625598545092,replies,0,
+2026-11-10,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzx4x52dsc2y,posted,1,anicca_ja-bluesky-d101
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzx4x52dsc2y,likes,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzx4x52dsc2y,reposts,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzx4x52dsc2y,replies,0,
+2026-11-10,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117591442829946960,posted,1,anicca_sample-mastodon-2026-11-02_ja-01-shindan
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117591442829946960,likes,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117591442829946960,reposts,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117591442829946960,replies,0,
+2026-11-11,acct:x/diceai0,post,POST-LOG,https://x.com/diceai0/status/2120511059836686354,posted,1,EN day-series Day 1 of building my affirmation app: 934 foll
+2026-11-12,acct:diceai0/x,post,POST-LOG,original,posted,1,https://x.com/diceai0/status/2120548858464010507
+2026-11-12,acct:diceai0/x,post,POST-LOG,original,posted,1,https://x.com/diceai0/status/2120564157414084733
+2026-11-12,acct:anicca/tumblr,post,POST-LOG,original,posted,1,https://www.tumblr.com/dailyanicca/833007029120581632
+2026-11-10,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxc74k6jn25,posted,1,anicca_ja-bluesky-d102
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxc74k6jn25,likes,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxc74k6jn25,reposts,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxc74k6jn25,replies,0,
+2026-11-10,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxfhugdzi2p,posted,1,anicca_ja-bluesky-d103
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxfhugdzi2p,likes,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxfhugdzi2p,reposts,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxfhugdzi2p,replies,0,
+2026-11-10,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117592042571891513,posted,1,anicca_ja-mastodon-d20261102fp2
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117592042571891513,likes,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117592042571891513,reposts,0,
+2026-11-10,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117592042571891513,replies,0,
+2026-11-10,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxiomzwvr2d,posted,1,anicca_ja-bluesky-d104
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxiomzwvr2d,likes,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxiomzwvr2d,reposts,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxiomzwvr2d,replies,0,
+2026-11-10,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxm2ac5nj2q,posted,1,anicca_ja-bluesky-d105
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxm2ac5nj2q,likes,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxm2ac5nj2q,reposts,0,
+2026-11-10,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxm2ac5nj2q,replies,0,
+2026-11-11,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxu4xui2y2p,posted,1,anicca_ja-bluesky-d106
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxu4xui2y2p,likes,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxu4xui2y2p,reposts,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzxu4xui2y2p,replies,0,
+2026-11-11,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzy2u2hr6t25,posted,1,anicca_ja-bluesky-d107
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzy2u2hr6t25,likes,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzy2u2hr6t25,reposts,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzy2u2hr6t25,replies,0,
+2026-11-12,acct:diceai0/x,post,POST-LOG,day-series,posted,1,https://x.com/diceai0/status/2120639184847163843
+2026-11-12,acct:x/selawmqt,post,POST-LOG,https://x.com/selawmqt/status/2120677516260102214,posted,1,honest numbers: 919 posts 13 followers views not followers (
+2026-11-12,acct:x/selawmqt,engagement,POST-LOG,https://x.com/selawmqt/status/2120677516260102214,impr_24h,list,
+2026-11-12,acct:x/diceai0,post,POST-LOG,quote,posted,1,https://x.com/diceai0/status/2120682457494405321
+2026-11-11,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzsgp44jm2e,posted,1,anicca_ja-bluesky-d20261101c
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzsgp44jm2e,likes,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzsgp44jm2e,reposts,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzsgp44jm2e,replies,0,
+2026-11-11,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzvsjl3wx2b,posted,1,anicca_ja-bluesky-d20261103fp1
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzvsjl3wx2b,likes,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzvsjl3wx2b,reposts,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzvsjl3wx2b,replies,0,
+2026-11-11,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117597695591662763,posted,1,anicca_ja-mastodon-d11
+2026-11-11,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117597695591662763,likes,0,
+2026-11-11,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117597695591662763,reposts,0,
+2026-11-11,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117597695591662763,replies,0,
+2026-11-11,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzz5b4kiy24,posted,1,anicca_ja-bluesky-d20261103fp2
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzz5b4kiy24,likes,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzz5b4kiy24,reposts,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3mzzz5b4kiy24,replies,0,
+2026-11-11,acct:bluesky/bluesky_anicca,post,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3n224j63kee2x,posted,1,anicca_ja-bluesky-d20261103fp3
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3n224j63kee2x,likes,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3n224j63kee2x,reposts,0,
+2026-11-11,acct:bluesky/bluesky_anicca,engagement,POST-LOG,https://bsky.app/profile/anicca-affirm.bsky.social/post/3n224j63kee2x,replies,0,
+2026-11-12,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117600053128671436,posted,1,anicca_sample-mastodon-2026-11-03_ja-01-shindan
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117600053128671436,likes,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117600053128671436,reposts,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117600053128671436,replies,0,
+2026-11-12,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117600763531417331,posted,1,anicca_ja-mastodon-d12
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117600763531417331,likes,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117600763531417331,reposts,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117600763531417331,replies,0,
+2026-11-12,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117601234516290983,posted,1,anicca_sample-mastodon-2026-11-03_ja-02-shindan
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117601234516290983,likes,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117601234516290983,reposts,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117601234516290983,replies,0,
+2026-11-12,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117601941236805368,posted,1,anicca_ja-mastodon-d13
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117601941236805368,likes,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117601941236805368,reposts,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117601941236805368,replies,0,
+2026-11-12,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117602767139191938,posted,1,anicca_sample-mastodon-2026-11-03_ja-03-shindan
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117602767139191938,likes,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117602767139191938,reposts,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117602767139191938,replies,0,
+2026-11-13,acct:diceai0/x,post,POST-LOG,day-series,posted,1,https://x.com/diceai0/status/2121230465474679231
+2026-11-13,acct:diceai0/x,post,POST-LOG,question,posted,1,https://x.com/diceai0/status/2121245927151489151
+2026-11-14,acct:diceai0/x,post,POST-LOG,eval-result,posted,1,https://x.com/diceai0/status/2121266205189382361
+2026-11-14,acct:dailyanicca/tumblr,post,POST-LOG,identity-chant,posted,1,https://www.tumblr.com/dailyanicca/833188038881443840
+2026-11-12,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117603357372417315,posted,1,anicca_ja-mastodon-d14
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117603357372417315,likes,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117603357372417315,reposts,0,
+2026-11-12,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117603357372417315,replies,0,
+2026-11-14,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121365504266850473,posted,1,JP Day 4 numbers-first (lang ja; format day-series; link slu
+2026-11-14,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121405312783503415,posted,1,EN client work 7d 39 sent / 4 replies / 0 contracts / 0 paid
+2026-11-14,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121421006271131791,posted,1,EN model dictator W 2.1 vs humans 3.4 vs base 20.3; prior be
+2026-11-13,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117607603724475334,posted,1,anicca_sample-mastodon-2026-11-03_ja-04-fp
+2026-11-13,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117607603724475334,likes,0,
+2026-11-13,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117607603724475334,reposts,0,
+2026-11-13,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117607603724475334,replies,0,
+2026-11-13,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117608440776310079,posted,1,anicca_ja-mastodon-t901
+2026-11-13,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117608440776310079,likes,0,
+2026-11-13,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117608440776310079,reposts,0,
+2026-11-13,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117608440776310079,replies,0,
+2026-11-14,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121608771445064174,posted,1,EN connect solo dev Tokyo 930 followers / 5 paying / 0 trial
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121632312479621211,posted,1,EN Day 5 states missed EN Day 4 / 5 paying / 0 trials / 932 
+2026-11-15,acct:tumblr/dailyanicca,post,POST-LOG,https://www.tumblr.com/dailyanicca/833277400465965056,posted,1,anicca_sample-tumblr-2026-11-02_ja-01-shindan
+2026-11-15,acct:tumblr/dailyanicca,engagement,POST-LOG,https://www.tumblr.com/dailyanicca/833277400465965056,likes,0,
+2026-11-15,acct:tumblr/dailyanicca,engagement,POST-LOG,https://www.tumblr.com/dailyanicca/833277400465965056,reposts,0,
+2026-11-15,acct:tumblr/dailyanicca,engagement,POST-LOG,https://www.tumblr.com/dailyanicca/833277400465965056,replies,0,
+2026-11-13,acct:mastodon/mastodon_anicca,post,POST-LOG,https://mastodon.social/@anicca_affirm/117609020094501054,posted,1,anicca_sample-mastodon-2026-11-03_ja-05-fp
+2026-11-13,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117609020094501054,likes,0,
+2026-11-13,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117609020094501054,reposts,0,
+2026-11-13,acct:mastodon/mastodon_anicca,engagement,POST-LOG,https://mastodon.social/@anicca_affirm/117609020094501054,replies,0,
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121745740913430569,posted,1,JA connect solo dev Tokyo 931 followers / 5 paying / 0 trial
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121774661994479703,posted,1,batch-1015 item 1 reply; source https://x.com/apkderete/stat
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121774797084598432,posted,1,batch-1015 item 2 reply; source https://x.com/Marin_Medici/s
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121774876184777030,posted,1,batch-1015 item 3 reply; source https://x.com/oimatrixioYT/s
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121775006866633186,posted,1,batch-1015 item 4 reply; source https://x.com/dallonbuilds/s
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121775044347224476,posted,1,batch-1015 item 5 reply; source https://x.com/TTrimoreau/sta
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121775175368835087,posted,1,batch-1015 item 6 reply; source https://x.com/TTrimoreau/sta
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121775221866987549,posted,1,batch-1015 item 7 reply; source https://x.com/TonyChanBuilds
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121775388535791881,posted,1,batch-1015 item 8 reply; source https://x.com/dev_with_you/s
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121775428138381364,posted,1,batch-1015 item 9 reply; source https://x.com/lelelefty/stat
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121775627842019605,posted,1,batch-1015 item 10 quote; source https://x.com/DanielSmidstr
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/TonyChanBuilds/status/2121758844669870090,posted,1,batch-1015 item 11 native repost; source https://x.com/TonyC
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/dev_with_you/status/2121753982641311843,posted,1,batch-1015 item 12 native repost; source https://x.com/dev_w
+2026-11-15,acct:x/@diceai0,post,POST-LOG,https://x.com/diceai0/status/2121846003733307398,posted,1,quote MbaziiraRonn (15.5k) portfolio of 10 micro-SaaS; 22 pr
+2026-11-15,RevenueCat project,revenue,RevenueCat,active_trials,Active Trials,0,#
+2026-11-15,RevenueCat project,revenue,RevenueCat,active_subscriptions,Active Subscriptions,5,#
+2026-11-15,RevenueCat project,revenue,RevenueCat,mrr,MRR,20,$
+2026-11-15,RevenueCat project,revenue,RevenueCat,revenue,Revenue,0,$
+2026-11-15,RevenueCat project,revenue,RevenueCat,new_customers,New Customers,142,#
+2026-11-15,RevenueCat project,revenue,RevenueCat,active_users,Active Users,166,#
+2026-11-10,Capafy,revenue,Capafy,totalPayout,usd,0.0,payout-info pending=29.2 confirmed=20.4 balancePayout=83.78 totalPayout=0.0 status=未入金 (totalPayout 0); Nov MTD platform gross $62.94 / orders 470 (通知のみ・未入金; not bank revenue); (pulled 2026-11-10 15:41 JST)
+2026-11-10,Capafy,revenue,Capafy,day_gross,usd,0.0,2026-11-10 orders=6 gross=$0.00 (api.capafy.ai /agent/sales/trend); 11/07-11/09 orders 43/33/26 gross $0; 11/06 orders 37 gross $29.97 (was 35 at prior read); (pulled 2026-11-10 15:41 JST)
+2026-11-11,Capafy,revenue,Capafy,totalPayout,usd,0.0,payout-info pending=29.2 confirmed=20.4 balancePayout=83.78 totalPayout=0.0 status=未入金 (totalPayout 0); Nov MTD platform gross $62.94 / orders 506 (通知のみ・未入金; not bank revenue); listing views unknown (source error: no views endpoint); (pulled 2026-11-11 15:35 JST)
+2026-11-11,Capafy,revenue,Capafy,day_gross,usd,0.0,2026-11-11 orders=5 gross=$0.00 (api.capafy.ai /agent/sales/trend); 11/10 orders 37 gross $0 (was 14 at 11/10 21:19); 11/07-11/09 orders 43/33/26 gross $0; 11/06 orders 37 gross $29.97; (pulled 2026-11-11 15:35 JST)
+2026-11-12,Capafy,revenue,Capafy,totalPayout,usd,0.0,payout-info pending=29.2 confirmed=28.0 balancePayout=83.78 totalPayout=0.0 status=未入金 (totalPayout 0); confirmed was 20.4 at 11/11 21:21; Nov MTD platform gross $72.93 / orders 541 (通知のみ・未入金; not bank revenue; was $62.94/513 at 11/11 21:21); listing views unknown (source error: no views endpoint); (pulled 2026-11-12 15:36 JST)
+2026-11-12,Capafy,revenue,Capafy,day_gross,usd,0.0,2026-11-12 orders=4 gross=$0.00 (api.capafy.ai /agent/sales/trend); 11/11 orders 36 gross $9.99 (was 12/$0 at 11/11 21:21); 11/10 orders 37 gross $0; (pulled 2026-11-12 15:36 JST)
+2026-11-13,Capafy,revenue,Capafy,totalPayout,usd,0.0,payout-info pending=20.4 confirmed=44.4 balancePayout=83.78 totalPayout=0.0 status=未入金 (totalPayout 0); 11/12 21:17 was pending=29.2 confirmed=28.0 balancePayout=83.78; Nov MTD platform gross $82.92 / orders 589 (通知のみ・未入金; not bank revenue; was $72.93/547 at 11/12 21:17); listing views unknown (source error: Capafy publisher API has no views endpoint); (pulled 2026-11-13 15:32 JST)
+2026-11-13,Capafy,revenue,Capafy,day_gross,usd,9.99,2026-11-13 orders=11 gross=$9.99 (api.capafy.ai /agent/sales/trend); 11/12 orders 41 gross $0 (was 10/$0 at 11/12 21:17); 11/11 orders 36 gross $9.99; (pulled 2026-11-13 15:32 JST)
+2026-11-14,Capafy,revenue,Capafy,totalPayout,usd,0.0,payout-info pending=7.6 confirmed=49.6 balancePayout=83.78 totalPayout=0.0 status=未入金 (totalPayout 0); 11/13 21:17 was pending=15.2 confirmed=49.6 balancePayout=83.78; Nov MTD platform gross $82.92 / orders 619 (通知のみ・未入金; not bank revenue; 11/13 21:17 was $82.92/593). 11/13 refundAmount $9.99 so that day's netRevenue $0 (was net $9.99 at 21:17). views unknown (source error: Capafy publisher API has no views endpoint); (pulled 2026-11-14 15:34 JST)
+2026-11-14,Capafy,revenue,Capafy,day_gross,usd,0.0,2026-11-14 orders=6 gross=$0 (api.capafy.ai /agent/sales/trend); 11/13 orders 35 gross $9.99 refund $9.99 net $0 (was 15/$9.99 net $9.99 at 11/13 21:17); 11/12 orders 41 gross $0; (pulled 2026-11-14 15:34 JST)
+2026-11-15,Capafy,revenue,Capafy,totalPayout,usd,0.0,payout-info pending=7.6 confirmed=49.6 balancePayout=83.78 totalPayout=0.0 status=未入金 (totalPayout 0); 11/14 21:25 was pending=7.6 confirmed=49.6 balancePayout=83.78; Nov MTD platform gross $82.92 / orders 648 (通知のみ・未入金; not bank revenue; 11/14 21:25 was $82.92/628). daily netRevenue sum $49.95 after Nov refunds $32.97 (11/03 $9.99 + 11/04 $12.99 + 11/13 $9.99). views unknown (source error: Capafy publisher API has no views endpoint); (pulled 2026-11-15 15:38 JST)
+2026-11-15,Capafy,revenue,Capafy,day_gross,usd,0.0,2026-11-15 orders=4 gross=$0 (api.capafy.ai /agent/sales/trend); 11/14 orders 31 gross $0 (was 15/$0 at 11/14 21:25); 11/13 orders 35 gross $9.99 refund $9.99 net $0; (pulled 2026-11-15 15:38 JST)
+2026-11-10,Anicca(PostHog app),paid,PostHog,paywall_purchased,purchases,0,none 10/30-11/10; (pulled 2026-11-10 15:41 JST)
+2026-11-10,Anicca(web),taps,PostHog,app_store_click/instagram_anicca.en_bio,taps,1,ct=instagram_anicca.en_bio; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-10 15:41 JST)
+2026-11-11,Anicca(PostHog app),paid,PostHog,paywall_purchased,purchases,0,none 10/30-11/11; 11/11 human app_store_click 0; nonhuman bot mastodon_anicca_affirm_bio=8 + mastodon_aniccaapp_bio=1; (pulled 2026-11-11 15:35 JST)
+2026-11-10,Anicca(web),taps,PostHog,app_store_click/instagram_anicca.app_bio,taps,4,ct=instagram_anicca.app_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-11 15:35 JST)
+2026-11-10,Anicca(web),taps,PostHog,app_store_click/instagram_anicca.en_bio,taps,1,ct=instagram_anicca.en_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-11 15:35 JST)
+2026-11-12,Anicca(PostHog app),installs,PostHog,Application Opened,opens,1,no Application Installed that day; no ct/utm; (pulled 2026-11-12 15:36 JST)
+2026-11-12,Anicca(PostHog app),paid,PostHog,paywall_purchased,purchases,0,"none 10/30-11/12; 11/12 human app_store_click 0; nonhuman bot mastodon_anicca_affirm_bio=7 + instagram_anicca.en_bio=2 + instagram_anicca.jp.videos_bio=1; 11/11 human 0, bot mastodon_anicca_affirm_bio=8 + mastodon_aniccaapp_bio=1; (pulled 2026-11-12 15:36 JST)"
+2026-11-10,Anicca(web),taps,PostHog,app_store_click/instagram_anicca.app_bio,taps,4,ct=instagram_anicca.app_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-12 15:36 JST)
+2026-11-10,Anicca(web),taps,PostHog,app_store_click/instagram_anicca.en_bio,taps,1,ct=instagram_anicca.en_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-12 15:36 JST)
+2026-11-12,Anicca(PostHog app),installs,PostHog,Application Opened,opens,1,no Application Installed that day; no ct/utm; (pulled 2026-11-13 15:32 JST)
+2026-11-13,Anicca(PostHog app),paid,PostHog,paywall_purchased,purchases,0,"none 10/30-11/13; 11/13 Application Installed 0 / Application Opened 0; 11/13 human app_store_click instagram_anicca.jp.videos_bio=1; 11/13 bot app_store_click_nonhuman mastodon_anicca_affirm_bio=7 (test_sanbo_1350=2 excluded); 11/12 human mastodon_aniccaapp_bio=1 + x-diceai0-20261112-funnel=1, bot mastodon_anicca_affirm_bio=7 + x-diceai0-20261112-funnel=6 + instagram_anicca.jp.videos_bio=2 + instagram_anicca.en_bio=2 + tt_buddha=2; (pulled 2026-11-13 15:32 JST)"
+2026-11-13,Anicca(web),taps,PostHog,app_store_click/instagram_anicca.jp.videos_bio,taps,1,ct=instagram_anicca.jp.videos_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-13 15:32 JST)
+2026-11-12,Anicca(web),taps,PostHog,app_store_click/mastodon_aniccaapp_bio,taps,1,ct=mastodon_aniccaapp_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-13 15:32 JST)
+2026-11-12,Anicca(web),taps,PostHog,app_store_click/x-diceai0-20261112-funnel,taps,1,ct=x-diceai0-20261112-funnel; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-13 15:32 JST)
+2026-11-10,Anicca(web),taps,PostHog,app_store_click/instagram_anicca.app_bio,taps,4,ct=instagram_anicca.app_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-13 15:32 JST)
+2026-11-10,Anicca(web),taps,PostHog,app_store_click/instagram_anicca.en_bio,taps,1,ct=instagram_anicca.en_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-13 15:32 JST)
+2026-11-12,Anicca(PostHog app),installs,PostHog,Application Opened,opens,1,no Application Installed that day; no ct/utm; (pulled 2026-11-14 15:34 JST)
+2026-11-14,Anicca(PostHog app),paid,PostHog,paywall_purchased,purchases,0,none 10/30-11/14; 11/14 Application Installed 0 / Application Opened 0; 11/14 human app_store_click instagram_monk.mujo_bio=5; 11/13 human x-diceai0-20261113-lockscreen-howto=3 + youtube_aniccaffirmations_bio=3 + x-diceai0-20261113-5apps-live=1 + instagram_anicca.jp.videos_bio=1 (15:32 yesterday had only the jp.videos_bio=1); (pulled 2026-11-14 15:34 JST)
+2026-11-14,Anicca(PostHog app),taps,PostHog,app_store_click/instagram_monk.mujo_bio,taps,5,ct=instagram_monk.mujo_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-14 15:34 JST)
+2026-11-13,Anicca(PostHog app),taps,PostHog,app_store_click/x-diceai0-20261113-lockscreen-howto,taps,3,ct=x-diceai0-20261113-lockscreen-howto; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-14 15:34 JST)
+2026-11-13,Anicca(PostHog app),taps,PostHog,app_store_click/youtube_aniccaffirmations_bio,taps,3,ct=youtube_aniccaffirmations_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-14 15:34 JST)
+2026-11-13,Anicca(PostHog app),taps,PostHog,app_store_click/x-diceai0-20261113-5apps-live,taps,1,ct=x-diceai0-20261113-5apps-live; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-14 15:34 JST)
+2026-11-13,Anicca(PostHog app),taps,PostHog,app_store_click/instagram_anicca.jp.videos_bio,taps,1,ct=instagram_anicca.jp.videos_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-14 15:34 JST)
+2026-11-12,Anicca(PostHog app),taps,PostHog,app_store_click/mastodon_aniccaapp_bio,taps,1,ct=mastodon_aniccaapp_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-14 15:34 JST)
+2026-11-12,Anicca(PostHog app),taps,PostHog,app_store_click/x-diceai0-20261112-funnel,taps,1,ct=x-diceai0-20261112-funnel; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-14 15:34 JST)
+2026-11-10,Anicca(PostHog app),taps,PostHog,app_store_click/instagram_anicca.app_bio,taps,4,ct=instagram_anicca.app_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-14 15:34 JST)
+2026-11-10,Anicca(PostHog app),taps,PostHog,app_store_click/instagram_anicca.en_bio,taps,1,ct=instagram_anicca.en_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-14 15:34 JST)
+2026-11-12,Anicca(PostHog app),installs,PostHog,Application Opened,opens,1,no Application Installed that day; no ct/utm; (pulled 2026-11-15 15:39 JST)
+2026-11-14,Anicca(PostHog app),installs,PostHog,Application Opened,opens,1,no Application Installed that day; no ct/utm; (pulled 2026-11-15 15:39 JST)
+2026-11-15,Anicca(PostHog app),installs,PostHog,Application Opened,opens,1,no Application Installed that day; no ct/utm; (pulled 2026-11-15 15:39 JST)
+2026-11-15,Anicca(PostHog app),paid,PostHog,paywall_purchased,purchases,0,none 10/30-11/15; 11/15 Application Installed 0 / Application Opened 1; 11/14 Application Opened 1 (15:34 yesterday was 0); 11/15 human app_store_click x-diceai0-20261115-bip-ctfix=3 + instagram_monk.mujo_bio=2 + linkedin_phase1=1 + probe-0950=1; 11/14 human instagram_monk.mujo_bio=5; (pulled 2026-11-15 15:39 JST)
+2026-11-15,Anicca(PostHog app),taps,PostHog,app_store_click/x-diceai0-20261115-bip-ctfix,taps,3,ct=x-diceai0-20261115-bip-ctfix; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-15,Anicca(PostHog app),taps,PostHog,app_store_click/instagram_monk.mujo_bio,taps,2,ct=instagram_monk.mujo_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-15,Anicca(PostHog app),taps,PostHog,app_store_click/linkedin_phase1,taps,1,ct=linkedin_phase1; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-15,Anicca(PostHog app),taps,PostHog,app_store_click/probe-0950,taps,1,ct=probe-0950; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-14,Anicca(PostHog app),taps,PostHog,app_store_click/instagram_monk.mujo_bio,taps,5,ct=instagram_monk.mujo_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-13,Anicca(PostHog app),taps,PostHog,app_store_click/x-diceai0-20261113-lockscreen-howto,taps,3,ct=x-diceai0-20261113-lockscreen-howto; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-13,Anicca(PostHog app),taps,PostHog,app_store_click/youtube_aniccaffirmations_bio,taps,3,ct=youtube_aniccaffirmations_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-13,Anicca(PostHog app),taps,PostHog,app_store_click/x-diceai0-20261113-5apps-live,taps,1,ct=x-diceai0-20261113-5apps-live; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-13,Anicca(PostHog app),taps,PostHog,app_store_click/instagram_anicca.jp.videos_bio,taps,1,ct=instagram_anicca.jp.videos_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-12,Anicca(PostHog app),taps,PostHog,app_store_click/mastodon_aniccaapp_bio,taps,1,ct=mastodon_aniccaapp_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-12,Anicca(PostHog app),taps,PostHog,app_store_click/x-diceai0-20261112-funnel,taps,1,ct=x-diceai0-20261112-funnel; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-10,Anicca(PostHog app),taps,PostHog,app_store_click/instagram_anicca.app_bio,taps,4,ct=instagram_anicca.app_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-10,Anicca(PostHog app),taps,PostHog,app_store_click/instagram_anicca.en_bio,taps,1,ct=instagram_anicca.en_bio; traffic_class=human; install events still lack ct/utm so post-level attribution correlation only; (pulled 2026-11-15 15:39 JST)
+2026-11-10,RevenueCat(all apps),revenue,RevenueCat,proceeds,usd,0,anicca+honne 28d revenue = $0; anicca MRR $20/5subs users206 new186; honne $4/2subs users22 new21; other listed apps 08:39 overview had $0 MRR/$0 revenue; (pulled 2026-11-10 15:41 JST)
+2026-11-10,RevenueCat(anicca),revenue,RevenueCat,mrr,usd,20,active_subs=5; 28d revenue $0; active_users=206; new_customers=186 (08:39 was 185); (pulled 2026-11-10 15:41 JST)
+2026-11-10,RevenueCat(honne-honyaku),revenue,RevenueCat,mrr,usd,4,active_subs=2; 28d revenue $0; active_users=22; new_customers=21; (pulled 2026-11-10 15:41 JST)
+2026-11-11,RevenueCat(all apps),revenue,RevenueCat,proceeds,usd,0,anicca+honne 28d revenue = $0; anicca MRR $20/5subs users212 new192; honne $4/2subs users22 new21; other listed apps 08:41 overview had $0 MRR/$0 revenue; (pulled 2026-11-11 15:35 JST)
+2026-11-11,RevenueCat(anicca),revenue,RevenueCat,mrr,usd,20,active_subs=5; 28d revenue $0; active_users=212; new_customers=192 (08:41 was 188/208); (pulled 2026-11-11 15:35 JST)
+2026-11-11,RevenueCat(honne-honyaku),revenue,RevenueCat,mrr,usd,4,active_subs=2; 28d revenue $0; active_users=22; new_customers=21 (08:41 was 20/21); (pulled 2026-11-11 15:35 JST)
+2026-11-12,RevenueCat(all apps),revenue,RevenueCat,proceeds,usd,0,"anicca+honne 28d revenue = $0; anicca MRR $20/5subs users216 new196; honne $4/2subs users22 new21; list-projects 22 (same set as 08:38, incl STUDIO CHERIE projc98adb88); (pulled 2026-11-12 15:36 JST)"
+2026-11-12,RevenueCat(anicca),revenue,RevenueCat,mrr,usd,20,active_subs=5; 28d revenue $0; active_users=216; new_customers=196 (08:38 was 194/213); (pulled 2026-11-12 15:36 JST)
+2026-11-12,RevenueCat(honne-honyaku),revenue,RevenueCat,mrr,usd,4,active_subs=2; 28d revenue $0; active_users=22; new_customers=21 (08:38 was 20/21); (pulled 2026-11-12 15:36 JST)
+2026-11-13,RevenueCat(all apps),revenue,RevenueCat,proceeds,usd,0,"anicca+honne 28d revenue = $0; anicca MRR $20/5subs users134 new113 (was users227 new207 at 11/12 21:19; 参謀 14:15 noted 207→113 recount, cause unverified); honne $4/2subs users22 new21; sleep 8/8 dhamma 18/23 Thankful 13/13 CHERIE 0/0; list-projects 22 (same set as 11/12, incl STUDIO CHERIE projc98adb88); (pulled 2026-11-13 15:32 JST)"
+2026-11-13,RevenueCat(anicca),revenue,RevenueCat,mrr,usd,20,active_subs=5; 28d revenue $0; active_users=134; new_customers=113 (11/12 21:19 was 207/227); (pulled 2026-11-13 15:32 JST)
+2026-11-13,RevenueCat(honne-honyaku),revenue,RevenueCat,mrr,usd,4,active_subs=2; 28d revenue $0; active_users=22; new_customers=21; (pulled 2026-11-13 15:32 JST)
+2026-11-14,RevenueCat(all apps),revenue,RevenueCat,proceeds,usd,0,"anicca+honne 28d revenue = $0; anicca MRR $20/5subs users136 new113 (08:44 was users135 new112); honne $4/2subs users21 new20; sleep 8/8 dhamma 18/22 Thankful 13/13 CHERIE 0/0 FrostDip 3/3; list-projects 22/22 read, unread none; (pulled 2026-11-14 15:34 JST)"
+2026-11-14,RevenueCat(anicca),revenue,RevenueCat,mrr,usd,20,active_subs=5; 28d revenue $0; active_users=136; new_customers=113 (08:44 was 112/135); (pulled 2026-11-14 15:34 JST)
+2026-11-14,RevenueCat(honne-honyaku),revenue,RevenueCat,mrr,usd,4,active_subs=2; 28d revenue $0; active_users=21; new_customers=20; (pulled 2026-11-14 15:34 JST)
+2026-11-15,RevenueCat(all apps),revenue,RevenueCat,proceeds,usd,0,"anicca+honne 28d revenue = $0; anicca MRR $20/5subs users166 new142 (08:43 was users154 new130; 11/14 21:26 was users141 new117); honne $4/2subs users17 new16 (08:43 was users18 new17); sleep 9/9 dhamma 20/24 Thankful 13/13 CHERIE 0/0 FrostDip 3/3; list-projects 22/22 read, unread none; (pulled 2026-11-15 15:39 JST)"
+2026-11-15,RevenueCat(anicca),revenue,RevenueCat,mrr,usd,20,active_subs=5; 28d revenue $0; active_users=166; new_customers=142 (08:43 was 130/154); (pulled 2026-11-15 15:39 JST)
+2026-11-15,RevenueCat(honne-honyaku),revenue,RevenueCat,mrr,usd,4,active_subs=2; 28d revenue $0; active_users=17; new_customers=16 (08:43 was 17/18); (pulled 2026-11-15 15:39 JST)
+2026-11-10,Stripe(acct anicca live + Anicca AI Inc live),revenue,Stripe,charges,charges_since_10-30,0,"GetCharges live created>=1793318400 (2026-10-30 UTC): anicca live 0 paid, Anicca AI Inc live 0 paid; (pulled 2026-11-10 15:41 JST)"
+2026-11-11,Stripe(acct anicca live + Anicca AI Inc live),revenue,Stripe,charges,charges_since_10-30,0,"GetCharges live created>=1793318400 (2026-10-30 UTC): anicca live 0 paid, Anicca AI Inc live 0 paid; (pulled 2026-11-11 15:35 JST)"
+2026-11-12,Stripe(acct anicca live + Anicca AI Inc live),revenue,Stripe,charges,charges_since_10-30,0,"GetCharges live created>=1793318400 (2026-10-30 UTC): anicca live 0 paid, Anicca AI Inc live 0 paid; (pulled 2026-11-12 15:36 JST)"
+2026-11-13,Stripe(acct anicca live + Anicca AI Inc live),revenue,Stripe,charges,charges_since_10-30,0,"GetCharges live created>=1793318400 (2026-10-30 UTC): anicca live (acct_1RT5QgEeDsUAcaLS) 0 paid, Anicca AI Inc live (acct_1TmsXu4xo0Erf10I) 0 paid; (pulled 2026-11-13 15:32 JST)"
+2026-11-14,Stripe(acct anicca live + Anicca AI Inc live),revenue,Stripe,charges,charges_since_10-30,0,"GetCharges live created>=1793318400 (2026-10-30 UTC): anicca live (acct_1RT5QgEeDsUAcaLS) 0 paid since 10/30 (newest charge in list 2026-06-26 failed; last succeeded 2026-05-01), Anicca AI Inc live (acct_1TmsXu4xo0Erf10I) 0 paid; (pulled 2026-11-14 15:34 JST)"
+2026-11-15,Stripe(acct anicca live + Anicca AI Inc live),revenue,Stripe,charges,charges_since_10-30,0,"GetCharges live created>=1793318400 (2026-10-30 UTC): anicca live (acct_1RT5QgEeDsUAcaLS) 0 paid since 10/30, Anicca AI Inc live (acct_1TmsXu4xo0Erf10I) 0 paid; (pulled 2026-11-15 15:39 JST)"

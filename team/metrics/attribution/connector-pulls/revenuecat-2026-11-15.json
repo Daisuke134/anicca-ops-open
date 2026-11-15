@@ -1,0 +1,32 @@
+[
+  {
+    "date": "2026-11-15",
+    "product": "RevenueCat(all apps)",
+    "layer": "revenue",
+    "source": "RevenueCat",
+    "key": "proceeds",
+    "metric": "usd",
+    "value": 0,
+    "note": "anicca+honne 28d revenue = $0; anicca MRR $20/5subs users166 new142 (08:43 was users154 new130; 11/14 21:26 was users141 new117); honne $4/2subs users17 new16 (08:43 was users18 new17); sleep 9/9 dhamma 20/24 Thankful 13/13 CHERIE 0/0 FrostDip 3/3; list-projects 22/22 read, unread none; (pulled 2026-11-15 15:39 JST)"
+  },
+  {
+    "date": "2026-11-15",
+    "product": "RevenueCat(anicca)",
+    "layer": "revenue",
+    "source": "RevenueCat",
+    "key": "mrr",
+    "metric": "usd",
+    "value": 20,
+    "note": "active_subs=5; 28d revenue $0; active_users=166; new_customers=142 (08:43 was 130/154); (pulled 2026-11-15 15:39 JST)"
+  },
+  {
+    "date": "2026-11-15",
+    "product": "RevenueCat(honne-honyaku)",
+    "layer": "revenue",
+    "source": "RevenueCat",
+    "key": "mrr",
+    "metric": "usd",
+    "value": 4,
+    "note": "active_subs=2; 28d revenue $0; active_users=17; new_customers=16 (08:43 was 17/18); (pulled 2026-11-15 15:39 JST)"
+  }
+]

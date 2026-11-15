@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-"""Rebuild team/NOW.md, NOW.json, metrics/ACCOUNTS-BOARD.md from existing files only. Unknown = 未取得."""
+"""Rebuild team/NOW.md, NOW.json, metrics/ACCOUNTS-BOARD.md from existing files only. Unknown = 未取得.
+
+Paths come from $TEAM_DIR / $MARKETING_DIR so the hourly health check and a local
+test run can rebuild the board from a checkout instead of only the box's /workspace.
+"""
 import csv, glob, json, os, re, datetime as dt
-T = '/workspace/team'; M = '/workspace/marketing'; U = '未取得'
+T = os.environ.get('TEAM_DIR') or '/workspace/team'; M = os.environ.get('MARKETING_DIR') or '/workspace/marketing'; U = '未取得'
 JST = dt.timezone(dt.timedelta(hours=9))
 now = dt.datetime.now(JST).strftime('%Y-%m-%d %H:%M JST')
+STALE_HOURS = 24  # a "last activity" older than this is shown as an old record, not current work
 AG = ['参謀', 'Muse', 'Dots', 'Codex', 'Fucker', 'Anicca Marketer', 'dr eggbot', 'Forensic Writing', 'Muse Relay']
 ALIAS = {'dr-eggbot': 'dr eggbot', 'dr eggbot': 'dr eggbot', 'Forensic': 'Forensic Writing', 'Marketer': 'Anicca Marketer',
          'Muse Relay': 'Muse Relay', 'muse-relay': 'Muse Relay', 'Fucker': 'Fucker', 'Dots': 'Dots', 'dots': 'Dots',
@@ -81,15 +86,82 @@ for l in loops:
 wl = [l for l in rd(f'{T}/wake/WAKE_LOG.md').splitlines() if l.strip()]
 wake_last = wl[-1][:220] if wl else U
 
+# ---- live reports (the team's own 15-minute channel) ----
+# BOARD/LIVE-STATE stop being written for days at a time; ACTIVITY.md and LIVE-NOW.md are
+# where agents actually post START/DONE/FIX. Report them separately so a days-old board row
+# is never read as current work (STALLED-NOW #30).
+STAMP_RE = re.compile(r'\[?(20\d\d-\d\d-\d\d)[ T](\d{1,2})(x?):(\d{1,2})(x?)(?::\d{2})?\s*(?:JST)?\]?')
+KIND_RE = re.compile(r'\|\s*(START|DONE|FIX|SYNC|SHARE|BLOCKED|GO|UPDATE|NOTE)[^|]*', re.I)
+NAME_MAP = {'dr-eggbot': 'dr eggbot', 'dr eggbot': 'dr eggbot', 'forensic': 'Forensic Writing',
+            'marketer': 'Anicca Marketer', 'anicca marketer': 'Anicca Marketer', '参謀': '参謀',
+            'muse': 'Muse', 'dots': 'Dots', 'codex': 'Codex', 'fucker': 'Fucker',
+            'muse relay': 'Muse Relay', 'pickle': 'Pickle', 'x operator': 'X Operator',
+            'applications': 'Applications', 'reporter': 'Reporter', 'chatgpt': 'ChatGPT', 'devin': 'Devin'}
+
+def live_reports():
+    newest = {}
+    for fname in ('ACTIVITY.md', 'LIVE-NOW.md'):
+        for raw in rd(f'{T}/{fname}').splitlines():
+            line = raw.strip()
+            m = STAMP_RE.search(line)
+            if not m or len(line) < 16:
+                continue
+            try:
+                hh, mm = int(m.group(2)), int(m.group(4))
+                if m.group(3):
+                    hh *= 10
+                if m.group(5):
+                    mm *= 10
+                when = dt.datetime.strptime(f'{m.group(1)} {hh:02d}:{mm:02d}', '%Y-%m-%d %H:%M').replace(tzinfo=JST)
+            except ValueError:
+                continue
+            rest = re.sub(r'^\s*[|｜]\s*', '', line[m.end():].lstrip(' ]'))
+            cand = re.split(r'[|｜→]', rest)[0].strip()
+            cand = re.sub(r'^[@\s]+', '', cand).strip().lower()
+            cand = re.sub(r'\s*\(.*?\)\s*', '', cand).strip()
+            agent = NAME_MAP.get(cand)
+            if not agent:
+                continue
+            prev = newest.get(agent)
+            if prev and prev['when'] >= when:
+                continue
+            k = KIND_RE.search(line)
+            newest[agent] = dict(agent=agent, when=when, kind=(k.group(1).upper() if k else 'NOTE'),
+                                 text=re.sub(r'^[-\s]*\[?20\d\d-\d\d-\d\d[^|｜→]*[|｜]?\s*', '', line)[:200],
+                                 source=fname)
+    out = []
+    for agent, s in newest.items():
+        ah = (dt.datetime.now(JST) - s['when']).total_seconds() / 3600
+        out.append(dict(agent=agent, at=s['when'].strftime('%Y-%m-%d %H:%M'), kind=s['kind'],
+                        text=(s['text'] or '').replace(chr(10), ' '), source=s['source'],
+                        age_hours=round(ah, 1), stale=(ah > STALE_HOURS)))
+    return sorted(out, key=lambda x: x['at'], reverse=True)
+
+live = live_reports()
+
 def tkey(t):
     m = re.search(r'(20\d\d)-(\d\d)-(\d\d) (\d\d):(\d\d)', t or '')
     return m.groups() if m else ('0',)
+
+def age_hours(t):
+    """Hours since the recorded stamp, or None when the stamp is unusable."""
+    m = re.search(r'(20\d\d)-(\d\d)-(\d\d) (\d\d):(\d\d)', t or '')
+    if not m:
+        return None
+    try:
+        return (dt.datetime.now(JST) - dt.datetime(*[int(x) for x in m.groups()], tzinfo=JST)).total_seconds() / 3600
+    except ValueError:
+        return None
+
 right = []
 for a in AG:
     xs = sorted(acts[a], key=lambda x: tkey(x[0]))
     nonfail = [x for x in xs if not x[1].startswith('FAILURE')]
     cur = (nonfail or xs or [(U, U, U)])[-1]
+    ah = age_hours(cur[0])
     right.append(dict(agent=a, task=cur[1], last=cur[0] or U, source=cur[2],
+                      age_hours=(round(ah, 1) if ah is not None else None),
+                      stale=(ah is None or ah > STALE_HOURS),
                       blockers=[x[1] for x in xs if 'FAILURE' in x[1] or 'block' in x[1].lower() or '待ち' in x[1]][-3:]))
     if cur[1] == U: missing.append(f'{a}: 現在タスクの記録なし（LIVE-STATE/BOARD に行がない）')
 
@@ -202,7 +274,7 @@ for line in ao.splitlines():
         ov.append('1垢1投稿者ルール違反の恐れ: ' + line.split('|')[1].strip()[:50] + ' owner欄=' + line.split('|')[3].strip()[:60])
 
 # ---- write
-data = dict(built_at=now, right_now=right, loops=loops, cards=cards, accounts=accts, seo=dict(updated=seo_upd, lines=seo_lines),
+data = dict(built_at=now, right_now=right, live=live, loops=loops, cards=cards, accounts=accts, seo=dict(updated=seo_upd, lines=seo_lines),
             wake_last=wake_last, overlaps=ov, missing=missing)
 json.dump(data, open(f'{T}/NOW.json', 'w'), ensure_ascii=False, indent=1)
 
@@ -221,9 +293,20 @@ def acct_md():
     return '\n'.join(o) + '\n'
 open(f'{T}/metrics/ACCOUNTS-BOARD.md', 'w').write(acct_md())
 
-o = [f'# NOW — Anicca live team board', f'Built {now} by scripts/build_now.py（毎時更新、routine live-team-board-who-runs-what-hourly）。正本: LOOPS.md / ACCOUNT-OWNERS.md / BOARD/。空欄＝{U}。', '',
-     '## Right now（各エージェントの今）', '| agent | 今のタスク | 最終活動 | 出典 | 詰まり |', '|---|---|---|---|---|']
-for r in right: o.append(f"| {r['agent']} | {r['task'].replace('|','/')} | {r['last']} | {r['source']} | {'; '.join(b[:60] for b in r['blockers']) or '-'} |")
+o = [f'# NOW — Anicca live team board',
+     f'Built {now} by scripts/build_now.py。生成経路: hourly health check（team/scripts/health_check.sh の board ステップ、毎時）／手動 `TEAM_DIR=team python3 team/scripts/build_now.py`。正本: LOOPS.md / ACCOUNT-OWNERS.md / BOARD/。空欄＝{U}。',
+     '「最終活動」は出典ファイルに書かれた時刻であって、稼働中の証明ではない。{0}h 以上前の行は ⚠{0}h を付け、古い記録として扱う。'.format(STALE_HOURS), '',
+     '## ライブ報告（正本: ACTIVITY.md / LIVE-NOW.md の最新行、15分更新ルール）', '| agent | 最終報告 | 種別 | 何を | 出典 |', '|---|---|---|---|---|']
+o += [f"| {r['agent']} | {r['at']}（{r['age_hours']:.0f}h前）{' ⚠' + str(STALE_HOURS) + 'h超' if r['stale'] else ''} | {r['kind']} | {r['text'][:160].replace('|', '/')} | {r['source']} |" for r in live]
+if not live: o += ['| — | 記録なし | — | ACTIVITY.md に日付付きの行がない | — |']
+o += ['',
+     '## Right now（旧 BOARD / LIVE-STATE の最終記録。稼働中の証明ではない）', '| agent | 今のタスク | 最終活動 | 出典 | 詰まり |', '|---|---|---|---|---|']
+def _last_cell(r):
+    if r['age_hours'] is None:
+        return f"{r['last']}（経過不明）" + (f" ⚠{STALE_HOURS}h超" if r['stale'] else '')
+    cell = f"{r['last']}（{r['age_hours']:.0f}h前）"
+    return cell + (f" ⚠{STALE_HOURS}h超" if r['stale'] else '')
+for r in right: o.append(f"| {r['agent']} | {r['task'].replace('|','/')} | {_last_cell(r)} | {r['source']} | {'; '.join(b[:60] for b in r['blockers']) or '-'} |")
 o += ['', f'Wake 最終: {wake_last}', '', '## Daily schedule（JST 24h、時刻指定のあるループ）', '| JST | loop | owner |', '|---|---|---|']
 tl = sorted((t, l['loop'], l['owner']) for l in loops for t in l['times'])
 o += [f'| {t} | {n} | {w} |' for t, n, w in tl]

@@ -157,3 +157,19 @@ Funnel (files/attribution-daily-2026-11-15.md, ASC Standard fresh pull, PT 11/07
 | Anicca 6755129214 | Assigned search keywords to approved CPPs (unique per page): Anxiety en-US anxiety,calm; Morning en-US morning; Self-Love&Calm en-US self love + ja 自己愛,癒し; Lock Screen ja ロック画面,ウィジェット. Default page keeps affirmation/free/confidence/mindset/gratitude/manifest | Searchers for those terms land on an intent-matched page; Apple: CPP referrals +2.5pt vs 1.6% default (https://developer.apple.com/app-store/custom-product-pages/) → lifts search PV→DL | ASC Acquisition › Product Pages per ppid, source=App Store search (≥5 DL to show); judge 11/22 | live, search-keywords readback match (5 localizations) |
 | Anicca (prep) | 1.10.0 PREPARE en-US keywords + "lock screen" (97 chars) | lets Lock Screen CPP take en searches after 1.10.0 approval | — | loc 1352c16b readback match |
 Also: CPP review c04b20de COMPLETE → Morning + Anxiety CPPs live (shipped 11/14). Other 5 apps: no ship yet today → 14:00 run (candidate: first CPP + keywords for Honne/Thankful; none of the 5 has a CPP).
+
+### 2026-11-15 14:2x JST — growth loop 14:00 (参謀): 3 more apps shipped (live ASC promo text, readback 8/8 match)
+| App | Change | Hypothesis | Metric to watch | ID / state |
+|---|---|---|---|---|
+| Thankful 6759514159 | ja promo → named moment「寝る前に、今日うまくいかなかったことを思い返していませんか？よかったこと3つを2分で…」(mirrors en-US 11/14) | Named-moment hook beats feature list on PV→DL (Anicca weakest step today = PV→DL 4% vs ~25%) | ASC ja PV→DL, judge 11/17 (PT lag) | loc ada5e7a2 readback match |
+| STUDIO CHERIE 6766485903 | en-US promo + audience/producer line "Grown-up style for your 40s-60s, produced by CHIE." (from ja copy) | Clear audience self-selects the right visitors → higher PV→DL | ASC en-US PV→DL, judge 11/17 | loc eb9054a2 match |
+| Honne 6759667221 | privacy hook ("they are not notified") to es-ES, es-MX, pt-BR, fr-FR, de-DE; el promo was cut off → completed | Same hook as en/ja across top non-English storefronts | ASC per-territory PV→DL, judge 11/17 | 6 locs match |
+| Dhamma / Sleep Reset | BLOCKER unchanged: promo under test (judge 11/20); keywords/ja need new version → Codex | — | — | — |
+Backup/applied: marketing/anicca/aso/promo-backup-thankful-cherie-honne-20261115-1420.json, promo-applied-thankful-cherie-honne-20261115-1420.json.
+KEEP/REVERT due: CHERIE ja + Honne en-GB/AU/CA (11/14 14:2x) → 24h reached, but ASC Standard data is PT-day lagged (latest PT 11/13) → no post-change day yet; HOLD, judge in 22:00 run / 11/16 pull. Muse 13:24/13:52 messages already answered by reply-loop 14:1x (commit "参謀 reply-loop 14:1x").
+
+### 2026-11-15 18:3x JST — growth loop 18:00 (参謀): measure + unblock, no new ASC surface
+Fresh ASC pull 18:2x (files/attribution-daily-2026-11-15-1830.md): PT 11/14 still unpublished (no rows) → window PT 11/08–11/14 = 509 imp → 20 PV → 1 DL (the only DL is GB search 11/09) → 0 trial → 0 purchase. Weakest step unchanged: PV→DL (~5%, benchmark ~25%).
+No extra Anicca ship: 10:4x CPP-keyword ship already counts for today; promo (Lock Screen hook) is live in all 39 locales and under KEEP judgement to 11/21, so retouching it would break the read. 1.10.0 build 829 is VALID + PREPARE but intentionally held (home rebuild after 成田さん's 07:41 rejection) → not submitted.
+Today's ships: Anicca, Thankful, STUDIO CHERIE, Honne = done. Dhamma / Sleep Reset = BLOCKER → Issue #177 [owner: codex] new builds, due 11/16 12:00 JST.
+KEEP/REVERT: CHERIE ja + Honne en-GB/AU/CA (11/14) and today's 14:2x promos → HOLD (no post-change PT day published yet); judge on the 11/16 pull.

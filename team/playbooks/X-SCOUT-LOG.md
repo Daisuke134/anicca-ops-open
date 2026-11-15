@@ -179,3 +179,20 @@
 | 2026-11-15 09:45 | https://x.com/tazqen/status/2121723235561504843 | 603 followers, 12 replies, multi-agent tool | reply queued |
 | 2026-11-15 09:45 | https://x.com/tkhirata21/status/2121758474518544450 | BIP day 3, PC as 24/7 worker | reply queued |
 | 2026-11-15 09:45 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-15 12:35 | https://x.com/Texas_Twins_Dad/status/2121773869694333328 | repeat routine step → write a small script once, then just run it (3.4k imp, 45 bm) | ADOPTED: built team/scripts/xscout_new.py (log dedupe); needs routine patch so X scout 15:40 run calls it; GROK-BOT-BEST-PRACTICES.md |
+| 2026-11-15 12:35 | https://x.com/RustyG66k/status/2121804287156101125 | KB in Karpathy LLM-wiki style: raw-source bot, cited-wiki bot, nightly contradiction lint | noted only; 1 imp, no metrics |
+| 2026-11-15 12:35 | https://x.com/gambrill/status/2121787017281651035 | routine didn't run checklist (enabled, tz, plugins signed in, usage) | noted only; covered by health-check loop |
+| 2026-11-15 12:35 | https://x.com/MRRunciss/status/2121804447156236498 | QA bot checks the test plan before anything runs | noted only; already verification-before-completion |
+| 2026-11-15 12:35 | https://x.com/EaStEnRaY1/status/2121804982928519658 | "$44→$11,643 overnight" trading bot | skipped: trading hype |
+| 2026-11-15 12:35 | https://x.com/divid_lu49394/status/2121787519356317768 | 7%/15% usage news (CN) | skipped: dup |
+| 2026-11-15 12:35 | https://x.com/paulosteinberg1/status/2121791280628068735 | BIP 117→500 followers goal, AI agents + SaaS, 16 replies | reply queued |
+| 2026-11-15 12:35 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-15 15:40 | https://x.com/sri_s3/status/2121844779478905093 | CTBC: 1 agent 8→6 person-days; 7 focused agents + quality gates in code → ~2 | noted only; same as 1task1owner + verification gates |
+| 2026-11-15 15:40 | https://x.com/Michael_Fenech_/status/2121854209049960598 | T.R.U.S.T. prompt: check what bot did with last unclassifiable item before widening trust | noted only; no metrics (284 imp) |
+| 2026-11-15 15:40 | https://x.com/TheGrokBotGuide/status/2121845693715276213 | bot with own email gets 10 quotes in 2 days | noted only; we already use agent inboxes |
+| 2026-11-15 15:40 | https://x.com/MystiqueMide/status/2121853065422930044 | hackathon judges let an AI agent review site+repo, so functionality/README matter more than UI | noted only; low proof (148 imp), candidate for applications loop if repeated |
+| 2026-11-15 15:40 | https://x.com/RoundtableSpace/status/2121841877892624517 | Grok Bot team on Lightcone; bot given its own ad budget | skipped: paid tactic |
+| 2026-11-15 15:40 | https://x.com/Jcryptdefi/status/2121842549287510200 | agent contest, USDC prizes (#ad) | skipped: ad/crypto promo |
+| 2026-11-15 15:40 | https://x.com/tetsu_thehuman/status/2121841011555250349 | weekly X update: replies +63%, ER 1.8% | reply queued |
+| 2026-11-15 15:40 | https://x.com/yoshi73s/status/2121816573073875031 | Made-in-Japan indie app, 300 followers | reply queued (JA/indie connect) |
+| 2026-11-15 15:40 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |

@@ -4,15 +4,16 @@
 Also attaches the owners roster (Grok bots + legacy contacts) via build_team_owners:
 cadence = schedule only; current_task stays unknown; DAILY-LOG becomes latest_outcome.
 """
-import json, re, sys
+import json, os, re, sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]  # /workspace/team
+ROOT = Path(os.environ.get('TEAM_DIR') or Path(__file__).resolve().parents[2])  # /workspace/team
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 # Prefer products-repo builder when present on the box checkout path.
 candidates = [
     Path('/workspace/wt-open-team/apps/landing/scripts/open/build_team_owners.py'),
     Path('/workspace/team/scripts/open/build_team_owners.py'),
+    Path(__file__).resolve().parent / 'build_team_owners.py',
 ]
 build_owners_mod = None
 for c in candidates:
@@ -23,19 +24,21 @@ for c in candidates:
         spec.loader.exec_module(build_owners_mod)
         break
 
-d = json.load(open('/workspace/team/NOW.json'))
+d = json.load(open(ROOT / 'NOW.json'))
 
 def clean(s, n=80):
     s = re.sub(r'[\w.+-]+@[\w-]+\.[\w.]+', '[email]', str(s))
     s = re.sub(r'(sk|rk|pk)_(live|test)_\w+|\b[0-9a-f]{32,}\b', '[redacted]', s)
     s = re.sub(r'\+?\d[\d -]{9,}\d', '[num]', s)
+    s = re.sub(r'/(?:workspace|home|Users)/\S*', '[path]', s)
     return s[:n]
 
 out = dict(
   built_at=d['built_at'],
   right_now=[dict(agent=r['agent'], last=r['last'][:16], source=r['source'].split('/')[0],
      task=(re.match(r'([\w\-]+)', r['task']).group(1) if r['source'].startswith('BOARD') else clean(r['task'].split(':')[0], 50)),
-     blocked=bool(r['blockers'])) for r in d['right_now']],
+     blocked=bool(r['blockers']),
+     age_hours=r.get('age_hours'), stale=r.get('stale')) for r in d['right_now']],
   loops=[dict(id=l['id'], loop=clean(l['loop'], 70), owner=clean(l['owner'], 40), schedule=clean(l['schedule'], 60), times=l['times']) for l in d['loops']],
   accounts=[dict(platform=a['platform'], account=clean(a['account'], 40), poster=clean(a['poster'], 30), followers=a['followers'],
      followers_7d=a['followers_delta'], posts_7d=a['posts_7d'], views_7d=a['views_7d'], er_7d=a['er_7d'], avg_views_last5=a.get('avg_views_last5','未取得'), last_post=str(a['last_post'])[:16],

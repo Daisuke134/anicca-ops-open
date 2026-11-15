@@ -6,3 +6,5 @@ https://aniccaai.com/open
 https://aniccaai.com/ja
 # /go/anicca is a 302 redirect to the App Store (ct carried in the redirect), not a CTA page; check it with curl -sI instead
 https://aniccaai.com/ja/affirmation-app
+https://aniccaai.com/affirmation-app/ja
+https://aniccaai.com/en/affirmation-app

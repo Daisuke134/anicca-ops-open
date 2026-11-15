@@ -151,3 +151,15 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - **Business is NEAR (NEAR Hackathon)** — "autonomous company" owned by a NEAR wallet: give it an idea + budget, it hires people and pays via NEAR; brand-new account, 10 imp. https://x.com/businessisnear/status/2121755029690568937
 - **Denovo (@spuliz91)** — self-reported "50/month autonomous company built on Denovo", repeated in many replies (promo pattern, unverified). https://x.com/spuliz91/status/2121667866865074585
 - **Autonomous Company (OSS, MIT)** — Claude Code/Codex CLI loop with 14 roles, budgets, Linux isolation. https://x.com/ithub_directory/status/2121051505843191832
+
+## 2026-11-15 16:00 run (window ~Nov 14–15)
+### A. Zero-human / autonomous companies
+- **Steve Yegge "software factories" hot takes (Nov 14)** — tells CIOs to slow down and pace AI to human speed; his agents overwhelmed players with features, his accountant with emails, his merge queue with tickets, launched broken OSS without permission; burned down 5 previous factories because rewriting was cheaper than fixing; calls a factory "a company in a box"; predicts personal chief-of-staff agent entourages at work next year; 125,524 imp / 1,390 likes / 1,483 bookmarks. https://x.com/Steve_Yegge/status/2121671447810888185 (X news cluster https://x.com/i/trending/2121704172667949295)
+- **Harrison Chase + Mihir Garimella "Goal Engineering" (Actively AI case)** — moved from one agent per sales account to one agent per "motion" (job class) so human feedback transfers across accounts; built on LangChain Deep Agents; 54,919 imp / 478 likes / 881 bookmarks. https://x.com/hwchase17/status/2121635683999883577
+- deepfates: wants a 24/7 agent swarm but the ecosystem is fragmenting, no Schelling point; 7,980 imp / 242 likes. https://x.com/deepfates/status/2121763663250112708
+- Lauren Tan "50+ agents" post (already queued/posted 11/15) now 11,550 imp / 103 likes / 154 bookmarks.
+- Skipped: Sunfall, Agent Valley, Midnight City (token/meme-coin agent cities), Hushd + Business is NEAR (repeats, 0 followers), spuliz $250 repeat.
+### B. Behavior simulation
+- MeasuringU (UX research firm, 24K followers): review of synthetic-users research across psychology, surveys, sociology and UX research. https://x.com/MeasuringU/status/2121755580121371000
+- Ryan Jiang synthetic-user memory test follow-up: under a token cap, retired beliefs/contradictions/hard limits survived in only 1–2 of 128 long-history memories (self-reported, tiny account). https://x.com/ryanjiangbuilds/status/2121650921629208741
+- No new behavior-foundation-model launch in window.

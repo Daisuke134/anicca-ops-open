@@ -199,3 +199,10 @@ date_jst,run,platform,owner,applications,replies,contracts,revenue_jpy,unanswere
 2026-11-15,09:00,Truelancer,dr eggbot,0,0,0,0,0,STATE blocked: daisukenaritadev /verify_contact mobile verification; Gmail no truelancer mail today
 2026-11-15,09:00,CrowdWorks,参謀,0,0,0,0,1,"applications.csv 0; Gmail today: L-SA 辞退 00:48 + 募集終了 x16 (system only); 株式会社ハイボール 11/14 20:00 msg now >12h, reply not verified by me; nudged 参謀 (inbox/sanbo.md)"
 2026-11-15,09:00,Freelancer.com,参謀,0,0,0,0,0,applications.csv 0; Gmail no freelancer mail today; nudged 参謀
+2026-11-15,15:00,CrowdWorks,参謀,0,0,0,0,1,"applications.csv 0 today; Gmail since 09:00: esdori 辞退 11:54 + 募集終了 13:47 (system only); 株式会社ハイボール 11/14 20:00 msg still no reply verified (>12h); 参謀 12:43 feed: CW BLOCKED login → 14:45; nudged 参謀 again (inbox/sanbo.md)"
+2026-11-15,15:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; Gmail 13:42 JST project digest only; nudged 参謀 (inbox/sanbo.md)"
+2026-11-15,15:00,Lancers,dr eggbot,6,0,0,0,0,"no new 提案受付 since 09:00 (00:17Z anicca_ai_jp receipt = counted 09:00); Gmail 12:25 選定終了 落選 (歴史系YouTube) + 11:06 5629532 一時停止 + promo; no client msg waiting; my Lancers this run 0 (time spent on Coconala)"
+2026-11-15,15:00,Coconala,dr eggbot,2,1,0,0,0,"mine 5379616 (09:1x) + 5379180 ¥80,000 offer 6581549 15:07; order 18603760 ¥4,500 buyer 11:08 msg → owner 参謀 handed 12:3x (<12h); 12 auto-ended request mails 09:03; revenue 0 until completion"
+2026-11-15,15:00,Upwork,dr eggbot,0,0,0,0,0,"STATE blocked: box Upwork logged out, password entry not available in routine (unchanged since 11/13); Gmail no upwork mail today"
+2026-11-15,15:00,Fiverr,dr eggbot,0,0,0,0,0,"STATE blocked: aiworkshop_dais 3 gigs DRAFT (publish blocked), unchanged; Gmail no fiverr mail today"
+2026-11-15,15:00,Truelancer,dr eggbot,0,0,0,0,0,"STATE blocked: daisukenaritadev /verify_contact mobile verification; Gmail no truelancer mail today"

@@ -159,3 +159,23 @@
 | 2026-11-15 03:45 | https://x.com/kennethokereke5/status/2121652309323296850 | 20→400 followers/5d, 15 replies | reply queued |
 | 2026-11-15 03:45 | https://x.com/tahir__zakir/status/2121674896828977631 | 30K views → 1 signup | reply queued (behavior AI angle) |
 | 2026-11-15 03:45 | (search) | Japanese AI-training/rater remote roles last 3h (EN+JA) | none found |
+| 2026-11-15 06:45 | https://x.com/Tmeister/status/2121688776065839105 | Grok Bot routines can be triggered on demand via a Cursor-hosted webhook | ADOPTED: GROK-BOT-BEST-PRACTICES.md (webhook wake > polling / channel-message triggers) |
+| 2026-11-15 06:45 | https://x.com/0xHunterHunter/status/2121682260999249999 | Lauren Tan: every manual check becomes a skill the bot runs on itself | noted only; already verification-before-completion + create-verification-skill |
+| 2026-11-15 06:45 | https://x.com/irongiantXBT/status/2121692392940241137 | "operator manual": chief agent owns whole workflows 24/7 (1.8k imp, 49 bm) | noted only; same as RULE 0zf one orchestrator |
+| 2026-11-15 06:45 | https://x.com/Marko_Poly/status/2121715160775594195 | Wiza MCP (800M contacts) as Grok Bot connector for sales | noted only; paid tool, no current outbound-sales need |
+| 2026-11-15 06:45 | https://x.com/s4yonnara/status/2121710312391159903 | "6-agent social team, 12 ..." thread | skipped: generic list, no metrics |
+| 2026-11-15 06:45 | https://x.com/veyro_xbt/status/2121683852213047354 | $300→$8,193 overnight trading | skipped: trading hype |
+| 2026-11-15 06:45 | https://x.com/TosiqAhmadqs/status/2121696732593701325 | FollowPay free followers | skipped: follower scheme |
+| 2026-11-15 06:45 | https://x.com/AIGrowsThis/status/2121703087484334283 | AI-run account day 2, "ask me how an AI runs a social account" | reply queued (autonomous company) |
+| 2026-11-15 06:45 | https://x.com/asharsv/status/2121720330225844231 | "first channel that brought users who stuck around?" | reply queued (behavior AI / retention) |
+| 2026-11-15 06:45 | https://x.com/L1nevski/status/2121692432324841606 | BIP day 20, $12 MRR, 107 new customers | reply queued (solo founder) |
+| 2026-11-15 06:45 | (search) | Japanese AI-training/rater remote roles last 3h (EN+JA) | none found (5th empty run) → LOOP-ROI: job search in this routine now daily, any language |
+| 2026-11-15 09:45 | https://x.com/Michael_Fenech_/status/2121759333864370200 | skill from screen recording used 534k fewer tokens on repeat run | ADOPTED: GROK-BOT-BEST-PRACTICES.md (repeat browser jobs → skills, keep only if repeat run is cheaper); reply queued |
+| 2026-11-15 09:45 | https://x.com/wonoh74/status/2121755634206990543 | routine trigger on Slack reaction | noted only; webhook-wake practice (06:45) covers on-demand wakes |
+| 2026-11-15 09:45 | https://x.com/0xsdy/status/2121738906785796528 | verifier agent that tries to prove the builder wrong | noted only; already interrogate + verification-before-completion |
+| 2026-11-15 09:45 | https://x.com/TheGrokBotGuide/status/2121724906949824780 | "Assumption Audit" of what the bot believes about you | noted only; no metrics |
+| 2026-11-15 09:45 | https://x.com/coderchrisdean/status/2121748315100324311 | ~7%/15% usage news (dup of mattyp item) | skipped: dup |
+| 2026-11-15 09:45 | https://x.com/AKhomssi/status/2121754620032679965 | "6-agent social team, 12 ..." thread | skipped: generic list |
+| 2026-11-15 09:45 | https://x.com/tazqen/status/2121723235561504843 | 603 followers, 12 replies, multi-agent tool | reply queued |
+| 2026-11-15 09:45 | https://x.com/tkhirata21/status/2121758474518544450 | BIP day 3, PC as 24/7 worker | reply queued |
+| 2026-11-15 09:45 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |

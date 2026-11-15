@@ -88,3 +88,10 @@ Muse 所有の TikTok / IG / YouTube / Threads / LinkedIn と同種の新規開�
 
 ### 確認結果・残件
 原票は上記の公式公開資料。保存資料は次回担当がそのまま利用可。新規登録0、応募0、支出0、受注/売上/入金増加の確認なし。次の障害はアクセス一般ではなく『実際の有償求人/契約と本人適合・既存登録の確認』。Beehiiv/ComeUpの既存作業・他担当・Xには未操作。
+
+
+## Dots 2026-11-15 07:00 JST run — SME Japanese roles: immediate-revenue gate
+
+Continuation of the 06:00 route-verification claim, not a second application. Actual job candidate identified: `Japanese-25-303`, Japanese Language Expert. The retrieved recruiting listing is https://www.gradientc.com/jobs/sme_Japanese-25-303 (read 2026-11-14 UTC; publication date unavailable). It describes Japan remote hourly work but explicitly says there is **no immediate project**. Requirements include related degree, C1 English, 5+ years professional localization/translation, and MQM/LQA/CAT expertise. These are listing claims, not verified founder qualifications. A second aggregator https://www.aitrainingjobsfinder.com/jobs/ace2e10b-e853-4f67-b3af-cc57a9567519 shows a different rate; do not quote either as confirmed earnings or a binding offer.
+
+

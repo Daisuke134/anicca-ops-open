@@ -1,14 +1,14 @@
 {
- "run_at": "2026-11-14 21:25",
+ "run_at": "2026-11-15 08:43",
  "actor": "S7JAoTNiztat9Qwuq",
- "users_total": 2,
- "users_7d": 1,
- "users_30d": 1,
- "runs_total": 18,
- "runs_24h_owner_visible": 0,
- "last_run_jst": "2026-11-14 17:56",
- "pricing_model": "PAY_PER_EVENT",
- "pricing_started_at_api": "2026-11-02",
+ "users_total": "unknown (source error)",
+ "users_7d": "unknown (source error)",
+ "users_30d": "unknown (source error)",
+ "runs_total": "unknown (source error)",
+ "runs_24h_owner_visible": "unknown (source error)",
+ "last_run_jst": "unknown (source error)",
+ "pricing_model": "unknown (source error)",
+ "pricing_started_at_api": "unknown (source error)",
  "revenue_usd": "unknown (source error)",
  "source": "api.apify.com/v2/acts"
 }

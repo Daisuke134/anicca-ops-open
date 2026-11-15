@@ -3,13 +3,21 @@
   "followers": 930,
   "posts_total": 4093,
   "followers_as_of": "2026-11-14 09:16",
-  "followers_source": "X API public_metrics via x.get_users_by_usernames (namespace x) 2026-11-14 09:16 JST"
+  "followers_source": "X API public_metrics via x.get_users_by_usernames (namespace x) 2026-11-14 09:16 JST",
+  "views_7d": 4367,
+  "posts_7d": 67,
+  "views_7d_source": "X API v2 get_users_posts public_metrics.impression_count (originals, excl replies/RTs) via namespace x, window 2026-11-08T09:30–11-15T09:35 JST",
+  "views_as_of": "2026-11-15 09:35"
  },
  "selawmqt": {
   "followers": 13,
   "posts_total": 922,
   "followers_as_of": "2026-11-14 09:16",
-  "followers_source": "X API public_metrics via x.get_users_by_usernames (namespace x) 2026-11-14 09:16 JST"
+  "followers_source": "X API public_metrics via x.get_users_by_usernames (namespace x) 2026-11-14 09:16 JST",
+  "views_7d": 82,
+  "posts_7d": 6,
+  "views_7d_source": "X API v2 get_users_posts public_metrics.impression_count (originals, excl replies/RTs) via namespace x, window 2026-11-08T09:30–11-15T09:35 JST",
+  "views_as_of": "2026-11-15 09:35"
  },
  "Manageraqo": {
   "followers": 0,

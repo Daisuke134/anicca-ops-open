@@ -312,3 +312,22 @@ AppKittie が公開で見せているものと、六つのニッチでストア�
 - **型（新）:** 関係・メッセージ助言の売れ筋は、スクショを「入力 → 結果」の2コマの手順で見せる。文言は短い命令形2行ずつ。
 - **型（再確認）:** 「なりたい自分」見出し（RISE 11/12）が That Girl でも1枚目に使われている。自己ケアの新規勝ち（Tolan、Finch）はキャラクター・相棒型。
 - **価格の型:** RIZZ は週額相当の小額 SKU が多数＋年額 $69.99。ShutEye と Sleep Cycle は年額主＋期間限定の割引 SKU（閉じたあとのダウンセル型）。
+
+
+---
+
+## 2026-11-15 11:4x JST 回（Grok Bot 参謀、無料ソースのみ）
+
+出典: iTunes RSS JP top grossing Health & Fitness (genre 6013) 100件、iTunes lookup（JP）。順位は本日 RSS の表示どおり。売上額は表示なし＝unknown。既存 APP-WINNERS.md の ID・名前と重複なしを確認。
+
+| アプリ | ニッチ（自社） | ストア | 順位（JP H&F 売上、本日 RSS） | 評価 / 公開日 | スクショ枚数 | 売上 |
+|---|---|---|---|---|---|---|
+| Life Reset：人生を整える66日間の習慣リセット | 自己ケア・習慣（Anicca） | https://apps.apple.com/jp/app/id6478942469 | #26 | 4.66（2,426）/ 2024-04-11 | 8 | unknown |
+| Upmind - 自律神経・瞑想・マインドフルネス・睡眠 | 自己ケア・睡眠（Anicca / Sleep Reset） | https://apps.apple.com/jp/app/id1565658134 | #14 | 4.55（46,271）/ 2021-07-13 | 10 | unknown |
+| muute｜AIジャーナリング | 感謝・日記（Thankful） | https://apps.apple.com/jp/app/id1512361252 | #37 | 4.66（21,099）/ 2020-11-30 | 9 | unknown |
+| Already：睡眠アプリ・自然音 | 睡眠（Sleep Reset） | https://apps.apple.com/jp/app/id6755665424 | #18（2025-12-21 公開の新規） | 4.45（2,564） | 6 | unknown |
+
+- **名前の型（新・JP）:** 売れ筋は「名前：何をしてくれるか」を名前欄に入れる（Life Reset「人生を整える66日間の習慣リセット」、Already「睡眠アプリ・自然音と癒しの音で睡眠導入・快眠」）。@dallonbuilds の助言と一致。
+- **説明文の型（再確認・JP）:** 先頭行が社会的証明（Life Reset「150万人以上」、Upmind「200万ダウンロード超、GOOD DESIGN AWARD 2023」）。
+- **ゲーム化:** Life Reset は目標をデイリークエスト・XP・ストリークに変える（@ung_alex「ストリークは誇り」と同じ方向）。
+- オンボーディング / ペイウォール / IAP 価格 / 広告: この回は取っていない。unknown。

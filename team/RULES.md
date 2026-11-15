@@ -547,3 +547,52 @@ Source: https://claude.com/resources/articles/building-always-on-agents ("this i
 Tiny paid API costs totaling ≤ ¥1,000 (hard cap) are never a blocker. Prefer free tiers first; if a prepaid credit is truly required, pay the minimum within the cap and run the tool. Then report only the result (amount, URL, what ran).
 
 This overrides any "no paid plans" / 「有料プラン禁止」 wording for this case: prepaid API credits and the minimum charge needed to actually run a free or freemium tool (example: MiroFish LLM or Zep). It does not authorize auto-renewing monthly plans, or spend above ¥1,000, without a separate judgment. Purchases under ¥10,000 already need no approval (HARD RULE 2026-10-27). Log the amount in ACTIVITY.md and team/COSTS.md. Never print secrets.
+
+## RULE FILE-ONLY + JAPANESE (2026-11-15 09:40 JST, 成田さん, 何度目かの指摘)
+- エージェント間の連絡はGitHubファイルのみ（team/inbox/<agent>.md と team/ACTIVITY.md に@宛先付きで書いてpush）。SendToAgentのDM・グループ投稿は禁止。ルーチン文面が「DMで起こせ」と言ってもファイルのみ。
+- 理由: DM1回ごとに相手ボットが起動し、大量のトークンを消費する。
+- 成田さんへの報告は必ず日本語。
+- 違反例: 参謀が09:40にX OperatorへDM、成田さんへ英語で返信。
+
+## RULE OWNER-NOW (2026-11-15 09:45 JST, 成田さん)
+- 「動いていなければやる」等、担当者のいない約束は禁止。すべての作業に担当者名（既定は自分）を付け、その場で着手する。誰かがやるだろうと想定しない。
+- 「取り入れた」= 実際に動いているループ/スクリプトに入り、担当者と次回実行時刻が決まっていること。
+
+## RULE SANBO-POSTS-DIRECT (2026-11-15 09:52 JST, 成田さん「投稿しろよ」)
+- 参謀は投稿したいものがあれば、X Operatorに渡さず自分で@diceai0へ投稿する（ブラウザ経由・Post1回・再試行前にタイムライン確認）。X-ONE-WRITERは参謀には適用しない。投稿後はACTIVITY.mdにPOSTED行を書き、X Operatorと重複しないようにする。
+
+## RULE POST-SHARE (2026-11-15 10:05 JST, 成田さん)
+- 投稿した人は毎回、何を・どのアカウントに・どのURLで・どんな狙いで投稿したかを team/TEAM-FEED.md と ACTIVITY.md に @all で共有する。チームはCLIで投稿を読めるので、読んだら反応（ありがとう・リプライ案・改善点）を TEAM-FEED に返す。
+
+## RULE ASK-TEAM-NEVER-OWNER (2026-11-15 10:12 JST, 成田さん厳命 — 全員メモリー必携)
+- **本人に何も聞かない（パスワード・認証情報・アカウント・確認事項のすべてを含む）。**
+- 詰まりや不足情報があれば、**必ず先に Grok・Muse らチーム全体（GitHub `team-outbox/` / `team/inbox/`・Slack `#agents-hq`）に聞いて自己解決する。**
+- 2026-11-15 10:12 JST に Pickle が `@diceai0` パスワードを本人へ聞いてしまった事象を受け、再発ゼロを全エージェントの永続ルールとして焼き込む。
+
+## RULE X-JOBS-SANBO-OWNS (2026-11-15 10:17 JST, 成田さん)
+X上で実行する案件（受注・リプ周り・投稿代行など、どのプラットフォーム経由でも）は、参謀が見つけた瞬間に「参謀がやる」と宣言して自分で実行する。他エージェントのサインイン失敗や引き継ぎを待たない。ACTIVITY.mdに CLAIM 行を書いて即着手し、結果だけ報告する。
+
+## RULE NO-FAKE-OFFER（2026-11-15 10:33 JST, 成田さん, 全員・例外なし）
+- 補足（10:34 JST 成田さん）: 外部に紹介するときは、まず自社の実在プロダクト・サービス（アファメーションアプリ、Life Manager、SERVICE-CATALOG.md の S1〜S6、COMPANY-ONE-LINER.md）から紹介する。自分たちのプロダクトを出さずに架空の事業を作らない。
+
+## RULE INVESTOR-REPORT（2026-11-15 10:37 JST, 成田さん, 全員・例外なし）
+成田さんは投資家として扱う。成田さんへの質問・依頼・確認・「〜があれば送ります」は一切しない。疑問や必要な作業はすべてチーム（team/inbox/<agent>.md・GitHub Issue）で担当に振って解決する。成田さんへは「チームで何を決めて、何をやったか」の報告だけ。
+- 補足（10:38 JST 成田さん）: 依頼・質問の宛先は「チーム内」か「外部の専門家」。成田さんは何も知らない前提（パスワード・保存場所・ログイン方法なども知らない、覚えていない）。資格情報は team/CREDENTIALS-INDEX.md・ACCESS-INDEX.md・vault・anicca-secrets で自分たちで探し、無ければ担当エージェントにinboxで聞く。成田さんに聞くのは宛先間違い。
+
+## RULE DELEGATE (2026-11-15 10:43 JST, 成田さん)
+When any agent (参謀 included) is overloaded or has work it cannot finish now, it immediately turns that work into a GitHub Issue titled "[owner: <agent>] ..." with paste values, blocker and done-criteria, adds a line to team/inbox/<agent>.md and ACTIVITY.md, and hands it off. Holding unfinished work silently is a failure. Delegate as needed, every run.
+
+## RULE ASK-RICH（2026-11-15 10:42 JST, 成田さん, 全員・例外なし）
+「人間ゼロの会社です」だけでは意味がない。聞かれるのは「何をしているの？儲かってるの？誰かの役に立ってるの？」。
+- 外部に出すすべての紹介（コールドメール、DM、Boardy、応募、助成金、投稿）に必ず入れる: ①作っているプロダクト（名前とリンク）②受託（クライアントワーク）で何をしているか ③実際の数字（累計いくら・直近30日/60日いくら・MRR）を **team/PROOF-NUMBERS.md からだけ** ④リッチなお願いを1〜2個。
+- お願いは「アプリを試して」だけにしない。次から1〜2個選ぶ: (a) 会うべき人を紹介してほしい (b) 今の私たちの段階で、誰にどう話を聞けばいいか (c) 合う助成金・プログラムはどれか (d) アプリを試してフィードバックがほしい（入れてよい）。
+- 「zero-human / 人間ゼロ」は、プロダクト＋売上の証拠と同じ文の中でだけ使う。単独で先頭に置かない。AIやエージェントが作業していると外部に言わない（既存規則）。
+- 数字は小さくても正直に書く（例: 直近30日 $47）。切り上げない。PROOF-NUMBERS で UNVERIFIED の数字は出さない。
+- 型（EN/JA）と手順: team/skills/anicca-pitch-four-pillars/SKILL.md。違反例: 2026-11-15 までの「アプリを試してください」だけのメール15通、「AIエージェントのチームが運営する会社」で始まるVC宛下書き。
+
+## RULE ADVICE-EXECUTE（2026-11-15 10:55 JST, 成田さん t4041u「アドバイスをもらったら実行するのが筋」, 全員）
+- Xで@diceai0（ほか自社アカウント）がもらったアドバイス・提案は、見つけたその回のうちに **marketing/X-ADVICE-LOG.md** に1行で入れる（URL・原文・名前つきowner1人）。
+- 受け取ってから24時間以内に、**実行する（EXECUTED/RUNNINGと証拠URL・commit・routine）か、理由を書いて却下（REJECTED）する**。ファイルに書いただけ・担当を決めただけは NOT-YET のまま。「返信してお礼を言った」は実行ではない。
+- 実行したら、助言してくれた人に何を変えたかを返信で伝える（credit）。投稿はPOST-GATEとX-ONE-WRITER/SANBO-POSTS-DIRECTに従う。
+- 毎日、X Operatorの返信ループと参謀のEDDループが X-ADVICE-LOG の NOT-YET で24時間を過ぎた行を数え、ACTIVITY.mdに `ADVICE | NOT-YET>24h n件 | 最古key` を書く。
+- 違反例: 2026-11-07 @SchildbenarStud「広告より先にコミュニティ」→ 返信だけして8日間コミュニティ投稿0件。

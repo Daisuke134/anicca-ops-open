@@ -480,6 +480,21 @@ def guard_postiz(method, url, body=None, poster=None, source_url=None):
     return res
 
 
+
+# X-ADVICE-LOG A-denominator (@10JAQK https://x.com/10JAQK/status/2121714613683392687):
+# "I now write the denominator next to every percentage before I let myself believe it."
+# Advisory only (never refuses): printed after POST-GATE OK so the writer adds "14 of 334" next to "4%".
+_PCT = re.compile(r"\d+(?:\.\d+)?\s*[%％]")
+_DENOM = re.compile(r"\d[\d,]*\s*(?:/|of|out of|中|分の)\s*\d|\d[\d,]*\D{0,8}?(?:→|->)\s*\d", re.I)
+
+
+def advice_warnings(text):
+    warns = []
+    if text and _PCT.search(text) and not _DENOM.search(text):
+        warns.append("percentage without its denominator: add the raw counts (e.g. '14 of 334') next to the % "
+                     "(advice @10JAQK, marketing/X-ADVICE-LOG.md A-denominator)")
+    return warns
+
 def main(argv=None):
     a = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     a.add_argument("--poster", default=os.environ.get("ANICCA_POSTER", ""))
@@ -510,6 +525,9 @@ def main(argv=None):
         print(f"POST-GATE REFUSED: {e}")
         return 2
     print("POST-GATE OK: " + json.dumps(res, ensure_ascii=False))
+    if not o.postiz_payload and o.text_file:
+        for w in advice_warnings(open(o.text_file, encoding="utf-8").read()):
+            print("POST-GATE ADVICE-WARN: " + w)
     return 0
 
 

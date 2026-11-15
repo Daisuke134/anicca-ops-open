@@ -143,3 +143,11 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - Deepnote Agent Initiative Benchmark (Nov 13): 12 frontier models as proactive agents in a synthetic company's Slack with 6 years of history (financial model, CRM, invoices, tickets); GPT-6 Astra 8.97/10, GPT-6.1 Sol 8.65 at $0.11/task vs Claude Fable 5.2 8.17 at $1.87; unneeded help took ~80% more time and money than staying quiet; dataset + code open | https://x.com/jakubjurovych/status/2121256499552915586 (351,792 imp / 670 likes / 699 bookmarks / 68 quotes)
 - Breken benchmark detail (X news summary, self-reported): 33 open-source products, 76 real bugs found, 85% precision, 20 false alarms | https://x.com/i/trending/2121306567622754363 (launch already queued 11/13)
 - Skipped: "Simile" search is the figure of speech; MIT TR two-hour-interview item is the Nov 2024 Park et al. story (old).
+
+## 2026-11-15 09:57 JST 10:00 run (window ~Nov 13–15)
+- **Lauren Tan "50+ Grok Bot agents like a company" (via @usernamentality)** — Chief of Staff + 3 PMs + 40+ workers shipping overnight; post at 58 likes, 83 bookmarks, 5.7K imp. https://x.com/usernamentality/status/2121602579750588537
+- **Same setup, earlier telling (@fusexbt)** — "20+ agents, 3 managers, 16 workers"; 25 likes, 178 imp. https://x.com/fusexbt/status/2121226729343586484
+- **Anthropic "dreaming" memory loop (via @0xwhrrari)** — agent rereads its logs between sessions and rewrites wrong memories; claimed wiki task 13%→48%, contracts task 72%→100%; 69 likes, 2.3K imp. https://x.com/0xwhrrari/status/2121589004952842300
+- **Business is NEAR (NEAR Hackathon)** — "autonomous company" owned by a NEAR wallet: give it an idea + budget, it hires people and pays via NEAR; brand-new account, 10 imp. https://x.com/businessisnear/status/2121755029690568937
+- **Denovo (@spuliz91)** — self-reported "50/month autonomous company built on Denovo", repeated in many replies (promo pattern, unverified). https://x.com/spuliz91/status/2121667866865074585
+- **Autonomous Company (OSS, MIT)** — Claude Code/Codex CLI loop with 14 roles, budgets, Linux isolation. https://x.com/ithub_directory/status/2121051505843191832

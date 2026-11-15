@@ -1,7 +1,7 @@
 {
  "ios": {
-  "date": "2026-11-12",
-  "read_at": "2026-11-14 08:41 JST",
+  "date": "2026-11-13",
+  "read_at": "2026-11-15 08:42 JST",
   "per_app": {
    "HonneAI": {
     "rc_revenue_usd": 0.0,
@@ -66,32 +66,11 @@
     "asc_downloads": "",
     "asc_proceeds": ""
    },
-   "ASC: Dhamma Quotes": {
-    "rc_revenue_usd": "",
-    "rc_new_trials": "",
-    "rc_new_paid_subs": "",
-    "asc_downloads": 0,
-    "asc_proceeds": 0.0
-   },
-   "ASC: Honne": {
-    "rc_revenue_usd": "",
-    "rc_new_trials": "",
-    "rc_new_paid_subs": "",
-    "asc_downloads": 0,
-    "asc_proceeds": 0.0
-   },
-   "ASC: For Better Sleep - Sleep Reset": {
-    "rc_revenue_usd": "",
-    "rc_new_trials": "",
-    "rc_new_paid_subs": "",
-    "asc_downloads": 0,
-    "asc_proceeds": 0.0
-   },
    "ASC: Dhamma Quotes: Buddha Quotes": {
     "rc_revenue_usd": "",
     "rc_new_trials": "",
     "rc_new_paid_subs": "",
-    "asc_downloads": 1,
+    "asc_downloads": 0,
     "asc_proceeds": 0.0
    },
    "ASC: Daily Affirmations - Anicca": {
@@ -108,14 +87,14 @@
     "asc_downloads": 0,
     "asc_proceeds": 0.0
    },
-   "ASC: STUDIO CHERIE": {
+   "ASC: Honne: Text Message Decoder": {
     "rc_revenue_usd": "",
     "rc_new_trials": "",
     "rc_new_paid_subs": "",
     "asc_downloads": 0,
     "asc_proceeds": 0.0
    },
-   "ASC: Honne: Text Message Decoder": {
+   "ASC: STUDIO CHERIE": {
     "rc_revenue_usd": "",
     "rc_new_trials": "",
     "rc_new_paid_subs": "",
@@ -125,25 +104,19 @@
   },
   "source": "RevenueCat v2 charts + ASC Sales"
  },
- "updated_at": "2026-11-14 21:25 JST",
+ "updated_at": "2026-11-15 08:43 JST",
  "seo": {
-  "read_at": "2026-11-14 08:42 JST",
-  "range": "2026-10-16..2026-11-12",
+  "read_at": "2026-11-15 08:43 JST",
+  "range": "2026-10-17..2026-11-13",
   "last7": {
-   "clicks": 2,
-   "impressions": 494
+   "clicks": 1,
+   "impressions": 415
   },
   "prev7": {
-   "clicks": 6,
-   "impressions": 454
+   "clicks": 7,
+   "impressions": 520
   },
   "days": [
-   {
-    "date": "2026-10-16",
-    "clicks": 0,
-    "impressions": 0,
-    "position": ""
-   },
    {
     "date": "2026-10-17",
     "clicks": 0,
@@ -305,14 +278,26 @@
     "clicks": 0,
     "impressions": 0,
     "position": ""
+   },
+   {
+    "date": "2026-11-13",
+    "clicks": 0,
+    "impressions": 0,
+    "position": ""
    }
   ],
   "top_pages": [
    {
+    "page": "https://aniccaai.com/en",
+    "clicks": 4,
+    "impressions": 210,
+    "position": 8.65
+   },
+   {
     "page": "https://aniccaai.com/lm/ja/departure-calculator",
-    "clicks": 3,
-    "impressions": 95,
-    "position": 4.95
+    "clicks": 4,
+    "impressions": 113,
+    "position": 4.79
    },
    {
     "page": "https://aniccaai.com/",
@@ -321,16 +306,10 @@
     "position": 12.43
    },
    {
-    "page": "https://aniccaai.com/en",
-    "clicks": 2,
-    "impressions": 184,
-    "position": 7.98
-   },
-   {
     "page": "https://aniccaai.com/lm/guide/google-calendar-departure-reminder",
     "clicks": 2,
-    "impressions": 34,
-    "position": 7
+    "impressions": 39,
+    "position": 6.72
    },
    {
     "page": "https://aniccaai.com/blog/youtube-educational-video-script",

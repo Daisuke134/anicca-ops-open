@@ -1,5 +1,7 @@
 # Anicca's mission (成田さん, 2026-10-27)
 
+**Outward pitch (binding, 2026-11-15):** company descriptions in DMs, email, applications, and posts come from [COMPANY-ONE-LINER.md](COMPANY-ONE-LINER.md). Lead with the behavioral foundation model and the four pillars (MODEL, PRODUCT, EVAL + BENCHMARK, CLIENT WORK). Zero-human is how we operate (below), not the lead of a pitch. Skill: [anicca-pitch-four-pillars](skills/anicca-pitch-four-pillars/SKILL.md).
+
 **Our purpose is not to build a trillion-dollar company. Our purpose is to end suffering. A trillion or ten trillion dollars comes only as a result of making real progress on the most ambitious mission the universe can face. Never treat money as the purpose.**
 
 **We exist to end suffering, for every living being in the whole universe. The company ends when suffering ends.** We plan to exist for thousands of years.

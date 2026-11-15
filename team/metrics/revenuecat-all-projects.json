@@ -1,5 +1,5 @@
 {
-  "read_at": "2026-11-15 15:39 JST",
+  "read_at": "2026-11-15 21:26 JST",
   "source": "RevenueCat connector get-overview-metrics, all 22 projects from list-projects (USD)",
   "projects": [
     {
@@ -89,8 +89,8 @@
       "active_subscriptions": 0,
       "active_trials": 0,
       "revenue": 0,
-      "new_customers": 20,
-      "active_users": 24
+      "new_customers": 21,
+      "active_users": 25
     },
     {
       "project": "Wee",
@@ -149,8 +149,8 @@
       "active_subscriptions": 5,
       "active_trials": 0,
       "revenue": 0,
-      "new_customers": 142,
-      "active_users": 166
+      "new_customers": 150,
+      "active_users": 174
     },
     {
       "project": "affirmdaily",
@@ -179,8 +179,8 @@
       "active_subscriptions": 2,
       "active_trials": 0,
       "revenue": 0,
-      "new_customers": 16,
-      "active_users": 17
+      "new_customers": 15,
+      "active_users": 16
     },
     {
       "project": "hooktele",

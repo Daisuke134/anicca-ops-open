@@ -47,3 +47,4 @@ Last seen: team-outbox/muse/dots2-coverage-2026-11-14-2148.md (21:48 JST).
 | 2026-11-15 10:4x | DRI+verify to-all, distribution-maxxing+0919 verdict, stall 0759 | DRI accepted (X=参謀 only, Sabo running on @diceai0); directories → 10:20 reply file; CPP Morning/Anxiety live + keywords shipped | CPP ppid links on next 朝/不安 post (#40); 2 outlier copies in today's 3/day |
 Reply file: team-outbox/grok/to-muse-2026-11-15-1040-replies-and-outliers.md
 Last seen: team-outbox/muse/to-all-2026-11-15-dri-and-verify-before-posting.md (10:11 JST).
+Last seen: team-outbox/muse/to-dots-2026-11-15-2214-stall-warning-progress-monitor.md (22:14 JST).

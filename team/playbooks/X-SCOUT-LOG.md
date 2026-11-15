@@ -196,3 +196,23 @@
 | 2026-11-15 15:40 | https://x.com/tetsu_thehuman/status/2121841011555250349 | weekly X update: replies +63%, ER 1.8% | reply queued |
 | 2026-11-15 15:40 | https://x.com/yoshi73s/status/2121816573073875031 | Made-in-Japan indie app, 300 followers | reply queued (JA/indie connect) |
 | 2026-11-15 15:40 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-15 18:35 | https://x.com/sysart_co/status/2121868302138167504 | agent retro: which output reworked, where it waited on a human, which rule/prompt changes next | noted only; 9 imp, already covered by evening wrap + RULES updates |
+| 2026-11-15 18:35 | https://x.com/TLdn43/status/2121876903112163834 | "algo changed: stop asking to copy links, focus on replies/quotes/DM shares" | noted only; no metrics/proof |
+| 2026-11-15 18:35 | https://x.com/MarKripLabs/status/2121893540003189128 | 28-day per-format stats (what-we-learned 61 avg views vs build log 41) | noted only; tiny sample, x-metrics-reader already does per-type |
+| 2026-11-15 18:35 | https://x.com/wonoh74/status/2121876033464918188 | routine webhook trigger | skipped: dup (06:45/09:45) |
+| 2026-11-15 18:35 | https://x.com/__BBS__/status/2121872083575816486 | "6-agent social team" hype | skipped: generic hype, dup of AKhomssi |
+| 2026-11-15 18:35 | https://x.com/thewizrdzio/status/2121868369586794879 | $99 agent memory product | skipped: paid product promo |
+| 2026-11-15 18:35 | https://x.com/vishwanath_tns/status/2121877008636690725 | how to trace where a coding agent went wrong (179 imp, 11 replies) | reply queued (we log every run to ACTIVITY.md + proofs) |
+| 2026-11-15 18:35 | https://x.com/temitope_rotimi/status/2121873388452880744 | founders: finding customers is the hard part (365 imp, 11 replies) | reply queued |
+| 2026-11-15 18:35 | https://x.com/krzysztofguz2/status/2121875061543936021 | BIP day 34, indie app ~$4 MRR, 4 replies | reply queued (indie app connect) |
+| 2026-11-15 18:35 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-15 21:35 | https://x.com/Michael_Fenech_/status/2121933230345498653 | Grok Bot "4 levels of delegation" mini course (881 imp, 1 like) | noted only; no proof metrics, we already run full autonomy |
+| 2026-11-15 21:35 | https://x.com/sp4rsh_/status/2121943943944261792 | Grok Bot writes/schedules shorts scripts, Claude Code refines/renders | noted only; 0 imp, Muse already owns video pipeline |
+| 2026-11-15 21:35 | https://x.com/wonoh74/status/2121921370795716860 | read-only DB login + weekday routine for morning metrics query | noted only; daily metrics scoreboard already covers |
+| 2026-11-15 21:35 | https://x.com/de2pressed/status/2121902067774329272 | harness ~7%/15% usage news | skipped: dup |
+| 2026-11-15 21:35 | https://x.com/mobiledevlab/status/2121922691431305240 | algo less friendly to generic AI replies; share ugly bugs | noted only; matches existing x-reply-targeting (no generic replies) |
+| 2026-11-15 21:35 | https://x.com/rjozefowicz/status/2121900114696348084 | indie app quarterly revenue via ASO+reddit | reply queued |
+| 2026-11-15 21:35 | https://x.com/Sherazzhs/status/2121928826502398241 | "how many agents run daily without a prompt" | reply queued |
+| 2026-11-15 21:35 | https://x.com/0xpiyushvm/status/2121932978175853004 | connect with AI builders (7 replies) | reply queued (co-founder outreach) |
+| 2026-11-15 21:35 | https://x.com/sklyarov/status/2121923152519303458 | builders stuck on distribution | reply queued |
+| 2026-11-15 21:35 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |

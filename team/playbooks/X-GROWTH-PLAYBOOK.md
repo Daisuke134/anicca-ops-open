@@ -197,3 +197,5 @@ Every URL below was opened for the 2026-11-10 cadence study, the 2026-11-11 grow
 - https://posteora.com/blog/x-articles-vs-threads-2026-million-dollar-prize
 - https://aniccaai.com/blog/manager-prediction-intervention-blessing-en
 - https://aniccaai.com/blog/c/research
+
+- 2026-11-15 19:13 JST (hunter): milestone posts (+100s, 1k) count as connect posts with honest before/after numbers and what shipped, never a follow-back offer [C9, C10, R17]; originals spaced 60+ min, max 1 per posting run [R1, R2, O3]. Sources: marketing/X-GROWTH-SOURCES.md.

@@ -163,3 +163,16 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - MeasuringU (UX research firm, 24K followers): review of synthetic-users research across psychology, surveys, sociology and UX research. https://x.com/MeasuringU/status/2121755580121371000
 - Ryan Jiang synthetic-user memory test follow-up: under a token cap, retired beliefs/contradictions/hard limits survived in only 1–2 of 128 long-history memories (self-reported, tiny account). https://x.com/ryanjiangbuilds/status/2121650921629208741
 - No new behavior-foundation-model launch in window.
+
+## 2026-11-15 22:00 run (window ~Nov 14–15)
+### A. Zero-human / autonomous companies
+- **Youssef Hosni "Evidence-First" agent handoffs** — agents pass conclusions without evidence; fix = evidence packet (claim, source, exact passage, location, tool) + validation gate before the next agent builds on it; 741 imp / 18 likes / 9 bookmarks. https://x.com/YoussefHosni951/status/2121728925327823062 (follow-up by @stretchcloud cites a "Hallucination Cascade" paper: 500 chains, hallucination score 0.422 at agent 1 → 0.272 at agent 3; secondhand, paper not checked) https://x.com/stretchcloud/status/2121763109303877638
+- **Reason Machines coding harness (X news summary, Nov 13 launch)** — claims frontier-level Terminal-Bench/DeepSWE at up to 20x lower cost; Brian Armstrong reportedly merged 46 PRs across 10 repos in 14 part-time days with its agents; from $50/mo. https://x.com/i/trending/2121400676047839508
+- Agent Money List (2-follower tracker account, self-reported): +9 AI-agent businesses with verified MRR this week (+$52.6K/mo), total $686K/mo across 143. https://x.com/AgentMoneyList/status/2121640400947392886
+- Lauren Tan "50+ agents" post (queued 11/15) now 25,377 imp / 182 likes / 295 bookmarks.
+- Skipped: Sunfall, Agent Valley, Midnight City (token/meme-coin agent cities), Hushd + Business is NEAR + spuliz (repeats), "Delft 2032" (fiction), LurkID ($0 MRR day 12, tiny).
+### B. Behavior simulation / synthetic users
+- **Vox (@Voxyz_ai) "5 simulated strangers" launch QA** — 5 subagent personas (impatient, skeptic, mobile/3G, non-native English, breaker) run landing page → first success in a real browser, then 7 days of zero new features; 4,468 imp / 46 likes / 82 bookmarks; quotes @pashuk's One More Feature Syndrome article (13,525 imp). https://x.com/Voxyz_ai/status/2121644664943935980
+- **Bradley Vangelder: 9 simulated users lived with his app for a week** — day 1 all 9 finish setup, day 2 4 open again, day 7 4 left; open source, runs in Claude Code; 203 imp / 12 replies. https://x.com/bradvangelder/status/2121377749109518704
+- Plurai Simulation now free for every AI engineer (simulated users + edge cases vs agents; $13M seed led by Team8, already in 11/13 digest). https://x.com/TownmediaLabs/status/2121665898738262315
+- Breken eval restated by a small account: 235 bugs reached users across 33 OSS products, 76 caught by synthetic-user simulation vs 37 by best baseline agent (secondhand). https://x.com/UeI3erBJq2aqBwK/status/2121900077954535924

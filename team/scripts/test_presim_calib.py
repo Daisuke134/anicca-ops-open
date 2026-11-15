@@ -22,6 +22,27 @@ def test_fmt():
     assert pc.fmt("hello") == "other"
 
 
+def test_fmt_row():
+    assert pc.fmt_row({"format": "connect", "text_preview": "plain post"}) == "connect"
+    assert pc.fmt_row({"format": "question", "text_preview": "plain post"}) == "question"
+    assert pc.fmt_row({"format": "other", "text_preview": "why?"}) == "other"
+    assert pc.fmt_row({"format": "bogus", "text_preview": "why?"}) == "question"
+    assert pc.fmt_row({"format": "", "text_preview": "つながりたい"}) == "connect"
+    assert pc.fmt_row({"text_preview": "hello"}) == "other"
+
+
+def test_fmt_row_in_csv(tmp_path):
+    csv_text = """backend,pred_impr,actual_impr,format,text_preview
+heuristic,10,40,connect,plain looking preview that would be other
+heuristic,10,20,,plain post
+"""
+    f = tmp_path / "p.csv"
+    f.write_text(csv_text, encoding="utf-8")
+    res = pc.evaluate(pc.load(str(f)))
+    assert res["connect"][0] == 1
+    assert res["other"][0] == 1
+
+
 def test_loo(tmp_path, capsys):
     f = tmp_path / "p.csv"
     f.write_text(CSV, encoding="utf-8")

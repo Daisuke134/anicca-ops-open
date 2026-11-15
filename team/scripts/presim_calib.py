@@ -18,11 +18,20 @@ DEFAULT = "team/metrics/presim-log.csv"
 
 def fmt(text):
     t = (text or "").strip()
-    if "つながりたい" in t or "繋がりたい" in t or "connect with" in t.lower():
+    tl = t.lower()
+    # EN connect markers added 2026-11-15 21:4x (2121608771445064174 "I want to meet more people shipping" was mis-bucketed as other)
+    if "つながりたい" in t or "繋がりたい" in t or any(k in tl for k in ("connect with", "want to meet", "meet more people")):
         return "connect"
     if t.endswith("?") or t.endswith("？"):
         return "question"
     return "other"
+
+
+def fmt_row(row):
+    f = row.get("format")
+    if f in ("connect", "question", "other"):
+        return f
+    return fmt(row.get("text_preview", ""))
 
 
 def load(path, by_backend=False):
@@ -34,7 +43,7 @@ def load(path, by_backend=False):
             except ValueError:
                 continue
             if p > 0 and a > 0:
-                key = fmt(r.get("text_preview"))
+                key = fmt_row(r)
                 if by_backend:
                     key = f"{key}/{r.get('backend') or '?'}"
                 rows.append((key, p, a))

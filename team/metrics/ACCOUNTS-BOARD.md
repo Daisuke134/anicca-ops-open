@@ -1,4 +1,4 @@
-# ACCOUNTS-BOARD（SNS スコアボード）2026-11-15 17:24 JST
+# ACCOUNTS-BOARD（SNS スコアボード）2026-11-15 18:28 JST
 > 自動生成 scripts/build_now.py。数字は既存ファイルのみ。空欄＝未取得。
 
 | platform | account | 投稿者(1人) | followers | 7d増減 | 7d投稿 | 7d views | 7d いいね/コメ/シェア | ER 7d | 直近5本 平均views | 最終投稿 | Copy the winners | 次にコピーする型 |
@@ -53,8 +53,8 @@
 | bluesky | lifemanager-jp | 参謀 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-26 16:2x | https://bsky.app/profile/daikore.bsky.social — 1,061 followers / 1,001 posts; LINE-magnet funnel https://lin.ee/UeREKL i | /2/topic choice/winner = one promise (残業削減・副収入 with AI) (https://bsky.app/profile/daikore.bsky.social)/LM + LINE sticker |
 | bluesky | lm_en | 参謀 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 06:24 | 未取得 | 未取得 |
 | dailyanicca | tumblr | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 02:14 | https://www.ignipotent.com/tagged/affirmations — reblogged text affirmations: "YOU'RE A REGULAR WRITER!…" 42,873 notes ( | /3/script length/structure/4–8 repeated short lines, no link/line + A–D quiz + app line + link/yes/1 in 3 Tumblr posts w |
-| dev.to | aniccaapp | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:3x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://bsky.app/profile/luigiaffirmations.bsky |
-| devto | aniccaapp | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 00:3x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://bsky.app/profile/luigiaffirmations.bsky |
+| dev.to | aniccaapp | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:3x | https://threads.com/@manifest.with.words — 2,620 followers on the mastodon.social bridge; one-line affirmation + image h | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://threads.com/@manifest.with.words)/Muse/ |
+| devto | aniccaapp | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 00:3x | https://threads.com/@manifest.with.words — 2,620 followers on the mastodon.social bridge; one-line affirmation + image h | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://threads.com/@manifest.with.words)/Muse/ |
 | diceai0 | x | X Operator だけ（2026-11-13 23:5x。ほかのボットは X-QUEUE-selawmqt.md に | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 00:37 | https://x.com/marclou — 417,695 followers; top recent post 283,466 impressions https://x.com/i/status/211358872967569438 | /1/first-line / first-second hook/winner opens with a result or a feeling in ≤8 words ("SaaS is so dead" 120,684 imp; "I |
 | directory | junkstartups | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:3x | 未取得 | 未取得 |
 | linkedin | Daisuke Narita | Muse（本物、自分のサブスク） | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:28 | 未取得 | 未取得 |
@@ -63,7 +63,7 @@
 | mastodon | mastodon_anicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-13 21:00 | 未取得 | 未取得 |
 | mastodon | mastodon_anicca_en | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 03:54 | 未取得 | 未取得 |
 | mastodon | mastodon_lm | 参謀 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 01:01 | 未取得 | 未取得 |
-| nostr | anicca | Mac mini LM jobs | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 09:3x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://bsky.app/profile/luigiaffirmations.bsky |
+| nostr | anicca | Mac mini LM jobs | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 09:3x | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner title = 2nd-person promise ("Things You Will Soon Manifest", "What You Are Abou |
 | nostr | anicca npub1jtay | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-26 17:3x | 未取得 | 未取得 |
 | nostr | anicca_npub | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 12:3x | 未取得 | 未取得 |
 | nostr | npub1jtay3qxp | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-27 03:3x | 未取得 | 未取得 |

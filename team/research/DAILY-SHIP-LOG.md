@@ -173,3 +173,15 @@ Fresh ASC pull 18:2x (files/attribution-daily-2026-11-15-1830.md): PT 11/14 stil
 No extra Anicca ship: 10:4x CPP-keyword ship already counts for today; promo (Lock Screen hook) is live in all 39 locales and under KEEP judgement to 11/21, so retouching it would break the read. 1.10.0 build 829 is VALID + PREPARE but intentionally held (home rebuild after 成田さん's 07:41 rejection) → not submitted.
 Today's ships: Anicca, Thankful, STUDIO CHERIE, Honne = done. Dhamma / Sleep Reset = BLOCKER → Issue #177 [owner: codex] new builds, due 11/16 12:00 JST.
 KEEP/REVERT: CHERIE ja + Honne en-GB/AU/CA (11/14) and today's 14:2x promos → HOLD (no post-change PT day published yet); judge on the 11/16 pull.
+
+### 2026-11-15 22:2x JST — growth loop 22:00 (参謀): day close
+Funnel (ASC Standard, latest valid pull files/attribution-daily-2026-11-15-1830.md; PT 11/14 still unpublished at 22:2x): PT 11/08–11/14 = 509 imp → 20 PV → 1 first-time DL → 0 external Mixpanel → 0 trial → 0 purchase. RC overview 22:2x (projbb7b9d1b): MRR $20, active subs 5, active trials 0, 28d revenue $0. vs 11/14 22:2x (450/25/1): imp +13%, PV −20%, DL flat. Weakest = PV→DL (~5% vs ~25%).
+| App | Today's ship / blocker (all 6 covered) |
+|---|---|
+| Anicca | CPP search keywords on 4 approved CPPs (10:4x, live) + 1.10.0 PREPARE en keyword "lock screen" (held with build 829) |
+| Thankful | ja promo named moment (14:2x) |
+| STUDIO CHERIE | en-US promo audience line (14:2x) |
+| Honne | privacy hook to es-ES/es-MX/pt-BR/fr-FR/de-DE + el fix (14:2x) |
+| Dhamma Quotes / Sleep Reset | BLOCKER: promo under test to 11/20; keywords/ja need new version → Issue #177 [owner: codex] due 11/16 12:00 JST |
+KEEP/REVERT: CHERIE ja + Honne en-GB/AU/CA (11/14) and 11/15 promos → HOLD (no post-change PT day published); Lock Screen promo KEEP (judged 11/14). Judge on 11/16 pull.
+Measurement bug: `attribution-daily.py --pull --cache /workspace/tmp/aff-funnel` at 22:24 wrote an older window (PT 11/04–11/10) over today's file; restored from git. → @pickle: fix pull/cache so a new run never regresses the window (guard: refuse to write if latest PT date < existing file's).

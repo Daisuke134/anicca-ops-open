@@ -1,4 +1,4 @@
-# ACCOUNTS-BOARD（SNS スコアボード）2026-11-15 18:28 JST
+# ACCOUNTS-BOARD（SNS スコアボード）2026-11-16 00:21 JST
 > 自動生成 scripts/build_now.py。数字は既存ファイルのみ。空欄＝未取得。
 
 | platform | account | 投稿者(1人) | followers | 7d増減 | 7d投稿 | 7d views | 7d いいね/コメ/シェア | ER 7d | 直近5本 平均views | 最終投稿 | Copy the winners | 次にコピーする型 |
@@ -60,7 +60,7 @@
 | linkedin | Daisuke Narita | Muse（本物、自分のサブスク） | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:28 | 未取得 | 未取得 |
 | linkedin | daisuke-narita | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 31 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-15T00:30:00.000Z | 未取得 | 未取得 |
 | linkedin-page | everfocus-labs | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 69 | 未取得 | 未取得 | 未取得 |
-| mastodon | mastodon_anicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-13 21:00 | 未取得 | 未取得 |
+| mastodon | mastodon_anicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 18:31 | 未取得 | 未取得 |
 | mastodon | mastodon_anicca_en | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 03:54 | 未取得 | 未取得 |
 | mastodon | mastodon_lm | 参謀 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 01:01 | 未取得 | 未取得 |
 | nostr | anicca | Mac mini LM jobs | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 09:3x | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner title = 2nd-person promise ("Things You Will Soon Manifest", "What You Are Abou |
@@ -209,11 +209,11 @@
   - 2026-10-26 12:4x views 未取得 いいね 0 RP 未取得 返信 0 https://dev.to/aniccaapp/a-3-entry-gratitude-log-in-30-lines-of-javascript-and-where-localstorage-breaks-27ig
   - 2026-11-01 00:3x views 未取得 いいね 0 RP 未取得 返信 0 https://dev.to/aniccaapp/a-30-line-javascript-tone-checker-for-text-messages-and-where-regex-breaks-gll
 - **mastodon mastodon_anicca**
-  - 2026-11-12 18:30 views 未取得 いいね 0 RP 0 返信 0 https://mastodon.social/@anicca_affirm/117602767139191938
-  - 2026-11-12 21:00 views 未取得 いいね 0 RP 0 返信 0 https://mastodon.social/@anicca_affirm/117603357372417315
-  - 2026-11-13 15:00 views 未取得 いいね 0 RP 0 返信 0 https://mastodon.social/@anicca_affirm/117607603724475334
-  - 2026-11-13 18:33 views 未取得 いいね 0 RP 0 返信 0 https://mastodon.social/@anicca_affirm/117608440776310079
-  - 2026-11-13 21:00 views 未取得 いいね 0 RP 0 返信 0 https://mastodon.social/@anicca_affirm/117609020094501054
+  - 2026-11-14 07:04 views 未取得 いいね 0 RP 0 返信 0 https://mastodon.social/@anicca_affirm/117611394723380267
+  - 2026-11-14 10:00 views 未取得 いいね 0 RP 0 返信 0 https://mastodon.social/@anicca_affirm/117612087027353931
+  - 2026-11-14 12:00 views 未取得 いいね 0 RP 0 返信 0 https://mastodon.social/@anicca_affirm/117612557729095661
+  - 2026-11-14 15:00 views 未取得 いいね 0 RP 0 返信 0 https://mastodon.social/@anicca_affirm/117613266883130557
+  - 2026-11-14 18:31 views 未取得 いいね 0 RP 0 返信 0 https://mastodon.social/@anicca_affirm/117614096503805943
 - **bluesky bluesky_anicca_en**
   - 2026-10-31 03:55 views 未取得 いいね 1 RP 0 返信 0 https://bsky.app/profile/aniccaapp.bsky.social/post/3mz4hfakppu2m
   - 2026-10-31 10:02 views 未取得 いいね 0 RP 0 返信 0 https://bsky.app/profile/aniccaapp.bsky.social/post/3mz53w3mpgb2q

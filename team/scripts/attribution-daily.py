@@ -10,6 +10,35 @@ Sources:
 Dedupe: for each data date, keep only rows from the latest processingDate.
 ASC dates are Pacific Time and lag 24-48h. Do not treat a missing day as zero.
 
+Stale-overwrite guard (added 2026-11-16):
+  On 2026-11-15 22:2x JST a `--pull` run wrote PT 11/04-11/10 cache rows over files
+  that held PT 11/08-11/14, silently shrinking the measured window. Every write
+  below now refuses to replace a target whose newest PT date is newer than the
+  newest PT date of the data being written (`incoming < existing` => no write).
+    * cache JSON (discovery/downloads[_detailed].json): existing newest `Date`
+      vs incoming newest `Date`. Blocked => the file is left byte-identical, one
+      `BLOCKED stale overwrite` line goes to stderr, and the run continues on the
+      cache it already had (same fallback shape as an ASC pull failure). An incoming
+      pull that brought back no dated rows at all is blocked the same way, because
+      it would erase the newest date just as effectively.
+    * report `.md`: existing window end (`- Complete ASC days in this file: A .. B PT`)
+      vs the requested window end. Blocked => no `.md` is written and the process
+      exits with STALE_EXIT_CODE (3) so automation can see it. Exit 0 is kept for
+      every pre-existing path (pull failure still falls back to cache).
+  Coverage guard (added 2026-11-16, after @chatgpt peer review of 9d5b3ba6):
+  the newest-date rule alone cannot see two further evidence-loss paths, so both are
+  now fail-closed too (blocked => file byte-identical, `BLOCKED ...` on stderr):
+    * cache JSON, newest PT date equal but coverage smaller: [11/08, 11/14] must not
+      be replaced by [11/14]. Fewer unique PT days, fewer dated rows, or any existing
+      PT day missing from the pull is refused while the newest date stands still.
+      A strictly newer pull is still written (the window advanced); if it drops PT
+      days the target had, one `WARNING forward pull leaves ...` line says which.
+    * report `.md` with no verifiable window end: a report that cannot prove which PT
+      days it measured must not replace one whose window end is known
+      (`window_end=None` over a `.. 2026-11-14 PT` report is refused, exit 3).
+      When the argument is None the window end is read from the rendered text itself.
+  `--allow-stale-write` overrides the guard for a deliberate backfill.
+
 Usage:
   python3 team/scripts/attribution-daily.py --cache /workspace/tmp/aff-funnel
   python3 team/scripts/attribution-daily.py --pull --cache /workspace/tmp/aff-funnel
@@ -23,6 +52,7 @@ import gzip
 import io
 import json
 import os
+import re
 import sys
 from collections import defaultdict
 from datetime import date, datetime, timedelta, timezone
@@ -37,6 +67,221 @@ STANDARD_DOWNLOADS = f"r3-{REQ_ID}"
 STANDARD_DISCOVERY = f"r14-{REQ_ID}"
 
 JST = timezone(timedelta(hours=9))
+
+# Exit code used when the guard blocked the final report write (see module docstring).
+STALE_EXIT_CODE = 3
+
+_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+_REPORT_WINDOW_RE = re.compile(
+    r"Complete ASC days in this file:\s*(\d{4}-\d{2}-\d{2})\s*\.\.\s*(\d{4}-\d{2}-\d{2})"
+)
+
+
+class StaleOverwriteBlocked(RuntimeError):
+    """A write was refused because it would replace newer data with older data."""
+
+
+def norm_pt_date(value) -> str | None:
+    """Return a YYYY-MM-DD string only when it is a real calendar date."""
+    if not isinstance(value, str):
+        return None
+    s = value.strip()
+    if not _DATE_RE.match(s):
+        return None
+    try:
+        date.fromisoformat(s)
+    except ValueError:
+        return None
+    return s
+
+
+def newest_pt_date_in_rows(rows) -> str | None:
+    """Newest `Date` (ASC PT data date) among ASC rows; None when there is none."""
+    best = None
+    for r in rows or []:
+        if not isinstance(r, dict):
+            continue
+        d = norm_pt_date(r.get("Date"))
+        if d and (best is None or d > best):
+            best = d
+    return best
+
+
+def pt_dates_in_rows(rows) -> set[str]:
+    """Every real PT data date (`Date`) present in ASC rows."""
+    out: set[str] = set()
+    for r in rows or []:
+        if not isinstance(r, dict):
+            continue
+        d = norm_pt_date(r.get("Date"))
+        if d:
+            out.add(d)
+    return out
+
+
+def dated_row_count(rows) -> int:
+    """Rows carrying a real PT data date (junk/undated rows do not count)."""
+    return sum(1 for r in rows or [] if isinstance(r, dict) and norm_pt_date(r.get("Date")))
+
+
+def rows_in_json_file(path) -> list | None:
+    """Rows already stored in a cache JSON file; None if unreadable or not a row list."""
+    p = Path(path)
+    if not p.exists():
+        return None
+    try:
+        data = json.loads(p.read_text())
+    except (OSError, ValueError):
+        return None
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        for key in ("rows", "data", "results"):
+            if isinstance(data.get(key), list):
+                return data[key]
+    return None
+
+
+def newest_pt_date_in_json_file(path) -> str | None:
+    """Newest `Date` already stored in a cache JSON file; None if unreadable/empty."""
+    rows = rows_in_json_file(path)
+    return newest_pt_date_in_rows(rows) if rows is not None else None
+
+
+def newest_pt_date_in_report_text(text: str) -> str | None:
+    """Latest window end declared in rendered report text; None if absent."""
+    best = None
+    for m in _REPORT_WINDOW_RE.finditer(text or ""):
+        d = norm_pt_date(m.group(2))
+        if d and (best is None or d > best):
+            best = d
+    return best
+
+
+def newest_pt_date_in_report_file(path) -> str | None:
+    """Window end already recorded in a rendered report `.md`; None if absent."""
+    p = Path(path)
+    if not p.exists():
+        return None
+    try:
+        text = p.read_text()
+    except OSError:
+        return None
+    return newest_pt_date_in_report_text(text)
+
+
+def stale_overwrite_reason(existing: str | None, incoming: str | None) -> str | None:
+    """Reason string when the write must be refused, else None.
+
+    Only `incoming < existing` is refused. Equal dates are a normal re-pull of the
+    same window and must still be writable; unknown dates cannot be compared.
+    """
+    if existing and incoming and incoming < existing:
+        return f"existing newest PT date {existing} is newer than incoming {incoming}"
+    return None
+
+
+def coverage_loss_reason(existing_days, existing_rows, incoming_days, incoming_rows) -> str | None:
+    """Reason when an equally-new write would drop PT days or rows the target holds.
+
+    The newest-date rule cannot see this: [11/08, 11/14] -> [11/14] keeps the newest
+    date and still loses a measured day. Only a shrink is refused; identical coverage,
+    extra days and extra rows are normal re-pulls and stay writable.
+    """
+    existing_days = set(existing_days or ())
+    incoming_days = set(incoming_days or ())
+    if not existing_days or not incoming_days:
+        return None
+    missing = sorted(existing_days - incoming_days)
+    day_loss = len(incoming_days) < len(existing_days)
+    row_loss = int(incoming_rows or 0) < int(existing_rows or 0)
+    if not missing and not day_loss and not row_loss:
+        return None
+    parts = []
+    if missing:
+        parts.append(f"existing PT date(s) dropped: {', '.join(missing)}")
+    if day_loss:
+        parts.append(f"unique PT days {len(existing_days)} -> {len(incoming_days)}")
+    if row_loss:
+        parts.append(f"dated rows {existing_rows} -> {incoming_rows}")
+    return "same newest PT date but coverage would shrink (" + "; ".join(parts) + ")"
+
+
+def write_guarded_rows(dest, rows, allow_stale: bool = False) -> bool:
+    """Write ASC cache rows unless that would replace newer or wider data with less.
+
+    Blocked (returns False, destination byte-identical) when the incoming pull is older
+    than the target, brings no dated rows at all, or keeps the same newest PT date while
+    covering fewer days/rows than the target already holds.
+
+    Returns True when written, False when blocked (destination left untouched).
+    """
+    dest = Path(dest)
+    existing_rows = rows_in_json_file(dest)
+    existing_days = pt_dates_in_rows(existing_rows)
+    incoming_days = pt_dates_in_rows(rows)
+    existing = max(existing_days) if existing_days else None
+    incoming = max(incoming_days) if incoming_days else None
+    reason = None if allow_stale else stale_overwrite_reason(existing, incoming)
+    if reason is None and not allow_stale and existing and incoming is None:
+        # Same loss as an older pull: a run that brought back no dated rows must not
+        # erase a cache that holds dated rows.
+        reason = f"incoming pull has no dated rows (would erase newest PT date {existing})"
+    if reason is None and not allow_stale and existing and incoming == existing:
+        # Standing still in time is no licence to shrink what was measured.
+        reason = coverage_loss_reason(
+            existing_days, dated_row_count(existing_rows), incoming_days, dated_row_count(rows)
+        )
+    if reason:
+        print(
+            f"BLOCKED stale overwrite of {dest} ({reason}); file left untouched",
+            file=sys.stderr,
+        )
+        return False
+    dropped = sorted(existing_days - incoming_days)
+    if dropped and not allow_stale:
+        # A strictly newer pull is allowed to move the window forward; the PT days it
+        # leaves behind are reported loudly instead of disappearing quietly.
+        print(
+            f"WARNING forward pull leaves {dest} without PT date(s) {', '.join(dropped)}; "
+            f"window advanced to {incoming}",
+            file=sys.stderr,
+        )
+    tmp = dest.with_name(dest.name + ".tmp")
+    tmp.parent.mkdir(parents=True, exist_ok=True)
+    tmp.write_text(json.dumps(rows))
+    os.replace(tmp, dest)
+    print(f"cache wrote {dest} (newest PT date {incoming or 'unknown'})", file=sys.stderr)
+    return True
+
+
+def write_guarded_report(out, text: str, window_end: str | None, allow_stale: bool = False) -> bool:
+    """Write the rendered report unless it would shrink or blank an existing window.
+
+    A report with no verifiable window end cannot prove which PT days it measured, so it
+    must not replace a report whose window end is known
+    (`window_end=None` over `.. 2026-11-14 PT` used to be accepted and lost the date).
+    The end is taken from the argument, else from the rendered text itself, so a caller
+    passing None while rendering a dated window is still writable.
+    """
+    out = Path(out)
+    existing = newest_pt_date_in_report_file(out)
+    incoming = norm_pt_date(window_end) or newest_pt_date_in_report_text(text)
+    reason = None if allow_stale else stale_overwrite_reason(existing, incoming)
+    if reason is None and not allow_stale and existing and incoming is None:
+        reason = (
+            "incoming report has no verifiable window end "
+            f"(would erase existing window end {existing})"
+        )
+    if reason:
+        print(
+            f"BLOCKED stale overwrite of {out} ({reason}); file left untouched",
+            file=sys.stderr,
+        )
+        return False
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(text)
+    return True
 
 # Map ASC Source Type (+ optional Source Info / Campaign) to a channel key.
 CHANNEL_ORDER = [
@@ -206,8 +451,8 @@ def rc_first_seen_ms(c):
     return None
 
 
-def pull_asc_report(report_id: str, since: str, dest: Path) -> list:
-    """Pull DAILY segments for one analytics report. Requires /workspace/asc.py."""
+def fetch_asc_report(report_id: str, since: str) -> list:
+    """Pull DAILY segments for one analytics report into memory. Requires /workspace/asc.py."""
     sys.path.insert(0, "/workspace")
     import requests
 
@@ -238,8 +483,23 @@ def pull_asc_report(report_id: str, since: str, dest: Path) -> list:
             for r in csv.DictReader(io.StringIO(txt), delimiter="\t"):
                 r["_proc"] = i["attributes"]["processingDate"]
                 rows.append(r)
-    dest.write_text(json.dumps(rows))
     return rows
+
+
+def pull_asc_report(report_id: str, since: str, dest: Path, allow_stale: bool = False) -> list:
+    """Fetch and store one analytics report, refusing to shrink the cached window.
+
+    When the guard blocks the write the cached rows already on disk are returned, so
+    the caller keeps rendering the newer window instead of the older pull.
+    """
+    rows = fetch_asc_report(report_id, since)
+    if write_guarded_rows(dest, rows, allow_stale=allow_stale):
+        return rows
+    try:
+        cached = json.loads(Path(dest).read_text())
+        return cached if isinstance(cached, list) else rows
+    except (OSError, ValueError):
+        return rows
 
 
 def render_table(args) -> str:
@@ -252,13 +512,14 @@ def render_table(args) -> str:
     disc_det = load_json(cache / "discovery_detailed.json") or []
     dl_det = load_json(cache / "downloads_detailed.json") or []
 
+    allow_stale = bool(getattr(args, "allow_stale_write", False))
     if args.pull:
         try:
             print("pulling ASC Standard + Detailed (no secrets logged)", file=sys.stderr)
-            disc = pull_asc_report(STANDARD_DISCOVERY, "2026-11-01", cache / "discovery.json")
-            dl = pull_asc_report(STANDARD_DOWNLOADS, "2026-11-01", cache / "downloads.json")
-            disc_det = pull_asc_report(DETAILED_DISCOVERY, "2026-11-01", cache / "discovery_detailed.json")
-            dl_det = pull_asc_report(DETAILED_DOWNLOADS, "2026-11-01", cache / "downloads_detailed.json")
+            disc = pull_asc_report(STANDARD_DISCOVERY, "2026-11-01", cache / "discovery.json", allow_stale)
+            dl = pull_asc_report(STANDARD_DOWNLOADS, "2026-11-01", cache / "downloads.json", allow_stale)
+            disc_det = pull_asc_report(DETAILED_DISCOVERY, "2026-11-01", cache / "discovery_detailed.json", allow_stale)
+            dl_det = pull_asc_report(DETAILED_DOWNLOADS, "2026-11-01", cache / "downloads_detailed.json", allow_stale)
         except Exception as e:
             print(f"ASC pull failed ({type(e).__name__}: {str(e)[:120]}). Using cache.", file=sys.stderr)
 
@@ -435,11 +696,17 @@ def main():
     p.add_argument("--end", default="2026-11-10")
     p.add_argument("--report-date", default=datetime.now(JST).strftime("%Y-%m-%d"))
     p.add_argument("--out", default="")
+    p.add_argument(
+        "--allow-stale-write",
+        action="store_true",
+        help="override the stale-overwrite guard (deliberate backfill only)",
+    )
     args = p.parse_args()
     text = render_table(args)
     out = Path(args.out) if args.out else Path("/workspace/anicca-ops-main/files") / f"attribution-daily-{args.report_date}.md"
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(text)
+    if not write_guarded_report(out, text, args.end, allow_stale=args.allow_stale_write):
+        print(f"refused to write {out}; existing report kept", file=sys.stderr)
+        sys.exit(STALE_EXIT_CODE)
     print(f"wrote {out} ({len(text)} bytes)")
 
 

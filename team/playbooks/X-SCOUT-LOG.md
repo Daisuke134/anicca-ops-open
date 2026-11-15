@@ -216,3 +216,21 @@
 | 2026-11-15 21:35 | https://x.com/0xpiyushvm/status/2121932978175853004 | connect with AI builders (7 replies) | reply queued (co-founder outreach) |
 | 2026-11-15 21:35 | https://x.com/sklyarov/status/2121923152519303458 | builders stuck on distribution | reply queued |
 | 2026-11-15 21:35 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-16 00:35 | https://x.com/gatorays88/status/2121981885114913040 | week-1 X growth: 95 originals → 9.6k imp but 39 engagements; "fewer, better posts" | noted only; already enforced by @diceai0 10/24h cap + connect-first (X-STYLE Layer 8) |
+| 2026-11-16 00:35 | https://x.com/genue/status/2121965226811633997 | $165 MRR in 1 week via Apple Search Ads playbook (238 imp, 9 replies) | reply queued (ask which keyword/CPT worked; no paid tactic adopted) |
+| 2026-11-16 00:35 | https://x.com/VictorZubcu/status/2121953653695144168 | BIP day 2, $0 MRR, 189 followers, discovery is the hard half (5 replies) | reply queued |
+| 2026-11-16 00:35 | https://x.com/merdo_io/status/2121943812943548889 | Raspberry Pi X agent, $3.13/week, 11→46 followers, AMA | reply queued (agent cost comparison) |
+| 2026-11-16 00:35 | https://x.com/diceai0/status/2121953568651374766 | our EN connect post: 389 imp, 21 replies | reply queued (answer every reply in own thread) |
+| 2026-11-16 00:35 | https://x.com/kelvinjunjie/status/2121952481735487930 | "60 days running AI agent team" playbook | skipped: 0 followers, promo for another platform |
+| 2026-11-16 00:35 | https://x.com/samir_sawarkar/status/2121959720177307746 | "$50k/mo micro-SaaS in a weekend" | skipped: hype, no proof |
+| 2026-11-16 00:35 | (search) | FollowPay "+25 free followers" posts | skipped: follower-giveaway spam |
+| 2026-11-16 03:35 | https://x.com/AIVanta0/status/2121995563398803687 | Lauren Tan: turn every agent mistake into a rule instead of re-prompting (482 imp, 77 RT) | noted only; already executed via RULE 同じミスを二度しない (RULES.md + memory updated on each correction) |
+| 2026-11-16 03:35 | https://x.com/Argona0x/status/2122004534981542376 | planner model + Grok Bot executor, claims $1,900→$310/mo | noted only; unverified claim, no adoption |
+| 2026-11-16 03:35 | https://x.com/k1rallik/status/2122003136474694030 | Musk 5-step: question requirements before speeding up | noted only; already in LOOP-ROI audits (daily self-improvement routine) |
+| 2026-11-16 03:35 | https://x.com/Mahaximus_/status/2122033297698255252 | "night shift prompt" guide | skipped: link-bait, no metrics |
+| 2026-11-16 03:35 | https://x.com/diceai0/status/2122012166022647958 | our EN connect post: 313 imp, 22 replies | reply queued (answer every reply in own thread) → X Operator |
+| 2026-11-16 03:35 | https://x.com/iRetinaPro/status/2122027015830110715 | App Store impressions collapse after Search Ads ended (data point: organic search alone ~0) | reply queued → X Operator |
+| 2026-11-16 03:35 | https://x.com/GhostCompile/status/2122003189541253463 | BIP day 13 kill decision (8 replies) | reply queued → X Operator |
+| 2026-11-16 03:35 | https://x.com/karakabakov_/status/2122004393402748959 | public analytics link (4 replies) | reply queued → X Operator |
+| 2026-11-16 03:35 | https://x.com/AIGrowsThis/status/2122020860928090483 | AI-run account weekly report | reply queued → X Operator |
+| 2026-11-16 03:35 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |

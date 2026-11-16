@@ -92,3 +92,16 @@ Thank-you / update replies for people in #1–#3 are queued in `marketing/X-QUEU
 - Window: X mentions/replies to @diceai0 and @selawmqt 2026-11-14 13:18 → 2026-11-15 11:35 JST (57 posts, 3 pages). 10 rows logged; networking, thanks-only, ad/spam and other builders' own-app chat skipped. App Store RSS jp+us for all six apps: **no new reviews** (Anicca JP still 3, CHERIE JP 2, others 0). X DMs not re-read here (covered by the hourly DM loop).
 - New this run: **11/15 #1** App Store name/subtitle "Anicca - what it does" (@dallonbuilds) → anicca-marketer, after the screenshot-1 week. **11/15 #2** @YakigakiApp saw paywall → discount → gated home on first launch → Codex verifies live 1.9.14 is free-first on a fresh install.
 - Nothing shipped this run, so no "told user" replies were queued.
+
+## 2026-11-16 11:4x JST run (Grok Bot 参謀)
+
+- Window: X mentions/replies to @diceai0 and @selawmqt 2026-11-15 11:35 → 2026-11-16 11:46 JST (2 searches, ~50 posts). Connect/greeting, other builders' own-app chat and spam skipped. App Store RSS jp+us for all six apps: **no new reviews** (Anicca JP 3, CHERIE JP 2, others 0, same as 11/15). X DMs are covered by the hourly DM loop.
+
+| date (JST) | source | user | app | quote | category | fix / decision | owner | status |
+|---|---|---|---|---|---|---|---|---|
+| 2026-11-16 11:14 | https://x.com/eyestudio/status/2122151237638558076 | @eyestudio | Anicca | at ~1 install a day any A/B test is basically noise. free-first sounds like the right call for now | feature | Don't read the screenshot-1 test as a win/loss on tiny counts; report raw counts with the 14/334 baseline. Free-first stays | anicca-marketer | logged |
+| 2026-11-16 09:09 | https://x.com/Marin_Medici/status/2122119788571091371 | @Marin_Medici | Anicca | Which variable goes next if the screenshot swap doesn't move the 4%? Picking it now, before the result, keeps the next week honest too. | feature | Pre-register the next variable now: subtitle "what it does" (@dallonbuilds 11/15 #1) | anicca-marketer | inbox written |
+| 2026-11-16 06:08 | https://x.com/ooguzzzzzx/status/2122074366372409662 | @ooguzzzzzx | Anicca | When does the new screenshot 1 go live, and are you giving it the full week again? | confusion | Same as top 3 #1. Needs a public go-live date; headline text stays the same (his 04:39 question) | anicca-marketer | logged |
+| 2026-11-16 09:18 | https://x.com/zonbuilds/status/2122122000433123519 | @zonbuilds | Anicca | are you designing for a daily ritual or for people to reach for it on a rough day? | confusion | Positioning question; same as @LeeWyattCorp "heavy days" — the listing should say which | anicca-marketer | logged |
+
+Nothing was shipped this run, so no "told user" replies were queued. APP-WINNERS step skipped this run to save usage (weekly usage 95.8%; winners were refreshed 11/12, 11/14 and 11/15).

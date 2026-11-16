@@ -1,8 +1,9 @@
-# ACCOUNTS-BOARD（SNS スコアボード）2026-11-16 00:21 JST
+# ACCOUNTS-BOARD（SNS スコアボード）2026-11-16 06:20 JST
 > 自動生成 scripts/build_now.py。数字は既存ファイルのみ。空欄＝未取得。
 
 | platform | account | 投稿者(1人) | followers | 7d増減 | 7d投稿 | 7d views | 7d いいね/コメ/シェア | ER 7d | 直近5本 平均views | 最終投稿 | Copy the winners | 次にコピーする型 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| @diceai0 | reply-back | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-16 00:43 JST | 未取得 | 未取得 |
 | Bluesky | anicca-affirm.bsky.social | Anicca Marketer | 3 | 0 | 26 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11T15:13:30.379Z | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | 未取得 |
 | Bluesky | aniccaapp.bsky.social | Anicca Marketer | 5 | 0 | 3 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11T23:00:03.501Z | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://bsky.app/profile/luigiaffirmations.bsky |
 | Bluesky | lifemanager-jp.bsky.social | 参謀 | 3 | 0 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-31T16:01:34.052599Z | https://bsky.app/profile/daikore.bsky.social — 1,061 followers / 1,001 posts; LINE-magnet funnel https://lin.ee/UeREKL i | /2/topic choice/winner = one promise (残業削減・副収入 with AI) (https://bsky.app/profile/daikore.bsky.social)/LM + LINE sticker |
@@ -73,7 +74,7 @@
 | tiktok | @aniccaaffirmation (Postiz Affirmation Girl) | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 219 | 2026-10-27 12:30 | 未取得 | 未取得 |
 | tiktok+ig | obou_anicca/obou.anicca | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-09 15:05 | 未取得 | 未取得 |
 | tiktok-business | hooklab.capafy | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
-| tumblr | dailyanicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-15 01:54 | 未取得 | 未取得 |
+| tumblr | dailyanicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-16 01:47 | 未取得 | 未取得 |
 
 ## 直近5投稿（POST-LOG.csv）
 - **TikTok aniccaaffirmation**
@@ -260,11 +261,11 @@
   - 2026-11-11 06:3x views 未取得 いいね 未取得 RP 未取得 返信 未取得 nostr:b87086e4e5fd102372b1bbc3e39e6804705ddcb1c677e3a1a8b52ea42754a4ad
   - 2026-11-11 09:3x views 未取得 いいね 未取得 RP 未取得 返信 未取得 nostr:f54f75c6c2f4246b9da40a046308bf042cfa4125e6986772bdedea19fca5aa5e
 - **tumblr dailyanicca**
-  - 2026-11-07 02:13 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/832553801257009152
   - 2026-11-10 02:17 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/832825823898877952
   - 2026-11-11 02:19 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/832916528552968192
   - 2026-11-13 14:20 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/833142693666422784
   - 2026-11-15 01:54 views 未取得 いいね 0 RP 0 返信 0 https://www.tumblr.com/dailyanicca/833277400465965056
+  - 2026-11-16 01:47 views 未取得 いいね 0 RP 0 返信 0 https://www.tumblr.com/dailyanicca/833367584655196160
 - **note saqwd**
   - 2026-11-07 02:48 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://note.com/saqwd/n/nfbfe1dc668d8
 - **linkedin Daisuke Narita**
@@ -292,3 +293,8 @@
   - 2026-11-12 02:20 views 未取得 いいね 未取得 RP 未取得 返信 未取得 original
 - **dailyanicca tumblr**
   - 2026-11-14 02:14 views 未取得 いいね 未取得 RP 未取得 返信 未取得 identity-chant
+- **@diceai0 reply-back**
+  - 2026-11-16 00:43 JST views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://x.com/diceai0/status/2121991919647486267
+  - 2026-11-16 00:43 JST views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://x.com/diceai0/status/2121992133922222441
+  - 2026-11-16 00:43 JST views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://x.com/diceai0/status/2121992208303710431
+  - 2026-11-16 00:43 JST views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://x.com/diceai0/status/2121992270018969938

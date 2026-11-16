@@ -74,7 +74,27 @@ def main(argv=None):
     if not os.path.exists(args.csv):  # fail closed: missing evidence is BLOCKED, not 0 (chatgpt review 21:31)
         print("BLOCKED missing %s" % args.csv)
         return 2
-    rows = load_rows(args.csv)
+    if os.path.getsize(args.csv) == 0:  # fail closed: empty evidence is BLOCKED (chatgpt review)
+        print("BLOCKED empty %s" % args.csv)
+        return 2
+    with open(args.csv, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        fieldnames = reader.fieldnames or []
+        rows = list(reader)
+    if "ts_jst" not in fieldnames or "post_id" not in fieldnames:
+        print("BLOCKED missing header %s" % args.csv)
+        return 2
+    if not rows:  # fail closed: header-only is BLOCKED, not UNLINKED 0
+        print("BLOCKED no data rows %s" % args.csv)
+        return 2
+    for row in rows:  # fail closed: unparseable ts_jst is BLOCKED, not a crash
+        post_id = (row.get("post_id") or "").strip()
+        if post_id and post_id.isdigit():
+            try:
+                _parse_ts(row.get("ts_jst") or "")
+            except ValueError:
+                print("BLOCKED bad ts_jst %s" % args.csv)
+                return 2
     bad = unlinked(rows, now, min_age_h=args.min_age_h)
 
     print("UNLINKED %d" % len(bad))

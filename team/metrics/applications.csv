@@ -222,3 +222,9 @@ date,platform,agent,count,evidence,kind,row_id
 2026-11-15,Truelancer,dr eggbot,0,STATE 21:00 blocked: daisukenaritadev mobile verification (/verify_contact),state,state-truelancer-20261115-21
 2026-11-15,Coconala,dr eggbot,0,"STATE 21:00: 2 sent today; fix attempt checked 40 new + 13 details, 0 met 発注率>=50% + skill fit, 0 sent",state,state-coconala-20261115-21
 2026-11-15,Lancers,dr eggbot,0,STATE 21:00: mine 1 today (5630103); team 7 by Gmail receipts,state,state-lancers-20261115-21
+2026-11-16,Upwork,dr eggbot,0,STATE 09:00 blocked: box Upwork logged out; password entry not available in routine,state,state-upwork-20261116-09
+2026-11-16,Fiverr,dr eggbot,0,"STATE 09:00 blocked: aiworkshop_dais ID verification not started, 3 gigs draft",state,state-fiverr-20261116-09
+2026-11-16,Mercor,dr eggbot,0,"STATE 09:00: 3 applied 11/15 (参謀), waiting on screener quiz / bilingual interview",state,state-mercor-20261116-09
+2026-11-16,Truelancer,dr eggbot,0,STATE 09:00 blocked: daisukenaritadev mobile verification (/verify_contact),state,state-truelancer-20261116-09
+2026-11-16,Coconala,dr eggbot,0,STATE 09:00: 0 sent yet today; applications by coconala-lancers-loop 09:30; 5378448 追記 queued,state,state-coconala-20261116-09
+2026-11-15,Geek Room / HackCulture Global AI Hackathon,applications,1,"Deadline-extended Gmail 1a1df8bf7cb3d183 from HackCulture <[redacted-email]> (2026-11-15 14:10:50Z / 23:10 JST) subject ""Announcement - Global AI Hackathon"": submission deadline extended to November 21, 2026 (first and final extension; timezone not stated in the email). Already-submitted teams may keep improving the existing GitHub repo; a submission update form will be shared (URL not in this email). Existing receipt 1a1ddafcf122849d / ledger a-4b347f45fa91 is not withdrawn. job:hackculture:deadline-extended-20261121",info-reply,a-8723809bc2a2

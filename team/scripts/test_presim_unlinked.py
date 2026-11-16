@@ -100,3 +100,58 @@ def test_failclosed_missing_csv(tmp_path):
     exe = pathlib.Path(__file__).resolve().parent / "presim_unlinked.py"
     p = subprocess.run([_s.executable, str(exe), str(tmp_path / "nope.csv"), "--now", "2026-11-15 21:30"], capture_output=True, text=True)
     assert p.returncode == 2 and "BLOCKED" in p.stdout
+
+
+def run_cli(csv_path):
+    script = Path(presim_unlinked.__file__)
+    return subprocess.run(
+        [sys.executable, str(script), str(csv_path),
+         "--now", "2026-11-15 12:00"],
+        capture_output=True, text=True)
+
+
+def test_failclosed_empty_csv(tmp_path):
+    csv_path = tmp_path / "presim-log.csv"
+    csv_path.write_text("", encoding="utf-8")
+    proc = run_cli(csv_path)
+    assert proc.returncode == 2
+    assert proc.stdout.startswith("BLOCKED")
+
+
+def test_failclosed_header_only_csv(tmp_path):
+    csv_path = tmp_path / "presim-log.csv"
+    csv_path.write_text(",".join(HEADER) + "\n", encoding="utf-8")
+    proc = run_cli(csv_path)
+    assert proc.returncode == 2
+    assert proc.stdout.startswith("BLOCKED")
+
+
+def test_failclosed_missing_ts_jst_header(tmp_path):
+    csv_path = tmp_path / "presim-log.csv"
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["post_id", "text_sha", "note"])
+        w.writerow(["12345", "sha", "x"])
+    proc = run_cli(csv_path)
+    assert proc.returncode == 2
+    assert proc.stdout.startswith("BLOCKED")
+
+
+def test_failclosed_missing_post_id_header(tmp_path):
+    csv_path = tmp_path / "presim-log.csv"
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["ts_jst", "text_sha", "note"])
+        w.writerow(["2026-11-15 09:30", "sha", "x"])
+    proc = run_cli(csv_path)
+    assert proc.returncode == 2
+    assert proc.stdout.startswith("BLOCKED")
+
+
+def test_failclosed_bad_ts_jst_on_digit_post_id(tmp_path):
+    csv_path = write_csv(tmp_path, [
+        row("not-a-timestamp", "12345", "sha-linked"),
+    ])
+    proc = run_cli(csv_path)
+    assert proc.returncode == 2
+    assert proc.stdout.startswith("BLOCKED")

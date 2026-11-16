@@ -176,3 +176,16 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - **Bradley Vangelder: 9 simulated users lived with his app for a week** — day 1 all 9 finish setup, day 2 4 open again, day 7 4 left; open source, runs in Claude Code; 203 imp / 12 replies. https://x.com/bradvangelder/status/2121377749109518704
 - Plurai Simulation now free for every AI engineer (simulated users + edge cases vs agents; $13M seed led by Team8, already in 11/13 digest). https://x.com/TownmediaLabs/status/2121665898738262315
 - Breken eval restated by a small account: 235 bugs reached users across 33 OSS products, 76 caught by synthetic-user simulation vs 37 by best baseline agent (secondhand). https://x.com/UeI3erBJq2aqBwK/status/2121900077954535924
+
+## 2026-11-16 10:00 run (window ~Nov 14–16)
+### A. Zero-human / AI agents doing paid work
+- **Remote Labor Index (Scale Labs) update** — best agent (Claude Fable 5.2) completes 41.3% of 240 real paid Upwork projects (~$143K total value, ~29 human-hours each) vs 2.5% 13 months ago; next-best models ~21%; fine print: briefs provided, client calls excluded. Top post @kimmonismus 97,429 imp / 1,224 likes / 220 bookmarks / 62 quotes. https://x.com/kimmonismus/status/2121929485951836640 (X news https://x.com/i/trending/2122018979606614183)
+- Robert Sasu (22.6K followers) on the RLI fine print: "turning a messy client into a clear brief is still the job"; 674 imp. https://x.com/SasuRobert/status/2121963518006059109
+- Nicolas Bustamante (X news summary): SaaS becomes invisible backends behind agents via MCP servers. https://x.com/i/trending/2121799429653213500
+- IndieTurk: indie-game discovery site handed to agents (Fable 5.2 decides, Opus 5.5 codes), founder only for what AI isn't allowed to do, daily reports promised; Day 1, 3 followers, 186 imp. https://x.com/indieturk_net/status/2122036718941753398
+- Suryansh: agent-run Instagram posted nothing for 3 days (weekly usage limit + skipped cron; 15-min render took 9h as the Mac slept) — "Automated is not unattended." Tiny account. https://x.com/Suryanshgarg80/status/2121984995611058213
+- Lauren Tan "50+ agents" post (queued 11/15) now 29,056 imp / 218 likes / 334 bookmarks.
+- Skipped: Sunfall, Agent Valley, Midnight City, Hushd, Business is NEAR, spuliz (repeats / token cities), Delft 2032 (fiction), Motes (crypto trading agents).
+### B. Behavior simulation / synthetic users
+- Jonathan Politzki: video on AI-mediated interviews, synthetic respondents and digital twins; 104 imp. https://x.com/ITNAmatter/status/2122100199753396387
+- No new behavior-foundation-model launch or paper in window (searches: synthetic users, behavior simulation, simulated users, digital twins, generative agents, behavior prediction).

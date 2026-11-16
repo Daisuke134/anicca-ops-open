@@ -607,3 +607,44 @@ Every action is traced. If it is not in `team/traces/YYYY-MM-DD.jsonl`, it did n
 2. Untraced work counts as not done. A loop that only writes "nothing to do" / "売上$0" without a trace is invisible and does not count.
 3. The dashboard anyone can read is `team/OBSERVABILITY.md` plus the day's JSONL, together with `team/STALLED-NOW.md`, `team/client-work/WIN-RATE.md`, `team/client-work/LISTINGS-METRICS.md`, and https://aniccaai.com/open/. Refresh OBSERVABILITY with `python3 scripts/build_observability.py`.
 4. New stall: add a row to STALLED-NOW.md in the same run (owner + next step + where the info already lives). Do not stop because "information is missing" — it is in this repo or credentials.json / vault.
+
+## RULE IMPLEMENT-VIA-CODEX-DEVIN (成田さん 2026-11-16 09:06 JST, all agents)
+
+Grok agents (参謀 included) do not hand-write non-trivial code. Implementation goes to **Codex (primary)** or **Devin (secondary)**, both running on this box. The Mac mini is not required for coding and is being sold this month; do not add new work that depends on it. Inventory and remaining move list: [team/runbooks/MACMINI-SALE-EXIT.md](runbooks/MACMINI-SALE-EXIT.md).
+
+When to use which:
+- **Codex (primary):** product, CI, tests, private `anicca-ops` work, and anything Devin must not see (secrets, private repo contents). Box CLI with the ChatGPT-plan login.
+- **Devin (secondary):** bounded tasks on already-staged or public files, queued through `team/inbox/devin.md`. Free plan, local CLI only, never `--cloud`, never a paid plan, never secrets (Free has no training opt-out).
+
+Exact invocation (this box):
+
+Codex (preferred; ChatGPT plan, no per-token API cost):
+
+```bash
+CODEX_HOME=/home/box/.codex-chatgpt /home/box/.local/bin/codex exec --skip-git-repo-check --sandbox workspace-write -C <workdir> "<task>"
+```
+
+Wrapper: `team/bin/codex-run.sh "<task>" [workdir]`
+
+Smoke-tested 2026-11-16 09:08:33–09:08:38 JST: `CODEX_HOME=/home/box/.codex-chatgpt /home/box/.local/bin/codex exec --ephemeral --skip-git-repo-check --color never -s read-only` returned `PONG`, exit 0, CLI 0.164.0, model `gpt-6.1-sol`.
+
+Devin (Free, local, never `--cloud`):
+
+1. Preferred team path — append one Queue line in `team/inbox/devin.md`:
+
+```
+- [ ] @devin TASK-ID: what to do | files: team/scripts/a.py | acceptance: python3 -m pytest team/scripts/test_a.py -q | from: @you
+```
+
+Worker already running: `python3 team/scripts/devin_worker.py` (log `/workspace/logs/devin-worker.log`, pid `/workspace/state/devin-worker.pid`).
+
+2. Direct CLI:
+
+```bash
+/home/box/.local/bin/devin --respect-workspace-trust false --model swe-2-flash-medium --permission-mode accept-edits -p "<task>"
+```
+
+Verified 2026-11-16 09:06–09:08 JST: `devin auth status` = Logged in (Devin Free, `[redacted-email]`); `swe-2-flash-medium` is Free; worker PID 424377 up since 2026-11-15; today's acceptance PASS at 07:51 / 07:53 / 07:54 JST (`devin/presim-loo-format-v2`, `devin/mrt-power-sim`, `devin/x-slot-report`).
+
+Do not start non-trivial implementation in a Grok turn just because Codex or Devin "might be busy": queue them and keep moving on non-code work.
+

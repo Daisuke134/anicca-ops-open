@@ -20,6 +20,8 @@ Log: team/metrics/presim-log.csv (one row per prediction; append-only)
 """
 import argparse, csv, datetime, hashlib, json, math, os, re, statistics, subprocess, sys
 
+import presim_calib
+
 ROOT = os.environ.get('ANICCA_OPS', os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 METRICS = os.path.join(ROOT, 'team/marketing/X-METRICS.csv')
 LOG = os.path.join(ROOT, 'team/metrics/presim-log.csv')
@@ -111,6 +113,21 @@ def baseline(account):
         pass
     return statistics.median(vals) if vals else 50.0
 
+def connect_baseline(log_path):
+    """Median actual_impr of past connect-format predictions (fmt_row == 'connect', actual > 0)."""
+    vals = []
+    try:
+        for r in csv.DictReader(open(log_path, encoding='utf-8')):
+            try:
+                a = float(r.get('actual_impr') or 0)
+            except ValueError:
+                continue
+            if a > 0 and presim_calib.fmt_row(r) == 'connect':
+                vals.append(a)
+    except FileNotFoundError:
+        pass
+    return statistics.median(vals) if len(vals) >= 2 else None
+
 def aggregate(panel, base, lang='en'):
     # X mostly shows a post to readers of its language: other-language personas count at 20% of their share.
     share = {p['name']: p['share'] * (1 if p['lang'] in ('*', lang) else 0.2) for p in PERSONAS}
@@ -130,9 +147,13 @@ def ensure_log():
         with open(LOG, 'w', newline='', encoding='utf-8') as fh: csv.writer(fh).writerow(FIELDS)
 
 def score(posts, account, backend, surface, write=True):
-    ensure_log(); base = baseline(account); rows = []
+    ensure_log(); acct_base = baseline(account); rows = []
     for p in posts:
         text = p['text']; hint = ''
+        base = acct_base
+        if presim_calib.fmt(text) == 'connect':
+            cb = connect_baseline(LOG)
+            if cb is not None: base = cb
         panel = None
         if backend == 'codex': panel, hint = codex_panel(text)
         used = 'codex' if panel else 'heuristic'

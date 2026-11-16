@@ -1,19 +1,14 @@
 {
- "run_at": "2026-11-15 21:26",
+ "run_at": "2026-11-16 08:39",
  "actor": "S7JAoTNiztat9Qwuq",
- "users_total": 2,
+ "users_total": "unknown (source error)",
  "users_7d": "unknown (source error)",
- "users_30d": 1,
+ "users_30d": "unknown (source error)",
  "runs_total": "unknown (source error)",
  "runs_24h_owner_visible": "unknown (source error)",
  "last_run_jst": "unknown (source error)",
- "pricing_model": "PAY_PER_EVENT",
+ "pricing_model": "unknown (source error)",
  "pricing_started_at_api": "unknown (source error)",
  "revenue_usd": "unknown (source error)",
- "source": "user-Apify fetch-actor-details 2026-11-15 21:25 JST (anicca/app-store-reviews-rankings; secrets/anicca-apify.token missing). last verified runs 18 / 7d 1 / last_run 2026-11-14 17:56 JST (api.apify.com 11/14 21:25)",
- "monthlyUsers": 1,
- "last_verified_runs_total": 18,
- "last_verified_users_7d": 1,
- "last_verified_last_run_jst": "2026-11-14 17:56",
- "last_verified_source": "api.apify.com 2026-11-14 21:25 JST"
+ "source": "api.apify.com/v2/acts"
 }

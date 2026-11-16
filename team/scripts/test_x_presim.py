@@ -203,6 +203,64 @@ def test_report_by_lang(presim_log, capsys):
     assert 'impr=0.80' in lines[1] and 'likes=0.70' in lines[1]
 
 
+CONNECT_TEXT = "I want to meet more people shipping indie apps. つながりたい"
+
+
+def test_connect_baseline_too_few_rows(tmp_path):
+    csv_path = tmp_path / 'presim-log.csv'
+    _write_presim_log(csv_path, [
+        _log_row(actual_impr='400', text_preview=CONNECT_TEXT),
+        # zero/negative actuals don't count
+        _log_row(actual_impr='0', text_preview=CONNECT_TEXT),
+        _log_row(actual_impr='-5', text_preview=CONNECT_TEXT),
+        # non-connect rows don't count
+        _log_row(actual_impr='9999', text_preview=EN_TEXT),
+    ])
+    assert x_presim.connect_baseline(str(csv_path)) is None
+
+
+def test_connect_baseline_median(tmp_path):
+    csv_path = tmp_path / 'presim-log.csv'
+    _write_presim_log(csv_path, [
+        _log_row(actual_impr='400', text_preview=CONNECT_TEXT),
+        _log_row(actual_impr='600', text_preview=CONNECT_TEXT),
+        _log_row(actual_impr='800', text_preview=CONNECT_TEXT),
+        _log_row(actual_impr='9999', text_preview=EN_TEXT),
+        _log_row(actual_impr='9999', text_preview=JA_TEXT + "？"),
+    ])
+    assert x_presim.connect_baseline(str(csv_path)) == 600.0
+
+
+def test_connect_baseline_missing_file(tmp_path):
+    assert x_presim.connect_baseline(str(tmp_path / 'nope.csv')) is None
+
+
+def test_score_uses_connect_baseline_for_connect_text(tmp_path, monkeypatch):
+    csv_path = tmp_path / 'presim-log.csv'
+    _write_presim_log(csv_path, [
+        _log_row(actual_impr='400', text_preview=CONNECT_TEXT),
+        _log_row(actual_impr='600', text_preview=CONNECT_TEXT),
+        _log_row(actual_impr='800', text_preview=CONNECT_TEXT),
+    ])
+    monkeypatch.setattr(x_presim, 'LOG', str(csv_path))
+    monkeypatch.setattr(x_presim, 'METRICS', str(tmp_path / 'missing-metrics.csv'))
+    (row, _) = x_presim.score([dict(id='1', text=CONNECT_TEXT)], 'acc', 'heuristic', 'x', write=False)[0]
+    assert row['baseline_impr'] == 600.0
+
+
+def test_score_keeps_account_baseline_for_non_connect_text(tmp_path, monkeypatch):
+    csv_path = tmp_path / 'presim-log.csv'
+    _write_presim_log(csv_path, [
+        _log_row(actual_impr='400', text_preview=CONNECT_TEXT),
+        _log_row(actual_impr='600', text_preview=CONNECT_TEXT),
+        _log_row(actual_impr='800', text_preview=CONNECT_TEXT),
+    ])
+    monkeypatch.setattr(x_presim, 'LOG', str(csv_path))
+    monkeypatch.setattr(x_presim, 'METRICS', str(tmp_path / 'missing-metrics.csv'))
+    (row, _) = x_presim.score([dict(id='2', text=EN_TEXT)], 'acc', 'heuristic', 'x', write=False)[0]
+    assert row['baseline_impr'] == 50.0
+
+
 def test_le_zero_for_equal():
     assert x_presim.le(10, 10) == 0
     assert x_presim.le(0, 0) == 0

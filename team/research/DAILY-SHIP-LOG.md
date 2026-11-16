@@ -185,3 +185,11 @@ Funnel (ASC Standard, latest valid pull files/attribution-daily-2026-11-15-1830.
 | Dhamma Quotes / Sleep Reset | BLOCKER: promo under test to 11/20; keywords/ja need new version → Issue #177 [owner: codex] due 11/16 12:00 JST |
 KEEP/REVERT: CHERIE ja + Honne en-GB/AU/CA (11/14) and 11/15 promos → HOLD (no post-change PT day published); Lock Screen promo KEEP (judged 11/14). Judge on 11/16 pull.
 Measurement bug: `attribution-daily.py --pull --cache /workspace/tmp/aff-funnel` at 22:24 wrote an older window (PT 11/04–11/10) over today's file; restored from git. → @pickle: fix pull/cache so a new run never regresses the window (guard: refuse to write if latest PT date < existing file's).
+
+### 2026-11-16 10:2x JST — growth loop 10:00 (参謀)
+Funnel (files/attribution-daily-2026-11-16.md, fresh ASC Standard pull 10:2x; PT 11/15 unpublished): PT 11/09–11/14 = 564 imp → 26 PV → 1 first-time DL → 0 external Mixpanel → 0 trial → 0 purchase. vs 11/15 22:2x (PT 11/08–11/14: 509/20/1): imp +11%, PV +30%, DL flat. Weakest = PV→DL (3.8% vs ~25%). New: app_referrer 7 PV (TikTok com.ss.iphone.ugc.Ame) → 0 DL → #89 (Pickle handoff test) + Muse CPP links (#40).
+| App | Change | Hypothesis | Metric to watch | ID / state |
+|---|---|---|---|---|
+| Anicca 6755129214 | Submitted in-app event 6833871115 "New Year Affirmation Start" (publish 12/12 JST, event 12/26–1/9, 41 territories) | Events add a second card in search and on the product page and can be featured (https://developer.apple.com/app-store/in-app-events/) → keeps an event on the page after Overthinking Week ends 11/21 → lifts imp→PV and PV→DL | ASC event impressions / opens + PV→DL in Dec | submission 6d709f4e, readback WAITING_FOR_REVIEW |
+Gap 11/22–12/11 has no live event → bridge event, owner 参謀, due 11/17 22:00 JST (#64). Other 5 apps: no ship yet today → 14:00 run. Dhamma/Sleep Reset blocker #177 (codex, due 11/16 12:00 JST).
+KEEP/REVERT: CHERIE ja + Honne en-GB/AU/CA promos (11/14 14:2x JST = PT 11/13 21:2x) → first post-change PT day 11/14 now published, but per-app pull not run for those apps this run → judge in the 14:00 run with their per-app pulls (no data invented). Lock Screen promo: KEEP holds (re-judge 11/21).

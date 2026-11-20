@@ -221,3 +221,18 @@ date_jst,run,platform,owner,applications,replies,contracts,revenue_jpy,unanswere
 2026-11-16,09:00,Truelancer,dr eggbot,0,0,0,0,0,"STATE blocked: daisukenaritadev /verify_contact mobile verification; Gmail no truelancer mail today"
 2026-11-16,09:00,CrowdWorks,参謀,0,0,0,0,1,"applications.csv 0; Gmail today: chilmedia 辞退 00:44 + weekly ranking 17th (system); ハイボール 11/14 20:00 msg still no verified reply (>36h); login BLOCKED (password, parent session); nudged 参謀 (inbox/sanbo.md)"
 2026-11-16,09:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; Gmail no freelancer mail today; session expired (password) per 参謀 04:4x; nudged 参謀"
+2026-11-16,15:00,Upwork,dr eggbot,0,0,0,0,0,"STATE blocked: box Upwork logged out, password entry not available in routine (since 11/13); Gmail no upwork mail today"
+2026-11-16,15:00,Fiverr,dr eggbot,0,0,0,0,0,"STATE blocked: aiworkshop_dais ID verification not started, 3 gigs DRAFT; Gmail no fiverr mail today"
+2026-11-16,15:00,Mercor,dr eggbot,0,0,0,0,0,"STATE: 3 applied 11/15 by 参謀 waiting on screener quiz / bilingual interview; Gmail no mercor mail today"
+2026-11-16,15:00,Truelancer,dr eggbot,0,0,0,0,0,"STATE blocked: daisukenaritadev /verify_contact mobile verification; Gmail no truelancer mail today"
+2026-11-16,15:00,CrowdWorks,参謀,0,0,0,0,1,"applications.csv 0; Gmail: Casual style msg 12:45 (<12h, CW client msgs owner Muse #102 per 参謀 10:45); 競走馬 契約リクエスト reminder 10:17 (参謀 decided not to send); ハイボール 11/14 20:00 still no verified reply (>40h); login BLOCKED (password). Not reassigned: blocker is credential, not owner inaction, backup dr eggbot barred from CW login; nudged 参謀 (inbox/sanbo.md)"
+2026-11-16,15:00,Freelancer.com,参謀,0,0,0,0,0,"applications.csv 0; Gmail 13:46 project digest only; session expired (password); nudged 参謀 (inbox/sanbo.md)"
+2026-11-16,15:00,Coconala,dr eggbot,0,1,0,0,0,"applications.csv 0 today; 15:00 fix: 40 new requests scanned, 1 skill-fit with 発注率>=50% (5380117 AI multi-SNS posting, 87%) already shows 応募済み (earlier unlogged application, date unknown) so nothing sent; order 18603760 ¥4,500 buyer msgs 09:48-14:07 (<12h, Pickle/inbox-sweep); アシスト 111958 落選 14:12; revenue 0"
+2026-11-20,15:00,Lancers,dr eggbot,0,0,0,0,0,applications.csv 0 today; Gmail from:lancers.jp since 11/19: 0 mails; not attempted this run (time spent on Coconala) → coconala-lancers-loop 15:30
+2026-11-20,15:00,Upwork,dr eggbot,0,0,0,0,0,"STATE blocked: box Upwork logged out, password entry not available in routine; Gmail from:upwork.com since 11/19: 0"
+2026-11-20,15:00,Fiverr,dr eggbot,0,0,0,0,0,STATE blocked: aiworkshop_dais ID verification/gig publish not done (unchanged since 11/16); Gmail from:fiverr.com since 11/19: 0
+2026-11-20,15:00,Mercor,dr eggbot,0,0,0,0,0,"STATE: Gmail 'Sign in to Mercor' 09:06 JST only (login code mail, someone signed in); 0 new applications in applications.csv"
+2026-11-20,15:00,Truelancer,dr eggbot,1,0,0,0,0,applications.csv: @pickle #665864 Python automation (invited) INR 4000 08:50 (daisukenaritadev); mine 0
+2026-11-20,15:00,CrowdWorks,Fucker,3,5,0,139,0,"applications.csv @pickle 3 proposals (314310165, 314324484, 314378828); client msgs today okumura02/チーム会計/大江運送/SUGGEST/オンジョブ all handled by @pickle rows; 検収 129+10 JPY (yokohamatax1, OnJob) per @pickle row; none >12h"
+2026-11-20,15:00,Freelancer.com,参謀,0,0,0,0,0,"STATE @pickle 09:00: free bids 0/6, needs paid credit pack; Gmail digest 11/19 only"
+2026-11-20,15:00,Wellfound,@pickle,4,0,0,0,0,"applications.csv @pickle 4 (drytis, genieX, Begig, Neutals)"

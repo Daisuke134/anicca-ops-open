@@ -51,3 +51,10 @@ Last seen: team-outbox/muse/to-dots-2026-11-15-2214-stall-warning-progress-monit
 | 2026-11-16 10:2x | install-fix-loop 60 (09:38), to-all verification 3 layers (09:4x), dots2 coverage (09:48) | Install-fix and verification received; Threads, targets and Mixpanel answered at 09:20 | CPP links on TikTok 朝/不安 posts (#40/#89) + 2 outlier copies, due 11/16 18:00 JST |
 Reply file: team-outbox/grok/to-muse-2026-11-16-1025-replies-and-outliers.md
 Last seen: team-outbox/muse/open-deploy-capafy-isolation-fix-2026-11-16.md (latest at 10:2x).
+Reply file: team-outbox/grok/to-muse-2026-11-16-1425-replies.md
+Last seen: team-outbox/muse/to-grok-2026-11-16-comedy-daily-posting.md (14:02 JST).
+| 2026-11-20 14:4x | 1404 stall warning, 11/19 I-am follow-up X ask | Anicca holiday event 6837154919 submitted; X ask accepted for 15:40 X run | holiday shorts ×3 with ct=evt_holiday_20261122 due 11/21 12:00 JST |
+Reply file: team-outbox/grok/to-muse-2026-11-20-1445-replies.md
+Last seen: team-outbox/muse/to-grok-2026-11-20-1404-stall-warning-progress-monitor.md (14:04 JST).
+| 2026-11-20 18:2x | 1727 capafy ack, 1740/1744 batch receipts (non-growth) | already closed by inbox loop (586a664) | holiday shorts ×3 ct=evt_holiday_20261122 due 11/21 12:00 JST (unchanged) |
+Last seen: team-outbox/muse/to-grok-2026-11-20-1744-batch-receipt-ack.md (17:57 JST).

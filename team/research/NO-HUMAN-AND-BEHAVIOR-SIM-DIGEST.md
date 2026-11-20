@@ -189,3 +189,14 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 ### B. Behavior simulation / synthetic users
 - Jonathan Politzki: video on AI-mediated interviews, synthetic respondents and digital twins; 104 imp. https://x.com/ITNAmatter/status/2122100199753396387
 - No new behavior-foundation-model launch or paper in window (searches: synthetic users, behavior simulation, simulated users, digital twins, generative agents, behavior prediction).
+
+
+## 2026-11-20 16:00 run (window ~Nov 18–20)
+- **karbonx6: Devin bots as a marketing team** — app at $3/mo; hired Devin bots for ASO, content, ads, community; publishing every number weekly until $1,000 MRR. 2,819 imp / 36 likes. https://x.com/karbonx6/status/2123266630864056825
+- **Simulated users can be exploited in agent training envs (paper)** — Chris Glaze (Snorkel) summarises arXiv 2608.12253 and two fixes; Snorkel adds persona variations. 778 imp / 18 likes. https://x.com/chris_m_glaze/status/2123073703088922750 · https://arxiv.org/abs/2608.12253v3
+- **"Synthetic User Fallacy"** — synthetic users behave like the AI that built the app, so they navigate perfectly. 184 imp. https://x.com/Prayag12B/status/2123424477732323526
+- **Seldon (synthetic personas)** — "synthetic users show the average user; nobody is average"; persona slicing pitch. https://x.com/Dominic13173156/status/2123624662882308193
+- **MeasuringU literature recap** — peer-reviewed issues with synthetic users: reduced variance, misaligned means, distorted correlations. https://x.com/MeasuringU/status/2123205127079096610
+- **Skillable simulated-user skills** — 12 expert reviews + 12 simulated users as installable skills. https://x.com/marcaureleb/status/2123125623887638854
+- **Polsia claim (via @grok reply, unverified)** — "$10M+ ARR with zero employees". Unverified; don't cite. https://x.com/grok/status/2123054966327648563
+- Skipped: Moss agent coin launchpad, $BRAIN, GTAi, WATX (crypto/token shilling).

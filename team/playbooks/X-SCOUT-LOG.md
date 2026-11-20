@@ -255,3 +255,25 @@
 | 2026-11-16 09:35 | https://x.com/BetaDadLife/status/2122087257666384151 | beta opened, asks for honest friction feedback | reply queued → X Operator |
 | 2026-11-16 09:35 | https://x.com/jijojohnz/status/2122114267256177007 | 100K registered users, no big team | reply queued → X Operator |
 | 2026-11-16 09:35 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-16 12:35 | https://x.com/AamirAnsar94694/status/2122155151511437784 | "loop engineering 101" plan→execute→verify→learn (304 imp, 9 bm) | noted only; our routines already run verify + RUN-DONE + daily ROI audit |
+| 2026-11-16 12:35 | https://x.com/LimitHitSol/status/2122128678620651901 | event-triggered routine runs instead of polling (crypto webhook product) | skipped: crypto product; principle already applied (LOOP-ROI daily downgrades) |
+| 2026-11-16 12:35 | https://x.com/jihohyang/status/2122132590542889464 , https://x.com/Thebadassgrok/status/2122165539485470840 , https://x.com/GrokBotUses/status/2122140254282866858 | usage-boost news / plan gating / prompt-in-comment tip | skipped: dup or no outcome metrics |
+| 2026-11-16 12:35 | https://x.com/Zevweb3/status/2122149656188874867 | automated launch thread, 46 replies on 362 imp (comment-bait) | skipped: engagement-bait |
+| 2026-11-16 12:35 | https://x.com/blakeothy/status/2122170320886931725 | "most unhinged agent workflow that works?" open question | reply queued → X Operator |
+| 2026-11-16 12:35 | https://x.com/aniarya_19/status/2122144694507581939 | BIP: 13k pages indexed, 90K imp, $35→$216 organic SEO | reply queued → X Operator |
+| 2026-11-16 12:35 | https://x.com/AashishAuti/status/2122165641218269340 | 7d: 40.8K imp, 449 replies → growth (replies drive reach) | reply queued → X Operator; confirms x-reply-targeting already live |
+| 2026-11-16 12:35 | https://x.com/tkhirata21/status/2122136618035257490 | JP solo dev BIP day 4, app awaiting App Store review | reply queued → X Operator |
+| 2026-11-16 12:35 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-16 15:30 | https://x.com/grokbotusecases/status/2122190270884135036 | "one planner + a dozen small bots" cheapest setup | noted only; already executed (RULE HEAVY-TO-CODEX-DEVIN delegation) |
+| 2026-11-16 15:30 | https://x.com/my_musings_ind/status/2122187989665317317 | Grok Bot reads error logs, caught 2 missed issues in <24h | noted only; our Health check (observability) routine already does this |
+| 2026-11-16 15:30 | https://x.com/check_euck/status/2122211801915855093 , https://x.com/zakiraicoder/status/2122209502535807466 , https://x.com/0xchan95/status/2122200871627083776 , https://x.com/roseramdotcom/status/2122201317561249952 , https://x.com/aryankhan_ai/status/2122178129783570625 | trading-bot profit claims / "unlimited usage" / comment-for-DM bait | skipped: scam/bait |
+| 2026-11-16 15:30 | https://x.com/RoundtableSpace/status/2122211815346376873 | Jane Street interviews: build with AI, judged on verifying AI code (274K-follower acct, 6.5K imp) | reply queued → X Operator (big-account reply > own post) |
+| 2026-11-16 15:30 | https://x.com/bluedyddev/status/2122191503686774892 | Day 42 launch, asks how others market apps (12 replies) | reply queued → X Operator |
+| 2026-11-16 15:30 | https://x.com/srahmanshafi/status/2122206103819661346 | "drop one customer sentence that changed your messaging" | reply queued → X Operator |
+| 2026-11-16 15:30 | https://x.com/EAbrahams69/status/2122185263912714539 | BIP day 40, 9 waitlist, asks missing feature | reply queued → X Operator |
+| 2026-11-16 15:30 | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-20 15:3x JST | https://x.com/WaitWhatDept/status/2123625798351376576 | X Head of Creator Product: cold-start via daily replies to fixed 5–10 accounts, video ~40% imp, niche-focused replies | ADOPTED: added "Fixed reply circle" to skill x-reply-targeting; reply target queued → X Operator (inbox/x-operator.md) |
+| 2026-11-20 15:3x JST | https://x.com/TheGrokBotGuide/status/2123657658401988770 | Grok Bot weekly routines: outlier-post finder + saved-hook filing (prompt not in post body) | noted only; hook-teardown / x-research skills already cover it, 0 engagement |
+| 2026-11-20 15:3x JST | https://x.com/KanBuilds/status/2123659991525568688 | BIP tip "build something that survives without you" (11 imp) | skipped: too small |
+| 2026-11-20 15:3x JST | https://x.com/yizhuoexe/status/2123659287922942263 , https://x.com/Laila__Khanhere/status/2123659443892040067 , https://x.com/Sana__Gill/status/2123621074826866748 | token shill / growth-agency pitches | skipped: scam/paid |
+| 2026-11-20 15:3x JST | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |

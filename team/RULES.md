@@ -43,6 +43,15 @@ Binding on every Grok Bot, plus Muse, real Codex and Dots.
   - (d) 衝突はエージェント同士がファイルか Slack #agents-hq で解消する。成田さんを経由しない。
   - (e) DONE したら CLAIM を解放する（`team/CLAIMS.md` の該当行を閉じ、`team/ACTIVITY.md` に DONE を書く）。
 
+## RULE READ-REPLY-INSTANTLY (成田さん 2026-11-20 17:21 JST, all agents)
+
+GitHub files (`team-outbox/`, `team/inbox/`, `team/ACTIVITY.md`) are the 24/7 comms channel. They cost almost no tokens and must be read and replied to immediately — not on a 3-hour loop. A handoff with no receipt is not communication (see also Muse `team-outbox/muse/to-all-2026-11-20-communicate-rule.md`). Skill: [team/skills/read-reply-instantly/SKILL.md](skills/read-reply-instantly/SKILL.md). Detector: `python3 scripts/inbox_unanswered.py`. Alias map: [team/AGENT-ALIASES.json](AGENT-ALIASES.json).
+
+1. Every wake, step one is `python3 scripts/inbox_unanswered.py --agent <you>` (aliases welcome: grok = 参謀 = sanbo = sanbou = grok-bot). Work the unanswered list before anything else.
+2. Receipt within 10 minutes: write a file in `team-outbox/<you>/` with ACK + what you are doing now + who owns it, and append an `ACTIVITY.md` line that @-mentions the sender.
+3. If you sent a handoff and have no receipt after 10 minutes, follow up in files. Never write "waiting" without that ping.
+4. Slack is only a one-line nudge to the commit. No SendToAgent DMs (stop/security emergencies only).
+
 ## RULE 01 (成田さん 2026-11-12 15:50 JST, all agents, every task, not just X): Best practice over originality. Before doing anything (posting, writing, building, applying, distribution), search how the winners do it, copy it as close to 100% as possible, and repeat the search regularly. Being original is the default failure (it feels natural and cheap); take the extra step. Distribution = growing our audience on each platform by following its winners.
 
 Model → eval → product → distribution is one connected loop (成田さん 15:51 JST): every model/eval result (e.g. BehaviorBench) feeds the product and becomes a distribution post written per X-STYLE.md; audience response picks the next model/eval work.
@@ -648,3 +657,35 @@ Verified 2026-11-16 09:06–09:08 JST: `devin auth status` = Logged in (Devin Fr
 
 Do not start non-trivial implementation in a Grok turn just because Codex or Devin "might be busy": queue them and keep moving on non-code work.
 
+
+## RULE HEAVY-TO-CODEX-DEVIN（2026-11-16 12:45 JST 成田さん、全エージェント拘束）
+Binding on every Grok Bot (参謀含む), Muse, Dots and every recruit.
+- 【12:47 拡張】重さに関係なく、作業系はすべて（コーディング・実装、文字起こし、動画処理、ファイル処理、スクリプト、データ処理など。ブラウザ操作は除く）自分でやらず、box の Codex（第一、`/home/box/.local/bin/codex`、`team/runbooks/CODEX-LOOP.md`）か Devin（第二、`/home/box/.local/bin/devin`、`team/runbooks/DEVIN-FREE-SWE2.md`）に依頼する。
+- 理由（成田さんの言葉）：自分でできても、チームで依頼して動けば一人に負担が集中せず、各自のトークンが節約でき、各自が大事な仕事に集中して「死なずに」やっていける。DevinとCodexはそのためにいる。
+- Grok Bot は判断・指示・検証・報告に集中し、実作業は依頼→短い proof で受け取る。
+- Codex と Devin を並行でオーケストレーションする（こっちはCodex、こっちはDevinと振り分け）。22時間、朝も夜も止めずに回し続ける。
+
+## RULE YOU-MEANS-TEAM (2026-11-16 12:59 JST, 成田さん, all agents / esp. 参謀・Muse)
+- 成田さんが「君がやって」「お前がやれよ」「なんでやってないの」と言うときは、そのbot個人ではなく「チーム全体・会社として」やれという意味。話しているbotは窓口なだけ。
+- 窓口botは自分で実行せず委任する：実装・処理はCodex→Devin（RULE HEAVY-TO-CODEX-DEVIN）、その他はPickle等の担当へ。窓口は依頼・指示・GitHubファイルでの進捗確認（書いていなければやっていない）と報告だけ。
+- 目的：窓口botのトークンを節約し、成田さんと1日24時間話し続けられるようにする（プランをUltraから下げる予定）。
+- 応募では学位・実務経験ありとして書く（成田さんのレジュメ準拠）。翻訳実績：福澤さんのヴィパッサナー／瞑想文章などの翻訳。
+
+## RULE ONE-FILE（2026-11-16 JST 成田さん、全エージェント拘束）— 認証情報もプロフィールも1ファイル
+- サインアップ/ログインの前に `python3 team/scripts/auth_trace.py decide --surface <name>` を回し、正本1ファイルだけで USE / RESET / REGISTER / MIGRATE を決める。人間に聞かない。
+- パスワードが無い・通らない → リセットして**新しいパスワードを同じ run で同じファイルに書き戻す**。載っていない → 未登録として新規登録し、同じ run で `credentials[]` に書く。
+- 台帳（`team/auth/ledger.csv`）・この索引・`team/ACCESS-INDEX.md` には**キー名・置き場所・状態・復旧手順だけ**。値を public リポジトリ・チャット・ログ・スクショに出さない。
+
+## RULE AUTH-TRACE（2026-11-16 JST 成田さん、全エージェント拘束）— 止まったら台帳に残す
+- 認証で止まったら、`BLOCKED` とだけ書かない。`team/auth/ledger.csv` に行を作り、状態・確認時刻・確認者・次の一手・owner・期限を入れる（`python3 team/scripts/auth_trace.py set ...`）。
+- 復旧できたら `resolve`（唯一の閉じ方）。放置・期限超過・鮮度切れ・3面以上の同一ブロッカー・台帳に無い BLOCKED・答えが出ているのに止まっている行・復旧後の再発は、`python3 team/scripts/auth_trace.py check --render --probe` が automatic に検知して `team/auth/QUEUE.md` と `recovery-requests.json` に出す。定期監視（Pickle 20分 / hourly health check）がこれを回し、`auto:true` はその run で実行する。
+- 手順の本文は `team/skills/auth-recovery/SKILL.md`（レシピ R1〜R9、自己修復と自己改善の閾値）。
+
+## RULE IMMEDIATE-CRED-WRITEBACK & REPLACEABLE-CLIENT-WORK（2026-11-17 07:09 JST 成田さん厳命、全エージェント拘束）
+- **リセット即書き戻し（次の操作の前に必ず保存）**: パスワードをリセット・変更・新規作成したときは、「run の終わり」ではなく**次の操作（ログイン後の案件検索・応募等）へ移る前、その場で即座に** `Daisuke134/anicca-ops` の `credentials.json` へ書き戻してプッシュ（保存確認）すること。後回しにして忘れることは禁止。
+- **リセット前の最新確認**: 既存パスワードが通らない場合でも、いきなりリセットを繰り返さず、必ず直前に `credentials.json` の最新版をリモートから再取得して確認する。
+- **全エージェント代替可能（Replaceable）**: すべてのエージェントがどの Client Work でも即作業・引き継ぎできるよう、資格情報（`credentials.json`）・状態台帳（`team/auth/ledger.csv`）・進行状況（`team/ACTIVITY.md`）を常に最新に保ち、特定エージェント・特定VMにしか入れない状態を作らない。
+
+### RULE AGENT-CREDENTIALS-FIRST（2026-11-17 大祐さん指示）
+### RULE GITHUB-ONLY-COMMS（2026-11-17 大祐さん厳命）
+- チーム間の連絡・相談・引き継ぎ・監視は **すべて GitHub（`Daisuke134/anicca-ops` の Issues・PR・`team-outbox/`・`team/ACTIVITY.md`）のみ** で完結させる。Slack はいつでも切り捨てられるよう依存・前提にしない。

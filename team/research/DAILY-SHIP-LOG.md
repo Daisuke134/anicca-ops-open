@@ -193,3 +193,28 @@ Funnel (files/attribution-daily-2026-11-16.md, fresh ASC Standard pull 10:2x; PT
 | Anicca 6755129214 | Submitted in-app event 6833871115 "New Year Affirmation Start" (publish 12/12 JST, event 12/26–1/9, 41 territories) | Events add a second card in search and on the product page and can be featured (https://developer.apple.com/app-store/in-app-events/) → keeps an event on the page after Overthinking Week ends 11/21 → lifts imp→PV and PV→DL | ASC event impressions / opens + PV→DL in Dec | submission 6d709f4e, readback WAITING_FOR_REVIEW |
 Gap 11/22–12/11 has no live event → bridge event, owner 参謀, due 11/17 22:00 JST (#64). Other 5 apps: no ship yet today → 14:00 run. Dhamma/Sleep Reset blocker #177 (codex, due 11/16 12:00 JST).
 KEEP/REVERT: CHERIE ja + Honne en-GB/AU/CA promos (11/14 14:2x JST = PT 11/13 21:2x) → first post-change PT day 11/14 now published, but per-app pull not run for those apps this run → judge in the 14:00 run with their per-app pulls (no data invented). Lock Screen promo: KEEP holds (re-judge 11/21).
+
+### 2026-11-16 14:2x JST — growth loop 14:00 (参謀)
+| App | Change | Hypothesis | Metric to watch | ID / state |
+|---|---|---|---|---|
+| Honne 6759667221 | Privacy hook promo ("they are not notified" lead) to it, ko, nl-NL, pt-PT, fr-CA (were still on the old "read with no reply?" line) | Same hook as en/ja/es/pt-BR/fr/de across 5 more storefronts → higher PV→DL | ASC per-territory PV→DL IT/KR/NL/PT/CA, judge 11/18 once #236 lands | readback 5/5 match on version 244979cc |
+| Thankful 6759514159 | BLOCKER: both promo locales under measurement; no-version surface left = in-app event → #237 [codex] US Thanksgiving event, due 11/17 12:00 JST | — | — | #237 |
+| STUDIO CHERIE 6766485903 | BLOCKER: en-US/ja promos under measurement (judge after #236); new version needs a build | — | — | #236 |
+| Dhamma Quotes / Sleep Reset | BLOCKER unchanged: #177 [codex] still open, overdue since 11/16 12:00 JST | — | — | #177 |
+KEEP/REVERT: CHERIE ja/en-US + Honne en-GB/AU/CA promos still can't be judged — no per-app ASC pull exists. Filed #236 [codex] due 11/17 10:00 JST; no data invented. Anicca: ship already logged 10:2x (event 6833871115).
+
+### 2026-11-20 14:4x JST — growth loop 14:00 (参謀)
+Funnel (files/attribution-daily-2026-11-20.md, ASC Standard discovery pull 14:28 JST, PT 11/13–11/18 published): 467 imp → 145 PV → first-time DL **unknown** (Downloads report pull failed: S3 SSLError → #442 [pickle] due 11/21 10:00 JST; file's "0" is not a measured 0) → external Mixpanel 0 / trial 0 / purchase 0 (no new RC/Mixpanel pull this run). Search impressions fell from 105–127/day (PT 11/13–14) to 31–39/day (PT 11/16–18); search imp→PV 11/418 = 2.6% = weakest measurable step. Browse PV 36 + app_referrer PV 89 spike on PT 11/15–16 (Overthinking Week event card + social links).
+| App | Change | Hypothesis | Metric to watch | ID / state |
+|---|---|---|---|---|
+| Anicca 6755129214 | New in-app event "21 Days of Calmer Holidays / 21日間のおだやかな年末" (CHALLENGE, en-US+ja, 41 territories, 11/22 00:00–12/12 23:59 JST) closes the gap after Overthinking Week (ends 11/21) until the New Year event (publish 12/12) | Events add a card in search results and on the product page; Overthinking Week weeks showed browse PV 36 + referrer PV 89 vs ~0 before → keep a live event so search imp→PV and browse don't drop back | ASC search/browse imp→PV and first-time DL, PT 11/22–11/28 vs PT 11/16–11/21 | event 6837154919, reviewSubmission e3a572ca, WAITING_FOR_REVIEW (proof marketing/anicca/aso/event-holiday-calm-2026-11/proof.json) |
+| Honne / Thankful / CHERIE / Dhamma / Sleep Reset | BLOCKER: Codex CLI on box returns "Quota exceeded" and Devin CLI refuses the workspace (untrusted, config flag ignored) → #177/#236/#237 builds can't move this run | — | — | #177 #236 #237 |
+KEEP/REVERT: Lock Screen promo (11/14) — HOLD: DL unknown until #442. 1.10.1 waiting for review (not touched).
+
+
+### 2026-11-20 18:2x JST — growth loop 18:00 (参謀)
+Funnel: no new pull since 14:28 (ASC Standard discovery PT 11/13–11/18: 467 imp → 145 PV → DL unknown #442 [pickle] due 11/21 10:00 JST → external Mixpanel 0 / trial 0 / purchase 0). Weakest measurable step unchanged: Anicca search imp→PV 2.6%. Anicca already shipped today (event 6837154919, 14:4x).
+| App | Change | Hypothesis | Metric to watch | ID / state |
+|---|---|---|---|---|
+| Thankful 6759514159 | en-US promo text → seasonal Thanksgiving line: "Thanksgiving week: write 3 good things in 60 seconds, morning and night. A private gratitude journal with gentle reminders and daily affirmations. 7-day free trial." (was "Lying in bed replaying everything that went wrong today? …"; ja untouched as control) | Gratitude intent peaks Thanksgiving week (US 11/26); timely promo text raises PV→DL. Source: https://developer.apple.com/app-store/product-page/ (promo text editable anytime w/o review, for timely messaging) | US PV→DL PT 11/21–11/27 vs PT 11/13–11/19; revert to old line 11/28 | loc dffa4925 live (verified by re-read) |
+KEEP/REVERT: Lock Screen promo HOLD (DL unknown until #442). Thankful prior en-US promo (11/15) closed as unjudgeable (no per-app pull, #236) — replaced by seasonal test. Honne/CHERIE/Dhamma/Sleep Reset: builds still blocked (Codex quota / Devin trust) #177/#236/#237.

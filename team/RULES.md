@@ -1,5 +1,21 @@
 連絡の正本: [team/playbooks/ONE-PLACE.md](playbooks/ONE-PLACE.md)（入口はリポジトリ直下の [AGENTS.md](../AGENTS.md)）。依頼と返信は `team/inbox/<agent>.md`。ログは ACTIVITY.md。Slack / 部屋はコミット URL の1行だけ。直接メッセージは停止・セキュリティの緊急時だけ。
 
+## RULE GITHUB-COMPANY (成田さん 2026-11-20 20:06 JST t4217u, hard, no exceptions, all agents) — TOP RULE
+- New credential → encrypt + push to anicca-secrets in the same step (`team/scripts/secrets-sync.sh`). New state/doc/script/result → commit to anicca-ops in the same step. Audit: `team/WORKSPACE-AUDIT-2026-11-20.md`.
+
+## RULE CHEAP-WORKER-FIRST (成田さん 2026-11-20 20:05 JST t4216u "start delegating more to Command Code, go go go", all agents)
+Small coding, drafting, summarizing and data-cleanup tasks go to the Command Code cheap worker FIRST: write a self-contained task file (facts included, no secrets/PII), run `team/scripts/cc-worker.sh <task.md> <out> [deepseek/deepseek-v4.1-flash|z-ai/glm-5.3-flash] [max_tokens]`, verify the output (run code, check facts), then commit. Every run is logged in `team/state/cc-worker-log.md`; tasks/results live in `team/cc-tasks/<date>/`. Only escalate to Grok/Codex/Devin/Muse when the worker fails twice or the task needs tools, browser, or secrets. Runbook: team/runbooks/CHEAP-WORKERS-OPENCODE-COMMANDCODE.md.
+
+## RULE NO-HUMAN-CRED (成田さん 2026-11-20 19:04 JST t4215u, all agents) — TOP RULE, see CULTURE.md "CORE IDENTITY"
+
+## RULE PHYSICAL-IN-LOOP (成田さん 2026-11-20 18:41 JST t4198u, all agents, client work) — supersedes every "no call / no Zoom / no live interview" filter
+
+
+- **Priority: money.** High-paying gigs first (hourly ≥ $50 or fixed ≥ ¥100,000 / $700 go to the top of the queue); a meeting requirement is not a minus anymore.
+- **Freelancer.com is a target** (account daisukenaritadev / Rasi4op, [redacted-email]). Free bids only. Buying Freelancer bids/credits or Upwork Connects stays banned.
+- **Next step (later):** those meetings move to our digital-twin avatar — spec `team/digital-twin/SPEC.md`. Until a platform's terms allow an avatar attendee and the twin passes its eval gate, the physical us attends.
+- Superseded by this rule: the 「通話不可 / 通話が要るなら見送る」 boundary in `team/BOARD/coconala-lancers-loop.md` and `team/HANDOFF.md` 2026-10-30, the 「顔出し・人が話す必要を除外」 filter in `team/client-work/queue-20261115.md`, the 「本人のライブ通話が必須」 exclusion in `team/client-work/queue-global-20261115.md`, the "no interview/recording" Mercor filter in `team/HANDOFF.md` (2026-10-26), the pickle 2026-11-14 "Lemon.io / Toptal / Arc 見送り" decision, and the "No-interview lane" ranking in `team/skills/client-work-delivery/SKILL.md`. Re-queued items: `team/client-work/REQUEUE-PHYSICAL-IN-LOOP-2026-11-20.md`.
+
 ## RULE NO-HUMAN-CONFIRM (成田さん 2026-11-14 18:40 JST, all agents) — READ FIRST
 
 Never show 成田さん a confirmation card, question widget, "agree to terms?", or "tell me 送って". Decide per CULTURE.md and RULES.md, act, report the result. X DM draft card → re-call send_chat_message yourself with the same args immediately. Only exception: steps that physically need him (live face, ID scan, his voice). See CULTURE §18.
@@ -689,3 +705,7 @@ Binding on every Grok Bot (参謀含む), Muse, Dots and every recruit.
 ### RULE AGENT-CREDENTIALS-FIRST（2026-11-17 大祐さん指示）
 ### RULE GITHUB-ONLY-COMMS（2026-11-17 大祐さん厳命）
 - チーム間の連絡・相談・引き継ぎ・監視は **すべて GitHub（`Daisuke134/anicca-ops` の Issues・PR・`team-outbox/`・`team/ACTIVITY.md`）のみ** で完結させる。Slack はいつでも切り捨てられるよう依存・前提にしない。
+
+## RULE NO-HUMAN-END-TO-END (2026-11-20 18:53–18:55 JST, owner voice, all agents)
+- We are an autonomous company: no human in the loop, end to end. We are the "digital Narita"; the physical Narita is only an investor who receives results.
+- Write and share everything on GitHub; keep two-way talk with Muse via team/inbox + team-outbox.

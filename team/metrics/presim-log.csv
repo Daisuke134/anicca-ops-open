@@ -43,3 +43,5 @@ ts_jst,surface,account,post_id,text_sha,backend,baseline_impr,stop_rate,pred_imp
 2026-11-20 15:43,x,diceai0,,d384043ade,heuristic,57.0,0.086,25,0.3,0.0,0.02,jp_startup,indie_hacker_en,put a number in line 1,,,,,,,アファメーションのiOSアプリ「Anicca」を作っています。  有料ユーザーは7人、MRRは$24。 まだ小さいけど、全部本物の数字です。  毎日、自分に向け
 2026-11-20 15:43,x,diceai0,,a8859db2d5,heuristic,1466.0,0.115,981,11.3,2.3,1.0,jp_startup,indie_hacker_en,end with a concrete question,,,,,,,"2,482インプレッション、いいね97。普段の約40倍。  先週出した「つながりたい」投稿の結果です。 普段のオリジナル投稿の中央値は57インプレッション。  "
 2026-11-20 15:43,x,diceai0,,f7d192884c,heuristic,57.0,0.122,42,0.7,0.1,0.05,jp_startup,indie_hacker_en,end with a concrete question,,,,,,,有料ユーザー7人、MRR $24。  アファメーションのiOSアプリ「Anicca」の今の数字です。 まだ小さいけど、全部本物。  毎日、自分に向けた一言を届け
+2026-11-20 18:36,article,diceai0,,56d8e0b70a,heuristic,57.0,0.158,61,1.3,0.2,0.1,ai_agent_builder_en,jp_startup,cut line 1 under 90 chars,,,,,,,We tried 4 ways to get our AI agents talking. Only one kept a record. We moved o
+2026-11-20 18:36,x,diceai0,,3e624be5a5,heuristic,57.0,0.145,54,1.0,0.2,0.08,indie_hacker_en,jp_startup,put a number in line 1,,,,,,,Thanksgiving week test on my gratitude app.  I swapped the App Store promo line 

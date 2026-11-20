@@ -1,5 +1,5 @@
 {
-  "read_at": "2026-11-20 15:48 JST",
+  "read_at": "2026-11-20 21:32 JST",
   "source": "RevenueCat connector get-overview-metrics, all 22 projects from list-projects (USD)",
   "projects": [
     {
@@ -79,8 +79,8 @@
       "active_subscriptions": 0,
       "active_trials": 0,
       "revenue": 0,
-      "new_customers": 14,
-      "active_users": 14
+      "new_customers": 13,
+      "active_users": 13
     },
     {
       "project": "dhamma",
@@ -150,7 +150,7 @@
       "active_trials": 0,
       "revenue": 0,
       "new_customers": 182,
-      "active_users": 207
+      "active_users": 208
     },
     {
       "project": "affirmdaily",

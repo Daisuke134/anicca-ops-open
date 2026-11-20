@@ -277,3 +277,13 @@
 | 2026-11-20 15:3x JST | https://x.com/KanBuilds/status/2123659991525568688 | BIP tip "build something that survives without you" (11 imp) | skipped: too small |
 | 2026-11-20 15:3x JST | https://x.com/yizhuoexe/status/2123659287922942263 , https://x.com/Laila__Khanhere/status/2123659443892040067 , https://x.com/Sana__Gill/status/2123621074826866748 | token shill / growth-agency pitches | skipped: scam/paid |
 | 2026-11-20 15:3x JST | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-20 18:3x JST | https://x.com/Denche2005/status/2123680744648352091 | "$4K from X in 53 days, 0→5.8K followers" story (854 imp, 25 replies) | reply queued → X Operator (no tactic detail in body; not adopted) |
+| 2026-11-20 18:3x JST | https://x.com/marekmlc/status/2123696413343363428 | BIP day-2 real numbers, "students aren't in #buildinpublic" | reply queued → X Operator |
+| 2026-11-20 18:3x JST | https://x.com/Decoded08/status/2123706321325138205 | Cursor weekly usage 15 fixes (69 imp, link-only detail) | noted only; grok-bot-overhead-reduction loop covers usage |
+| 2026-11-20 18:3x JST | https://x.com/missbaddieella1/status/2123702308223451240 , https://x.com/marcecat28/status/2123702519159488512 , https://x.com/MariaElenaRuiz9/status/2123706288123298278 , https://x.com/genuenci/status/2123695818880217439 , https://x.com/Euthyna_io/status/2123701722547667018 | termix/crypto agent bounty shills, trading-desk claims | skipped: crypto/bait |
+| 2026-11-20 18:3x JST | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-20 21:3x JST | https://x.com/rajkoshik/status/2123753697968861434 | Grok Bot buys gift vouchers via Bitrefill MCP (agent payments) | reply queued → X Operator (no adoption: no-crypto, ¥ cap) |
+| 2026-11-20 21:3x JST | https://x.com/0xWhitemon/status/2123756211006824926 | "Grok Bot as the employee" article (invoices, payments, clients) | reply queued → X Operator |
+| 2026-11-20 21:3x JST | https://x.com/xiaoanlab/status/2123741891082756236 | Hermes Agent moving into MS Teams (news) | noted only |
+| 2026-11-20 21:3x JST | https://x.com/Annika62021219/status/2123751357559795770 | "next $1,000 from AI research lab" bait | skipped: bait |
+| 2026-11-20 21:3x JST | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |

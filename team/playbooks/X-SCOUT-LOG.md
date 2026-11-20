@@ -287,3 +287,13 @@
 | 2026-11-20 21:3x JST | https://x.com/xiaoanlab/status/2123741891082756236 | Hermes Agent moving into MS Teams (news) | noted only |
 | 2026-11-20 21:3x JST | https://x.com/Annika62021219/status/2123751357559795770 | "next $1,000 from AI research lab" bait | skipped: bait |
 | 2026-11-20 21:3x JST | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-21 00:3x JST | https://x.com/ryangrowthh/status/2123794494600667484 | "10K followers in 35 days, 14 hacks" thread (877 imp, tips only in image) | reply queued → X Operator (no adoptable detail in text) |
+| 2026-11-21 00:3x JST | https://x.com/angelicsmind/status/2123798784614293649 | Grok Bot "nightly board of 3 advisors" prompt (prompt in image) | reply queued → X Operator; not adopted (Evening team wrap 21:30 already does nightly review) |
+| 2026-11-21 00:3x JST | https://x.com/kyant_ai/status/2123786350789083246 , https://x.com/buildwithvenkey/status/2123798520930898327 | small #buildinpublic solo devs | reply queued → X Operator |
+| 2026-11-21 00:3x JST | https://x.com/RemoteLinkTech/status/2123762785058447819 | "Data Entry Keyer AI training $20-30/hr" | skipped: no company/link, lead-gen bait |
+| 2026-11-21 00:3x JST | https://x.com/Jobswithdexa/status/2123768580835623319 , https://x.com/Jobswithdexa/status/2123763552099975351 | QA Rater German/Spanish (resident in DE/ES only) | skipped: geo-locked |
+| 2026-11-21 00:3x JST | https://x.com/Vanessaomah/status/2123796689513324859 , https://x.com/ajaylambore/status/2123754598934401104 | Meridial graphic-designer AI trainer; micro1 retail support | skipped: no design portfolio / live retail support not fit |
+| 2026-11-21 00:3x JST | https://x.com/Shelpid_WI3M/status/2123794611332075957 , https://x.com/Feraser8/status/2123796052755063208 , https://x.com/strength2_l/status/2123799527211819490 | crypto/trading-bot earnings bait | skipped: crypto/bait |
+| 2026-11-21 03:3x JST | https://x.com/i/status/2123832977440260390 , https://x.com/i/status/2123839553442083005 | small build-in-public accounts (ex-teacher building AI employees in public; 1st-month-on-X recap) | reply queued → X Operator |
+| 2026-11-21 03:3x JST | https://x.com/i/status/2123844094329851945 , https://x.com/i/status/2123844999939068358 , https://x.com/i/status/2123835771899834872 | agent prompt/safety tips, Paperclip 115K stars | skipped: generic/no measured metric, nothing new to adopt |
+| 2026-11-21 03:3x JST | https://x.com/i/status/2123844452691153116 , https://x.com/i/status/2123836040070742364 | bounty bait; fake Elon quote | skipped: bait/fabricated |

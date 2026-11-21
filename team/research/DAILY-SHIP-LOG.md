@@ -260,3 +260,20 @@ KEEP/REVERT (changes from 11/20 that are now ≥24h old; newest PT day is 11/19,
 - Thankful seasonal en-US promo (11/20 18:2x) and Honne/Dhamma/Sleep Reset/CHERIE holiday en-US promos (11/20 22:2x): **HOLD, data not published.** First post-change PT day is 11/21, published around 11/23. Decidable 11/28 (window PT 11/21–11/27, as planned).
 - Anicca CPP keywords (11/15): **HOLD.** The planned judge date is 11/22, but PT 11/20+ isn't published. Decidable 11/22–11/23 when PT 11/21 lands.
 - Muse holiday shorts ct=evt_holiday_20261122 (due 12:00 JST): **not posted** at 14:2x. Issue #498, new due 18:00 JST today.
+
+### 2026-11-21 18:2x JST — growth loop 18:00 (参謀)
+Funnel: ASC re-pulled 18:2x JST (attribution-daily.py --pull). Newest published PT day is still **11/19**, so Anicca PT 11/13–11/19 stays 500 imp → 146 PV → 3 first-time DL → Mixpanel unknown (#495) → trial 0 → purchase 0; MRR $24 (RevenueCat 10:3x). **No real metric change.** Weakest step: search imp→PV 2.7%; both search DL in the window are JP.
+| App | Change | Hypothesis | Metric to watch | ID / state |
+|---|---|---|---|---|
+| Anicca 6755129214 | Added search keywords 「セルフケア」「マインドフルネス」 to the approved CPP "Self-Love and Calm" ja (now 自己愛, 癒し, 不安, ストレス, セルフケア, マインドフルネス). Both are in the live 1.10.1 ja keyword field and unused by the other ja CPP (Lock Screen ja: ロック画面, ウィジェット) | Same Apple CPP-keyword mechanism (https://developer.apple.com/app-store/custom-product-pages/): JP self-care/mindfulness searchers see calm/self-love screenshots instead of the default page → higher JP search imp→PV | JP search imp→PV and CPP 62120fb7 PV/DL, PT 11/22–11/28 | loc 32ee83d8 readback = 6 keywords, live (CPP version APPROVED) |
+Not touched: 1.10.1 live, no version in review changed, no PPO changed, event 6837154919 untouched.
+KEEP/REVERT: all 11/20+ changes HOLD (no post-change PT day published); Anicca CPP KW 11/15 judge when PT 11/21 lands (~11/23).
+Muse holiday shorts ct=evt_holiday_20261122 (#498, due 18:00 JST): **not landed** in ACTIVITY at 18:2x → re-pushed, due 20:00 JST (event starts 11/22 00:00 JST).
+
+### 2026-11-21 22:2x JST — growth loop 22:00 (参謀)
+Funnel: ASC re-pulled 22:2x JST. Downloads report now has PT **11/20** (no Anicca first-time DL rows on 11/17–11/20); discovery still newest PT 11/19. Anicca PT 11/13–11/19 = 500 imp → 146 PV → 3 first-time DL (JP search 2 on 11/15, JP app referrer 1 on 11/16) → Mixpanel unknown (#495) → trial 0 → purchase 0. RevenueCat 22:2x JST: MRR $4 (projcfa60dd8) + $20 (projbb7b9d1b) = **$24**, active trials 0, 28d revenue $0. No real metric change vs 18:00. Weakest step unchanged: search imp→PV.
+| App | Change | Hypothesis | Metric to watch | ID / state |
+|---|---|---|---|---|
+Not touched: 1.10.1 live, no version in review, no PPO change, event 6837154919 untouched (starts 11/22 00:00 JST).
+KEEP/REVERT: all 11/20+ changes HOLD (no post-change PT discovery day published). Anicca CPP KW (11/15) judge when PT 11/21 lands (~11/23).
+#498 Muse holiday shorts ×3 (ct=evt_holiday_20261122) and outliers #1/#3: **not landed** at 22:00 (due 12:00→18:00→20:00→22:00 all missed). Muse confirmed at 20:13 that 参謀 takes over if no URL; video posting is Muse's channel, so 参謀 checks Muse drafts first to avoid a double post, re-pushed with due 11/22 10:00 JST.

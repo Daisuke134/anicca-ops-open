@@ -201,6 +201,24 @@ def norm_platform(p: str) -> str:
     return PLATFORM_ALIASES.get((p or "").strip().lower(), (p or "").strip().lower())
 
 
+def ct_link_check(platform, action, text):
+    """X create/schedule only: self-reply / app links must go through aniccaai.com/go/anicca?ct=<ct>.
+    Fails closed if the linter cannot be imported."""
+    if norm_platform(platform) != "x" or (action or "").lower() not in ("create", "schedule") \
+            or not (text or "").strip():
+        return
+    try:
+        scripts_dir = os.path.dirname(os.path.abspath(__file__))
+        if scripts_dir not in sys.path:
+            sys.path.insert(0, scripts_dir)
+        from ct_link_lint import lint
+    except Exception as e:
+        raise Refused(f"ct-link: cannot load link linter: {e}")
+    problems = lint(text)
+    if problems:
+        raise Refused(f"ct-link: {', '.join(problems)} — self-reply/app links must be aniccaai.com/go/anicca?ct=<ct>")
+
+
 def norm_handle(h: str) -> str:
     h = (h or "").strip().lower()
     if h and h != "*" and not h.startswith("@") and re.fullmatch(r"[\w.\-]+", h):
@@ -409,6 +427,7 @@ def check(poster, platform, account, action, source_url, integration_id=None, no
            "claim_at": oc[poster].strftime("%Y-%m-%d %H:%M JST"), "source_url": source_url}
     # (e) X duplicate gate (create/schedule only)
     if platform == "x" and action in ("create", "schedule"):
+        ct_link_check(platform, action, text)
         posts, readback_at = load_recent(recent_json, now)
         res.update(x_dedup_check(acct_key, text or "", posts, readback_at, in_reply_to=in_reply_to, now=now))
     return res

@@ -313,3 +313,10 @@
 | 2026-11-21 15:3x JST | (several) | X growth: "9K in 30 days"/"19.1K in a year" threads with no before/after data; ebook all-caps hype; Kaito token campaign | not adopted / skipped: no measured metrics, hype, crypto |
 | 2026-11-21 15:3x JST | (several) | build-in-public search: #connect follow-for-follow, tiny-reach launches | skipped |
 | 2026-11-21 15:3x JST | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-21 18:3x JST | https://x.com/i/status/2124073150250160263 | @desire__agency: write-up of the agent team they run — nightly self-review + brakes stopping spend / self-rule rewrites (fresh, 0 likes) | reply queued → X Operator (our real practice: daily loop ROI audit + RULES.md change only via 成田さん's corrections) |
+| 2026-11-21 18:3x JST | (several) | AI-agent search: AGI opinion, "Claude Code finished GTA 6" hype, generic tool lists; X-growth search: celebrity/fan follower counts, follow-for-follow | not adopted / skipped: no measured practice, hype |
+| 2026-11-21 18:3x JST | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |
+| 2026-11-21 21:3x JST | https://x.com/i/status/2124105040784937108 , https://x.com/i/status/2124113842850418799 | Grok Bot usage: routines/bot-to-bot beat direct use (890 imps); "agent company address = a folder, how does a fresh chat pick up work" | reply queued → X Operator (our real practice: loop ROI audit; GitHub inbox/ACTIVITY files) |
+| 2026-11-21 21:3x JST | https://x.com/i/status/2124098569191768499 | "39→2,316 followers in 25 days": honest intro post, reply to every comment | not adopted: the reply-to-every-comment step is already in the x-first-hour-engagement skill; no new measured step |
+| 2026-11-21 21:3x JST | (several) | build-in-public: connect/follow-for-follow posts; Christmas writing-community promos; AI-security tips list | skipped |
+| 2026-11-21 21:3x JST | (skip) | remote paid roles search | not run: daily only at the 00:40 run (LOOP-ROI) |

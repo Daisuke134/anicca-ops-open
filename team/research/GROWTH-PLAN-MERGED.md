@@ -1,4 +1,5 @@
 # Merged growth plan — Anicca first, Honne second
+Updated: 2026-11-21 10:5x JST. Grok Bot 参謀. CURRENT open items = section "2026-11-21 10:5x — CURRENT" at the bottom (supersedes older item lists).
 Updated: 2026-11-11 14:3x JST. Grok Bot 参謀. Six-app loop run: items 13–18 added; 1.9.11 submitted 13:53 (WAITING_FOR_REVIEW, build 824).
 Updated: 2026-11-11 12:18 JST. Grok Bot 参謀. Added Bottom of funnel (purchase fix).
 Updated: 2026-11-11 11:47 JST. Grok Bot 参謀, written so Muse and 参謀 are on one page.
@@ -125,3 +126,19 @@ Next measurement, every app: Apple first-time downloads (top) and RC `trials_new
 - Store description stale price/version — 参謀 on 1.9.15 ≤ 11/16 22:00 (#87).
 - ct on every bio/post — Muse #40 readback 11/14 10:00; landing pages pass ct — Codex #85 11/14 14:00.
 - Mixpanel real-user capture — Codex #75 (flush), #76 (review tag), #78 (distinct_id), #77 (install source), #82 (HDYHAU) PRs 11/14 14:00.
+
+## 2026-11-21 10:5x — CURRENT open items (one owner + due, JST)
+Funnel PT 11/13–19 (ASC, newest published): 500 imp → 146 PV → 3 DL → trial 0 → purchase 0; RC MRR $24, 28d $0. Weakest: search imp→PV 2.7%. Target: $10K MRR.
+| # | Item | Owner | Due | Acceptance |
+|---|---|---|---|---|
+| 1 | Search imp→PV: CPP keyword "lock screen" en-US (shipped 11/21), judge vs 2.7% | 参謀 | 11/28 10:00 run | ASC search imp→PV US PT 11/21–27 written in DAILY-SHIP-LOG with KEEP/REVERT |
+| 2 | CPP keywords (11/15: anxiety, calm, morning, self love, 自己愛, 癒し, ロック画面, ウィジェット) judge | 参謀 | 11/22 10:00 run | Product Pages per-ppid search PV/DL in attribution file |
+| 3 | Anicca holiday event 6837154919 approval (starts 11/22 00:00 JST), and the New Year event 6833871115 (APPROVED, publishes 12/12) | 参謀 | 11/21 22:00 run (check state) | eventState APPROVED/PUBLISHED, else log the gap |
+| 4 | Holiday shorts ×3 with ct=evt_holiday_20261122 | Muse | 11/21 12:00 | 3 post URLs + ct in ACTIVITY |
+| 5 | Outlier copies #1 (@zohra9261 17s 3-line) + #3 (@thegoddessmeka 2-min save-for-night) | Muse | 11/21 18:00 | post URL + ct + winner URL in ACTIVITY |
+| 6 | Per-app ASC pull (#236), needed for every non-Anicca KEEP/REVERT | Codex (box) | this session (started 10:5x) | 5 files files/attribution-daily-<app>-2026-11-21.md |
+| 7 | Dhamma/Sleep Reset build path (#177), macOS CI on a Linux box | Codex → Devin fallback | 11/21 14:00 run check | CI run URL on #177 |
+| 8 | Thankful (6837538280) + Sleep Reset (6837539468) events approval | 参謀 | 11/21 22:00 run | eventState APPROVED |
+| 9 | Seasonal promos (Thankful/Honne/Dhamma/Sleep/CHERIE en-US 11/20; Honne Asia, Dhamma ja, CHERIE ja 11/21) judge + revert after season | 参謀 | 11/28 (judge), 12/26–12/31 (revert) | DAILY-SHIP-LOG KEEP/REVERT rows |
+| 10 | ct on every bio/post, and self-replies via /go (0/2 on 11/21) | X Operator (X), Muse (TikTok/IG/YT) | NOW | Detailed report shows non-empty Campaign |
+| 11 | Mixpanel real-user capture (no credential on box), so app_opened stays unknown | Codex | open | external app_opened > 0 for a real install |

@@ -109,29 +109,6 @@ date,kind,page,clicks,impressions,ctr,position,read_at,source
 2026-10-20,day,,0,4,0,51,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
 2026-10-21,day,,0,6,0,15.33,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
 2026-10-22,day,,1,3,0.3333,5.67,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-10-23,day,,0,7,0,8.43,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-10-24,day,,0,4,0,2,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-10-25,day,,0,0,0,0,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-10-26,day,,0,4,0,3.75,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-10-27,day,,0,7,0,7.71,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-10-28,day,,0,11,0,12.55,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-10-29,day,,2,5,0.4,7.2,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-10-30,day,,0,13,0,18.15,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-10-31,day,,0,26,0,11.5,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-01,day,,0,41,0,11.46,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-02,day,,1,65,0.0154,26.92,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-03,day,,2,88,0.0227,13.58,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-04,day,,1,122,0.0082,13.18,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-05,day,,2,99,0.0202,13.54,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-06,day,,1,79,0.0127,14.53,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-07,day,,1,95,0.0105,12.23,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-08,day,,0,95,0,15.34,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-09,day,,0,119,0,24.92,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-10,day,,0,106,0,18.24,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-11,day,,1,89,0.0112,15.76,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
-2026-11-12,day,,0,0,,,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/ (no row returned = 0 impressions)
-2026-11-13,day,,0,0,,,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/ (no row returned = 0 impressions)
-2026-11-14,day,,0,0,,,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/ (no row returned = 0 impressions)
 2026-10-18..2026-11-14,top_page_28d,https://aniccaai.com/en,4,234,0.0171,8.61,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
 2026-10-18..2026-11-14,top_page_28d,https://aniccaai.com/lm/ja/departure-calculator,4,127,0.0315,4.72,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
 2026-10-18..2026-11-14,top_page_28d,https://aniccaai.com/lm/guide/google-calendar-departure-reminder,3,41,0.0732,6.8,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
@@ -142,3 +119,41 @@ date,kind,page,clicks,impressions,ctr,position,read_at,source
 2026-10-18..2026-11-14,top_page_28d,https://aniccaai.com/blog/youtube-educational-video-script,1,2,0.5,4,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
 2026-10-18..2026-11-14,top_page_28d,https://aniccaai.com/affirmation-app,0,30,0,5.13,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
 2026-10-18..2026-11-14,top_page_28d,https://aniccaai.com/affirmation-app-faq/,0,1,0,7,2026-11-16 08:38 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-23,day,,0,7,0,8.43,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-24,day,,0,4,0,2,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-25,day,,0,0,0,0,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-26,day,,0,4,0,3.75,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-27,day,,0,7,0,7.71,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-28,day,,0,11,0,12.55,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-29,day,,2,5,0.4,7.2,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-30,day,,0,13,0,18.15,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-31,day,,0,26,0,11.5,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-01,day,,0,41,0,11.46,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-02,day,,1,65,0.0154,26.92,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-03,day,,2,88,0.0227,13.58,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-04,day,,1,122,0.0082,13.18,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-05,day,,2,99,0.0202,13.54,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-06,day,,1,79,0.0127,14.53,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-07,day,,1,95,0.0105,12.23,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-08,day,,0,95,0,15.34,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-09,day,,0,119,0,24.92,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-10,day,,0,106,0,18.24,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-11,day,,1,89,0.0112,15.76,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-12,day,,2,152,0.0132,17.92,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-13,day,,6,318,0.0189,11.22,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-14,day,,8,350,0.0229,13.71,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-15,day,,1,416,0.0024,9.84,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-16,day,,1,440,0.0023,10.17,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-11-17,day,,0,0,,,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/ (no row returned = 0 impressions)
+2026-11-18,day,,0,0,,,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/ (no row returned = 0 impressions)
+2026-11-19,day,,0,0,,,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/ (no row returned = 0 impressions)
+2026-10-23..2026-11-19,top_page_28d,https://aniccaai.com/affirmation-app/ja/a/self-esteem,8,671,0.0119,12.46,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-23..2026-11-19,top_page_28d,https://aniccaai.com/en,5,338,0.0148,8.64,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-23..2026-11-19,top_page_28d,https://aniccaai.com/lm/ja/departure-calculator,5,282,0.0177,4.59,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-23..2026-11-19,top_page_28d,https://aniccaai.com/affirmation-app/ja/a/social-anxiety-at-work,4,189,0.0212,8.6,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-23..2026-11-19,top_page_28d,https://aniccaai.com/lm/guide/google-calendar-departure-reminder,3,66,0.0455,7.14,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-23..2026-11-19,top_page_28d,https://aniccaai.com/,2,20,0.1,7.35,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-23..2026-11-19,top_page_28d,https://aniccaai.com/blog/curiosity-gap-examples,2,107,0.0187,8.66,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-23..2026-11-19,top_page_28d,https://aniccaai.com/lm/guide/travel-time-calculator-app,2,114,0.0175,6.18,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-23..2026-11-19,top_page_28d,https://aniccaai.com/ai-monk-database,1,10,0.1,4.7,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/
+2026-10-23..2026-11-19,top_page_28d,https://aniccaai.com/blog/youtube-educational-video-script,1,3,0.3333,24,2026-11-21 08:47 JST,Google Search Console searchAnalytics sc property https://aniccaai.com/

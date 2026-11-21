@@ -105,3 +105,19 @@ Thank-you / update replies for people in #1–#3 are queued in `marketing/X-QUEU
 | 2026-11-16 09:18 | https://x.com/zonbuilds/status/2122122000433123519 | @zonbuilds | Anicca | are you designing for a daily ritual or for people to reach for it on a rough day? | confusion | Positioning question; same as @LeeWyattCorp "heavy days" — the listing should say which | anicca-marketer | logged |
 
 Nothing was shipped this run, so no "told user" replies were queued. APP-WINNERS step skipped this run to save usage (weekly usage 95.8%; winners were refreshed 11/12, 11/14 and 11/15).
+
+
+## 2026-11-21 11:4x JST run (Grok Bot 参謀)
+
+- Window: X mentions/replies to @diceai0 and @selawmqt, newest 75 since 2026-11-16 11:46 JST (3 pages; reaches back to 11/20 22:58 JST only, so 11/16–11/20 is partly unread — the 11/17–11/20 runs did not log). Connect/greeting, other builders' own-app chat and spam skipped. App Store RSS jp+us for all six apps: **1 new review** (Anicca JP, 5★, v1.9.14); others unchanged (CHERIE JP 2, rest 0). X DMs are covered by the 10-min DM loop.
+
+| date (JST) | source | user | app | quote | category | fix / decision | owner | status |
+|---|---|---|---|---|---|---|---|---|
+| 2026-11-15 16:04 | https://apps.apple.com/jp/app/daily-affirmations-anicca/id6755129214?see-all=reviews (review id 14792716585, v1.9.14) | anicca ai | Anicca | Great app / Great for changing your behaviors | praise | First review on free-first 1.9.14. Reviewer name "anicca ai" may be internal, so don't use it as social proof until verified | anicca-marketer | logged |
+| 2026-11-21 03:01 | https://x.com/RahulAjmera05/status/2123839188189802809 | @RahulAjmera05 | Anicca | I'd ask them what kind of day they first opened it. That's probably your best line for the store | feature | Ask the 5 paying users what kind of day they first opened the app; use the most common answer as the subtitle/screenshot-1 line test | anicca-marketer | inbox written |
+| 2026-11-21 08:35 | https://x.com/livesanches/status/2123923232386650621 | @livesanches | Anicca | Compare against the same weekday last week too… Anyone who sees the post and searches the app name later lands as organic | feature | Post-day lift must be compared with the same weekday last week, and App Store "search" + ASC web referrer counted, not only tagged links (@Ivan_Borovets 11/21 04:35 says the same) | reporter | inbox written |
+| 2026-11-21 01:16 | https://x.com/m_0_r_g_a_n_/status/2123812699293573608 | @m_0_r_g_a_n_ | Anicca | did any of the 6,560 people from the connect post end up trying the app? | confusion | Answer with the real install count for 11/20 once reporter has it | reporter | logged |
+| 2026-11-21 09:53 | https://x.com/0xdoppo/status/2123942799183859915 | @0xdoppo | Anicca | $20 across 5 users is $4 a month each. At that price, talking to the 5 matters more than the 1,234 views. | feature | Same as @RahulAjmera05: talk to the 5 payers | anicca-marketer | logged |
+
+Nothing was shipped this run, so no "told user" replies were queued. APP-WINNERS step skipped to keep the run cheap (winners refreshed 11/12–11/15; no new pattern queued).
+

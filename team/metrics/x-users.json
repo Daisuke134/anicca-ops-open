@@ -1,32 +1,34 @@
 {
  "diceai0": {
-  "followers": 1165,
-  "posts_total": 4529,
-  "followers_as_of": "2026-11-16 09:32",
-  "followers_source": "X API public_metrics via x.get_users_by_usernames (namespace x) 2026-11-16 09:32 JST",
-  "views_7d": 16382,
-  "posts_7d": 108,
-  "posts_24h": 43,
-  "views_7d_source": "X API v2 get_users_posts public_metrics.impression_count (originals, excl replies/RTs) via namespace x, window 2026-11-09T09:31–11-16T09:33 JST",
-  "views_as_of": "2026-11-16 09:33"
+  "followers": 1325,
+  "posts_total": 4710,
+  "followers_as_of": "2026-11-21 09:44",
+  "followers_source": "X API public_metrics via x.getUsersByUsernames 2026-11-21 09:44 JST",
+  "views_7d": 29913,
+  "posts_7d": 109,
+  "posts_24h": 29,
+  "last_post": "2026-11-21 09:17",
+  "views_7d_source": "X API v2 getUsersPosts impression_count (originals, excl replies/RTs), window 11/14 09:44–11/21 09:44 JST",
+  "views_as_of": "2026-11-21 09:44"
  },
  "selawmqt": {
-  "followers": 13,
-  "posts_total": 922,
-  "followers_as_of": "2026-11-16 09:32",
-  "followers_source": "X API public_metrics via x.get_users_by_usernames (namespace x) 2026-11-16 09:32 JST",
-  "views_7d": 82,
-  "posts_7d": 6,
+  "followers": 12,
+  "posts_total": 923,
+  "followers_as_of": "2026-11-21 09:44",
+  "followers_source": "X API public_metrics via x.getUsersByUsernames 2026-11-21 09:44 JST",
+  "views_7d": 10,
+  "posts_7d": 1,
   "posts_24h": 0,
-  "views_7d_source": "X API v2 get_users_posts public_metrics.impression_count (originals, excl replies/RTs) via namespace x, window 2026-11-09T09:31–11-16T09:33 JST",
-  "views_as_of": "2026-11-16 09:33"
+  "last_post": "2026-11-17 18:07",
+  "views_7d_source": "X API v2 getUsersPosts impression_count (originals), window 11/14–11/21 JST",
+  "views_as_of": "2026-11-21 09:44"
  },
  "Manageraqo": {
   "followers": 0,
   "posts_total": 0,
   "posts_7d": 0,
   "posts_24h": 0,
-  "followers_as_of": "2026-11-16 09:31",
-  "followers_source": "X API public_metrics via x.get_users_by_usernames (namespace x) 2026-11-16 09:31 JST"
+  "followers_as_of": "2026-11-21 09:44",
+  "followers_source": "X API public_metrics 2026-11-21 09:44 JST"
  }
 }

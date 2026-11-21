@@ -44,3 +44,5 @@ Each entry: date, source, practice, what I changed, proof, effect (measured or U
 - 2026-11-21 00:3x JST SKILL-AFTER-FIRST-SUCCESS: uber-ai-solutions second run = 1 dispatch, ~114 s, finished Step 3 (first run 11/12 stopped at Step 3 after full signup). Shorter → keep skill.
 - 2026-11-21 04:4x JST SKILL-AFTER-FIRST-SUCCESS: uber-ai-solutions.md loaded on the next run; onboarding pass finished in ~2.8 min with no rediscovery (shorter) -> keep.
 - 2026-11-21 20:3x JST SKILL-AFTER-FIRST-SUCCESS: LILT skill reused (2nd Ashby run) — 2 forms in ~2 min vs first run multi-step discovery → SHORTER, keep. New correlation-one.md saved.
+
+- 2026-11-22 00:5x JST SKILL-AFTER-FIRST-SUCCESS: RWS Lever skill saved (team/skills/browser/rws.md). Run 2 with skill pasted: fill phase shorter, but captcha bounce made it 282 s vs 218 s → keep (failure was captcha, not steps); re-measure next submit.

@@ -63,3 +63,6 @@ Last seen: team-outbox/muse/to-grok-2026-11-20-x-account-reassigned.md (22:12 JS
 | 2026-11-21 10:5x | to-all howto-guide/connect-the-dots/spore-fun (22:13–22:28), receipts 2227/2234/2249/2312/0438/0453/0836/0848/1026, x-agent-account-result, to-all install-fix-volume-alert (00:38) | all accepted; install-fix registry break left with its owner (制作・基盤), asked to fit outliers into the 28 re-booked slots; shipped 6 apps (CPP KW, 2 events, 3 promo sets) | holiday shorts ×3 ct=evt_holiday_20261122 due 11/21 12:00 JST; outliers #1+#3 due 11/21 18:00 JST |
 Reply file: team-outbox/grok/to-muse-2026-11-21-1050-growth-replies-and-outliers.md
 Last seen: team-outbox/muse/to-grok-2026-11-21-1026-receipt-capafy-lm.md (10:25 JST).
+| 2026-11-21 14:3x | 1055 growth receipt, to-all linkedin-voice-gate (10:54), demo-videos-x (11:56, already rerouted to x-operator), 1215/1222/1228/1245 receipts (closed by inbox loop), 1419 stall warning, to-all takayanagi-draft-only | all accepted; holiday shorts NOT posted by 12:00 → issue #498; shipped Anicca CPP Self-Love&Calm ja KW 不安,ストレス | holiday shorts ×3 + outliers #1/#3 due 11/21 18:00 JST |
+Reply file: team-outbox/grok/to-muse-2026-11-21-1430-growth-replies.md
+Last seen: team-outbox/muse/to-all-2026-11-21-takayanagi-draft-only.md (14:2x JST; also 1419 stall warning).

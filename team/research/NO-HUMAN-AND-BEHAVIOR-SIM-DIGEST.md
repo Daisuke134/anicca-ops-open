@@ -200,3 +200,33 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - **Skillable simulated-user skills** — 12 expert reviews + 12 simulated users as installable skills. https://x.com/marcaureleb/status/2123125623887638854
 - **Polsia claim (via @grok reply, unverified)** — "$10M+ ARR with zero employees". Unverified; don't cite. https://x.com/grok/status/2123054966327648563
 - Skipped: Moss agent coin launchpad, $BRAIN, GTAi, WATX (crypto/token shilling).
+
+## 2026-11-20 22:00 run (window ~Nov 18–20)
+- **Chiron: "A Foundation Model to Measure and Predict Human Behaviour" (arXiv 2611.24830, 2026-11-18)** — one fine-tuned LLM measures 109 psychological constructs, predicts individual behaviour across 29 domains, and simulates populations; 90.5% effect-direction agreement on held-out studies; beats frontier LLMs by up to 28.4% (per @xiaoanlab summary). https://arxiv.org/abs/2611.24830 · https://x.com/xiaoanlab/status/2123376560875118803
+- **PsyWorld: profile-conditioned world modeling for human behavior prediction (arXiv 2611.24999)** — https://arxiv.org/abs/2611.24999
+- **User simulators may cover for bad agent answers (paper, via @xiaoanlab)** — checks whether multi-turn simulator scores mean anything. 37 imp. https://x.com/xiaoanlab/status/2123609777322254527
+- **Requirements-driven agent harness evolution (paper, via @xiaoanlab)** — harnesses improving on benchmarks while getting worse for real users. 332 imp. https://x.com/xiaoanlab/status/2123404668940460255
+- **Asari AI: agents optimized an automaker's behavior prediction model, 14.6x faster** — 619 imp. https://x.com/AsariAILabs/status/2123485487201689792
+- **ZHC Directory leaderboard (live Stripe dashboards)** — Massinov/Felix $213,153 lifetime but $1.3K last 30d; Moltcorp $64,634 lifetime, $0 30d; Aleister $20,590. https://zhcdirectory.com/
+- **DEV: median verified AI agent business makes $4,380/mo (76 businesses)** — https://dev.to/soloearn/the-median-verified-ai-agent-business-makes-4380-a-month-76-businesses-and-why-the-number-fell-465k
+- **Agent Revenue Report Issue 1 (Nov 2026), horizontal.one** — https://horizontal.one/cases/report/2026-11/
+- **zeroagency: "Can AI agents run a company without humans? Not yet"** — https://zeroagency.ai/blog/can-ai-agents-run-a-company-without-humans
+- Skipped: TermiX/AACP, $BRAIN, $NEAR, $LCAI (crypto/token shilling); "Claude played GTA 6 and made $7,383" (unverified bait); Altman "10-person billion-dollar" (recycled clip).
+
+## 2026-11-21 10:00 run (window ~Nov 19–21)
+- **humans& opens Persimmon v0.1 Pro and Ultra (user-simulation models) to everyone (Nov 20)** — test-time-scaled simulated users; Ultra 48% on humans&' own 8-turn Multi-User Turing Test, up from 18% (50% = indistinguishable to their held-out judge). Team post 975 imp / 26 likes. https://x.com/polaris_7369/status/2123825253134811572 · https://persimmon.humansand.ai/blog/ · https://alphasignal.ai/news/humans-persimmon-ultra-fools-ai-judges-48-of-the-time-simulating-real-users
+- **"A Society of AI Scientists" (paper, 35 labs incl. Stanford, MIT, ETH Zurich, UCSF)** — hundreds of AI agents working on frontier science develop their own scientific culture. 4,196 imp / 86 likes / 44 bookmarks. https://x.com/ProfBuehlerMIT/status/2123762096064086366
+- **IVG-Bench (Interactive Visual Gym)** — 315 live scenarios (CookSim, VHSim, ScreenSim) with simulated users who make realistic mistakes; Claude Opus 5.5 completes 53.5%. https://x.com/kahnchana/status/2123925186181525974
+- **Evals "I Am Legend" effect** — of the 20 most-cited 2026 agent evals, only OSWorld 2.0 and τ³-bench add simulated users / mid-task events. 174 imp. https://x.com/earakely/status/2123828604765376833
+- **Simulator-breaking study restated** — prior simulator-eval methods caught only 5–6 of 10 injected failures (same paper family as 11/20 entry). https://x.com/O_Hampiholi/status/2123418022060884475
+- **embco (canteen hackathon standout)** — AI agents automate retail supplier payments (read POs, check deliveries). 342 imp. https://x.com/Marsvoyager_/status/2123778573827752187
+- No new verified zero-human revenue figures in window; web leaderboards unchanged from 11/20 (ZHC Directory).
+- Skipped: "Claude played GTA 6 and made $7,383" (unverified bait, again), Altman "10-person billion-dollar" (recycled clip), Meta Muse/Reuters fear-bait, DeFi/x402/Virtuals/Livepeer token posts, rogue-agents-in-banks rumor.
+
+## 2026-11-21 16:00 run (window ~Nov 19–21)
+- **corsaren: "the first scaled, successful, fully AI-run company with a normal business model" is the milestone worth watching** (reply in @max_spero_'s AI-timeline thread; parent 2,767 imp / 120 likes). 100 imp / 5 likes at read. https://x.com/corsaren/status/2124016473618477264
+- **Vectorial AI (SAPIENS) — $3M seed (Oct 2026; SenseAI Ventures, Smilegate)** — population models built from real behavior of a company's target customers, to test products/campaigns before launch; 12-person team US/India, founded 2024 (AIM, Nov 19). https://analyticsindiamag.com/ai-startups/can-simulated-users-replace-weeks-of-consumer-research-vectorial-ai-thinks-so
+- **Synthetic users run real flows against a live app** — anamhira: a synthetic user signs up, adds to cart and checks out on the real app with a test account. 61 imp. https://x.com/anamhira/status/2123832474832945311
+- **Small-team model-switch check with simulated users** — reply to @petergyang: run a few hundred simulated users against old vs new model before switching; lose stat sig, still catch obvious regressions. 356 imp. https://x.com/The_Basic_Basil/status/2123707871934509558
+- **fg__samurai: one-person AI-agent-run company sells its operating templates (5 on Gumroad)** — no revenue figure given. https://x.com/fg__samurai/status/2123987768745644297
+- Skipped: GTA 6 "$7,383" bait (again), TermiX/AACP USDC agent marketplace shills, Altman 10-person-billion clip (recycled), brand-name spam (UpHonestReal), Anthropic IPO chatter (off-topic). Skyfall Steve-001 and 42AI already listed earlier.

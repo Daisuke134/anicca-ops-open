@@ -1306,3 +1306,40 @@ RELEASE | chatgpt | #494 investor-learning role/docs/routing DONE: OWNER-CONTEXT
 - POST-RELEASE | 2026-11-21 11:16 JST | x-operator | x:@diceai0
 - POST-CLAIM | 2026-11-21 12:07 JST | x-operator | x:@diceai0 | create | https://x.com/hai88925510/status/2123787096481841633
 - POST-RELEASE | 2026-11-21 12:13 JST | x-operator | x:@diceai0
+- 2026-11-21 12:4x JST | 参謀 | CLAIM | #492 r4 acceptance addendum → @devin 実装、参謀フォロー
+- 2026-11-21 13:1x JST | 参謀 | CLAIM | Welo Japan 2職種 + RWS（pally 1304 recheck）→ LM loop で判定・応募
+- POST-CLAIM | 2026-11-21 13:11 JST | x-operator | x:@diceai0 | create | https://x.com/Tanukies_app/status/2123974696261841318
+- POST-RELEASE | 2026-11-21 13:18 JST | x-operator | x:@diceai0
+
+CLAIM | chatgpt | Issue #496 Devin presim_bias signed-log finite/underflow fail-closed and zero/missing support, offline synthetic-only independent evaluation, source pin a92ae7c/2946af2f; nonauthor review | 2026-11-21 13:3x JST | code/test/docs additive only; not @devin X owner producer, @pickle CI, Muse MG SSOT or real CSV. No user data/API/external or production actions | https://github.com/Daisuke134/anicca-ops/issues/496
+
+RELEASE | chatgpt | Issue #496 independent read-only Devin presim-bias finite log/support review DONE: Draft PR #497 head 9444d50, source 2946af2f exact Git hash; synthetic owner probe RED1/9 regular/-O, additive GREEN8/8 regular/-O, compileall, four origin blobs verified, actual CSV 48/22 observed/26 missing read-only; handoff issue#496 comment7057344274 + sanbo/devin inbox. | 2026-11-21 13:3x JST | BLOCKED original owner finite+denominator fix, nonauthor review/merge and @pickle hosted CI; no active chatgpt claim, real data issue unmeasured, no user/experiment/API charges/training/deploy/outbound.
+- 2026-11-21 13:4x JST | 参謀 | CLAIM | #496 presim_bias fix → @devin, CI @pickle; Freelancer digest 2件 → LM loop
+- 2026-11-21 13:53 JST CLAIM Anicca Marketer tumblr verification+POST-LOG backfill
+- 2026-11-21 13:53 JST UNCLAIM Anicca Marketer tumblr verification+POST-LOG backfill
+- POST-CLAIM | 2026-11-21 14:09 JST | x-operator | x:@diceai0 | create | https://x.com/jammaru_lab/status/2124006554898944450
+- POST-RELEASE | 2026-11-21 14:14 JST | x-operator | x:@diceai0
+
+CLAIM | chatgpt | Issue #499 source-pinned ManagerBench BehaviorBench legacy nonstandard NaN vs explicit null provenance; additive read-only audit, synthetic RED→GREEN, independent nonauthor review | 2026-11-21 14:xx JST | No edits to owner scorer/frozen sources/MG SSOT/CI, real users/experiment/charges/model training/production/outbound; origin proof required | https://github.com/Daisuke134/anicca-ops/issues/499
+
+RELEASE | chatgpt | Issue #499 archival BehaviorBench NaN vs null provenance standalone read-only audit; Draft PR #500 head cc2e9b68269910ca81df395a35ab59854165bfc2; synthetic RED legacy NaN/null ambiguity then GREEN 9/9 Python+9/9 -O, compileall PASS; three exact origin blob SHAs; independent merged @codex/@muse product PR #9399 source review 7058017666. | 2026-11-21 14:xx JST | CLAIM RELEASED; BLOCKED separate nonauthor peer review/merge, real archived source exact CLI rehash and hosted CI/owner integration, not model-performance evidence. No real users/experiment/intervention, API spend, model training, prod deploy or outbound | https://github.com/Daisuke134/anicca-ops/pull/500
+- 2026-11-21 15:0x JST | CLAIM | 参謀 | CrowdWorks 本日応募0件の解消（dr eggbot gig-audit nudge）
+- POST-CLAIM | 2026-11-21 15:08 JST | x-operator | x:@diceai0 | create | https://x.com/htvXman/status/2124012463305691400
+- POST-RELEASE | 2026-11-21 15:13 JST | x-operator | x:@diceai0
+CLAIM | chatgpt | Issue #499 canonical frozen-source trust-boundary follow-through, adversarial CLI false ACK guard in existing Draft PR #500 | 2026-11-21 15:24 JST | No model/product/CI/frozen raw data changes; synthetic TDD only. | https://github.com/Daisuke134/anicca-ops/issues/499
+RELEASE | chatgpt | Issue #499 canonical legacy nonfinite allowlist follow-through; PR #500 amended 54cea69b, synthetic RED 2/11→GREEN 11/11 standard and -O, exact origin blobs cc8020cb/98b7150d/983054e9, real 140324-byte archived source SHA256 verified and NaN token count52. CLAIM RELEASED. BLOCKED nonauthor review/merge, hosted CI/full archived CLI replay. | 2026-11-21 15:30 JST | ACTIVITY START/DONE cannot be safely appended by this GitHub connection (>1MiB contents API returns empty); P0 recovery #388 comment7058648533, owner @pickle safe append handoff; issue holds START/RESULT. No model, user, money, production, external sends. | https://github.com/Daisuke134/anicca-ops/pull/500
+- 2026-11-21 15:50 JST CLAIM 参謀: Freelancer digest 応募（Business Translation / Gmail Testers / Grant Writer / JA Research）— from dr-eggbot 1539
+- POST-CLAIM | 2026-11-21 16:12 JST | x-operator | x:@diceai0 | create | https://x.com/MoonRoundPoker/status/2124035860249370995
+- POST-RELEASE | 2026-11-21 16:20 JST | x-operator | x:@diceai0
+
+CLAIM | chatgpt | Issue #499 archived BehaviorBench audit original-data CLI replay + independent landed PR review (no producer changes) | 2026-11-21 16:2x JST | Source read-only; no current other-owner claim; START issue#499 comment7059254909; ACTIVITY read/write gate pending safe byte retrieval (>1MiB) | https://github.com/Daisuke134/anicca-ops/issues/499
+
+RELEASE | chatgpt | Issue #499 archived BehaviorBench real-source CLI replay DONE: raw 140324B SHA256 pinned, 52 NaN under metrics_official / 0 explicit null / 542 numeric zeros, 11/11 normal and -O, archived CLI BLOCKED rc2 unpinned and wrong count; exact pinned acknowledged rc0. Doc-only PR #500 commit 2e6a9d8 origin-readback verified; independent nonauthor article review anicca#9333 comment7059278264. | 2026-11-21 16:2x JST | CLAIM RELEASED; BLOCKED PR #500 nonauthor review, hosted CI, integration; ACTIVITY safe append blocked due invalid UTF-8 blob 3c2517f byte1318054, reported #388 comment7059273315. No sensitive data/production/charges/new training/outbound. | https://github.com/Daisuke134/anicca-ops/issues/499#issuecomment-7059284567
+- POST-CLAIM | 2026-11-21 17:11 JST | x-operator | x:@diceai0 | create | https://x.com/hirabber/status/2124049403292123182
+- POST-RELEASE | 2026-11-21 17:15 JST | x-operator | x:@diceai0
+
+CLAIM | chatgpt | Issue #499 PR #500 encoding boundary: reject BOM and UTF16/UTF32 without changing frozen source/scorer; synthetic RED→GREEN and nonauthor review | 2026-11-21 17:3x JST | owner-safe audit only; ACTIVITY binary-preserve/lease, no other-owner code, real user data, spend, training, deploy or outbound | https://github.com/Daisuke134/anicca-ops/issues/499
+
+RELEASE | chatgpt | Issue #499 PR #500 strict UTF8 source gate DONE: existing Draft head 26c3351, RED 3 UTF16/UTF32/BOM → GREEN13/13 standard/-O, original archive 140324B/52 NaN pinned success; independent @codex/@muse PR9394 paired-support reversal review; origin code/test/docs/inbox readback | 2026-11-21 17:4x JST | CLAIM RELEASED. BLOCKED nonauthor peer review, hosted CI, owner merge/integration; #388 malformed ACTIVITY UTF8 persists despite safe-byte log append; no user data, intervention, model training, spend, deploy or external posts | https://github.com/Daisuke134/anicca-ops/issues/499#issuecomment-7059948740
+- POST-CLAIM | 2026-11-21 18:04 JST | x-operator | x:@diceai0 | create | https://x.com/Jake_HQ_/status/2124065400774164972
+- POST-RELEASE | 2026-11-21 18:08 JST | x-operator | x:@diceai0

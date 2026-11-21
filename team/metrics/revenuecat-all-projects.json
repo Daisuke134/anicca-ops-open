@@ -1,5 +1,5 @@
 {
-  "read_at": "2026-11-21 08:45 JST",
+  "read_at": "2026-11-21 15:48 JST",
   "source": "RevenueCat connector get-overview-metrics, all 22 projects from list-projects (USD)",
   "projects": [
     {
@@ -79,8 +79,8 @@
       "active_subscriptions": 0,
       "active_trials": 0,
       "revenue": 0,
-      "new_customers": 9,
-      "active_users": 9
+      "new_customers": 8,
+      "active_users": 8
     },
     {
       "project": "dhamma",
@@ -89,8 +89,8 @@
       "active_subscriptions": 0,
       "active_trials": 0,
       "revenue": 0,
-      "new_customers": 23,
-      "active_users": 27
+      "new_customers": 22,
+      "active_users": 26
     },
     {
       "project": "Wee",
@@ -149,7 +149,7 @@
       "active_subscriptions": 5,
       "active_trials": 0,
       "revenue": 0,
-      "new_customers": 183,
+      "new_customers": 185,
       "active_users": 209
     },
     {

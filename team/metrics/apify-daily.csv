@@ -20,3 +20,4 @@ run_at,actor,users_total,users_7d,users_30d,runs_total,runs_24h_owner_visible,la
 2026-11-21 08:47,S7JAoTNiztat9Qwuq,unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error),api.apify.com/v2/acts
 2026-11-21 21:25,S7JAoTNiztat9Qwuq,unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error),api.apify.com/v2/acts
 2026-11-21 21:28,S7JAoTNiztat9Qwuq,2,1,1,26,0,2026-11-21 18:08,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts
+2026-11-22 08:47,S7JAoTNiztat9Qwuq,2,1,1,26,0,2026-11-21 18:08,PAY_PER_EVENT,2026-11-02,unknown (source error),api.apify.com/v2/acts

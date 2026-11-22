@@ -5,6 +5,7 @@ import json
 import math
 import statistics
 import sys
+from datetime import datetime
 
 
 def _as_positive_float(value):
@@ -88,13 +89,58 @@ def report(rows, bias=False):
     return out
 
 
+TS_FORMAT = "%Y-%m-%d %H:%M"
+
+
+def _parse_ts(value):
+    if value is None:
+        return None
+    try:
+        return datetime.strptime(str(value).strip(), TS_FORMAT)
+    except ValueError:
+        return None
+
+
+def _parse_args(argv):
+    bias = False
+    since = None
+    i = 2
+    while i < len(argv):
+        arg = argv[i]
+        if arg == "--bias" and not bias:
+            bias = True
+            i += 1
+        elif arg == "--since" and since is None and i + 1 < len(argv):
+            since = argv[i + 1]
+            i += 2
+        else:
+            return None
+    if since is not None and _parse_ts(since) is None:
+        return None
+    return bias, since
+
+
+def _usage(argv):
+    print(f'usage: {argv[0]} <csv> [--bias] [--since "YYYY-MM-DD HH:MM"]', file=sys.stderr)
+
+
 def main(argv):
-    if len(argv) not in (2, 3) or (len(argv) == 3 and argv[2] != "--bias"):
-        print(f"usage: {argv[0]} <csv> [--bias]", file=sys.stderr)
+    if len(argv) < 2:
+        _usage(argv)
         return 2
-    bias = len(argv) == 3
+    parsed = _parse_args(argv)
+    if parsed is None:
+        _usage(argv)
+        return 2
+    bias, since = parsed
     with open(argv[1], newline="") as fh:
         rows = list(csv.DictReader(fh))
+    if since is not None:
+        cutoff = _parse_ts(since)
+        rows = [
+            row for row in rows
+            if (ts := _parse_ts(row.get("ts_jst"))) is not None and ts >= cutoff
+        ]
     print(json.dumps(report(rows, bias=bias)))
     return 0
 

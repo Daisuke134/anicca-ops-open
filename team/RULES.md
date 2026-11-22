@@ -1,5 +1,38 @@
 連絡の正本: [team/playbooks/ONE-PLACE.md](playbooks/ONE-PLACE.md)（入口はリポジトリ直下の [AGENTS.md](../AGENTS.md)）。依頼と返信は `team/inbox/<agent>.md`。ログは ACTIVITY.md。Slack / 部屋はコミット URL の1行だけ。直接メッセージは停止・セキュリティの緊急時だけ。
 
+
+## RULE ONE-FLESH-REVENUE (成田さん 2026-11-22 10:39 JST t4242u/t4243u, HARD, all agents)
+Goal = MONEY. Revenue must exceed spend (we are still bleeding). Applications/proposals are process, not result. Win by creating value and selling more, not by shutting everything down.
+1. ZERO-COST COMMS: all agent-to-agent communication is GitHub files only (RULE ONE-PLACE). No duplicate messages, no re-asking, no status chatter, no paid channel, no LLM tokens spent on talk. One message, one owner, one reply.
+2. ASSIGN BY STRENGTH: route each task to the teammate best at it (team/ACCOUNT-OWNERS.md, delegation map). Grok Bot 参謀 keeps only the highest-ROI judgment/verification/revenue work it excels at.
+3. MONITOR EACH OTHER: every agent watches teammates' handoffs; if anyone stops (no receipt, missed deadline), fix the system (restart the loop, reassign, repair the script) proactively — one flesh, autonomous company.
+4. SELF-IMPROVING / SELF-HEALING: turn every fix and best practice into a shared skill or script on GitHub and refine it; never repeat the same failure.
+5. Measure every loop by money in (paid receipts) per token/¥ spent; cut loops that only produce activity.
+6. EVALUATION-DRIVEN DEVELOPMENT (t4244u, also told to Muse): every task, skill, loop and agent has an eval (metric + pass bar) before/after; results are logged on GitHub and drive the next change. Self-improving + self-healing skills and agents: a failing eval auto-triggers the fix and the skill update.
+
+## RULE ONE-PLACE (成田さん founder's order 2026-11-22 10:22 JST t4241u, HARD, all agents) — co-#1 with TEAM-FIRST / NEVER-STOP
+ONE PLACE: GitHub (anicca-ops). ONE SKILL: the GitHub communication skill (read-reply-instantly + scripts/inbox_unanswered.py). If it is not on GitHub, it did not happen.
+1. Monitor GitHub constantly, 24/7. Watching is your job.
+2. Reply to EVERY message addressed to you. No message stays unanswered. Ever.
+3. Reply in under 1 second from the moment it lands (automated ACK watcher; not 1 hour, not 1 minute).
+4. Sending is not communicating. A reply landing on GitHub is the only proof.
+5. If you cannot do what was asked, still reply immediately — one line saying so, naming who should take it. Silence is never an answer.
+6. Never drop context. Reply in the same chain (same file/thread), full history visible.
+7. Whatever else you use (Slack, Ando, agmsg, anything), the record and the reply end up on GitHub.
+8. Applies to everyone: Codex, Command Code, OpenCode, Devin, Instinct, Grok Bot, Dots, Pally, ChatGPT, Orca Bot, Devin Bot, Pickle, Muse.
+No reply = not communicated = your work gets taken over.
+
+## RULE NEVER-STOP (成田さん 2026-11-22 10:20 JST t4240u, HARD, no exceptions, all agents) — co-#1 with TEAM-FIRST
+Verbatim: "Store all on Github and Shared / If no password just reset / If no cred just sign up / No human cred no human in loop / And key is no stopping and never giving up / Your limitation is not the company limitation"
+1. Store everything on GitHub (anicca-ops) and shared: credentials in the encrypted shared store, state, docs, scripts, results. Nothing lives only in one agent's workspace.
+2. No password → reset it yourself (agent inbox: [redacted-email] / [redacted-email]), then write the new cred to the shared encrypted store.
+3. No credential/account → sign up yourself with an agent identity, then share it the same way.
+5. Never stop, never give up. "Blocked" is not an end state: try the next route (reset, new signup, other agent, other tool, other platform) until it works.
+6. One agent's limitation (tool, safety refusal, quota, browser slot) is NOT the company's limitation: hand it to another teammate per TEAM-FIRST (Codex → Command Code → Devin → OpenCode, browser lane, Muse) and keep going.
+
+## RULE TEAM-FIRST (成田さん 2026-11-22 10:00 JST t4238u/t4239u "why do you always forget to work as a team", hard, no exceptions, all agents) — RULE #1, ABOVE ALL OTHERS
+No agent works alone. Before touching any task, decide "whose job is this?" and write the handoff to `team/inbox/<worker>.md` first. Work-type tasks (code, processing, research, bulk edits, scripts) go to Codex → Command Code (latest DeepSeek) → Devin → OpenCode; operational Issues go to their owner in `files/todo-issue-map-2026-11-14.md` (mostly Muse). The Grok bot that 成田さん is talking to only decides, routes, verifies, pushes and reports. Root cause of repeated failures: this was written in memory and scattered rules but was not rule #1 and not in routine prompts, so under time pressure agents defaulted to doing it themselves. Every routine prompt must now start with "TEAM-FIRST: route work-type steps to the team before doing them yourself."
+
 ## RULE GITHUB-COMPANY (成田さん 2026-11-20 20:06 JST t4217u, hard, no exceptions, all agents) — TOP RULE
 - New credential → encrypt + push to anicca-secrets in the same step (`team/scripts/secrets-sync.sh`). New state/doc/script/result → commit to anicca-ops in the same step. Audit: `team/WORKSPACE-AUDIT-2026-11-20.md`.
 
@@ -15,6 +48,9 @@ Small coding, drafting, summarizing and data-cleanup tasks go to the Command Cod
 - **Freelancer.com is a target** (account daisukenaritadev / Rasi4op, [redacted-email]). Free bids only. Buying Freelancer bids/credits or Upwork Connects stays banned.
 - **Next step (later):** those meetings move to our digital-twin avatar — spec `team/digital-twin/SPEC.md`. Until a platform's terms allow an avatar attendee and the twin passes its eval gate, the physical us attends.
 - Superseded by this rule: the 「通話不可 / 通話が要るなら見送る」 boundary in `team/BOARD/coconala-lancers-loop.md` and `team/HANDOFF.md` 2026-10-30, the 「顔出し・人が話す必要を除外」 filter in `team/client-work/queue-20261115.md`, the 「本人のライブ通話が必須」 exclusion in `team/client-work/queue-global-20261115.md`, the "no interview/recording" Mercor filter in `team/HANDOFF.md` (2026-10-26), the pickle 2026-11-14 "Lemon.io / Toptal / Arc 見送り" decision, and the "No-interview lane" ranking in `team/skills/client-work-delivery/SKILL.md`. Re-queued items: `team/client-work/REQUEUE-PHYSICAL-IN-LOOP-2026-11-20.md`.
+
+## RULE 24-7-AVAILABILITY (成田さん 2026-11-22 09:56 JST t4235u/t4237u, all agents)
+
 
 ## RULE NO-HUMAN-CONFIRM (成田さん 2026-11-14 18:40 JST, all agents) — READ FIRST
 

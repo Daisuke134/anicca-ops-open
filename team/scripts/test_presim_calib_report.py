@@ -177,3 +177,109 @@ def test_cli_no_bias_byte_identical(tmp_path):
     )
     data = json.loads(proc.stdout)
     assert "loo_bias" not in data
+
+
+def _since_csv(tmp_path, rows=None):
+    csv_path = tmp_path / "rows.csv"
+    if rows is None:
+        rows = [
+            {"pred_impr": 100, "actual_impr": 100, "format": "video", "ts_jst": "2026-11-21 15:00"},
+            {"pred_impr": 100, "actual_impr": 200, "format": "video", "ts_jst": "2026-11-21 16:00"},
+            {"pred_impr": 100, "actual_impr": 400, "format": "image", "ts_jst": "2026-11-21 17:00"},
+        ]
+    with open(csv_path, "w", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=["pred_impr", "actual_impr", "format", "ts_jst"])
+        writer.writeheader()
+        for row in rows:
+            writer.writerow(row)
+    return csv_path
+
+
+def _run_cli(script, args):
+    return subprocess.run(
+        [sys.executable, script, *args],
+        capture_output=True, text=True,
+    )
+
+
+def test_cli_since_filters_rows(tmp_path):
+    csv_path = _since_csv(tmp_path)
+    script = Path(__file__).with_name("presim_calib_report.py")
+    proc = _run_cli(script, [str(csv_path), "--since", "2026-11-21 15:45"])
+    assert proc.returncode == 0
+    data = json.loads(proc.stdout)
+    assert data["overall"]["n"] == 2
+    assert set(data["by_format"]) == {"video", "image"}
+    assert data["by_format"]["video"]["n"] == 1
+    assert data["by_format"]["image"]["n"] == 1
+
+
+def test_cli_since_boundary_inclusive(tmp_path):
+    csv_path = _since_csv(tmp_path)
+    script = Path(__file__).with_name("presim_calib_report.py")
+    proc = _run_cli(script, [str(csv_path), "--since", "2026-11-21 16:00"])
+    assert proc.returncode == 0
+    data = json.loads(proc.stdout)
+    assert data["overall"]["n"] == 2
+
+
+def test_cli_since_skips_blank_and_bad_ts(tmp_path):
+    rows = [
+        {"pred_impr": 100, "actual_impr": 100, "format": "a", "ts_jst": "2026-11-21 16:00"},
+        {"pred_impr": 100, "actual_impr": 100, "format": "a", "ts_jst": ""},
+        {"pred_impr": 100, "actual_impr": 100, "format": "a"},
+        {"pred_impr": 100, "actual_impr": 100, "format": "a", "ts_jst": "not-a-date"},
+        {"pred_impr": 100, "actual_impr": 100, "format": "a", "ts_jst": "2026-11-21 14:59"},
+    ]
+    csv_path = _since_csv(tmp_path, rows)
+    script = Path(__file__).with_name("presim_calib_report.py")
+    proc = _run_cli(script, [str(csv_path), "--since", "2026-11-21 15:45"])
+    assert proc.returncode == 0
+    data = json.loads(proc.stdout)
+    assert data["overall"]["n"] == 1
+    assert data["by_format"]["a"]["n"] == 1
+
+
+def test_cli_since_with_bias_both_orders(tmp_path):
+    csv_path = _since_csv(tmp_path)
+    script = Path(__file__).with_name("presim_calib_report.py")
+    proc1 = _run_cli(script, [str(csv_path), "--bias", "--since", "2026-11-21 15:45"])
+    proc2 = _run_cli(script, [str(csv_path), "--since", "2026-11-21 15:45", "--bias"])
+    assert proc1.returncode == 0
+    assert proc2.returncode == 0
+    assert proc1.stdout == proc2.stdout
+    data = json.loads(proc1.stdout)
+    assert "loo_bias" in data
+    assert data["loo_bias"]["n"] == 2
+
+
+def test_cli_no_since_output_unchanged(tmp_path):
+    rows = [
+        {"pred_impr": 100, "actual_impr": 100, "format": "video", "ts_jst": "2026-11-21 15:00"},
+        {"pred_impr": 100, "actual_impr": 200, "format": "video", "ts_jst": ""},
+        {"pred_impr": 100, "actual_impr": 400, "format": "image", "ts_jst": "bad"},
+    ]
+    csv_path = _since_csv(tmp_path, rows)
+    script = Path(__file__).with_name("presim_calib_report.py")
+    proc = _run_cli(script, [str(csv_path), "--bias"])
+    assert proc.returncode == 0
+    data = json.loads(proc.stdout)
+    assert data["overall"]["n"] == 3
+    assert data["by_format"]["video"]["n"] == 2
+    assert data["by_format"]["image"]["n"] == 1
+    assert data["loo_bias"]["n"] == 3
+
+
+def test_cli_since_bad_usage_exit_2(tmp_path):
+    csv_path = _since_csv(tmp_path)
+    script = Path(__file__).with_name("presim_calib_report.py")
+    for args in (
+        [str(csv_path), "--since"],
+        [str(csv_path), "--since", "2026-11-21"],
+        [str(csv_path), "--since", "2026-11-21 15:45", "--since", "2026-11-21 16:00"],
+        [str(csv_path), "--since", "2026-11-21 15:45", "--bogus"],
+        [str(csv_path), "--bias", "--bias"],
+    ):
+        proc = _run_cli(script, args)
+        assert proc.returncode == 2, args
+        assert "usage:" in proc.stderr

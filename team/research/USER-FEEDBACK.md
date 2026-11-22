@@ -121,3 +121,18 @@ Nothing was shipped this run, so no "told user" replies were queued. APP-WINNERS
 
 Nothing was shipped this run, so no "told user" replies were queued. APP-WINNERS step skipped to keep the run cheap (winners refreshed 11/12–11/15; no new pattern queued).
 
+
+## 2026-11-22 11:4x JST run (Grok Bot 参謀)
+
+- Window: X mentions of @diceai0/@selawmqt since 2026-11-21 11:46 JST (75 read, 23 app-related, connect/self-promo skipped). App Store RSS jp+us for all six apps: **0 new reviews** (newest still Anicca JP 11/15). X DMs covered by the 10-min DM loop.
+
+| date (JST) | source | user | app | quote | category | fix / decision | owner | status |
+|---|---|---|---|---|---|---|---|---|
+| 2026-11-21 22:35 | https://x.com/obitokage_1/status/2124134672301252864 | @obitokage_1 | Anicca | How are you keeping lock screen affirmations fresh for anicca users so they stick around past the first week. | feature | Measure D7/D14 retention of lock-screen users; if line repeats within 7 days, rotate pool / generate from that day's check-in. Reply with the real answer once known | anicca-marketer | inbox written |
+| 2026-11-21 21:42 / 11-22 09:41 | https://x.com/AzureWind_AI/status/2124302292690366527 | @AzureWind_AI | Anicca | For a lock-screen app, opens alone could reward the wrong behavior. Weekly active days or completed routines might tell you whether those five users are building… | feature | Report weekly active days per paying user (5 payers) separately from the 209 actives, not opens | reporter | inbox written |
+| 2026-11-21 21:21 | https://x.com/rimlessworks/status/2124116037776060923 | @rimlessworks | Anicca | basic cards are free, and you can try the premium style on your first checkpoint before paying | feature | Same as free-first 1.9.14 direction: let the user see one premium item on day 1 before the paywall; candidate A/B, not shipped | anicca-marketer | logged |
+| 2026-11-21 21:11–23:07 | https://x.com/majesticsang/status/2124113476537004360 (+ chams_builds 2124142716820881631, Kodall3b 2124146734490157379) | @majesticsang | Anicca | What specific trigger made those 5 decide to pay instead of staying free? | confusion | Dup of 11/21 "ask the 5 payers" item — 4th person asking; answer publicly once the payer answers exist | anicca-marketer | logged (dup) |
+| 2026-11-22 10:26 | https://x.com/taylor_brown18/status/2124313631944757354 | @taylor_brown18 | Anicca | Apple only shows a source once it sends about 5 downloads in a day | confusion | Note for attribution: ASC source threshold; keep tagged-link + same-weekday comparison (11/21 reporter item) | reporter | logged |
+
+Nothing shipped, so no "told user" replies queued. APP-WINNERS step skipped to keep the run cheap (no new pattern queued). LOOP-ROI: App Store reviews empty 6 runs; X feedback is the live signal.
+

@@ -199,3 +199,7 @@ Every URL below was opened for the 2026-11-10 cadence study, the 2026-11-11 grow
 - https://aniccaai.com/blog/c/research
 
 - 2026-11-15 19:13 JST (hunter): milestone posts (+100s, 1k) count as connect posts with honest before/after numbers and what shipped, never a follow-back offer [C9, C10, R17]; originals spaced 60+ min, max 1 per posting run [R1, R2, O3]. Sources: marketing/X-GROWTH-SOURCES.md.
+
+## 2026-11-22 07:20 JST update (X Operator hunter; sources Q9, H2, O8 in marketing/X-GROWTH-SOURCES.md)
+- Quotes reach our own followers, replies reach theirs: do both daily; when replies are met and quotes are short, daytime runs quote first (Q9 @UndeadCommand52 https://x.com/UndeadCommand52/status/2122058980143120394, confirms Q1 to Q4).
+- Never reuse a post's first line within 48h, even on a winning format (H2 @thatGTMdude https://x.com/thatGTMdude/status/2122604500766929215 plus our own connect data O8). Skills x-growth-playbook and x-persuasion updated.

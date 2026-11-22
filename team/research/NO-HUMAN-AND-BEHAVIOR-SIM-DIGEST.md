@@ -238,3 +238,15 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - **Uxia (synthetic-user UX validation) founder partner of AiX 2027 (Newcastle AI & Design Conference)**. https://x.com/AiXconf/status/2123755768834908572
 - No new verified zero-human revenue figure in window; web leaderboards (RunsBy.ai, ZHC Directory) unchanged.
 - Skipped: AI-learning link lists, Riemann thread (off-topic keyword hit), Industry 5.0 digital-twin RSS spam, Persimmon/IVG/Vectorial/simulator-paper restatements (already listed).
+
+## 2026-11-22 10:00 run (window ~Nov 20–22)
+
+### B. Behavior simulation / human behavior foundation models
+- **Scott Belsky, "Decision By Simulation: What Can Go Right & Wrong" (X Article)** — names Simile and a stealth enterprise sim startup; says marketing/price-test sims are "proving to be 90%+ accurate" vs outcomes (his claim); use cases: simulated diligence, simulation therapy, GTM. 16.8K imp, 253 bookmarks, 9 quotes. https://x.com/scottbelsky/status/2124215782817317076
+- **Silicone Reasonable People (Prof. Yonathan Arbel)** — LLM-simulated humans to test consumer misperception for false-advertising law; claims LLMs track deep patterns in human legal trials. https://x.com/ProfArbel/status/2124194314318119356
+- **User-simulator evals paper (arXiv 2611.24892)** — three existing suites catch only 5–6 of 10 deliberate failures; composite scores favor simulated users told to accept broken work. https://arxiv.org/abs/2611.24892 (via https://x.com/BuilderCulture_/status/2124136673818955809)
+- **"Worldviews in Large Language Models" paper** — argues a level below personas (the agent's worldview) matters for simulation/alignment. 855 imp. https://x.com/burny_tech/status/2123670170849673525
+
+### A. Zero-human / autonomous companies
+- No new verified zero-human revenue figure in window. Grok's own answer calls "zero-human company" an active emerging category without formal classification (https://x.com/grok/status/2124277378838835318).
+- Skipped: $NOHR memecoin "AI agents run the company" shill (crypto), "$275,938 Stripe-verified" money-short with 0 impressions and no source, restatements of corsaren / ailon / NiriLabSI / Persimmon / Seldon (already listed).

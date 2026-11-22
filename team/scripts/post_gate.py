@@ -505,6 +505,14 @@ def guard_postiz(method, url, body=None, poster=None, source_url=None):
 # Advisory only (never refuses): printed after POST-GATE OK so the writer adds "14 of 334" next to "4%".
 _PCT = re.compile(r"\d+(?:\.\d+)?\s*[%％]")
 _DENOM = re.compile(r"\d[\d,]*\s*(?:/|of|out of|中|分の)\s*\d|\d[\d,]*\D{0,8}?(?:→|->)\s*\d", re.I)
+_CONNECT_REQ = re.compile(r"つながりたい|love to connect", re.I)
+
+
+def _first_nonempty_line(text):
+    for line in (text or "").splitlines():
+        if line.strip():
+            return line
+    return ""
 
 
 def advice_warnings(text):
@@ -512,6 +520,8 @@ def advice_warnings(text):
     if text and _PCT.search(text) and not _DENOM.search(text):
         warns.append("percentage without its denominator: add the raw counts (e.g. '14 of 334') next to the % "
                      "(advice @10JAQK, marketing/X-ADVICE-LOG.md A-denominator)")
+    if _CONNECT_REQ.search(text or "") and not _CONNECT_REQ.search(_first_nonempty_line(text)):
+        warns.append("connect request must be line 1 (X-STYLE 11/22)")
     return warns
 
 def main(argv=None):

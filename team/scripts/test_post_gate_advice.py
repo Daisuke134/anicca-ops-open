@@ -17,3 +17,21 @@ def test_percentage_with_denominator_ok():
 def test_no_percentage_ok():
     assert advice_warnings("5 paying users, 0 trials.") == []
     assert advice_warnings("") == []
+
+
+CONNECT_MSG = "connect request must be line 1 (X-STYLE 11/22)"
+
+
+def test_connect_request_not_on_line1_warns():
+    assert CONNECT_MSG in advice_warnings("今日の学びを共有します\nつながりたい方はぜひ")
+    assert CONNECT_MSG in advice_warnings("Sharing today's lesson.\nI'd love to connect with builders.")
+
+
+def test_connect_request_on_line1_ok():
+    assert advice_warnings("つながりたい方はぜひ\n今日の学びを共有します") == []
+    assert advice_warnings("Love to connect!\n\nSharing today's lesson.") == []
+
+
+def test_no_connect_request_ok():
+    assert advice_warnings("Hello everyone, nice to meet you.") == []
+    assert advice_warnings("") == []

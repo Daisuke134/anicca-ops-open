@@ -7,6 +7,10 @@ numerical stability on extreme finite values.
 
 With --by-segment, the LOO median is computed only within the row's own segment;
 segments with fewer than 2 posts fall back to all rows ("fallback": true).
+
+With --last N, the prior for a row is the median of the previous N posts (CSV
+order) in the same segment (all posts when --by-segment is absent). If fewer than
+N earlier posts exist, the prior falls back to all other rows ("fallback": true).
 """
 import csv, json, math, statistics, sys
 
@@ -42,7 +46,7 @@ def group(rows):
     return posts, dup
 
 
-def score(rows, skipped=0, by_segment=False):
+def score(rows, skipped=0, by_segment=False, last=None):
     posts, dup = group(rows)
     n = len(posts)
     out = {"n": n, "prescore": statistics.median([v for _, v, _ in posts]) if n else None, "loo": [],
@@ -56,12 +60,21 @@ def score(rows, skipped=0, by_segment=False):
     errs = {}
     for i, (pid, v, seg) in enumerate(posts):
         same = by_seg.get(seg, []) if use_seg else []
-        pool = [j for j in same if j != i] if len(same) >= 2 else [j for j in range(n) if j != i]
-        fallback = use_seg and len(same) < 2
+        if last is not None:
+            earlier = [j for j in same if j < i] if use_seg else list(range(i))
+            if len(earlier) >= last:
+                pool = earlier[-last:]
+                fallback = False
+            else:
+                pool = [j for j in range(n) if j != i]
+                fallback = True
+        else:
+            pool = [j for j in same if j != i] if len(same) >= 2 else [j for j in range(n) if j != i]
+            fallback = use_seg and len(same) < 2
         pred = statistics.median([posts[j][1] for j in pool])
         err = abs(math.log(v) - math.log(pred))
         entry = {"post_id": pid, "pred": pred, "abs_ln_err": err}
-        if use_seg:
+        if use_seg or last is not None:
             entry["fallback"] = fallback
         out["loo"].append(entry)
         errs.setdefault(seg, []).append(err)
@@ -73,13 +86,36 @@ def score(rows, skipped=0, by_segment=False):
 
 
 def main(argv):
-    args = [a for a in argv[1:] if a != "--by-segment"]
-    by_segment = "--by-segment" in argv[1:]
-    if len(args) != 1:
-        print("usage: connect_loo_prescore.py <csv> [--by-segment]", file=sys.stderr)
+    args, by_segment, last = [], False, None
+    i = 1
+    while i < len(argv):
+        a = argv[i]
+        if a == "--by-segment":
+            by_segment = True
+        elif a == "--last":
+            i += 1
+            if i >= len(argv):
+                print("usage: connect_loo_prescore.py <csv> [--by-segment] [--last N]", file=sys.stderr)
+                return 2
+            try:
+                last = int(argv[i])
+            except ValueError:
+                print("--last requires a positive integer", file=sys.stderr)
+                return 2
+        elif a.startswith("--last="):
+            try:
+                last = int(a.split("=", 1)[1])
+            except ValueError:
+                print("--last requires a positive integer", file=sys.stderr)
+                return 2
+        else:
+            args.append(a)
+        i += 1
+    if len(args) != 1 or (last is not None and last < 1):
+        print("usage: connect_loo_prescore.py <csv> [--by-segment] [--last N]", file=sys.stderr)
         return 2
     rows, skipped = load(args[0])
-    print(json.dumps(score(rows, skipped, by_segment)))
+    print(json.dumps(score(rows, skipped, by_segment, last)))
     return 0
 
 

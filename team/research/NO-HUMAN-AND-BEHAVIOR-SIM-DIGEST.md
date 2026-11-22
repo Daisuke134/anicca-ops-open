@@ -263,3 +263,16 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - No new verified zero-human revenue figure in window; RunsBy.ai leader still FelixCraft/Masinov ~$212K lifetime.
 - Skipped: Seldon synthetic-users post (already listed), arXiv 2611.24892 restatement, "$275,938 Stripe-verified" money-short (0 imp, no source, again), ServiceNow/Anthropic-IPO/Teazelbtc agent-payments (off-topic or crypto).
 
+
+## 2026-11-22 22:00 run (window ~Nov 21–22)
+
+### B. Behavior simulation / human behavior foundation models
+- **Colgate LLM purchase-intent paper goes viral (via @HowToPrompt__)**: the post says LLMs role-playing customers predict real purchase intent. 2.48M imp, 26.0K likes, 39.8K bookmarks, 670 quotes (22:00 JST). https://x.com/HowToPrompt__/status/2124040349068964215
+- **Bret Kerr: who gets paid in simulation.** His answer is the owners of human ground truth (Kantar, NIQ, Qualtrics, Ipsos, YouGov) and the startups racing to get it. He says "Simile is valued at $2B" (his claim) and that commodity sample and mid-tier agencies lose. https://x.com/BretKerr/status/2124376472819286221
+- **Simsurveys**: AI models that simulate human behavior so CPG brands can predict purchase intent and test concepts (founder reply). https://x.com/mylesfriedman7/status/2124352591261798654
+- **usercase.io**: ran 5 synthetic users on its own candy store, and 4 of them left at the same FAQ line. https://x.com/usercaseio/status/2124254202591608975
+- **"Synthetic users are the draft, real users are the edit"** (Seldon thread): simulated output is a hypothesis generator, and the gap to observed behavior must be tracked. https://x.com/Dominic13173156/status/2124174737924604379
+
+### A. Zero-human / autonomous companies
+- No new verified zero-human revenue figure in window (ailon_build Day 188: $0 revenue honest log, category already listed).
+- Skipped: "$275,938 Stripe-verified" money-short (0 imp, no source, third time), GTA6 laptop-business hype, Teazelbtc agent payments (crypto), ServiceNow valuation thread (off-topic).

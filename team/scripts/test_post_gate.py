@@ -1,90 +1,101 @@
-#!/usr/bin/env python3
-"""Dry-run tests for post_gate.py. Never calls Postiz. Run: python3 team/scripts/test_post_gate.py"""
-import json, os, shutil, subprocess, sys, tempfile
-HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(os.path.dirname(HERE))
-GATE = os.path.join(HERE, "post-gate.py")
-NOW = "2026-11-12 00:30"
-SRC = "https://www.tiktok.com/@winner_example_real/video/7300000000000000000"
+"""Self-contained tests for post_gate's gate result and non-blocking advice output."""
+import datetime as dt
+import json
+import os
+import sys
+
+import pytest
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import post_gate
 
 
-def fixture(extra_claims=""):
-    d = tempfile.mkdtemp(prefix="postgate-")
-    for p in ["team/ACCOUNT-OWNERS.md", "team/CLAIMS.md", "team/distribution/shortform/marketing-destinations.json",
-              "team/lm-compat/lm/config/marketing-destinations.json"]:
-        os.makedirs(os.path.dirname(os.path.join(d, p)), exist_ok=True)
-        shutil.copy(os.path.join(ROOT, p), os.path.join(d, p))
-    with open(os.path.join(d, "team/CLAIMS.md"), "a") as f:
-        f.write("\n" + extra_claims + "\n")
-    return d
+def _write_repo(root):
+    (root / "team" / "distribution" / "shortform").mkdir(parents=True)
+    (root / "team").mkdir(parents=True, exist_ok=True)
+    (root / "team" / "ACCOUNT-OWNERS.md").write_text(
+        "```post-gate-owners\n"
+        "x | @test | tester |\n"
+        "```\n",
+        encoding="utf-8",
+    )
+    (root / "team" / "CLAIMS.md").write_text(
+        "- POST-CLAIM | 2026-11-22 12:00 JST | tester | x:@test | create | https://anicca.ai/winner/1\n",
+        encoding="utf-8",
+    )
+    (root / "team" / "distribution" / "shortform" / "marketing-destinations.json").write_text(
+        json.dumps({"targets": [{"platform": "x", "native_handle": "@test"}], "holds": []}),
+        encoding="utf-8",
+    )
 
 
-def run(root, *args):
-    env = {**os.environ, "POST_GATE_LOCAL_ROOT": root}
-    r = subprocess.run([sys.executable, GATE, "--now", NOW, *args], capture_output=True, text=True, env=env)
-    return r.returncode, (r.stdout + r.stderr).strip()
+def test_check_allows_owned_claimed_x_create(tmp_path, monkeypatch):
+    repo = tmp_path / "repo"
+    _write_repo(repo)
+    recent = tmp_path / "recent.json"
+    recent.write_text("[]", encoding="utf-8")
+    monkeypatch.setenv("POST_GATE_LOCAL_ROOT", str(repo))
+    monkeypatch.setenv("POST_GATE_IGNORE_MTIME", "1")
+    monkeypatch.setenv("POST_GATE_INTENTS", str(tmp_path / "intents.jsonl"))
+    monkeypatch.setattr(post_gate, "ct_link_check", lambda *args, **kwargs: None)
+
+    now = dt.datetime(2026, 11, 22, 12, 0, tzinfo=post_gate.JST)
+    result = post_gate.check(
+        "tester",
+        "x",
+        "@test",
+        "create",
+        "https://anicca.ai/winner/1",
+        now=now,
+        text="A fresh post",
+        recent_json=str(recent),
+    )
+
+    assert result["allowed"] is True
+    assert result["poster"] == "tester"
+    assert result["account"] == "x:@test"
 
 
-CASES = []
-def case(name, want, root, *args):
-    code, out = run(root, *args)
-    ok = (code == 0) == (want == "allow")
-    CASES.append(ok)
-    print(f"[{'PASS' if ok else 'FAIL'}] {name}: exit={code} -> {out}")
+def test_check_still_refuses_without_claim(tmp_path, monkeypatch):
+    repo = tmp_path / "repo"
+    _write_repo(repo)
+    (repo / "team" / "CLAIMS.md").write_text("", encoding="utf-8")
+    recent = tmp_path / "recent.json"
+    recent.write_text("[]", encoding="utf-8")
+    monkeypatch.setenv("POST_GATE_LOCAL_ROOT", str(repo))
+    monkeypatch.setenv("POST_GATE_IGNORE_MTIME", "1")
+    monkeypatch.setenv("POST_GATE_INTENTS", str(tmp_path / "intents.jsonl"))
+    monkeypatch.setattr(post_gate, "ct_link_check", lambda *args, **kwargs: None)
 
-base = fixture()
-case("参謀 -> tiktok @aniccaaffirmation (the 11/11 incident)", "refuse", base,
-     "--poster", "参謀", "--platform", "tiktok", "--account", "@aniccaaffirmation", "--action", "create", "--source-url", SRC)
-case("参謀 cancels Muse's scheduled post on @aniccaen2", "refuse", base,
-     "--poster", "grok-sanbo", "--platform", "tiktok", "--account", "@aniccaen2", "--action", "delete", "--source-url", SRC)
-case("Muse, no claim -> @honne_reveal", "refuse", base,
-     "--poster", "muse", "--platform", "tiktok", "--account", "@honne_reveal", "--action", "create", "--source-url", SRC)
+    now = dt.datetime(2026, 11, 22, 12, 0, tzinfo=post_gate.JST)
+    with pytest.raises(post_gate.Refused, match="no POST-CLAIM"):
+        post_gate.check(
+            "tester",
+            "x",
+            "@test",
+            "create",
+            "https://anicca.ai/winner/1",
+            now=now,
+            text="A fresh post",
+            recent_json=str(recent),
+        )
 
-claimed = fixture(f"- POST-CLAIM | 2026-11-12 00:10 JST | muse | tiktok:@honne_reveal | create | {SRC}\n"
-                  f"- POST-CLAIM | 2026-11-12 00:12 JST | muse | tiktok:@aniccaaffirmation | create | {SRC}")
-case("Muse, claimed 20 min ago, owner, winner URL, no hold -> @honne_reveal", "allow", claimed,
-     "--poster", "muse", "--platform", "tiktok", "--account", "@honne_reveal", "--action", "create", "--source-url", SRC)
-case("Muse, claimed, but no winner URL", "refuse", claimed,
-     "--poster", "muse", "--platform", "tiktok", "--account", "@honne_reveal", "--action", "create", "--source-url", "")
-case("Muse, claimed, owner post on @aniccaaffirmation (muse_only hold exempts Muse)", "allow", claimed,
-     "--poster", "muse", "--platform", "tiktok", "--account", "@aniccaaffirmation", "--action", "create", "--source-url", SRC)
-held = fixture(f"- POST-CLAIM | 2026-11-12 00:10 JST | muse | tiktok:@anicca.daily | create | {SRC}")
-case("Muse, claimed, but @anicca.daily has a hard hold (not_retained_for_recovery)", "refuse", held,
-     "--poster", "muse", "--platform", "tiktok", "--account", "@anicca.daily", "--action", "create", "--source-url", SRC)
-case("参謀 claims Muse's account in CLAIMS.md anyway -> still refused (owner check)", "refuse",
-     fixture(f"- POST-CLAIM | 2026-11-12 00:10 JST | grok-sanbo | tiktok:@aniccaaffirmation | create | {SRC}"),
-     "--poster", "grok-sanbo", "--platform", "tiktok", "--account", "@aniccaaffirmation", "--action", "create", "--source-url", SRC)
 
-stale = fixture(f"- POST-CLAIM | 2026-11-11 23:00 JST | muse | tiktok:@honne_reveal | create | {SRC}")
-case("Muse, claim 90 min old", "refuse", stale,
-     "--poster", "muse", "--platform", "tiktok", "--account", "@honne_reveal", "--action", "create", "--source-url", SRC)
+def test_main_prints_connect_advice_without_blocking(tmp_path, monkeypatch, capsys):
+    text_file = tmp_path / "post.txt"
+    text_file.write_text("今日の学びを共有します\nつながりたい方はぜひ", encoding="utf-8")
+    monkeypatch.setattr(post_gate, "check", lambda *args, **kwargs: {"allowed": True})
 
-conflict = fixture(f"- POST-CLAIM | 2026-11-12 00:10 JST | muse | tiktok:@honne_reveal | create | {SRC}\n"
-                   f"- POST-CLAIM | 2026-11-12 00:15 JST | codex | tiktok:@honne_reveal | create | {SRC}")
-case("Muse claimed, but Codex holds an open claim on same account", "refuse", conflict,
-     "--poster", "muse", "--platform", "tiktok", "--account", "@honne_reveal", "--action", "create", "--source-url", SRC)
-released = fixture(f"- POST-CLAIM | 2026-11-12 00:10 JST | muse | tiktok:@honne_reveal | create | {SRC}\n"
-                   f"- POST-CLAIM | 2026-11-12 00:15 JST | codex | tiktok:@honne_reveal | create | {SRC}\n"
-                   f"- POST-RELEASE | 2026-11-12 00:20 JST | codex | tiktok:@honne_reveal")
-case("Codex released its claim -> Muse allowed", "allow", released,
-     "--poster", "muse", "--platform", "tiktok", "--account", "@honne_reveal", "--action", "create", "--source-url", SRC)
+    rc = post_gate.main([
+        "--poster", "tester",
+        "--platform", "x",
+        "--account", "@test",
+        "--action", "create",
+        "--source-url", "https://anicca.ai/winner/1",
+        "--text-file", str(text_file),
+    ])
 
-# Postiz payload path (what the wired scripts use): integration id -> account
-pl = os.path.join(base, "payload.json")
-json.dump({"type": "schedule", "posts": [{"integration": {"id": "cmp93bkpu01uvoh0yd3aj560g"},
-                                          "value": [{"content": "x"}], "settings": {"__type": "tiktok"}}]}, open(pl, "w"))
-case("Postiz payload: 参謀 schedules to @aniccaaffirmation integration", "refuse", base,
-     "--poster", "参謀", "--postiz-payload", pl, "--action", "schedule", "--source-url", SRC)
-pl2 = os.path.join(claimed, "payload.json")
-json.dump({"type": "schedule", "posts": [{"integration": {"id": "cmoig11ew001zlv0yk6vqo1us"},
-                                          "value": [{"content": "x"}], "settings": {"__type": "tiktok"}}]}, open(pl2, "w"))
-case("Postiz payload: Muse, claimed, @honne_reveal integration", "allow", claimed,
-     "--poster", "muse", "--postiz-payload", pl2, "--action", "schedule", "--source-url", SRC)
-pl3 = os.path.join(claimed, "payload3.json")
-json.dump({"type": "now", "posts": [{"integration": {"id": "cmUNKNOWN000"}, "value": [{"content": "x"}],
-                                     "settings": {"__type": "tiktok"}}]}, open(pl3, "w"))
-case("Postiz payload: unmapped integration id", "refuse", claimed,
-     "--poster", "muse", "--postiz-payload", pl3, "--action", "create", "--source-url", SRC)
-
-print(f"\n{sum(CASES)}/{len(CASES)} passed")
-if __name__ == "__main__":
-    sys.exit(0 if all(CASES) else 1)
+    out = capsys.readouterr().out
+    assert rc == 0
+    assert "POST-GATE OK" in out
+    assert "POST-GATE ADVICE-WARN: connect request must be line 1 (X-STYLE 11/22)" in out

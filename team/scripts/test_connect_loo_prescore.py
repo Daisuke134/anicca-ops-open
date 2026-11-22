@@ -83,6 +83,31 @@ def test_by_segment(tmp_path):
     assert out["median_loo_err"] == statistics.median([r["abs_ln_err"] for r in out["loo"]])
 
 
+def test_last3(tmp_path):
+    lines = ["a,100,first", "b,200,first", "c,400,first", "d,800,first", "e,1600,first",
+             "f,1000,second", "g,3000,second"]
+    path = write(tmp_path, lines, "post_id,impr,segment")
+
+    # --last alone: previous 3 posts in CSV order, else fall back to all other rows
+    plain = {r["post_id"]: r for r in run(path, "--last", "3")["loo"]}
+    assert plain["d"]["pred"] == 200       # median(100, 200, 400)
+    assert plain["e"]["pred"] == 400       # median(200, 400, 800)
+    assert plain["f"]["pred"] == 800       # median(400, 800, 1600)
+    assert plain["g"]["pred"] == 1000      # median(800, 1600, 1000)
+    assert plain["a"]["pred"] == 900       # fallback: median(200,400,800,1000,1600,3000)
+    assert plain["a"]["fallback"] is True
+    assert plain["d"]["fallback"] is False
+
+    # --last with --by-segment: previous 3 posts in the same segment
+    seg = {r["post_id"]: r for r in run(path, "--by-segment", "--last", "3")["loo"]}
+    assert seg["d"]["pred"] == 200         # median(100, 200, 400) in "first"
+    assert seg["e"]["pred"] == 400         # median(200, 400, 800) in "first"
+    assert seg["f"]["pred"] == 600         # 0 earlier in "second" -> all rows except f
+    assert seg["g"]["pred"] == 600         # 1 earlier (< 3) -> all rows except g
+    assert seg["f"]["fallback"] is True
+    assert seg["g"]["fallback"] is True
+
+
 def test_by_segment_without_flag_is_old(tmp_path):
     lines = ["a,100,first", "b,200,repeat"]
     path = write(tmp_path, lines, "post_id,impr,segment")

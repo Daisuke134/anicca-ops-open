@@ -10,3 +10,4 @@ run_at,day,prev_day,revenue_jpy,revenue_prev,rev_pct,rev_result,diceai0_follower
 2026-11-15 21:26,2026-11-14,2026-11-13,0,0,n/a,FAIL,931,928,0.3,FAIL,31,35,-11.4,FAIL,FAIL,2,unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error)
 2026-11-20 21:32,2026-11-19,2026-11-18,0,0,n/a,FAIL,1165,1165,0.0,FAIL,24,27,-11.1,FAIL,FAIL,2,unknown (source error),unknown (source error),unknown (source error),unknown (source error),unknown (source error)
 2026-11-21 21:29,2026-11-20,2026-11-19,0,0,n/a,FAIL,1264,1165,8.5,FAIL,23,24,-4.2,FAIL,FAIL,2,26,unknown (source error),unknown (source error),unknown (source error),unknown (source error)
+2026-11-22 21:32,2026-11-21,2026-11-20,0,0,n/a,FAIL,1385,1264,9.6,FAIL,15,23,-34.8,FAIL,FAIL,2,27,unknown (source error),unknown (source error),unknown (source error),unknown (source error)

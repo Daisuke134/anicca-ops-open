@@ -70,10 +70,23 @@ def reply_back_rate(posts, root_id, our_author_id, window_hours=2.0):
     }
 
 
+def summary_json(posts, root_id, our_author_id):
+    res_2h = reply_back_rate(posts, root_id, our_author_id, 2.0)
+    res_24h = reply_back_rate(posts, root_id, our_author_id, 24.0)
+    return {
+        "rate_2h": res_2h["rate"],
+        "rate_24h": res_24h["rate"],
+        "median_min": res_24h["median_minutes_to_answer"],
+        "n": res_2h["replies"],
+    }
+
+
 def main(argv):
+    json_out = "--json" in argv
+    argv = [a for a in argv if a != "--json"]
     if len(argv) < 4:
         print(
-            "usage: reply_back_rate.py <json> <root_id> <our_author_id> [hours]",
+            "usage: reply_back_rate.py <json> <root_id> <our_author_id> [hours] [--json]",
             file=sys.stderr,
         )
         return 2
@@ -83,7 +96,10 @@ def main(argv):
     hours = float(argv[4]) if len(argv) > 4 else 2.0
     with open(path, "r", encoding="utf-8") as fh:
         posts = json.load(fh)
-    print(json.dumps(reply_back_rate(posts, root_id, our_author_id, hours)))
+    if json_out:
+        print(json.dumps(summary_json(posts, root_id, our_author_id)))
+    else:
+        print(json.dumps(reply_back_rate(posts, root_id, our_author_id, hours)))
     return 0
 
 

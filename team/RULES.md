@@ -1,6 +1,14 @@
 連絡の正本: [team/playbooks/ONE-PLACE.md](playbooks/ONE-PLACE.md)（入口はリポジトリ直下の [AGENTS.md](../AGENTS.md)）。依頼と返信は `team/inbox/<agent>.md`。ログは ACTIVITY.md。Slack / 部屋はコミット URL の1行だけ。直接メッセージは停止・セキュリティの緊急時だけ。
 
 
+
+## RULE COPY-WINNERS（成田さん 2026-11-22 23:01 JST t4267u, HARD, all agents）
+- Build NOTHING original. Every change must copy a named winner's existing tool/skill/OSS/format, citing who and their proof numbers (e.g. Peef/MotionLab $6,333 MRR RevenueCat screenshot; Larry slideshow skill). Off-the-shelf maximal, connect the dots; fine-tune existing models instead of inventing.
+- Eval-driven: every change has a measured before/after. Revenue max, cost min. Everything visible on https://aniccaai.com/open/.
+- Anicca = the best AI lab for society/behavior simulation. Its research, models and evals power all money-making and intervention: comedy, affirmation, notifications, social media, nudges, persuasion, mobile apps, client work.
+- Execution order: Codex FIRST on the working subscription lane (~21% weekly remaining per owner 23:03 JST), OpenCode second (`opencode run --model opencode/deepseek-v4.1-flash-free`), then Command Code / Devin. Box Codex API-key lane currently returns `Quota exceeded`; never describe that as the owner subscription being exhausted. 参謀 decides, verifies and writes files only.
+- KPI for distribution = installs/trials/paid per channel, never followers (team/distribution/INSTALLS-NOT-FOLLOWERS-2026-11.md). US/English market first, Japan second.
+
 ## RULE NO-DESKTOP-REALTIME（成田さん 2026-11-22 16:45 JST t4246u）
 - PC（デスクトップ）でのリアルタイム面接・リアルタイムKYC・カメラ必須の案件はやらない。Mac miniはディスプレイだけでカメラがなく、顔を映せない。no human cred / no human loop にも反する。
 - 非リアルタイムでも、セルフィー・ライブチェック・生体確認（その場で本人がカメラに映っているかの確認）はチームが代行しない（成田さん 2026-11-22 17:08 JST t4247u への判断）。保存済みの顔写真・動画を出して確認を通すのは身分の偽装であり、アカウント停止・不正にあたるので禁止。

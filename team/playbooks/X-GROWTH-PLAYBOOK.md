@@ -203,3 +203,7 @@ Every URL below was opened for the 2026-11-10 cadence study, the 2026-11-11 grow
 ## 2026-11-22 07:20 JST update (X Operator hunter; sources Q9, H2, O8 in marketing/X-GROWTH-SOURCES.md)
 - Quotes reach our own followers, replies reach theirs: do both daily; when replies are met and quotes are short, daytime runs quote first (Q9 @UndeadCommand52 https://x.com/UndeadCommand52/status/2122058980143120394, confirms Q1 to Q4).
 - Never reuse a post's first line within 48h, even on a winning format (H2 @thatGTMdude https://x.com/thatGTMdude/status/2122604500766929215 plus our own connect data O8). Skills x-growth-playbook and x-persuasion updated.
+
+## 2026-11-22 19:20 JST update (X Operator hunter; sources R30-R34, J15, C15, Q10, H3, O9 in marketing/X-GROWTH-SOURCES.md)
+- Outbound replies (to people who did not reply to us first) are counted apart from reply-backs: 70+/day, min 5 per run, raise to 100 after 3 days at 70 (R30 @TTrimoreau 100+ replies, 328 new followers in a day; R31 @ZazaGDev 300+ replies, 228 in 24h; R32 @razvanships 106 replies, 24 net). Targeting still decides results (R33 115 replies, -7 followers; R34 348 replies, 31 new). Our log O9: 35 outbound vs 43 reply-backs on 11-22.
+- Contrarian line 1 + exact own number line 2 + question last is a confirmed hook (H1 @SamuelTadross, H3 @namekomaind), without put-downs.

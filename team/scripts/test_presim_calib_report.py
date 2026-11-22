@@ -4,11 +4,12 @@ import math
 import statistics
 import subprocess
 import sys
+from datetime import datetime, timedelta
 from pathlib import Path
 
 import pytest
 
-from presim_calib_report import report
+from presim_calib_report import pending, report
 
 
 def test_exact_match_zero_error():
@@ -279,6 +280,70 @@ def test_cli_since_bad_usage_exit_2(tmp_path):
         [str(csv_path), "--since", "2026-11-21 15:45", "--since", "2026-11-21 16:00"],
         [str(csv_path), "--since", "2026-11-21 15:45", "--bogus"],
         [str(csv_path), "--bias", "--bias"],
+    ):
+        proc = _run_cli(script, args)
+        assert proc.returncode == 2, args
+        assert "usage:" in proc.stderr
+
+
+def _pending_csv(tmp_path, rows=None):
+    csv_path = tmp_path / "log.csv"
+    if rows is None:
+        now = datetime.now()
+        old = (now - timedelta(hours=5)).strftime("%Y-%m-%d %H:%M")
+        recent = (now - timedelta(hours=1)).strftime("%Y-%m-%d %H:%M")
+        rows = [
+            {"ts": old, "id": "a1", "text": "old pending post", "actual_impr": ""},
+            {"ts": recent, "id": "a2", "text": "recent pending post", "actual_impr": ""},
+            {"ts": old, "id": "a3", "text": "old with actuals", "actual_impr": "1234"},
+            {"ts": "not-a-date", "id": "a4", "text": "bad ts", "actual_impr": ""},
+        ]
+    with open(csv_path, "w", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=["ts", "id", "text", "actual_impr"])
+        writer.writeheader()
+        for row in rows:
+            writer.writerow(row)
+    return csv_path
+
+
+def test_pending_returns_old_rows_without_actuals():
+    now = datetime(2026, 11, 22, 12, 0)
+    rows = [
+        {"ts": "2026-11-21 06:00", "id": "a1", "text": "old", "actual_impr": ""},
+        {"ts": "2026-11-22 11:00", "id": "a2", "text": "recent", "actual_impr": ""},
+        {"ts": "2026-11-21 06:00", "id": "a3", "text": "has actual", "actual_impr": "10"},
+        {"ts": "2026-11-21 06:00", "id": "a4", "text": "bad ts", "actual_impr": "x"},
+    ]
+    rows[3]["ts"] = "bad"
+    result = pending(rows, 2, now=now)
+    assert result == [{"ts": "2026-11-21 06:00", "id": "a1", "text": "old"}]
+
+
+def test_pending_truncates_text_to_60():
+    now = datetime(2026, 11, 22, 12, 0)
+    rows = [{"ts": "2026-11-21 06:00", "id": "a1", "text": "x" * 100, "actual_impr": ""}]
+    result = pending(rows, 2, now=now)
+    assert result[0]["text"] == "x" * 60
+
+
+def test_cli_pending_flag(tmp_path):
+    csv_path = _pending_csv(tmp_path)
+    script = Path(__file__).with_name("presim_calib_report.py")
+    proc = _run_cli(script, [str(csv_path), "--pending", "2"])
+    assert proc.returncode == 0
+    data = json.loads(proc.stdout)
+    assert data == [{"ts": data[0]["ts"], "id": "a1", "text": "old pending post"}]
+    assert len(data) == 1
+
+
+def test_cli_pending_bad_usage_exit_2(tmp_path):
+    csv_path = _pending_csv(tmp_path)
+    script = Path(__file__).with_name("presim_calib_report.py")
+    for args in (
+        [str(csv_path), "--pending"],
+        [str(csv_path), "--pending", "abc"],
+        [str(csv_path), "--pending", "-1"],
+        [str(csv_path), "--pending", "2", "--pending", "3"],
     ):
         proc = _run_cli(script, args)
         assert proc.returncode == 2, args

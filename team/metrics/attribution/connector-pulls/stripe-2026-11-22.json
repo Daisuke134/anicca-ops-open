@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-11-22",
+    "product": "Stripe(anicca live + Anicca AI Inc live unknown this run)",
+    "layer": "revenue",
+    "source": "Stripe",
+    "key": "charges",
+    "metric": "charges_since_10-30",
+    "value": "unknown",
+    "note": "unknown (source error: Stripe MCP user-Stripe needsAuth / signed_out; stripe.env not present in /workspace/.secrets; macmini-stripe-* deployment secrets not used). last verified anicca live (acct_1RT5QgEeDsUAcaLS) 0 paid since 10/30 as-of 2026-11-20 15:48 JST; last verified Anicca AI Inc live (acct_1TmsXu4xo0Erf10I) 0 paid as-of 2026-11-15 15:39 JST; (attempted 2026-11-22 15:48 JST)"
+  }
+]

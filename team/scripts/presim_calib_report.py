@@ -5,7 +5,7 @@ import json
 import math
 import statistics
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 
 
 def _as_positive_float(value):
@@ -101,9 +101,82 @@ def _parse_ts(value):
         return None
 
 
+TS_FORMATS = (TS_FORMAT, "%Y-%m-%d %H:%M:%S")
+
+
+def _parse_ts_loose(value):
+    if value is None:
+        return None
+    text = str(value).strip()
+    if not text:
+        return None
+    for fmt in TS_FORMATS:
+        try:
+            return datetime.strptime(text, fmt)
+        except ValueError:
+            pass
+    if text.endswith("Z"):
+        text = text[:-1] + "+00:00"
+    try:
+        return datetime.fromisoformat(text)
+    except ValueError:
+        return None
+
+
+_ACTUAL_IMPR_KEYS = ("actual_impr", "actual_impressions", "impressions", "actual")
+
+
+def _has_actual_impressions(row):
+    for key in _ACTUAL_IMPR_KEYS:
+        if _as_positive_float(row.get(key)) is not None:
+            return True
+    return False
+
+
+def _parse_hours(value):
+    try:
+        hours = float(value)
+    except (TypeError, ValueError):
+        return None
+    if not math.isfinite(hours) or hours <= 0:
+        return None
+    return hours
+
+
+def pending(rows, hours, now=None):
+    out = []
+    for row in rows:
+        if _has_actual_impressions(row):
+            continue
+        ts_raw = row.get("ts")
+        if ts_raw is None or str(ts_raw).strip() == "":
+            ts_raw = row.get("ts_jst")
+        ts = _parse_ts_loose(ts_raw)
+        if ts is None:
+            continue
+        if now is not None:
+            ref = now
+            if ts.tzinfo is not None and ref.tzinfo is None:
+                ref = ref.replace(tzinfo=ts.tzinfo)
+        elif ts.tzinfo is not None:
+            ref = datetime.now(ts.tzinfo)
+        else:
+            ref = datetime.now()
+        if ts >= ref - timedelta(hours=hours):
+            continue
+        text = row.get("text")
+        out.append({
+            "ts": ts_raw,
+            "id": row.get("id"),
+            "text": "" if text is None else str(text)[:60],
+        })
+    return out
+
+
 def _parse_args(argv):
     bias = False
     since = None
+    pending_hours = None
     i = 2
     while i < len(argv):
         arg = argv[i]
@@ -113,15 +186,23 @@ def _parse_args(argv):
         elif arg == "--since" and since is None and i + 1 < len(argv):
             since = argv[i + 1]
             i += 2
+        elif arg == "--pending" and pending_hours is None and i + 1 < len(argv):
+            pending_hours = _parse_hours(argv[i + 1])
+            if pending_hours is None:
+                return None
+            i += 2
         else:
             return None
     if since is not None and _parse_ts(since) is None:
         return None
-    return bias, since
+    return bias, since, pending_hours
 
 
 def _usage(argv):
-    print(f'usage: {argv[0]} <csv> [--bias] [--since "YYYY-MM-DD HH:MM"]', file=sys.stderr)
+    print(
+        f'usage: {argv[0]} <csv> [--bias] [--since "YYYY-MM-DD HH:MM"] [--pending HOURS]',
+        file=sys.stderr,
+    )
 
 
 def main(argv):
@@ -132,7 +213,7 @@ def main(argv):
     if parsed is None:
         _usage(argv)
         return 2
-    bias, since = parsed
+    bias, since, pending_hours = parsed
     with open(argv[1], newline="") as fh:
         rows = list(csv.DictReader(fh))
     if since is not None:
@@ -141,6 +222,9 @@ def main(argv):
             row for row in rows
             if (ts := _parse_ts(row.get("ts_jst"))) is not None and ts >= cutoff
         ]
+    if pending_hours is not None:
+        print(json.dumps(pending(rows, pending_hours)))
+        return 0
     print(json.dumps(report(rows, bias=bias)))
     return 0
 

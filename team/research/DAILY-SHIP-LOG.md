@@ -288,3 +288,10 @@ Other 5 apps (Honne, Dhamma Quotes, Sleep Reset, Thankful, STUDIO CHERIE): hande
 KEEP/REVERT: all 11/20+ changes HOLD (PT 11/21 discovery not published yet). Anicca CPP KW (11/15): judge when PT 11/21 lands (~11/23).
 #498 Muse holiday shorts ×3 (ct=evt_holiday_20261122) and outliers #1/#3: **not landed** at 10:00 (due 11/22 10:00 JST missed; 5th miss). No new outlier briefs this run, because the two earlier briefs are still unposted.
 
+
+### 2026-11-22 14:2x JST — growth loop 14:00 (参謀)
+Funnel: no new ASC data since 10:20 pull (newest PT 11/20); numbers unchanged (Anicca PT 11/14–20 = 439 imp → 155 PV → 3 DL → trial 0 → purchase 0). Weakest step still search imp→PV 2.6%.
+| App | Change | Hypothesis | Metric to watch | ID / state |
+|---|---|---|---|---|
+| Anicca 6755129214 | SHIP #2 today: submitted in-app event "2027 January - 7-Day Kinder Words (EN)" (en-US loc + card + details assets complete, 41 territories, publish 2027-01-02 JST) | In-app event cards show in search/Today for new-season intent; a 2nd queued event after New Year (6833871115 APPROVED) keeps an event card live through Jan (https://developer.apple.com/app-store/in-app-events/) | event impressions/PV/DL Jan; search imp→PV | event 6833871152, submission 3e5c470f-fb68-4d04-9ae0-e75fb4941950, WAITING_FOR_REVIEW |
+Live now: Holiday Calm event 6837154919 PUBLISHED since 11/22 00:00 JST (first measurable PT 11/22 data ~11/24). #498 → @devin production (due 18:00), Muse posts by 21:00. Other 5 apps: still with @codex, verify at 18:00.

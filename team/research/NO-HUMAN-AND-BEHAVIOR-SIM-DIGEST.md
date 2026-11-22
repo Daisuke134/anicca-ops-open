@@ -250,3 +250,16 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 ### A. Zero-human / autonomous companies
 - No new verified zero-human revenue figure in window. Grok's own answer calls "zero-human company" an active emerging category without formal classification (https://x.com/grok/status/2124277378838835318).
 - Skipped: $NOHR memecoin "AI agents run the company" shill (crypto), "$275,938 Stripe-verified" money-short with 0 impressions and no source, restatements of corsaren / ailon / NiriLabSI / Persimmon / Seldon (already listed).
+
+## 2026-11-22 16:00 run (window ~Nov 21–22)
+
+### B. Behavior simulation / human behavior foundation models
+- **Elu (SOTA2 feature): coding agent writes a fix, then checks it with code review AND simulated users before merging** — simulated users as a pre-merge gate. 69 imp / 3 likes. https://x.com/sota2_hq/status/2124358219917316544
+- **crowd-check (Claude skill): tests a design or live page against 200 simulated users in four groups of 50** — "not one real, but the problems found are mostly real". 63 imp. https://x.com/Viho_Huangg/status/2124143416632082612
+- **Simulator-overfitting warning** — apps can get excellent at pleasing the simulator; hold out real-user behavior incl. abandonment to test the simulator itself. https://x.com/ShivamGuptaim/status/2124026760056746047
+- **Plurai Simulation ("self-improving layer for AI agents")** — simulation product for agent testing (launch date not confirmed in window). https://www.plurai.ai/blog/introducing-plurai-simulation-self-improving-layer-for-ai-agents
+
+### A. Zero-human / autonomous companies
+- No new verified zero-human revenue figure in window; RunsBy.ai leader still FelixCraft/Masinov ~$212K lifetime.
+- Skipped: Seldon synthetic-users post (already listed), arXiv 2611.24892 restatement, "$275,938 Stripe-verified" money-short (0 imp, no source, again), ServiceNow/Anthropic-IPO/Teazelbtc agent-payments (off-topic or crypto).
+

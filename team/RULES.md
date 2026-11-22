@@ -1,6 +1,12 @@
 連絡の正本: [team/playbooks/ONE-PLACE.md](playbooks/ONE-PLACE.md)（入口はリポジトリ直下の [AGENTS.md](../AGENTS.md)）。依頼と返信は `team/inbox/<agent>.md`。ログは ACTIVITY.md。Slack / 部屋はコミット URL の1行だけ。直接メッセージは停止・セキュリティの緊急時だけ。
 
 
+## RULE NO-DESKTOP-REALTIME（成田さん 2026-11-22 16:45 JST t4246u）
+- PC（デスクトップ）でのリアルタイム面接・リアルタイムKYC・カメラ必須の案件はやらない。Mac miniはディスプレイだけでカメラがなく、顔を映せない。no human cred / no human loop にも反する。
+- 非リアルタイムでも、セルフィー・ライブチェック・生体確認（その場で本人がカメラに映っているかの確認）はチームが代行しない（成田さん 2026-11-22 17:08 JST t4247u への判断）。保存済みの顔写真・動画を出して確認を通すのは身分の偽装であり、アカウント停止・不正にあたるので禁止。
+- 面接なし、かつID・セルフィーも不要な案件は、すべてチームが自分で取りにいく。
+- RULE PLATFORM-BEST-PRACTICE：各プラットフォーム（Fiverr、Mercor、Contra、Upwork、Lancers、CrowdWorks、Coconala、Capafy等）ごとに「稼ぐためのベストプラクティス」スキルを team/skills/platforms/<platform>.md に作る。GitHubに既存のオープンソースのスキルがあればそれを使う。毎日ベストプラクティスを検索してスキルを更新し、そのスキルで実際に運用する。評価指標は platformごとの受注数と入金額。
+
 ## RULE ONE-FLESH-REVENUE (成田さん 2026-11-22 10:39 JST t4242u/t4243u, HARD, all agents)
 Goal = MONEY. Revenue must exceed spend (we are still bleeding). Applications/proposals are process, not result. Win by creating value and selling more, not by shutting everything down.
 1. ZERO-COST COMMS: all agent-to-agent communication is GitHub files only (RULE ONE-PLACE). No duplicate messages, no re-asking, no status chatter, no paid channel, no LLM tokens spent on talk. One message, one owner, one reply.

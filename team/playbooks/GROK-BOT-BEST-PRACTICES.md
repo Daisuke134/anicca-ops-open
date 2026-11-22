@@ -47,4 +47,3 @@ Each entry: date, source, practice, what I changed, proof, effect (measured or U
 
 - 2026-11-22 00:5x JST SKILL-AFTER-FIRST-SUCCESS: RWS Lever skill saved (team/skills/browser/rws.md). Run 2 with skill pasted: fill phase shorter, but captcha bounce made it 282 s vs 218 s → keep (failure was captcha, not steps); re-measure next submit.
 - 07:4x JST 11/22 no new practice adopted. 2 posts passed the gate and were read: https://x.com/i/status/2124148457187524854 (38 likes; grokbot-bridge, macOS-only Claude Code/Codex plugin, 0 stars; our box is Linux and the Mac mini is being sold → doesn't fit) and https://x.com/i/status/2124215109195374678 (32 likes/24 bm; list of 10 template libraries → already adopted as template-first 11/16). Effect: none.
-

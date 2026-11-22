@@ -1,5 +1,5 @@
 {
-  "read_at": "2026-11-22 08:48 JST",
+  "read_at": "2026-11-22 15:48 JST",
   "source": "RevenueCat connector get-overview-metrics, all 22 projects from list-projects (USD)",
   "projects": [
     {
@@ -89,8 +89,8 @@
       "active_subscriptions": 0,
       "active_trials": 0,
       "revenue": 0,
-      "new_customers": 22,
-      "active_users": 26
+      "new_customers": 24,
+      "active_users": 28
     },
     {
       "project": "Wee",

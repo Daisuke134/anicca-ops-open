@@ -216,34 +216,46 @@ date,app,rc_app_id,rc_project,rc_revenue_usd,rc_transactions,rc_new_trials,rc_ne
 2026-11-18,ASC: Honne: Text Message Decoder,,,,,,,1,0.0, ,2026-11-21 08:46 JST,ASC Sales SUMMARY DAILY v1_1
 2026-11-20,ASC (all apps),,,,,,,unknown (source error: HTTP 404 no sales report for this date (Apple: report not available / no sales)),unknown (source error: HTTP 404 no sales report for this date (Apple: report not available / no sales)),,2026-11-21 08:46 JST,ASC Sales SUMMARY DAILY v1_1
 2026-11-19,HonneAI,app3bbd298d22,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app3bbd298d22
-2026-11-20,HonneAI,app3bbd298d22,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app3bbd298d22
-2026-11-21,HonneAI,app3bbd298d22,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app3bbd298d22
 2026-11-19,BreathReset,app498e23effc,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app498e23effc
-2026-11-20,BreathReset,app498e23effc,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app498e23effc
-2026-11-21,BreathReset,app498e23effc,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app498e23effc
 2026-11-19,anicca,app511ef26659,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app511ef26659
-2026-11-20,anicca,app511ef26659,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app511ef26659
-2026-11-21,anicca,app511ef26659,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app511ef26659
 2026-11-19,SleepRitual,app92143da86e,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app92143da86e
-2026-11-20,SleepRitual,app92143da86e,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app92143da86e
-2026-11-21,SleepRitual,app92143da86e,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id app92143da86e
 2026-11-19,Desk Stretch Timer,appca8d955a75,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id appca8d955a75
-2026-11-20,Desk Stretch Timer,appca8d955a75,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id appca8d955a75
-2026-11-21,Desk Stretch Timer,appca8d955a75,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id appca8d955a75
 2026-11-19,Micro Mood,appdda58236fa,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id appdda58236fa
-2026-11-20,Micro Mood,appdda58236fa,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id appdda58236fa
-2026-11-21,Micro Mood,appdda58236fa,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project projbb7b9d1b app_id appdda58236fa
 2026-11-19,Thankful,app2672aee816,7aaf9429,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project 7aaf9429 app_id app2672aee816
-2026-11-20,Thankful,app2672aee816,7aaf9429,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project 7aaf9429 app_id app2672aee816
-2026-11-21,Thankful,app2672aee816,7aaf9429,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project 7aaf9429 app_id app2672aee816
 2026-11-19,Dhamma,appbe1e2ee955,86624956,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project 86624956 app_id appbe1e2ee955
-2026-11-20,Dhamma,appbe1e2ee955,86624956,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project 86624956 app_id appbe1e2ee955
-2026-11-21,Dhamma,appbe1e2ee955,86624956,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project 86624956 app_id appbe1e2ee955
 2026-11-19,Sleep Reset,appd13f39e1cf,77301666,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project 77301666 app_id appd13f39e1cf
-2026-11-20,Sleep Reset,appd13f39e1cf,77301666,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project 77301666 app_id appd13f39e1cf
-2026-11-21,Sleep Reset,appd13f39e1cf,77301666,0.0,0.0,0.0,0.0,,,,2026-11-22 08:47 JST,RevenueCat v2 charts project 77301666 app_id appd13f39e1cf
 2026-11-19,ASC: Daily Affirmations - Anicca,,,,,,,0,0.0,JPY,2026-11-22 08:47 JST,ASC Sales SUMMARY DAILY v1_1
 2026-11-19,ASC: Dhamma Quotes: Buddha Quotes,,,,,,,1,0.0, ,2026-11-22 08:47 JST,ASC Sales SUMMARY DAILY v1_1
-2026-11-20,ASC: Dhamma Quotes: Buddha Quotes,,,,,,,2,0.0, ,2026-11-22 08:47 JST,ASC Sales SUMMARY DAILY v1_1
-2026-11-20,ASC: Daily Affirmations - Anicca,,,,,,,0,0.0,USD,2026-11-22 08:47 JST,ASC Sales SUMMARY DAILY v1_1
 2026-11-21,ASC (all apps),,,,,,,unknown (source error: HTTP 404 no sales report for this date (Apple: report not available / no sales)),unknown (source error: HTTP 404 no sales report for this date (Apple: report not available / no sales)),,2026-11-22 08:47 JST,ASC Sales SUMMARY DAILY v1_1
+2026-11-20,HonneAI,app3bbd298d22,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app3bbd298d22
+2026-11-21,HonneAI,app3bbd298d22,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app3bbd298d22
+2026-11-22,HonneAI,app3bbd298d22,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app3bbd298d22
+2026-11-20,BreathReset,app498e23effc,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app498e23effc
+2026-11-21,BreathReset,app498e23effc,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app498e23effc
+2026-11-22,BreathReset,app498e23effc,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app498e23effc
+2026-11-20,anicca,app511ef26659,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app511ef26659
+2026-11-21,anicca,app511ef26659,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app511ef26659
+2026-11-22,anicca,app511ef26659,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app511ef26659
+2026-11-20,SleepRitual,app92143da86e,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app92143da86e
+2026-11-21,SleepRitual,app92143da86e,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app92143da86e
+2026-11-22,SleepRitual,app92143da86e,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id app92143da86e
+2026-11-20,Desk Stretch Timer,appca8d955a75,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id appca8d955a75
+2026-11-21,Desk Stretch Timer,appca8d955a75,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id appca8d955a75
+2026-11-22,Desk Stretch Timer,appca8d955a75,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id appca8d955a75
+2026-11-20,Micro Mood,appdda58236fa,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id appdda58236fa
+2026-11-21,Micro Mood,appdda58236fa,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id appdda58236fa
+2026-11-22,Micro Mood,appdda58236fa,projbb7b9d1b,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project projbb7b9d1b app_id appdda58236fa
+2026-11-20,Thankful,app2672aee816,7aaf9429,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project 7aaf9429 app_id app2672aee816
+2026-11-21,Thankful,app2672aee816,7aaf9429,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project 7aaf9429 app_id app2672aee816
+2026-11-22,Thankful,app2672aee816,7aaf9429,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project 7aaf9429 app_id app2672aee816
+2026-11-20,Dhamma,appbe1e2ee955,86624956,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project 86624956 app_id appbe1e2ee955
+2026-11-21,Dhamma,appbe1e2ee955,86624956,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project 86624956 app_id appbe1e2ee955
+2026-11-22,Dhamma,appbe1e2ee955,86624956,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project 86624956 app_id appbe1e2ee955
+2026-11-20,Sleep Reset,appd13f39e1cf,77301666,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project 77301666 app_id appd13f39e1cf
+2026-11-21,Sleep Reset,appd13f39e1cf,77301666,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project 77301666 app_id appd13f39e1cf
+2026-11-22,Sleep Reset,appd13f39e1cf,77301666,0.0,0.0,0.0,0.0,,,,2026-11-23 08:40 JST,RevenueCat v2 charts project 77301666 app_id appd13f39e1cf
+2026-11-20,ASC: Dhamma Quotes: Buddha Quotes,,,,,,,2,0.0, ,2026-11-23 08:40 JST,ASC Sales SUMMARY DAILY v1_1
+2026-11-20,ASC: Daily Affirmations - Anicca,,,,,,,0,0.0,USD,2026-11-23 08:40 JST,ASC Sales SUMMARY DAILY v1_1
+2026-11-21,ASC: Dhamma Quotes: Buddha Quotes,,,,,,,0,0.0,USD,2026-11-23 08:40 JST,ASC Sales SUMMARY DAILY v1_1
+2026-11-21,ASC: Daily Affirmations - Anicca,,,,,,,0,0.0,JPY,2026-11-23 08:40 JST,ASC Sales SUMMARY DAILY v1_1
+2026-11-22,ASC (all apps),,,,,,,unknown (source error: HTTP 404 no sales report for this date (Apple: report not available / no sales)),unknown (source error: HTTP 404 no sales report for this date (Apple: report not available / no sales)),,2026-11-23 08:40 JST,ASC Sales SUMMARY DAILY v1_1

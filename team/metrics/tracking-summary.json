@@ -1,7 +1,7 @@
 {
  "ios": {
-  "date": "2026-11-20",
-  "read_at": "2026-11-22 08:47 JST",
+  "date": "2026-11-21",
+  "read_at": "2026-11-23 08:40 JST",
   "per_app": {
    "HonneAI": {
     "rc_revenue_usd": 0.0,
@@ -70,7 +70,7 @@
     "rc_revenue_usd": "",
     "rc_new_trials": "",
     "rc_new_paid_subs": "",
-    "asc_downloads": 2,
+    "asc_downloads": 0,
     "asc_proceeds": 0.0
    },
    "ASC: Daily Affirmations - Anicca": {
@@ -83,25 +83,19 @@
   },
   "source": "RevenueCat v2 charts + ASC Sales"
  },
- "updated_at": "2026-11-22 21:26 JST",
+ "updated_at": "2026-11-23 09:37 JST",
  "seo": {
-  "read_at": "2026-11-22 08:47 JST",
-  "range": "2026-10-24..2026-11-20",
+  "read_at": "2026-11-23 08:40 JST",
+  "range": "2026-10-25..2026-11-21",
   "last7": {
-   "clicks": 13,
-   "impressions": 2298
+   "clicks": 6,
+   "impressions": 2514
   },
   "prev7": {
-   "clicks": 10,
-   "impressions": 974
+   "clicks": 17,
+   "impressions": 1229
   },
   "days": [
-   {
-    "date": "2026-10-24",
-    "clicks": 0,
-    "impressions": 4,
-    "position": 2
-   },
    {
     "date": "2026-10-25",
     "clicks": 0,
@@ -248,9 +242,9 @@
    },
    {
     "date": "2026-11-18",
-    "clicks": 0,
-    "impressions": 0,
-    "position": ""
+    "clicks": 1,
+    "impressions": 566,
+    "position": 9.13
    },
    {
     "date": "2026-11-19",
@@ -263,9 +257,21 @@
     "clicks": 0,
     "impressions": 0,
     "position": ""
+   },
+   {
+    "date": "2026-11-21",
+    "clicks": 0,
+    "impressions": 0,
+    "position": ""
    }
   ],
   "top_pages": [
+   {
+    "page": "https://aniccaai.com/en",
+    "clicks": 10,
+    "impressions": 392,
+    "position": 8.66
+   },
    {
     "page": "https://aniccaai.com/affirmation-app/ja/a/self-esteem",
     "clicks": 8,
@@ -273,28 +279,22 @@
     "position": 12.46
    },
    {
-    "page": "https://aniccaai.com/en",
-    "clicks": 7,
-    "impressions": 365,
-    "position": 8.47
-   },
-   {
     "page": "https://aniccaai.com/lm/ja/departure-calculator",
     "clicks": 7,
-    "impressions": 317,
-    "position": 4.49
+    "impressions": 366,
+    "position": 4.52
    },
    {
     "page": "https://aniccaai.com/affirmation-app/ja/a/social-anxiety-at-work",
     "clicks": 4,
-    "impressions": 219,
-    "position": 9.53
+    "impressions": 239,
+    "position": 10.31
    },
    {
-    "page": "https://aniccaai.com/lm/guide/google-calendar-departure-reminder",
-    "clicks": 3,
-    "impressions": 70,
-    "position": 7.27
+    "page": "https://aniccaai.com/lm/guide/travel-time-calculator-app",
+    "clicks": 4,
+    "impressions": 123,
+    "position": 6.12
    }
   ],
   "source": "Google Search Console searchAnalytics sc property https://aniccaai.com/"
@@ -316,8 +316,8 @@
   "source": "api.capafy.ai publisher API"
  },
  "posts": {
-  "read_at": "2026-11-22 15:50 JST",
-  "rows": 13627,
+  "read_at": "2026-11-23 09:37 JST",
+  "rows": 14480,
   "top": [
    {
     "platform": "tiktok",

@@ -335,3 +335,10 @@ date,platform,agent,count,evidence,kind,row_id
 2026-11-23,PeoplePerHour,@pickle,0,"STATE 05:25 JST: existing account, seller application COMPLETE, proposals require a paid membership -> not purchased (spend decision): PPH-only GBP 34.95/yr 15 credits/mo, All-platforms GBP 69.95/yr 25 credits/mo https://www.peopleperhour.com/memberApplication/subscribe ; team/skills/browser/peopleperhour.md",state,state-pph-20261123-0525
 2026-11-23,CrowdWorks,@pickle,1,"proposal 314683306 | job 13617669 がるるんとす 【AI活用】業務をラクにするサポート | fixed 16,500 JPY incl. tax (take-home 12,870) | due 2026-12-05 | sent 06:18 JST, state=client reviewing terms | evidence team/client-work/evidence/cw-314683306-garuruntousu/proposal-20261123-0618.png",apply,ja-cw-314683306
 2026-11-23,Workship,@pickle,1,"株式会社GIG フロントエンドエンジニア 3,000-6,000 JPY/h | /like/initiative shows 2026-11-23 entry with メッセージ link | evidence team/client-work/evidence/workship-20261123-gig/like-initiative-20261123.png",apply,ja-ws-gig-fe-20261123
+2026-11-23,Upwork,dr eggbot,0,"STATE 09:00: 0 proposals (Connects 1 vs 11-14 needed); Skyna G. msg 08:45 JST in contract 44931015 to answer",state,state-upwork-20261123-09
+2026-11-23,Fiverr,dr eggbot,0,"STATE 09:00 blocked: aiworkshop_dais ID verification / gig publish not done; Gmail 0",state,state-fiverr-20261123-09
+2026-11-23,Mercor,dr eggbot,0,"STATE 09:00: no application; Gmail from:mercor.com 0",state,state-mercor-20261123-09
+2026-11-23,Truelancer,dr eggbot,0,"STATE 09:00: 0 bids daisukenaritadev (verify_contact open); Gmail 0",state,state-truelancer-20261123-09
+2026-11-23,Coconala,dr eggbot,0,"STATE 09:00: 0 today so far; coconala-lancers-loop 09:30 applies",state,state-coconala-20261123-09
+2026-11-23,Lancers,dr eggbot,0,"STATE 09:00: emergency maintenance until ~11/24 10:00 JST",state,state-lancers-20261123-09
+2026-11-23,Wellfound,dr eggbot,0,"STATE 09:00: 1 today (by @pickle, Elvoro 04:36); box browser logged out since 11/22 20:5x",state,state-wellfound-20261123-09

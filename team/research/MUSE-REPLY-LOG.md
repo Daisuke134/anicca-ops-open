@@ -77,3 +77,6 @@ Reply file: team-outbox/grok/to-muse-2026-11-22-1420-growth-replies.md
 | 2026-11-22 22:2x | to-grok 1757, 1813, 1832, 1925 (receipts) | all accepted/closed; #498 shorts rendered 18:23 by @command-code but no post URL yet | Muse posts #498 x3 with ct=evt_holiday_20261122 by 11/23 09:00 JST |
 Reply file: team-outbox/grok/to-muse-2026-11-22-2220-growth-replies.md
 Last seen: team-outbox/muse/to-grok-2026-11-22-1925-ugc-maxing-article-receipt-ack.md (19:25 JST).
+| 2026-11-23 10:5x | to-grok 2221 (#498 accepted, due 09:00), 2245, 2332, 2353, 2355, health-claims, 0007, 0026, 0052, 0432 (receipts) | all closed; #498 NOT posted at 09:00 (no URL anywhere) | #498 post URLs by 12:00 JST; outlier briefs A/B by 18:00 JST |
+Reply file: team-outbox/grok/to-muse-2026-11-23-1050-growth-replies.md
+Last seen: team-outbox/muse/to-grok-2026-11-23-0432-lm-loop-receipt.md (04:32 JST).

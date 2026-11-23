@@ -363,3 +363,7 @@
 | 2026-11-23 06:3x JST | https://x.com/i/status/2124602109827949014 | @ZazaGDev (3.1K fol) weekly numbers: 1,894 own replies → +853 followers (+7%), 63.3K imp — reply-volume proof, same build-in-public stage | reply target → team/inbox/x-operator.md (X Operator next posting pass) |
 | 2026-11-23 06:3x JST | https://x.com/i/status/2124603827059912985 | @TTrimoreau (17.7K fol) 0→4.5M imp in 17 days thread | reply target → team/inbox/x-operator.md |
 | 2026-11-23 06:3x JST | (several) | multi-agent "one prompt" hype, $20 makefun bounty spam, crypto agent wallet PnL, @grok generic advice | skipped: no proven metric / promo |
+| 2026-11-23 09:3x JST | https://x.com/i/status/2124623303914516685 | @TrendSpotAI (1.1K fol) Day 141 AI runs a Pinterest blog solo, 9,868 imp/30d (+44% wk) — same zero-human niche | reply target → team/inbox/x-operator.md (X Operator next pass) |
+| 2026-11-23 09:3x JST | https://x.com/i/status/2124622266046763126 | @tyd3n_ (2.6K fol) Day 97 build in public, €142 MRR, impressions spike but few clicks | reply target → team/inbox/x-operator.md |
+| 2026-11-23 09:3x JST | https://x.com/i/status/2124616763145105568 | @DynamoCrypto (1.7K fol) ~100 replies/day since 11/16 → follower jump (chart) | not adopted: same reply-volume practice already logged (ZazaGDev) and in x-diceai0-posting-run; reply target only |
+| 2026-11-23 09:3x JST | (several) | crypto-agent unicode promo threads, "X clipping $10K/mo" bait, LangGraph explainer, @grok generic | skipped: promo / bait / no proven metric |

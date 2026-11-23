@@ -348,3 +348,62 @@ def test_cli_pending_bad_usage_exit_2(tmp_path):
         proc = _run_cli(script, args)
         assert proc.returncode == 2, args
         assert "usage:" in proc.stderr
+
+
+def test_pending_skips_rows_with_empty_id_and_text():
+    now = datetime(2026, 11, 22, 12, 0)
+    old = "2026-11-21 06:00"
+    rows = [
+        {"ts": old, "id": "", "text": "", "actual_impr": ""},
+        {"ts": old, "id": None, "text": "   ", "actual_impr": ""},
+        {"ts": old, "id": "  ", "text": "", "actual_impr": ""},
+        {"ts": old, "id": "", "text": "kept by text", "actual_impr": ""},
+        {"ts": old, "id": "kept by id", "text": "", "actual_impr": ""},
+        {"ts": old, "id": "a1", "text": "normal", "actual_impr": ""},
+    ]
+    result = pending(rows, 2, now=now)
+    assert [r["id"] for r in result] == ["", "kept by id", "a1"]
+    assert result[0]["text"] == "kept by text"
+    assert result[1]["text"] == ""
+    assert result[2]["text"] == "normal"
+
+
+def test_pending_all_empty_id_and_text_returns_empty():
+    now = datetime(2026, 11, 22, 12, 0)
+    rows = [
+        {"ts": "2026-11-21 06:00", "id": "", "text": "", "actual_impr": ""},
+        {"ts": "2026-11-21 06:00", "actual_impr": ""},
+    ]
+    assert pending(rows, 2, now=now) == []
+
+
+def _pending_count_csv(tmp_path):
+    return _pending_csv(tmp_path, rows=[
+        {"ts": "2000-01-01 00:00", "id": "a1", "text": "old pending post", "actual_impr": ""},
+        {"ts": "2000-01-01 00:00", "id": "", "text": "", "actual_impr": ""},
+        {"ts": "2000-01-01 00:00", "id": "a3", "text": "old with actuals", "actual_impr": "1234"},
+    ])
+
+
+def test_cli_pending_count_prints_integer(tmp_path):
+    csv_path = _pending_count_csv(tmp_path)
+    script = Path(__file__).with_name("presim_calib_report.py")
+    proc = _run_cli(script, [str(csv_path), "--pending", "2", "--count"])
+    assert proc.returncode == 0
+    assert proc.stdout.strip() == "1"
+    proc2 = _run_cli(script, [str(csv_path), "--count", "--pending", "2"])
+    assert proc2.returncode == 0
+    assert proc2.stdout.strip() == "1"
+
+
+def test_cli_count_requires_pending(tmp_path):
+    csv_path = _pending_csv(tmp_path)
+    script = Path(__file__).with_name("presim_calib_report.py")
+    for args in (
+        [str(csv_path), "--count"],
+        [str(csv_path), "--count", "--bias"],
+        [str(csv_path), "--count", "--count"],
+    ):
+        proc = _run_cli(script, args)
+        assert proc.returncode == 2, args
+        assert "usage:" in proc.stderr

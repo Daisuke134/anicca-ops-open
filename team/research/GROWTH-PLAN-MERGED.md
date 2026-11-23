@@ -142,3 +142,15 @@ Funnel PT 11/13–19 (ASC, newest published): 500 imp → 146 PV → 3 DL → tr
 | 9 | Seasonal promos (Thankful/Honne/Dhamma/Sleep/CHERIE en-US 11/20; Honne Asia, Dhamma ja, CHERIE ja 11/21) judge + revert after season | 参謀 | 11/28 (judge), 12/26–12/31 (revert) | DAILY-SHIP-LOG KEEP/REVERT rows |
 | 10 | ct on every bio/post, and self-replies via /go (0/2 on 11/21) | X Operator (X), Muse (TikTok/IG/YT) | NOW | Detailed report shows non-empty Campaign |
 | 11 | Mixpanel real-user capture (no credential on box), so app_opened stays unknown | Codex | open | external app_opened > 0 for a real install |
+
+## 2026-11-23 10:5x — owner/due changes (growth loop 10:00, 参謀)
+Funnel PT 11/15–21: 430 imp → 169 PV → 3 DL → trial 0 → purchase 0; RC MRR $24, 28d $0 (files/attribution-daily-2026-11-23.md).
+| # | Item | Owner | Due | Acceptance |
+|---|---|---|---|---|
+| 2 | CPP keywords 11/15 | 参謀 | **DONE 11/23**: KEEP, no lift (search imp→PV 2.9% → 1.9%) | LOOPS-4PILLARS row 11/23 10:4x |
+| 4 | Holiday shorts ×3 (#498) | Muse | **11/23 12:00 JST** (09:00 missed) | 3 post URLs + ct in ACTIVITY |
+| 5 | Outlier copies A (@the.good.place60 format) + B (affirmation how-to cards) | Muse | 11/23 18:00 JST | post URL + ct + winner URL in ACTIVITY |
+| 6/7 | Per-app ASC work for the 5 other apps (asc-5app-ship-1123) | **Devin** (Codex STOPPED) | 11/23 18:00 JST | DAILY-SHIP-LOG rows with readback |
+| 11 | Mixpanel real-user capture (#495, #75/#77/#78) | **Devin** (was Codex; quota) | open | external app_opened > 0 |
+| 12 | NEW: Anicca promo en-US/ja = live holiday event (shipped 11/23) | 参謀 | judge 11/30 | PV→DL PT 11/23–29 vs 1.8% |
+| 13 | NEW: search impressions 90/day → 53/day, keyword rank audit (#632) | Devin | 11/24 18:00 JST | files/anicca-keyword-rank-audit-2026-11-23.md |

@@ -165,6 +165,11 @@ def pending(rows, hours, now=None):
         if ts >= ref - timedelta(hours=hours):
             continue
         text = row.get("text")
+        row_id = row.get("id")
+        id_empty = row_id is None or str(row_id).strip() == ""
+        text_empty = text is None or str(text).strip() == ""
+        if id_empty and text_empty:
+            continue
         out.append({
             "ts": ts_raw,
             "id": row.get("id"),
@@ -177,11 +182,15 @@ def _parse_args(argv):
     bias = False
     since = None
     pending_hours = None
+    pending_count = False
     i = 2
     while i < len(argv):
         arg = argv[i]
         if arg == "--bias" and not bias:
             bias = True
+            i += 1
+        elif arg == "--count" and not pending_count:
+            pending_count = True
             i += 1
         elif arg == "--since" and since is None and i + 1 < len(argv):
             since = argv[i + 1]
@@ -195,12 +204,14 @@ def _parse_args(argv):
             return None
     if since is not None and _parse_ts(since) is None:
         return None
-    return bias, since, pending_hours
+    if pending_count and pending_hours is None:
+        return None
+    return bias, since, pending_hours, pending_count
 
 
 def _usage(argv):
     print(
-        f'usage: {argv[0]} <csv> [--bias] [--since "YYYY-MM-DD HH:MM"] [--pending HOURS]',
+        f'usage: {argv[0]} <csv> [--bias] [--since "YYYY-MM-DD HH:MM"] [--pending HOURS] [--count]',
         file=sys.stderr,
     )
 
@@ -213,7 +224,7 @@ def main(argv):
     if parsed is None:
         _usage(argv)
         return 2
-    bias, since, pending_hours = parsed
+    bias, since, pending_hours, pending_count = parsed
     with open(argv[1], newline="") as fh:
         rows = list(csv.DictReader(fh))
     if since is not None:
@@ -223,7 +234,11 @@ def main(argv):
             if (ts := _parse_ts(row.get("ts_jst"))) is not None and ts >= cutoff
         ]
     if pending_hours is not None:
-        print(json.dumps(pending(rows, pending_hours)))
+        result = pending(rows, pending_hours)
+        if pending_count:
+            print(len(result))
+        else:
+            print(json.dumps(result))
         return 0
     print(json.dumps(report(rows, bias=bias)))
     return 0

@@ -207,3 +207,9 @@ Every URL below was opened for the 2026-11-10 cadence study, the 2026-11-11 grow
 ## 2026-11-22 19:20 JST update (X Operator hunter; sources R30-R34, J15, C15, Q10, H3, O9 in marketing/X-GROWTH-SOURCES.md)
 - Outbound replies (to people who did not reply to us first) are counted apart from reply-backs: 70+/day, min 5 per run, raise to 100 after 3 days at 70 (R30 @TTrimoreau 100+ replies, 328 new followers in a day; R31 @ZazaGDev 300+ replies, 228 in 24h; R32 @razvanships 106 replies, 24 net). Targeting still decides results (R33 115 replies, -7 followers; R34 348 replies, 31 new). Our log O9: 35 outbound vs 43 reply-backs on 11-22.
 - Contrarian line 1 + exact own number line 2 + question last is a confirmed hook (H1 @SamuelTadross, H3 @namekomaind), without put-downs.
+
+## 2026-11-23 07:20 JST update (X Operator hunter; sources R35-R39, Q11, D8-D10, A3, H4, O10 in marketing/X-GROWTH-SOURCES.md)
+- NEW reply circle: keep CIRCLE-20 (marketing/X-REPLY-TIERS-diceai0.md) and reply once a day to each one's newest on-niche post [R35 @SamuelTadross https://x.com/SamuelTadross/status/2124563565247926458 + J15].
+- NEW guard: an AI-reply block list is promoted by big accounts [A3 @levelsio https://x.com/levelsio/status/2124560949059240002, 45,131 views; @sabine_fauth https://x.com/sabine_fauth/status/2124578628331593997]. Each reply names one detail from the parent and one fact of ours; no generic openers; no replies to @levelsio.
+- FIX: cover US daytime (00:00-07:00 JST) with EN outbound replies; our log had no run 23:07-08:21 JST and outbound was 45/70 [O10, R36, R37].
+- CONFIRMED: 1 question-first original a day [Q11 @DanielSmidstrup]; problem first, features never [D8 @julscales]. Quotes lowered to 4-6/day (ours 44-82 views each).

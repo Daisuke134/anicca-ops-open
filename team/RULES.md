@@ -36,16 +36,31 @@ ONE PLACE: GitHub (anicca-ops). ONE SKILL: the GitHub communication skill (read-
 8. Applies to everyone: Codex, Command Code, OpenCode, Devin, Instinct, Grok Bot, Dots, Pally, ChatGPT, Orca Bot, Devin Bot, Pickle, Muse.
 No reply = not communicated = your work gets taken over.
 
+## RULE COMPANY-LETTER (成田さん 2026-11-23 10:43 JST t4284u, hard, all agents)
+
+## RULE LOG-FORMAT (t4284u, hard) — ACTIVITY.md is the single running log
+No new per-agent log files. Every agent appends to `team/ACTIVITY.md` at START, every ≤60 min while working, and at DONE/BLOCKED, one line, exactly:
+`YYYY-MM-DD HH:MM JST | @agent | START|DOING|DONE|BLOCKED|NEXT | task-id: what (numbers) | proof URL/commit`
+Per-agent view = `grep "| @agent |" team/ACTIVITY.md`. Any-cadence letter is generated from this. A line without proof is not counted as done.
+
+## RULE NO-HUMAN-CREDENTIALS addendum (t4284u)
+
+## RULE AGENT-HEADCOUNT KPI (t4284u)
+Tracked KPI next to revenue: number of agents in the company + their models (= ability). Owner @reporter publishes it on /open (data.json `agents.count`, `agents.models`) and in every letter, delta vs yesterday. Recruiting more agents (with agent credentials) is a standing goal.
+
+## RULE COMMON-PROTOCOL (t4284u)
+One agent-to-agent protocol: inside one VM → AGMSG; across VMs (Muse, Instinct, Pickle, Codex/Dots, Devin, OpenCode, Grok) → GitHub files (team/inbox/<agent>.md + ACTIVITY.md @mentions). Both end on GitHub.
+
 ## RULE NEVER-STOP (成田さん 2026-11-22 10:20 JST t4240u, HARD, no exceptions, all agents) — co-#1 with TEAM-FIRST
 Verbatim: "Store all on Github and Shared / If no password just reset / If no cred just sign up / No human cred no human in loop / And key is no stopping and never giving up / Your limitation is not the company limitation"
 1. Store everything on GitHub (anicca-ops) and shared: credentials in the encrypted shared store, state, docs, scripts, results. Nothing lives only in one agent's workspace.
 2. No password → reset it yourself (agent inbox: [redacted-email] / [redacted-email]), then write the new cred to the shared encrypted store.
 3. No credential/account → sign up yourself with an agent identity, then share it the same way.
 5. Never stop, never give up. "Blocked" is not an end state: try the next route (reset, new signup, other agent, other tool, other platform) until it works.
-6. One agent's limitation (tool, safety refusal, quota, browser slot) is NOT the company's limitation: hand it to another teammate per TEAM-FIRST (Codex → Command Code → Devin → OpenCode, browser lane, Muse) and keep going.
+6. One agent's limitation (tool, safety refusal, quota, browser slot) is NOT the company's limitation: hand it to another available teammate per TEAM-FIRST (all workers run in parallel, no order: Codex, OpenCode, Devin, Gemini, Jev, browser lane, Muse) and keep going.
 
 ## RULE TEAM-FIRST (成田さん 2026-11-22 10:00 JST t4238u/t4239u "why do you always forget to work as a team", hard, no exceptions, all agents) — RULE #1, ABOVE ALL OTHERS
-No agent works alone. Before touching any task, decide "whose job is this?" and write the handoff to `team/inbox/<worker>.md` first. Work-type tasks (code, processing, research, bulk edits, scripts) go to Codex → Command Code (latest DeepSeek) → Devin → OpenCode; operational Issues go to their owner in `files/todo-issue-map-2026-11-14.md` (mostly Muse). The Grok bot that 成田さん is talking to only decides, routes, verifies, pushes and reports. Root cause of repeated failures: this was written in memory and scattered rules but was not rule #1 and not in routine prompts, so under time pressure agents defaulted to doing it themselves. Every routine prompt must now start with "TEAM-FIRST: route work-type steps to the team before doing them yourself."
+No agent works alone. Before touching any task, decide "whose job is this?" and write the handoff to `team/inbox/<worker>.md` first. Work-type tasks (code, processing, research, bulk edits, scripts) go in parallel to every available worker (no order; 1 task 1 owner): Codex, OpenCode, Devin, Gemini, Jev, Muse — Command Code is being cancelled (成田さん 2026-11-23 t4281u); operational Issues go to their owner in `files/todo-issue-map-2026-11-14.md` (mostly Muse). The Grok bot that 成田さん is talking to only decides, routes, verifies, pushes and reports. Root cause of repeated failures: this was written in memory and scattered rules but was not rule #1 and not in routine prompts, so under time pressure agents defaulted to doing it themselves. Every routine prompt must now start with "TEAM-FIRST: route work-type steps to the team before doing them yourself."
 
 ## RULE GITHUB-COMPANY (成田さん 2026-11-20 20:06 JST t4217u, hard, no exceptions, all agents) — TOP RULE
 - New credential → encrypt + push to anicca-secrets in the same step (`team/scripts/secrets-sync.sh`). New state/doc/script/result → commit to anicca-ops in the same step. Audit: `team/WORKSPACE-AUDIT-2026-11-20.md`.

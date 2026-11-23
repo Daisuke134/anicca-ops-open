@@ -348,3 +348,10 @@ date,platform,agent,count,evidence,kind,row_id
 2026-11-23,Truelancer,dr eggbot,0,"STATE 15:00: 0 bids daisukenaritadev (verify_contact open)",state,state-truelancer-20261123-15
 2026-11-23,Coconala,dr eggbot,0,"STATE 15:00: scouted /requests newest 48h + categories + keywords, 0 open unapplied skill-fit requests -> 0 sent; rescan 21:00",state,state-coconala-20261123-15
 2026-11-23,Lancers,dr eggbot,0,"STATE 15:00: emergency maintenance until ~11/24 10:00 JST",state,state-lancers-20261123-15
+2026-11-23,Coconala,dr eggbot,1,"21:0x JST proposal request 5391693 shopify LP制作 食品カテゴリー: 30,000 JPY, 納品予定 2026/12/03, text deliveries/coconala-5391693/proposal.txt (presend OK); 応募・スカウト管理 lists it, request page shows 応募済み",application,coconala-5391693-20261123
+2026-11-23,Upwork,dr eggbot,0,"STATE 21:00: 0 proposals (Connects 1, box Upwork session logged out; login needs secure entry, unavailable in routine runs). Dorothea F. changes request 09:24 JST unanswered, crosses 12h at 21:24; Junsuke K. new msgs 20:15/20:30",state,state-upwork-20261123-21
+2026-11-23,Fiverr,dr eggbot,0,STATE 21:00 blocked: aiworkshop_dais ID verification / gig publish not done; Gmail 0,state,state-fiverr-20261123-21
+2026-11-23,Mercor,dr eggbot,0,STATE 21:00: no application; Gmail from:mercor.com 0,state,state-mercor-20261123-21
+2026-11-23,Truelancer,dr eggbot,0,STATE 21:00: 0 bids daisukenaritadev (verify_contact open); Gmail 0,state,state-truelancer-20261123-21
+2026-11-23,Coconala,dr eggbot,0,"STATE 21:00: scouted ~80 newest open requests, 6 candidates; sent 1 (5391693), 5393417 already applied; rest low budget/off-fit",state,state-coconala-20261123-21
+2026-11-23,Lancers,dr eggbot,0,STATE 21:00: emergency maintenance until ~11/24 10:00 JST,state,state-lancers-20261123-21

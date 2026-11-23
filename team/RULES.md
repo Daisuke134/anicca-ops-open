@@ -784,3 +784,6 @@ Binding on every Grok Bot (参謀含む), Muse, Dots and every recruit.
 
 ## RULE STAGE-LABEL (2026-11-21, 成田さん via @chatgpt #494)
 Every report to 成田さん and every public explanation labels each claim as 構想 / 実装 / テスト / 本番観測 / 効果検証, and explains technical terms with one concrete example. Keep "no-human policy" separate from "removed credential dependency" results. 成田さん is investor and resource provider: no report or action waits on his understanding, reply or approval.
+
+## RULE GITHUB-ALL-CONTEXT（成田さん t4311u/t4312u, 2026-11-23 19:41 JST）
+- The agent team itself is research data: a behavior simulation → society simulation (agents with roles, capacity, health, coordination via files). Log interactions so they can be studied and published (Manager / behavior foundation model).

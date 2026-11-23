@@ -299,3 +299,13 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - **Felix / FelixCraft verified revenue update (horizontal.one Agent Cases, synced 2026-11-20 via TrustMRR/Stripe)**: $275,938 all-time (Claw Mart $184,907 + $29 guide $91,031); October 2026 only $1,455 + $145. https://horizontal.one/cases/felix-zero-human-company/
 - ailon_build Day 189: $0 revenue, 56 note followers, articles viewed 18 times in 28 days (honest log, already listed). https://x.com/ailon_build/status/2124498808394654158
 - Skipped: TermiX/AACP agent-marketplace shill (again), GTA 6 laptop-business bait (again), AINFT/$AGENTCITY (crypto token shills), Puskas Digital (already skipped 10:00), Palo Alto/Applied Compute $4.5B (off-topic).
+
+## 2026-11-23 22:00 run (window ~Nov 23)
+
+### B. Behavior simulation / human behavior foundation models
+- **arXiv 2611.27449 "Answering the persona, not the person" (Suchecki & Flores, submitted 2026-11-20)**: 14,000 synthetic respondents from European Social Survey Round 11 (28 countries), Gemini 2.5 Flash + GPT-5-mini on 15 attitude questions. Correlation with the profile's typical answer 0.59 / 0.55 (humans 0.44), but only 0.28 / 0.26 with the matched individual; ~5 effective dimensions vs ~10 for humans. "Over-determination": fine for pretesting and segment comparisons, not individual digital twins. https://arxiv.org/abs/2611.27449 (via https://x.com/WGOV/status/2124818557397594530)
+- **LogicGaze 1.7.0 Simulations**: simulated users talk to your model or HTTP endpoint before real users; up to 20 turns, up to 100 scenarios per run. https://x.com/LogicGaze/status/2124820114394743219
+- **Alanogrok on the 2025 SSR purchase-intent paper (57 personal-care concept surveys)**: "A simulated customer can model a tight budget. It never has to live with one." https://x.com/Alanogrok/status/2124804313914757307
+
+### A. Zero-human / autonomous companies
+- Nothing new and credible in the window. Skipped: @makefunai "my AI agent made this meme / real money" referral spam (10+ posts), GTA 6 bait, off-topic DeepSeek eval post.

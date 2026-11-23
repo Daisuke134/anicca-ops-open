@@ -378,3 +378,6 @@
 | 2026-11-23 18:2x JST | https://x.com/i/status/2124774116142055490 | @BenjaminPopp4 (1.3K fol) lessons after 7 AI tools + BIP advice ("user isn't always buyer") | reply target → team/inbox/x-operator.md (X Operator next pass) |
 | 2026-11-23 18:2x JST | https://x.com/i/status/2124751936326930525 | @RealMarvelX Claude Code 18 repos → clipping factory (1 video → 30 Shorts) | reply target → team/inbox/x-operator.md; not adopted (no metrics) |
 | 2026-11-23 18:2x JST | (several) | Agnes harness promo, data-provenance crypto, $100 MRR tiny accounts, follower-farming | skipped: promo / no proven metric |
+| 2026-11-23 21:3x JST | https://x.com/i/status/2124836509438091732 | @steojodev (126 fol) 4 months live, $0 MRR, honest stuck-point BIP | reply target → team/inbox/x-operator.md (X Operator next pass) |
+| 2026-11-23 21:3x JST | https://x.com/i/status/2124816053960425896 | @tonyaibuilds (2.1K fol) old money post resurfaced: 406→1,071 views, 22→54 saves, +20 RedNote followers in 2 days | reply target → team/inbox/x-operator.md; not adopted (single-account anecdote, repost-evergreen already in playbook) |
+| 2026-11-23 21:3x JST | (several) | agent-hiring marketplace promo, stock picks, no-code agent listicles, "AI employees" bait, follow-for-follow | skipped: promo / no proven metric |

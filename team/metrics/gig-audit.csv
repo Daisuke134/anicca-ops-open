@@ -306,3 +306,11 @@ date_jst,run,platform,owner,applications,replies,contracts,revenue_jpy,unanswere
 2026-11-23,15:00,Wellfound,dr eggbot,1,0,0,0,0,"applications.csv @pickle Elvoro 04:36; no new since 09:00; box browser logged out"
 2026-11-23,15:00,CrowdWorks,参謀,2,5,0,0,0,"applications.csv @pickle 314680918 + 314683306; Gmail msgs okumura02 12:17, かず｜SNSマーケター 13:20 (<12h) on top of 09:00's 3"
 2026-11-23,15:00,Workship,@pickle,2,0,0,0,0,"applications.csv @pickle Caluck 04:31 + GIG FE; no new since 09:00"
+2026-11-23,21:00,Upwork,dr eggbot,0,2,0,0,0,"Gmail since 15:00: Junsuke K. unread 20:15+20:30; Dorothea F. changes 09:24 still pending (11.5h at 20:51, >12h from 21:24); Upwork session logged out; Connects 1"
+2026-11-23,21:00,Fiverr,dr eggbot,0,0,0,0,0,STATE blocked ID verification; Gmail from:fiverr.com today 0
+2026-11-23,21:00,Mercor,dr eggbot,0,0,0,0,0,Gmail from:mercor.com today 0; applications.csv 0
+2026-11-23,21:00,Truelancer,dr eggbot,0,0,0,0,0,Gmail from:truelancer.com today 0; verify_contact open
+2026-11-23,21:00,Coconala,dr eggbot,2,2,0,0,0,"applications.csv: dr eggbot 5391693 21:0x + 5393417 found 応募済み (unlogged); Gmail Desire yasu 13:40 (closed), SZSZ07 17:00/18:07 (handled by 18:30 loop)"
+2026-11-23,21:00,Wellfound,dr eggbot,1,0,0,0,0,applications.csv @pickle Elvoro 04:36; no new since 09:00
+2026-11-23,21:00,CrowdWorks,参謀,2,7,0,0,0,"applications.csv @pickle 314680918 + 314683306; Gmail since 15:00: 旅メディア 17:40/20:00, Nana旅日和 17:37/19:57, new conditions 20:31, 1 applicant declined 19:14 (all <12h)"
+2026-11-23,21:00,Workship,@pickle,2,0,0,0,0,applications.csv @pickle Caluck + GIG FE; no new since 09:00

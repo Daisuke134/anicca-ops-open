@@ -213,3 +213,5 @@ Every URL below was opened for the 2026-11-10 cadence study, the 2026-11-11 grow
 - NEW guard: an AI-reply block list is promoted by big accounts [A3 @levelsio https://x.com/levelsio/status/2124560949059240002, 45,131 views; @sabine_fauth https://x.com/sabine_fauth/status/2124578628331593997]. Each reply names one detail from the parent and one fact of ours; no generic openers; no replies to @levelsio.
 - FIX: cover US daytime (00:00-07:00 JST) with EN outbound replies; our log had no run 23:07-08:21 JST and outbound was 45/70 [O10, R36, R37].
 - CONFIRMED: 1 question-first original a day [Q11 @DanielSmidstrup]; problem first, features never [D8 @julscales]. Quotes lowered to 4-6/day (ours 44-82 views each).
+
+- 2026-11-23 19:20 JST (hunter, R40-R43 + own log): outbound before reply-backs. Every posting run sends at least 6 outbound replies before its reply-back batch (8 in the 01:00/04:00 JST US-hours runs); missed reply-backs open the next run. Contrast opener ("What kept me stuck / What worked") CONFIRMED in x-persuasion (R44, H5, H4).

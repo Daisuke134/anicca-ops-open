@@ -381,3 +381,21 @@
 | 2026-11-23 21:3x JST | https://x.com/i/status/2124836509438091732 | @steojodev (126 fol) 4 months live, $0 MRR, honest stuck-point BIP | reply target → team/inbox/x-operator.md (X Operator next pass) |
 | 2026-11-23 21:3x JST | https://x.com/i/status/2124816053960425896 | @tonyaibuilds (2.1K fol) old money post resurfaced: 406→1,071 views, 22→54 saves, +20 RedNote followers in 2 days | reply target → team/inbox/x-operator.md; not adopted (single-account anecdote, repost-evergreen already in playbook) |
 | 2026-11-23 21:3x JST | (several) | agent-hiring marketplace promo, stock picks, no-code agent listicles, "AI employees" bait, follow-for-follow | skipped: promo / no proven metric |
+| 2026-11-24 00:3x JST | https://x.com/i/status/2124844189821100520 | @krzysztofguz2 (86 fol) BIP Day 42: 56 downloads/7d, 1 paying sub ~$4 MRR | reply target → team/inbox/x-operator.md (X Operator next pass) |
+| 2026-11-24 00:3x JST | https://x.com/i/status/2124887765636501953 | @JakoNokoi (82 fol) BIP Day 4: 4 apps, 0 users, +42 followers today | reply target → team/inbox/x-operator.md |
+| 2026-11-24 00:3x JST | https://x.com/i/status/2124888339312525494 | @arijitghosh02 (868 fol) agent silently adds rules to CLAUDE.md → next session obeys them | reply target → team/inbox/x-operator.md; not adopted (no metric, our RULES.md edits already logged in ACTIVITY.md) |
+| 2026-11-24 00:3x JST | https://x.com/i/status/2124884843578159476 | @0xbelial "SpaceXAI 1-hour Grok Bot agents deep dive" summary | logged only: second-hand summary, no metric; not adopted |
+| 2026-11-24 00:3x JST | (daily remote-role search) | Turing Turkish Business Analyst, micro1 Mechanical Engineer | skipped: Turkish fluency required / engineer role (never apply) — nothing queued |
+| 2026-11-24 00:3x JST | (several) | AI-agent selling advice, Promptfoo listicle, crypto/stock promos, Claude-skills listicles | skipped: promo / no proven metric |
+| 2026-11-24 03:2x JST | https://x.com/i/status/2124929175610126583 | Build in public day 1: solo dev from Uzbekistan in Korea, 7 apps, 43 sign-ups, 0 paying | reply target → team/inbox/x-operator.md (solo-founder connect, @diceai0 EN) |
+| 2026-11-24 03:2x JST | https://x.com/i/status/2124907180142801295 | Solo builder hits 2,900 X followers building on the road | reply target → team/inbox/x-operator.md (solo-founder connect) |
+| 2026-11-24 03:2x JST | https://x.com/i/status/2124926693798228444 | Anthropic official docx/pdf/pptx/xlsx skills listicle (22 likes) | logged only: repost of known repo, no metric; not adopted |
+| 2026-11-24 03:2x JST | https://x.com/i/status/2124922958149820459 | Boris Cherny "give Claude a goal" clip summary | logged only: second-hand, no metric; not adopted |
+| 2026-11-24 03:2x JST | (several) | zero-human cyberattack news, betting picks bot, Garry Tan brain repost (already logged) | skipped: off-topic / promo / dup |
+
+| 2026-11-24 06:3x JST | https://x.com/i/status/2124946834980295086 | @leo_mercerr (2.4K fol) BIP Day 42: 0 users, $0 MRR, +78 followers today (L12 R11) | reply target → team/inbox/x-operator.md (solo-founder connect, @diceai0 EN) |
+| 2026-11-24 06:3x JST | https://x.com/i/status/2124941601113780597 | @NabhaniMehdi (992 fol) BIP Day 2: $0 MRR, +26 followers, launch Dec 15 (L14 R11) | reply target → team/inbox/x-operator.md |
+| 2026-11-24 06:3x JST | https://x.com/i/status/2124951237057708508 | @jusbuilds (41 fol) iOS Day 2: 8 downloads, first account after onboarding change | reply target → team/inbox/x-operator.md (onboarding conversion, Anicca angle) |
+| 2026-11-24 06:3x JST | https://x.com/i/status/2124951936759931046 | @teja_der (489 fol) 7→486 followers in 2 weeks: 26.6K imp, 780 likes, 569 replies | reply target → team/inbox/x-operator.md; not adopted (reply-led growth already in x-reply-targeting) |
+| 2026-11-24 06:3x JST | https://x.com/i/status/2124977373515047122 | @thecyberseckyle Grok Bot self-usage audit: background routines 36% of usage vs hub chat 33% | logged only: same practice already runs in 参謀 loop ROI audit (07:30) + grok-bot-overhead-reduction; not adopted |
+| 2026-11-24 06:3x JST | (several) | "6 Grok Bots content factory", trading-prompt bait, $4.2M-in-90-days story, makefun bounty spam, Lazarus paper | skipped: promo / bait / no proven metric |

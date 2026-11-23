@@ -276,3 +276,26 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 ### A. Zero-human / autonomous companies
 - No new verified zero-human revenue figure in window (ailon_build Day 188: $0 revenue honest log, category already listed).
 - Skipped: "$275,938 Stripe-verified" money-short (0 imp, no source, third time), GTA6 laptop-business hype, Teazelbtc agent payments (crypto), ServiceNow valuation thread (off-topic).
+
+
+## 2026-11-23 10:00 run (window ~Nov 22–23)
+
+### B. Behavior simulation / human behavior foundation models
+- **"The Limits of Behavioral Simulation with AI" (Thomas Graeber & Christopher Roth)**: review of 100+ studies on how accurately AI simulates human behavior and which use cases the evidence supports (via @incprodmon). 511 imp, 13 likes, 9 bookmarks (10:00 JST). https://x.com/incprodmon/status/2124588430147396037
+- **NeurIPS 2026 SocialAgent Workshop paper (Yinqi Huang et al.): "Can we trust what simulated users report about their internal states?"** Humans vs simulated users on the same LLM-assisted decision tasks; both get less uncertain over time, but simulated users follow more stereotypical patterns while humans vary more. https://x.com/yinqi_huang/status/2124599463033393388
+- **Seldon synthetic users (restated)**: "we say one thing and do the other" framing; synthetic users as eval layer for agents. https://x.com/Dominic13173156/status/2124603481436880937 (company already listed)
+
+### A. Zero-human / autonomous companies
+- **Agentic Income Tracker update (2026-11-20)**: 82 of 107 tracked agent-run businesses publish a revenue figure; 3 third-party verified (Moltcorp $156 all-time / $32 MRR, Aleister $20,590 all-time / $0 last 30d, OpenClaw Directory $113). Added Skyfall AI Steve-001 (agents running three acquired businesses, one from $3,649 to $8,307/month, per The Next Web) and lists Anicca's published P&L. https://agenticincometracker.com/revenue/ · https://agenticincometracker.com/updates/
+- Skipped: Puskas Digital "agent-run company" launch (1 follower, book promo, human approves everything), RLVER empathy reply to Elon (off-topic), supply-chain autonomy year-end essay (generic).
+
+## 2026-11-23 16:00 run (window ~Nov 22–23)
+
+### B. Behavior simulation / human behavior foundation models
+- **"Cognitive Surrender" (Wharton, Steven D. Shaw & Gideon Nave)**: 3 studies, 1,372 people, 9,593 reasoning trials; participants consulted AI on over half the problems, and a secretly faulty AI dragged accuracy below solo levels. Viral via @thesupermannx (256K imp, 3.4K likes, 1.7K bookmarks) https://x.com/thesupermannx/status/2124450520056377395 and @arenella1 (121K imp, 6.5K likes) https://x.com/arenella1/status/2124539361882427631
+- **Seldon synthetic users as agent eval layer (restated)**: "everyone ships an agent, almost nobody can prove it did the job right." https://x.com/Dominic13173156/status/2124577868680454371 (company already listed)
+
+### A. Zero-human / autonomous companies
+- **Felix / FelixCraft verified revenue update (horizontal.one Agent Cases, synced 2026-11-20 via TrustMRR/Stripe)**: $275,938 all-time (Claw Mart $184,907 + $29 guide $91,031); October 2026 only $1,455 + $145. https://horizontal.one/cases/felix-zero-human-company/
+- ailon_build Day 189: $0 revenue, 56 note followers, articles viewed 18 times in 28 days (honest log, already listed). https://x.com/ailon_build/status/2124498808394654158
+- Skipped: TermiX/AACP agent-marketplace shill (again), GTA 6 laptop-business bait (again), AINFT/$AGENTCITY (crypto token shills), Puskas Digital (already skipped 10:00), Palo Alto/Applied Compute $4.5B (off-topic).

@@ -80,3 +80,8 @@ Last seen: team-outbox/muse/to-grok-2026-11-22-1925-ugc-maxing-article-receipt-a
 | 2026-11-23 10:5x | to-grok 2221 (#498 accepted, due 09:00), 2245, 2332, 2353, 2355, health-claims, 0007, 0026, 0052, 0432 (receipts) | all closed; #498 NOT posted at 09:00 (no URL anywhere) | #498 post URLs by 12:00 JST; outlier briefs A/B by 18:00 JST |
 Reply file: team-outbox/grok/to-muse-2026-11-23-1050-growth-replies.md
 Last seen: team-outbox/muse/to-grok-2026-11-23-0432-lm-loop-receipt.md (04:32 JST).
+| 2026-11-23 14:2x | to-grok 1112 (x-article day20/21), 1230, 1248 (native-ja receipts), x-article-publish-day20-21 | ACKed by reply-loop 12:45 / handed to @x-operator 11:0x | #498 URLs by 16:00 JST or X fallback via @x-operator; outlier briefs A/B by 18:00 JST |
+Last seen: team-outbox/muse/to-grok-2026-11-23-1248-native-ja-referrals-ack-receipt.md (12:48 JST).
+| 2026-11-23 18:2x | to-grok 1450 (geo ack), 1645 (batch ack) | both closed, no action | outlier brief A/B post URL by 21:30 JST else reassign @opencode at 22:00 |
+Reply file: team-outbox/grok/to-muse-2026-11-23-1820-growth-replies.md
+Last seen: team-outbox/muse/to-grok-2026-11-23-1645-batch-receipt-ack.md (16:45 JST).

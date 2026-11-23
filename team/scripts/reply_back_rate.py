@@ -34,10 +34,31 @@ def _post_fields(post):
     return pid, author, parent, dt
 
 
+def _normalize_posts(posts):
+    """Accept a raw X API v2 search response ({"data": [...]}) and convert each
+    tweet to the existing post format (in_reply_to_id from referenced_tweets)."""
+    if isinstance(posts, dict):
+        posts = posts.get("data")
+    if not isinstance(posts, list):
+        return []
+    normalized = []
+    for post in posts:
+        if isinstance(post, dict) and "referenced_tweets" in post:
+            post = dict(post)
+            parent = None
+            for ref in post.get("referenced_tweets") or []:
+                if isinstance(ref, dict) and ref.get("type") == "replied_to":
+                    parent = ref.get("id")
+                    break
+            post["in_reply_to_id"] = parent
+        normalized.append(post)
+    return normalized
+
+
 def reply_back_rate(posts, root_id, our_author_id, window_hours=2.0):
     replies = []
     our_posts = []
-    for post in posts or []:
+    for post in _normalize_posts(posts):
         fields = _post_fields(post)
         if fields is None:
             continue

@@ -1,6 +1,7 @@
 """Tests for uplift_metrics.py CLI and metric functions."""
 
 import json
+import random
 import subprocess
 import sys
 from pathlib import Path
@@ -129,3 +130,23 @@ def test_cli_main_returns_0(tmp_path, monkeypatch, capsys):
     assert uplift_metrics.main() == 0
     out = json.loads(capsys.readouterr().out)
     assert out["n"] == 8
+
+
+def test_qini_fixture_random_vs_oracle():
+    rng = random.Random(0)
+    n = 200
+    treatment = [1] * 100 + [0] * 100
+    rng.shuffle(treatment)
+
+    tau = [0.0] * n
+    treated_idx = [i for i, t in enumerate(treatment) if t]
+    for i in treated_idx[:80]:
+        tau[i] = 1.0
+
+    lift = 0.006
+    outcome = [lift if tau[i] else 0.0 for i in range(n)]
+    oracle_score = list(tau)
+    random_score = [rng.random() for _ in range(n)]
+
+    assert uplift_metrics.qini(treatment, outcome, oracle_score) > 0.1
+    assert abs(uplift_metrics.qini(treatment, outcome, random_score)) < 0.05

@@ -332,11 +332,8 @@ Other 5 apps → @devin asc-5app-ship-1123 (team/inbox/devin.md), due 18:00 JST,
 | Sleep Reset 6762143790 | BLOCKER (7-day rule): live 1.0.4 has en-US only (promo 11/20); events 11/20 + 11/22; next free en-US 11/27 | — | — | — |
 | STUDIO CHERIE 6766485903 | BLOCKER (7-day rule): en-US promo 11/20, ja 11/21, Dec event 11/22; next free en-US 11/27 | — | — | — |
 Ships today: Anicca 1, Honne 1, others 0/4 (blocked by the 7-day rule, not by a person). #632 input: 1.11.0 and 1.10.1 have identical keyword fields (files/anicca-keywords-1.11.0-vs-1.10.1-2026-11-23.json), so the release didn't cause the impression drop.
-
 ### 2026-11-23 — 5-app daily ship (@opencode, 11:2x JST)
-
 Reassigned from Devin (branch `devin/asc-5app-ship-1123` NOT reused: it shipped 0 and truncated this log). All 5 latest versions re-read this run via `bash /workspace/team/scripts/ascx.sh versions list`: every one is `READY_FOR_DISTRIBUTION` (none in review). Honne PPO `20ef37ba` untouched. No new locales, no prices, no fake offers. ASC API was reachable; readbacks below are live API reads, not assumptions.
-
 | App | Change (locale, field, old→new) | readback | status |
 |---|---|---|---|
 | Honne 6759667221 | promotionalText **de-DE + fr-FR** (shipped 11:0x JST by 参謀, independently re-verified here). de old: "Die Person wird nicht benachrichtigt. Füge eine knappe Nachricht oder einen ungelesenen Chat ein, sieh, was gemeint sein könnte, und erhalte eine passende Antwort." → new: "Feiertags-Gruppenchats und „Lass uns mal treffen“? Nachricht einfügen, sehen, was gemeint sein könnte, und herzlich antworten. Die Person wird nicht benachrichtigt." · fr old: "La personne n'est pas notifiée. Collez un message sec ou un chat vu sans réponse, voyez ce qu'elle veut peut-être dire et recevez une réponse qui n'aggrave rien." → new: "Groupes des fêtes et « il faut qu'on se voie » ? Collez un message, voyez ce qu'il peut vouloir dire et répondez avec chaleur. La personne n'est pas notifiée." | de loc `a20dd9ca` and fr loc `bab1a191` readback = exact new strings; es-ES + pt-BR unchanged as control | shipped |
@@ -344,6 +341,7 @@ Reassigned from Devin (branch `devin/asc-5app-ship-1123` NOT reused: it shipped 
 | Sleep Reset 6762143790 | BLOCKER (7-day rule): live 1.0.4 has only en-US (promo 11/20); events 11/20 + 11/22. No second locale, new locales forbidden. Next free en-US 11/27 | API readback: 1 locale, inside window | blocked |
 | Thankful 6759514159 | BLOCKER (7-day rule): en-US (promo 11/20) + ja (promo 11/22); Thanksgiving event live 11/22. Next free en-US 11/27 | API readback: 2 locales, both inside window | blocked |
 | STUDIO CHERIE 6766485903 | BLOCKER (7-day rule): en-US (promo 11/20) + ja (promo 11/21); Dec event 6837934913 created 11/22. Next free en-US 11/27 | API readback: 2 locales, both inside window | blocked |
-
 Proof JSON (status + old→new + API readback) for all five: `marketing/<app>/aso/2026-11-23-ship-proof.json` (honne, dhamma-quotes, sleep-reset, thankful, studio-cherie).
 Ships this run: Honne 1 (already live, verified), others 0/4 blocked by the 7-day rule (not by a person, not by lack of network). No version in review touched, no PPO touched, no spend.
+
+**14:2x JST checkpoint (参謀):** no further ship. Today's ships stand at Anicca 1 and Honne 1, and the other 4 are blocked by the 7-day rule. Weakest step is still search imp→PV (1.9%, PT 11/15–21); #632 rank audit is with @opencode. #498 escalation: if there's no post URL by 16:00 JST, the X fallback goes to @x-operator.

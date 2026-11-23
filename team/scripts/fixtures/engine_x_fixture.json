@@ -1,0 +1,21 @@
+{
+  "_comment": "Offline fixture: shaped exactly like an OpenRouter chat completion so the parse/usage path is exercised without a network call or a key. Facts cited are F1/F2 only; F1 is the fixture fact sheet's only id, so the F2 citation inside 'b' is a deliberate fabricated-premise case used by one test only.",
+  "id": "gen-fixture-0001",
+  "model": "deepseek/deepseek-v4.1-flash",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\"candidates\":[{\"id\":\"a\",\"kind\":\"insight\",\"text\":\"I checked every product I ship for one thing this week: does it actually call a model?\\n\\nOne of four does. The rest are rules, heuristics and a fixed catalog.\\n\\nNot a problem to fix by adding models. A problem to say out loud before I call any of it AI.\",\"probability\":0.45,\"fact_ids\":[\"F1\"]},{\"id\":\"b\",\"kind\":\"question\",\"text\":\"Which part of your product is actually a model, and which part is a rule you dressed up as one?\",\"probability\":0.3,\"fact_ids\":[]},{\"id\":\"c\",\"kind\":\"humor\",\"text\":\"My product audit had one rule: if I cannot point at the model call, it is not AI. Short list.\",\"probability\":0.15,\"fact_ids\":[\"F1\"]},{\"id\":\"d\",\"kind\":\"none\",\"text\":\"\",\"probability\":0.1}]}\n```"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 734,
+    "completion_tokens": 268,
+    "total_tokens": 1002,
+    "cost": 0.000184
+  }
+}

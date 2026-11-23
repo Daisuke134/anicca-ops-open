@@ -1,226 +1,32 @@
-{
-  "read_at": "2026-11-23 08:38 JST",
-  "source": "RevenueCat connector get-overview-metrics, all 22 projects from list-projects (USD)",
-  "projects": [
-    {
-      "project": "Chi Daily",
-      "id": "proj031e163b",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "Looksmax",
-      "id": "proj0a35dffc",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 2,
-      "active_users": 2
-    },
-    {
-      "project": "hu",
-      "id": "proj0c853754",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "EyeBreakIsland",
-      "id": "proj520438a0",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 3,
-      "active_users": 3
-    },
-    {
-      "project": "m",
-      "id": "proj61e7650e",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "DeskStretch",
-      "id": "proj65938acc",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "sleep",
-      "id": "proj77301666",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 12,
-      "active_users": 12
-    },
-    {
-      "project": "Thankful",
-      "id": "proj7aaf9429",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 8,
-      "active_users": 8
-    },
-    {
-      "project": "dhamma",
-      "id": "proj86624956",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 24,
-      "active_users": 27
-    },
-    {
-      "project": "Wee",
-      "id": "proj8f8e55dc",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 2,
-      "active_users": 2
-    },
-    {
-      "project": "loopmind",
-      "id": "proj8f919837",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "SleepRitual",
-      "id": "proj976e8639",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "sss",
-      "id": "projabe94dcd",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "Micro Mood",
-      "id": "projb5ebcf17",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "anicca",
-      "id": "projbb7b9d1b",
-      "mrr": 20,
-      "active_subscriptions": 5,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 201,
-      "active_users": 225
-    },
-    {
-      "project": "affirmdaily",
-      "id": "projc4facb48",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "STUDIO CHERIE",
-      "id": "projc98adb88",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "honne-honyaku",
-      "id": "projcfa60dd8",
-      "mrr": 4,
-      "active_subscriptions": 2,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 9,
-      "active_users": 11
-    },
-    {
-      "project": "hooktele",
-      "id": "projd4975f0c",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "FrostDip",
-      "id": "proje06970dd",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 5,
-      "active_users": 5
-    },
-    {
-      "project": "sss",
-      "id": "proje58699fc",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    },
-    {
-      "project": "meo",
-      "id": "projeaf6297f",
-      "mrr": 0,
-      "active_subscriptions": 0,
-      "active_trials": 0,
-      "revenue": 0,
-      "new_customers": 0,
-      "active_users": 0
-    }
-  ]
-}
+[
+  {
+    "date": "2026-11-23",
+    "product": "RevenueCat(all apps)",
+    "layer": "revenue",
+    "source": "RevenueCat",
+    "key": "proceeds",
+    "metric": "usd",
+    "value": 0,
+    "note": "anicca+honne 28d revenue = $0; anicca MRR $20/5subs users222 new198 (08:38 was users225 new201); honne $4/2subs users10 new8 (08:38 was 11/9); sleep 12/12 dhamma 24/27 Thankful 8/8 CHERIE 0/0 FrostDip 5/5 EyeBreakIsland 3/3; list-projects 22/22 read, unread none; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-23",
+    "product": "RevenueCat(anicca)",
+    "layer": "revenue",
+    "source": "RevenueCat",
+    "key": "mrr",
+    "metric": "usd",
+    "value": 20,
+    "note": "active_subs=5; 28d revenue $0; active_users=222; new_customers=198 (08:38 was 201/225); (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-23",
+    "product": "RevenueCat(honne-honyaku)",
+    "layer": "revenue",
+    "source": "RevenueCat",
+    "key": "mrr",
+    "metric": "usd",
+    "value": 4,
+    "note": "active_subs=2; 28d revenue $0; active_users=10; new_customers=8 (08:38 was 9/11); (pulled 2026-11-23 15:52 JST)"
+  }
+]

@@ -342,3 +342,9 @@ date,platform,agent,count,evidence,kind,row_id
 2026-11-23,Coconala,dr eggbot,0,"STATE 09:00: 0 today so far; coconala-lancers-loop 09:30 applies",state,state-coconala-20261123-09
 2026-11-23,Lancers,dr eggbot,0,"STATE 09:00: emergency maintenance until ~11/24 10:00 JST",state,state-lancers-20261123-09
 2026-11-23,Wellfound,dr eggbot,0,"STATE 09:00: 1 today (by @pickle, Elvoro 04:36); box browser logged out since 11/22 20:5x",state,state-wellfound-20261123-09
+2026-11-23,Upwork,dr eggbot,0,"STATE 15:00: 0 proposals (Connects 1, Upwork session logged out); Dorothea F. changes req 09:24 + Junsuke msgs pending in inbox-sweep",state,state-upwork-20261123-15
+2026-11-23,Fiverr,dr eggbot,0,"STATE 15:00 blocked: aiworkshop_dais ID verification / gig publish not done",state,state-fiverr-20261123-15
+2026-11-23,Mercor,dr eggbot,0,"STATE 15:00: no application; Gmail 0",state,state-mercor-20261123-15
+2026-11-23,Truelancer,dr eggbot,0,"STATE 15:00: 0 bids daisukenaritadev (verify_contact open)",state,state-truelancer-20261123-15
+2026-11-23,Coconala,dr eggbot,0,"STATE 15:00: scouted /requests newest 48h + categories + keywords, 0 open unapplied skill-fit requests -> 0 sent; rescan 21:00",state,state-coconala-20261123-15
+2026-11-23,Lancers,dr eggbot,0,"STATE 15:00: emergency maintenance until ~11/24 10:00 JST",state,state-lancers-20261123-15

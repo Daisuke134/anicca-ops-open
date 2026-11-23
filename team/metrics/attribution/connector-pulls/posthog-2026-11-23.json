@@ -1,0 +1,642 @@
+[
+  {
+    "date": "2026-10-24",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Installed",
+    "metric": "first_open",
+    "value": 1,
+    "note": "no ct/utm on install event; 5 Application Opened; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-10-25",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Installed",
+    "metric": "first_open",
+    "value": 2,
+    "note": "no ct/utm on install event; 7 Application Opened; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-10-26",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Installed",
+    "metric": "first_open",
+    "value": 2,
+    "note": "no ct/utm on install event; 7 Application Opened; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-10-29",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Installed",
+    "metric": "first_open",
+    "value": 4,
+    "note": "no ct/utm on install event; 8 Application Opened; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-10-31",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Installed",
+    "metric": "first_open",
+    "value": 1,
+    "note": "no ct/utm on install event; 8 Application Opened; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-01",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Installed",
+    "metric": "first_open",
+    "value": 1,
+    "note": "no ct/utm on install event; 5 Application Opened; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-03",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Installed",
+    "metric": "first_open",
+    "value": 1,
+    "note": "no ct/utm on install event; 2 Application Opened; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-10-23",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Opened",
+    "metric": "opens",
+    "value": 3,
+    "note": "no Application Installed that day; no ct/utm; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-10-28",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Opened",
+    "metric": "opens",
+    "value": 2,
+    "note": "no Application Installed that day; no ct/utm; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-10-30",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Opened",
+    "metric": "opens",
+    "value": 2,
+    "note": "no Application Installed that day; no ct/utm; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-02",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Opened",
+    "metric": "opens",
+    "value": 1,
+    "note": "no Application Installed that day; no ct/utm; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-12",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Opened",
+    "metric": "opens",
+    "value": 1,
+    "note": "no Application Installed that day; no ct/utm; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-14",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Opened",
+    "metric": "opens",
+    "value": 1,
+    "note": "no Application Installed that day; no ct/utm; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-15",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Opened",
+    "metric": "opens",
+    "value": 1,
+    "note": "no Application Installed that day; no ct/utm; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-22",
+    "product": "Anicca(PostHog app)",
+    "layer": "installs",
+    "source": "PostHog",
+    "key": "Application Opened",
+    "metric": "opens",
+    "value": 1,
+    "note": "no Application Installed that day; no ct/utm; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-23",
+    "product": "Anicca(PostHog app)",
+    "layer": "paid",
+    "source": "PostHog",
+    "key": "paywall_purchased",
+    "metric": "purchases",
+    "value": 0,
+    "note": "none 10/29-11/23; last Application Installed 11/03 (no ct/utm); last Application Opened 11/22 (1; 11/16-21 and 11/23 Opened 0, previous open 11/15); paywall_purchased 0. human app_store_click 11/23 x-diceai0-connect-ja-1123am=10 + x-diceai0-connect-en-pm=5 + x-diceai0-useful-ja-pm=4 + x-diceai0-reply-back=2 + x-diceai0-day13-en=2 + x-diceai0-useful-ja-late=2 (計25); 11/22 x-diceai0-useful-ja-noon=5 + x-diceai0-useful-ja-pm=5 + x-diceai0-connect-ja-pm=4 + x-diceai0-connect-ja-1400=3 + x-diceai0-day12-en=3 + x-diceai0-connect-en-pm=3 + x-diceai0-reply-back=2 + x-diceai0-demo-anicca-onboarding-2026-11-20=1 + x-diceai0-useful-ja-late=1 (計27) (15:48 yesterday was 計9); (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-02",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/bluesky_aniccaapp_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-02",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_anicca.en_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-04",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/bluesky_anicca-affirm_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-05",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_anicca.en_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-05",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_ani.cca1234_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-10",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_anicca.app_bio",
+    "metric": "clicks",
+    "value": 4,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-10",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_anicca.en_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-12",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-20261112-funnel",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-12",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/mastodon_aniccaapp_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-13",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-20261113-lockscreen-howto",
+    "metric": "clicks",
+    "value": 3,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-13",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/youtube_aniccaffirmations_bio",
+    "metric": "clicks",
+    "value": 3,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-13",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-20261113-5apps-live",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-13",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_anicca.jp.videos_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-14",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_monk.mujo_bio",
+    "metric": "clicks",
+    "value": 5,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-15",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-20261115-bip-ctfix",
+    "metric": "clicks",
+    "value": 4,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-15",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-20261115-bip-funnel7d",
+    "metric": "clicks",
+    "value": 3,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-15",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_monk.mujo_bio",
+    "metric": "clicks",
+    "value": 2,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-15",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/probe-0950",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-15",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/linkedin_phase1",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-16",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_anicca.en_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-16",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_monk.mujo_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-16",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-20261112-funnel",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-16",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-20261113-5apps-live",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-17",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/tt_buddha",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-17",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/bluesky_anicca-affirm_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-18",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_monk.mujo_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-20",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-bip-20261120-app",
+    "metric": "clicks",
+    "value": 2,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-20",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-20261120-tracking",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-20",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/instagram_monk.mujo_bio",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-21",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/oklink-2026-en-us",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-21",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-20261121-en-connect",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-21",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-20261120-tracking",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-21",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/abc123-def",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-22",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-useful-ja-noon",
+    "metric": "clicks",
+    "value": 5,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-22",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-useful-ja-pm",
+    "metric": "clicks",
+    "value": 5,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-22",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-connect-ja-pm",
+    "metric": "clicks",
+    "value": 4,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-22",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-connect-ja-1400",
+    "metric": "clicks",
+    "value": 3,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-22",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-day12-en",
+    "metric": "clicks",
+    "value": 3,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-22",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-connect-en-pm",
+    "metric": "clicks",
+    "value": 3,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-22",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-reply-back",
+    "metric": "clicks",
+    "value": 2,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-22",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-demo-anicca-onboarding-2026-11-20",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-22",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-useful-ja-late",
+    "metric": "clicks",
+    "value": 1,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-23",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-connect-ja-1123am",
+    "metric": "clicks",
+    "value": 10,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-23",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-connect-en-pm",
+    "metric": "clicks",
+    "value": 5,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-23",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-useful-ja-pm",
+    "metric": "clicks",
+    "value": 4,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-23",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-reply-back",
+    "metric": "clicks",
+    "value": 2,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-23",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-day13-en",
+    "metric": "clicks",
+    "value": 2,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  },
+  {
+    "date": "2026-11-23",
+    "product": "Anicca(PostHog app)",
+    "layer": "taps",
+    "source": "PostHog",
+    "key": "app_store_click/x-diceai0-useful-ja-late",
+    "metric": "clicks",
+    "value": 2,
+    "note": "human=true source=web_redirect; (pulled 2026-11-23 15:52 JST)"
+  }
+]

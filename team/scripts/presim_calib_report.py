@@ -143,6 +143,15 @@ def _parse_hours(value):
     return hours
 
 
+def _first_present(row, *keys):
+    fallback = row.get(keys[0])
+    for key in keys:
+        value = row.get(key)
+        if value is not None and str(value).strip() != "":
+            return value
+    return fallback
+
+
 def pending(rows, hours, now=None):
     out = []
     for row in rows:
@@ -164,15 +173,15 @@ def pending(rows, hours, now=None):
             ref = datetime.now()
         if ts >= ref - timedelta(hours=hours):
             continue
-        text = row.get("text")
-        row_id = row.get("id")
+        text = _first_present(row, "text", "text_preview")
+        row_id = _first_present(row, "id", "post_id")
         id_empty = row_id is None or str(row_id).strip() == ""
         text_empty = text is None or str(text).strip() == ""
         if id_empty and text_empty:
             continue
         out.append({
             "ts": ts_raw,
-            "id": row.get("id"),
+            "id": row_id,
             "text": "" if text is None else str(text)[:60],
         })
     return out

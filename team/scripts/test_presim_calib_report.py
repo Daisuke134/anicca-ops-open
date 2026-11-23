@@ -377,6 +377,48 @@ def test_pending_all_empty_id_and_text_returns_empty():
     assert pending(rows, 2, now=now) == []
 
 
+def test_pending_reads_post_id_and_text_preview():
+    now = datetime(2026, 11, 22, 12, 0)
+    rows = [
+        {"ts": "2026-11-21 06:00", "post_id": "p1", "text_preview": "real header post", "actual_impr": ""},
+        {"ts": "2026-11-22 11:00", "post_id": "p2", "text_preview": "recent", "actual_impr": ""},
+        {"ts": "2026-11-21 06:00", "post_id": "p3", "text_preview": "has actual", "actual_impr": "55"},
+        {"ts": "2026-11-21 06:00", "post_id": "", "text_preview": "", "actual_impr": ""},
+    ]
+    result = pending(rows, 2, now=now)
+    assert result == [{"ts": "2026-11-21 06:00", "id": "p1", "text": "real header post"}]
+
+
+def test_pending_id_and_text_take_precedence_over_fallbacks():
+    now = datetime(2026, 11, 22, 12, 0)
+    rows = [
+        {"ts": "2026-11-21 06:00", "id": "i1", "post_id": "p1",
+         "text": "primary", "text_preview": "fallback", "actual_impr": ""},
+    ]
+    result = pending(rows, 2, now=now)
+    assert result == [{"ts": "2026-11-21 06:00", "id": "i1", "text": "primary"}]
+
+
+def test_cli_pending_real_presim_log_header(tmp_path):
+    csv_path = tmp_path / "presim-log.csv"
+    now = datetime.now()
+    old = (now - timedelta(hours=5)).strftime("%Y-%m-%d %H:%M")
+    recent = (now - timedelta(hours=1)).strftime("%Y-%m-%d %H:%M")
+    with open(csv_path, "w", newline="") as fh:
+        writer = csv.DictWriter(
+            fh, fieldnames=["ts", "post_id", "text_preview", "actual_impr"]
+        )
+        writer.writeheader()
+        writer.writerow({"ts": old, "post_id": "p1", "text_preview": "old pending", "actual_impr": ""})
+        writer.writerow({"ts": recent, "post_id": "p2", "text_preview": "recent pending", "actual_impr": ""})
+        writer.writerow({"ts": old, "post_id": "p3", "text_preview": "scored", "actual_impr": "900"})
+    script = Path(__file__).with_name("presim_calib_report.py")
+    proc = _run_cli(script, [str(csv_path), "--pending", "2"])
+    assert proc.returncode == 0
+    data = json.loads(proc.stdout)
+    assert data == [{"ts": old, "id": "p1", "text": "old pending"}]
+
+
 def _pending_count_csv(tmp_path):
     return _pending_csv(tmp_path, rows=[
         {"ts": "2000-01-01 00:00", "id": "a1", "text": "old pending post", "actual_impr": ""},

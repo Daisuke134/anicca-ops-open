@@ -1,0 +1,1 @@
+current MRR = Capafy subs unknown (no endpoint) + RevenueCat $24 = unknown (>=$24 RevenueCat-only floor) USD (api.capafy.ai publisher API has no subscription/MRR endpoint (/agent/sales/trend has no recurring split; /agent/developer/payout-info is balance only); RevenueCat: team/metrics/revenuecat-all-projects.json read_at 2026-11-23 08:38 JST; read_at 2026-11-23 14:36 JST)

@@ -367,3 +367,14 @@
 | 2026-11-23 09:3x JST | https://x.com/i/status/2124622266046763126 | @tyd3n_ (2.6K fol) Day 97 build in public, €142 MRR, impressions spike but few clicks | reply target → team/inbox/x-operator.md |
 | 2026-11-23 09:3x JST | https://x.com/i/status/2124616763145105568 | @DynamoCrypto (1.7K fol) ~100 replies/day since 11/16 → follower jump (chart) | not adopted: same reply-volume practice already logged (ZazaGDev) and in x-diceai0-posting-run; reply target only |
 | 2026-11-23 09:3x JST | (several) | crypto-agent unicode promo threads, "X clipping $10K/mo" bait, LangGraph explainer, @grok generic | skipped: promo / bait / no proven metric |
+| 2026-11-23 12:3x JST | https://x.com/i/status/2124667141555413349 | @lucasvribeiro_ Garden Sober Tracker weekly: $10.84→$60.95 rev, MRR $23, 3 subs — habit app at our MRR stage | reply target → team/inbox/x-operator.md (X Operator next pass) |
+| 2026-11-23 12:3x JST | https://x.com/i/status/2124689003513295305 | @FieldTechMark (159 fol) BIP update: replies come from simple questions/field tips | reply target → team/inbox/x-operator.md |
+| 2026-11-23 12:3x JST | https://x.com/i/status/2124689385572708517 | @KeoniThornhill1 (315 fol) "build in public, flexing CutAi wins" | reply target → team/inbox/x-operator.md |
+| 2026-11-23 12:3x JST | (several) | makefun $20 bounty spam, "Claude code mode −38% tokens" (unverified), IG 4.3M-view hearsay, event promos, Meta Muse news | skipped: promo / no proven metric / not adoptable |
+| 2026-11-23 15:3x JST | https://x.com/i/status/2124720854940721510 | @sri_chennu (979 fol) Day 21 BIP: 6 sites, 900 followers, $0 MRR — same early stage | reply target → team/inbox/x-operator.md (X Operator next pass) |
+| 2026-11-23 15:3x JST | https://x.com/i/status/2124731115575660800 | @tuanperera (611 fol) Seekful SEO: Google spam updates 1,000→14 indexed pages, restarted on new domain | reply target → team/inbox/x-operator.md |
+| 2026-11-23 15:3x JST | (several) | agent-marketplace promo (TermiX), "AI employees" ads, Bittensor payments, follow-for-follow | skipped: promo / no proven metric / not adoptable |
+| 2026-11-23 18:2x JST | https://x.com/i/status/2124769824689508556 | @YilmazcimUyar (679 fol) Day 41 indie hacker: 344K imp/2wk, 2.1K replies | not adopted: reply-volume practice already in x-diceai0-posting-run; reply target → team/inbox/x-operator.md |
+| 2026-11-23 18:2x JST | https://x.com/i/status/2124774116142055490 | @BenjaminPopp4 (1.3K fol) lessons after 7 AI tools + BIP advice ("user isn't always buyer") | reply target → team/inbox/x-operator.md (X Operator next pass) |
+| 2026-11-23 18:2x JST | https://x.com/i/status/2124751936326930525 | @RealMarvelX Claude Code 18 repos → clipping factory (1 video → 30 Shorts) | reply target → team/inbox/x-operator.md; not adopted (no metrics) |
+| 2026-11-23 18:2x JST | (several) | Agnes harness promo, data-provenance crypto, $100 MRR tiny accounts, follower-farming | skipped: promo / no proven metric |

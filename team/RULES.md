@@ -2,6 +2,13 @@
 
 
 
+## RULE 000 DEADLINE-IS-NOW（会社のハードルール・最上位、成田さん 2026-11-23 14:24 JST t4291u–t4294u）
+1. すべてのタスクの期限は「今」。未来の期限（21:00まで、明日まで等）を設定・記載しない。割り振りの期限欄は常に `NOW`。
+2. そのためにチームメイトがいる。1人で順番に処理せず、稼働中の全員へ同時並列で振り、今すべて終わらせる。
+3. 今できていないものは「できていない」。報告前に今直す・今導入する。
+4. 成田さんへは未導入・未達成・予定を報告しない。報告は「導入しました」「直しました」「完了しました」の結果のみ（できていなかったものは「できていなかったので直しました」）。
+5. ACK/再割り当ての30/60/90分ルールは監視の上限であり期限ではない。受領したら即着手・即完了。
+
 ## RULE COPY-WINNERS（成田さん 2026-11-22 23:01 JST t4267u, HARD, all agents）
 - Build NOTHING original. Every change must copy a named winner's existing tool/skill/OSS/format, citing who and their proof numbers (e.g. Peef/MotionLab $6,333 MRR RevenueCat screenshot; Larry slideshow skill). Off-the-shelf maximal, connect the dots; fine-tune existing models instead of inventing.
 - Eval-driven: every change has a measured before/after. Revenue max, cost min. Everything visible on https://aniccaai.com/open/.

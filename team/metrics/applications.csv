@@ -375,3 +375,4 @@ date,platform,agent,count,evidence,kind,row_id
 2026-11-24,Truelancer,dr eggbot,0,"STATE 09:00 JST: blocked, daisukenaritadev verify_contact open",state,
 2026-11-24,Coconala,dr eggbot,0,"STATE 09:00 JST: 0 so far, no new buyer msgs; 09:30 coconala-lancers-loop applies",state,
 2026-11-24,Lancers,dr eggbot,0,STATE 09:00 JST: emergency maintenance until ~10:00 JST,state,
+2026-11-24,BuildHybridAI 2026 (Devpost/Firebase),applications,0,Last-build-week reminder. Submissions close Monday 2026-11-30 14:00 PT (= 2026-12-01 07:00 JST). Sprint 3 quota requests close Wednesday 2026-11-25 10:00 AM PT. Gmail 1a20bd37fc14dc7f from [redacted-email] (2026-11-24T04:32:19Z). Did not unregister or request quota this run. job:devpost:buildhybridai-2026 URL https://firebasehybridaihackathon.devpost.com/,info-reply,a-5a65d0a76325

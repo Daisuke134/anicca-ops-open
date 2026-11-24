@@ -406,3 +406,12 @@
 | 2026-11-24 09:3x JST | https://x.com/i/status/2125008999649358198 | @Michael_Fenech_ "plan/test Bot team before launch" prompt (L5) | logged only: prompt behind link, no metric; not adopted |
 | 2026-11-24 09:3x JST | https://x.com/i/status/2125018030354907355 | "Chief of Staff bot runs 10-20 bots" SpaceXAI session clip | logged only: 参謀 already runs this structure (TEAM-FIRST); not adopted |
 | 2026-11-24 09:3x JST | (several) | XRP promo, FOMO-tricks bait, HN digest, cert-key news | skipped: promo / off-topic |
+
+| 2026-11-24 12:3x JST | https://x.com/i/status/2125060565274181917 | @chg80333 (359 fol) "I was the message bus between my AI agents" Claude Code↔Codex handoff (L2 R2) | reply target → team/inbox/x-operator.md (our file-based team inbox angle) |
+| 2026-11-24 12:3x JST | https://x.com/i/status/2125047642954530881 | @mattholmes (226 fol) daily BIP stats: 560 cold emails→6 replies, +9 followers | reply target → team/inbox/x-operator.md (solo-founder connect) |
+| 2026-11-24 12:3x JST | https://x.com/i/status/2125044331794813306 | @tkhirata21 (102 fol) BIP Day 11 $0 MRR, TikTok/IG clips | reply target → team/inbox/x-operator.md (solo-founder connect) |
+| 2026-11-24 12:3x JST | (several) | MCP trading-bot prompts, Antigravity agents news, local-vs-cloud tokens, JA coupon spam | skipped/logged only: no metric or off-topic; nothing adopted |
+| 2026-11-24 15:3x JST | https://x.com/i/status/2125092045568049250 | @royroy_studio (585 fol) 個人開発ゲーム Top100入り (L4) | reply target → team/inbox/x-operator.md (@diceai0 JA connect, ランキング体験) |
+| 2026-11-24 15:3x JST | https://x.com/i/status/2125083235764039779 | @naveen_saradhi_ (697 fol) founder takes: churn>acquisition, BIP only works if you ship (L4 R3) | reply target → team/inbox/x-operator.md (EN solo-founder connect, retention angle) |
+| 2026-11-24 15:3x JST | https://x.com/i/status/2125072133248405584 | @app_shoki (13 fol) 個人開発 iOS 散歩記録機能追加 | reply target → team/inbox/x-operator.md (JA small-dev connect) |
+| 2026-11-24 15:3x JST | (several) | AI roadmap/course bait, a16z agent-shopping recap, crypto agent promo, Coke ON referral, local LLM thread | skipped/logged only: no proven metric or off-topic; nothing adopted |

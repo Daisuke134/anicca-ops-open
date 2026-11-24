@@ -2,6 +2,11 @@
 
 
 
+## RULE GROK-TWO-ONLY（成田さん 2026-11-24 12:22–12:23 JST t4338u/t4339u, HARD）
+- 動かす Grok ボットは **参謀** と **X Operator** の2体だけ。ほかの Grok ボット（Applications, Reporter, Fucker, Anicca Marketer, SEO Refresher, Citation Scout, Grok Bot Forensic Writing, Muse Relay, Pause, dr eggbot ほか）はトークンを使わない。
+- **作業は止めない。** それらの職務・routine は、非 Grok 作業者（Instinct, Poke, Pally, Gemini, OpenCode, Devin, Muse, Codex, Jev, Command Code）へ今すぐ移し、同じループを続ける。撤退は「Grok 側の消費を止める」ことであり、職務の停止ではない。
+- 参謀は振り分けだけ（RULE SANBOU-ROUTER-ONLY）。X 投稿は 参謀 と X Operator のみ。
+
 ## RULE DEADLINE-NOW（成田さん 2026-11-24 10:46 JST t4337u, HARD, all agents）
 - すべてのタスクの締切は「今」。16:00 や 3時間後などの未来時刻を期限にしない。割り振り欄は常に `NOW`。受領したらそのループ内で ACK し、すぐ START する（次の時報を待たない）。
 - 作業者（Pally, Instinct, Poke, Gemini, OpenCode, Command Code, Devin, Muse, Codex, Jev ほか全員）は朝も夜も 24時間、終わったらすぐ inbox / issues の次の未着手を自分で拾い、実装し、報告する連続ループで動く。

@@ -356,3 +356,6 @@ Funnel (files/attribution-daily-2026-11-24.md; ASC pulled 10:2x JST, discovery+d
 Weakest step: search impression→page view 1.0% (382→4); 11/21–22 search imp jumped to 114/90 with 0 PV. Source: https://developer.apple.com/app-store/search/ (result card = icon, name, subtitle, first 3 screenshots), https://developer.apple.com/app-store/product-page-optimization/.
 Ship today: Anicca T4331 assigned @opencode (new PPO on screenshot order, else subtitle; deadline 15:00 JST; proof marketing/anicca/aso/2026-11-24-ship-proof.json). Others: Thankful/Dhamma/Sleep Reset/CHERIE 7-day rule until 11/27; Honne promo 11/23.
 KEEP/REVERT: Anicca promo + Honne de/fr (11/23) — first post-change PT day 11/23 not yet published (newest PT 11/22); decision moved to 11/30 as planned. Nothing to revert today.
+- 2026-11-24 14:2x JST growth loop 14:00 (参謀): Anicca T4331 未着地（@opencode プロセスなし）→ @devin へ付け替え（proof marketing/anicca/aso/2026-11-24-ship-proof.json）。Muse pt確認→@devin T1124-ASC-PT-CONFIRM。
+### 2026-11-24 18:2x JST — growth loop 18:00 (参謀, router-only)
+Anicca: PPO d7ffa0d7（lock-screen先頭）稼働継続・STOPせず（@pickle 17:5x実測）。subtitle「ロック画面のアファメーション」を 1.11.2 appInfoLocalizations ja へ PATCH → @pickle PK-ASO1（18:0x判断、提出で live）。KEEP/REVERT: PPO は結果待ち（判定は ASC PPO 有意差まで）。Muse own-winner #1 未着地→NOW 再督促。

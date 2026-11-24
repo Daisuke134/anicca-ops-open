@@ -315,3 +315,18 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - **Joon Sung Park (Simile AI) talk "Simulating Humanity: from Generative Agents to 8 Billion Digital Twins"** — https://m.youtube.com/watch?v=KpOW9Pk4BUs (shared via https://x.com/ArtificialOther/status/2124956932444405896)
 - **"Knowledge engineer" as missing step to an almost fully autonomous company** (Full_Metal_QR, citing Harrison Chase's "knowledge factory"; 407 imp, 8 bm) — https://x.com/Full_Metal_QR/status/2124851683733778666
 - Skipped: viral "99% of people use GrokBot like Google" fake-quote engagement bait (usernamentality/0xHunterHunter/nullenxai/0xsmerkzz), $NOHR token shilling.
+
+## 2026-11-24 16:00 run (window ~Nov 22–24)
+- **Behavioral simulation on six Swiss federal popular initiatives** (@iHarshAga; 6.8K imp, 96 likes+) — across 18 conditions the simulation matched the official national outcome in 17; context and granularity mattered most. https://x.com/iHarshAga/status/2124536520262766668
+- **Limy AI: AI assistants on real customer tasks on live sites** (281 imp) — 78% of tasks without login completed; purchases behind a login effectively zero. https://x.com/limy_ai/status/2124489648298770739
+- Skipped: new wave of "Lauren Tan / SpaceXAI" HOLY F*CK engagement-bait clones (0xg4tsby, Jessica74087045, slash1sol, 0xSoural etc., unverifiable quotes), $CORBEL / Normies token posts.
+
+
+## 2026-11-24 22:00 run (window ~Nov 22–24)
+- ShopMind (arXiv 2611.11897): mental-world-model e-commerce user simulator; +18.0% personalization, +19.6% behavioral realism vs strongest baselines. https://arxiv.org/abs/2611.11897
+- SWE-WhatIf (arXiv 2611.21095): simulates real users of coding agents from recorded sessions. https://arxiv.org/abs/2611.21095
+- Persona Simulation for Real-World Decision Making (arXiv 2611.14700): persona cohorts to probe what-if product decisions before shipping. https://arxiv.org/abs/2611.14700
+- Behavioral profiles for LM simulation of out-of-distribution human behavior (arXiv 2611.00661). https://arxiv.org/html/2611.00661v2
+- @gerrith777: ran 300 simulated customers through a quote quiz; the quit rules he wrote made them echo his guesses; kept only A/B ideas for real visitors (12 likes). https://x.com/gerrith777/status/2125009217828393053
+- Skipped: Lauren Tan / "SpaceXAI Elon" GrokBot fake-quote bait clones, AI roadmap engagement bait, PuskasDigital self-promo (human-approved agent shop, 0 engagement).
+

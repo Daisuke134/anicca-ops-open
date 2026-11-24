@@ -83,7 +83,7 @@
   },
   "source": "RevenueCat v2 charts + ASC Sales"
  },
- "updated_at": "2026-11-24 09:38 JST",
+ "updated_at": "2026-11-24 15:53 JST",
  "seo": {
   "read_at": "2026-11-24 08:45 JST",
   "range": "2026-10-26..2026-11-22",
@@ -300,11 +300,11 @@
   "source": "Google Search Console searchAnalytics sc property https://aniccaai.com/"
  },
  "capafy": {
-  "read_at": "2026-11-23 21:28 JST",
+  "read_at": "2026-11-24 15:42 JST",
   "listing_views": "unknown (source error: Capafy publisher API has no views endpoint; /agent/analytics/* returned code 500; Seller Console analytics page needs a web login read)",
-  "last7_orders": 137,
+  "last7_orders": 125,
   "last7_gross_usd": 9.99,
-  "mtd_orders": 398,
+  "mtd_orders": 384,
   "mtd_gross_usd": 29.97,
   "payout": {
    "balancePending": 7.6,
@@ -316,8 +316,8 @@
   "source": "api.capafy.ai publisher API"
  },
  "posts": {
-  "read_at": "2026-11-24 09:38 JST",
-  "rows": 15801,
+  "read_at": "2026-11-24 15:53 JST",
+  "rows": 16658,
   "top": [
    {
     "platform": "tiktok",

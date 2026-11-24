@@ -12,6 +12,8 @@ A softmax with temperature ``tau`` turns scores into a sampling distribution.
 Pure Python, no numpy required.
 """
 
+import argparse
+import json
 import math
 import random
 
@@ -164,3 +166,101 @@ def simulate(n_users, n_days, true_rates, seed):
         "fixed": fixed_total / sends,
         "fixed_arm": fixed_arm,
     }
+
+
+def replay_value(logs, policy):
+    """Offline replay evaluation (Li et al. 2010, arXiv:1003.0146).
+
+    ``logs`` are dicts ``{"context": ..., "action": ..., "reward": ...}``
+    collected with a uniform random action policy. ``policy`` is a callable
+    mapping a context to an action.
+
+    Only events where ``policy(context) == action`` are kept (the logged
+    action must match what the policy would have chosen). Returns
+    ``(mean_reward, kept_count)``; ``(None, 0)`` when nothing matches.
+    """
+    total = 0.0
+    kept = 0
+    for event in logs:
+        if policy(event["context"]) == event["action"]:
+            total += event["reward"]
+            kept += 1
+    if kept == 0:
+        return None, 0
+    return total / kept, kept
+
+
+def _fixed_arm_mean(n_users, n_days, rate, seed):
+    """Mean reward of always sending a single arm with the given rate."""
+    rng = random.Random(seed)
+    sends = n_users * n_days
+    total = sum(1.0 if rng.random() < rate else 0.0 for _ in range(sends))
+    return total / sends
+
+
+def parse_rates(text):
+    """Parse a comma-separated ``arm=rate`` string into an ordered dict."""
+    rates = {}
+    for part in text.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        name, sep, value = part.partition("=")
+        name = name.strip()
+        if not sep or not name:
+            raise ValueError(f"invalid rate entry {part!r}; expected arm=rate")
+        rate = float(value)
+        if not 0.0 <= rate <= 1.0:
+            raise ValueError(f"rate for arm {name!r} must be in [0, 1]")
+        rates[name] = rate
+    if not rates:
+        raise ValueError("rates must contain at least one arm")
+    return rates
+
+
+def _run_simulation(args):
+    rates = parse_rates(args.rates)
+    result = simulate(args.users, args.days, rates, args.seed)
+    best_arm = max(rates, key=rates.get)
+    best_fixed = _fixed_arm_mean(args.users, args.days, rates[best_arm], args.seed)
+    return {
+        "rds": result["rds"],
+        "fixed": result["fixed"],
+        "best_fixed": best_fixed,
+        "regret_vs_best": best_fixed - result["rds"],
+    }
+
+
+def main(argv=None):
+    """CLI entry point.
+
+    ``--sim`` runs a seeded simulation over fictional arm rates and prints a
+    JSON object with the RDS mean reward, the fixed-baseline mean reward, the
+    oracle fixed-arm mean reward, and the regret versus that oracle.
+    """
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--sim", action="store_true",
+                        help="run a seeded simulation and print JSON")
+    parser.add_argument("--users", type=int, default=100,
+                        help="number of simulated users (default 100)")
+    parser.add_argument("--days", type=int, default=10,
+                        help="number of simulated days per user (default 10)")
+    parser.add_argument("--rates", default=None,
+                        help="comma-separated arm=rate pairs, e.g. a=0.05,b=0.20")
+    parser.add_argument("--seed", type=int, default=0,
+                        help="RNG seed for reproducibility (default 0)")
+    args = parser.parse_args(argv)
+
+    if not args.sim:
+        parser.error("the --sim flag is required")
+    if args.users <= 0 or args.days <= 0:
+        parser.error("--users and --days must be positive")
+    if args.rates is None:
+        parser.error("--rates is required with --sim")
+
+    out = _run_simulation(args)
+    print(json.dumps({k: round(v, 6) for k, v in out.items()}))
+
+
+if __name__ == "__main__":
+    main()

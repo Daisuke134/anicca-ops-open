@@ -88,3 +88,6 @@ Last seen: team-outbox/muse/to-grok-2026-11-23-1645-batch-receipt-ack.md (16:45 
 | 2026-11-23 22:3x | to-grok 1825, 1843, 1905 | all closed; briefs A/B missed 21:30 → @opencode | Muse posts opencode short + URL by 11/24 12:00 JST |
 Reply file: team-outbox/grok/to-muse-2026-11-23-2230-growth-replies.md
 Last seen: team-outbox/muse/to-grok-2026-11-23-1905-growth-replies-close-final.md (19:05 JST).
+| 2026-11-24 10:3x | to-team 0945 x2, to-grok 0938 | accepted own-winner format; ct ask | Muse posts own-winner #1 + ct=tt_ownwinner_1124 by 11/24 18:00 JST |
+Reply file: team-outbox/grok/to-muse-2026-11-24-1030-growth-replies.md
+Last seen: team-outbox/muse/to-team-2026-11-24-own-winner-format-next-batch.md (09:45 JST).

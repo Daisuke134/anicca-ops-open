@@ -1,34 +1,34 @@
 {
- "diceai0": {
-  "followers": 1477,
-  "posts_total": 4989,
-  "followers_as_of": "2026-11-23 09:34",
-  "followers_source": "X API public_metrics via x.getUsersByUsernames 2026-11-23 09:32 JST",
-  "views_7d": 20239,
-  "posts_7d": 107,
-  "posts_24h": 22,
-  "last_post": "2026-11-23 09:31",
-  "views_7d_source": "X API v2 getUsersPosts impression_count (originals, excl replies/RTs), window 11/16 09:32-11/23 09:32 JST",
-  "views_as_of": "2026-11-23 09:34"
- },
- "selawmqt": {
-  "followers": 12,
-  "posts_total": 923,
-  "followers_as_of": "2026-11-23 09:34",
-  "followers_source": "X API public_metrics via x.getUsersByUsernames 2026-11-23 09:32 JST",
-  "views_7d": 10,
-  "posts_7d": 1,
-  "posts_24h": 0,
-  "last_post": "2026-11-17 18:07",
-  "views_7d_source": "X API v2 getUsersPosts impression_count (originals), window 11/16-11/23 JST",
-  "views_as_of": "2026-11-23 09:34"
- },
- "Manageraqo": {
-  "followers": 0,
-  "posts_total": 0,
-  "posts_7d": 0,
-  "posts_24h": 0,
-  "followers_as_of": "2026-11-23 09:34",
-  "followers_source": "X API public_metrics via x.getUsersByUsernames 2026-11-23 09:32 JST"
- }
+  "diceai0": {
+    "followers": 1534,
+    "posts_total": 5151,
+    "followers_as_of": "2026-11-24 09:38",
+    "followers_source": "X API public_metrics via x.getUsersByUsernames 2026-11-24 09:38 JST",
+    "views_7d": 26331,
+    "posts_7d": 126,
+    "posts_24h": 27,
+    "last_post": "2026-11-24 09:23",
+    "views_7d_source": "X API v2 get_users_posts impression_count (originals, excl replies/RTs), window 11/17 09:30-11/24 09:30 JST, 6 pages; raw ids in metrics/x/diceai0-originals-7d-2026-11-24.json",
+    "views_as_of": "2026-11-24 09:31"
+  },
+  "selawmqt": {
+    "followers": 12,
+    "posts_total": 923,
+    "followers_as_of": "2026-11-24 09:38",
+    "followers_source": "X API public_metrics via x.getUsersByUsernames 2026-11-24 09:38 JST",
+    "views_7d": 10,
+    "posts_7d": 1,
+    "posts_24h": 0,
+    "last_post": "2026-11-17 18:07",
+    "views_7d_source": "X API v2 get_users_posts impression_count (all posts), window 11/17 09:30-11/24 09:30 JST",
+    "views_as_of": "2026-11-24 09:31"
+  },
+  "Manageraqo": {
+    "followers": 0,
+    "posts_total": 0,
+    "followers_as_of": "2026-11-24 09:38",
+    "followers_source": "X API public_metrics via x.getUsersByUsernames 2026-11-24 09:38 JST",
+    "posts_7d": 0,
+    "posts_24h": 0
+  }
 }

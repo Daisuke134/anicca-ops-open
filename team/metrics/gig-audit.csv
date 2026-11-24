@@ -314,3 +314,13 @@ date_jst,run,platform,owner,applications,replies,contracts,revenue_jpy,unanswere
 2026-11-23,21:00,Wellfound,dr eggbot,1,0,0,0,0,applications.csv @pickle Elvoro 04:36; no new since 09:00
 2026-11-23,21:00,CrowdWorks,参謀,2,7,0,0,0,"applications.csv @pickle 314680918 + 314683306; Gmail since 15:00: 旅メディア 17:40/20:00, Nana旅日和 17:37/19:57, new conditions 20:31, 1 applicant declined 19:14 (all <12h)"
 2026-11-23,21:00,Workship,@pickle,2,0,0,0,0,applications.csv @pickle Caluck + GIG FE; no new since 09:00
+2026-11-24,09:00,Upwork,dr eggbot,0,0,0,0,1,"Gmail from:upwork.com since 11/23 21:00: 3 Project Catalog approvals 08:18-08:33 (listing updates, @pickle/参謀), password reset 08:05; 0 client msgs; Dorothea F. requested changes 11/23 09:24 still open (>12h); Connects 1"
+2026-11-24,09:00,Fiverr,dr eggbot,0,0,0,0,0,STATE blocked aiworkshop_dais ID verification/gig publish; Gmail from:fiverr.com since 21:00 0
+2026-11-24,09:00,Mercor,dr eggbot,0,0,0,0,0,Gmail from:mercor.com since 21:00 0; applications.csv 0 today
+2026-11-24,09:00,Truelancer,dr eggbot,0,0,0,0,0,Gmail from:truelancer.com since 21:00 0; daisukenaritadev verify_contact open -> 0 bids
+2026-11-24,09:00,Coconala,dr eggbot,0,0,0,0,0,applications.csv 0 today; Gmail from:coconala.com since 21:00 0; coconala-lancers-loop 03:30/06:30 top10 all ours-last; 09:30 loop applies
+2026-11-24,09:00,Wellfound,dr eggbot,1,0,0,0,0,applications.csv @pickle autonent GenAI Engineer 04:29; Gmail from:wellfound.com since 21:00 0
+2026-11-24,09:00,CrowdWorks,参謀,0,1,0,0,1,"applications.csv 0 new today (@pickle STATE 04:2x/06:1x: 5 contracts 検収中/進行中); Gmail luna.mist msg 23:37 + 11 募集終了; masatwuku 条件提示 11/23 20:31 unagreed (CW logged out, 参謀 TIMER 10:45)"
+2026-11-24,09:00,Workship,@pickle,2,0,0,0,0,applications.csv @pickle GIG backend 04:3x + GROUP2.99 iOS
+2026-11-24,09:00,YPAI,@pickle,5,0,0,0,0,applications.csv @pickle 04:19/04:30/06:19/06:21/06:23 receipts
+2026-11-24,09:00,Appen Experts,@pickle,1,0,0,0,0,applications.csv @pickle Search Relevance + 2nd started 06:35

@@ -1,6 +1,6 @@
 {
- "_src": "X API v2 public_metrics via connectors/x getPostsByIds (24h POST-LOG ids) 2026-11-23; older ids retained from prior cache",
- "fetched_at": "2026-11-23T09:34:21.723467+09:00",
+ "_src": "X API v2 public_metrics via connectors/x getPostsByIds (24h+72h POST-LOG ids) 2026-11-24 09:38 JST; older ids retained from prior cache",
+ "fetched_at": "2026-11-24T09:38:10.490528+09:00",
  "posts": {
   "2114557655146455359": {
    "created_at": "2026-10-26T03:20:06.000Z",
@@ -3569,7 +3569,7 @@
   "2124083569962205608": {
    "created_at": "2026-11-21T10:12:41.000Z",
    "bookmark_count": 0,
-   "impression_count": 287,
+   "impression_count": 292,
    "like_count": 5,
    "quote_count": 0,
    "reply_count": 2,
@@ -3578,7 +3578,7 @@
   "2124099355510735039": {
    "created_at": "2026-11-21T11:15:24.000Z",
    "bookmark_count": 0,
-   "impression_count": 91,
+   "impression_count": 92,
    "like_count": 1,
    "quote_count": 0,
    "reply_count": 1,
@@ -3587,7 +3587,7 @@
   "2124118005885833535": {
    "created_at": "2026-11-21T12:29:31.000Z",
    "bookmark_count": 0,
-   "impression_count": 794,
+   "impression_count": 803,
    "like_count": 14,
    "quote_count": 0,
    "reply_count": 40,
@@ -3641,7 +3641,7 @@
   "2124312886432436357": {
    "created_at": "2026-11-22T01:23:54.000Z",
    "bookmark_count": 0,
-   "impression_count": 131,
+   "impression_count": 136,
    "like_count": 2,
    "quote_count": 0,
    "reply_count": 1,
@@ -3650,7 +3650,7 @@
   "2124310753562009890": {
    "created_at": "2026-11-22T01:15:26.000Z",
    "bookmark_count": 0,
-   "impression_count": 54,
+   "impression_count": 56,
    "like_count": 0,
    "quote_count": 0,
    "reply_count": 0,
@@ -3659,7 +3659,7 @@
   "2124339890112360833": {
    "created_at": "2026-11-22T03:11:12.000Z",
    "bookmark_count": 1,
-   "impression_count": 126,
+   "impression_count": 149,
    "like_count": 2,
    "quote_count": 0,
    "reply_count": 3,
@@ -3668,16 +3668,124 @@
   "2124339795069468689": {
    "created_at": "2026-11-22T03:10:50.000Z",
    "bookmark_count": 0,
-   "impression_count": 70,
+   "impression_count": 78,
    "like_count": 1,
    "quote_count": 0,
    "reply_count": 0,
    "repost_count": 0
+  },
+  "2124446146420502969": {
+   "created_at": "2026-11-22T10:13:26.000Z",
+   "bookmark_count": 0,
+   "impression_count": 908,
+   "like_count": 37,
+   "quote_count": 0,
+   "reply_count": 3,
+   "repost_count": 1
+  },
+  "2124462258520490443": {
+   "created_at": "2026-11-22T11:17:27.000Z",
+   "bookmark_count": 3,
+   "impression_count": 1045,
+   "like_count": 9,
+   "quote_count": 0,
+   "reply_count": 3,
+   "repost_count": 0
+  },
+  "2124478071805735325": {
+   "created_at": "2026-11-22T12:20:17.000Z",
+   "bookmark_count": 5,
+   "impression_count": 2125,
+   "like_count": 47,
+   "quote_count": 0,
+   "reply_count": 51,
+   "repost_count": 0
+  },
+  "2124493738336752110": {
+   "created_at": "2026-11-22T13:22:33.000Z",
+   "bookmark_count": 0,
+   "impression_count": 197,
+   "like_count": 2,
+   "quote_count": 0,
+   "reply_count": 1,
+   "repost_count": 0
+  },
+  "2124642803837710550": {
+   "created_at": "2026-11-22T23:14:53.000Z",
+   "bookmark_count": 0,
+   "impression_count": 1191,
+   "like_count": 63,
+   "quote_count": 0,
+   "reply_count": 3,
+   "repost_count": 0
+  },
+  "2124644581169823961": {
+   "created_at": "2026-11-22T23:21:56.000Z",
+   "bookmark_count": 1,
+   "impression_count": 386,
+   "like_count": 6,
+   "quote_count": 0,
+   "reply_count": 8,
+   "repost_count": 0
+  },
+  "2124661980682486256": {
+   "created_at": "2026-11-23T00:31:05.000Z",
+   "bookmark_count": 0,
+   "impression_count": 150,
+   "like_count": 1,
+   "quote_count": 0,
+   "reply_count": 0,
+   "repost_count": 0
+  },
+  "2124663504959393812": {
+   "created_at": "2026-11-23T00:37:08.000Z",
+   "bookmark_count": 0,
+   "impression_count": 144,
+   "like_count": 1,
+   "quote_count": 0,
+   "reply_count": 2,
+   "repost_count": 0
+  },
+  "2124672553763701222": {
+   "created_at": "2026-11-23T01:13:05.000Z",
+   "bookmark_count": 0,
+   "impression_count": 71,
+   "like_count": 0,
+   "quote_count": 0,
+   "reply_count": 0,
+   "repost_count": 0
+  },
+  "2124703338209984748": {
+   "created_at": "2026-11-23T03:15:25.000Z",
+   "bookmark_count": 0,
+   "impression_count": 102,
+   "like_count": 1,
+   "quote_count": 0,
+   "reply_count": 2,
+   "repost_count": 0
+  },
+  "2124703681270763971": {
+   "created_at": "2026-11-23T03:16:47.000Z",
+   "bookmark_count": 0,
+   "impression_count": 84,
+   "like_count": 0,
+   "quote_count": 0,
+   "reply_count": 0,
+   "repost_count": 0
+  },
+  "2124748434414735865": {
+   "created_at": "2026-11-23T06:14:37.000Z",
+   "bookmark_count": 0,
+   "impression_count": 155,
+   "like_count": 3,
+   "quote_count": 0,
+   "reply_count": 1,
+   "repost_count": 1
   }
  },
  "errors": [
-  "24h POST-LOG window (18-48h): 18/18 logged status IDs fetched. Own max diceai0 2121745740913430569=3488imp/151like/30reply/4bookmark/5repost. Two logged URLs are other authors (TonyChanBuilds 2121758844669870090=2517imp, dev_with_you 2121753982641311843=538imp).",
-  "72h POST-LOG window (60-120h): 2/2 status IDs fetched (selawmqt 2120677516260102214=1imp, diceai0 2120511059836686354=123imp/3like/6reply). POST-LOG row with post_url=\"quote\" has no status id, so post_readback cannot match it.",
-  "Did not fetch early/late posts outside the 24h/72h gates. Updating fetched_at labels stale cache rows with today read_at (known post_readback.py behavior; metrics of those rows were not re-fetched)."
+  "24h POST-LOG window (18-48h): 16/16 logged status IDs fetched. diceai0 only. totals views=6977 likes=175 saves=10 replies=78 reposts=3. top 2124478071805735325=2125imp, 2124642803837710550=1191imp, 2124462258520490443=1045imp.",
+  "72h POST-LOG window (60-120h): 3/3 logged status IDs fetched. diceai0 only. totals views=1187 likes=20 saves=0. top 2124118005885833535=803imp.",
+  "Did not fetch early (7) or late posts outside the 24h/72h gates. Updating fetched_at labels stale cache rows with today read_at (known post_readback.py behavior; metrics of those rows were not re-fetched)."
  ]
 }

@@ -309,3 +309,9 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 
 ### A. Zero-human / autonomous companies
 - Nothing new and credible in the window. Skipped: @makefunai "my AI agent made this meme / real money" referral spam (10+ posts), GTA 6 bait, off-topic DeepSeek eval post.
+
+## 2026-11-24 10:00 run (window ~Nov 22–24)
+- **Sim2Real gap in mental-health AI (Subigya Nepal et al., preprint)** — 21K real chatbot messages vs 7 simulated-user datasets; detectors trained on simulated users did much worse on real users, and style clean-up didn't help. https://x.com/SkNepal/status/2124998821457387584 | https://subigya.me/paper/sim2real_gap_mentalhealth.pdf
+- **Joon Sung Park (Simile AI) talk "Simulating Humanity: from Generative Agents to 8 Billion Digital Twins"** — https://m.youtube.com/watch?v=KpOW9Pk4BUs (shared via https://x.com/ArtificialOther/status/2124956932444405896)
+- **"Knowledge engineer" as missing step to an almost fully autonomous company** (Full_Metal_QR, citing Harrison Chase's "knowledge factory"; 407 imp, 8 bm) — https://x.com/Full_Metal_QR/status/2124851683733778666
+- Skipped: viral "99% of people use GrokBot like Google" fake-quote engagement bait (usernamentality/0xHunterHunter/nullenxai/0xsmerkzz), $NOHR token shilling.

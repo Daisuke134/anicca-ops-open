@@ -1,11 +1,11 @@
 {
- "run_at": "2026-11-23 21:28",
+ "run_at": "2026-11-24 08:45",
  "actor": "S7JAoTNiztat9Qwuq",
  "users_total": 1,
  "users_7d": 1,
  "users_30d": 1,
  "runs_total": 29,
- "runs_24h_owner_visible": 1,
+ "runs_24h_owner_visible": 0,
  "last_run_jst": "2026-11-23 18:12",
  "pricing_model": "PAY_PER_EVENT",
  "pricing_started_at_api": "2026-11-02",

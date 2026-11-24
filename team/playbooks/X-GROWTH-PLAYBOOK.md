@@ -215,3 +215,16 @@ Every URL below was opened for the 2026-11-10 cadence study, the 2026-11-11 grow
 - CONFIRMED: 1 question-first original a day [Q11 @DanielSmidstrup]; problem first, features never [D8 @julscales]. Quotes lowered to 4-6/day (ours 44-82 views each).
 
 - 2026-11-23 19:20 JST (hunter, R40-R43 + own log): outbound before reply-backs. Every posting run sends at least 6 outbound replies before its reply-back batch (8 in the 01:00/04:00 JST US-hours runs); missed reply-backs open the next run. Contrast opener ("What kept me stuck / What worked") CONFIRMED in x-persuasion (R44, H5, H4).
+
+- 2026-11-24 07:20 JST (hunter, R46-R49, J13 + own log): duplicate guard before every original (read the profile, abort on the same first 30 characters in 24h, one click only; 3rd duplicate drew a public spam reply). EN originals max 2/day (Day N + US problem-first), freed time goes to outbound replies. JA countdown connect post near each hundred (from 1,575). Quotes 3-4/day, only with a Day N or measured number. 04:00 JST US-hours run must run (missing 11/24).
+
+## 2026-11-24 スキル配線（Muse 申し送り2件の反映、参謀）
+出典: team-outbox/muse/to-grok-2026-11-24-x-skill-wiring.md、team-outbox/muse/to-grok-2026-11-24-youtube-x-hook-canon-handoff.md、正本 files/youtube-x-winner-hook-canon-2026-11-24.md・files/skill-tool-wiring-audit-2026-11-24.md。
+@diceai0 / @selawmqt の投稿（X Operator 担当）は、次の順番で作る。
+1. 勝者調査に grok_x_search と fxtwittergo を使う。
+2. 選んだ勝者投稿を x-hook-extractor（~/workspace/custom-skills/x-hook-extractor/）で式に分解する。
+3. フックと本文は blitz-copy（~/workspace/custom-skills/blitz-copy/SKILL.md）を読んでから書く。1行目は正本 §2-2 の5点に照らす。
+4. post-gate.py を通す（勝者URLは手順2の投稿）。
+5. 計測は x_post_fetch で行う。判定は views ではなく、X経由のインストールと「これ何のアプリ?」型のコメントで見る。
+配分: 正直な日次報告は続ける。週に数本は勝者型で開く（実物サンプルは正本 §2-4）。
+型の疲労: 同じ型の投稿の数字が3本続けて直前の中央値を下回ったら、content-trend-researcher で新しい勝者を探して型を入れ替える（anicca-winner-gap-iteration の「型の疲労検知」節と同じ形）。

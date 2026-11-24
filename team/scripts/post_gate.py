@@ -25,6 +25,11 @@ A post / delete / cancel is allowed only when ALL hold:
                 after that attempt and does not contain it. This is the "uncertain submit" rule: after a Post click
                 that seems to hang, read the timeline back; never click Post again blind.
 
+  (f) intent lock: every allowed create/schedule with text is appended to the intent ledger
+                (team/state/x-post-intents.jsonl, override with $POST_GATE_INTENTS). A second
+                create/schedule whose text has the same sha256 within INTENT_LOCK_MIN (30) minutes
+                is refused, so an allowed attempt cannot be silently repeated.
+
 Data is read from GitHub main (Daisuke134/anicca-ops) so a claim only counts once it is committed and visible
 to everyone. Token: $GITHUB_TOKEN or $GH_TOKEN, else `gh api`. Tests / offline: POST_GATE_LOCAL_ROOT=<repo root>.
 
@@ -73,6 +78,7 @@ DEDUP_WINDOW_H = 24
 RECENT_MAX_AGE_MIN = 10
 UNCERTAIN_WAIT_MIN = 3
 SIMILAR = 0.85
+INTENT_LOCK_MIN = 30
 URL_RE = re.compile(r"https?://\S+")
 HERE_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
@@ -149,11 +155,47 @@ def record_intent(account, poster, text, in_reply_to="", now=None):
     now = dt.datetime.now(JST)  # wall clock: compared with read-back file mtimes
     p = _intents_path()
     os.makedirs(os.path.dirname(p), exist_ok=True)
+    import hashlib
     rec = {"at": now.strftime("%Y-%m-%d %H:%M:%S JST"), "ts": now.timestamp(), "account": account, "poster": poster,
-           "key": text_key(text, in_reply_to), "first_line": first_line(text)[:80], "in_reply_to": in_reply_to}
+           "key": text_key(text, in_reply_to), "sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
+           "first_line": first_line(text)[:80], "in_reply_to": in_reply_to}
     with open(p, "a", encoding="utf-8") as f:
         f.write(json.dumps(rec, ensure_ascii=False) + "\n")
     return rec
+
+
+def intent_lock(account, poster, text, in_reply_to="", now=None):
+    """(f) Refuse a second create/schedule of the same text sha256 within INTENT_LOCK_MIN minutes.
+
+    On success the attempt is appended to the intent ledger (same file as --record-intent) and the
+    record's `at` timestamp is returned, so callers can surface it like res["intent"]."""
+    import hashlib
+    now = now or dt.datetime.now(JST)
+    sha = hashlib.sha256(text.encode("utf-8")).hexdigest()
+    key = text_key(text, in_reply_to)
+    lo = now - dt.timedelta(minutes=INTENT_LOCK_MIN)
+    for it in load_intents():
+        if it.get("account") != account:
+            continue
+        same = it.get("sha256") == sha or (it.get("sha256") is None and it.get("key") == key)
+        if not same:
+            continue
+        try:
+            t = dt.datetime.fromtimestamp(it["ts"], JST)
+        except (KeyError, TypeError, ValueError):
+            continue
+        if lo <= t <= now + dt.timedelta(minutes=5):
+            raise Refused(f"(f) intent lock: identical text was already submitted for {account} at "
+                          f"{it.get('at')} by {it.get('poster')}; a second create/schedule of the same text is "
+                          f"refused for {INTENT_LOCK_MIN} min. Change the text or wait.")
+    p = _intents_path()
+    os.makedirs(os.path.dirname(p) or ".", exist_ok=True)
+    rec = {"at": now.strftime("%Y-%m-%d %H:%M:%S JST"), "ts": now.timestamp(), "account": account,
+           "poster": poster, "key": key, "sha256": sha, "first_line": first_line(text)[:80],
+           "in_reply_to": in_reply_to, "lock": True}
+    with open(p, "a", encoding="utf-8") as f:
+        f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    return rec["at"]
 
 
 def x_dedup_check(account, text, recent_posts, readback_at, in_reply_to="", now=None, intents=None):
@@ -430,6 +472,9 @@ def check(poster, platform, account, action, source_url, integration_id=None, no
         ct_link_check(platform, action, text)
         posts, readback_at = load_recent(recent_json, now)
         res.update(x_dedup_check(acct_key, text or "", posts, readback_at, in_reply_to=in_reply_to, now=now))
+    # (f) intent lock: record every allowed create/schedule; refuse an identical-text repeat within 30 min
+    if action in ("create", "schedule") and (text or "").strip():
+        res["intent"] = intent_lock(acct_key, poster, text, in_reply_to=in_reply_to, now=now)
     return res
 
 
@@ -548,7 +593,7 @@ def main(argv=None):
             res = check(o.poster, o.platform or "", o.account or "", o.action, o.source_url,
                         integration_id=o.integration_id, now=now, text=text, recent_json=o.recent_json,
                         in_reply_to=o.in_reply_to)
-            if o.record_intent and norm_platform(o.platform or "") == "x":
+            if o.record_intent and norm_platform(o.platform or "") == "x" and "intent" not in res:
                 res["intent"] = record_intent(res["account"], res["poster"], text or "", o.in_reply_to, now=now)["at"]
     except Refused as e:
         print(f"POST-GATE REFUSED: {e}")

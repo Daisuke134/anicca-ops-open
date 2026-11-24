@@ -359,3 +359,9 @@ KEEP/REVERT: Anicca promo + Honne de/fr (11/23) — first post-change PT day 11/
 - 2026-11-24 14:2x JST growth loop 14:00 (参謀): Anicca T4331 未着地（@opencode プロセスなし）→ @devin へ付け替え（proof marketing/anicca/aso/2026-11-24-ship-proof.json）。Muse pt確認→@devin T1124-ASC-PT-CONFIRM。
 ### 2026-11-24 18:2x JST — growth loop 18:00 (参謀, router-only)
 Anicca: PPO d7ffa0d7（lock-screen先頭）稼働継続・STOPせず（@pickle 17:5x実測）。subtitle「ロック画面のアファメーション」を 1.11.2 appInfoLocalizations ja へ PATCH → @pickle PK-ASO1（18:0x判断、提出で live）。KEEP/REVERT: PPO は結果待ち（判定は ASC PPO 有意差まで）。Muse own-winner #1 未着地→NOW 再督促。
+
+### 2026-11-24 22:2x JST — growth loop 22:00 (参謀, router-only) day close
+Funnel: 新しい ASC 公開なし（newest PT 11/22）。Anicca PT 11/16–11/22 = 428 imp → 131 PV → 3 first-time DL（10:3x と同じ。files/attribution-daily-2026-11-24.md）。Mixpanel per channel unknown (#495)。RevenueCat（21:1x scoreboard）: Anicca MRR $20 / paid 5 / trial 0 / 28d $0。**指標変化なし**。
+Anicca ship today: PPO d7ffa0d7（lockscreen先頭、en-US、50%）稼働中を @pickle が ASC 実測で確認（新規作成せず）。ja subtitle PATCH（1.11.2 draft）は判断済みだが readback 未着地 → **blocker 記録**、T1124-ASO-JA-SUBTITLE で @pickle に NOW 再指示。Honne/他4アプリ: 7日ルールで 11/27 まで。
+KEEP/REVERT: 11/23 Anicca promo・Honne de/fr は事後 PT データ未公開のため 11/30 判定のまま。Revert なし。
+Muse: IG1/TikTok0、フォロワー15（±0）。own-winner #1 未投稿 → NOW 再指示。

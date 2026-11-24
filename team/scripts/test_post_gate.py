@@ -81,6 +81,58 @@ def test_check_still_refuses_without_claim(tmp_path, monkeypatch):
         )
 
 
+def _write_tiktok_repo(root):
+    (root / "team" / "distribution" / "shortform").mkdir(parents=True)
+    (root / "team").mkdir(parents=True, exist_ok=True)
+    (root / "team" / "ACCOUNT-OWNERS.md").write_text(
+        "```post-gate-owners\n"
+        "tiktok | @tt | tester |\n"
+        "```\n",
+        encoding="utf-8",
+    )
+    (root / "team" / "CLAIMS.md").write_text(
+        "- POST-CLAIM | 2026-11-22 12:00 JST | tester | tiktok:@tt | create | https://anicca.ai/winner/1\n",
+        encoding="utf-8",
+    )
+    (root / "team" / "distribution" / "shortform" / "marketing-destinations.json").write_text(
+        json.dumps({"targets": [{"platform": "tiktok", "native_handle": "@tt"}], "holds": []}),
+        encoding="utf-8",
+    )
+
+
+def test_intent_lock_refuses_identical_create_within_30min(tmp_path, monkeypatch):
+    repo = tmp_path / "repo"
+    _write_tiktok_repo(repo)
+    intents = tmp_path / "intents.jsonl"
+    monkeypatch.setenv("POST_GATE_LOCAL_ROOT", str(repo))
+    monkeypatch.setenv("POST_GATE_INTENTS", str(intents))
+
+    now = dt.datetime(2026, 11, 22, 12, 0, tzinfo=post_gate.JST)
+    src = "https://anicca.ai/winner/1"
+    first = post_gate.check("tester", "tiktok", "@tt", "create", src, now=now,
+                            text="same exact post text")
+    assert first["allowed"] is True
+    assert intents.exists()
+
+    # second create with the same text sha256 inside 30 min -> refused
+    with pytest.raises(post_gate.Refused, match="intent lock"):
+        post_gate.check("tester", "tiktok", "@tt", "create", src, now=now,
+                        text="same exact post text")
+    # a schedule of the same text is refused too
+    with pytest.raises(post_gate.Refused, match="intent lock"):
+        post_gate.check("tester", "tiktok", "@tt", "schedule", src, now=now,
+                        text="same exact post text")
+    # different text is still allowed
+    ok = post_gate.check("tester", "tiktok", "@tt", "create", src, now=now,
+                         text="a completely different post text")
+    assert ok["allowed"] is True
+    # after 30 minutes the same text may be posted again
+    later = now + dt.timedelta(minutes=31)
+    again = post_gate.check("tester", "tiktok", "@tt", "create", src, now=later,
+                            text="same exact post text")
+    assert again["allowed"] is True
+
+
 def test_main_prints_connect_advice_without_blocking(tmp_path, monkeypatch, capsys):
     text_file = tmp_path / "post.txt"
     text_file.write_text("今日の学びを共有します\nつながりたい方はぜひ", encoding="utf-8")

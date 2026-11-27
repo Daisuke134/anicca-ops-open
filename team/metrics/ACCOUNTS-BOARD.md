@@ -1,4 +1,4 @@
-# ACCOUNTS-BOARD（SNS スコアボード）2026-11-27 18:24 JST
+# ACCOUNTS-BOARD（SNS スコアボード）2026-11-28 00:22 JST
 > 自動生成 scripts/build_now.py。数字は既存ファイルのみ。空欄＝未取得。
 
 | platform | account | 投稿者(1人) | followers | 7d増減 | 7d投稿 | 7d views | 7d いいね/コメ/シェア | ER 7d | 直近5本 平均views | 最終投稿 | Copy the winners | 次にコピーする型 |
@@ -48,7 +48,7 @@
 | YouTube | @anicca-ai | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 6 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-19T10:00:00.000Z | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner title = 2nd-person promise ("Things You Will Soon Manifest", "What You Are Abou |
 | YouTube | @aniccaffirmations | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
 | anicca | tumblr | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-12 02:20 | https://www.ignipotent.com/tagged/affirmations — reblogged text affirmations: "YOU'RE A REGULAR WRITER!…" 42,873 notes ( | /3/script length/structure/4–8 repeated short lines, no link/line + A–D quiz + app line + link/yes/1 in 3 Tumblr posts w |
-| bluesky | anicca-affirm | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-26 16:2x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | 未取得 |
+| bluesky | anicca-affirm | 参謀（2026-11-27 19:36 JST t4385u。Codex DEAD のため移管） | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-26 16:2x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | 未取得 |
 | bluesky | bluesky_anicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 23:00 | 未取得 | 未取得 |
 | bluesky | bluesky_anicca_en | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 01:01 | 未取得 | 未取得 |
 | bluesky | bluesky_anicca_en (aniccaapp) | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-27 08:26 | 未取得 | 未取得 |
@@ -60,7 +60,9 @@
 | dailyanicca | tumblr | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 02:14 | https://www.ignipotent.com/tagged/affirmations — reblogged text affirmations: "YOU'RE A REGULAR WRITER!…" 42,873 notes ( | /3/script length/structure/4–8 repeated short lines, no link/line + A–D quiz + app line + link/yes/1 in 3 Tumblr posts w |
 | dev.to | aniccaapp | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:3x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://bsky.app/profile/luigiaffirmations.bsky |
 | devto | aniccaapp | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 00:3x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://bsky.app/profile/luigiaffirmations.bsky |
-| diceai0 | x | X Operator だけ（2026-11-13 23:5x。ほかのボットは X-QUEUE-selawmqt.md に | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 00:37 | https://x.com/marclou — 417,695 followers; top recent post 283,466 impressions https://x.com/i/status/211358872967569438 | /1/first-line / first-second hook/winner opens with a result or a feeling in ≤8 words ("SaaS is so dead" 120,684 imp; "I |
+| diceai0 | quote-en | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-27 23:06 | 未取得 | 未取得 |
+| diceai0 | reply-en | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-27 23:06 | 未取得 | 未取得 |
+| diceai0 | x | 参謀（2026-11-27 19:36 JST t4385u。Codex DEAD のため移管） | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 00:37 | https://x.com/marclou — 417,695 followers; top recent post 283,466 impressions https://x.com/i/status/211358872967569438 | /1/first-line / first-second hook/winner opens with a result or a feeling in ≤8 words ("SaaS is so dead" 120,684 imp; "I |
 | directory | junkstartups | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:3x | 未取得 | 未取得 |
 | linkedin | Daisuke Narita | Muse（本物、自分のサブスク） | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:28 | 未取得 | 未取得 |
 | linkedin | daisuke-narita | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 63 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-24T00:30:00.000Z | 未取得 | 未取得 |
@@ -68,7 +70,7 @@
 | mastodon | mastodon_anicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 21:00 | 未取得 | 未取得 |
 | mastodon | mastodon_anicca_en | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 03:54 | 未取得 | 未取得 |
 | mastodon | mastodon_lm | 参謀 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 01:01 | 未取得 | 未取得 |
-| nostr | anicca | Mac mini LM jobs | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 09:3x | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner opens with a relatable worry line ("誰にでも好かれようとすればするほど…") (https://www.tiktok.co |
+| nostr | anicca | OpenCode（2026-11-27 19:20 JST t4384u。Muse から移管） | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 09:3x | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner opens with a relatable worry line ("誰にでも好かれようとすればするほど…") (https://www.tiktok.co |
 | nostr | anicca npub1jtay | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-26 17:3x | 未取得 | 未取得 |
 | nostr | anicca_npub | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 12:3x | 未取得 | 未取得 |
 | nostr | npub1jtay3qxp | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-27 03:3x | 未取得 | 未取得 |
@@ -308,3 +310,7 @@
   - 2026-11-16 views ltt-13sentences いいね 未取得 RP 未取得 返信 未取得 ltt-users-first
 - **2122183572454883736 https://x.com/diceai0/status/2122183572454883736**
   - 2026-11-16 views none いいね 未取得 RP 未取得 返信 未取得 comedy-video-sagi-denwa
+- **diceai0 quote-en**
+  - 2026-11-27 23:06 views 未取得 いいね 未取得 RP 未取得 返信 未取得 2126316627750793401
+- **diceai0 reply-en**
+  - 2026-11-27 23:06 views 未取得 いいね 未取得 RP 未取得 返信 未取得 2126316775037972960

@@ -16,6 +16,7 @@ Usage
   x_presim.py score --account diceai0 --file posts.json            # [{"id":..,"text":..}, ...]
   x_presim.py actual                                               # fill actual_* from team/marketing/X-METRICS.csv (age>=24h)
   x_presim.py report                                               # calibration: median |log error| per metric, per backend
+  x_presim.py calib                                                # MAE/bias of pred vs actual impressions (log1p space) as JSON
 Log: team/metrics/presim-log.csv (one row per prediction; append-only)
 """
 import argparse, csv, datetime, hashlib, json, math, os, re, statistics, subprocess, sys
@@ -175,6 +176,43 @@ def score(posts, account, backend, surface, write=True):
 def le(pred, act):
     return round(abs(math.log((float(act) + 1) / (float(pred) + 1))), 3)
 
+def calib_error(pairs):
+    """Calibration error over (predicted, actual) impression pairs, in log1p space.
+
+    Accepts (pred, actual) tuples or dict rows with pred/pred_impr and
+    actual/actual_impr keys. Rows with no actual are skipped.
+    Returns {"n", "mae_log", "bias_log"}: mean |log1p(pred)-log1p(actual)| and
+    mean signed (pred - actual) log1p error.
+    """
+    diffs = []
+    for p in pairs or []:
+        if isinstance(p, dict):
+            pred = p.get('pred', p.get('predicted', p.get('pred_impr')))
+            act = p.get('actual', p.get('actuals', p.get('actual_impr')))
+        else:
+            try:
+                pred, act = p
+            except (TypeError, ValueError):
+                continue
+        if act is None or act == '':
+            continue
+        try:
+            diffs.append(math.log1p(float(pred)) - math.log1p(float(act)))
+        except (TypeError, ValueError):
+            continue
+    n = len(diffs)
+    if not n:
+        return dict(n=0, mae_log=0.0, bias_log=0.0)
+    return dict(n=n, mae_log=sum(abs(d) for d in diffs) / n, bias_log=sum(diffs) / n)
+
+def calib():
+    try:
+        rows = list(csv.DictReader(open(LOG, encoding='utf-8')))
+    except FileNotFoundError:
+        rows = []
+    pairs = [(r.get('pred_impr'), r.get('actual_impr')) for r in rows]
+    print(json.dumps(calib_error(pairs)))
+
 def fill_actual():
     ensure_log()
     m = {}
@@ -210,6 +248,7 @@ if __name__ == '__main__':
     s.add_argument('--file'); s.add_argument('--backend', default='heuristic', choices=['heuristic', 'codex'])
     s.add_argument('--surface', default='x'); s.add_argument('--dry', action='store_true'); s.add_argument('--panel', action='store_true')
     sp.add_parser('actual'); rp = sp.add_parser('report'); rp.add_argument('--by', default='backend', choices=['backend', 'surface', 'lang'])
+    sp.add_parser('calib')
     a = ap.parse_args()
     if a.cmd == 'score':
         posts = json.load(open(a.file, encoding='utf-8')) if a.file else [dict(id=a.id, text=a.text)]
@@ -217,4 +256,5 @@ if __name__ == '__main__':
             print(json.dumps({k: row[k] for k in ('post_id', 'backend', 'baseline_impr', 'stop_rate', 'pred_impr', 'pred_likes', 'pred_replies', 'pred_follows', 'top_persona', 'weak_persona', 'fix_hint')}, ensure_ascii=False))
             if a.panel: print(json.dumps(panel, ensure_ascii=False))
     elif a.cmd == 'actual': fill_actual()
+    elif a.cmd == 'calib': calib()
     else: report(a.by)

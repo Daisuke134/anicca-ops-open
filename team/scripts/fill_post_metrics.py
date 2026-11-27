@@ -83,6 +83,46 @@ def fetch(r):
         path = u.split('dev.to/')[1].strip('/'); d = get('https://dev.to/api/articles/' + path)
         return dict(views=None, likes=d.get('public_reactions_count'), replies=d.get('comments_count'), reposts=None)
     return None
+def opener_effect(rows, n_boot=2000, seed=0):
+    """Ratio of total impressions for opener='request' vs opener='number' rows,
+    with a 95% bootstrap CI over resampled rows. Deterministic for a given seed."""
+    def totals(sample):
+        req = num = 0.0
+        for r in sample:
+            try:
+                v = float(r.get('impressions') or 0)
+            except (TypeError, ValueError):
+                continue  # misaligned row (unquoted comma) -> skip
+            if r.get('opener') == 'request': req += v
+            elif r.get('opener') == 'number': num += v
+        return req, num
+    req, num = totals(rows)
+    mean = req / num if num else float('nan')
+    n = len(rows)
+    rng = random.Random(seed)
+    boots = []
+    for _ in range(n_boot):
+        req_b, num_b = totals(rows[rng.randrange(n)] for _ in range(n)) if n else (0, 0)
+        if num_b:
+            boots.append(req_b / num_b)
+    boots.sort()
+    def quantile(p):
+        if not boots:
+            return float('nan')
+        return boots[min(len(boots) - 1, max(0, int(p * len(boots))))]
+    return dict(ratio=mean, ci=(quantile(0.025), quantile(0.975)), n_boot=n_boot, seed=seed, n_rows=n)
+
+if '--opener-report' in sys.argv:
+    with open(PL, encoding='utf-8') as fh:
+        log_rows = list(csv.DictReader(fh))
+    effect_rows = [dict(r, impressions=r.get('impressions') or r.get('impr_24h')) for r in log_rows]
+    eff = opener_effect(effect_rows)
+    lo, hi = eff['ci']
+    print(json.dumps(dict(effect=eff['ratio'], ci_low=lo, ci_high=hi,
+                          n_request=sum(1 for r in effect_rows if r.get('opener') == 'request'),
+                          n_number=sum(1 for r in effect_rows if r.get('opener') == 'number'))))
+    sys.exit(0)
+
 with open(PL, encoding='utf-8') as fh: rows = list(csv.DictReader(fh))
 for r in rows: r.pop(None, None)  # drop overflow cols from unquoted commas
 cols = [c for c in rows[0].keys() if c is not None]
@@ -134,29 +174,3 @@ if PZ and '--no-postiz' not in sys.argv:
                        selection='up to 5 most recent published posts per connected account; posts older than 24 hours',
                        posts=out), fh, ensure_ascii=False, indent=1)
     print(f'Postiz: {len(out)} posts across {len(by)} accounts, {n} fetched, {errs} errors')
-
-def opener_effect(rows, n_boot=2000, seed=0):
-    """Ratio of total impressions for opener='request' vs opener='number' rows,
-    with a 95% bootstrap CI over resampled rows. Deterministic for a given seed."""
-    def totals(sample):
-        req = num = 0.0
-        for r in sample:
-            v = float(r.get('impressions') or 0)
-            if r.get('opener') == 'request': req += v
-            elif r.get('opener') == 'number': num += v
-        return req, num
-    req, num = totals(rows)
-    mean = req / num if num else float('nan')
-    n = len(rows)
-    rng = random.Random(seed)
-    boots = []
-    for _ in range(n_boot):
-        req_b, num_b = totals(rows[rng.randrange(n)] for _ in range(n)) if n else (0, 0)
-        if num_b:
-            boots.append(req_b / num_b)
-    boots.sort()
-    def quantile(p):
-        if not boots:
-            return float('nan')
-        return boots[min(len(boots) - 1, max(0, int(p * len(boots))))]
-    return dict(ratio=mean, ci=(quantile(0.025), quantile(0.975)), n_boot=n_boot, seed=seed, n_rows=n)

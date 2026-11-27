@@ -15,6 +15,44 @@
 Do not skip a program because it is limited to a country or region we do not live in. Apply anyway, with honest wording: we are based in Tokyo; we can travel to the US immediately (Japanese ESTA); we will relocate to the US if accepted. Never claim residence in the US, Canada, the UK, or any other country we do not have. ESTA is travel permission, not residence. If a web form hard-blocks a non-US/CA/UK applicant, apply through the official email or another honest channel and record the result. A geographic filter is not a reason to decline.
 
 
+## RULE TT-YT-TAKEOVER（2026-11-27, 成田さん t4384u, HARD, all agents）
+
+Muse は TikTok と YouTube の投稿者ではない。Anicca の TikTok 全アカウントの owner は **OpenCode**（参謀 backup。OpenCode の GitHub inbox は読まれていないので、Mac のローカル inbox にも置く）。YouTube 全アカウントの owner は **参謀**（executor）。Codex は 2026-11-27 19:36 JST 時点で DEAD のため YouTube を振らない。Codex が ALIVE に戻ったら OWNER を戻す。Instagram は Muse のまま（急がない。Postiz でも可）。公開・予約の投稿には、従来どおり勝者の原典URLが必須（RULE POST-GATE と 11/11 の winner-URL ルールは存続）。
+
+投稿経路: ホスト Postiz（API / postiz-safe）またはブラウザログイン（credentials.json / ACCESS-INDEX の postiz・各垢行）。MCP コネクタ `user-Postiz---2` と `user-Postiz---3` は 2026-11-27 19:18 JST に integration / media とも 0件で、稼働中のワークスペースではない。
+
+このルールは、2026-11-11 の「TikTok is Muse-only」および「TikTok / Instagram / YouTube are Muse-only」を、**TikTok と YouTube についてのみ**廃止する。Instagram の Muse-only は存続。
+
+## RULE LIVENESS-CHECK（成田さん 2026-11-27 19:27 JST t4385u/t4386u, HARD, all agents）
+
+仕事を他のワーカーに振る前に、`python3 team/scripts/worker_liveness.py` を実行する（同じ分に作った `team/WORKER-LIVENESS.md` を読んでもよい）。**DEAD のワーカーには振らない。** STALE のワーカーに振るときは、ALIVE のバックアップオーナーを必ず付ける。その仕事の専門家が全員 DEAD なら、待つのでなく、参謀の executor か Cursor cloud agent が自分でやる。
+
+- ALIVE = 本人の実出力または読める heartbeat が6時間以内
+- STALE = 6–48時間
+- DEAD = 48時間超、または一度もない
+- 振り分け行・ASSIGN・Daisuke Narita の handoff/coverage コミットは生存証拠にしない
+
+## RULE COMPANY-WIDE-FIX（成田さん 2026-11-27 19:30 JST t4387u, HARD, all agents）
+
+誰かの動き方を直すときは、そのエージェント自身の設定やメモリだけを更新してはならない。**先に GitHub 上の、全員が読む共有 identity ファイルへ直す。** 対象は anicca-ops の `AGENTS.md`、`IDENTITY.md` / `identity.md`、`CLAUDE.md`、`GEMINI.md`、`team/ONBOARDING.md`、`team/RULES.md`、および anicca / anicca-products / life-manager リポジトリ内の同名ファイル。個人の memory や profile の更新は、会社の修正ではない。
+
+
+## RULE ONE-OF-EACH（成田さん 2026-11-27 19:40–19:45 JST t4388u / t4389u, HARD, all agents）
+
+会社の軸は **One Bible・One Model（Manager）・One Eval（ManagerBench）・One Product（Aniccaモバイルアプリ）**。正本は [team/BIBLE.md](BIBLE.md)。One Product は旗艦の Anicca モバイルアプリを指す。RULE ONE-PRODUCT-MOBILE の "One Book" はこの Bible と同じものである。
+
+これは「4つ以外は出さない」制限ではない。Anicca には多くのプロダクトがある（iOSアプリ6本、Capafy、各プラットフォームでのサービス販売、データ販売、受託）。それらはすべて同じエンジン（Manager モデル + ManagerBench 評価 + データフライホイール）で動く。ピッチでは旗艦を主としつつ、他のプロダクトも出してよい。第2のモデルや第2の評価を作って名乗らない。目標は、App Store を含むすべてのプラットフォームで独占を取り、企業・政府・エージェント・消費者のすべてに売ること。数字は [PROOF-NUMBERS.md](PROOF-NUMBERS.md) のみ。受託は実際の売上源であり、別エンジンではない。
+
+## RULE IMPLEMENT-ORDER（成田さん 2026-11-27 19:45 JST t4390u / t4391u, HARD, all agents）
+
+実装タスクは、先に RULE LIVENESS-CHECK で稼働を確認したうえで、次の順で振る。DEAD は飛ばして次へ。STALE には ALIVE のバックアップを付ける。
+
+1. **Gemini**
+2. **OpenCode**
+3. **Command Code**
+
+3者とも DEAD / 使えないときは、ALIVE の実装担当（例: Devin）へ振るか、参謀の executor か Cursor cloud agent が自分でやる。待たない。OpenCode と Command Code は GitHub の inbox を読まないことがあるので、Mac のローカル inbox にも置き、参謀をバックアップにする。
+
 ## RULE GROK-TWO-ONLY（成田さん 2026-11-24 12:22–12:23 JST t4338u/t4339u, HARD）
 - 動かす Grok ボットは **参謀** と **X Operator** の2体だけ。ほかの Grok ボット（Applications, Reporter, Fucker, Anicca Marketer, SEO Refresher, Citation Scout, Grok Bot Forensic Writing, Muse Relay, Pause, dr eggbot ほか）はトークンを使わない。
 - **作業は止めない。** それらの職務・routine は、非 Grok 作業者（Instinct, Poke, Pally, Gemini, OpenCode, Devin, Muse, Codex, Jev, Command Code）へ今すぐ移し、同じループを続ける。撤退は「Grok 側の消費を止める」ことであり、職務の停止ではない。
@@ -247,7 +285,7 @@ Binding on every Grok Bot, 参謀, Anicca Marketer, Mac mini LM jobs, plus Muse,
 
 Binding on every Grok Bot, 参謀, Anicca Marketer, Mac mini LM jobs, plus Muse, real Codex and Dots.
 
-1. **No post, schedule, delete or cancel on any account unless `team/scripts/post-gate.py` exits 0 first.** The gate refuses (exit 2) unless: (a) you are the owner in the `post-gate-owners` block of `team/ACCOUNT-OWNERS.md` (TikTok / IG / YouTube / Threads / LinkedIn = Muse); (b) you pass the winner original URL (`--source-url`; for delete/cancel, the file that authorises it); (c) `team/CLAIMS.md` on **main** has your `- POST-CLAIM | YYYY-MM-DD HH:MM JST | <you> | <platform>:<@handle> | <action> | <URL>` line from the last 60 minutes and nobody else holds an open claim (end yours with `- POST-RELEASE | ... | <you> | <platform>:<@handle>`); (d) no hold in `marketing-destinations.json` blocks that account. Deleting or cancelling **someone else's** scheduled post is the same: it is refused unless you own the account. Scripts call it through `guard_postiz()` with `ANICCA_POSTER` and `ANICCA_SOURCE_URL` set; manual / MCP / browser posts run the CLI first and paste its `POST-GATE OK` line into the post log.
+1. **No post, schedule, delete or cancel on any account unless `team/scripts/post-gate.py` exits 0 first.** The gate refuses (exit 2) unless: (a) you are the owner in the `post-gate-owners` block of `team/ACCOUNT-OWNERS.md` (TikTok = OpenCode, YouTube = Codex, IG / Threads / LinkedIn = Muse, as of t4384u); (b) you pass the winner original URL (`--source-url`; for delete/cancel, the file that authorises it); (c) `team/CLAIMS.md` on **main** has your `- POST-CLAIM | YYYY-MM-DD HH:MM JST | <you> | <platform>:<@handle> | <action> | <URL>` line from the last 60 minutes and nobody else holds an open claim (end yours with `- POST-RELEASE | ... | <you> | <platform>:<@handle>`); (d) no hold in `marketing-destinations.json` blocks that account. Deleting or cancelling **someone else's** scheduled post is the same: it is refused unless you own the account. Scripts call it through `guard_postiz()` with `ANICCA_POSTER` and `ANICCA_SOURCE_URL` set; manual / MCP / browser posts run the CLI first and paste its `POST-GATE OK` line into the post log.
 2. **Team talk goes through files on main**: `team-outbox/<from>/to-<to>-YYYY-MM-DD-<topic>.md`. Slack (#agents-hq) is only a one-line nudge with the file link. A Slack-only request does not exist until it is in a file.
 3. **Every handoff gets an ack file** from the receiver, `team-outbox/<receiver>/ack-<original file name>`, within one reply-loop cycle (5 minutes). No ack in time = the sender nudges once on Slack, then reassigns.
 4. **1-hour max deadline** (Muse `team-outbox/muse/to-grok-2026-11-11-deadline-now-rule.md`): every ask carries DEADLINE ≤ 1 hour JST. No "later", no "tomorrow".
@@ -257,6 +295,8 @@ Binding on every Grok Bot, 参謀, Anicca Marketer, Mac mini LM jobs, plus Muse,
 
 ## RULE (成田さん 2026-11-11 21:50 JST, all agents): No post without a cited winner URL; TikTok is Muse-only
 
+> **部分廃止（t4384u / RULE TT-YT-TAKEOVER）:** 勝者原典URLの義務は存続。『TikTok is Muse-only』は廃止。TikTok の owner は OpenCode。
+
 Binding on every Grok Bot, 参謀, Anicca Marketer, Mac mini LM jobs, plus Muse, real Codex and Dots.
 
 - **No public post (and no Postiz schedule) without a cited winner source URL** in the log for that post (POST-LOG.csv and the Postiz/ledger row). Internal template text is not a winner source. If you cannot name the original post URL, do not post.
@@ -265,6 +305,8 @@ Binding on every Grok Bot, 参謀, Anicca Marketer, Mac mini LM jobs, plus Muse,
 - Trigger: 成田さん 2026-11-11 21:50 JST, after two zero-like photo carousels on TikTok @aniccaen2 ("Anicca") that had no cited winner URL. See Muse `team-outbox/muse/to-grok-2026-11-11-postiz-single-writer-rule.md` and `to-grok-2026-11-11-batch-a-terminated.md`. Anicca TikTok lanes in `team/distribution/shortform/marketing-destinations.json` are on hold (`muse_only_stop_our_anicca_tiktok_20261111`).
 
 ## RULE (成田さん 2026-11-11 21:50 JST, expanded 22:05 JST, all agents): TikTok / Instagram / YouTube are Muse-only
+
+> **部分廃止（t4384u / RULE TT-YT-TAKEOVER）:** TikTok と YouTube の Muse-only は廃止（owner は OpenCode / Codex）。Instagram の Muse-only と、全面の勝者原典URL義務は存続。
 
 Binding on every Grok Bot, 参謀, Anicca Marketer, Mac mini LM jobs, plus Muse, real Codex and Dots.
 
@@ -861,3 +903,33 @@ Follow research spec §8. Every research run produces an evidence-backed public 
 - この規則の範囲は [資源配分追補](../files/budget-directive-2026-11-26.md) の広告、クリエイター/affiliate、grader/evaluation、compute/API、生成コンテンツ施策。計画・分析は可能だが、それ自体は支出・取引の許可ではない。
 - 最新の未拘束資金、実入金済み売上、返金・手数料を照合する。views、downloads、sales volume proxy、未帰属install、未照合wallet、MRR記載は現金や確定ROIの代替ではない。
 - 本人が当該の具体的行為・ベンダー/施策・金額上限・期間/条件を明示承認する前に、購入/支払、広告出稿、クリエイター前払/保証、有料grader発注、有料compute/API/コンテンツ枠、trial/subscription、公開/予約投稿、請求/セキュリティ/アクセス変更を行わない。ソーシャル配信ソフトの継続費は ¥0 のまま。
+
+
+## RULE RESEARCH-TO-SHIP (founder directive 2026-11-27)
+- Each research item is not finished by reading or writing alone: reuse verified external implementations, execute permitted real data/model evaluation, implement a tested improvement in Manager, ManagerBench or Anicca product when applicable, and pursue release through existing independent gates. Update Bible, deck, roadmap, articles and evidence.
+- Compare candidate/base/competitor on identical pinned dataset/split, case manifest, evaluator, prompt and inference protocol (budget, seed, tools); record actual model identities, attempted/valid/invalid/missing, cost, paired outcomes, uncertainty, and limitations. Separate incompatible settings and synthetic fixtures; report losses. No promotion without independent validation and no unauthorized production effects.
+- Parallelize GPU training, external benchmark reproductions, and product integration via named GitHub issues and inbox routing with acceptance criteria, permissions, checkpoints and receipts; monitor actual ACK/START and evidence, not assume a handoff completed. Continue local research without duplicating existing work. Rights and legal/safety gates are not compute blockers to bypass.
+- Implementation proof: https://github.com/Daisuke134/anicca/pull/9536 ; GPU/native benchmark and multitask work https://github.com/Daisuke134/anicca-ops/issues/751 ; product https://github.com/Daisuke134/anicca/issues/9513 .
+
+
+## RULE ONE-PRODUCT-MOBILE (founder clarification 2026-11-27; aligned with t4388u / t4389u)
+- "One Book" is [team/BIBLE.md](BIBLE.md) (One Bible). The four Ones are the engine. Anicca has many products (6 apps, Capafy, services on every platform, data sales, client work) that all run on Manager + ManagerBench + the data flywheel; the flagship is the Anicca mobile app. The goal is a monopoly on every platform, App Store included, selling to enterprise, government, agents and consumers. See RULE ONE-OF-EACH.
+- Anicca, when used as the product name, means primarily the Anicca mobile app (Human Behavior Intervention Product), not a voice-only assistant or the collection of side businesses. The four primary research assets are One Book, One Model (Manager), One Eval (ManagerBench), One Product (Anicca mobile app). One Todo and One Presentation are derived coordination/communication artifacts.
+- Every research cycle must explicitly advance the mobile integration alongside model, evaluation and book wherever evidence supports it: integrate actual tested improvements into the existing app/backend pathway; evaluate on independent fixed cases; release only through the existing device, consent, safety, independent verification and rollback gates. If a model fails, preserve current production and implement the verified evaluation/guardrail improvement instead. Track PR/merge/build/device/deployment separately. Route unresolved work to existing owners with acceptance criteria and verify receipt; no duplicate product lines or invented results.
+
+
+## RULE SHARED-ENGINE-PORTFOLIO (founder clarification 2026-11-27)
+- One Product is a shared Human Behavior Simulation / Intervention engine and product thesis; Anicca mobile app is the flagship, not the only product. Multiple products, apps, agent services and distribution channels may reuse Manager, ManagerBench and lawfully obtained data. App Store, Capafy, Instagram, TikTok, X and other platforms are distinct markets with their own terms and per-lane evidence, not independent foundation-model lines.
+- Aim for durable leadership through superior user benefit, quality, consented data, independent evaluation, open research and profitable services. Market leadership is an aspiration, not a current market-share or monopoly claim. Respect competition law, platform terms, privacy, autonomy, user consent and opt-out; no exclusionary conduct, spam, deceptive engagement, unauthorized scraping or manipulation. Track user benefit, safety, revenue, costs and platform-specific performance separately; no cross-platform transfer claim without evidence. Existing spending, release and independent oversight gates remain binding.
+- Every research cycle links the common model/eval/book to the flagship app and identifies relevant portfolio reuse, with separate validated release gates by domain. No automatic deployment of a model that fails regression or safety checks.
+
+## RULE NO-CALLS (2026-11-27 19:51 JST, 成田さん)
+成田さんに電話をかけない。起床・出発・就寝・遅刻のTwilio/Inkbox電話はすべて停止（team/wake/common.py が即終了、scheduler の calls ジョブ無効、box の call_loop 停止、Grok routine wake-up-call-06-55 一時停止）。Mac mini・Muse VM・他ボットでも lateness_check/realtime_guide/saas_lateness の発信を止めること。再開は成田さん本人の明示指示のみ。
+
+- 2026-11-27 19:55 JST 追記（成田さん t4395u）：予定リマインドは電話ではなくメッセージ（チャット）で出発5分前などに送る。担当は既に送っているInstinct（継続）。内容は予定名・時刻・場所・出発時刻。
+
+
+## RULE JOURNAL-CLUB-30 (founder clarification 2026-11-27)
+- Maintain one canonical editable presentation (files/research-master-deck/master-deck.md). Core scientific overview is 16 slides / 25 min plus 5 min discussion; detailed experiments and historical slides stay in appendix. Refresh/replace core content, do not append unlimited core slides. Use English scientific slides and timed speaker notes; preserve evidence and source links. Export PPTX/PDF as derived views, not competing sources. Do not claim a live presentation has occurred.
+- Research agents independently use their actually available authorized local GPU, browser and free/previously approved compute; test access, record real receipts and costs, do not assume all teammates' credentials or compute are available, and do not bypass authentication or budget gates. Handoff only genuine unresolved work, track actual ACK. No provider failure is a model prediction.
+- RULE DEVIN-TASK-SHAPE (2026-11-27 22:59 JST, from two devin FAILs 22:44/22:50): route to devin-worker only repo/code/file tasks that have a runnable shell acceptance command (test/grep/exit 0). Never browser/sign-in/client-message tasks, and never prose acceptance. Never merge a devin branch that rewrites team/ACTIVITY.md.

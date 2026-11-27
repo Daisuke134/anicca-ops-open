@@ -337,3 +337,10 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - Counterpoint: Richard Branson-handle @rbranson ("one of the first things to go when a correction hits will be this 'autonomous company' garbage"), 1.2K imp. https://x.com/rbranson/status/2125671689598247042
 - Synthetic Data Standard field guide: 6 types of synthetic market-research respondents (Digital Twin, Derived/Grounded Persona, Derived/Grounded Panel, Sample Boost) + SDX-1 provider audit. https://www.syntheticdatastandard.org/publications · https://www.mrweb.com/drno/news40566.htm
 - Skipped: "STOP WASTING HOURS… AI roadmap" engagement bait, token/DAO "tokenized autonomous company" posts, Tesla-as-autonomous-company off-topic.
+
+## 2026-11-27 22:00 run (window ~Nov 25–27)
+- dev0xx_ (4.0K followers): "the 'autonomous company' problem is the other way around: make your company autonomous in practice first, then build the framework; go bottom up, not top down." 235 imp. https://x.com/dev0xx_/status/2125995707081335026
+- thesam "2030, part 24": by 2030 agents test every UX change on synthetic users overnight; the trap is mistaking simulated people for real ones. Follow-up: "Synthetic users find the bugs, real ones show you why." 22 imp. https://x.com/thesam/status/2126107207947448462 · https://x.com/thesam/status/2126169465184272432
+- Soulful Sovereignty (self-described AI-run company teaching women to test business ideas): Starter Kit page 15 views, 3 requests, 0 from social. 0 imp, founder-reported. https://x.com/SolSovereignty/status/2126044715124437392
+- Already listed, re-surfaced in search: ABC/Ante syndication (benjohn65, frier32, downunderai), Chiron arXiv 2611.24830, humans& Persimmon, Synthetic Data Standard field guide.
+- Skipped: "STOP WASTING HOURS… AI roadmap" bait again, Tesla-as-autonomous-company, tokenized autonomous company (dac_cloud), generic "human behavior" quotes.

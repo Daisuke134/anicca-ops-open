@@ -122,6 +122,72 @@ def test_dedup_ignores_intent_for_another_account():
     assert res["dedup"] == "ok"
 
 
+# ------------------------------------------------------------- dup_pairs (Buffer same-text-per-profile guard)
+def test_dup_pairs_flags_same_text_same_profile_within_window():
+    t0 = now()
+    posts = [
+        post("double submit text here ok", t0, pid="1", in_reply_to=""),
+        post("double submit text here ok", t0 + dt.timedelta(minutes=2), pid="2"),
+    ]
+    pairs = post_gate.dup_pairs(posts, window_min=10)
+    assert len(pairs) == 1
+    assert {p["id"] for p in pairs[0]} == {"1", "2"}
+
+
+def test_dup_pairs_allows_same_text_different_profiles():
+    t0 = now()
+    posts = [
+        {**post("same text on two channels", t0, pid="1"), "profile": "chan-a"},
+        {**post("same text on two channels", t0 + dt.timedelta(minutes=1), pid="2"), "profile": "chan-b"},
+    ]
+    assert post_gate.dup_pairs(posts, window_min=10) == []
+
+
+def test_dup_pairs_allows_same_text_outside_window():
+    t0 = now()
+    posts = [
+        post("same text spaced well apart ok", t0, pid="1"),
+        post("same text spaced well apart ok", t0 + dt.timedelta(minutes=30), pid="2"),
+    ]
+    assert post_gate.dup_pairs(posts, window_min=10) == []
+
+
+def test_dup_pairs_window_min_parameter_is_respected():
+    t0 = now()
+    posts = [
+        post("same text fifteen minutes apart", t0, pid="1"),
+        post("same text fifteen minutes apart", t0 + dt.timedelta(minutes=15), pid="2"),
+    ]
+    assert post_gate.dup_pairs(posts, window_min=10) == []
+    assert len(post_gate.dup_pairs(posts, window_min=20)) == 1
+
+
+def test_dup_pairs_ignores_different_text_and_bad_rows():
+    t0 = now()
+    posts = [
+        post("first distinct text ok", t0, pid="1"),
+        post("second distinct text ok", t0 + dt.timedelta(minutes=1), pid="2"),
+        {"text": "no timestamp at all"},
+        "not-a-dict",
+        {"created_at": t0.isoformat()},
+    ]
+    assert post_gate.dup_pairs(posts, window_min=10) == []
+
+
+def test_dup_pairs_normalizes_urls_and_punctuation():
+    t0 = now()
+    posts = [
+        post("Check this out!!! https://example.com/a", t0, pid="1"),
+        post("check this out https://example.com/b", t0 + dt.timedelta(seconds=30), pid="2"),
+    ]
+    assert len(post_gate.dup_pairs(posts, window_min=10)) == 1
+
+
+def test_dup_pairs_empty_input():
+    assert post_gate.dup_pairs([], window_min=10) == []
+    assert post_gate.dup_pairs(None, window_min=10) == []
+
+
 # ------------------------------------------------------------- record_intent / load_intents round-trip
 def test_record_and_load_intents_round_trip(tmp_path, monkeypatch):
     intents_file = tmp_path / "intents.jsonl"

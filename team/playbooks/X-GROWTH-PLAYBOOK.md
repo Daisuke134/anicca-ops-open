@@ -235,3 +235,9 @@ Every URL below was opened for the 2026-11-10 cadence study, the 2026-11-11 grow
 - Above 1k followers post better, not more: 6 originals a day until the non-connect median is >= 300 views; the freed time goes to outbound replies.
 - EN connect: "X algorithm, please connect me with:" list + one real app number + "Where are you all?".
 - Proof rotation: one number set at most 2 uses per JST day across originals, quotes and replies.
+
+## Ranker weights in effect (updated 2026-11-27 19:1x JST; A6 supersedes A1/A3 on copy-link)
+Read from https://github.com/xai-org/x-algorithm/blob/main/home-mixer/params/param.rs (last commit 2026-11-25 15:24 JST), agreeing with leohuanfang-hub/x-algorithm-playbook CHANGELOG ("November 18 ... ShareViaCopyLinkWeight 0 → 20") and @jaesmeta https://x.com/jaesmeta/status/2126088734605246542:
+- ShareViaCopyLink 20.0 · BidirectionalFollowReplyBoost 15.0 · Reply 5.0 · Quote 5.0 · ShareViaDm 5.0 · FollowAuthor 4.0 · Share 2.118 · Retweet 1.0 · Favorite 0.708 · Click 0.274 · OpenLink 0.2 · ProfileClick 0.0.
+- Rules from it: (1) one useful original a day is shaped to be sent to a friend (a concrete method for the reader's phone/spiral moment); (2) answer replies from mutual follows first, they carry the 15.0 boost; (3) quotes and replies weigh the same (5.0) and far above likes; (4) engagement only counts when the post is served in Home, so coordinated "go like this" groups do nothing (and stay banned).
+- Each hunter run re-reads param.rs or the x-algorithm-playbook CHANGELOG; weights change without notice (copy-link was 0 from 11-13 to 11-18).

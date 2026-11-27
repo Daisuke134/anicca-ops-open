@@ -54,6 +54,7 @@ DEST_FILES = ["team/distribution/shortform/marketing-destinations.json",
 ALIASES = {
     "muse": "muse", "ミューズ": "muse",
     "dots": "dots", "codex": "codex",
+    "opencode": "opencode", "open-code": "opencode", "open_code": "opencode",
     "grok-sanbo": "grok-sanbo", "sanbo": "grok-sanbo", "参謀": "grok-sanbo", "grok": "grok-sanbo",
     "grok-bot": "grok-sanbo",
     # X Operator is its own poster since 2026-11-13 23:5x JST (sole @diceai0/@selawmqt publisher after the 11/13
@@ -233,6 +234,43 @@ def x_dedup_check(account, text, recent_posts, readback_at, in_reply_to="", now=
                           f"wait, then read {account}'s timeline again (read-back must be >= {UNCERTAIN_WAIT_MIN} min after the "
                           "attempt). If it is live, you are done. Never click Post twice.")
     return {"dedup": "ok", "checked_posts": len(recent_posts), "key": key}
+
+
+def _post_profile(p):
+    """Buffer-style per-profile grouping key: the channel/account a post went out on."""
+    for k in ("profile", "account", "channel", "handle", "integration_id"):
+        v = p.get(k)
+        if v:
+            return str(v)
+    return ""
+
+
+def _post_time(p):
+    try:
+        return dt.datetime.fromisoformat(str(p.get("created_at") or "").replace("Z", "+00:00"))
+    except ValueError:
+        return None
+
+
+def dup_pairs(posts, window_min=10):
+    """Buffer same-text-per-profile guard: return [(earlier, later)] pairs of posts that went out on the
+    SAME profile with the same text within `window_min` minutes of each other. Catches the double-submit
+    accident (two identical posts seconds apart); same text spaced wider apart is allowed."""
+    seen = {}
+    pairs = []
+    for p in posts or []:
+        if not isinstance(p, dict):
+            continue
+        text = norm_text(p.get("text", ""))
+        when = _post_time(p)
+        if not text or when is None:
+            continue
+        k = (_post_profile(p), text)
+        for prev_when, prev in seen.get(k, []):
+            if abs((when - prev_when).total_seconds()) <= window_min * 60:
+                pairs.append((prev, p) if when >= prev_when else (p, prev))
+        seen.setdefault(k, []).append((when, p))
+    return pairs
 
 
 def norm_poster(p: str) -> str:
@@ -478,6 +516,12 @@ def check(poster, platform, account, action, source_url, integration_id=None, no
         ct_link_check(platform, action, text)
         posts, readback_at = load_recent(recent_json, now)
         res.update(x_dedup_check(acct_key, text or "", posts, readback_at, in_reply_to=in_reply_to, now=now))
+        dups = dup_pairs(posts, window_min=10)
+        if dups:
+            a, b = dups[0]
+            raise Refused(f"(e) duplicate scan: the same text already went out twice on {acct_key} within "
+                          f"10 min (ids {a.get('id')} / {b.get('id')}); a double submit happened. Do not post "
+                          "again until the read-back is clean.")
     # (f) intent lock: record every allowed create/schedule; refuse an identical-text repeat within 30 min
     if action in ("create", "schedule") and (text or "").strip():
         res["intent"] = intent_lock(acct_key, poster, text, in_reply_to=in_reply_to, now=now)

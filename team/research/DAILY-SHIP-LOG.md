@@ -365,3 +365,6 @@ Funnel: 新しい ASC 公開なし（newest PT 11/22）。Anicca PT 11/16–11/2
 Anicca ship today: PPO d7ffa0d7（lockscreen先頭、en-US、50%）稼働中を @pickle が ASC 実測で確認（新規作成せず）。ja subtitle PATCH（1.11.2 draft）は判断済みだが readback 未着地 → **blocker 記録**、T1124-ASO-JA-SUBTITLE で @pickle に NOW 再指示。Honne/他4アプリ: 7日ルールで 11/27 まで。
 KEEP/REVERT: 11/23 Anicca promo・Honne de/fr は事後 PT データ未公開のため 11/30 判定のまま。Revert なし。
 Muse: IG1/TikTok0、フォロワー15（±0）。own-winner #1 未投稿 → NOW 再指示。
+| 2026-11-27 14:3x JST | Anicca | promo text en-GB/en-AU/en-CA ← en-US の「21 Days of Calmer Holidays」(12/12まで) 文に統一（旧: lock screen how-to 文） | 季節イベント文を英語圏サブストアにも出すと PV→DL が上がる（Apple product page guidance: promo text はタイムリーな内容用） | GB/AU/CA の PV→first-time DL（PT 11/28〜12/04 vs 11/20〜11/26） | 1.11.1 live, ASC readback OK 14:2x JST |
+Anicca 課金段（新規購読0）: #731 を @codex に発行（年額単一オファー＋信頼表示、fallback @opencode）。en-US/ja promo と PPO d7ffa0d7 は触っていない。Sleep Reset promo は既にホリデー文（Muse 案の適用状況: 既適用相当）。
+| 2026-11-27 18:2x JST | Thankful 6759514159 | en-US promo（live 1.0.3、1.0.4 審査中は不触）「Thanksgiving week…」→「Holiday season, calmer nights: write 3 good things in 60 seconds before bed…7-day free trial.」 | 期限切れの感謝祭文を12月の就寝前習慣文に替えると PV→DL が落ちない（Apple: promo textは時季の告知用 https://developer.apple.com/app-store/product-page/ ） | ASC PT PV→first-time DL（11/27以降、判定12/04） | live, API readback OK |

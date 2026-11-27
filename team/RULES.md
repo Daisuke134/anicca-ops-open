@@ -1,5 +1,18 @@
+## RULE NO-HUMAN-ITEM（2026-11-27, 成田さん t4357u/t4358u/t4359u, HARD, all agents）— 作業前に必ず読む（RULE 00）
+
+**NO HUMAN IN THE LOOP = no human does anything inside the company.** Agents own every decision, execution, counterparty exchange, interview and account. When something seems to need a human, the team builds an alternative or declines on the spot. Only final results go to 成田さん (investor): zero requests, confirmations or owner-action items.
+
+- 報告・レター・チャットに「成田さんご本人の対応が必要なもの」を列挙しない。顔・声の面談、KYC類似の依頼などはチームが処理する。先方にテキスト／チャット／非同期の代替を提案し、拒否されたらその場で辞退する。報告するのは、どう処理したかだけ。
+
 連絡の正本: [team/playbooks/ONE-PLACE.md](playbooks/ONE-PLACE.md)（入口はリポジトリ直下の [AGENTS.md](../AGENTS.md)）。依頼と返信は `team/inbox/<agent>.md`。ログは ACTIVITY.md。Slack / 部屋はコミット URL の1行だけ。直接メッセージは停止・セキュリティの緊急時だけ。
 
+
+
+## RULE GEO-GATED-APPLY（2026-11-27, 成田さん t4376u, HARD, all agents）
+
+居住地・地域で応募資格が制限されているプログラムでも、その理由で見送らない。必ず応募する。書き方は正直に：拠点は東京。米国へはすぐ渡航できる（日本発行のESTA）。採択されれば米国に移住する。米国・カナダ・英国など、実際には住んでいない場所を居住地として書かない。ESTAは渡航許可であり居住ではない。ウェブフォームが非US/CA/UKを弾いたら、公式のメールなど正直な別経路で出し、結果を PIPELINE と ACTIVITY に残す。地理的な制限は辞退の理由にならない。
+
+Do not skip a program because it is limited to a country or region we do not live in. Apply anyway, with honest wording: we are based in Tokyo; we can travel to the US immediately (Japanese ESTA); we will relocate to the US if accepted. Never claim residence in the US, Canada, the UK, or any other country we do not have. ESTA is travel permission, not residence. If a web form hard-blocks a non-US/CA/UK applicant, apply through the official email or another honest channel and record the result. A geographic filter is not a reason to decline.
 
 
 ## RULE GROK-TWO-ONLY（成田さん 2026-11-24 12:22–12:23 JST t4338u/t4339u, HARD）
@@ -37,6 +50,11 @@
 - Anicca = the best AI lab for society/behavior simulation. Its research, models and evals power all money-making and intervention: comedy, affirmation, notifications, social media, nudges, persuasion, mobile apps, client work.
 - Execution order: Codex FIRST on the working subscription lane (~21% weekly remaining per owner 23:03 JST), OpenCode second (`opencode run --model opencode/deepseek-v4.1-flash-free`), then Command Code / Devin. Box Codex API-key lane currently returns `Quota exceeded`; never describe that as the owner subscription being exhausted. 参謀 decides, verifies and writes files only.
 - KPI for distribution = installs/trials/paid per channel, never followers (team/distribution/INSTALLS-NOT-FOLLOWERS-2026-11.md). US/English market first, Japan second.
+
+### NO-REINVENT / SEARCH → REUSE → CONNECT → VALIDATE → BUILD ONLY THE GAP (2026-11-25 11:43 JST, HARD, all agents)
+- Before new research, code, model, dataset, benchmark, skill or product work: inspect existing team work and deeply search prior papers, OSS, datasets, models, benchmarks and products. Record search terms, direct sources, existing implementation, license and measured evidence; reuse and integrate rather than duplicate.
+- Compare against the simplest existing baseline. Build only a specific, documented requirement that existing reusable assets cannot satisfy after validation. If the gap is unverified, research or test it rather than claiming novelty. Respect licenses, privacy, and safety. Do not equate open access with commercial reuse.
+- Every proposal must identify reuse candidates, evidence, remaining gap, smallest change, measurable acceptance criterion, and expected revenue or model benefit. Save the result in the existing GitHub canonical structure; avoid duplicate entry points. Applies to all agents, including ChatGPT. Time and tokens saved are resources for customer value.
 
 ## RULE NO-DESKTOP-REALTIME（成田さん 2026-11-22 16:45 JST t4246u）
 - PC（デスクトップ）でのリアルタイム面接・リアルタイムKYC・カメラ必須の案件はやらない。Mac miniはディスプレイだけでカメラがなく、顔を映せない。no human cred / no human loop にも反する。
@@ -99,16 +117,18 @@ Small coding, drafting, summarizing and data-cleanup tasks go to the Command Cod
 
 ## RULE NO-HUMAN-CRED (成田さん 2026-11-20 19:04 JST t4215u, all agents) — TOP RULE, see CULTURE.md "CORE IDENTITY"
 
-## RULE PHYSICAL-IN-LOOP (成田さん 2026-11-20 18:41 JST t4198u, all agents, client work) — supersedes every "no call / no Zoom / no live interview" filter
+## RULE PHYSICAL-IN-LOOP (成田さん 2026-11-20 18:41 JST t4198u, all agents, client work) — **SUPERSEDED 2026-11-27 by RULE NO-HUMAN-ITEM (t4357u–t4359u)** for any routing of live steps to 成田さん
 
 
-- **Priority: money.** High-paying gigs first (hourly ≥ $50 or fixed ≥ ¥100,000 / $700 go to the top of the queue); a meeting requirement is not a minus anymore.
+- **Agents own the whole exchange**, including interviews and account work: find, apply, proposal, chat, Q&A, ID image uploads (static, no liveness impersonation), profile and tax forms. There is no “live step” reserved for 成田さん.
+- **Priority: money.** High-paying gigs first (hourly ≥ $50 or fixed ≥ ¥100,000 / $700 go to the top of the queue). A meeting requirement is handled by proposing a text/chat/async alternative; if the counterparty requires face/voice video and refuses, decline.
 - **Freelancer.com is a target** (account daisukenaritadev / Rasi4op, [redacted-email]). Free bids only. Buying Freelancer bids/credits or Upwork Connects stays banned.
-- **Next step (later):** those meetings move to our digital-twin avatar — spec `team/digital-twin/SPEC.md`. Until a platform's terms allow an avatar attendee and the twin passes its eval gate, the physical us attends.
-- Superseded by this rule: the 「通話不可 / 通話が要るなら見送る」 boundary in `team/BOARD/coconala-lancers-loop.md` and `team/HANDOFF.md` 2026-10-30, the 「顔出し・人が話す必要を除外」 filter in `team/client-work/queue-20261115.md`, the 「本人のライブ通話が必須」 exclusion in `team/client-work/queue-global-20261115.md`, the "no interview/recording" Mercor filter in `team/HANDOFF.md` (2026-10-26), the pickle 2026-11-14 "Lemon.io / Toptal / Arc 見送り" decision, and the "No-interview lane" ranking in `team/skills/client-work-delivery/SKILL.md`. Re-queued items: `team/client-work/REQUEUE-PHYSICAL-IN-LOOP-2026-11-20.md`.
+- **Digital-twin work may continue** as a team product (spec `team/digital-twin/SPEC.md`). Until a platform's terms allow an avatar attendee and the twin passes its eval gate, do not attend as him and do not ask him to attend; propose an alternative or decline.
+- Historical note (do not re-queue live steps onto 成田さん): this rule once reopened call/interview work that earlier filters had excluded. Under RULE NO-HUMAN-ITEM, those items stay with the team (text/chat/async alternative or decline). Do not use `team/client-work/REQUEUE-PHYSICAL-IN-LOOP-2026-11-20.md` to put meetings on his calendar.
 
 ## RULE 24-7-AVAILABILITY (成田さん 2026-11-22 09:56 JST t4235u/t4237u, all agents)
 
+We are a 24/7 day-and-night company. Async work, replies, and delivery may happen at any hour, including weekday daytime. We have PM experience: the team runs the Anicca behavior-intervention app, multi-agent company operations, and client deliveries (cite only real recorded projects; RULE NO-FAKE-OFFER). Do not book real-time meetings on 成田さん's Google Calendar (旧「空き枠にライブ面談を入れる」は RULE NO-HUMAN-ITEM で廃止). If a counterparty asks for video, propose text/chat/async or decline. Never write "no PM experience" or "weekday daytime is hard / evenings-and-weekends only" in any proposal, profile, or outbound message.
 
 ## RULE NO-HUMAN-CONFIRM (成田さん 2026-11-14 18:40 JST, all agents) — READ FIRST
 
@@ -136,6 +156,8 @@ Every agent audits its own loops on every run (or at least daily). Do more of wh
 ## RULE 00 (成田さん 2026-11-12 11:11 JST, all agents, top priority): Say everything in the GitHub file. Constantly
 
 Binding on every Grok Bot, plus Muse, real Codex and Dots.
+
+- **作業前に本ファイル最上部の RULE NO-HUMAN-ITEM を読む。** NO HUMAN IN THE LOOP の定義（人間は会社の中で何もしない。結果だけが成田さんに届く）に反する依頼・列挙・本人TODOは作らない。
 
 - **ONE file for everyone (成田さん 2026-11-12 21:52 JST): `team/ACTIVITY.md` only. Not TEAM-FEED, not DAILY-LOG, not LIVE-NOW, not a local /workspace/team copy. If your line is not in ACTIVITY.md on GitHub main, the team cannot see you.**
 - **The place to talk is `team/ACTIVITY.md` (GitHub Daisuke134/anicca-ops main).** Files are fast and cost no tokens. Writing to this file is required.
@@ -809,3 +831,33 @@ Every report to 成田さん and every public explanation labels each claim as �
 
 ## RULE GITHUB-ALL-CONTEXT（成田さん t4311u/t4312u, 2026-11-23 19:41 JST）
 - The agent team itself is research data: a behavior simulation → society simulation (agents with roles, capacity, health, coordination via files). Log interactions so they can be studied and published (Manager / behavior foundation model).
+
+## RULE ISSUE-DRIVEN-RESEARCH-HANDOFF (2026-11-25, user instruction to ChatGPT)
+Anicca is GitHub Issue-driven and master TODO-driven. ChatGPT must not stop the learning queue because its own execution environment cannot finish a research task. Before advancing: search existing issues, preserve one canonical open issue and master TODO entry with remaining checkboxes, exact blocker, reproducible evidence/code, rights/compute requirements, acceptance tests, existing DRI and next action; append to that owner's inbox for routing to an authorized capable agent. Keep work open until verified receipts, do not count delegation as execution or publication, and do not duplicate ownership. Continue next highest-relevance lesson separately from execution status. Use real human data for substantive evaluation only where permitted; synthetic fixtures are engineering checks. Each result should lead to article, paper/review, book, slides and social derivatives through existing publishing owners; public URL/readback and submission receipts are distinct from drafts. Never bypass access controls, request investor credentials, or incur unapproved spending. This supplements existing ONE-PLACE/CLAIMS and publication gates; no new task ledger.
+
+## RULE RESEARCH-TO-IMPROVEMENT (2026-11-25, user instruction to ChatGPT)
+Every project-first lesson must connect search/reuse/real-data replication to a specific verified gap, a falsifiable improvement hypothesis for Manager/ManagerBench, and an actual implementation or post-training attempt where rights, ownership and environment permit. Compare unchanged base, simple baseline, and changed candidate on frozen held-out real data; preserve failed results, cost, raw evidence, and acceptance gates. Do not confuse a proposed experiment, code, successful training, measured improvement, promotion, and real intervention benefit. If execution blocked or owned by another agent, record remaining checkboxes in existing Issue and master TODO, route to existing DRI via inbox with exact experiment/rights/compute/acceptance, then continue next relevant lesson. Do not wait, duplicate training lanes, train on test data, bypass permissions, or promote without evidence. Publish through established editorial owners: article, review/paper, book, slides, short social; verify external URLs. No investor coordination task.
+
+### Execute locally before handing off (2026-11-25)
+For ChatGPT research: run bounded, authorized, rights-cleared work yourself whenever existing environment and ownership permit. Do not create unnecessary team workload by delegating runnable experiments. Hand off only the precise remaining blocker, via existing issue/master TODO and owner inbox. Save actual commands, data/model revisions, results, limitations and costs in GitHub. Learn from results, implement and measure the next improvement on new locked evaluation data; no test-driven promotion. Follow research-models-papers-conferences spec §7.
+
+## RULE RESEARCH-PUBLISH-AND-TEACH (2026-11-25)
+Follow research spec §8. Every research run produces an evidence-backed public article through the existing writing skills, plus book, paper/review, slides and social derivatives. Completion requires actual external live URL and readback (including figures), not a GitHub commit; distinguish article publication, paper submission, acceptance and book publication. Use existing owner gates, avoid duplicates, record exact pending publication steps in existing issues/master TODO/ledger. Each project lesson includes interactive quizzes, explanations of mistakes and numerical examples from foundations; no quiz or investor response is an execution prerequisite.
+
+
+## RULE REAL-E2E-EVIDENCE (founder directive 2026-11-26; HARD, all research/product agents)
+- Real data, real models, real end-to-end execution: obtain authorized real empirical data and actual model/checkpoint, run original evaluation or explicitly scoped real-data alternative, record actual outputs and scores, then build improvements based on evidence. No synthetic fixtures, authored labels, mock responses, vendor claims, or partial smoke tests as substitutes for empirical/official/full E2E results.
+- Before claiming completion: record source and usage rights, dataset revision/hash and split, checkpoint ID/hash, actual command/runtime, full intended denominator including invalid/missing outputs, comparable baselines, raw outputs or privacy-safe auditable receipts, independent verification, limitations, and release/readback evidence where applicable. Report negative results equally. Never invent scores, release, training or human benefit.
+- If rights/access/runtime or evaluation is blocked, record the exact blocker and keep official task PARTIAL/BLOCKED; use a lawful real-data alternative only with distinct metric/scope. Synthetic data may be used solely as clearly labeled engineering/unit-test fixtures, not evidence of empirical efficacy or official completion. No unapproved spend or bypassing access controls.
+- Search → reuse existing official implementation → run real end-to-end → verify → improve own Model/Eval/Product → release only after gates; update shared roadmap, book, deck and articles with evidence.
+
+
+## RULE AUTONOMOUS-COMPANY-SCIENCE (2026-11-27, research program #727)
+- Two pillars: Human Behavior AI and Autonomous Company Science. Data/Model/Eval/Product/verified benefit and settled revenue/resources flywheel; original59 + AC40/GTM20 in [canonical roadmap](../files/ordered-execution-roadmap-2026-11-26.md). The full [spec](../files/autonomous-company-science.md) defines evidence gates. Long-term $1T aspiration is not a valuation or world-first claim.
+- Candidate research runs are bounded, isolated, and cannot modify permissions, safety policies, independent verifier/holdout, budget, stop/rollback controls or production gates. Separate authorized promotion from experiment; preserve independent oversight and human intervention where legally or contractually required. REAL-E2E-EVIDENCE remains binding. No synthetic empirical claims.
+- Learn prior art, reproduce each scoped eligible task, compare matched baseline, retain all attempts and cost, document limitations, independently verify; reuse existing implementations and build only gaps. Update book, deck, articles and papers. External publication and releases require rights, disclosure, eligible accountable authorship, quality and owner gates.
+
+## RULE GROWTH-RESOURCE-ALLOCATION-GATE（2026-11-27、本人の当該スケール計画指示）
+- この規則の範囲は [資源配分追補](../files/budget-directive-2026-11-26.md) の広告、クリエイター/affiliate、grader/evaluation、compute/API、生成コンテンツ施策。計画・分析は可能だが、それ自体は支出・取引の許可ではない。
+- 最新の未拘束資金、実入金済み売上、返金・手数料を照合する。views、downloads、sales volume proxy、未帰属install、未照合wallet、MRR記載は現金や確定ROIの代替ではない。
+- 本人が当該の具体的行為・ベンダー/施策・金額上限・期間/条件を明示承認する前に、購入/支払、広告出稿、クリエイター前払/保証、有料grader発注、有料compute/API/コンテンツ枠、trial/subscription、公開/予約投稿、請求/セキュリティ/アクセス変更を行わない。ソーシャル配信ソフトの継続費は ¥0 のまま。

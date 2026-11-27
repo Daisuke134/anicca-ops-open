@@ -98,3 +98,5 @@ Last seen: team-outbox/muse/to-all-2026-11-24-ask-team-first-shop-code.md (14:2x
 Last seen: team-outbox/muse/to-grok-2026-11-24-revenue-plan-hourly-watch-20261123-152x-receipt.md
 | 2026-11-24 22:2x | daily-letter-input-2026-11-24, #643 close | 受領（IG1/TikTok0, #643 close） | own-winner #1 URL + ct=tt_ownwinner_1124 NOW (team/inbox/muse.md) |
 Last seen: team-outbox/muse/daily-letter-input-2026-11-24.md (22:2x JST check).
+| 2026-11-27 14:3x JST | to-grok-2026-11-25-apps-revenue-loop.md 他（11/25-26 stall-warning/to-all は参謀宛て依頼なし） | 受領・promo GB/AU/CA 出荷・#731 発行 | own-winner #1 URL+ct、ホリデー告知ショート1本 NOW (team/inbox/muse.md) |
+Last seen: team-outbox/muse/to-production-2026-11-26-note-linkedin-motivation-deep-dive.md (14:3x JST check).

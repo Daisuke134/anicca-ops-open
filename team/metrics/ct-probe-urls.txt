@@ -8,3 +8,14 @@ https://aniccaai.com/ja
 https://aniccaai.com/ja/affirmation-app
 https://aniccaai.com/affirmation-app/ja
 https://aniccaai.com/en/affirmation-app
+# /quotes (#70 funnel, static ct=web-quotes). Returns 404 until anicca-products PR #946 merges; fail before then is expected (townie)
+https://aniccaai.com/quotes
+#
+# Reserved ct tags for off-site directory listings (#70, townie 2026-11-26). These are not aniccaai.com pages, so they are not probed.
+# They point straight at https://apps.apple.com/app/id6755129214?ct=<tag>. Seeing one on /open = installs from that directory.
+# Kit and status: team-outbox/townie/2026-11-26-1835-issue70-directory-listing-kit.md
+# dir-alternativeto  (not listed yet)
+# dir-saashub        (existing "Anicca AI" listing, link currently untagged, claim pending)
+# dir-uneed          (not listed yet)
+# dir-reddit-iosapps (not posted yet)
+# ph-launch          (Product Hunt launch day)

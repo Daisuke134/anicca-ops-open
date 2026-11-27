@@ -133,6 +133,39 @@ def test_intent_lock_refuses_identical_create_within_30min(tmp_path, monkeypatch
     assert again["allowed"] is True
 
 
+def test_en_connect_opener_refuses_number_first():
+    with pytest.raises(post_gate.Refused, match="lead with the request"):
+        post_gate.check_en_connect_opener("3 wins this week\nI'd love to connect with builders")
+    with pytest.raises(post_gate.Refused, match="lead with the request"):
+        post_gate.check_en_connect_opener("$2,400 MRR\nI'd love to connect")
+    with pytest.raises(post_gate.Refused, match="lead with the request"):
+        post_gate.check_en_connect_opener("Day 12 of building in public\nI'd love to connect")
+
+
+def test_en_connect_opener_passes_request_first():
+    assert post_gate.check_en_connect_opener(
+        "\nI'd love to connect with indie hackers\n3 wins this week") is None
+
+
+def test_en_connect_opener_ignored_for_ja(tmp_path, monkeypatch):
+    repo = tmp_path / "repo"
+    _write_repo(repo)
+    recent = tmp_path / "recent.json"
+    recent.write_text("[]", encoding="utf-8")
+    monkeypatch.setenv("POST_GATE_LOCAL_ROOT", str(repo))
+    monkeypatch.setenv("POST_GATE_IGNORE_MTIME", "1")
+    monkeypatch.setenv("POST_GATE_INTENTS", str(tmp_path / "intents.jsonl"))
+    monkeypatch.setattr(post_gate, "ct_link_check", lambda *args, **kwargs: None)
+
+    now = dt.datetime(2026, 11, 22, 12, 0, tzinfo=post_gate.JST)
+    res = post_gate.check(
+        "tester", "x", "@test", "create", "https://anicca.ai/winner/1",
+        now=now, text="3つの学び\nつながりたい方はぜひ", recent_json=str(recent),
+        lang="ja", kind="connect",
+    )
+    assert res["allowed"] is True
+
+
 def test_main_prints_connect_advice_without_blocking(tmp_path, monkeypatch, capsys):
     text_file = tmp_path / "post.txt"
     text_file.write_text("今日の学びを共有します\nつながりたい方はぜひ", encoding="utf-8")

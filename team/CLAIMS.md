@@ -29,6 +29,11 @@ Those stay as they are. Role owners and the org tree are in [`team/ORG-CHART.md`
 Format copied for the team from t3242u, on top of Apple DRI, Amazon single-threaded ownership, SpaceX Responsible Engineer, and Paperclip task checkout (URLs in ORG-CHART.md).
 
 ## Open
+- [x] 2026-11-27 09:30 JST | pickle | 本人指示 09:05 の戦略をGitHub正本へ着地（無料KYC個人配信の廃止／スマホドル案件ニュースレター＝Life Manager復活の事業化／No-HITLフライホイール固定）と担当4名への委任ファイル発行 | https://github.com/Daisuke134/anicca-ops/issues/724
+- [x] 2026-11-26 JST | chatgpt | Chapter21 distinct synthetic Graduation missingness/withdrawal evaluation, reuse Run18 and Run19 evidence, no production changes | files/research-master-index.md
+- [x] 2026-11-26 08:45 JST | chatgpt | #238 independent read-only metric-wise audit, completed and CLAIM RELEASED | https://github.com/Daisuke134/anicca-ops/issues/238
+  RESULT: Existing frozen 68/68 dataset blob 4b3de3ff: independently reproduced 34/34 primary directions and MAE 21/2/1, W1 27/5/1, Accuracy 5/1/0, five metric reversals. New 20/68 missing valid-count provenance (18 game+2 Qwen multiround); 48 explicit valid counts sum 33,018. Synthetic regression 7/7 PASS; actual Mac Node v25.6.1 code --check, 7/7 CLI tests, frozen fail-closed exit2; no new model inference or person data. Draft PR https://github.com/Daisuke134/anicca-ops/pull/688 exact origin readback. Nonauthor @sanbo and @muse review / hosted CI / owner evidence repair BLOCKED; no merge or model benefit claim.
+- [x] 2026-11-25 22:23 JST | Q | independent read-only review of Pally's #580 channel decision and #590 criteria revision; preserve Pally as DRI and make no owner-artifact changes | https://github.com/Daisuke134/anicca-ops/issues/580 ; https://github.com/Daisuke134/anicca-ops/issues/590 | DONE 22:25 JST: findings in team-outbox/Q/issue-580-590-independent-review-2026-11-25.md; #580 comment 7163744261 and #590 comment 7163744613 posted; both CHANGES, Pally DRI and Issues open.
   RESULT: CLAIM RELEASED; RED 1161046d missing module -> GREEN 83b64ed1 6/6 normal/-O, 1,000 independent rational CDF and owner-source comparisons; 3/3 origin SHA exact. Marginal Bernoulli W1=abs(B-1), empirical probability W1 distinct and not proper; aggregate 260 rows/10 incomplete/0 rate_wasserstein keys, no actual MG-06 records. Draft https://github.com/Daisuke134/anicca-ops/pull/664 . Nonauthor @dots, owner @codex and hosted CI @pickle pending. Independent Comedy #9465 all recorded fields replayed; explicit cancellation negative passes 6/6 history and 18/18 format/lexical; documented semantic limitation confirmed https://github.com/Daisuke134/anicca/pull/9465#issuecomment-7115709142 . No person data, experiment, intervention, spend, training, deploy, outbound or efficacy claim. https://github.com/Daisuke134/anicca-ops/issues/663#issuecomment-7115709405
 - [x] 2026-11-24 03:24 JST | chatgpt | #657 cross-fold person+delivery group leakage preflight in Draft #650; source-pinned, fictional RED→GREEN; no owner baseline or actual user data | https://github.com/Daisuke134/anicca-ops/issues/657
   RESULT: Pinned producer ca0262f5/baseline 98cd0f14 checked, offline Draft #650 delivery-group audit RED then 23/23 normal/-O and 3/3 exact origin blobs, fictional producer crossfold 1; independent Comedy #9461 25/25 plus UnicodeEncodeError edge reported. CLAIM RELEASED; nonauthor @dots, owner @codex, CI @pickle remain BLOCKED. https://github.com/Daisuke134/anicca-ops/issues/657#issuecomment-7110300274
@@ -1687,3 +1692,211 @@ UNCLAIM Anicca Marketer tumblr verification pass 13:58 JST
 - 2026-11-25 02:38 JST | T4336U-DEVIN-CATALOG-VERIFY | owner @devin (reassigned from @instinct by @grok-sanbo) | read-only verify of pally catalog-live-audit
 - 2026-11-25 03:09 JST | T4336U-OPENCODE-CATALOG-VERIFY | owner @opencode (reassigned from @devin no-ACK by @grok-sanbo)
 - 2026-11-25 04:1x JST | T4336U-GEMINI-CATALOG-VERIFY | owner @gemini (reassigned from @opencode no-ACK by @grok-sanbo)
+- POST-CLAIM | 2026-11-25 08:1x JST | x-operator | x:@diceai0 | create | https://x.com/Loverace_web/status/2124711057147175364
+- POST-CLAIM | 2026-11-25 08:08 JST | x-operator | x:@diceai0 | create | https://x.com/Loverace_web/status/2124711057147175364
+- POST-RELEASE | 2026-11-25 08:13 JST | x-operator | x:@diceai0 | 08:00 slot done
+CLAIM | Q | independent read-only audit of source completeness, inference limits, and platform-policy risk in the 2026-11-26 note-engagement handoff; no account actions/posts, paid tools, or changes to the note-loop work | 2026-11-26 08:29 JST | https://github.com/Daisuke134/anicca-ops/blob/main/team-outbox/muse/to-self-2026-11-26-note-engagement-improvement.md
+RELEASE | Q | independent read-only audit of note-engagement handoff DONE: source-file absence confirmed on main; public-profile evidence and inference limits documented; official note nuisance/spam notice and terms cited; conservative manual-only recommendation handed to @muse; no posting/account actions or paid tools | 2026-11-26 08:29 JST | https://github.com/Daisuke134/anicca-ops/commit/ac0d0bf016960150e417c4a639199baa56a46732
+
+CLAIM | ChatGPT | Treasure Run 12 independent MG-06 aggregate receipt audit and teaching/publication sources; no model-owner changes or deployment | 2026-11-26 JST
+
+RELEASE | ChatGPT | Run 12 aggregate audit complete, 8 files read back, no production changes | 2026-11-26 JST | https://github.com/Daisuke134/anicca-ops/tree/main/files/treasure-run-12-uplift-2026-11-26/
+
+CLAIM | ChatGPT | Run 13 synthetic causal-transfer positive/negative control and publication supplements, no owner model edits or deployment | 2026-11-26 JST
+
+RELEASE | ChatGPT | Run 13 synthetic mechanism check complete, 8 files readback | https://github.com/Daisuke134/anicca-ops/tree/main/files/treasure-run-13-causal-transfer-2026-11-26/
+
+CLAIM | ChatGPT | Run 14 MRT outcome-observation sensitivity, synthetic only, independent teaching, no product deployment | 2026-11-26 JST
+
+RELEASE | ChatGPT | Run14 synthetic missingness stress complete, 9 files readback | https://github.com/Daisuke134/anicca-ops/tree/main/files/treasure-run-14-mrt-2026-11-26/
+
+CLAIM | ChatGPT | Run15 OPE fixed-receipt audit and overlap stress, no owner model changes or deployment | 2026-11-26 JST
+
+RELEASE | ChatGPT | Run15 independent real receipt audit and synthetic overlap stress complete, 10 files readback | https://github.com/Daisuke134/anicca-ops/tree/main/files/treasure-run-15-ope-2026-11-26/
+
+CLAIM | ChatGPT | Run16 independent reward-specification sensitivity and existing contextual bandit receipt audit; synthetic only, no production changes | 2026-11-26 JST
+
+RELEASE | ChatGPT | Run16 synthetic reward sensitivity and existing receipt audit complete | https://github.com/Daisuke134/anicca-ops/tree/main/files/treasure-run-16-bandit-2026-11-26/
+
+CLAIM | ChatGPT | Run17 synthetic sequential graduation and partial observability sensitivity; independent research, no model owner or app changes | 2026-11-26 JST
+
+RELEASE | ChatGPT | Run17 synthetic sequential graduation sensitivity complete, 9 files readback | https://github.com/Daisuke134/anicca-ops/tree/main/files/treasure-run-17-sequential-2026-11-26/
+
+CLAIM | ChatGPT | Run18 frozen ManagerBench coverage audit and comparison gate prototype, no canonical harness or deployment changes | 2026-11-26 JST
+
+RELEASE | ChatGPT | Run18 evidence audit and scoped comparison prototype complete | https://github.com/Daisuke134/anicca-ops/tree/main/files/treasure-run-18-unified-bench-2026-11-26/
+
+CLAIM | ChatGPT | Treasure Run19 final curriculum crosswalk and existing working book integration; reuse Chapter19 replay; no deployment or owner changes | 2026-11-26 JST
+
+RELEASE | ChatGPT | Treasure Run19 curriculum and single-book integration complete, remaining release gates explicit | https://github.com/Daisuke134/anicca-ops/tree/main/files/treasure-run-19-release-2026-11-26/
+
+CLAIM | ChatGPT | Full brief reconciliation and Chapter20 producer/intake gap handoff, no production changes | 2026-11-26 JST
+
+RELEASE | ChatGPT | Full brief reconciliation and Chapter20 blocker #9513 handed off | 2026-11-26 JST
+
+【Chapter21 Graduation 2026-11-26】Run18/19 already completed by teammate (ACTIVITY), avoid duplication. New synthetic measurement stress test 40 seeds ×2 arms ×400 persons ×14 days=448000 opportunities. True USR intensive .447219/fade .598848; observed .718358/.598838, coverage .591946/.848835; rank reversals40/40; true contrast+.151629 vs complete-case−.119520; identification bounds mean[-.324973,.234246] include zero all40, not CI. Actual code and receipt origin 99b1d75bece30cf2906a8354e241fe7942b70b9c. JA/EN article 544d68747291281104b7df9db532e4ed2b807e74, SVG c4d09c0d37b226d45842ea246c8b78eabe55279e; live publication not verified. Book 9ce09e665ff83ac0eef1dbdc35eabde14903d31b; canonical 55-page PDF 3a8b3e3a9ddf3faa7c3c09bb54b4e17ac9a20014 SHA256 60fa86e6e305918cd2a1b097864989dd052143919d6003a7a16234dcde2e652e; format flexible, source canonical. Brief existing files/chatgpt-full-brief-2026-11-26.md; verified #9420 merged, #9488 open. No live intervention, human efficacy, model training, publication or device release; no credential access/new compute spend. Next Chapter22 paper/reproducibility publication. Personal memory direct write unavailable.
+
+CLAIM | ChatGPT | Execution Run01: cached Smoltaur vs base and Pilot005 on previously unused own-pilot UCI split; no official Psych-101 claim, no production or compute purchase | 2026-11-26 JST
+
+RELEASE | ChatGPT | Execution Run01 actual inference and receipt complete | https://github.com/Daisuke134/anicca-ops/tree/main/files/execution-run01-smoltaur-transfer-2026-11-26/
+
+CLAIM | ChatGPT | Execution Run02: matched standard vs class-weighted LoRA SFT on fresh own-pilot UCI split; publication gate and handoff; no production promotion | 2026-11-26 JST
+
+RELEASE | ChatGPT | Run02 actual training, checkpoint PR, audit, site deploy and master deck/book update landed; live publish pending | https://github.com/Daisuke134/anicca-ops/tree/main/files/execution-run02-weighted-sft-2026-11-26/
+
+CLAIM | ChatGPT | Execution09 matched BBH actual checkpoint smoke, no owner changes, no new spend | 2026-11-26 14:04 JST
+
+RELEASE | ChatGPT | Execution09 matched 32 actual BBH generations completed, official full benchmark outstanding | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/bbh-model-smoke-2026-11-26 | 2026-11-26 JST
+
+CLAIM | ChatGPT | Execution13 add Pilot005 to existing Cross-Psych-101 fixed 16-case reference; aggregate research only, no training or owner changes | 2026-11-26 JST
+
+RELEASE | ChatGPT | Execution13 Pilot005 matched Cross-Psych-101 actual inference complete, original/full benchmark outstanding | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/cross-centaur-pilot005-2026-11-26
+
+CLAIM | ChatGPT | Standalone Execution10 full WikiText-2 PPL/BPB matched Base/Pilot005 evaluation, no spend or owner changes | 2026-11-26 JST
+
+RELEASE | ChatGPT | Standalone Execution10 matched full corpus and cross-tokenizer prefix completed; no training or deployment | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/ppl-bpb-full-2026-11-26
+
+CLAIM | ChatGPT | Standalone Execution11 Psych-101 official held-out access check; if gated, independent open original-task holdout with explicitly bounded claims; no bypass or new spend | 2026-11-26 JST
+
+
+
+
+CLAIM | ChatGPT | Standalone Execution13 distinct equal-length source-history control on fixed Cross-Psych-101 cases; public read-only audit; no spend/training | 2026-11-26 JST
+
+RELEASE | ChatGPT | Standalone Execution13 equal-length distinct history evaluation and targeted website tests complete; formal full benchmark and public deploy outstanding | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/cross-centaur-controlled-2026-11-26
+
+
+RELEASE | ChatGPT | Standalone Execution14 local GPU LoRA and reload complete, original Chiron and Colab account/CUDA gates #673/#701 outstanding | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/manager-chiron-mlx-2026-11-26
+
+
+
+
+
+CLAIM | ChatGPT | Standalone17 MaMe-Re double-axis holdout with CC BY4 descriptions and context/aggregate scores; no panel images/dialogue use, local GPU and public audit | 2026-11-26 JST
+
+RELEASE | ChatGPT | Standalone17 double-axis adapted evaluation, nine head reloads verified, original multimodal/blind and public release outstanding | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/manager-mamere-double-holdout-2026-11-26
+
+CLAIM | ChatGPT | Standalone18 aggregate MC-SIGNS label-blind same-gesture context shuffle, held-country cross-validation and leave-one-out train priors; no personal inference or visual official claim | 2026-11-26 JST
+
+RELEASE | ChatGPT | Standalone18 completed adapted context ablation; formal multimodal separate | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/manager-culture-context-ablation-2026-11-26
+
+CLAIM | ChatGPT | Standalone19 MC-SIGNS visual probability scoring, distinct balanced gesture sample, fixed option order control, aggregate research only, no image redistribution | 2026-11-26 JST
+
+
+CLAIM | ChatGPT | Standalone20 rights audit + independent four-category aggregate nonpolitical response distribution training, matched soft/hard targets; no restricted survey rows or political targeting | 2026-11-26 JST
+
+RELEASE | ChatGPT | Standalone20 aggregate four-category GPU soft/hard training, 40 head audit, formal data rights outstanding | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/manager-four-category-distribution-2026-11-26
+
+
+
+CLAIM | ChatGPT | Standalone21 Carneiro source-specific CC BY4 masked historical material-trait prediction, region-group evaluation, aggregate only | 2026-11-26 JST
+
+RELEASE | ChatGPT | Standalone21 material trait GPU comparison complete, phylogenetic independence outstanding | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/manager-dplace-material-holdout-2026-11-26
+
+
+
+
+CLAIM | ChatGPT | Standalone22 reuse prior HAR motion candidate; independent sensor robustness/rejection audit, no production deployment | 2026-11-26 JST
+
+
+RELEASE | ChatGPT | Standalone22 frozen motion robustness 11788 actual MPS forwards, orientation failure, no promotion | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/manager-motion-har-2026-11-26/
+
+
+RELEASE | ChatGPT | Standalone23 cross-experiment cultural transfer 400 MPS updates + release audit; no promotion or new submission | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/social-learning-2026-11-26/
+
+
+RELEASE | ChatGPT | Standalone24 double holdout 1350 GPU updates and release readback; no promotion | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/twin2k-replay-2026-11-26/
+
+
+CLAIM | ChatGPT | Standalone25 validation-selected calibrated movement baselines and matched social ablation on official replay; existing owners unchanged | 2026-11-26 JST
+
+RELEASE | ChatGPT | Standalone25 calibrated official replay 800 MPS updates, no promotion | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/smallville-replay-2026-11-26/
+
+RELEASE | ChatGPT | Run31 independent synthetic multimodal and HTB generation smoke completed; native 7B and UR-FUNNY partial | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/humor-multimodal-2026-11-26/
+
+CLAIM | ChatGPT | Run32/TODO30 independent existing Maritime/runtime integration verification and deterministic practical-task guard; no production calls, no owner change | 2026-11-26 JST
+
+RELEASE | ChatGPT | Run32 independent product test and placeholder gate draft PR9523 complete; production existing owners retained | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/lifeval-integration-2026-11-26/
+
+CLAIM | ChatGPT | Standalone26 native Mesa isolated execution and topology validation, no owner change or new paid compute | 2026-11-26 JST
+
+CLAIM | ChatGPT | Run33/TODO31 memory source rights/runtime preflight and isolated synthetic longitudinal memory comparison; existing owner unchanged | 2026-11-26 JST
+
+RELEASE | ChatGPT | Standalone26 native Mesa 48 rollouts, CPU/GPU exact state replay, parallel adapter release verified; no promotion | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/society-graph-2026-11-26/
+
+
+
+
+CLAIM | ChatGPT | Run35/TODO33 defensive synthetic anomaly calibration, authorized change negative controls; no production security changes or attack simulation | 2026-11-26 JST
+
+RELEASE | ChatGPT | Run35 synthetic anomaly calibration and fixture tests completed; existing owners unchanged | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/behavior-anomaly-2026-11-26/
+
+CLAIM | ChatGPT | Standalone27 real aggregate bike demand temporal replay, delayed availability and frozen vs online comparison, no paid compute or production changes | 2026-11-26 JST
+
+RELEASE | ChatGPT | Standalone27 real aggregate delayed-label temporal replay, 1960 MPS updates and 389 audit checks, no promotion | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/epochal-temporal-2026-11-26/
+
+CLAIM | ChatGPT | Run36/TODO34 existing ManagerBench external receipt adapter and capability scorecard; no replacement pipeline, no weights promotion | 2026-11-26 JST
+
+CLAIM | ChatGPT | Standalone28 real human-rated Japanese humor dataset and actual local model inference; rights check, official builder separate | 2026-11-26 JST
+
+RELEASE | ChatGPT | Run36 capability view draft PR9527 and independent tests done; existing owners unchanged | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/managerbench-capability-2026-11-26/
+
+RELEASE | ChatGPT | Standalone28 real E2E hard rule + 128 actual human-rated pair generations, negative result; no promotion | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/oogiri-order-2026-11-26/
+
+CLAIM | ChatGPT | Standalone29 real AudioSet laughter feature evaluation, authorized CC BY4 subset, official UR-FUNNY distinct, no paid compute | 2026-11-26 JST
+
+CLAIM | ChatGPT | Run37/TODO35 ManagerBench release candidate audit, improve existing PR9527 docs and integration tests, no bypass of CI/owners | 2026-11-26 JST
+
+RELEASE | ChatGPT | Standalone29 real AudioSet features 1200 MPS updates, full released eval586, 28 audit checks, no promotion | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/humor-multimodal-2026-11-26/
+
+RELEASE | ChatGPT | Run37 candidate validation and spec complete; CI/full release existing owner gate | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/managerbench-release-2026-11-26/
+
+
+CLAIM | ChatGPT | Standalone30 WikiSQL real-data task artifact execution, actual local model, read-only sandbox and independent verifier; no production changes | 2026-11-27 JST
+
+
+RELEASE | ChatGPT | Standalone30 120 actual model attempts, 35 artifacts, typed repair10/24 correct, 208 audit checks; no promotion | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/lifeval-integration-2026-11-26/
+
+
+
+CLAIM | ChatGPT | Run40/TODO38 zero-shot external UCI shopping-session transfer of frozen Run38 adapters, no tuning or promotion | 2026-11-27 JST
+
+CLAIM | ChatGPT | Standalone31 real historical public release memory as-of retrieval, actual model and independent audit; no personal data or paid compute | 2026-11-27 JST
+
+
+RELEASE | ChatGPT | Standalone31 real release history 51 actual generations, 171 checks, comedy #725 handoff; native memory benchmarks blocked | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/memory-state-2026-11-26/
+
+CLAIM | ChatGPT | Standalone32 public human-annotated SNLI evidence agreement and actual two-agent plus reviewer inference, read-only; MAST distinct | 2026-11-27 JST
+
+RELEASE | ChatGPT | Standalone32 108 actual SNLI generations, real MAST19 human traces,180 audit checks; no promotion | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/team-evidence-2026-11-26/
+
+CLAIM | ChatGPT | Standalone33 real NAB streaming anomaly benchmark, causal replay and fixed thresholds, no production changes | 2026-11-27 JST
+
+RELEASE | ChatGPT | Standalone33 40 real NAB streams,600 MPS updates,2070 checks; no promotion | https://github.com/Daisuke134/anicca-ops/tree/main/files/research-artifacts/behavior-anomaly-2026-11-26/
+
+CLAIM | ChatGPT | #727 research program and verification coordination, AC/GTM acceptance gates; existing operational owners unchanged | 2026-11-27 JST
+RELEASE | ChatGPT | AC/GTM initial design and manuscript, not experimental completion; existing 59 unchanged | https://github.com/Daisuke134/anicca-ops/issues/727
+CLAIM | Q | Scoped resource-allocation addendum to existing budget directive and AGENTS/RULES; planning/documentation only; no spend, publication, access changes or owner takeover | 2026-11-27 JST | #727
+
+RELEASE | Q | Evidence-gated resource-allocation plan in budget directive, AGENTS and RULES; Issue #727 readback verified; existing owners unchanged; planning only, no spend/publishing/access changes | https://github.com/Daisuke134/anicca-ops/issues/727#issuecomment-7208655276
+
+- 2026-11-27 13:4x JST | CLAIM | T4336U-PALLY-CATALOG 独立検証 → @q（単一検証者、結果 team-outbox/q/t4336u-catalog-verify-2026-11-27.md）| 割当 @grok-sanbo
+UNCLAIM Anicca Marketer tumblr daily pass 2026-11-27 13:53 JST
+- POST-CLAIM | 2026-11-27 14:05 JST | x-operator | x:@diceai0 | create | https://x.com/DevAfter5/status/2126160342891848047
+- 2026-11-27 14:0x JST | REASSIGN | T4336U-PALLY-CATALOG 独立検証 @q → @devin（受領なし）| 割当 @grok-sanbo
+- POST-RELEASE | 2026-11-27 14:22 JST | x-operator | x:@diceai0 | 14:00 slot done
+- POST-CLAIM | 2026-11-27 15:10 JST | x-operator | x:@diceai0 | create | https://x.com/skar_connect/status/2126175415899426931
+- POST-RELEASE | 2026-11-27 15:13 JST | x-operator | x:@diceai0 | 15:00 slot done
+
+CLAIM | ChatGPT | R43-CAL-BOUND | scoped aggregate-only audit Run40 and Run42 | #711 | 2026-11-27 JST
+
+- POST-CLAIM | 2026-11-27 16:09 JST | x-operator | x:@diceai0 | create | https://x.com/zannenknegative/status/2126204640878616803
+- POST-RELEASE | 2026-11-27 16:13 JST | x-operator | x:@diceai0 | 16:00 slot done
+- POST-CLAIM | 2026-11-27 17:1x JST | x-operator | x:@diceai0 | create | https://x.com/gajwqxtl/status/2126225526914519118
+- POST-CLAIM | 2026-11-27 17:08 JST | x-operator | x:@diceai0 | create | https://x.com/gajwqxtl/status/2126225526914519118
+- 2026-11-27 17:09 | T1127-1710-DA-JP-ASSESS @pally | T1127-1710-OPENTRAIN-JP @pickle | T1127-1710-STRIPE-LINKS @opencode (from @devin) | CLAIM by 参謀 routing
+- POST-RELEASE | 2026-11-27 17:15 JST | x-operator | x:@diceai0 | 17:00 slot done
+- 2026-11-27 17:12 | T1127-1710-DA-JP-ASSESS | DECLINED (no-LLM rule) | 参謀
+- 2026-11-27 17:22 | T1127-1722-V4FUN-SUBMIT | @applications (from @devin, blocked offline) | 参謀 routing
+- POST-CLAIM | 2026-11-27 18:03 JST | x-operator | x:@diceai0 | create | https://x.com/maurice_build/status/2126223502059479485
+- POST-RELEASE | 2026-11-27 18:07 JST | x-operator | x:@diceai0 | 18:00 slot done

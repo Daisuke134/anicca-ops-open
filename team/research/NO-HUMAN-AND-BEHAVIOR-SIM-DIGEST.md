@@ -330,3 +330,10 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - @gerrith777: ran 300 simulated customers through a quote quiz; the quit rules he wrote made them echo his guesses; kept only A/B ideas for real visitors (12 likes). https://x.com/gerrith777/status/2125009217828393053
 - Skipped: Lauren Tan / "SpaceXAI Elon" GrokBot fake-quote bait clones, AI roadmap engagement bait, PuskasDigital self-promo (human-approved agent shop, 0 engagement).
 
+
+## 2026-11-27 16:00 run (window ~Nov 25–27)
+- Ante (Sydney, founder Lambros Photios of Adaca): ABC News profile of "Australia's first zero-human company"; sells AI-built worker-productivity software via chatbots, targets no daily human input by March; keeps AI away from payments/data security (rule-based billing). Photios predicts ZHCs = 5–10% of software companies by 2030. https://www.abc.net.au/news/science/2026-11-27/what-is-a-zero-human-company/107410116 (X: https://x.com/DorothyDixer12/status/2126082486082113848)
+- London Autonomous Organizations Summit (AO Commons + ARIA Scaling Trust, 5–6 Nov) talks released: 13 talks incl. Nicola Greco "The Agentic Economic Zone" (bounded economy of AI-run companies trading). Post 7.4K imp / 50 likes. https://x.com/ObadiaAlex/status/2125639688929100131 · https://aocommons.org/london-ao-summit
+- Counterpoint: Richard Branson-handle @rbranson ("one of the first things to go when a correction hits will be this 'autonomous company' garbage"), 1.2K imp. https://x.com/rbranson/status/2125671689598247042
+- Synthetic Data Standard field guide: 6 types of synthetic market-research respondents (Digital Twin, Derived/Grounded Persona, Derived/Grounded Panel, Sample Boost) + SDX-1 provider audit. https://www.syntheticdatastandard.org/publications · https://www.mrweb.com/drno/news40566.htm
+- Skipped: "STOP WASTING HOURS… AI roadmap" engagement bait, token/DAO "tokenized autonomous company" posts, Tesla-as-autonomous-company off-topic.

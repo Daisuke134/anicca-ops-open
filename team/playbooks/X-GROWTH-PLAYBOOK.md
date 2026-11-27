@@ -228,3 +228,10 @@ Every URL below was opened for the 2026-11-10 cadence study, the 2026-11-11 grow
 5. 計測は x_post_fetch で行う。判定は views ではなく、X経由のインストールと「これ何のアプリ?」型のコメントで見る。
 配分: 正直な日次報告は続ける。週に数本は勝者型で開く（実物サンプルは正本 §2-4）。
 型の疲労: 同じ型の投稿の数字が3本続けて直前の中央値を下回ったら、content-trend-researcher で新しい勝者を探して型を入れ替える（anicca-winner-gap-iteration の「型の疲労検知」節と同じ形）。
+
+## 2026-11-25 rule updates (X growth hunter AM; sources in marketing/X-GROWTH-SOURCES.md J17, J18, R52, C14, O14)
+- JA discovery A/B (2026-11-25..27): 2 of 4 JA useful posts a day end with 「#個人開発 #個人開発者と繋がりたい」; keep if their median views are >= 2x the hashtag-free ones. EN stays hashtag-free outside connect posts.
+- Moment post: a real event (paying user, user message, review) is posted the same day, line 1 past tense and very short.
+- Above 1k followers post better, not more: 6 originals a day until the non-connect median is >= 300 views; the freed time goes to outbound replies.
+- EN connect: "X algorithm, please connect me with:" list + one real app number + "Where are you all?".
+- Proof rotation: one number set at most 2 uses per JST day across originals, quotes and replies.

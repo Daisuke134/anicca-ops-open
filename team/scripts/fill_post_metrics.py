@@ -4,7 +4,7 @@ and write metrics/post-metrics.json (last 5 published Postiz posts per account, 
 Sources: X = metrics/x-post-metrics.json (X connector public_metrics cache, written by the agent) else public syndication (likes/replies, no views);
 Bluesky/Mastodon/Telegraph/dev.to public APIs; Postiz /analytics/post/{id}. Never prints secrets.
 usage: fill_post_metrics.py [--no-postiz]"""
-import csv, json, os, re, sys, time, datetime, urllib.request, urllib.parse
+import csv, json, os, random, re, sys, time, datetime, urllib.request, urllib.parse
 T = os.environ.get('OPEN_TEAM_DIR', '/workspace/team')
 PL = os.path.join(os.environ.get('OPEN_MARKETING_DIR', '/workspace/marketing'), 'POST-LOG.csv')
 OUT = f'{T}/metrics/post-metrics.json'
@@ -134,3 +134,29 @@ if PZ and '--no-postiz' not in sys.argv:
                        selection='up to 5 most recent published posts per connected account; posts older than 24 hours',
                        posts=out), fh, ensure_ascii=False, indent=1)
     print(f'Postiz: {len(out)} posts across {len(by)} accounts, {n} fetched, {errs} errors')
+
+def opener_effect(rows, n_boot=2000, seed=0):
+    """Ratio of total impressions for opener='request' vs opener='number' rows,
+    with a 95% bootstrap CI over resampled rows. Deterministic for a given seed."""
+    def totals(sample):
+        req = num = 0.0
+        for r in sample:
+            v = float(r.get('impressions') or 0)
+            if r.get('opener') == 'request': req += v
+            elif r.get('opener') == 'number': num += v
+        return req, num
+    req, num = totals(rows)
+    mean = req / num if num else float('nan')
+    n = len(rows)
+    rng = random.Random(seed)
+    boots = []
+    for _ in range(n_boot):
+        req_b, num_b = totals(rows[rng.randrange(n)] for _ in range(n)) if n else (0, 0)
+        if num_b:
+            boots.append(req_b / num_b)
+    boots.sort()
+    def quantile(p):
+        if not boots:
+            return float('nan')
+        return boots[min(len(boots) - 1, max(0, int(p * len(boots))))]
+    return dict(ratio=mean, ci=(quantile(0.025), quantile(0.975)), n_boot=n_boot, seed=seed, n_rows=n)

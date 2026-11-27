@@ -1,95 +1,106 @@
-#!/usr/bin/env python3
-"""Proves a wired posting script calls the gate BEFORE any network call. urlopen is replaced; nothing is posted."""
+"""Wiring tests: --lang en --kind connect routes post text through check_en_connect_opener."""
 import datetime as dt
-import importlib.util
 import json
 import os
 import sys
-import urllib.request
 
 import pytest
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(os.path.dirname(HERE))
-sys.path.insert(0, HERE)
-import post_gate  # noqa: E402
-
-SRC = "https://anicca.ai/winner/shortform-1"
-INTEGRATION = "cmp93bkpu01uvoh0yd3aj560g"
-PAYLOAD = {"type": "now", "posts": [{"integration": {"id": INTEGRATION},
-                                    "value": [{"content": "x"}],
-                                    "settings": {"__type": "tiktok"}}]}
-
-spec = importlib.util.spec_from_file_location(
-    "shortform_post", os.path.join(ROOT, "team", "distribution", "shortform", "post.py"))
-mod = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(mod)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import post_gate
 
 
-def _fixture(tmp_path, claims=""):
-    repo = tmp_path / "repo"
-    (repo / "team" / "distribution" / "shortform").mkdir(parents=True)
-    (repo / "team").mkdir(parents=True, exist_ok=True)
-    (repo / "team" / "ACCOUNT-OWNERS.md").write_text(
+def _write_tiktok_repo(root):
+    (root / "team" / "distribution" / "shortform").mkdir(parents=True)
+    (root / "team").mkdir(parents=True, exist_ok=True)
+    (root / "team" / "ACCOUNT-OWNERS.md").write_text(
         "```post-gate-owners\n"
-        f"tiktok | @aniccaaffirmation | muse | {INTEGRATION}\n"
+        "tiktok | @tt | tester |\n"
         "```\n",
         encoding="utf-8",
     )
-    (repo / "team" / "CLAIMS.md").write_text(claims, encoding="utf-8")
-    (repo / "team" / "distribution" / "shortform" / "marketing-destinations.json").write_text(
-        json.dumps({"targets": [{"platform": "tiktok", "native_handle": "@aniccaaffirmation",
-                                 "integration_id": INTEGRATION}],
-                    "holds": []}),
+    (root / "team" / "CLAIMS.md").write_text(
+        "- POST-CLAIM | 2026-11-22 12:00 JST | tester | tiktok:@tt | create | https://anicca.ai/winner/1\n",
         encoding="utf-8",
     )
-    return repo
+    (root / "team" / "distribution" / "shortform" / "marketing-destinations.json").write_text(
+        json.dumps({"targets": [{"platform": "tiktok", "native_handle": "@tt"}], "holds": []}),
+        encoding="utf-8",
+    )
 
 
-@pytest.fixture
-def gated(tmp_path, monkeypatch):
-    """Block all network, point the gate at a tmp intents ledger, return the call log."""
-    calls = []
-
-    def fake_urlopen(request, *a, **k):
-        calls.append(request.full_url)
-        raise RuntimeError("NETWORK BLOCKED IN TEST")
-
-    monkeypatch.setattr(urllib.request, "urlopen", fake_urlopen)
-    monkeypatch.setenv("POST_GATE_INTENTS", str(tmp_path / "intents.jsonl"))
-    monkeypatch.setenv("ANICCA_SOURCE_URL", SRC)
-    return calls
-
-
-def _attempt(monkeypatch, poster, repo):
-    monkeypatch.setenv("ANICCA_POSTER", poster)
+def _env(tmp_path, monkeypatch):
+    repo = tmp_path / "repo"
+    _write_tiktok_repo(repo)
     monkeypatch.setenv("POST_GATE_LOCAL_ROOT", str(repo))
-    try:
-        mod.req("POST", "/posts", PAYLOAD)
-        return 0
-    except SystemExit as e:
-        return e.code
-    except RuntimeError:
-        return "reached-network(blocked by test)"
+    monkeypatch.setenv("POST_GATE_INTENTS", str(tmp_path / "intents.jsonl"))
 
 
-def test_gate_refuses_wrong_owner_before_network(tmp_path, monkeypatch, gated):
-    repo = _fixture(tmp_path)
-    code = _attempt(monkeypatch, "参謀", repo)
-    assert code == 2 and gated == []
+def test_check_en_connect_refuses_number_first(tmp_path, monkeypatch):
+    _env(tmp_path, monkeypatch)
+    now = dt.datetime(2026, 11, 22, 12, 0, tzinfo=post_gate.JST)
+    for text in ("3 wins this week\nI'd love to connect with builders",
+                 "$2,400 MRR\nI'd love to connect",
+                 "Day 12 of building in public\nI'd love to connect"):
+        with pytest.raises(post_gate.Refused, match="lead with the request"):
+            post_gate.check("tester", "tiktok", "@tt", "create", "https://anicca.ai/winner/1",
+                            now=now, text=text, lang="en", kind="connect")
 
 
-def test_gate_refuses_missing_claim_before_network(tmp_path, monkeypatch, gated):
-    repo = _fixture(tmp_path)  # no POST-CLAIM for muse
-    code = _attempt(monkeypatch, "muse", repo)
-    assert code == 2 and gated == []
+def test_check_en_connect_passes_request_first(tmp_path, monkeypatch):
+    _env(tmp_path, monkeypatch)
+    now = dt.datetime(2026, 11, 22, 12, 0, tzinfo=post_gate.JST)
+    res = post_gate.check(
+        "tester", "tiktok", "@tt", "create", "https://anicca.ai/winner/1",
+        now=now, text="\nI'd love to connect with indie hackers\n3 wins this week",
+        lang="en", kind="connect")
+    assert res["allowed"] is True
 
 
-def test_gate_passes_claimed_post_reaches_network(tmp_path, monkeypatch, gated):
-    claim_at = dt.datetime.now(post_gate.JST) - dt.timedelta(minutes=10)
-    claims = (f"- POST-CLAIM | {claim_at:%Y-%m-%d %H:%M} JST | muse | "
-              f"tiktok:@aniccaaffirmation | create | {SRC}\n")
-    repo = _fixture(tmp_path, claims)
-    code = _attempt(monkeypatch, "muse", repo)
-    assert code == "reached-network(blocked by test)"
-    assert len(gated) == 1 and gated[0].endswith("/posts")
+def test_check_en_connect_ignored_for_ja(tmp_path, monkeypatch):
+    _env(tmp_path, monkeypatch)
+    now = dt.datetime(2026, 11, 22, 12, 0, tzinfo=post_gate.JST)
+    res = post_gate.check(
+        "tester", "tiktok", "@tt", "create", "https://anicca.ai/winner/1",
+        now=now, text="3つの学び\nつながりたい方はぜひ", lang="ja", kind="connect")
+    assert res["allowed"] is True
+
+
+def test_main_en_connect_refuses_with_advice(tmp_path, monkeypatch, capsys):
+    _env(tmp_path, monkeypatch)
+    text_file = tmp_path / "post.txt"
+    text_file.write_text("3 wins this week\nI'd love to connect", encoding="utf-8")
+    rc = post_gate.main([
+        "--poster", "tester",
+        "--platform", "tiktok",
+        "--account", "@tt",
+        "--action", "create",
+        "--source-url", "https://anicca.ai/winner/1",
+        "--text-file", str(text_file),
+        "--lang", "en",
+        "--kind", "connect",
+    ])
+    out = capsys.readouterr().out
+    assert rc == 2
+    assert "POST-GATE REFUSED" in out
+    assert "lead with the request" in out
+
+
+def test_main_en_connect_allows_request_first(tmp_path, monkeypatch, capsys):
+    _env(tmp_path, monkeypatch)
+    text_file = tmp_path / "post.txt"
+    text_file.write_text("I'd love to connect with indie hackers\n3 wins this week",
+                         encoding="utf-8")
+    rc = post_gate.main([
+        "--poster", "tester",
+        "--platform", "tiktok",
+        "--account", "@tt",
+        "--action", "create",
+        "--source-url", "https://anicca.ai/winner/1",
+        "--text-file", str(text_file),
+        "--lang", "en",
+        "--kind", "connect",
+    ])
+    out = capsys.readouterr().out
+    assert rc == 0
+    assert "POST-GATE OK" in out

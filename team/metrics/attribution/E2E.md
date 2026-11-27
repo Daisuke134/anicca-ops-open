@@ -1,4 +1,4 @@
-# E2E 投稿→収益 (2026-10-25〜2026-11-24, 生成 2026-11-24 15:51 JST)
+# E2E 投稿→収益 (2026-10-28〜2026-11-27, 生成 2026-11-27 15:31 JST)
 
 正直な前提: タップ→インストールを投稿単位で結ぶ ct/utm はまだ無い。下の投稿↔インストールは**相関（同時期）であって帰属ではない**。
 
@@ -6,13 +6,14 @@
 ASCは前日分が翌日JST午後に出るため、朝の実行では「昨日」が0/未公開になる。
 | 製品 | 新規DL 昨日 | 新規DL 7日 | 課金件数 7日 | 収益(proceeds) 7日 |
 |---|---|---|---|---|
-| Anicca | 0 | 2.0 | 0.0 | 0.0 |
+| Anicca | 0 | 9.0 | 0.0 | 0.0 |
 | Cold Plunge Timer - FrostDip | 0 | 0 | 0 | 0 |
 | Daily Dhamma | 0 | 4.0 | 0 | 0 |
-| Honne | 0 | 2.0 | 0 | 0 |
+| Eye Break - EyeBreakIsland | 0 | 1.0 | 0 | 0 |
+| Honne | 0 | 4.0 | 0 | 0 |
 | STUDIO CHERIE | 0 | 0 | 0 | 0 |
 | Sleep Reset | 0 | 0 | 0 | 0 |
-| Thankful | 0 | 1.0 | 0 | 0 |
+| Thankful | 0 | 0 | 0 | 0 |
 
 ## 投稿・エンゲージメント（アカウント別 7日）
 | アカウント | 投稿 | 指標合計 |
@@ -20,67 +21,58 @@ ASCは前日分が翌日JST午後に出るため、朝の実行では「昨日�
 | 2122104566015488013/https://x.com/diceai0/status/2122104566015488013 | 0 |  |
 | 2122135333156298850/https://x.com/diceai0/status/2122135333156298850 | 0 |  |
 | 2122183572454883736/https://x.com/diceai0/status/2122183572454883736 | 0 |  |
-| @anicca-affirmation-video | 0 | estimated_minutes_watched=0, average_view_duration=0, average_view_percentage=0, subscribers_gained=0, subscribers_lost=0 |
-| @anicca-ai | 6 | average_view_duration=175, average_view_percentage=114, estimated_minutes_watched=26, likes=1, subscribers_gained=0 |
-| @aniccaffirmations | 0 | average_view_duration=185, average_view_percentage=127, estimated_minutes_watched=18, likes=3, subscribers_gained=0 |
+| @anicca-affirmation-video | 1 | estimated_minutes_watched=0, average_view_duration=0, average_view_percentage=0, subscribers_gained=0, subscribers_lost=0 |
+| @anicca-ai | 1 | average_view_percentage=322, average_view_duration=303, estimated_minutes_watched=105, subscribers_gained=0, subscribers_lost=0 |
+| @aniccaffirmations | 0 | average_view_percentage=105, average_view_duration=69, estimated_minutes_watched=1, likes=1, subscribers_gained=0 |
 | @diceai0/reply-back | 0 |  |
 | ani.cca1234 | 0 | reach=0 |
 | anicca.cemetery | 0 | reach=0 |
 | anicca.en | 0 | reach=9 |
 | anicca.encards | 0 | reach=0 |
-| anicca.he | 20 |  |
+| anicca.he | 8 |  |
 | anicca.ios | 0 | reach=0 |
-| anicca.ios.jp | 0 | reach=1 |
+| anicca.ios.jp | 0 | reach=0 |
 | anicca.jp | 30 |  |
-| anicca.jp.videos | 0 | reach=29 |
+| anicca.jp.videos | 0 | reach=26 |
 | anicca.jp4 | 30 |  |
 | anicca.jpx | 0 |  |
 | anicca/tumblr | 0 |  |
 | anicca_buddha | 30 |  |
-| anicca_slideshow | 30 |  |
-| aniccaaffirmation | 30 |  |
+| anicca_slideshow | 28 |  |
+| aniccaaffirmation | 31 |  |
 | aniccaen2 | 0 |  |
-| bluesky/anicca-affirm | 0 |  |
 | bluesky/bluesky_anicca | 0 |  |
 | bluesky/bluesky_anicca_en | 0 |  |
-| bluesky/bluesky_anicca_en (aniccaapp) | 0 |  |
 | bluesky/bluesky_lm | 0 |  |
-| bluesky/bluesky_lm (lifemanager-jp) | 0 |  |
 | bluesky/bluesky_lm_en | 0 |  |
-| bluesky/lifemanager-jp | 0 |  |
 | bluesky/lm_en | 0 |  |
 | dailyanicca/tumblr | 0 |  |
-| daisuke-narita | 63 |  |
+| daisuke-narita | 31 |  |
 | dev.to/aniccaapp | 0 |  |
 | devto/aniccaapp | 0 |  |
-| diceai0 | 34 |  |
+| diceai0 | 1 |  |
 | diceai0/x | 0 |  |
 | directory/junkstartups | 0 |  |
 | everfocus-labs | 0 | page_views=0, clicks=0, shares=0, engagement=0, comments=0 |
-| honne_reveal | 30 |  |
-| honnevideo | 31 |  |
+| honne_reveal | 31 |  |
+| honnevideo | 29 |  |
 | instagram/obou.anicca | 0 |  |
 | linkedin/Daisuke Narita | 0 |  |
 | mastodon/mastodon_anicca | 0 |  |
 | mastodon/mastodon_anicca_en | 0 |  |
 | mastodon/mastodon_lm | 0 |  |
-| monk.mujo | 9 | reach=79 |
+| monk.mujo | 1 | reach=56 |
 | monk_anicca | 0 |  |
 | nostr/anicca | 0 |  |
-| nostr/anicca npub1jtay | 0 |  |
 | nostr/anicca_npub | 0 |  |
-| nostr/npub1jtay3qxp | 0 |  |
 | note/saqwd | 0 |  |
 | obou.anicca | 0 | reach=0 |
-| obou_anicca | 30 |  |
+| obou_anicca | 25 |  |
 | selawmqt | 0 |  |
-| telegraph/Daisuke Narita | 0 |  |
-| telegraph/anicca-telegraph | 0 |  |
 | tiktok+ig/obou_anicca/obou.anicca | 0 |  |
-| tiktok/@aniccaaffirmation (Postiz Affirmation Girl) | 0 |  |
 | tiktok/obou_anicca | 0 |  |
-| tumblr/dailyanicca | 3 | likes=0, reposts=0, replies=0 |
-| x/@diceai0 | 28 |  |
+| tumblr/dailyanicca | 5 | likes=0, reposts=0, replies=0 |
+| x/@diceai0 | 41 |  |
 | x/@selawmqt | 0 |  |
 | x/diceai0 | 0 |  |
 | x/selawmqt | 0 |  |
@@ -113,18 +105,18 @@ ASCは前日分が翌日JST午後に出るため、朝の実行では「昨日�
 | 2026-11-15 21:34 | Anicca | listing | - 2026-11-15 21:34 JST｜Reporter｜スコアボード+/open 21:05｜done｜Capafy 11/15 o | 2.0 | 3.0 (7日) |
 | 2026-11-16  | PromptBase | release | - 2026-11-16 04:4x JST｜参謀｜Team revenue loop｜checked｜Gmail 02:4x以降: 入金・ | 3.0 | 4.0 (7日) |
 | 2026-11-16 08:41 | Anicca | SEO | - 2026-11-16 08:41 JST｜Reporter｜08:30 finance daily｜done｜RC 22proj再取得  | 3.0 | 4.0 (7日) |
-| 2026-11-21  | ? | ASO | - 2026-11-21 11:2x JST｜参謀｜Mac mini exit｜done｜Chrome付属の更新ジョブ3件(GoogleUp | 3.0 | 2.0 (3日) |
-| 2026-11-21 08:50 | Anicca | SEO | - 2026-11-21 08:50 JST｜Reporter｜08:30 finance daily｜done｜RC 22proj再取得  | 3.0 | 2.0 (3日) |
-| 2026-11-21 21:51 | Anicca | listing | - 2026-11-21 21:51 JST｜Reporter｜21:05 scoreboard+/open｜done｜Capafy 11/ | 3.0 | 2.0 (3日) |
-| 2026-11-22  | ? | ASO | - 2026-11-22 18:4x JST｜参謀｜Team revenue loop｜checked+handoff｜TIMER 18:4 | 3.0 | 2.0 (2日) |
-| 2026-11-22 08:52 | Anicca | SEO | - 2026-11-22 08:52 JST｜Reporter｜08:30 finance daily｜done｜RC 22proj再取得  | 3.0 | 2.0 (2日) |
-| 2026-11-22 10:10 | ? | ASO | - 2026-11-22 10:10 JST｜参謀｜No-human spotlight 10:00｜done｜digest +4 (Bel | 3.0 | 2.0 (2日) |
-| 2026-11-22 15:55 | Anicca | onboarding | - 2026-11-22 15:55 JST｜Reporter｜15:30 attribution｜done｜e2e rc=0 e2e-20 | 3.0 | 2.0 (2日) |
-| 2026-11-22 21:41 | Anicca | listing | - 2026-11-22 21:41 JST｜Reporter｜21:05 scoreboard+/open｜done｜Capafy 11/ | 3.0 | 2.0 (2日) |
-| 2026-11-23 08:43 | Anicca | SEO | - 2026-11-23 08:43 JST｜Reporter｜08:30 finance daily｜done｜RC 22proj再取得  | 4.0 | 0 (1日) |
-| 2026-11-23 18:32 | ? | pricing | '- 2026-11-23 18:32 JST｜dr eggbot｜coconala-lancers-loop 18:30枠｜done｜ga | 4.0 | 0 (1日) |
-| 2026-11-23 21:40 | Anicca | listing | - 2026-11-23 21:40 JST｜Reporter｜21:05 scoreboard+/open｜done｜Capafy 11/ | 4.0 | 0 (1日) |
-| 2026-11-24 08:50 | Anicca | SEO | - 2026-11-24 08:50 JST｜Reporter｜08:30 finance daily｜done｜RC 22proj再取得  | 2.0 | 0 (0日) |
+| 2026-11-21  | ? | ASO | - 2026-11-21 11:2x JST｜参謀｜Mac mini exit｜done｜Chrome付属の更新ジョブ3件(GoogleUp | 3.0 | 9.0 (6日) |
+| 2026-11-21 08:50 | Anicca | SEO | - 2026-11-21 08:50 JST｜Reporter｜08:30 finance daily｜done｜RC 22proj再取得  | 3.0 | 9.0 (6日) |
+| 2026-11-21 21:51 | Anicca | listing | - 2026-11-21 21:51 JST｜Reporter｜21:05 scoreboard+/open｜done｜Capafy 11/ | 3.0 | 9.0 (6日) |
+| 2026-11-22  | ? | ASO | - 2026-11-22 18:4x JST｜参謀｜Team revenue loop｜checked+handoff｜TIMER 18:4 | 3.0 | 9.0 (5日) |
+| 2026-11-22 08:52 | Anicca | SEO | - 2026-11-22 08:52 JST｜Reporter｜08:30 finance daily｜done｜RC 22proj再取得  | 3.0 | 9.0 (5日) |
+| 2026-11-22 10:10 | ? | ASO | - 2026-11-22 10:10 JST｜参謀｜No-human spotlight 10:00｜done｜digest +4 (Bel | 3.0 | 9.0 (5日) |
+| 2026-11-22 15:55 | Anicca | onboarding | - 2026-11-22 15:55 JST｜Reporter｜15:30 attribution｜done｜e2e rc=0 e2e-20 | 3.0 | 9.0 (5日) |
+| 2026-11-22 21:41 | Anicca | listing | - 2026-11-22 21:41 JST｜Reporter｜21:05 scoreboard+/open｜done｜Capafy 11/ | 3.0 | 9.0 (5日) |
+| 2026-11-23 08:43 | Anicca | SEO | - 2026-11-23 08:43 JST｜Reporter｜08:30 finance daily｜done｜RC 22proj再取得  | 4.0 | 7.0 (4日) |
+| 2026-11-23 18:32 | ? | pricing | '- 2026-11-23 18:32 JST｜dr eggbot｜coconala-lancers-loop 18:30枠｜done｜ga | 4.0 | 7.0 (4日) |
+| 2026-11-23 21:40 | Anicca | listing | - 2026-11-23 21:40 JST｜Reporter｜21:05 scoreboard+/open｜done｜Capafy 11/ | 4.0 | 7.0 (4日) |
+| 2026-11-24 08:50 | Anicca | SEO | - 2026-11-24 08:50 JST｜Reporter｜08:30 finance daily｜done｜RC 22proj再取得  | 4.0 | 5.0 (3日) |
 | 2026-11-06 17:41 | Capafy | draft | Fucker: corrected Storytime scope/listing draft source and local ZIP o | 1.0 | 2.0 (7日) |
 | 2026-11-07 02:36 | Capafy | package | Fucker: prepared Shorts Hook Lab 9466718786 0be20 host-key + GAP#5 tag | 1.0 | 2.0 (7日) |
 | 2026-11-07 09:05 | Capafy | after-read | Fucker: conversion after-read catch-up; store CVR unknown (no seller s | 1.0 | 2.0 (7日) |

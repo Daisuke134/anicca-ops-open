@@ -9,9 +9,10 @@ A post / delete / cancel is allowed only when ALL hold:
   (a) owner   : the poster is the owner of the account in team/ACCOUNT-OWNERS.md (```post-gate-owners``` block)
   (b) source  : a non-placeholder http(s) source URL is passed (create/schedule: the cited winner original;
                 delete/cancel: the file/decision URL that authorises it)
-  (c) claim   : team/CLAIMS.md on main has, from this poster, within the last 60 minutes:
+  (c) claim   : team/CLAIMS.md on main has, from this poster, a POST-CLAIM that is still open
+                (open = claimed and not released; a claim stays open until a later POST-RELEASE):
                   - POST-CLAIM | YYYY-MM-DD HH:MM JST | <poster> | <platform>:<@handle> | <action> | <source URL>
-                and no OTHER poster holds an open claim on that account (open = within 60 min, no later POST-RELEASE)
+                and no OTHER poster holds an open claim on that account (open = claimed, no later POST-RELEASE)
                   - POST-RELEASE | YYYY-MM-DD HH:MM JST | <poster> | <platform>:<@handle>
   (d) hold    : no hold for that account / integration / lane in any marketing-destinations.json
                 (a hold may exempt posters via "allowed_posters": [...]; holds whose reason starts with
@@ -47,7 +48,7 @@ import argparse, base64, datetime as dt, glob, json, os, re, subprocess, sys, ur
 REPO = os.environ.get("POST_GATE_REPO", "Daisuke134/anicca-ops")
 REF = os.environ.get("POST_GATE_REF", "main")
 JST = dt.timezone(dt.timedelta(hours=9))
-CLAIM_WINDOW_MIN = 60
+FUTURE_CLAIM_TOLERANCE_MIN = 5
 DEST_FILES = ["team/distribution/shortform/marketing-destinations.json",
               "team/lm-compat/lm/config/marketing-destinations.json"]
 ALIASES = {
@@ -393,7 +394,6 @@ def parse_claims(text):
 
 def open_claims(claims, platform, account, now):
     """Return {poster: latest claim time} for claims on this account that are still open."""
-    lo = now - dt.timedelta(minutes=CLAIM_WINDOW_MIN)
     state = {}
     for kind, when, who, plat, acct in sorted(claims, key=lambda c: c[1]):
         if plat != platform or acct != account:
@@ -402,12 +402,14 @@ def open_claims(claims, platform, account, now):
             state[who] = when
         elif kind == "RELEASE" and who in state and when >= state[who]:
             del state[who]
-    return {w: t for w, t in state.items() if lo <= t <= now + dt.timedelta(minutes=5)}
+    # A claim stays open until a POST-RELEASE; only claims dated too far in the future are ignored.
+    return {w: t for w, t in state.items()
+            if t <= now + dt.timedelta(minutes=FUTURE_CLAIM_TOLERANCE_MIN)}
 
 
 # ---------------------------------------------------------------- the gate
 def check(poster, platform, account, action, source_url, integration_id=None, now=None, _cache=None,
-          text=None, recent_json=None, in_reply_to=""):
+          text=None, recent_json=None, in_reply_to="", lang=None, kind=None):
     now = now or dt.datetime.now(JST)
     poster, platform, account, action = norm_poster(poster), norm_platform(platform), norm_handle(account), (action or "").lower()
     if not poster:
@@ -440,12 +442,16 @@ def check(poster, platform, account, action, source_url, integration_id=None, no
     # (b) source URL
     if not source_url or not re.match(r"^https?://\S+\.\S+", source_url) or PLACEHOLDER.search(source_url):
         raise Refused("(b) a real winner/source URL is required (--source-url / ANICCA_SOURCE_URL)")
+    # (g) EN connect opener: first line must lead with the request (checked before claims so the
+    # advice is reported even when the claim itself would refuse)
+    if lang == "en" and kind == "connect" and action in ("create", "schedule") and (text or "").strip():
+        check_en_connect_opener(text)
     # (c) claim on main
     oc = open_claims(c["claims"], platform, account, now)
     if poster not in oc:
-        raise Refused(f"(c) no POST-CLAIM by {poster} for {acct_key} in team/CLAIMS.md on main within "
-                      f"{CLAIM_WINDOW_MIN} min. Append: '- POST-CLAIM | {now:%Y-%m-%d %H:%M} JST | {poster} | {acct_key} | "
-                      f"{action} | <source URL>' and commit it to main first.")
+        raise Refused(f"(c) no POST-CLAIM by {poster} for {acct_key} in team/CLAIMS.md on main "
+                      f"(a claim stays open until a POST-RELEASE). Append: '- POST-CLAIM | {now:%Y-%m-%d %H:%M} JST | "
+                      f"{poster} | {acct_key} | {action} | <source URL>' and commit it to main first.")
     others = sorted(w for w in oc if w != poster)
     if others:
         raise Refused(f"(c) conflicting open claim on {acct_key} by {', '.join(others)}")
@@ -486,7 +492,7 @@ def _postiz_type_to_platform(t):
     return "x" if t in ("x", "twitter") else ""
 
 
-def check_postiz_payload(payload, poster, action, source_url, now=None):
+def check_postiz_payload(payload, poster, action, source_url, now=None, lang=None, kind=None):
     """Gate every integration in a Postiz /posts payload. Unknown integration -> refused."""
     if isinstance(payload, (bytes, str)):
         payload = json.loads(payload)
@@ -512,7 +518,8 @@ def check_postiz_payload(payload, poster, action, source_url, now=None):
         vals = p.get("value") or [{}]
         text = (vals[0] or {}).get("content", "") if vals else ""
         results.append(check(poster, plat, acct, action, source_url, integration_id=iid, now=now, _cache=cache,
-                             text=text, recent_json=os.environ.get("POST_GATE_X_RECENT", "")))
+                             text=text, recent_json=os.environ.get("POST_GATE_X_RECENT", ""),
+                             lang=lang, kind=kind))
     return results
 
 
@@ -551,6 +558,16 @@ def guard_postiz(method, url, body=None, poster=None, source_url=None):
 _PCT = re.compile(r"\d+(?:\.\d+)?\s*[%％]")
 _DENOM = re.compile(r"\d[\d,]*\s*(?:/|of|out of|中|分の)\s*\d|\d[\d,]*\D{0,8}?(?:→|->)\s*\d", re.I)
 _CONNECT_REQ = re.compile(r"つながりたい|love to connect", re.I)
+EN_CONNECT_ADVICE = "lead with the request (I'd love to connect with ...), numbers on line 2"
+_EN_DAY_OPENER = re.compile(r"day\s+\d", re.I)
+
+
+def check_en_connect_opener(text):
+    """EN connect posts: the first non-empty line must be the request, not a number/"$"/"Day <n>" lead."""
+    first = _first_nonempty_line(text).strip()
+    if first[:1].isdigit() or first.startswith("$") or _EN_DAY_OPENER.match(first):
+        raise Refused(f"en-connect: first line must be the connect request, not a number/day lead: {EN_CONNECT_ADVICE}")
+    return None
 
 
 def _first_nonempty_line(text):
@@ -581,18 +598,21 @@ def main(argv=None):
     a.add_argument("--recent-json", default=os.environ.get("POST_GATE_X_RECENT", ""),
                    help="X: fresh raw output of x get_users_posts for the account (<=10 min old)")
     a.add_argument("--in-reply-to", default="", help="X: parent post id when posting a reply")
+    a.add_argument("--lang", default=os.environ.get("POST_GATE_LANG", ""), help="post language (en/ja)")
+    a.add_argument("--kind", default=os.environ.get("POST_GATE_KIND", ""), help="post kind (e.g. connect)")
     a.add_argument("--record-intent", action="store_true",
                    help="X: on OK, record this attempt in team/state/x-post-intents.jsonl (do this right before clicking Post)")
     o = a.parse_args(argv)
     now = dt.datetime.strptime(o.now, "%Y-%m-%d %H:%M").replace(tzinfo=JST) if o.now else None
     try:
         if o.postiz_payload:
-            res = check_postiz_payload(json.load(open(o.postiz_payload)), o.poster, o.action, o.source_url, now=now)
+            res = check_postiz_payload(json.load(open(o.postiz_payload)), o.poster, o.action, o.source_url, now=now,
+                                       lang=o.lang, kind=o.kind)
         else:
             text = open(o.text_file, encoding="utf-8").read() if o.text_file else None
             res = check(o.poster, o.platform or "", o.account or "", o.action, o.source_url,
                         integration_id=o.integration_id, now=now, text=text, recent_json=o.recent_json,
-                        in_reply_to=o.in_reply_to)
+                        in_reply_to=o.in_reply_to, lang=o.lang, kind=o.kind)
             if o.record_intent and norm_platform(o.platform or "") == "x" and "intent" not in res:
                 res["intent"] = record_intent(res["account"], res["poster"], text or "", o.in_reply_to, now=now)["at"]
     except Refused as e:

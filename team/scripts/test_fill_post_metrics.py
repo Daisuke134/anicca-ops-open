@@ -143,5 +143,87 @@ class FillPostMetricsConfigTest(unittest.TestCase):
         self.assertTrue(any(url.endswith("/analytics/post/post-1") for url, _ in requests))
 
 
+class OpenerEffectTest(unittest.TestCase):
+    def load_opener_effect(self):
+        temp = tempfile.TemporaryDirectory(prefix="opener-effect-")
+        self.addCleanup(temp.cleanup)
+        root = Path(temp.name)
+        team = root / "team"
+        marketing = root / "marketing"
+        secrets = root / ".secrets"
+        (team / "metrics").mkdir(parents=True)
+        marketing.mkdir()
+        secrets.mkdir()
+        (marketing / "POST-LOG.csv").write_text(
+            "date_jst,platform,post_url,impr_24h,likes,replies,reposts\n"
+            "2026-11-05 09:00,tiktok,postiz:post-1,0,,,\n"
+        )
+
+        def urlopen(request, timeout=0):
+            url = request.full_url
+            if "/posts?" in url:
+                body = {"posts": [{
+                    "id": "post-1",
+                    "state": "PUBLISHED",
+                    "publishDate": "2026-11-05T00:00:00Z",
+                    "integration": {"id": "int-1", "name": "public account"},
+                }]}
+            elif url.endswith("/integrations"):
+                body = [{"id": "int-1", "identifier": "tiktok", "profile": "public account"}]
+            elif url.endswith("/analytics/post/post-1"):
+                body = [{"label": "Views", "data": [{"date": "2026-11-05", "total": "15"}]}]
+            else:
+                raise AssertionError(f"unexpected request path: {url}")
+            return Response(json.dumps(body).encode())
+
+        env = {
+            "OPEN_TEAM_DIR": str(team),
+            "OPEN_MARKETING_DIR": str(marketing),
+            "OPEN_SECRETS_DIR": str(secrets),
+            "POSTIZ_API_KEY": "test-key",
+        }
+        with (
+            patch.dict(os.environ, env),
+            patch.object(sys, "argv", [str(SCRIPT)]),
+            patch("urllib.request.urlopen", side_effect=urlopen),
+            contextlib.redirect_stdout(io.StringIO()),
+        ):
+            ns = runpy.run_path(str(SCRIPT), run_name="__main__")
+        return ns["opener_effect"]
+
+    @staticmethod
+    def sample_rows():
+        rows = []
+        for i in range(40):
+            opener = "request" if i % 2 == 0 else "number"
+            base = 200 if opener == "request" else 100
+            step = 10 if opener == "request" else 5
+            rows.append({"opener": opener, "impressions": base + (i % 5) * step})
+        return rows
+
+    def test_opener_effect_is_deterministic_with_seed(self):
+        opener_effect = self.load_opener_effect()
+        rows = self.sample_rows()
+
+        first = opener_effect(rows, n_boot=500, seed=7)
+        second = opener_effect(rows, n_boot=500, seed=7)
+        other = opener_effect(rows, n_boot=500, seed=8)
+
+        self.assertEqual(first, second)
+        self.assertNotEqual(first["ci"], other["ci"])
+
+    def test_opener_effect_ci_contains_point_estimate(self):
+        opener_effect = self.load_opener_effect()
+        rows = self.sample_rows()
+
+        result = opener_effect(rows, n_boot=2000, seed=0)
+        lo, hi = result["ci"]
+
+        self.assertAlmostEqual(result["ratio"], 2.0, places=6)
+        self.assertLessEqual(lo, result["ratio"])
+        self.assertLessEqual(result["ratio"], hi)
+        self.assertLess(lo, hi)
+
+
 if __name__ == "__main__":
     unittest.main()

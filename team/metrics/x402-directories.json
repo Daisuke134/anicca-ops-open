@@ -1,0 +1,40 @@
+{
+ "script": "x402_extra_directories.py",
+ "origin": "https://x402-agents-production.up.railway.app",
+ "ran_at_utc": "2026-11-27T01:19:43Z",
+ "ran_at_jst": "2026-11-27 10:19",
+ "origin_health": 200,
+ "note": "Free, API-only directories. No spend, no signature, no human account.",
+ "x402dash": {
+  "registered": [],
+  "rate_limited": [
+   "/context-compressor",
+   "/focus-coach",
+   "/prompt-sanitizer",
+   "/emotion-detector",
+   "/intent-router",
+   "/decision-clarifier",
+   "/habit-designer",
+   "/buddhist-counsel",
+   "/funding-rates"
+  ],
+  "other": [],
+  "note": "5 registrations per hour per IP; re-run after the hour for the rest."
+ },
+ "sarnai": {
+  "results": [
+   {
+    "name": "Anicca x402 Agent APIs",
+    "status": 409,
+    "id": null,
+    "error": "{'ok': False, 'error_code': 'duplicate_listing', 'message': 'A listing with the same or near-identical name and description was posted by you in the last 24 hou"
+   },
+   {
+    "name": "Anicca Context Compressor (x402)",
+    "status": 409,
+    "id": null,
+    "error": "{'ok': False, 'error_code': 'duplicate_listing', 'message': 'This service is already listed (unclaimed). Nothing was created; claim it instead, for your wallet "
+   }
+  ]
+ }
+}

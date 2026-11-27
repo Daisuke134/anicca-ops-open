@@ -50,3 +50,4 @@ Each entry: date, source, practice, what I changed, proof, effect (measured or U
 - 2026-11-23 04:3x JST SKILL-AFTER-FIRST-SUCCESS: Lionbridge Lever general app reused rws.md steps → 1 submit, ~3 min (RWS run1 ~218 s / 2 submits) — shorter, keep. Saved team/skills/browser/lionbridge.md.
 - 07:4x JST 11/23 no new practice (X gate: 25 posts since 11/22 07:40, 0 with ≥20 likes/≥15 bookmarks).
 - 07:4x JST 11/24 no new practice (X gate: 25 latest posts since 11/23 07:40, 0 with ≥20 likes/≥15 bookmarks).
+- 07:4x JST 11/25 no new practice (X gate: 25 latest posts since 11/24 07:40, 0 with ≥20 likes/≥15 bookmarks).

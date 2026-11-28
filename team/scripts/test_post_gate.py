@@ -170,6 +170,7 @@ def test_main_prints_connect_advice_without_blocking(tmp_path, monkeypatch, caps
     text_file = tmp_path / "post.txt"
     text_file.write_text("今日の学びを共有します\nつながりたい方はぜひ", encoding="utf-8")
     monkeypatch.setattr(post_gate, "check", lambda *args, **kwargs: {"allowed": True})
+    monkeypatch.setattr(post_gate, "presim_logged", lambda *args, **kwargs: True)
 
     rc = post_gate.main([
         "--poster", "tester",

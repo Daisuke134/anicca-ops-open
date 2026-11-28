@@ -250,5 +250,56 @@ class OpenerOfTest(ScriptNsTest):
         self.assertIsNone(opener_of("Just a regular post with no hook"))
 
 
+class OpenerReportTopicTest(unittest.TestCase):
+    def run_opener_report(self, csv_text):
+        temp = tempfile.TemporaryDirectory(prefix="opener-report-")
+        self.addCleanup(temp.cleanup)
+        root = Path(temp.name)
+        team = root / "team"
+        marketing = root / "marketing"
+        secrets = root / ".secrets"
+        (team / "metrics").mkdir(parents=True)
+        marketing.mkdir()
+        secrets.mkdir()
+        (marketing / "POST-LOG.csv").write_text(csv_text)
+
+        env = {
+            "OPEN_TEAM_DIR": str(team),
+            "OPEN_MARKETING_DIR": str(marketing),
+            "OPEN_SECRETS_DIR": str(secrets),
+            "POSTIZ_API_KEY": "",
+        }
+        stdout = io.StringIO()
+        with (
+            patch.dict(os.environ, env),
+            patch.object(sys, "argv", [str(SCRIPT), "--opener-report"]),
+            patch("urllib.request.urlopen", side_effect=AssertionError("no network")),
+            contextlib.redirect_stdout(stdout),
+        ):
+            try:
+                runpy.run_path(str(SCRIPT), run_name="__main__")
+            except SystemExit:
+                pass
+        return json.loads(stdout.getvalue())
+
+    def test_topic_column_language_tags_and_blank_impressions(self):
+        csv_text = (
+            "date_jst,platform,account,post_url,topic,impr_24h\n"
+            "2026-11-20 09:00,x,acct,https://x.com/a/status/1,\"JA connect PM (1576 fol/235/5)\",1200\n"
+            "2026-11-21 09:00,x,acct,https://x.com/a/status/2,\"Day 17 EN model loss\",800\n"
+            "2026-11-22 09:00,x,acct,https://x.com/a/status/3,\"EN useful: looking for collaborators\",600\n"
+            "2026-11-23 09:00,x,acct,https://x.com/a/status/4,\"JA useful: 3 lessons from launch\",500\n"
+            "2026-11-24 09:00,x,acct,https://x.com/a/status/5,\"EN connect intro thread\",400\n"
+            "2026-11-25 09:00,x,acct,https://x.com/a/status/6,\"JA connect excluded blank\",\n"
+        )
+
+        report = self.run_opener_report(csv_text)
+
+        self.assertEqual(report["n_request"], 3)
+        self.assertEqual(report["n_number"], 2)
+        self.assertGreater(report["n_request"], 0)
+        self.assertGreater(report["n_number"], 0)
+
+
 if __name__ == "__main__":
     unittest.main()

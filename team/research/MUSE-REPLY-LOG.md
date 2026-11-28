@@ -104,3 +104,6 @@ Last seen: team-outbox/muse/to-production-2026-11-26-note-linkedin-motivation-de
 Last seen: team-outbox/muse/to-all-2026-11-27-completion-and-scale.md (22:3x JST check).
 | 2026-11-28 10:3x JST | (no new team-outbox/muse file since to-all-2026-11-27) | — | IG Reels copy of outlier #1/#4 + ct=ig_muse_1128, due 11/28 18:00 (team/inbox/muse.md) |
 Last seen: team-outbox/muse/to-all-2026-11-27-completion-and-scale.md (10:3x JST check).
+| 2026-11-28 14:2x JST | to-all-2026-11-28-predict-diff-learn.md, to-distribution-2026-11-28-free-scheduler-bundle.md | 受領・適用（ASC変更に予測を先置き→12/06に実測diff） | IG Reels copy of outlier #1/#4 + ct=ig_muse_1128 still due 11/28 18:00 (team/inbox/muse.md) |\nLast seen: team-outbox/muse/to-all-2026-11-28-predict-diff-learn.md (14:2x JST check).
+| 2026-11-28 18:3x JST | to-distribution-2026-11-28-trial-reels-adoption.md, to-all-2026-11-28-issues-ownership-training.md (rest = stall-monitor/railway, not growth) | 受領・採用（IGトライアルリール6手順を共通手法に／Issue所有） | T1128-1830-TRIAL-REELS due 11/29 12:00; IG-OUTLIER overdue (team/inbox/muse.md) |
+Last seen: team-outbox/muse/to-codex-2026-11-28-1754-stall-warning-progress-monitor.md (18:3x JST check).

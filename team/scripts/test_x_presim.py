@@ -1,4 +1,6 @@
 import csv
+import datetime
+import json
 import math
 import os
 import sys
@@ -332,3 +334,115 @@ def test_score_bias_correct_on(tmp_path, monkeypatch):
     assert row['pred_impr'] == pytest.approx(expected, abs=0.2)
     # correction actually moved the prediction (bias is nonzero)
     assert row['pred_impr'] != raw
+
+
+# --- actual --posts-json -------------------------------------------------
+
+OLD_POST = dict(id='12345', text=EN_TEXT,
+                created_at='2020-01-01T00:00:00Z',
+                public_metrics=dict(impression_count=500, like_count=10, reply_count=2))
+NOW = datetime.datetime(2026, 11, 28, tzinfo=datetime.timezone.utc)
+
+
+def _unfilled_row(**kw):
+    return _log_row(actual_impr='', actual_likes='', actual_replies='',
+                    abs_log_err_impr='', abs_log_err_likes='', **kw)
+
+
+def _posts_file(tmp_path, posts):
+    p = tmp_path / 'posts.json'
+    p.write_text(json.dumps({'data': posts}), encoding='utf-8')
+    return str(p)
+
+
+def _read_log(path):
+    with open(path, newline='', encoding='utf-8') as fh:
+        return list(csv.DictReader(fh))
+
+
+def test_actual_posts_json_fills_one(tmp_path, monkeypatch):
+    csv_path = tmp_path / 'presim-log.csv'
+    _write_presim_log(csv_path, [
+        _unfilled_row(post_id='abc', pred_impr='100', pred_likes='1', text_preview=EN_TEXT),
+        _unfilled_row(post_id='999', text_preview='a completely different post text'),
+    ])
+    monkeypatch.setattr(x_presim, 'LOG', str(csv_path))
+    x_presim.fill_actual_from_posts(_posts_file(tmp_path, [OLD_POST]), now=NOW)
+    rows = _read_log(csv_path)
+    assert rows[0]['actual_impr'] == '500'
+    assert rows[0]['actual_likes'] == '10'
+    assert rows[0]['actual_replies'] == '2'
+    assert rows[0]['abs_log_err_impr'] == str(x_presim.le(100, 500))
+    assert rows[0]['abs_log_err_likes'] == str(x_presim.le(1, 10))
+    # non-numeric post_id gets '|<status_id>' appended
+    assert rows[0]['post_id'] == 'abc|12345'
+    # unmatched row untouched
+    assert rows[1]['actual_impr'] == ''
+    assert rows[1]['post_id'] == '999'
+
+
+def test_actual_posts_json_numeric_post_id_unchanged(tmp_path, monkeypatch):
+    csv_path = tmp_path / 'presim-log.csv'
+    _write_presim_log(csv_path, [
+        _unfilled_row(post_id='777', pred_impr='100', pred_likes='1', text_preview=EN_TEXT),
+    ])
+    monkeypatch.setattr(x_presim, 'LOG', str(csv_path))
+    x_presim.fill_actual_from_posts(_posts_file(tmp_path, [OLD_POST]), now=NOW)
+    rows = _read_log(csv_path)
+    assert rows[0]['post_id'] == '777'
+    assert rows[0]['actual_impr'] == '500'
+
+
+def test_actual_posts_json_skips_under_24h(tmp_path, monkeypatch):
+    csv_path = tmp_path / 'presim-log.csv'
+    _write_presim_log(csv_path, [
+        _unfilled_row(post_id='abc', text_preview=EN_TEXT),
+    ])
+    monkeypatch.setattr(x_presim, 'LOG', str(csv_path))
+    young = dict(OLD_POST, created_at='2026-11-27T20:00:00Z')  # 4h old vs NOW
+    x_presim.fill_actual_from_posts(_posts_file(tmp_path, [young]), now=NOW)
+    rows = _read_log(csv_path)
+    assert rows[0]['actual_impr'] == ''
+    assert rows[0]['post_id'] == 'abc'
+
+
+def test_actual_posts_json_skips_ambiguous(tmp_path, monkeypatch):
+    csv_path = tmp_path / 'presim-log.csv'
+    _write_presim_log(csv_path, [
+        _unfilled_row(post_id='a1', text_preview=EN_TEXT),
+        _unfilled_row(post_id='a2', text_preview=EN_TEXT),
+    ])
+    monkeypatch.setattr(x_presim, 'LOG', str(csv_path))
+    x_presim.fill_actual_from_posts(_posts_file(tmp_path, [OLD_POST]), now=NOW)
+    rows = _read_log(csv_path)
+    assert all(r['actual_impr'] == '' for r in rows)
+
+
+def test_actual_posts_json_normalises_whitespace(tmp_path, monkeypatch):
+    csv_path = tmp_path / 'presim-log.csv'
+    messy = 'Shipped a new  paywall\nflow in 3 days.   Revenue is up 12% this week.'
+    _write_presim_log(csv_path, [
+        _unfilled_row(post_id='abc', text_preview=messy),
+    ])
+    monkeypatch.setattr(x_presim, 'LOG', str(csv_path))
+    post = dict(OLD_POST)  # text == EN_TEXT == collapsed messy preview
+    x_presim.fill_actual_from_posts(_posts_file(tmp_path, [post]), now=NOW)
+    rows = _read_log(csv_path)
+    assert rows[0]['actual_impr'] == '500'
+
+
+def test_actual_posts_json_preserves_header_order(tmp_path, monkeypatch):
+    csv_path = tmp_path / 'presim-log.csv'
+    header = ['post_id', 'text_preview', 'pred_impr', 'pred_likes', 'actual_impr',
+              'actual_likes', 'actual_replies', 'abs_log_err_impr', 'abs_log_err_likes']
+    with open(csv_path, 'w', newline='', encoding='utf-8') as fh:
+        w = csv.writer(fh)
+        w.writerow(header)
+        w.writerow(['abc', EN_TEXT, '100', '1', '', '', '', '', ''])
+    monkeypatch.setattr(x_presim, 'LOG', str(csv_path))
+    x_presim.fill_actual_from_posts(_posts_file(tmp_path, [OLD_POST]), now=NOW)
+    with open(csv_path, newline='', encoding='utf-8') as fh:
+        first = fh.readline().strip()
+    assert first.split(',') == header
+    rows = _read_log(csv_path)
+    assert rows[0]['actual_impr'] == '500'

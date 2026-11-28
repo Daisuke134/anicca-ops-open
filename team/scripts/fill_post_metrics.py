@@ -133,13 +133,21 @@ def opener_effect(rows, n_boot=2000, seed=0):
 if '--opener-report' in sys.argv:
     with open(PL, encoding='utf-8') as fh:
         log_rows = list(csv.DictReader(fh))
-    text_cols = ('text', 'text_preview', 'caption')
+    text_cols = ('text', 'text_preview', 'caption', 'topic')
     effect_rows = []
     for r in log_rows:
-        text = next((r[c] for c in text_cols if r.get(c) and str(r[c]).strip()), '')
+        text = ''
+        for c in text_cols:
+            if r.get(c) and str(r[c]).strip():
+                text = str(r[c])
+                if c == 'topic':
+                    text = re.sub(r'^(?:JA|EN)(?:\s+useful:)?\s+', '', text)
+                break
         opener = (r.get('opener') or '').strip() or opener_of(text) or ''
-        effect_rows.append(dict(r, opener=opener,
-                                impressions=r.get('impressions') or r.get('impr_24h')))
+        impressions = r.get('impressions') or r.get('impr_24h')
+        if impressions is None or not str(impressions).strip():
+            continue
+        effect_rows.append(dict(r, opener=opener, impressions=impressions))
     eff = opener_effect(effect_rows)
     lo, hi = eff['ci']
     print(json.dumps(dict(effect=eff['ratio'], ci_low=lo, ci_high=hi,

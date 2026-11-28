@@ -68,6 +68,11 @@ PLATFORM_ALIASES = {"tt": "tiktok", "tiktok": "tiktok", "ig": "instagram", "inst
                     "x": "x", "twitter": "x", "threads": "threads", "bluesky": "bluesky", "mastodon": "mastodon",
                     "linkedin": "linkedin", "linkedin-page": "linkedin", "tumblr": "tumblr", "pinterest": "pinterest"}
 MUTATING = {"create", "schedule", "delete", "cancel", "update"}
+MUTATING = MUTATING | {"repost"}  # 2026-11-28: plain native repost action
+# 2026-11-28 15:45 JST owner order (t167u): no self-imposed caps. The gate has NO daily cap on originals,
+# connect posts, quotes, replies or reposts; only the safety checks below (owner, source, claim, hold,
+# real name, AI-does-the-work claims, other company names, secrets, 24h duplicate, repost-twice).
+# "repost" = plain native repost: needs a source status URL, no text, no ct link, no --recent-json.
 PLACEHOLDER = re.compile(r"(example\.com|<|>|TODO|TBD|placeholder|^https?://?$)", re.I)
 
 
@@ -236,6 +241,54 @@ def x_dedup_check(account, text, recent_posts, readback_at, in_reply_to="", now=
     return {"dedup": "ok", "checked_posts": len(recent_posts), "key": key}
 
 
+# ---------------------------------------------------------------- (h) X presim gate
+PRESIM_LOG = os.path.join(HERE_ROOT, "team", "metrics", "presim-log.csv")
+PRESIM_WINDOW_MIN = 180
+
+
+def presim_logged(text, log_path, now, window_min=PRESIM_WINDOW_MIN):
+    """True when the presim log has a row for this exact text within `window_min` of `now`.
+
+    text_sha is sha1(text.encode()).hexdigest()[:10] — the same digest x_presim.py writes.
+    ts_jst is 'YYYY-MM-DD HH:MM' JST. Fails closed: missing/unreadable log -> False."""
+    import csv, hashlib
+    if now is None:
+        now = dt.datetime.now(JST)
+    elif now.tzinfo is None:
+        now = now.replace(tzinfo=JST)
+    if not os.path.exists(log_path):
+        return False
+    try:
+        with open(log_path, encoding="utf-8", newline="") as f:
+            rows = list(csv.reader(f))
+    except OSError:
+        return False
+    if not rows:
+        return False
+    header = [h.strip() for h in rows[0]]
+    try:
+        i_sha, i_ts, data = header.index("text_sha"), header.index("ts_jst"), rows[1:]
+    except ValueError:
+        i_sha, i_ts, data = 0, 1, rows
+    sha = hashlib.sha1((text or "").encode("utf-8")).hexdigest()[:10]
+    for r in data:
+        if len(r) <= max(i_sha, i_ts) or r[i_sha].strip() != sha:
+            continue
+        raw = r[i_ts].strip()
+        t = None
+        for fmt in ("%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S"):
+            try:
+                t = dt.datetime.strptime(raw, fmt).replace(tzinfo=JST)
+                break
+            except ValueError:
+                continue
+        if t is None:
+            continue
+        if abs((t - now).total_seconds()) <= window_min * 60:
+            return True
+    return False
+
+
 def _post_profile(p):
     """Buffer-style per-profile grouping key: the channel/account a post went out on."""
     for k in ("profile", "account", "channel", "handle", "integration_id"):
@@ -280,6 +333,86 @@ def norm_poster(p: str) -> str:
 
 def norm_platform(p: str) -> str:
     return PLATFORM_ALIASES.get((p or "").strip().lower(), (p or "").strip().lower())
+
+
+# ---------------------------------------------------------------- (i) content safety (hard, text actions only)
+SAFETY_FILE = os.environ.get("POST_GATE_SAFETY_FILE",
+                             os.path.join(os.path.dirname(os.path.abspath(__file__)), "x_safety_terms.json"))
+_SECRET_RES = [re.compile(x) for x in (
+    r"\bsk-[A-Za-z0-9_\-]{16,}", r"\bghp_[A-Za-z0-9]{20,}", r"\bgithub_pat_[A-Za-z0-9_]{20,}",
+    r"\bxox[abprs]-[A-Za-z0-9\-]{10,}", r"\bAKIA[0-9A-Z]{16}\b", r"-----BEGIN [A-Z ]*PRIVATE KEY-----",
+    r"(?i)\bbearer\s+[A-Za-z0-9_\-\.=]{24,}", r"\bAIza[0-9A-Za-z_\-]{30,}", r"\beyJ[A-Za-z0-9_\-]{15,}\.[A-Za-z0-9_\-]{15,}\.",
+    r"(?i)(api[_-]?key|secret|token|password|passwd)\s*[:=]\s*['\"]?[A-Za-z0-9_\-/+]{16,}",
+    r"/workspace/\.secrets", r"\b[0-9a-f]{40,}\b")]
+
+
+def _safety_terms():
+    try:
+        return json.load(open(SAFETY_FILE, encoding="utf-8"))
+    except Exception as e:  # fail closed
+        raise Refused(f"(i) cannot load safety terms {SAFETY_FILE}: {e}")
+
+
+def content_safety_check(platform, account, text):
+    """Hard checks on any outgoing text: real name, secrets; on X also AI-does-the-work claims and other company names.
+    Returns a list of soft warnings. Raises Refused on a hard hit."""
+    warns = []
+    if not (text or "").strip():
+        return warns
+    t = _safety_terms()
+    low = text.lower()
+    for term in t["real_name"]:
+        if term.lower() in low:
+            raise Refused(f"(i) real name in text ({term!r}); never use the owner's real name in public")
+    for rx in _SECRET_RES:
+        if rx.search(text):
+            raise Refused("(i) text looks like it contains a secret/token/key or a secrets path; remove it")
+    if norm_platform(platform) == "x":
+        for rx in t["ai_claim_regex"]:
+            m = re.search(rx, text, re.I)
+            if m:
+                raise Refused(f"(i) claims AI/bots/automation do the work ({m.group(0)!r}); say 'we'/'I' and describe the work, not who does it")
+        for name in t["companies"]:
+            if re.search(r"(?<![A-Za-z0-9])" + re.escape(name) + r"(?![A-Za-z0-9])", text, re.I):
+                raise Refused(f"(i) names another company ({name!r}) in our own text; say 'a habit app' / 'the store' instead "
+                              "(edit team/scripts/x_safety_terms.json only on owner say-so)")
+        for name in t.get("companies_case_sensitive", []):
+            if re.search(r"(?<![A-Za-z0-9])" + re.escape(name) + r"(?![A-Za-z0-9])", text):
+                raise Refused(f"(i) names another company ({name!r}) in our own text; say 'a habit app' / 'the store' instead")
+        for name in t.get("warn_platforms", []):
+            if re.search(r"(?<![A-Za-z0-9])" + re.escape(name) + r"(?![A-Za-z0-9])", text, re.I):
+                warns.append(f"mentions platform {name!r}: allowed as a channel name only, no praise or promotion of it")
+    return warns
+
+
+REPOST_LOOKBACK_H = 24 * 7
+
+
+def repost_check(account, poster, source_url, now=None):
+    """Plain native repost. Source must be a status URL. Refuse a second repost of the same status
+    (a second click on X UNDOES the repost). Records the attempt in the intent ledger."""
+    now = now or dt.datetime.now(JST)
+    m = re.match(r"^https?://(?:www\.)?(?:x|twitter)\.com/[^/\s]+/status/(\d+)", source_url or "")
+    if not m:
+        raise Refused("(b) repost needs --source-url = the status URL being reposted (https://x.com/<handle>/status/<id>)")
+    sid = m.group(1)
+    key = "repost|" + sid
+    lo = now - dt.timedelta(hours=REPOST_LOOKBACK_H)
+    for it in load_intents():
+        if it.get("account") == account and it.get("key") == key:
+            try:
+                t = dt.datetime.fromtimestamp(it["ts"], JST)
+            except (KeyError, TypeError, ValueError):
+                continue
+            if t >= lo:
+                raise Refused(f"(e) {sid} was already reposted/attempted at {it.get('at')}; a second click would UN-repost it. Skip.")
+    p = _intents_path()
+    os.makedirs(os.path.dirname(p) or ".", exist_ok=True)
+    rec = {"at": now.strftime("%Y-%m-%d %H:%M:%S JST"), "ts": now.timestamp(), "account": account, "poster": poster,
+           "key": key, "sha256": None, "first_line": "repost " + sid, "in_reply_to": "", "repost": True}
+    with open(p, "a", encoding="utf-8") as f:
+        f.write(json.dumps(rec, ensure_ascii=False) + "\n")
+    return rec["at"]
 
 
 def ct_link_check(platform, action, text):
@@ -484,6 +617,10 @@ def check(poster, platform, account, action, source_url, integration_id=None, no
     # advice is reported even when the claim itself would refuse)
     if lang == "en" and kind == "connect" and action in ("create", "schedule") and (text or "").strip():
         check_en_connect_opener(text)
+    # (i) content safety (text actions): real name / secrets everywhere; AI-claims + other companies on X
+    safety_warns = []
+    if action in ("create", "schedule", "update") and (text or "").strip():
+        safety_warns = content_safety_check(platform, account, text)
     # (c) claim on main
     oc = open_claims(c["claims"], platform, account, now)
     if poster not in oc:
@@ -511,6 +648,14 @@ def check(poster, platform, account, action, source_url, integration_id=None, no
             raise Refused(f"(d) hold on {acct_key}: reason={h.get('reason')} target_daily_limit={h.get('target_daily_limit')}")
     res = {"allowed": True, "poster": poster, "account": acct_key, "action": action, "owner": owner,
            "claim_at": oc[poster].strftime("%Y-%m-%d %H:%M JST"), "source_url": source_url}
+    if safety_warns:
+        res["warnings"] = safety_warns
+    # plain repost: no text, no ct link, no read-back; only the repost-twice guard
+    if action == "repost":
+        if platform != "x":
+            raise Refused("repost is an X action")
+        res["intent"] = repost_check(acct_key, poster, source_url, now=now)
+        return res
     # (e) X duplicate gate (create/schedule only)
     if platform == "x" and action in ("create", "schedule"):
         ct_link_check(platform, action, text)
@@ -648,6 +793,16 @@ def main(argv=None):
                    help="X: on OK, record this attempt in team/state/x-post-intents.jsonl (do this right before clicking Post)")
     o = a.parse_args(argv)
     now = dt.datetime.strptime(o.now, "%Y-%m-%d %H:%M").replace(tzinfo=JST) if o.now else None
+    # (h) X create posts must have a fresh presim score logged by x_presim.py; replies are exempt.
+    if norm_platform(o.platform or "") == "x" and o.action == "create" and o.text_file \
+            and not (o.in_reply_to or "").strip():
+        skip = os.environ.get("POST_GATE_PRESIM_SKIP", "")
+        if skip:
+            print(f"presim skipped: {skip}")
+        elif not presim_logged(open(o.text_file, encoding="utf-8").read(), PRESIM_LOG,
+                               now or dt.datetime.now(JST)):
+            print("presim missing: run python3 team/scripts/x_presim.py score --file/--text first")
+            return 2
     try:
         if o.postiz_payload:
             res = check_postiz_payload(json.load(open(o.postiz_payload)), o.poster, o.action, o.source_url, now=now,

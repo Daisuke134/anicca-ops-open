@@ -1,8 +1,10 @@
-# ACCOUNTS-BOARD（SNS スコアボード）2026-11-28 06:23 JST
+# ACCOUNTS-BOARD（SNS スコアボード）2026-11-28 12:25 JST
 > 自動生成 scripts/build_now.py。数字は既存ファイルのみ。空欄＝未取得。
 
 | platform | account | 投稿者(1人) | followers | 7d増減 | 7d投稿 | 7d views | 7d いいね/コメ/シェア | ER 7d | 直近5本 平均views | 最終投稿 | Copy the winners | 次にコピーする型 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 08:13 | diceai0 | X Operator だけ（2026-11-13 23:5x。ほかのボットは X-QUEUE-diceai0.md に積 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-28 | https://x.com/marclou — 417,695 followers; top recent post 283,466 impressions https://x.com/i/status/211358872967569438 | /1/first-line / first-second hook/winner opens with a result or a feeling in ≤8 words ("SaaS is so dead" 120,684 imp; "I |
+| 12:16 | diceai0 | X Operator だけ（2026-11-13 23:5x。ほかのボットは X-QUEUE-diceai0.md に積 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-28 | https://x.com/marclou — 417,695 followers; top recent post 283,466 impressions https://x.com/i/status/211358872967569438 | /1/first-line / first-second hook/winner opens with a result or a feeling in ≤8 words ("SaaS is so dead" 120,684 imp; "I |
 | 2122104566015488013 | https://x.com/diceai0/status/2122104566015488013 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-16 | 未取得 | 未取得 |
 | 2122135333156298850 | https://x.com/diceai0/status/2122135333156298850 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-16 | 未取得 | 未取得 |
 | 2122183572454883736 | https://x.com/diceai0/status/2122183572454883736 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-16 | 未取得 | 未取得 |
@@ -12,41 +14,43 @@
 | Bluesky | lifemanager-jp.bsky.social | 参謀 | 3 | 0 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-31T16:01:34.052599Z | https://bsky.app/profile/daikore.bsky.social — 1,061 followers / 1,001 posts; LINE-magnet funnel https://lin.ee/UeREKL i | /2/topic choice/winner = one promise (残業削減・副収入 with AI) (https://bsky.app/profile/daikore.bsky.social)/LM + LINE sticker |
 | Bluesky | lifemanagerapp.bsky.social | 参謀 | 4 | 0 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-10T21:24:09.828825Z | https://bsky.app/profile/productivitydir.bsky.social — 1,717 followers with only 10 posts; listicle links https://bsky.a | /1/first-line / first-second hook/winner = "The Best X Software 2024" listicle titles (https://bsky.app/profile/producti |
 | Capafy | Anicca（全エージェント合計） | 参謀 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
-| Instagram | ani.cca1234 | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 0.0 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | https://www.instagram.com/selflovejp/ — 568 followers / 458 posts / 8 highlights; newsletter funnel https://selflove.jp/ | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/selflovejp/)/app card/ |
-| Instagram | anicca.cemetery | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 0.0 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
-| Instagram | anicca.en | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 22.0 | 未取得/未取得/未取得 | 0/22=0.0% | 未取得 | 未取得 | https://www.instagram.com/frequency_mastery/ — 106,267 followers / 1,565 posts; "Comment IDENTITY to get access…" carous | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/frequency_mastery/)/ap |
-| Instagram | anicca.encards | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 0.0 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | https://www.instagram.com/frequency_mastery/ — 106,267 followers / 1,565 posts; "Comment IDENTITY to get access…" carous | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/frequency_mastery/)/ap |
-| Instagram | anicca.ios | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 0.0 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | https://www.instagram.com/frequency_mastery/ — 106,267 followers / 1,565 posts; "Comment IDENTITY to get access…" carous | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/frequency_mastery/)/ap |
-| Instagram | anicca.ios.jp | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 0.0 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | https://www.instagram.com/selflovejp/ — 568 followers / 458 posts / 8 highlights; newsletter funnel https://selflove.jp/ | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/selflovejp/)/app card/ |
-| Instagram | anicca.jp.videos | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 146.0 | 未取得/未取得/未取得 | 0/146=0.0% | 未取得 | 未取得 | https://www.instagram.com/selflovejp/ — 568 followers / 458 posts / 8 highlights; newsletter funnel https://selflove.jp/ | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/selflovejp/)/app card/ |
-| Instagram | monk.mujo | Muse | 未取得 | 未取得 | 6 | 95.0 | 未取得/未取得/未取得 | 0/95=0.0% | 10 | 2026-11-20T05:12:00.000Z | https://www.instagram.com/mingsanhealing/ — 1,381,902 followers; 2,222,437 views https://www.instagram.com/p/Dd5ICXOpmgo | /2/topic choice/identity shifting / manifestation (https://www.instagram.com/mingsanhealing/)/worry/yes/add list posts ( |
+| Instagram | ani.cca1234 | Muse | 未取得 | 未取得 | 0 | 0.0 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | https://www.instagram.com/selflovejp/ — 568 followers / 458 posts / 8 highlights; newsletter funnel https://selflove.jp/ | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/selflovejp/)/app card/ |
+| Instagram | anicca.cemetery | Muse | 未取得 | 未取得 | 0 | 0.0 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
+| Instagram | anicca.en | Muse | 未取得 | 未取得 | 0 | 23.0 | 未取得/未取得/未取得 | 0/23=0.0% | 未取得 | 未取得 | https://www.instagram.com/frequency_mastery/ — 106,267 followers / 1,565 posts; "Comment IDENTITY to get access…" carous | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/frequency_mastery/)/ap |
+| Instagram | anicca.encards | Muse | 未取得 | 未取得 | 0 | 1.0 | 未取得/未取得/未取得 | 0/1=0.0% | 未取得 | 未取得 | https://www.instagram.com/frequency_mastery/ — 106,267 followers / 1,565 posts; "Comment IDENTITY to get access…" carous | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/frequency_mastery/)/ap |
+| Instagram | anicca.ios | Muse | 未取得 | 未取得 | 0 | 0.0 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | https://www.instagram.com/frequency_mastery/ — 106,267 followers / 1,565 posts; "Comment IDENTITY to get access…" carous | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/frequency_mastery/)/ap |
+| Instagram | anicca.ios.jp | Muse | 未取得 | 未取得 | 0 | 0.0 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | https://www.instagram.com/selflovejp/ — 568 followers / 458 posts / 8 highlights; newsletter funnel https://selflove.jp/ | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/selflovejp/)/app card/ |
+| Instagram | anicca.jp.videos | Muse | 未取得 | 未取得 | 0 | 111.0 | 未取得/未取得/未取得 | 0/111=0.0% | 未取得 | 未取得 | https://www.instagram.com/selflovejp/ — 568 followers / 458 posts / 8 highlights; newsletter funnel https://selflove.jp/ | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.instagram.com/selflovejp/)/app card/ |
+| Instagram | monk.mujo | Muse | 未取得 | 未取得 | 0 | 70.0 | 未取得/未取得/未取得 | 0/70=0.0% | 10 | 未取得 | https://www.instagram.com/mingsanhealing/ — 1,381,902 followers; 2,222,437 views https://www.instagram.com/p/Dd5ICXOpmgo | /2/topic choice/identity shifting / manifestation (https://www.instagram.com/mingsanhealing/)/worry/yes/add list posts ( |
 | Instagram | obou.anicca | Muse | 未取得 | 未取得 | 0 | 0.0 | 未取得/未取得/未取得 | 未取得 | 1 | 未取得 | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner slide 1 = bold identity claim (https://www.tiktok.com/@yuusan_juusyoku)/waterco |
 | Mastodon | [redacted-email] | Anicca Marketer | 1 | 0 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 | 未取得 | 未取得 |
 | Mastodon | [redacted-email] | Anicca Marketer | 2 | 0 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-12 | 未取得 | 未取得 |
 | Mastodon | [redacted-email] | 参謀 | 0 | 0 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-31 | 未取得 | 未取得 |
 | Mastodon | [redacted-email] | 参謀 | 0 | 0 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-09 | 未取得 | 未取得 |
-| Nostr | npub1jtay3qxp… | Anicca Marketer | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 12:3x | 未取得 | 未取得 |
+| Nostr | npub1jtay3qxp… | 参謀 | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 12:3x | 未取得 | 未取得 |
 | Substack | aniccaai2026 | 参謀 | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-24T10:17:42.156Z | 未取得 | 未取得 |
 | Substack | aniccabuddha | 参謀 | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-18T23:20:27.201Z | 未取得 | 未取得 |
-| Telegraph | anicca-telegraph | Anicca Marketer | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 0 | 2026-10-27 08:2x | 未取得 | 未取得 |
-| TikTok | anicca.he | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 31.0 | 0 | 20 | 7503.0 | 123.0/0.0/0.0 | 123.0/7503=1.6% | 1117 | 2026-11-21T14:30:00.000Z | https://www.tiktok.com/@tsubaki.reading — 53,100 fans / 544k likes; 365.8k plays https://www.tiktok.com/@tsubaki.reading | /1/first-line / first-second hook/winner title = question/problem ("願えば願うほど叶わない理由", "ネガティブなあなたへ") (https://www.tiktok.co |
-| TikTok | anicca.jp | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 261.0 | 0 | 30 | 4510.0 | 40.0/1.0/0.0 | 41.0/4510=0.9% | 613 | 2026-11-23T14:30:00.000Z | https://www.tiktok.com/@tsubaki.reading — 53,100 fans / 544k likes; 365.8k plays https://www.tiktok.com/@tsubaki.reading | /1/first-line / first-second hook/winner title = question/problem ("願えば願うほど叶わない理由", "ネガティブなあなたへ") (https://www.tiktok.co |
-| TikTok | anicca.jp4 | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 143.0 | 0 | 30 | 9768.0 | 181.0/2.0/1.0 | 184.0/9768=1.9% | 964 | 2026-11-23T14:30:00.000Z | https://www.tiktok.com/@tsubaki.reading — 53,100 fans / 544k likes; 365.8k plays https://www.tiktok.com/@tsubaki.reading | /1/first-line / first-second hook/winner title = question/problem ("願えば願うほど叶わない理由", "ネガティブなあなたへ") (https://www.tiktok.co |
-| TikTok | anicca.jpx | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 70.0 | 0 | 0 | 14528.0 | 423.0/2.0/6.0 | 431.0/14528=3.0% | 949 | 未取得 | https://www.tiktok.com/@tsubaki.reading — 53,100 fans / 544k likes; 365.8k plays https://www.tiktok.com/@tsubaki.reading | /1/first-line / first-second hook/winner title = question/problem ("願えば願うほど叶わない理由", "ネガティブなあなたへ") (https://www.tiktok.co |
-| TikTok | anicca_buddha | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 3240.0 | -2 | 30 | 6883.0 | 70.0/0.0/0.0 | 70.0/6883=1.0% | 202 | 2026-11-23T14:30:00.000Z | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner opens with a relatable worry line ("誰にでも好かれようとすればするほど…") (https://www.tiktok.co |
-| TikTok | anicca_slideshow | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 6.0 | 未取得 | 30 | 2916.0 | 65.0/0.0/6.0 | 71.0/2916=2.4% | 282 | 2026-11-24T00:30:00.000Z | https://www.tiktok.com/@dreamlifecode — 36,700 fans / 3.8M likes / 38 videos; 3.9M plays https://www.tiktok.com/@dreamli | /1/first-line / first-second hook/winner opens on a spoken/sung "you" line over music; ours opens on a static card (http |
-| TikTok | aniccaaffirmation | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 146.0 | 1 | 30 | 3547.0 | 101.0/0.0/4.0 | 105.0/3547=3.0% | 214 | 2026-11-24T00:30:00.000Z | https://www.tiktok.com/@dreamlifecode — 36,700 fans / 3.8M likes / 38 videos; 3.9M plays https://www.tiktok.com/@dreamli | /1/first-line / first-second hook/winner opens on a spoken/sung "you" line over music; ours opens on a static card (http |
-| TikTok | aniccaen2 | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 35.0 | 0 | 0 | 3170.0 | 69.0/1.0/1.0 | 71.0/3170=2.2% | 214 | 未取得 | https://www.tiktok.com/@dreamlifecode — 36,700 fans / 3.8M likes / 38 videos; 3.9M plays https://www.tiktok.com/@dreamli | /1/first-line / first-second hook/winner opens on a spoken/sung "you" line over music; ours opens on a static card (http |
-| TikTok | honne_reveal | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 5.0 | 0 | 30 | 2587.0 | 31.0/0.0/0.0 | 31.0/2587=1.2% | 181 | 2026-11-24T00:30:00.000Z | https://www.tiktok.com/@kairyu699 — 2,570 fans but 1.2M plays https://www.tiktok.com/@kairyu699/video/768760222870562741 | /1/first-line / first-second hook/winner opens with the viewer's exact worry in quotes ("「最近。彼が冷たくなった気がする…」") (https://w |
-| TikTok | honnevideo | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 37.0 | 2 | 30 | 3598.0 | 58.0/0.0/0.0 | 58.0/3598=1.6% | 4366 | 2026-11-23T14:30:00.000Z | https://www.tiktok.com/@kairyu699 — 2,570 fans but 1.2M plays https://www.tiktok.com/@kairyu699/video/768760222870562741 | /1/first-line / first-second hook/winner opens with the viewer's exact worry in quotes ("「最近。彼が冷たくなった気がする…」") (https://w |
-| TikTok | monk_anicca | Muse | 241.0 | 0 | 0 | 3065.0 | 427.0/7.0/2.0 | 436.0/3065=14.2% | 192 | 未取得 | https://www.tiktok.com/@buddhamotivation1mu — 21,500 fans。https://www.tiktok.com/@buddhamotivation1mu/video/745141012592 | /6/映像/僧侶/静かな映像＋文字（同上）/-/未計測/-/open/ |
-| TikTok | obou_anicca | Muse | 17.0 | 1 | 30 | 8510.0 | 85.0/1.0/0.0 | 86.0/8510=1.0% | 0 | 2026-11-23T14:30:00.000Z | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner opens with a relatable worry line ("誰にでも好かれようとすればするほど…") (https://www.tiktok.co |
+| Telegraph | anicca-telegraph | 参謀 | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 0 | 2026-10-27 08:2x | 未取得 | 未取得 |
+| Threads | (Muse) | Muse | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
+| TikTok | anicca.he | OpenCode | 31.0 | 0 | 4 | 7508.0 | 123.0/0.0/0.0 | 123.0/7508=1.6% | 1117 | 2026-11-21T14:30:00.000Z | https://www.tiktok.com/@tsubaki.reading — 53,100 fans / 544k likes; 365.8k plays https://www.tiktok.com/@tsubaki.reading | /1/first-line / first-second hook/winner title = question/problem ("願えば願うほど叶わない理由", "ネガティブなあなたへ") (https://www.tiktok.co |
+| TikTok | anicca.jp | OpenCode | 261.0 | 0 | 26 | 3252.0 | 43.0/0.0/0.0 | 43.0/3252=1.3% | 613 | 2026-11-26T14:30:00.000Z | https://www.tiktok.com/@tsubaki.reading — 53,100 fans / 544k likes; 365.8k plays https://www.tiktok.com/@tsubaki.reading | /1/first-line / first-second hook/winner title = question/problem ("願えば願うほど叶わない理由", "ネガティブなあなたへ") (https://www.tiktok.co |
+| TikTok | anicca.jp4 | OpenCode | 144.0 | 1 | 26 | 8166.0 | 109.0/0.0/1.0 | 110.0/8166=1.3% | 964 | 2026-11-26T14:30:00.000Z | https://www.tiktok.com/@tsubaki.reading — 53,100 fans / 544k likes; 365.8k plays https://www.tiktok.com/@tsubaki.reading | /1/first-line / first-second hook/winner title = question/problem ("願えば願うほど叶わない理由", "ネガティブなあなたへ") (https://www.tiktok.co |
+| TikTok | anicca.jpx | OpenCode | 70.0 | 0 | 0 | 14545.0 | 420.0/2.0/6.0 | 428.0/14545=2.9% | 949 | 未取得 | https://www.tiktok.com/@tsubaki.reading — 53,100 fans / 544k likes; 365.8k plays https://www.tiktok.com/@tsubaki.reading | /1/first-line / first-second hook/winner title = question/problem ("願えば願うほど叶わない理由", "ネガティブなあなたへ") (https://www.tiktok.co |
+| TikTok | anicca_buddha | OpenCode | 3241.0 | 1 | 27 | 8294.0 | 79.0/0.0/0.0 | 79.0/8294=1.0% | 202 | 2026-11-27T11:37:00.000Z | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner opens with a relatable worry line ("誰にでも好かれようとすればするほど…") (https://www.tiktok.co |
+| TikTok | anicca_slideshow | OpenCode | 6.0 | 0 | 22 | 3381.0 | 112.0/0.0/4.0 | 116.0/3381=3.4% | 282 | 2026-11-26T00:30:00.000Z | https://www.tiktok.com/@dreamlifecode — 36,700 fans / 3.8M likes / 38 videos; 3.9M plays https://www.tiktok.com/@dreamli | /1/first-line / first-second hook/winner opens on a spoken/sung "you" line over music; ours opens on a static card (http |
+| TikTok | aniccaaffirmation | OpenCode | 149.0 | 3 | 26 | 8407.0 | 328.0/0.0/18.0 | 346.0/8407=4.1% | 214 | 2026-11-27T11:35:00.000Z | https://www.tiktok.com/@dreamlifecode — 36,700 fans / 3.8M likes / 38 videos; 3.9M plays https://www.tiktok.com/@dreamli | /1/first-line / first-second hook/winner opens on a spoken/sung "you" line over music; ours opens on a static card (http |
+| TikTok | aniccaen2 | OpenCode | 35.0 | 0 | 0 | 3170.0 | 69.0/1.0/1.0 | 71.0/3170=2.2% | 214 | 未取得 | https://www.tiktok.com/@dreamlifecode — 36,700 fans / 3.8M likes / 38 videos; 3.9M plays https://www.tiktok.com/@dreamli | /1/first-line / first-second hook/winner opens on a spoken/sung "you" line over music; ours opens on a static card (http |
+| TikTok | honne_reveal | OpenCode | 5.0 | 0 | 25 | 2436.0 | 40.0/1.0/0.0 | 41.0/2436=1.7% | 181 | 2026-11-26T14:30:00.000Z | https://www.tiktok.com/@kairyu699 — 2,570 fans but 1.2M plays https://www.tiktok.com/@kairyu699/video/768760222870562741 | /1/first-line / first-second hook/winner opens with the viewer's exact worry in quotes ("「最近。彼が冷たくなった気がする…」") (https://w |
+| TikTok | honnevideo | OpenCode | 38.0 | 1 | 25 | 4271.0 | 62.0/0.0/1.0 | 63.0/4271=1.5% | 4366 | 2026-11-26T14:30:00.000Z | https://www.tiktok.com/@kairyu699 — 2,570 fans but 1.2M plays https://www.tiktok.com/@kairyu699/video/768760222870562741 | /1/first-line / first-second hook/winner opens with the viewer's exact worry in quotes ("「最近。彼が冷たくなった気がする…」") (https://w |
+| TikTok | monk_anicca | OpenCode | 241.0 | 0 | 0 | 3073.0 | 427.0/7.0/2.0 | 436.0/3073=14.2% | 192 | 未取得 | https://www.tiktok.com/@buddhamotivation1mu — 21,500 fans。https://www.tiktok.com/@buddhamotivation1mu/video/745141012592 | /6/映像/僧侶/静かな映像＋文字（同上）/-/未計測/-/open/ |
+| TikTok | obou_anicca | OpenCode | 19.0 | 2 | 21 | 9191.0 | 69.0/2.0/0.0 | 71.0/9191=0.8% | 0 | 2026-11-25T08:30:00.000Z | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner opens with a relatable worry line ("誰にでも好かれようとすればするほど…") (https://www.tiktok.co |
+| Tumblr | dailyanicca | Anicca Marketer | 未取得 | 未取得 | 6 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-28T01:52:10+09:00 | 未取得 | 未取得 |
 | X | Manageraqo | 参謀 | 0 | 0 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
-| X | diceai0 | X Operator | 1532 | 55 | 126 | 26331 | 未取得/未取得/未取得 | 0/26331=0.0% | 138 | 2026-11-24 09:23 | https://x.com/marclou — 417,695 followers; top recent post 283,466 impressions https://x.com/i/status/211358872967569438 | /1/first-line / first-second hook/winner opens with a result or a feeling in ≤8 words ("SaaS is so dead" 120,684 imp; "I |
-| X | selawmqt | X Operator | 12 | 0 | 1 | 10 | 未取得/未取得/未取得 | 0/10=0.0% | 5 | 2026-11-17 18:07 | https://x.com/godofprompt — 23,353 followers; 1,091 posts; bio "Your key to AI independence" (x API 2026-10-27). Our nea | /1/first-line / first-second hook/winner opens with a news fact ("Anthropic just filed its S-1.", "34 days.") (https://x |
-| YouTube | @anicca-affirmation-video | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner title = 2nd-person promise ("Things You Will Soon Manifest", "What You Are Abou |
-| YouTube | @anicca-ai | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 6 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-19T10:00:00.000Z | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner title = 2nd-person promise ("Things You Will Soon Manifest", "What You Are Abou |
-| YouTube | @aniccaffirmations | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
+| X | diceai0 | X Operator | 1582 | 50 | 116 | 27260 | 未取得/未取得/未取得 | 0/27260=0.0% | 138 | 2026-11-28 08:13 | https://x.com/marclou — 417,695 followers; top recent post 283,466 impressions https://x.com/i/status/211358872967569438 | /1/first-line / first-second hook/winner opens with a result or a feeling in ≤8 words ("SaaS is so dead" 120,684 imp; "I |
+| X | selawmqt | X Operator | 12 | 0 | 0 | 0 | 未取得/未取得/未取得 | 未取得 | 5 | 2026-11-17 18:07 | https://x.com/godofprompt — 23,353 followers; 1,091 posts; bio "Your key to AI independence" (x API 2026-10-27). Our nea | /1/first-line / first-second hook/winner opens with a news fact ("Anthropic just filed its S-1.", "34 days.") (https://x |
+| YouTube | @anicca-affirmation-video | 参謀 | 未取得 | 未取得 | 1 | 0 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-25T00:51:00.000Z | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner title = 2nd-person promise ("Things You Will Soon Manifest", "What You Are Abou |
+| YouTube | @anicca-ai | 参謀 | 未取得 | 未取得 | 3 | 3.0 | 未取得/未取得/未取得 | 0/3=0.0% | 未取得 | 2026-11-27T05:12:05.000Z | https://www.tiktok.com/@yuusan_juusyoku — 71,100 fans / 962.5k likes; 2.4M plays https://www.tiktok.com/@yuusan_juusyoku | /1/first-line / first-second hook/winner title = 2nd-person promise ("Things You Will Soon Manifest", "What You Are Abou |
+| YouTube | @aniccaffirmations | 参謀 | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
 | anicca | tumblr | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-12 02:20 | https://www.ignipotent.com/tagged/affirmations — reblogged text affirmations: "YOU'RE A REGULAR WRITER!…" 42,873 notes ( | /3/script length/structure/4–8 repeated short lines, no link/line + A–D quiz + app line + link/yes/1 in 3 Tumblr posts w |
 | bluesky | anicca-affirm | 参謀（2026-11-27 19:36 JST t4385u。Codex DEAD のため移管） | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-26 16:2x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | 未取得 |
 | bluesky | bluesky_anicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 23:00 | 未取得 | 未取得 |
@@ -58,7 +62,7 @@
 | bluesky | lifemanager-jp | 参謀 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-10-26 16:2x | https://bsky.app/profile/daikore.bsky.social — 1,061 followers / 1,001 posts; LINE-magnet funnel https://lin.ee/UeREKL i | /2/topic choice/winner = one promise (残業削減・副収入 with AI) (https://bsky.app/profile/daikore.bsky.social)/LM + LINE sticker |
 | bluesky | lm_en | 参謀 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-11 06:24 | 未取得 | 未取得 |
 | dailyanicca | tumblr | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 02:14 | https://www.ignipotent.com/tagged/affirmations — reblogged text affirmations: "YOU'RE A REGULAR WRITER!…" 42,873 notes ( | /3/script length/structure/4–8 repeated short lines, no link/line + A–D quiz + app line + link/yes/1 in 3 Tumblr posts w |
-| dev.to | aniccaapp | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:3x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://bsky.app/profile/luigiaffirmations.bsky |
+| dev.to | aniccaapp | 参謀 | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-06T18:30:40Z | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://bsky.app/profile/luigiaffirmations.bsky |
 | devto | aniccaapp | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 00:3x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://bsky.app/profile/luigiaffirmations.bsky |
 | diceai0 | day-series-en | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-28 01:10 | 未取得 | 未取得 |
 | diceai0 | quote-en | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-27 23:06 | 未取得 | 未取得 |
@@ -66,8 +70,8 @@
 | diceai0 | x | 参謀（2026-11-27 19:36 JST t4385u。Codex DEAD のため移管） | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 00:37 | https://x.com/marclou — 417,695 followers; top recent post 283,466 impressions https://x.com/i/status/211358872967569438 | /1/first-line / first-second hook/winner opens with a result or a feeling in ≤8 words ("SaaS is so dead" 120,684 imp; "I |
 | directory | junkstartups | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:3x | 未取得 | 未取得 |
 | linkedin | Daisuke Narita | Muse（本物、自分のサブスク） | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:28 | 未取得 | 未取得 |
-| linkedin | daisuke-narita | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 63 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-24T00:30:00.000Z | 未取得 | 未取得 |
-| linkedin-page | everfocus-labs | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 69 | 未取得 | 未取得 | 未取得 |
+| linkedin | daisuke-narita | Muse | 未取得 | 未取得 | 24 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-26T11:48:00.000Z | 未取得 | 未取得 |
+| linkedin-page | everfocus-labs | Muse | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 69 | 未取得 | 未取得 | 未取得 |
 | mastodon | mastodon_anicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 21:00 | 未取得 | 未取得 |
 | mastodon | mastodon_anicca_en | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 03:54 | 未取得 | 未取得 |
 | mastodon | mastodon_lm | 参謀 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 01:01 | 未取得 | 未取得 |
@@ -80,8 +84,7 @@
 | telegraph | Daisuke Narita | Muse（本物、自分のサブスク） | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 0 | 2026-10-26 15:3x | 未取得 | 未取得 |
 | tiktok | @aniccaaffirmation (Postiz Affirmation Girl) | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 219 | 2026-10-27 12:30 | 未取得 | 未取得 |
 | tiktok+ig | obou_anicca/obou.anicca | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-09 15:05 | 未取得 | 未取得 |
-| tiktok-business | hooklab.capafy | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
-| tumblr | dailyanicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-28 01:55 | 未取得 | 未取得 |
+| tiktok-business | hooklab.capafy | OpenCode | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
 
 ## 直近5投稿（POST-LOG.csv）
 - **TikTok honnevideo**
@@ -96,81 +99,6 @@
   - 2026-11-07T00:30 views 175 いいね 3 RP 0 返信 0 https://www.tiktok.com/@honne_reveal/video/7705219636945538305
   - 2026-11-07T03:30 views 184 いいね 4 RP 0 返信 0 https://www.tiktok.com/@honne_reveal/video/7705265141473938689
   - 2026-11-07T12:00 views 184 いいね 8 RP 0 返信 0 https://www.tiktok.com/@honne_reveal/video/7705397462135016756
-- **Instagram obou.anicca**
-  - 2026-11-06T22:56 views 未取得 いいね None RP None 返信 None https://www.instagram.com/reel/Dfau2J5GVxX/
-  - 2026-11-07T16:09 views 0 いいね 0 RP 0 返信 0 https://www.instagram.com/reel/DfclAYpiiWP/
-  - 2026-11-09T22:58 views 0 いいね 0 RP 0 返信 0 https://www.instagram.com/reel/DfidYIXHLAw/
-  - 2026-11-10T12:27 views 2 いいね 0 RP 0 返信 0 https://www.instagram.com/reel/Dfj54qykt0u/
-  - 2026-11-10T22:54 views 1 いいね 0 RP 0 返信 0 https://www.instagram.com/reel/DflBpu5kkLV/
-- **Instagram monk.mujo**
-  - 2026-11-07T16:29 views 10 いいね 2 RP 0 返信 0 https://www.instagram.com/reel/DfcnSsEgnxQ/
-  - 2026-11-08T20:10 views 未取得 いいね None RP None 返信 None https://www.instagram.com/reel/DfflXOoCRNI/
-- **X selawmqt**
-  - 2026-11-03 18:00 views 5 いいね 0 RP 未取得 返信 0 postiz:cmvzvw5k30n3ums06qpvh9k56
-  - 2026-11-03 22:00 views 未取得 いいね 未取得 RP 未取得 返信 未取得 postiz:cmvzvw6rl0n3vms06eaihg6q9
-  - 2026-11-10 09:40 views list いいね 未取得 RP 未取得 返信 未取得 https://x.com/selawmqt/status/2119953295473099028
-  - 2026-11-11 08:46 views list いいね 未取得 RP 未取得 返信 未取得 https://x.com/selawmqt/status/2120302074160193556
-  - 2026-11-12 09:38 views list いいね 未取得 RP 未取得 返信 未取得 https://x.com/selawmqt/status/2120677516260102214
-- **linkedin daisuke-narita**
-  - 2026-11-09T03:30 views 未取得 いいね None RP None 返信 None https://www.linkedin.com/feed/update/urn:li:share:7525399499633053696
-  - 2026-11-09T11:48 views 未取得 いいね None RP None 返信 None https://www.linkedin.com/feed/update/urn:li:share:7525524677616771072
-  - 2026-11-09T21:00 views 未取得 いいね None RP None 返信 None https://www.linkedin.com/feed/update/urn:li:ugcPost:7525664056352079872
-  - 2026-11-10T06:20 views 未取得 いいね None RP None 返信 None https://www.linkedin.com/feed/update/urn:li:ugcPost:7525804611325296642
-  - 2026-11-10T10:44 views 未取得 いいね None RP None 返信 None https://www.linkedin.com/feed/update/urn:li:share:7525870959916945408
-- **linkedin-page everfocus-labs**
-  - 2026-11-04T02:07 views 69 いいね 0 RP 0 返信 0 https://www.linkedin.com/feed/update/urn:li:share:7523566560976867328
-- **X diceai0**
-  - 2026-11-08T15:07 views 116 いいね 2 RP None 返信 4 https://twitter.com/diceai0/status/2119446702901936330
-  - 2026-11-08T20:06 views 未取得 いいね None RP None 返信 None https://twitter.com/diceai0/status/2119522094815867014
-  - 2026-11-10T06:40 views 259 いいね 7 RP None 返信 3 https://twitter.com/diceai0/status/2120043981560037857
-  - 2026-11-10T08:01 views 43 いいね 1 RP None 返信 0 https://twitter.com/diceai0/status/2120064477810852094
-  - 2026-11-10T08:07 views 135 いいね 5 RP None 返信 1 https://twitter.com/diceai0/status/2120065854222004388
-- **TikTok anicca_slideshow**
-  - 2026-11-06T12:00 views 294 いいね 12 RP 0 返信 0 https://www.tiktok.com/@anicca_slideshow/photo/7705027040159812884
-  - 2026-11-06T20:30 views 188 いいね 1 RP 0 返信 0 https://www.tiktok.com/@anicca_slideshow/photo/7705158457220959508
-  - 2026-11-07T00:30 views 341 いいね 16 RP 1 返信 0 https://www.tiktok.com/@anicca_slideshow/photo/7705220228808019201
-  - 2026-11-07T03:30 views 301 いいね 11 RP 0 返信 0 https://www.tiktok.com/@anicca_slideshow/photo/7705265221404822836
-  - 2026-11-07T12:00 views 286 いいね 8 RP 0 返信 0 https://www.tiktok.com/@anicca_slideshow/photo/7705398137657101588
-- **TikTok anicca.he**
-  - 2026-11-06T14:30 views 1038 いいね 20 RP 0 返信 0 https://www.tiktok.com/@anicca.he/photo/7705065684316818708
-  - 2026-11-07T03:30 views 1800 いいね 62 RP 0 返信 0 https://www.tiktok.com/@anicca.he/photo/7705265510836899078
-  - 2026-11-07T08:30 views 853 いいね 28 RP 0 返信 0 https://www.tiktok.com/@anicca.he/photo/7705343391080516916
-  - 2026-11-07T12:00 views 953 いいね 30 RP 0 返信 0 https://www.tiktok.com/@anicca.he/photo/7705398153490599188
-  - 2026-11-07T14:30 views 941 いいね 12 RP 0 返信 0 https://www.tiktok.com/@anicca.he/photo/7705436785999875348
-- **TikTok aniccaaffirmation**
-  - 2026-11-06T20:30 views 186 いいね 4 RP 0 返信 0 https://www.tiktok.com/@aniccaaffirmation/photo/7705158479161347348
-  - 2026-11-07T00:30 views 200 いいね 4 RP 0 返信 0 https://www.tiktok.com/@aniccaaffirmation/photo/7705220291898641684
-  - 2026-11-07T03:30 views 246 いいね 4 RP 0 返信 0 https://www.tiktok.com/@aniccaaffirmation/photo/7705266647422078229
-  - 2026-11-07T12:00 views 225 いいね 5 RP 0 返信 0 https://www.tiktok.com/@aniccaaffirmation/photo/7705398144653200660
-  - 2026-11-08T20:13 views 213 いいね 0 RP 0 返信 0 https://www.tiktok.com/@aniccaaffirmation/video/7705896244480134420
-- **TikTok monk_anicca**
-  - 2026-11-07T03:30 views 124 いいね 18 RP 0 返信 0 https://www.tiktok.com/@monk_anicca/video/7705265656677092614
-  - 2026-11-07T16:29 views 225 いいね 30 RP 0 返信 1 https://www.tiktok.com/@monk_anicca/video/7705467431526927623
-  - 2026-11-08T07:12 views 295 いいね 52 RP 0 返信 1 https://www.tiktok.com/@monk_anicca/video/7705694959072070920
-  - 2026-11-09T03:41 views 207 いいね 26 RP 0 返信 0 https://www.tiktok.com/@monk_anicca/video/7706011930556632340
-  - 2026-11-10T03:55 views 107 いいね 20 RP 0 返信 1 https://www.tiktok.com/@monk_anicca/video/7706386553920146708
-- **TikTok obou_anicca**
-  - 2026-11-07 07:58 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tiktok.com/@obou_anicca
-  - 2026-11-07 07:58 views 0 いいね 未取得 RP 未取得 返信 未取得 https://www.tiktok.com/@obou_anicca/video/7705158506554395910
-  - 2026-11-11 07:55 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tiktok.com/@obou_anicca
-- **TikTok anicca.jp**
-  - 2026-11-07T03:30 views 601 いいね 30 RP 2 返信 0 https://www.tiktok.com/@anicca.jp/photo/7705266673913285909
-  - 2026-11-07T08:30 views 471 いいね 17 RP 0 返信 0 https://www.tiktok.com/@anicca.jp/photo/7705343980862590228
-  - 2026-11-07T12:00 views 920 いいね 25 RP 0 返信 1 https://www.tiktok.com/@anicca.jp/photo/7705398207668374805
-  - 2026-11-07T14:30 views 859 いいね 20 RP 0 返信 0 https://www.tiktok.com/@anicca.jp/photo/7705436764617346324
-  - 2026-11-10T10:45 views 212 いいね 2 RP 0 返信 0 https://www.tiktok.com/@anicca.jp/video/7706492222224747784
-- **TikTok anicca.jp4**
-  - 2026-11-07T03:30 views 966 いいね 24 RP 0 返信 0 https://www.tiktok.com/@anicca.jp4/photo/7705266660176973057
-  - 2026-11-07T08:30 views 1099 いいね 45 RP 0 返信 0 https://www.tiktok.com/@anicca.jp4/photo/7705343029409860916
-  - 2026-11-07T12:00 views 1025 いいね 30 RP 0 返信 0 https://www.tiktok.com/@anicca.jp4/photo/7705397537871596852
-  - 2026-11-07T14:30 views 987 いいね 36 RP 0 返信 0 https://www.tiktok.com/@anicca.jp4/photo/7705436769440828692
-  - 2026-11-10T10:45 views 744 いいね 18 RP 0 返信 0 https://www.tiktok.com/@anicca.jp4/video/7706492231036816648
-- **TikTok anicca_buddha**
-  - 2026-11-07T03:30 views 130 いいね 0 RP 0 返信 0 https://www.tiktok.com/@anicca_buddha/photo/7705265461440662785
-  - 2026-11-07T12:00 views 275 いいね 4 RP 0 返信 0 https://www.tiktok.com/@anicca_buddha/photo/7705397521266380084
-  - 2026-11-10T09:04 views 未取得 いいね None RP None 返信 None https://www.tiktok.com/@anicca_buddha/video/7706466235243842837
-  - 2026-11-10T09:07 views 未取得 いいね None RP None 返信 None https://www.tiktok.com/@anicca_buddha/video/7706467020518329620
-  - 2026-11-10T14:34 views 未取得 いいね None RP None 返信 None https://www.tiktok.com/@anicca_buddha
 - **TikTok aniccaen2**
   - 2026-11-06T12:00 views 289 いいね 12 RP 0 返信 0 https://www.tiktok.com/@aniccaen2/photo/7705027032715136277
   - 2026-11-06T20:30 views 304 いいね 5 RP 0 返信 0 https://www.tiktok.com/@aniccaen2/photo/7705158452322061588
@@ -183,6 +111,91 @@
   - 2026-11-07T08:30 views 950 いいね 31 RP 0 返信 0 https://www.tiktok.com/@anicca.jpx/photo/7705343070283336966
   - 2026-11-07T12:00 views 924 いいね 17 RP 0 返信 0 https://www.tiktok.com/@anicca.jpx/photo/7705398096255044865
   - 2026-11-07T14:30 views 994 いいね 40 RP 2 返信 0 https://www.tiktok.com/@anicca.jpx/photo/7705436160004328756
+- **X diceai0**
+  - 2026-11-08T15:07 views 116 いいね 2 RP None 返信 4 https://twitter.com/diceai0/status/2119446702901936330
+  - 2026-11-08T20:06 views 未取得 いいね None RP None 返信 None https://twitter.com/diceai0/status/2119522094815867014
+  - 2026-11-10T06:40 views 259 いいね 7 RP None 返信 3 https://twitter.com/diceai0/status/2120043981560037857
+  - 2026-11-10T08:01 views 43 いいね 1 RP None 返信 0 https://twitter.com/diceai0/status/2120064477810852094
+  - 2026-11-10T08:07 views 135 いいね 5 RP None 返信 1 https://twitter.com/diceai0/status/2120065854222004388
+- **linkedin daisuke-narita**
+  - 2026-11-09T03:30 views 未取得 いいね None RP None 返信 None https://www.linkedin.com/feed/update/urn:li:share:7525399499633053696
+  - 2026-11-09T11:48 views 未取得 いいね None RP None 返信 None https://www.linkedin.com/feed/update/urn:li:share:7525524677616771072
+  - 2026-11-09T21:00 views 未取得 いいね None RP None 返信 None https://www.linkedin.com/feed/update/urn:li:ugcPost:7525664056352079872
+  - 2026-11-10T06:20 views 未取得 いいね None RP None 返信 None https://www.linkedin.com/feed/update/urn:li:ugcPost:7525804611325296642
+  - 2026-11-10T10:44 views 未取得 いいね None RP None 返信 None https://www.linkedin.com/feed/update/urn:li:share:7525870959916945408
+- **TikTok anicca.jp4**
+  - 2026-11-07T03:30 views 966 いいね 24 RP 0 返信 0 https://www.tiktok.com/@anicca.jp4/photo/7705266660176973057
+  - 2026-11-07T08:30 views 1099 いいね 45 RP 0 返信 0 https://www.tiktok.com/@anicca.jp4/photo/7705343029409860916
+  - 2026-11-07T12:00 views 1025 いいね 30 RP 0 返信 0 https://www.tiktok.com/@anicca.jp4/photo/7705397537871596852
+  - 2026-11-07T14:30 views 987 いいね 36 RP 0 返信 0 https://www.tiktok.com/@anicca.jp4/photo/7705436769440828692
+  - 2026-11-10T10:45 views 744 いいね 18 RP 0 返信 0 https://www.tiktok.com/@anicca.jp4/video/7706492231036816648
+- **TikTok anicca.jp**
+  - 2026-11-07T03:30 views 601 いいね 30 RP 2 返信 0 https://www.tiktok.com/@anicca.jp/photo/7705266673913285909
+  - 2026-11-07T08:30 views 471 いいね 17 RP 0 返信 0 https://www.tiktok.com/@anicca.jp/photo/7705343980862590228
+  - 2026-11-07T12:00 views 920 いいね 25 RP 0 返信 1 https://www.tiktok.com/@anicca.jp/photo/7705398207668374805
+  - 2026-11-07T14:30 views 859 いいね 20 RP 0 返信 0 https://www.tiktok.com/@anicca.jp/photo/7705436764617346324
+  - 2026-11-10T10:45 views 212 いいね 2 RP 0 返信 0 https://www.tiktok.com/@anicca.jp/video/7706492222224747784
+- **TikTok anicca_buddha**
+  - 2026-11-07T03:30 views 130 いいね 0 RP 0 返信 0 https://www.tiktok.com/@anicca_buddha/photo/7705265461440662785
+  - 2026-11-07T12:00 views 275 いいね 4 RP 0 返信 0 https://www.tiktok.com/@anicca_buddha/photo/7705397521266380084
+  - 2026-11-10T09:04 views 未取得 いいね None RP None 返信 None https://www.tiktok.com/@anicca_buddha/video/7706466235243842837
+  - 2026-11-10T09:07 views 未取得 いいね None RP None 返信 None https://www.tiktok.com/@anicca_buddha/video/7706467020518329620
+  - 2026-11-10T14:34 views 未取得 いいね None RP None 返信 None https://www.tiktok.com/@anicca_buddha
+- **TikTok anicca_slideshow**
+  - 2026-11-06T12:00 views 294 いいね 12 RP 0 返信 0 https://www.tiktok.com/@anicca_slideshow/photo/7705027040159812884
+  - 2026-11-06T20:30 views 188 いいね 1 RP 0 返信 0 https://www.tiktok.com/@anicca_slideshow/photo/7705158457220959508
+  - 2026-11-07T00:30 views 341 いいね 16 RP 1 返信 0 https://www.tiktok.com/@anicca_slideshow/photo/7705220228808019201
+  - 2026-11-07T03:30 views 301 いいね 11 RP 0 返信 0 https://www.tiktok.com/@anicca_slideshow/photo/7705265221404822836
+  - 2026-11-07T12:00 views 286 いいね 8 RP 0 返信 0 https://www.tiktok.com/@anicca_slideshow/photo/7705398137657101588
+- **TikTok aniccaaffirmation**
+  - 2026-11-06T20:30 views 186 いいね 4 RP 0 返信 0 https://www.tiktok.com/@aniccaaffirmation/photo/7705158479161347348
+  - 2026-11-07T00:30 views 200 いいね 4 RP 0 返信 0 https://www.tiktok.com/@aniccaaffirmation/photo/7705220291898641684
+  - 2026-11-07T03:30 views 246 いいね 4 RP 0 返信 0 https://www.tiktok.com/@aniccaaffirmation/photo/7705266647422078229
+  - 2026-11-07T12:00 views 225 いいね 5 RP 0 返信 0 https://www.tiktok.com/@aniccaaffirmation/photo/7705398144653200660
+  - 2026-11-08T20:13 views 213 いいね 0 RP 0 返信 0 https://www.tiktok.com/@aniccaaffirmation/video/7705896244480134420
+- **TikTok anicca.he**
+  - 2026-11-06T14:30 views 1038 いいね 20 RP 0 返信 0 https://www.tiktok.com/@anicca.he/photo/7705065684316818708
+  - 2026-11-07T03:30 views 1800 いいね 62 RP 0 返信 0 https://www.tiktok.com/@anicca.he/photo/7705265510836899078
+  - 2026-11-07T08:30 views 853 いいね 28 RP 0 返信 0 https://www.tiktok.com/@anicca.he/photo/7705343391080516916
+  - 2026-11-07T12:00 views 953 いいね 30 RP 0 返信 0 https://www.tiktok.com/@anicca.he/photo/7705398153490599188
+  - 2026-11-07T14:30 views 941 いいね 12 RP 0 返信 0 https://www.tiktok.com/@anicca.he/photo/7705436785999875348
+- **TikTok monk_anicca**
+  - 2026-11-07T03:30 views 124 いいね 18 RP 0 返信 0 https://www.tiktok.com/@monk_anicca/video/7705265656677092614
+  - 2026-11-07T16:29 views 225 いいね 30 RP 0 返信 1 https://www.tiktok.com/@monk_anicca/video/7705467431526927623
+  - 2026-11-08T07:12 views 295 いいね 52 RP 0 返信 1 https://www.tiktok.com/@monk_anicca/video/7705694959072070920
+  - 2026-11-09T03:41 views 207 いいね 26 RP 0 返信 0 https://www.tiktok.com/@monk_anicca/video/7706011930556632340
+  - 2026-11-10T03:55 views 107 いいね 20 RP 0 返信 1 https://www.tiktok.com/@monk_anicca/video/7706386553920146708
+- **Instagram obou.anicca**
+  - 2026-11-06T22:56 views 未取得 いいね None RP None 返信 None https://www.instagram.com/reel/Dfau2J5GVxX/
+  - 2026-11-07T16:09 views 0 いいね 0 RP 0 返信 0 https://www.instagram.com/reel/DfclAYpiiWP/
+  - 2026-11-09T22:58 views 0 いいね 0 RP 0 返信 0 https://www.instagram.com/reel/DfidYIXHLAw/
+  - 2026-11-10T12:27 views 2 いいね 0 RP 0 返信 0 https://www.instagram.com/reel/Dfj54qykt0u/
+  - 2026-11-10T22:54 views 1 いいね 0 RP 0 返信 0 https://www.instagram.com/reel/DflBpu5kkLV/
+- **Instagram monk.mujo**
+  - 2026-11-07T16:29 views 10 いいね 2 RP 0 返信 0 https://www.instagram.com/reel/DfcnSsEgnxQ/
+  - 2026-11-08T20:10 views 未取得 いいね None RP None 返信 None https://www.instagram.com/reel/DfflXOoCRNI/
+- **TikTok obou_anicca**
+  - 2026-11-07 07:58 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tiktok.com/@obou_anicca
+  - 2026-11-07 07:58 views 0 いいね 未取得 RP 未取得 返信 未取得 https://www.tiktok.com/@obou_anicca/video/7705158506554395910
+  - 2026-11-11 07:55 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tiktok.com/@obou_anicca
+- **X selawmqt**
+  - 2026-11-03 18:00 views 5 いいね 0 RP 未取得 返信 0 postiz:cmvzvw5k30n3ums06qpvh9k56
+  - 2026-11-03 22:00 views 未取得 いいね 未取得 RP 未取得 返信 未取得 postiz:cmvzvw6rl0n3vms06eaihg6q9
+  - 2026-11-10 09:40 views list いいね 未取得 RP 未取得 返信 未取得 https://x.com/selawmqt/status/2119953295473099028
+  - 2026-11-11 08:46 views list いいね 未取得 RP 未取得 返信 未取得 https://x.com/selawmqt/status/2120302074160193556
+  - 2026-11-12 09:38 views list いいね 未取得 RP 未取得 返信 未取得 https://x.com/selawmqt/status/2120677516260102214
+- **linkedin-page everfocus-labs**
+  - 2026-11-04T02:07 views 69 いいね 0 RP 0 返信 0 https://www.linkedin.com/feed/update/urn:li:share:7523566560976867328
+- **Tumblr dailyanicca**
+  - 2026-11-23 01:46 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834001656082530304
+  - 2026-11-24 01:51 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834092607219073024
+  - 2026-11-25 01:56 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834183464854093824
+  - 2026-11-27 13:52 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834409759647154176
+  - 2026-11-28 01:55 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834455030430040064
+- **dev.to aniccaapp**
+  - 2026-10-26 12:4x views 未取得 いいね 0 RP 未取得 返信 0 https://dev.to/aniccaapp/a-3-entry-gratitude-log-in-30-lines-of-javascript-and-where-localstorage-breaks-27ig
+  - 2026-11-01 00:3x views 未取得 いいね 0 RP 未取得 返信 0 https://dev.to/aniccaapp/a-30-line-javascript-tone-checker-for-text-messages-and-where-regex-breaks-gll
+  - 2026-11-07 03:3x views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://dev.to/aniccaapp/what-you-can-hand-to-life-manager-cloud-today-and-what-is-still-being-verified-1a9g
 - **Telegraph anicca-telegraph**
   - 2026-10-27 03:3x views 0 いいね 未取得 RP 未取得 返信 未取得 https://telegra.ph/How-to-Keep-a-Gratitude-Journal-When-You-Keep-Quitting-2026-4-Honest-Options-10-26
   - 2026-10-27 04:3x views 0 いいね 未取得 RP 未取得 返信 未取得 https://telegra.ph/How-to-Turn-a-Long-PDF-Into-Clean-Text-for-ChatGPT-or-Claude-2026-4-Honest-Options-10-26
@@ -267,18 +280,10 @@
   - 2026-11-11 00:2x views 未取得 いいね 未取得 RP 未取得 返信 未取得 nostr:c66827b5f26524309efc703b4674d14f10263d314f3e3b339660470d4bd437fc
   - 2026-11-11 06:3x views 未取得 いいね 未取得 RP 未取得 返信 未取得 nostr:b87086e4e5fd102372b1bbc3e39e6804705ddcb1c677e3a1a8b52ea42754a4ad
   - 2026-11-11 09:3x views 未取得 いいね 未取得 RP 未取得 返信 未取得 nostr:f54f75c6c2f4246b9da40a046308bf042cfa4125e6986772bdedea19fca5aa5e
-- **tumblr dailyanicca**
-  - 2026-11-23 01:46 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834001656082530304
-  - 2026-11-24 01:51 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834092607219073024
-  - 2026-11-25 01:56 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834183464854093824
-  - 2026-11-27 13:52 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834409759647154176
-  - 2026-11-28 01:55 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834455030430040064
 - **note saqwd**
   - 2026-11-07 02:48 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://note.com/saqwd/n/nfbfe1dc668d8
 - **linkedin Daisuke Narita**
   - 2026-11-07 03:28 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.linkedin.com/feed/update/urn:li:share:7524538302645919745
-- **dev.to aniccaapp**
-  - 2026-11-07 03:3x views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://dev.to/aniccaapp/what-you-can-hand-to-life-manager-cloud-today-and-what-is-still-being-verified-1a9g
 - **directory junkstartups**
   - 2026-11-07 03:3x views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://junkstartups.com/startups/anicca-daily-affirmations
   - 2026-11-07 03:3x views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://junkstartups.com/startups/thankful-gratitude-journal
@@ -317,3 +322,7 @@
   - 2026-11-27 23:06 views 未取得 いいね 未取得 RP 未取得 返信 未取得 2126316775037972960
 - **diceai0 day-series-en**
   - 2026-11-28 01:10 views 未取得 いいね 未取得 RP 未取得 返信 未取得 2126347965510148273
+- **08:13 diceai0**
+  - 2026-11-28 views https://x.com/diceai0/status/2126454311328600193 いいね Follows https://x.com/diceai0/status/2116311371772289130 RP 未取得 返信 未取得 connect
+- **12:16 diceai0**
+  - 2026-11-28 views https://x.com/diceai0/status/2126515574826000704 いいね Follows https://x.com/diceai0/status/2124703338209984748 RP 未取得 返信 未取得 demo-video

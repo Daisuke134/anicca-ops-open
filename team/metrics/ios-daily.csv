@@ -271,3 +271,11 @@ date,app,rc_app_id,rc_project,rc_revenue_usd,rc_transactions,rc_new_trials,rc_ne
 2026-11-22,ASC: Daily Affirmations - Anicca,,,,,,,2,0.0,USD,2026-11-24 08:44 JST,ASC Sales SUMMARY DAILY v1_1
 2026-11-22,ASC: Honne: Text Message Decoder,,,,,,,1,0.0, ,2026-11-24 08:44 JST,ASC Sales SUMMARY DAILY v1_1
 2026-11-23,ASC (all apps),,,,,,,unknown (source error: HTTP 404 no sales report for this date (Apple: report not available / no sales)),unknown (source error: HTTP 404 no sales report for this date (Apple: report not available / no sales)),,2026-11-24 08:44 JST,ASC Sales SUMMARY DAILY v1_1
+2026-11-24,ASC: Eye Break - EyeBreakIsland,,,,,,,1,0.0, ,2026-11-28 15:23 JST,ASC Sales SUMMARY DAILY v1_1 (参謀 hourly watch backfill)
+2026-11-24,ASC: Daily Affirmations - Anicca,,,,,,,3,0.0, ,2026-11-28 15:23 JST,ASC Sales SUMMARY DAILY v1_1 (参謀 hourly watch backfill)
+2026-11-24,ASC: Honne: Text Message Decoder,,,,,,,1,0.0, ,2026-11-28 15:23 JST,ASC Sales SUMMARY DAILY v1_1 (参謀 hourly watch backfill)
+2026-11-24,ASC: Dhamma Quotes: Buddha Quotes,,,,,,,1,0.0, ,2026-11-28 15:23 JST,ASC Sales SUMMARY DAILY v1_1 (参謀 hourly watch backfill)
+2026-11-25,ASC: Daily Affirmations - Anicca,,,,,,,2,0.0, ,2026-11-28 15:23 JST,ASC Sales SUMMARY DAILY v1_1 (参謀 hourly watch backfill)
+2026-11-25,ASC: Honne: Text Message Decoder,,,,,,,2,0.0, ,2026-11-28 15:23 JST,ASC Sales SUMMARY DAILY v1_1 (参謀 hourly watch backfill)
+2026-11-26,ASC: Cold Plunge Timer - FrostDip,,,,,,,1,0.0, ,2026-11-28 15:23 JST,ASC Sales SUMMARY DAILY v1_1 (参謀 hourly watch backfill)
+2026-11-26,ASC: Daily Affirmations - Anicca,,,,,,,1,0.0, ,2026-11-28 15:23 JST,ASC Sales SUMMARY DAILY v1_1 (参謀 hourly watch backfill)

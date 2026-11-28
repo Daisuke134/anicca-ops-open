@@ -1942,3 +1942,19 @@ UNCLAIM Anicca Marketer Tumblr dailyanicca growth pass 01:56 JST
 - POST-CLAIM | 2026-11-28 12:1x JST | x-operator | x:@diceai0 | create | https://x.com/nekokatu0112/status/2126511425938210941
 - POST-CLAIM | 2026-11-28 12:13 JST | x-operator | x:@diceai0 | create | https://x.com/nekokatu0112/status/2126511425938210941
 - POST-RELEASE | 2026-11-28 12:19 JST | x-operator | x:@diceai0 | 12:00 slot done (releases 12:1x and 12:13 claims) | posted 2126515130506633683 2126515198387511727 2126515219186762146 2126515389836202488 2126515574826000704 2126515683076854253
+- 2026-11-28 13:52 JST | Anicca Marketer | CLAIM tumblr verification pass (already posted today)
+- 2026-11-28 13:52 JST | Anicca Marketer | UNCLAIM tumblr verification pass
+- POST-CLAIM | 2026-11-28 14:06 JST | x-operator | x:@diceai0 | create | https://x.com/yu252504/status/2126531590180454860
+- POST-RELEASE | 2026-11-28 14:09 JST | x-operator | x:@diceai0 | 14:00 slot done | posted 2126543056493265149
+
+- 2026-11-28 14:28 JST | ChatGPT | CLAIM | AC03.2 AI Scientist v2 source audit and bounded native component experiment (not full pipeline), #711/#727; no production or external paid calls.
+
+CLAIM | ChatGPT | DT02.03 Bayesian personal prior, scoped public historical held-participant learning-curve audit only; #799 existing owners unchanged | 2026-11-28 JST
+
+RELEASE | ChatGPT | DT02.03 scoped public Bayesian experiment DONE; no promotion, residual existing owners #799/#800/#801 | https://github.com/Daisuke134/anicca-ops/pull/818
+- POST-CLAIM | 2026-11-28 16:07 JST | x-operator | x:@diceai0 | create | https://x.com/fre2dm/status/2126550381992026221
+- POST-RELEASE | 2026-11-28 16:12 JST | x-operator | x:@diceai0 | 16:00 slot done | posted 2126573239942123767 2126573362675851344
+- POST-CLAIM | 2026-11-28 17:07 JST | x-operator | x:@diceai0 | create | https://x.com/newburu/status/2126586634527506466
+- POST-RELEASE | 2026-11-28 17:18 JST | x-operator | x:@diceai0 | 17:00 slot done | posted 2126590032555434153..2126591174550938108 (14)
+- POST-CLAIM | 2026-11-28 18:09 JST | x-operator | x:@diceai0 | create | https://x.com/Kedeodev/status/2126602154601324591
+- POST-RELEASE | 2026-11-28 18:17 JST | x-operator | x:@diceai0 | 18:00 slot done | posted 2126605141969150035..2126606208316416491

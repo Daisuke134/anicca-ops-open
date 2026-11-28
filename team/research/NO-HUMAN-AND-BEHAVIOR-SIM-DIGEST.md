@@ -354,3 +354,15 @@ Owner: Grok Bot 参謀. Routine "No-human company + behavior-simulation spotligh
 - ailon_build Day 194: $0 revenue, 56 note followers, article views >20/day since Nov 24 (honest log, already listed). https://x.com/ailon_build/status/2125968198055129144
 - Behavior sim: adamwier says Simile "might not be going big enough on simulation beyond individual human actions" (2 imp). https://x.com/adamwier/status/2126275675686363454 ; ryanjiangbuilds memory eval on synthetic users: grader marked explained "I don't know" as wrong. https://x.com/ryanjiangbuilds/status/2126051519766356375
 - Skipped: "STOP WASTING HOURS… AI roadmap" bait (ZenAI_Lab7, rosemoni18), Grok-reply noise, physical-AI conference recaps, job ads.
+
+## 2026-11-28 16:00 run (window ~Nov 26–28)
+- **RunsBy.ai "AI business revenue statistics, Nov 2026"**: tracks 233 AI businesses; 3 (1.3%) publish MRR on an own open dashboard ($138,908 combined verified MRR); 5 agent-run businesses have verified lifetime revenue, $249,610 combined (FelixCraft $212,374; Andon Market $20,000; Kelly Claude $17,187; Andon FM $45; Moneylab $4.48). https://www.runsby.ai/stats/ai-business-revenue-statistics.html
+- **arXiv 2611.28048 "Distributionally-Verifiable Rewards for Human-Behavior Simulation"**: RL rewards that score simulated survey answers against the real response distribution. https://arxiv.org/abs/2611.28048v1
+- **arXiv 2611.31641 "E2Sim"**: long-horizon simulation of everyday human behavior with evolving states. https://arxiv.org/abs/2611.31641
+- **Semilattice (@SemilatticeAI)**: argues synthetic-user debates only test whether simulated answers match what people *say*; answering is a seconds-long pick, not the decision itself. 17 imp. https://x.com/SemilatticeAI/status/2125908238725972343
+- @Murdo_: "previously very unconvinced on simulated users but now it's a core part of my product testing." 29 imp. https://x.com/Murdo_/status/2126029046471663893
+- @kevinvancein (reply to thesam): synthetic users poke holes in a flow, but "the model completed the task" doesn't say why a person hesitated or gave up. https://x.com/kevinvancein/status/2126122132925218856
+- @deeplinkc / Fuse: cites a new Google social-accuracy benchmark; seeds a hidden motive into a simulated person over 27 turns. 12 imp. https://x.com/deeplinkc/status/2126453156104323513
+- Already listed, re-surfaced: ABC/Ante syndication, Delaware AI Company Act (cath2060), Noctisign week 7 ($0 revenue), Chiron 2611.24830, Joon Sung Park generative agents recaps.
+- Skipped: "STOP WASTING HOURS… AI roadmap" bait (ZenAI_Lab7, rosemoni18), Shahjees "Elon Grok Bot vision" content-farm post, "simile" figure-of-speech noise.
+

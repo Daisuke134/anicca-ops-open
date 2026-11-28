@@ -21,7 +21,23 @@ Log: team/metrics/presim-log.csv (one row per prediction; append-only)
 """
 import argparse, csv, datetime, hashlib, json, math, os, re, statistics, subprocess, sys
 
-import presim_calib
+try:
+    import presim_calib
+except ImportError:
+    presim_calib = None
+
+
+def _calib_fmt(text):
+    """Format tag for a post text ('connect' for connect-intent posts)."""
+    if presim_calib is not None:
+        return presim_calib.fmt(text)
+    return 'connect' if re.search(r'つながり|connect', text or '', re.I) else 'post'
+
+
+def _calib_fmt_row(row):
+    if presim_calib is not None:
+        return presim_calib.fmt_row(row)
+    return _calib_fmt((row or {}).get('text_preview', ''))
 
 ROOT = os.environ.get('ANICCA_OPS', os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 METRICS = os.path.join(ROOT, 'team/marketing/X-METRICS.csv')
@@ -123,7 +139,7 @@ def connect_baseline(log_path):
                 a = float(r.get('actual_impr') or 0)
             except ValueError:
                 continue
-            if a > 0 and presim_calib.fmt_row(r) == 'connect':
+            if a > 0 and _calib_fmt_row(r) == 'connect':
                 vals.append(a)
     except FileNotFoundError:
         pass
@@ -178,7 +194,7 @@ def score(posts, account, backend, surface, write=True, bias_correct=False):
     for p in posts:
         text = p['text']; hint = ''
         base = acct_base
-        if presim_calib.fmt(text) == 'connect':
+        if _calib_fmt(text) == 'connect':
             cb = connect_baseline(LOG)
             if cb is not None: base = cb
         panel = None
@@ -242,8 +258,80 @@ def calib():
     pairs = [(r.get('pred_impr'), r.get('actual_impr')) for r in rows]
     print(json.dumps(calib_error(pairs)))
 
-def fill_actual():
+def _norm_prefix(s):
+    """Normalised match key: whitespace-collapsed, first 40 chars (presim_status_join rule)."""
+    return ' '.join((s or '').split())[:40]
+
+
+def _post_age_hours(created_at, now=None):
+    dt = datetime.datetime.fromisoformat(str(created_at).replace('Z', '+00:00'))
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=datetime.timezone.utc)
+    now = now or datetime.datetime.now(datetime.timezone.utc)
+    return (now - dt).total_seconds() / 3600
+
+
+def fill_actual_from_posts(posts_json, now=None):
+    """Fill actual_* from an X API v2 posts JSON file, matched by text prefix."""
+    posts = json.load(open(posts_json, encoding='utf-8')).get('data', [])
+    with open(LOG, newline='', encoding='utf-8') as fh:
+        reader = csv.DictReader(fh)
+        fieldnames = reader.fieldnames
+        rows = list(reader)
+    # index unfilled rows by normalised text prefix
+    index = {}
+    for i, r in enumerate(rows):
+        if not (r.get('actual_impr') or '').strip():
+            index.setdefault(_norm_prefix(r.get('text_preview', '')), []).append(i)
+    n = 0
+    for post in posts:
+        try:
+            if _post_age_hours(post.get('created_at', ''), now) < 24:
+                continue
+        except (TypeError, ValueError):
+            continue
+        key = _norm_prefix(post.get('text', ''))
+        matches = index.get(key, [])
+        if len(matches) != 1:
+            continue
+        index[key] = []  # row now has actual_impr; don't match it again
+        r = rows[matches[0]]
+        pm = post.get('public_metrics') or {}
+        try:
+            impr, likes = float(pm.get('impression_count') or 0), float(pm.get('like_count') or 0)
+        except (TypeError, ValueError):
+            continue
+        r['actual_impr'] = pm.get('impression_count', '')
+        r['actual_likes'] = pm.get('like_count', '')
+        r['actual_replies'] = pm.get('reply_count', '')
+        try:
+            r['abs_log_err_impr'] = le(r.get('pred_impr', ''), impr)
+            r['abs_log_err_likes'] = le(r.get('pred_likes', ''), likes)
+        except (TypeError, ValueError):
+            pass
+        pid = str(post.get('id', ''))
+        cur = r.get('post_id', '') or ''
+        if cur.isdigit():
+            pass
+        elif cur:
+            r['post_id'] = cur + '|' + pid
+        else:
+            r['post_id'] = pid
+        n += 1
+    tmp = LOG + '.tmp'
+    with open(tmp, 'w', newline='', encoding='utf-8') as fh:
+        w = csv.DictWriter(fh, fieldnames=fieldnames)
+        w.writeheader()
+        w.writerows({k: r.get(k, '') for k in fieldnames} for r in rows)
+    os.replace(tmp, LOG)
+    print(f'filled {n} rows')
+
+
+def fill_actual(posts_json=None):
     ensure_log()
+    if posts_json is not None:
+        fill_actual_from_posts(posts_json)
+        return
     m = {}
     for r in csv.DictReader(open(METRICS, encoding='utf-8')):
         if r['post_id'] and r['impressions'] and float(r['age_h'] or 0) >= 24: m[r['post_id']] = r  # later rows win
@@ -277,7 +365,7 @@ if __name__ == '__main__':
     s.add_argument('--file'); s.add_argument('--backend', default='heuristic', choices=['heuristic', 'codex'])
     s.add_argument('--surface', default='x'); s.add_argument('--dry', action='store_true'); s.add_argument('--panel', action='store_true')
     s.add_argument('--bias-correct', action='store_true')
-    sp.add_parser('actual'); rp = sp.add_parser('report'); rp.add_argument('--by', default='backend', choices=['backend', 'surface', 'lang'])
+    sp.add_parser('actual').add_argument('--posts-json'); rp = sp.add_parser('report'); rp.add_argument('--by', default='backend', choices=['backend', 'surface', 'lang'])
     sp.add_parser('calib')
     a = ap.parse_args()
     if a.cmd == 'score':
@@ -285,6 +373,6 @@ if __name__ == '__main__':
         for row, panel in score(posts, a.account, a.backend, a.surface, write=not a.dry, bias_correct=a.bias_correct):
             print(json.dumps({k: row[k] for k in ('post_id', 'backend', 'baseline_impr', 'stop_rate', 'pred_impr', 'pred_likes', 'pred_replies', 'pred_follows', 'top_persona', 'weak_persona', 'fix_hint')}, ensure_ascii=False))
             if a.panel: print(json.dumps(panel, ensure_ascii=False))
-    elif a.cmd == 'actual': fill_actual()
+    elif a.cmd == 'actual': fill_actual(a.posts_json)
     elif a.cmd == 'calib': calib()
     else: report(a.by)

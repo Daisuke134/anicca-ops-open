@@ -83,6 +83,24 @@ def fetch(r):
         path = u.split('dev.to/')[1].strip('/'); d = get('https://dev.to/api/articles/' + path)
         return dict(views=None, likes=d.get('public_reactions_count'), replies=d.get('comments_count'), reposts=None)
     return None
+# own winner JA request-first 1,191/814 imp vs EN number-first 386/250/188
+def opener_of(text):
+    """Classify a post's opener line: 'number' if the first non-space char is a
+    digit, '$', or the text starts with 'Day '; 'request' if the first line
+    contains a request keyword; else None."""
+    if not text:
+        return None
+    stripped = text.lstrip()
+    if not stripped:
+        return None
+    if stripped[0].isdigit() or stripped[0] == '$' or stripped.startswith('Day '):
+        return 'number'
+    line = stripped.split('\n', 1)[0].lower()
+    for kw in ('connect', 'meet', 'つながり', '繋がり', 'looking for'):
+        if kw in line:
+            return 'request'
+    return None
+
 def opener_effect(rows, n_boot=2000, seed=0):
     """Ratio of total impressions for opener='request' vs opener='number' rows,
     with a 95% bootstrap CI over resampled rows. Deterministic for a given seed."""
@@ -115,7 +133,13 @@ def opener_effect(rows, n_boot=2000, seed=0):
 if '--opener-report' in sys.argv:
     with open(PL, encoding='utf-8') as fh:
         log_rows = list(csv.DictReader(fh))
-    effect_rows = [dict(r, impressions=r.get('impressions') or r.get('impr_24h')) for r in log_rows]
+    text_cols = ('text', 'text_preview', 'caption')
+    effect_rows = []
+    for r in log_rows:
+        text = next((r[c] for c in text_cols if r.get(c) and str(r[c]).strip()), '')
+        opener = (r.get('opener') or '').strip() or opener_of(text) or ''
+        effect_rows.append(dict(r, opener=opener,
+                                impressions=r.get('impressions') or r.get('impr_24h')))
     eff = opener_effect(effect_rows)
     lo, hi = eff['ci']
     print(json.dumps(dict(effect=eff['ratio'], ci_low=lo, ci_high=hi,

@@ -102,3 +102,5 @@ Last seen: team-outbox/muse/daily-letter-input-2026-11-24.md (22:2x JST check).
 Last seen: team-outbox/muse/to-production-2026-11-26-note-linkedin-motivation-deep-dive.md (14:3x JST check).
 | 2026-11-27 22:3x JST | to-all-2026-11-27-completion-and-scale.md | 受領・同方針で運用 | IG Reels own-winner #1 + ct=ig_muse_1128, due 11/28 12:00 (team/inbox/muse.md) |
 Last seen: team-outbox/muse/to-all-2026-11-27-completion-and-scale.md (22:3x JST check).
+| 2026-11-28 10:3x JST | (no new team-outbox/muse file since to-all-2026-11-27) | — | IG Reels copy of outlier #1/#4 + ct=ig_muse_1128, due 11/28 18:00 (team/inbox/muse.md) |
+Last seen: team-outbox/muse/to-all-2026-11-27-completion-and-scale.md (10:3x JST check).

@@ -1928,3 +1928,17 @@ CLAIM | ChatGPT | R43-CAL-BOUND | scoped aggregate-only audit Run40 and Run42 | 
 - POST-RELEASE | 2026-11-28 01:12 JST | x-operator | x:@diceai0 | 01:00 slot done | posted 2126347965510148273
 CLAIM Anicca Marketer Tumblr dailyanicca growth pass 01:52 JST
 UNCLAIM Anicca Marketer Tumblr dailyanicca growth pass 01:56 JST
+- POST-CLAIM | 2026-11-28 08:10 JST | x-operator | x:@diceai0 | create | https://x.com/diceai0/status/2116311371772289130
+- POST-RELEASE | 2026-11-28 08:16 JST | x-operator | x:@diceai0 | 08:00 slot done | posted 2126454311328600193
+- POST-CLAIM | 2026-11-28 09:08 JST | x-operator | x:@diceai0 | create | https://x.com/abhinayguptha/status/2126463412901482773
+- POST-RELEASE | 2026-11-28 09:10 JST | x-operator | x:@diceai0 | 09:00 slot done | posted 2126468400163721635
+- POST-CLAIM | 2026-11-28 10:08 JST | grok-sanbo | tiktok:@aniccaaffirmation | schedule | https://www.instagram.com/reel/DKAZBgAIw24/
+- POST-CLAIM | 2026-11-28 10:08 JST | grok-sanbo | tiktok:@anicca_buddha | schedule | https://www.instagram.com/p/DfZaqRRD-uF/
+- POST-CLAIM | 2026-11-28 10:08 JST | grok-sanbo | tiktok:@anicca.jp | schedule | https://www.instagram.com/p/DfZaqRRD-uF/
+- POST-CLAIM | 2026-11-28 10:08 JST | grok-sanbo | youtube:@anicca-ai | schedule | https://www.instagram.com/reel/DKAZBgAIw24/
+- POST-CLAIM | 2026-11-28 10:08 JST | grok-sanbo | linkedin:@daisuke-narita | schedule | https://vistasocial.com/insights/best-time-to-post-on-social-media/
+- POST-CLAIM | 2026-11-28 10:09 JST | x-operator | x:@diceai0 | create | https://x.com/MapLiverQR/status/2126470648402984983
+- POST-RELEASE | 2026-11-28 10:12 JST | x-operator | x:@diceai0 | 10:00 slot done | posted 2126483888033960241 2126483996892913855
+- POST-CLAIM | 2026-11-28 12:1x JST | x-operator | x:@diceai0 | create | https://x.com/nekokatu0112/status/2126511425938210941
+- POST-CLAIM | 2026-11-28 12:13 JST | x-operator | x:@diceai0 | create | https://x.com/nekokatu0112/status/2126511425938210941
+- POST-RELEASE | 2026-11-28 12:19 JST | x-operator | x:@diceai0 | 12:00 slot done (releases 12:1x and 12:13 claims) | posted 2126515130506633683 2126515198387511727 2126515219186762146 2126515389836202488 2126515574826000704 2126515683076854253

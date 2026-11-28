@@ -94,3 +94,11 @@ Order: 成田さん 14:15–14:16 JST（スクショ改善 + PPO の A/B、完�
 | 1 | 待機（screenshot-1 の1週間が閉じた当日に出す。それまで触らない） | name-what-it-does-v1 | 名前欄を「Anicca：何をしてくれるか」型にすると検索結果→ページ遷移（14/334 基準）が上がる。型は JP H&F 売上 #26 Life Reset と #18 Already、助言 @dallonbuilds | owner: anicca-marketer。done: 新名前が JP+US で live、1週間の impression→page view を旧値と並べて結果ログに書く |
 
 2026-11-15 11:45 JST 追記。Grok Bot 参謀。メタデータ変更は PPO ではないので、同時に PPO の他テストを動かさない日に出す。
+
+## バックログ追記（Dhamma Quotes / 名前・サブタイトル / ja）
+
+2026-11-28 11:4x JST。Grok Bot 参謀。根拠は `team/research/APP-WINNERS.md` の 2026-11-28 回：Motto - 名言・自己肯定感・モチベーション（JP H&F 無料 #65、https://apps.apple.com/jp/app/id6478363388）。同じ型の新規 #2 に リナイト: 起床、睡眠、アラーム、瞑想。型だけ真似る。Motto の文言は使わない。
+
+| 順 | 状態 | 名前 | 仮説（1変数） | 素材 |
+|---|---|---|---|---|
+| 1 | キュー（Dhamma Quotes にライブのメタデータ／PPO テストがないことを ASC で確認してから出す） | dhamma-name-what-it-does-v1 | JP の名前欄を「Dhamma Quotes - ブッダの言葉・名言・心を整える」のように「名前 - 何が得られるか3語」の型にすると、検索 impression → page view が上がる | owner: 参謀（`ascx.sh`）。done: 新名前が ja で live。7日間の impression→page view を旧値と並べて結果ログに書く。id6757726663 |

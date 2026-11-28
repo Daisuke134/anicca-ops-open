@@ -1,4 +1,4 @@
-# ACCOUNTS-BOARD（SNS スコアボード）2026-11-28 00:22 JST
+# ACCOUNTS-BOARD（SNS スコアボード）2026-11-28 06:23 JST
 > 自動生成 scripts/build_now.py。数字は既存ファイルのみ。空欄＝未取得。
 
 | platform | account | 投稿者(1人) | followers | 7d増減 | 7d投稿 | 7d views | 7d いいね/コメ/シェア | ER 7d | 直近5本 平均views | 最終投稿 | Copy the winners | 次にコピーする型 |
@@ -60,6 +60,7 @@
 | dailyanicca | tumblr | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 02:14 | https://www.ignipotent.com/tagged/affirmations — reblogged text affirmations: "YOU'RE A REGULAR WRITER!…" 42,873 notes ( | /3/script length/structure/4–8 repeated short lines, no link/line + A–D quiz + app line + link/yes/1 in 3 Tumblr posts w |
 | dev.to | aniccaapp | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-07 03:3x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://bsky.app/profile/luigiaffirmations.bsky |
 | devto | aniccaapp | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-01 00:3x | https://bsky.app/profile/luigiaffirmations.bsky.social — 2,206 followers / 5,138 posts; 205 likes https://bsky.app/profi | /12/post time JST/winner every ~2 h around the clock (05:11, 09:11 top) (https://bsky.app/profile/luigiaffirmations.bsky |
+| diceai0 | day-series-en | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-28 01:10 | 未取得 | 未取得 |
 | diceai0 | quote-en | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-27 23:06 | 未取得 | 未取得 |
 | diceai0 | reply-en | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-27 23:06 | 未取得 | 未取得 |
 | diceai0 | x | 参謀（2026-11-27 19:36 JST t4385u。Codex DEAD のため移管） | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-14 00:37 | https://x.com/marclou — 417,695 followers; top recent post 283,466 impressions https://x.com/i/status/211358872967569438 | /1/first-line / first-second hook/winner opens with a result or a feeling in ≤8 words ("SaaS is so dead" 120,684 imp; "I |
@@ -80,7 +81,7 @@
 | tiktok | @aniccaaffirmation (Postiz Affirmation Girl) | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 219 | 2026-10-27 12:30 | 未取得 | 未取得 |
 | tiktok+ig | obou_anicca/obou.anicca | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-09 15:05 | 未取得 | 未取得 |
 | tiktok-business | hooklab.capafy | Muse（LMジョブはMuseの毎日投稿確認まで継続） | 未取得 | 未取得 | 0 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 未取得 | 未取得 | 未取得 |
-| tumblr | dailyanicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-27 13:52 | 未取得 | 未取得 |
+| tumblr | dailyanicca | Anicca Marketer | 未取得 | 未取得 | 未取得 | 未取得 | 未取得/未取得/未取得 | 未取得 | 未取得 | 2026-11-28 01:55 | 未取得 | 未取得 |
 
 ## 直近5投稿（POST-LOG.csv）
 - **TikTok honnevideo**
@@ -267,11 +268,11 @@
   - 2026-11-11 06:3x views 未取得 いいね 未取得 RP 未取得 返信 未取得 nostr:b87086e4e5fd102372b1bbc3e39e6804705ddcb1c677e3a1a8b52ea42754a4ad
   - 2026-11-11 09:3x views 未取得 いいね 未取得 RP 未取得 返信 未取得 nostr:f54f75c6c2f4246b9da40a046308bf042cfa4125e6986772bdedea19fca5aa5e
 - **tumblr dailyanicca**
-  - 2026-11-21 01:50 views 未取得 いいね 0 RP 0 返信 0 https://www.tumblr.com/dailyanicca/833820753266917376
   - 2026-11-23 01:46 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834001656082530304
   - 2026-11-24 01:51 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834092607219073024
   - 2026-11-25 01:56 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834183464854093824
   - 2026-11-27 13:52 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834409759647154176
+  - 2026-11-28 01:55 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://www.tumblr.com/dailyanicca/834455030430040064
 - **note saqwd**
   - 2026-11-07 02:48 views 未取得 いいね 未取得 RP 未取得 返信 未取得 https://note.com/saqwd/n/nfbfe1dc668d8
 - **linkedin Daisuke Narita**
@@ -314,3 +315,5 @@
   - 2026-11-27 23:06 views 未取得 いいね 未取得 RP 未取得 返信 未取得 2126316627750793401
 - **diceai0 reply-en**
   - 2026-11-27 23:06 views 未取得 いいね 未取得 RP 未取得 返信 未取得 2126316775037972960
+- **diceai0 day-series-en**
+  - 2026-11-28 01:10 views 未取得 いいね 未取得 RP 未取得 返信 未取得 2126347965510148273

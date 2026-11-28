@@ -331,3 +331,26 @@ AppKittie が公開で見せているものと、六つのニッチでストア�
 - **説明文の型（再確認・JP）:** 先頭行が社会的証明（Life Reset「150万人以上」、Upmind「200万ダウンロード超、GOOD DESIGN AWARD 2023」）。
 - **ゲーム化:** Life Reset は目標をデイリークエスト・XP・ストリークに変える（@ung_alex「ストリークは誇り」と同じ方向）。
 - オンボーディング / ペイウォール / IAP 価格 / 広告: この回は取っていない。unknown。
+
+---
+
+## 2026-11-28 11:4x JST run (Grok Bot 参謀, free sources only)
+
+Sources: iTunes RSS top free Health & Fitness (genre 6013), 100 apps each for JP and US (`itunes.apple.com/{jp,us}/rss/topfreeapplications/limit=100/genre=6013/json`). Overall top-free 100 had no new in-niche apps. Ranks are exactly as shown in today's RSS. Ratings, screenshots and revenue were not collected this run (unknown). Checked against the existing IDs and names in APP-WINNERS.md: no duplicates.
+
+| App | Our niche | Store | Rank (H&F top free, today's RSS) | Released | Revenue |
+|---|---|---|---|---|---|
+| リナイト: 起床、睡眠、アラーム、瞑想 | Sleep (Sleep Reset) | https://apps.apple.com/jp/app/id1619362440 | JP #2 | 2022-07-27 | unknown |
+| Unni(カンナムオンニ)No.1美容クリニック予約アプリ | Beauty booking (STUDIO CHERIE) | https://apps.apple.com/jp/app/id1035105027 | JP #10 | 2015-09-11 | unknown |
+| ぐっすリン-快眠音でリラックス！癒しの音で自然な睡眠- | Sleep (Sleep Reset) | https://apps.apple.com/jp/app/id926161341 | JP #30 | unknown | unknown |
+| Sleep Meister - 睡眠サイクルアラームLite | Sleep (Sleep Reset) | https://apps.apple.com/jp/app/id599456380 | JP #52 | unknown | unknown |
+| Motto - 名言・自己肯定感・モチベーション | Quotes / affirmations (Dhamma Quotes / Anicca) | https://apps.apple.com/jp/app/id6478363388 | JP #65 | 2024-02-28 | unknown |
+| 復縁、恋愛相談ならBelieve-チャット占いアプリ | Relationship advice (Honne) | https://apps.apple.com/jp/app/id6747755612 | JP #66 | 2025-08-01 | unknown |
+| StressWatch：AIストレス測定＆睡眠・習慣追跡 | Self-care / sleep (Anicca / Sleep Reset) | https://apps.apple.com/jp/app/id6444737095 | JP #74 | unknown | unknown |
+| 熟睡アラーム‐睡眠といびきを計測する目覚まし時計 | Sleep (Sleep Reset) | https://apps.apple.com/jp/app/id827600695 | JP #87 | unknown | unknown |
+| ClassPass: Fitness, Spa, Salon | Salon booking (STUDIO CHERIE) | https://apps.apple.com/us/app/id912947244 | US #24 | unknown | unknown |
+| White Noise Deep Sleep Sounds | Sleep (Sleep Reset) | https://apps.apple.com/us/app/id1083248251 | US #54 | unknown | unknown |
+| Endel: Focus & Sleep Sounds | Sleep (Sleep Reset) | https://apps.apple.com/us/app/id1346247457 | US #100 | unknown | unknown |
+
+- **Name pattern (confirmed again, JP):** new winners put "name + what you get, as 3–4 keywords" in the name field: リナイト「起床、睡眠、アラーム、瞑想」, Motto「名言・自己肯定感・モチベーション」, Believe「復縁、恋愛相談なら」. This went into the AB-TEST-RULES backlog as dhamma-name-what-it-does-v1 (Dhamma Quotes, ja).
+- **Relationship (JP):** Believe is a chat-fortune-telling app framed around 復縁・恋愛相談 (released 2025-08, already #66). It's a reference for Honne's JP keywords.

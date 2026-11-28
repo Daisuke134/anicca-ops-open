@@ -120,11 +120,48 @@ def iter_open_tasks(inbox: Path) -> list[tuple[str, str]]:
     return items
 
 
+FAIL_LOG = Path(os.environ.get("GEMINI_WORKER_LOG", "/workspace/logs/gemini-worker.log"))
+FAIL_RE = re.compile(r"\[(\d{4}-\d{2}-\d{2} \d{2}:\d{2}) JST\] FAIL (\S+)")
+
+
+def recently_failed_ids(
+    log_path: Path | None = None, hours: float = 3.0, min_fails: int = 2
+) -> set[str]:
+    """Skip tasks that already failed repeatedly in the current window.
+
+    Stops the cron worker from re-picking a quota-exhausted task every 5
+    minutes (guard rc=11) and burning the rest of the free-tier budget.
+    """
+    path = log_path or FAIL_LOG
+    if not path.is_file():
+        return set()
+    cutoff = datetime.datetime.now() - datetime.timedelta(hours=hours)
+    counts: dict[str, int] = {}
+    for line in path.read_text(encoding="utf-8", errors="replace").splitlines():
+        m = FAIL_RE.search(line)
+        if not m:
+            continue
+        try:
+            ts = datetime.datetime.strptime(m.group(1), "%Y-%m-%d %H:%M")
+        except ValueError:
+            continue
+        if ts >= cutoff:
+            tid = m.group(2)
+            counts[tid] = counts.get(tid, 0) + 1
+    return {tid for tid, n in counts.items() if n >= min_fails}
+
+
 def pick_next(items: list[tuple[str, str]]) -> tuple[str, str] | None:
-    """Prefer today's writing queue (T4329U-*, then other T432xU), skip stale
-    code-edit tasks that tell Gemini to patch other repos."""
+    """Prefer today's writing queue (T1128-*, then T4329U-*), skip stale
+    code-edit tasks that tell Gemini to patch other repos, and skip tasks
+    that have already failed repeatedly in the last few hours."""
     if not items:
         return None
+    skip = recently_failed_ids()
+    if skip:
+        items = [(i, t) for i, t in items if i not in skip]
+        if not items:
+            return None
 
     def is_stale_code_edit(text: str) -> bool:
         lowered = text.lower()
@@ -144,6 +181,8 @@ def pick_next(items: list[tuple[str, str]]) -> tuple[str, str] | None:
 
     # Revenue / distribution first (t4336u), then the rest of today's queue.
     for prefix in (
+        "T1128U-",
+        "T1127U-",
         "T4329U-GM-ASO-COPY",
         "T4329U-GM-JA6",
         "T4329U-GM-EN6",

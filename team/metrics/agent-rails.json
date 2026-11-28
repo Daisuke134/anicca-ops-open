@@ -1,0 +1,146 @@
+{
+ "probe": "agent_rails_probe.py",
+ "ran_at_utc": "2026-11-28T01:09:05Z",
+ "ran_at_jst": "2026-11-28 10:09",
+ "note": "Read-only. No payment, signature, post or spend. Unknown is never written as 0.",
+ "makefun": {
+  "origin": "https://make.fun",
+  "key_expires_at": "2026-12-26T00:22:26.897Z",
+  "agents_me_status": 200,
+  "handle": "anicca",
+  "wallet": "4vNmct6EvChu512wAxyfqv6jFCiTFo4cgbVih88UDMDQ",
+  "open_competitions": 21,
+  "top_prize_competitions": [
+   {
+    "slug": "make-minecraft-01",
+    "prize_usd": "1000.00",
+    "close": "2026-11-30T21:00:00.000Z"
+   },
+   {
+    "slug": "makefun-x-reposts-02",
+    "prize_usd": "500.00",
+    "close": "2026-11-28T07:30:00.000Z"
+   },
+   {
+    "slug": "black-friday-deal-finder-01",
+    "prize_usd": "250.00",
+    "close": "2026-11-29T00:42:00.000Z"
+   }
+  ],
+  "grants_status": 200,
+  "grants": [
+   {
+    "id": "01a1ee22-a82f-70e5-bc2d-cdefd4fcd146",
+    "amount": "0.25",
+    "token": "USDC",
+    "status": "paid",
+    "paid_at": "2026-11-26T00:23:15.662Z",
+    "tx": "kNVuYwmSxk8sUaaNRWGhX7gVQr7rbBEbPULRmcXXChGz7r59QFWdK523btnWJULjtVCygKH4fzk9SeYxd9LTh8C"
+   }
+  ],
+  "paid_usdc_total": 0.25,
+  "tax_details_required": false,
+  "onchain": {
+   "usdc": 0.25,
+   "accounts": 1
+  }
+ },
+ "x402": {
+  "origin": "https://x402-agents-production.up.railway.app",
+  "health_status": 200,
+  "health": {
+   "status": "ok",
+   "service": "x402-agents"
+  },
+  "challenge_status": 402,
+  "network": "eip155:8453",
+  "amount_usdc": 0.008,
+  "pay_to": "0x6592EB8EF820aBC092e8C3474fb2042dffCCEDc7",
+  "pay_to_onchain": {
+   "usdc": 0.976
+  }
+ },
+ "agoragentic": {
+  "market_json_status": 200,
+  "paid_execution": "temporarily_unavailable",
+  "paid_execution_reason": "platform_custody_frozen",
+  "x402_edge_status": "temporarily_unavailable",
+  "seller_status_http": 200,
+  "listings_total": 1,
+  "listings_active": 1,
+  "free_slots_remaining": 0,
+  "revenue_usd": "0.00",
+  "sales": "0",
+  "wallet_balance": 0,
+  "listing_health": [
+   {
+    "name": "Anicca Context Compressor",
+    "review_status": "approved",
+    "verification": "reachable",
+    "issues": []
+   }
+  ]
+ },
+ "agent_wallets": [
+  {
+   "service": "bountybook",
+   "chain": "base",
+   "address": "0x6664FAD04618fe330079557CB0Bfb744276FE18A",
+   "balance": {
+    "usdc": 0.0
+   },
+   "key_held": true
+  }
+ ],
+ "distribution": {
+  "x402dash": {
+   "status": 200,
+   "listed": 8,
+   "readiness": {
+    "needs_payload": 8
+   },
+   "liveness_score_avg": 88.7,
+   "x402_status": [
+    "strong"
+   ],
+   "last_checked": "2026-11-28 01:07:55"
+  },
+  "sarnai": {
+   "status": 200,
+   "listed": 3,
+   "states": [
+    "active"
+   ],
+   "ids": [
+    "67a74870-c717-475f-ac26-32d2de6940bc",
+    "4e55229a-512d-4d0c-b399-d83eb89c639d",
+    "dfb44cee-749b-4465-8184-6e00da982dfa"
+   ]
+  },
+  "a2a_registry": {
+   "status": 200,
+   "state": "ACTIVE",
+   "visibility": "public",
+   "verified": false,
+   "claimed": false,
+   "verification_level": "unverified",
+   "endpoints_in_card": 9
+  },
+  "cleared_index": {
+   "status": 200,
+   "page": "https://clearedindex.com/anicca-x402-agent-apis-cnm9"
+  },
+  "hive402": {
+   "status": 404,
+   "note": "public list API returned 404 on 2026-11-28 while the site is up; 9/9 was verified there on 2026-11-27"
+  }
+ },
+ "receipt_custody": {
+  "pay_to": "0x6592EB8EF820aBC092e8C3474fb2042dffCCEDc7",
+  "key_held_base_wallets": [
+   "0x6664FAD04618fe330079557CB0Bfb744276FE18A"
+  ],
+  "key_held": false,
+  "stranded_usdc_at_pay_to": 0.976
+ }
+}

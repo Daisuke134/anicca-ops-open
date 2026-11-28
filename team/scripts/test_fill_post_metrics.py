@@ -143,8 +143,8 @@ class FillPostMetricsConfigTest(unittest.TestCase):
         self.assertTrue(any(url.endswith("/analytics/post/post-1") for url, _ in requests))
 
 
-class OpenerEffectTest(unittest.TestCase):
-    def load_opener_effect(self):
+class ScriptNsTest(unittest.TestCase):
+    def load_script_ns(self):
         temp = tempfile.TemporaryDirectory(prefix="opener-effect-")
         self.addCleanup(temp.cleanup)
         root = Path(temp.name)
@@ -189,7 +189,7 @@ class OpenerEffectTest(unittest.TestCase):
             contextlib.redirect_stdout(io.StringIO()),
         ):
             ns = runpy.run_path(str(SCRIPT), run_name="__main__")
-        return ns["opener_effect"]
+        return ns
 
     @staticmethod
     def sample_rows():
@@ -201,8 +201,9 @@ class OpenerEffectTest(unittest.TestCase):
             rows.append({"opener": opener, "impressions": base + (i % 5) * step})
         return rows
 
+class OpenerEffectTest(ScriptNsTest):
     def test_opener_effect_is_deterministic_with_seed(self):
-        opener_effect = self.load_opener_effect()
+        opener_effect = self.load_script_ns()["opener_effect"]
         rows = self.sample_rows()
 
         first = opener_effect(rows, n_boot=500, seed=7)
@@ -213,7 +214,7 @@ class OpenerEffectTest(unittest.TestCase):
         self.assertNotEqual(first["ci"], other["ci"])
 
     def test_opener_effect_ci_contains_point_estimate(self):
-        opener_effect = self.load_opener_effect()
+        opener_effect = self.load_script_ns()["opener_effect"]
         rows = self.sample_rows()
 
         result = opener_effect(rows, n_boot=2000, seed=0)
@@ -223,6 +224,30 @@ class OpenerEffectTest(unittest.TestCase):
         self.assertLessEqual(lo, result["ratio"])
         self.assertLessEqual(result["ratio"], hi)
         self.assertLess(lo, hi)
+
+
+class OpenerOfTest(ScriptNsTest):
+    def opener_of(self):
+        return self.load_script_ns()["opener_of"]
+
+    def test_digit_opener_is_number(self):
+        self.assertEqual(self.opener_of()("42 builders shipped this week"), "number")
+
+    def test_dollar_opener_is_number(self):
+        self.assertEqual(self.opener_of()("$99 MRR in 30 days"), "number")
+
+    def test_day_opener_is_number(self):
+        self.assertEqual(self.opener_of()("Day 3 of building in public"), "number")
+
+    def test_request_keyword_on_first_line_is_request(self):
+        opener_of = self.opener_of()
+        self.assertEqual(opener_of("Looking for founders to swap notes"), "request")
+        self.assertEqual(opener_of("connect with builders\nrest of post"), "request")
+
+    def test_keyword_on_later_line_or_no_keyword_is_none(self):
+        opener_of = self.opener_of()
+        self.assertIsNone(opener_of("A quiet update\nconnect with me later"))
+        self.assertIsNone(opener_of("Just a regular post with no hook"))
 
 
 if __name__ == "__main__":

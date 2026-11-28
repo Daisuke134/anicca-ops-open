@@ -147,8 +147,34 @@ def ensure_log():
     if not os.path.exists(LOG):
         with open(LOG, 'w', newline='', encoding='utf-8') as fh: csv.writer(fh).writerow(FIELDS)
 
-def score(posts, account, backend, surface, write=True):
-    ensure_log(); acct_base = baseline(account); rows = []
+def loo_bias(rows):
+    """Mean signed log1p(pred)-log1p(actual) over presim-log rows that have actual_impr.
+
+    Rows missing pred_impr/actual_impr or with non-numeric values are skipped.
+    Returns 0.0 when no usable pairs exist.
+    """
+    diffs = []
+    for r in rows or []:
+        if not isinstance(r, dict):
+            continue
+        pred, act = r.get('pred_impr'), r.get('actual_impr')
+        if pred in (None, '') or act in (None, ''):
+            continue
+        try:
+            diffs.append(math.log1p(float(pred)) - math.log1p(float(act)))
+        except (TypeError, ValueError):
+            continue
+    return sum(diffs) / len(diffs) if diffs else 0.0
+
+def score(posts, account, backend, surface, write=True, bias_correct=False):
+    ensure_log(); acct_base = baseline(account)
+    bias = 0.0
+    if bias_correct:
+        try:
+            bias = loo_bias(csv.DictReader(open(LOG, encoding='utf-8')))
+        except FileNotFoundError:
+            pass
+    rows = []
     for p in posts:
         text = p['text']; hint = ''
         base = acct_base
@@ -164,8 +190,11 @@ def score(posts, account, backend, surface, write=True):
             hint = ('put a number in line 1' if not f['hook_num'] else 'cut line 1 under 90 chars' if not f['hook_short']
                     else 'end with a concrete question' if not f['question'] else 'name the failure plainly')
         a = aggregate(panel, base, feats(text)['lang'])
+        if bias_correct:
+            a['pred_impr'] = round(max(0.0, math.expm1(math.log1p(a['pred_impr']) - bias)), 1)
         row = dict(ts_jst=datetime.datetime.now(JST).strftime('%Y-%m-%d %H:%M'), surface=surface, account=account,
-                   post_id=p.get('id', ''), text_sha=hashlib.sha1(text.encode()).hexdigest()[:10], backend=used,
+                   post_id=p.get('id', ''), text_sha=hashlib.sha1(text.encode()).hexdigest()[:10],
+                   backend=used + '+bc' if bias_correct else used,
                    baseline_impr=base, fix_hint=hint, text_preview=text[:80].replace('\n', ' '), **a)
         rows.append((row, panel))
         if write:
@@ -247,12 +276,13 @@ if __name__ == '__main__':
     s = sp.add_parser('score'); s.add_argument('--account', default='diceai0'); s.add_argument('--text'); s.add_argument('--id', default='')
     s.add_argument('--file'); s.add_argument('--backend', default='heuristic', choices=['heuristic', 'codex'])
     s.add_argument('--surface', default='x'); s.add_argument('--dry', action='store_true'); s.add_argument('--panel', action='store_true')
+    s.add_argument('--bias-correct', action='store_true')
     sp.add_parser('actual'); rp = sp.add_parser('report'); rp.add_argument('--by', default='backend', choices=['backend', 'surface', 'lang'])
     sp.add_parser('calib')
     a = ap.parse_args()
     if a.cmd == 'score':
         posts = json.load(open(a.file, encoding='utf-8')) if a.file else [dict(id=a.id, text=a.text)]
-        for row, panel in score(posts, a.account, a.backend, a.surface, write=not a.dry):
+        for row, panel in score(posts, a.account, a.backend, a.surface, write=not a.dry, bias_correct=a.bias_correct):
             print(json.dumps({k: row[k] for k in ('post_id', 'backend', 'baseline_impr', 'stop_rate', 'pred_impr', 'pred_likes', 'pred_replies', 'pred_follows', 'top_persona', 'weak_persona', 'fix_hint')}, ensure_ascii=False))
             if a.panel: print(json.dumps(panel, ensure_ascii=False))
     elif a.cmd == 'actual': fill_actual()

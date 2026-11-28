@@ -194,6 +194,72 @@ def probe_agent_wallets(creds):
     return rows
 
 
+def probe_distribution():
+    """Where our x402 origin is visible right now, read back from each directory.
+
+    Distribution is the leading indicator for x402 revenue, so the daily delta has to be
+    measured, not assumed from the fact that a registration once returned 201.
+    Added 2026-11-28 after x402dash/hive402/SarnAI/A2A Registry/Cleared Index were filled;
+    every call is a public read, no spend and no re-registration.
+    """
+    out = {}
+    st, d = http("https://api.x402dash.com/v1/endpoints?q=x402-agents-production&limit=50")
+    row = {"status": st}
+    if isinstance(d, dict):
+        items = d.get("items", [])
+        row["listed"] = d.get("total", len(items))
+        row["readiness"] = {}
+        for it in items:
+            k = it.get("integration_readiness")
+            row["readiness"][k] = row["readiness"].get(k, 0) + 1
+        scores = [it.get("liveness_score") for it in items if it.get("liveness_score") is not None]
+        if scores:
+            row["liveness_score_avg"] = round(sum(scores) / len(scores), 2)
+        row["x402_status"] = sorted({it.get("x402_status") for it in items})
+        row["last_checked"] = max((it.get("last_checked") or "" for it in items), default=None)
+    out["x402dash"] = row
+
+    st, d = http("https://board.sarnai.dev/listings?q=anicca&limit=20")
+    row = {"status": st}
+    if isinstance(d, dict):
+        ls = d.get("listings", [])
+        row["listed"] = len(ls)
+        row["states"] = sorted({str(l.get("state") or l.get("status")) for l in ls})
+        row["ids"] = [l.get("id") for l in ls][:5]
+    out["sarnai"] = row
+
+    st, d = http("https://api.a2a-registry.org/public/agents/3c2704ac-67b5-46b5-96be-ebaca6a004be")
+    row = {"status": st}
+    if isinstance(d, dict) and isinstance(d.get("agent"), dict):
+        a = d["agent"]
+        row.update({"state": a.get("status"), "visibility": a.get("visibility"),
+                    "verified": a.get("is_verified"), "claimed": a.get("is_claimed"),
+                    "verification_level": a.get("verification_level"),
+                    "endpoints_in_card": len(((a.get("agentCard") or {}).get("endpoints") or []))})
+    out["a2a_registry"] = row
+
+    st, d = http("https://clearedindex.com/anicca-x402-agent-apis-cnm9")
+    out["cleared_index"] = {"status": st, "page": "https://clearedindex.com/anicca-x402-agent-apis-cnm9"}
+
+    st, d = http("https://hive402.scriptmasterlabs.com/api/public/list")
+    out["hive402"] = {"status": st,
+                      "note": "public list API returned 404 on 2026-11-28 while the site is up; "
+                              "9/9 was verified there on 2026-11-27"}
+    return out
+
+
+def probe_receipt_custody(x402, wallets):
+    """Can we actually spend what x402 earns? Compares the live payTo with key-held wallets."""
+    pay_to = (x402 or {}).get("pay_to")
+    held = [w.get("address") for w in wallets if w.get("key_held") and w.get("chain") == "base"]
+    return {
+        "pay_to": pay_to,
+        "key_held_base_wallets": held,
+        "key_held": bool(pay_to) and any((pay_to or "").lower() == (a or "").lower() for a in held),
+        "stranded_usdc_at_pay_to": ((x402 or {}).get("pay_to_onchain") or {}).get("usdc"),
+    }
+
+
 def main():
     creds = load_credentials()
     agora = next((c for c in creds.get("credentials", [])
@@ -208,6 +274,8 @@ def main():
         "agoragentic": probe_agoragentic(agora.get("api_key")),
         "agent_wallets": probe_agent_wallets(creds),
     }
+    report["distribution"] = probe_distribution()
+    report["receipt_custody"] = probe_receipt_custody(report["x402"], report["agent_wallets"])
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w") as f:
         json.dump(report, f, ensure_ascii=False, indent=1)

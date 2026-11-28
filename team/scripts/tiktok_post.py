@@ -136,9 +136,10 @@ def main() -> int:
                 "--source-url", args.source_url, "--text-file", args.caption_file]
     print("gate:", " ".join(gate_cmd[-6:]))
     env = dict(os.environ)
-    if args.dry_run:
-        # a dry run must not burn the (f) 30-minute intent lock for the real publish
-        env["POST_GATE_INTENTS"] = os.path.join(ROOT, "work-tmp", "post-gate-intents-dryrun.jsonl")
+    # The CLI gate is a pre-check: it must not burn the (f) 30-minute intent lock, or the real
+    # guard_postiz call right after refuses the same text (2026-11-28 参謀: every post refused).
+    # The lock is recorded once, by guard_postiz, immediately before the provider call.
+    env["POST_GATE_INTENTS"] = os.path.join(ROOT, "work-tmp", f"post-gate-intents-precheck-{os.getpid()}.jsonl")
     if subprocess.run(gate_cmd, cwd=ROOT, env=env).returncode != 0:
         return 2
 

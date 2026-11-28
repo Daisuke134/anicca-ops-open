@@ -19,8 +19,12 @@ import os
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 W, H = 1080, 1920
+import os as _os
 W3 = "/System/Library/Fonts/ヒラギノ角ゴシック W3.ttc"
 W6 = "/System/Library/Fonts/ヒラギノ角ゴシック W6.ttc"
+if not _os.path.exists(W6):  # Linux box fallback (Noto Sans CJK)
+    W3 = "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
+    W6 = "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
 
 
 def background(seed: int) -> Image.Image:

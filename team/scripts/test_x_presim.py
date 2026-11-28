@@ -273,3 +273,62 @@ def test_le_symmetric_log_space():
     assert x_presim.le(a, b) == pytest.approx(abs(math.log(41 / 11)), abs=0.001)
     # larger gap -> larger error
     assert x_presim.le(10, 100) > x_presim.le(10, 40)
+
+
+def test_loo_bias_three_pairs():
+    rows = [
+        dict(pred_impr='100', actual_impr='100'),
+        dict(pred_impr='300', actual_impr='100'),
+        dict(pred_impr='100', actual_impr='300'),
+        # skipped: no actual / bad actual / no pred
+        dict(pred_impr='999', actual_impr=''),
+        dict(pred_impr='999', actual_impr='abc'),
+        dict(pred_impr='', actual_impr='100'),
+        dict(pred_impr=None, actual_impr='100'),
+    ]
+    expected = sum(
+        math.log1p(float(p)) - math.log1p(float(a))
+        for p, a in [('100', '100'), ('300', '100'), ('100', '300')]
+    ) / 3
+    assert x_presim.loo_bias(rows) == pytest.approx(expected)
+    # positive when predictions run hot on average
+    hot = [dict(pred_impr='300', actual_impr='100'),
+           dict(pred_impr='200', actual_impr='50')]
+    assert x_presim.loo_bias(hot) > 0
+    assert x_presim.loo_bias([]) == 0.0
+    assert x_presim.loo_bias([dict(pred_impr='1', actual_impr='')]) == 0.0
+
+
+def _seed_bias_log(tmp_path, monkeypatch):
+    csv_path = tmp_path / 'presim-log.csv'
+    _write_presim_log(csv_path, [
+        _log_row(pred_impr='300', actual_impr='100', text_preview=EN_TEXT),
+        _log_row(pred_impr='200', actual_impr='50', text_preview=JA_TEXT),
+        _log_row(pred_impr='100', actual_impr='300', text_preview=EN_TEXT),
+    ])
+    monkeypatch.setattr(x_presim, 'LOG', str(csv_path))
+    monkeypatch.setattr(x_presim, 'METRICS', str(tmp_path / 'missing-metrics.csv'))
+    return csv_path
+
+
+def test_score_bias_correct_off_unchanged(tmp_path, monkeypatch):
+    _seed_bias_log(tmp_path, monkeypatch)
+    [(row, _)] = x_presim.score([dict(id='1', text=EN_TEXT)], 'acc', 'heuristic', 'x', write=False)
+    assert row['backend'] == 'heuristic'
+    raw = x_presim.aggregate(x_presim.heuristic_panel(EN_TEXT), 50.0, 'en')['pred_impr']
+    assert row['pred_impr'] == raw
+
+
+def test_score_bias_correct_on(tmp_path, monkeypatch):
+    csv_path = _seed_bias_log(tmp_path, monkeypatch)
+    with open(csv_path, encoding='utf-8') as fh:
+        bias = x_presim.loo_bias(list(csv.DictReader(fh)))
+    assert bias != 0.0
+    [(row, _)] = x_presim.score([dict(id='1', text=EN_TEXT)], 'acc', 'heuristic', 'x',
+                              write=False, bias_correct=True)
+    assert row['backend'] == 'heuristic+bc'
+    raw = x_presim.aggregate(x_presim.heuristic_panel(EN_TEXT), 50.0, 'en')['pred_impr']
+    expected = math.expm1(math.log1p(raw) - bias)
+    assert row['pred_impr'] == pytest.approx(expected, abs=0.2)
+    # correction actually moved the prediction (bias is nonzero)
+    assert row['pred_impr'] != raw

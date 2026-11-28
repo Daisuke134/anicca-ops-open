@@ -57,6 +57,7 @@ Do this as a mix over the day, not as one burst under only tiny accounts:
 - **About 1/3** to larger accounts, 10k to 100k+, and when possible over 100k, for reach.
 
 Be early: prefer parent posts from the last 60 minutes, with a real audience. Skip "let's connect" posts and parents with only a few dozen impressions, unless you are answering a comment on your own thread.
+Update 2026-11-28 (2 sources agree): inside that hour, take parent posts under 20 minutes old first; 20-60 minutes only when nothing fresher exists ([@Xusniddin_Q](https://x.com/Xusniddin_Q/status/2126137703838396599): 16 min after a post 457 views vs 78 min after 37; agrees with @TheMaran first 15 min).
 
 Evidence:
 
